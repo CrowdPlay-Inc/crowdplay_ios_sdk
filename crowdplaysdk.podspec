@@ -6,12 +6,9 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
-flutter_application_path = '../'
-load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
-
 Pod::Spec.new do |s|
   s.name             = 'crowdplaysdk'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of crowdplaysdk.'
 
 # This description is used to generate tags and improve search results.
