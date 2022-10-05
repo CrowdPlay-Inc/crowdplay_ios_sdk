@@ -11,7 +11,7 @@ load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
 
 Pod::Spec.new do |s|
   s.name             = 'crowdplaysdk'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of crowdplaysdk.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/takaoandrew/crowdplay_ios_sdk.git'
+  s.homepage         = 'https://github.com/takaoandrew/crowdplay_ios_sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Matthew Baker' => 'matt@bakermatt.com' }
