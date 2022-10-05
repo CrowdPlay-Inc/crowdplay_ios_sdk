@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   
   s.ios.frameworks  = 'UIKit'
-  s.dependency 'Flutter'
+  s.dependency 'Flutter', '~> 2.0.0'
   s.ios.vendored_frameworks = 'Frameworks/App.xcframework', 'Frameworks/FirebaseInstallations.xcframework', 'Frameworks/MTBBarcodeScanner.xcframework', 'Frameworks/image_picker_ios.xcframework', 'Frameworks/qr_code_scanner.xcframework', 'Frameworks/GoogleDataTransport.xcframework', 'Frameworks/firebase_auth.xcframework', 'Frameworks/image_picker.xcframework', 'Frameworks/share.xcframework', 'Frameworks/FBLPromises.xcframework', 'Frameworks/FirebaseMessaging.xcframework', 'Frameworks/GoogleUtilities.xcframework', 'Frameworks/firebase_core.xcframework', 'Frameworks/leveldb.xcframework', 'Frameworks/store_redirect.xcframework', 'Frameworks/FirebaseAuth.xcframework', 'Frameworks/FirebaseStorage.xcframework', 'Frameworks/Reachability.xcframework', 'Frameworks/firebase_database.xcframework', 'Frameworks/location.xcframework', 'Frameworks/uni_links.xcframework', 'Frameworks/FirebaseCore.xcframework', 'Frameworks/audioplayers.xcframework', 'Frameworks/firebase_messaging.xcframework', 'Frameworks/nanopb.xcframework', 'Frameworks/url_launcher_ios.xcframework', 'Frameworks/FirebaseCoreDiagnostics.xcframework', 'Frameworks/FlutterPluginRegistrant.xcframework', 'Frameworks/connectivity.xcframework', 'Frameworks/firebase_storage.xcframework', 'Frameworks/package_info.xcframework', 'Frameworks/video_player.xcframework', 'Frameworks/FirebaseDatabase.xcframework', 'Frameworks/GTMSessionFetcher.xcframework', 'Frameworks/device_info.xcframework', 'Frameworks/flutter_local_notifications.xcframework', 'Frameworks/path_provider_ios.xcframework'
   s.preserve_path = 'Frameworks/*'
 end
