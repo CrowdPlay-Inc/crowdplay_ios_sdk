@@ -24,11 +24,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Matthew Baker/crowdplaysdk'
+  s.homepage         = 'https://github.com/takaoandrew/crowdplay_ios_sdk.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Matthew Baker' => 'matt@bakermatt.com' }
-  s.source           = { :git => 'https://github.com/Matthew Baker/crowdplaysdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:takaoandrew/crowdplay_ios_sdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -41,9 +41,9 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'flutter_crowdplay', :path => '../.ios/flutter_crowdplay.podspec'
   
-  #s.ios.frameworks  = 'UIKit'
-  #s.ios.vendored_frameworks = 'Frameworks/App.xcframework', 'Frameworks/FirebaseInstallations.xcframework', 'Frameworks/MTBBarcodeScanner.xcframework', 'Frameworks/image_picker_ios.xcframework', 'Frameworks/qr_code_scanner.xcframework', 'Frameworks/GoogleDataTransport.xcframework', 'Frameworks/firebase_auth.xcframework', 'Frameworks/image_picker.xcframework', 'Frameworks/share.xcframework', 'Frameworks/FBLPromises.xcframework', 'Frameworks/FirebaseMessaging.xcframework', 'Frameworks/GoogleUtilities.xcframework', 'Frameworks/firebase_core.xcframework', 'Frameworks/leveldb.xcframework', 'Frameworks/store_redirect.xcframework', 'Frameworks/FirebaseAuth.xcframework', 'Frameworks/FirebaseStorage.xcframework', 'Frameworks/Reachability.xcframework', 'Frameworks/firebase_database.xcframework', 'Frameworks/location.xcframework', 'Frameworks/uni_links.xcframework', 'Frameworks/FirebaseCore.xcframework', 'Frameworks/Flutter.xcframework', 'Frameworks/audioplayers.xcframework', 'Frameworks/firebase_messaging.xcframework', 'Frameworks/nanopb.xcframework', 'Frameworks/url_launcher_ios.xcframework', 'Frameworks/FirebaseCoreDiagnostics.xcframework', 'Frameworks/FlutterPluginRegistrant.xcframework', 'Frameworks/connectivity.xcframework', 'Frameworks/firebase_storage.xcframework', 'Frameworks/package_info.xcframework', 'Frameworks/video_player.xcframework', 'Frameworks/FirebaseDatabase.xcframework', 'Frameworks/GTMSessionFetcher.xcframework', 'Frameworks/device_info.xcframework', 'Frameworks/flutter_local_notifications.xcframework', 'Frameworks/path_provider_ios.xcframework'
-  #s.preserve_path = 'Frameworks/*'
+  s.ios.frameworks  = 'UIKit'
+  s.dependency 'Flutter'
+  s.ios.vendored_frameworks = 'Frameworks/App.xcframework', 'Frameworks/FirebaseInstallations.xcframework', 'Frameworks/MTBBarcodeScanner.xcframework', 'Frameworks/image_picker_ios.xcframework', 'Frameworks/qr_code_scanner.xcframework', 'Frameworks/GoogleDataTransport.xcframework', 'Frameworks/firebase_auth.xcframework', 'Frameworks/image_picker.xcframework', 'Frameworks/share.xcframework', 'Frameworks/FBLPromises.xcframework', 'Frameworks/FirebaseMessaging.xcframework', 'Frameworks/GoogleUtilities.xcframework', 'Frameworks/firebase_core.xcframework', 'Frameworks/leveldb.xcframework', 'Frameworks/store_redirect.xcframework', 'Frameworks/FirebaseAuth.xcframework', 'Frameworks/FirebaseStorage.xcframework', 'Frameworks/Reachability.xcframework', 'Frameworks/firebase_database.xcframework', 'Frameworks/location.xcframework', 'Frameworks/uni_links.xcframework', 'Frameworks/FirebaseCore.xcframework', 'Frameworks/audioplayers.xcframework', 'Frameworks/firebase_messaging.xcframework', 'Frameworks/nanopb.xcframework', 'Frameworks/url_launcher_ios.xcframework', 'Frameworks/FirebaseCoreDiagnostics.xcframework', 'Frameworks/FlutterPluginRegistrant.xcframework', 'Frameworks/connectivity.xcframework', 'Frameworks/firebase_storage.xcframework', 'Frameworks/package_info.xcframework', 'Frameworks/video_player.xcframework', 'Frameworks/FirebaseDatabase.xcframework', 'Frameworks/GTMSessionFetcher.xcframework', 'Frameworks/device_info.xcframework', 'Frameworks/flutter_local_notifications.xcframework', 'Frameworks/path_provider_ios.xcframework'
+  s.preserve_path = 'Frameworks/*'
 end
