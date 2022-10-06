@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'crowdplaysdk'
-  s.version          = '0.1.17'
+  s.version          = '0.1.18'
   s.summary          = 'A short description of crowdplaysdk.'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,22 @@ TODO: Add long description of the pod here.
   s.source_files = 'crowdplaysdk/Classes/**/*'
   
   s.ios.frameworks  = 'UIKit'
-  s.ios.vendored_frameworks = 'Frameworks/App.xcframework', 'Frameworks/FirebaseInstallations.xcframework', 'Frameworks/MTBBarcodeScanner.xcframework', 'Frameworks/image_picker_ios.xcframework', 'Frameworks/qr_code_scanner.xcframework', 'Frameworks/GoogleDataTransport.xcframework', 'Frameworks/firebase_auth.xcframework', 'Frameworks/image_picker.xcframework', 'Frameworks/share.xcframework', 'Frameworks/FBLPromises.xcframework', 'Frameworks/FirebaseMessaging.xcframework', 'Frameworks/GoogleUtilities.xcframework', 'Frameworks/firebase_core.xcframework', 'Frameworks/leveldb.xcframework', 'Frameworks/store_redirect.xcframework', 'Frameworks/FirebaseAuth.xcframework', 'Frameworks/FirebaseStorage.xcframework', 'Frameworks/Reachability.xcframework', 'Frameworks/firebase_database.xcframework', 'Frameworks/location.xcframework', 'Frameworks/uni_links.xcframework', 'Frameworks/FirebaseCore.xcframework', 'Frameworks/Flutter.xcframework', 'Frameworks/audioplayers.xcframework', 'Frameworks/firebase_messaging.xcframework', 'Frameworks/nanopb.xcframework', 'Frameworks/url_launcher_ios.xcframework', 'Frameworks/FirebaseCoreDiagnostics.xcframework', 'Frameworks/FlutterPluginRegistrant.xcframework', 'Frameworks/connectivity.xcframework', 'Frameworks/firebase_storage.xcframework', 'Frameworks/package_info.xcframework', 'Frameworks/video_player.xcframework', 'Frameworks/FirebaseDatabase.xcframework', 'Frameworks/GTMSessionFetcher.xcframework', 'Frameworks/device_info.xcframework', 'Frameworks/flutter_local_notifications.xcframework', 'Frameworks/path_provider_ios.xcframework'
+
+  s.dependency 'Firebase', '8.6.0'
+  s.dependency 'FirebaseAuth', '8.6.0'
+  s.dependency 'FirebaseCore', '8.6.0'
+  s.dependency 'FirebaseCoreDiagnostics', '8.15.0'
+  s.dependency 'FirebaseDatabase', '8.6.0'
+  s.dependency 'FirebaseInstallations', '8.15.0'
+  s.dependency 'FirebaseMessaging', '8.6.0'
+  s.dependency 'FirebaseStorage', '8.6.0'
+  s.dependency 'GTMSessionFetcher', '1.7.2'
+  s.dependency 'GoogleDataTransport', '9.2.0'
+  s.dependency 'GoogleUtilities', '7.8.0'
+  s.dependency 'MTBBarcodeScanner', '5.0.11'
+  s.dependency 'PromisesObjC', '2.1.1'
+  s.dependency 'Reachability', '3.2'
+
+  s.ios.vendored_frameworks = 'Frameworks/App.xcframework',  'Frameworks/image_picker_ios.xcframework', 'Frameworks/qr_code_scanner.xcframework', 'Frameworks/firebase_auth.xcframework', 'Frameworks/image_picker.xcframework', 'Frameworks/share.xcframework', 'Frameworks/FBLPromises.xcframework', 'Frameworks/firebase_core.xcframework', 'Frameworks/store_redirect.xcframework', 'Frameworks/firebase_database.xcframework', 'Frameworks/location.xcframework', 'Frameworks/uni_links.xcframework', 'Frameworks/Flutter.xcframework', 'Frameworks/audioplayers.xcframework', 'Frameworks/firebase_messaging.xcframework', 'Frameworks/url_launcher_ios.xcframework', 'Frameworks/FlutterPluginRegistrant.xcframework', 'Frameworks/connectivity.xcframework', 'Frameworks/firebase_storage.xcframework', 'Frameworks/package_info.xcframework', 'Frameworks/video_player.xcframework', 'Frameworks/device_info.xcframework', 'Frameworks/flutter_local_notifications.xcframework', 'Frameworks/path_provider_ios.xcframework'
   s.preserve_path = 'Frameworks/*'
 end
