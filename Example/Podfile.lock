@@ -1,5 +1,5 @@
 PODS:
-  - crowdplaysdk (0.1.0)
+  - crowdplaysdk (0.1.20)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -38,7 +38,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: fb8a2fcf3296d233945e1ec52ca77addd754d1fa
+  crowdplaysdk: 1a5ed5ff43a75cf092642769d086199612d90ead
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
   Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
@@ -47,4 +47,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 271edfa9a801d687208a1b2337a4ec8947d4d012
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
