@@ -1,0 +1,54 @@
+BCSymbolMap Version: 2.0
+Apple clang version 14.0.0 (clang-1400.0.29.102)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk
+iPhoneOS16.0.sdk
+/Volumes/Samsung_T5/Projects/flutter_crowdplay/sdk/build/ios/framework/Release/iphoneos/Pods.build/Release-iphoneos/path_provider_ios.build/DerivedSources/path_provider_ios_vers.c
+/Volumes/Samsung_T5/Projects/flutter_crowdplay/sdk/.ios/Pods
++[FLTPathProviderPlugin registerWithRegistrar:]
+___47+[FLTPathProviderPlugin registerWithRegistrar:]_block_invoke
++[FLTPathProviderPlugin getTemporaryDirectory]
++[FLTPathProviderPlugin getApplicationDocumentsDirectory]
++[FLTPathProviderPlugin getApplicationSupportDirectory]
++[FLTPathProviderPlugin getLibraryDirectory]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_CLASSLIST_REFERENCES_$_.7
+___block_descriptor_40_e37_v24?0"FlutterMethodCall"8?<v?>16l
+__OBJC_$_CLASS_METHODS_FLTPathProviderPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate
+__OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate
+__OBJC_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterPlugin
+__OBJC_PROTOCOL_$_FlutterPlugin
+__OBJC_LABEL_PROTOCOL_$_FlutterPlugin
+__OBJC_CLASS_PROTOCOLS_$_FLTPathProviderPlugin
+__OBJC_METACLASS_RO_$_FLTPathProviderPlugin
+__OBJC_$_PROP_LIST_FLTPathProviderPlugin
+__OBJC_CLASS_RO_$_FLTPathProviderPlugin
+_OBJC_CLASSLIST_REFERENCES_$_.111
+_OBJC_CLASSLIST_REFERENCES_$_.112
+/Volumes/External/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.7/ios/Classes/FLTPathProviderPlugin.m
+External/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.7/ios/Classes/FLTPathProviderPlugin.m
+/Volumes
+__47+[FLTPathProviderPlugin registerWithRegistrar:]_block_invoke
+getFlutterError
+GetDirectoryOfType
+__OBJC_METACLASS_RO_$_PodsDummy_path_provider_ios
+__OBJC_CLASS_RO_$_PodsDummy_path_provider_ios
+/Volumes/Samsung_T5/Projects/flutter_crowdplay/sdk/.ios/Pods/Target Support Files/path_provider_ios/path_provider_ios-dummy.m
