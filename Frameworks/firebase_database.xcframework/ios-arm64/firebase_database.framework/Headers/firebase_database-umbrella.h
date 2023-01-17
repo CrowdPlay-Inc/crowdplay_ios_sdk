@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "FLTFirebaseDatabaseObserveStreamHandler.h"
 #import "FLTFirebaseDatabasePlugin.h"
+#import "FLTFirebaseDatabaseUtils.h"
 
 FOUNDATION_EXPORT double firebase_databaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char firebase_databaseVersionString[];
