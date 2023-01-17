@@ -1,0 +1,369 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+/Applications/Xcode_13.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
+iPhoneOS15.5.sdk
+/Volumes/Samsung_T5/Projects/flutter_crowdplay/sdk/build/ios/framework/Release/iphoneos/Pods.build/Release-iphoneos/MTBBarcodeScanner.build/DerivedSources/MTBBarcodeScanner_vers.c
+/Volumes/Samsung_T5/Projects/flutter_crowdplay/sdk/.ios/Pods
+-[MTBBarcodeScanner init]
+-[MTBBarcodeScanner initWithPreviewView:]
+-[MTBBarcodeScanner initWithMetadataObjectTypes:previewView:]
+-[MTBBarcodeScanner dealloc]
++[MTBBarcodeScanner cameraIsPresent]
++[MTBBarcodeScanner hasCamera:]
++[MTBBarcodeScanner oppositeCameraOf:]
++[MTBBarcodeScanner scanningIsProhibited]
++[MTBBarcodeScanner requestCameraPermissionWithSuccess:]
+___56+[MTBBarcodeScanner requestCameraPermissionWithSuccess:]_block_invoke
+___56+[MTBBarcodeScanner requestCameraPermissionWithSuccess:]_block_invoke_2
+___copy_helper_block_e8_32b
+___destroy_helper_block_e8_32s
+-[MTBBarcodeScanner startScanningWithError:]
+-[MTBBarcodeScanner startScanningWithResultBlock:error:]
+-[MTBBarcodeScanner startScanningWithCamera:resultBlock:error:]
+___63-[MTBBarcodeScanner startScanningWithCamera:resultBlock:error:]_block_invoke
+___63-[MTBBarcodeScanner startScanningWithCamera:resultBlock:error:]_block_invoke_2
+___copy_helper_block_e8_32s
+-[MTBBarcodeScanner stopScanning]
+___33-[MTBBarcodeScanner stopScanning]_block_invoke
+___copy_helper_block_e8_32s40s48s
+___destroy_helper_block_e8_32s40s48s
+-[MTBBarcodeScanner isScanning]
+-[MTBBarcodeScanner hasOppositeCamera]
+-[MTBBarcodeScanner flipCamera]
+-[MTBBarcodeScanner flipCameraWithError:]
+-[MTBBarcodeScanner configureTapToFocus]
+-[MTBBarcodeScanner focusTapped:]
+-[MTBBarcodeScanner stopRecognizingTaps]
+-[MTBBarcodeScanner captureOutput:didOutputMetadataObjects:fromConnection:]
+-[MTBBarcodeScanner handleApplicationDidChangeStatusBarNotification:]
+-[MTBBarcodeScanner refreshVideoOrientation]
+-[MTBBarcodeScanner captureOrientationForInterfaceOrientation:]
+-[MTBBarcodeScanner applicationWillEnterForegroundNotification:]
+-[MTBBarcodeScanner newSessionWithCaptureDevice:error:]
+___55-[MTBBarcodeScanner newSessionWithCaptureDevice:error:]_block_invoke
+-[MTBBarcodeScanner newCaptureDeviceWithCamera:]
++[MTBBarcodeScanner devicePositionForCamera:]
+-[MTBBarcodeScanner defaultMetaDataObjectTypes]
+-[MTBBarcodeScanner addObservers]
+-[MTBBarcodeScanner setupSessionQueue]
+-[MTBBarcodeScanner setDeviceInput:session:]
+-[MTBBarcodeScanner removeDeviceInput:session:]
+-[MTBBarcodeScanner updateFocusPreferencesOfDevice:reset:]
+-[MTBBarcodeScanner setTorchMode:]
+-[MTBBarcodeScanner setTorchMode:error:]
+-[MTBBarcodeScanner toggleTorch]
+-[MTBBarcodeScanner updateForTorchMode:error:]
+-[MTBBarcodeScanner hasTorch]
+-[MTBBarcodeScanner avTorchModeForMTBTorchMode:]
+-[MTBBarcodeScanner freezeCapture]
+___34-[MTBBarcodeScanner freezeCapture]_block_invoke
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+-[MTBBarcodeScanner unfreezeCapture]
+___36-[MTBBarcodeScanner unfreezeCapture]_block_invoke
+-[MTBBarcodeScanner captureStillImage:]
+___39-[MTBBarcodeScanner captureStillImage:]_block_invoke
+___copy_helper_block_e8_32s40s48b
+-[MTBBarcodeScanner captureOutput:didFinishProcessingPhoto:error:]
+-[MTBBarcodeScanner captureOutput:didFinishProcessingPhotoSampleBuffer:previewPhotoSampleBuffer:resolvedSettings:bracketSettings:error:]
+-[MTBBarcodeScanner isCapturingStillImage]
+-[MTBBarcodeScanner setCamera:]
+-[MTBBarcodeScanner setCamera:error:]
+-[MTBBarcodeScanner setScanRect:]
+___33-[MTBBarcodeScanner setScanRect:]_block_invoke
+-[MTBBarcodeScanner setPreferredAutoFocusRangeRestriction:]
+-[MTBBarcodeScanner previewLayer]
+-[MTBBarcodeScanner rectOfInterestFromScanRect:]
+-[MTBBarcodeScanner camera]
+-[MTBBarcodeScanner torchMode]
+-[MTBBarcodeScanner allowTapToFocus]
+-[MTBBarcodeScanner setAllowTapToFocus:]
+-[MTBBarcodeScanner scanRect]
+-[MTBBarcodeScanner setPreviewLayer:]
+-[MTBBarcodeScanner didStartScanningBlock]
+-[MTBBarcodeScanner setDidStartScanningBlock:]
+-[MTBBarcodeScanner didTapToFocusBlock]
+-[MTBBarcodeScanner setDidTapToFocusBlock:]
+-[MTBBarcodeScanner resultBlock]
+-[MTBBarcodeScanner setResultBlock:]
+-[MTBBarcodeScanner preferredAutoFocusRangeRestriction]
+-[MTBBarcodeScanner privateSessionQueue]
+-[MTBBarcodeScanner setPrivateSessionQueue:]
+-[MTBBarcodeScanner session]
+-[MTBBarcodeScanner setSession:]
+-[MTBBarcodeScanner captureDevice]
+-[MTBBarcodeScanner setCaptureDevice:]
+-[MTBBarcodeScanner capturePreviewLayer]
+-[MTBBarcodeScanner setCapturePreviewLayer:]
+-[MTBBarcodeScanner currentCaptureDeviceInput]
+-[MTBBarcodeScanner setCurrentCaptureDeviceInput:]
+-[MTBBarcodeScanner captureOutput]
+-[MTBBarcodeScanner setCaptureOutput:]
+-[MTBBarcodeScanner metaDataObjectTypes]
+-[MTBBarcodeScanner setMetaDataObjectTypes:]
+-[MTBBarcodeScanner previewView]
+-[MTBBarcodeScanner setPreviewView:]
+-[MTBBarcodeScanner initialAutoFocusRangeRestriction]
+-[MTBBarcodeScanner setInitialAutoFocusRangeRestriction:]
+-[MTBBarcodeScanner initialFocusPoint]
+-[MTBBarcodeScanner setInitialFocusPoint:]
+-[MTBBarcodeScanner stillImageOutput]
+-[MTBBarcodeScanner setStillImageOutput:]
+-[MTBBarcodeScanner gestureRecognizer]
+-[MTBBarcodeScanner setGestureRecognizer:]
+-[MTBBarcodeScanner stillImageCaptureBlock]
+-[MTBBarcodeScanner setStillImageCaptureBlock:]
+-[MTBBarcodeScanner output]
+-[MTBBarcodeScanner setOutput:]
+-[MTBBarcodeScanner .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+___block_descriptor_41_e8_32bs_e5_v8?0l
+___block_descriptor_40_e8_32bs_e8_v12?0B8l
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_CLASSLIST_REFERENCES_$_.44
+_OBJC_CLASSLIST_REFERENCES_$_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+___block_descriptor_40_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_CLASSLIST_REFERENCES_$_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_CLASSLIST_REFERENCES_$_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_CLASSLIST_REFERENCES_$_.172
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_CLASSLIST_REFERENCES_$_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_CLASSLIST_REFERENCES_$_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_CLASSLIST_REFERENCES_$_.201
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_CLASSLIST_REFERENCES_$_.214
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_CLASSLIST_REFERENCES_$_.223
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_SELECTOR_REFERENCES_.227
+_OBJC_SELECTOR_REFERENCES_.229
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_CLASSLIST_REFERENCES_$_.240
+_OBJC_SELECTOR_REFERENCES_.242
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_CLASSLIST_REFERENCES_$_.249
+_OBJC_SELECTOR_REFERENCES_.251
+_OBJC_SELECTOR_REFERENCES_.253
+_OBJC_SELECTOR_REFERENCES_.255
+_OBJC_SELECTOR_REFERENCES_.257
+_OBJC_SELECTOR_REFERENCES_.259
+_OBJC_SELECTOR_REFERENCES_.261
+_OBJC_SELECTOR_REFERENCES_.263
+_OBJC_SELECTOR_REFERENCES_.266
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_SELECTOR_REFERENCES_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_SELECTOR_REFERENCES_.276
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_SELECTOR_REFERENCES_.282
+_OBJC_SELECTOR_REFERENCES_.284
+_OBJC_SELECTOR_REFERENCES_.286
+_OBJC_SELECTOR_REFERENCES_.288
+_OBJC_SELECTOR_REFERENCES_.290
+_OBJC_SELECTOR_REFERENCES_.292
+_OBJC_SELECTOR_REFERENCES_.294
+_OBJC_SELECTOR_REFERENCES_.296
+_OBJC_SELECTOR_REFERENCES_.298
+_OBJC_SELECTOR_REFERENCES_.300
+_OBJC_SELECTOR_REFERENCES_.302
+_OBJC_SELECTOR_REFERENCES_.304
+_OBJC_SELECTOR_REFERENCES_.310
+_OBJC_SELECTOR_REFERENCES_.312
+___block_descriptor_48_e8_32s40s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.314
+_OBJC_CLASSLIST_REFERENCES_$_.317
+_OBJC_SELECTOR_REFERENCES_.319
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.323
+_OBJC_SELECTOR_REFERENCES_.325
+_OBJC_SELECTOR_REFERENCES_.327
+_OBJC_SELECTOR_REFERENCES_.329
+___block_descriptor_56_e8_32s40s48bs_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.331
+_OBJC_SELECTOR_REFERENCES_.336
+_OBJC_CLASSLIST_REFERENCES_$_.337
+_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_SELECTOR_REFERENCES_.342
+_OBJC_SELECTOR_REFERENCES_.344
+_OBJC_SELECTOR_REFERENCES_.346
+_OBJC_SELECTOR_REFERENCES_.350
+_OBJC_SELECTOR_REFERENCES_.354
+__OBJC_$_CLASS_METHODS_MTBBarcodeScanner
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_AVCaptureMetadataOutputObjectsDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCaptureMetadataOutputObjectsDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_AVCaptureMetadataOutputObjectsDelegate
+__OBJC_PROTOCOL_$_AVCaptureMetadataOutputObjectsDelegate
+__OBJC_LABEL_PROTOCOL_$_AVCaptureMetadataOutputObjectsDelegate
+__OBJC_$_PROTOCOL_REFS_AVCapturePhotoCaptureDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCapturePhotoCaptureDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_AVCapturePhotoCaptureDelegate
+__OBJC_PROTOCOL_$_AVCapturePhotoCaptureDelegate
+__OBJC_LABEL_PROTOCOL_$_AVCapturePhotoCaptureDelegate
+__OBJC_CLASS_PROTOCOLS_$_MTBBarcodeScanner
+__OBJC_METACLASS_RO_$_MTBBarcodeScanner
+__OBJC_$_INSTANCE_METHODS_MTBBarcodeScanner
+_OBJC_IVAR_$_MTBBarcodeScanner._allowTapToFocus
+_OBJC_IVAR_$_MTBBarcodeScanner._camera
+_OBJC_IVAR_$_MTBBarcodeScanner._torchMode
+_OBJC_IVAR_$_MTBBarcodeScanner._previewLayer
+_OBJC_IVAR_$_MTBBarcodeScanner._didStartScanningBlock
+_OBJC_IVAR_$_MTBBarcodeScanner._didTapToFocusBlock
+_OBJC_IVAR_$_MTBBarcodeScanner._resultBlock
+_OBJC_IVAR_$_MTBBarcodeScanner._preferredAutoFocusRangeRestriction
+_OBJC_IVAR_$_MTBBarcodeScanner._privateSessionQueue
+_OBJC_IVAR_$_MTBBarcodeScanner._session
+_OBJC_IVAR_$_MTBBarcodeScanner._captureDevice
+_OBJC_IVAR_$_MTBBarcodeScanner._capturePreviewLayer
+_OBJC_IVAR_$_MTBBarcodeScanner._currentCaptureDeviceInput
+_OBJC_IVAR_$_MTBBarcodeScanner._captureOutput
+_OBJC_IVAR_$_MTBBarcodeScanner._metaDataObjectTypes
+_OBJC_IVAR_$_MTBBarcodeScanner._previewView
+_OBJC_IVAR_$_MTBBarcodeScanner._initialAutoFocusRangeRestriction
+_OBJC_IVAR_$_MTBBarcodeScanner._stillImageOutput
+_OBJC_IVAR_$_MTBBarcodeScanner._gestureRecognizer
+_OBJC_IVAR_$_MTBBarcodeScanner._stillImageCaptureBlock
+_OBJC_IVAR_$_MTBBarcodeScanner._output
+_OBJC_IVAR_$_MTBBarcodeScanner._initialFocusPoint
+_OBJC_IVAR_$_MTBBarcodeScanner._scanRect
+__OBJC_$_INSTANCE_VARIABLES_MTBBarcodeScanner
+__OBJC_$_PROP_LIST_MTBBarcodeScanner
+__OBJC_CLASS_RO_$_MTBBarcodeScanner
+/Volumes/Samsung_T5/Projects/flutter_crowdplay/sdk/.ios/Pods/MTBBarcodeScanner/Classes/ios/Scanners/MTBBarcodeScanner.m
+MTBBarcodeScanner/Classes/ios/Scanners/MTBBarcodeScanner.m
+MTBBarcodeScanner/Classes/ios/Scanners/MTBBarcodeScanner.h
+__33-[MTBBarcodeScanner setScanRect:]_block_invoke
+__copy_helper_block_e8_32s40s48b
+__39-[MTBBarcodeScanner captureStillImage:]_block_invoke
+__36-[MTBBarcodeScanner unfreezeCapture]_block_invoke
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
+__34-[MTBBarcodeScanner freezeCapture]_block_invoke
+__55-[MTBBarcodeScanner newSessionWithCaptureDevice:error:]_block_invoke
+dispatch_get_main_queue
+/Applications/Xcode_13.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/queue.h
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32s40s48s
+__33-[MTBBarcodeScanner stopScanning]_block_invoke
+__copy_helper_block_e8_32s
+__63-[MTBBarcodeScanner startScanningWithCamera:resultBlock:error:]_block_invoke_2
+__63-[MTBBarcodeScanner startScanningWithCamera:resultBlock:error:]_block_invoke
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32b
+__56+[MTBBarcodeScanner requestCameraPermissionWithSuccess:]_block_invoke_2
+__56+[MTBBarcodeScanner requestCameraPermissionWithSuccess:]_block_invoke
+__OBJC_METACLASS_RO_$_PodsDummy_MTBBarcodeScanner
+__OBJC_CLASS_RO_$_PodsDummy_MTBBarcodeScanner
+/Volumes/Samsung_T5/Projects/flutter_crowdplay/sdk/.ios/Pods/Target Support Files/MTBBarcodeScanner/MTBBarcodeScanner-dummy.m
