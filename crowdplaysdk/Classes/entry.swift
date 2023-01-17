@@ -6,6 +6,7 @@ import FlutterPluginRegistrant
 public class CrowdplaySdk {
     public static let shared = CrowdplaySdk()
     lazy var flutterEngine = FlutterEngine(name: "CrowdPlay Flutter engine")
+    var flutterViewController: FlutterViewController?
     private var apiKey = ""
 
     private init() {}
@@ -19,6 +20,8 @@ public class CrowdplaySdk {
         apiKeyChannel.setMethodCallHandler { (call: FlutterMethodCall, result: @escaping FlutterResult) in
             if call.method == "initialization" {
               result(self.apiKey)
+            } else if call.method == "CLOSE_CROWDPLAY" {
+                self.flutterViewController?.dismiss(animated: true);
             }
         }
         // Used to connect plugins (only if you have plugins with iOS platform code).
@@ -26,8 +29,13 @@ public class CrowdplaySdk {
     }
     
     public func viewController() -> FlutterViewController {
-        let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
-        return flutterViewController
+        if (flutterViewController != nil) {
+            return flutterViewController!;
+        }
+
+        flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+        flutterViewController?.modalPresentationStyle = .fullScreen
+        return flutterViewController!
     }
 
     public func presentCrowdplay(vc: UIViewController) {
