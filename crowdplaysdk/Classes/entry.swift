@@ -46,16 +46,48 @@ public class CrowdplaySdk {
         vc.present(viewController(), animated: true, completion: nil)
     }
 
-    public func handleNotification(userInfo: [AnyHashable : Any]?) -> Bool {
+    public func handleNotification(userInfo: [AnyHashable : Any]?, vc: UIViewController) -> Bool {
+        print("handleNotification" + (userInfo?.description ?? ""));
         if userInfo == nil || apiKeyChannel == nil {
+            print("No userInfo or apiKeyChannel");
+            return false
+        }
+        if userInfo!["custom"] == nil {
+            print("Source is not crowdplay 1");
             return false
         }
 
-        if userInfo!["source"] == nil || userInfo!["source"] as? String == nil || userInfo!["source"] as! String != "crowdplay" {
+        if userInfo!["custom"] as? Dictionary<AnyHashable, Any> == nil {
+            print("Source is not crowdplay 2");
+            return false
+        }
+        
+        let custom = userInfo!["custom"] as! Dictionary<AnyHashable, Any>;
+        
+        if custom["a"] as? Dictionary<AnyHashable, Any> == nil {
+            print("Source is not crowdplay 3");
+            return false
+        }
+        
+        let customApns = custom["a"] as! Dictionary<AnyHashable, Any>;
+        
+        if customApns["source"] as? String == nil {
+            print("Source is not crowdplay 4");
+            return false
+        }
+        
+        let source = customApns["source"] as! String;
+        
+        if source != "crowdplay" {
+            print("Source is not crowdplay 5");
             return false
         }
 
-        apiKeyChannel!.invokeMethod("handleNotification", arguments: userInfo);
+        self.presentCrowdplay(vc: vc);
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+            self.apiKeyChannel!.invokeMethod("handleNotification", arguments: customApns);
+        }
 
         return true
     }
@@ -64,6 +96,7 @@ public class CrowdplaySdk {
         let tokenString = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
 
         self.notificationToken = tokenString;
+        print("Device Token: " + tokenString);
 
         apiKeyChannel!.invokeMethod("setNotificationToken", arguments: tokenString);
     }
