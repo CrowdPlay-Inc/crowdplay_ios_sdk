@@ -9,6 +9,7 @@ public class CrowdplaySdk {
     private var apiKeyChannel: FlutterMethodChannel?
     var flutterViewController: FlutterViewController?
     private var apiKey = ""
+    private var notificationToken = "";
 
     private init() {}
 
@@ -23,6 +24,8 @@ public class CrowdplaySdk {
               result(self.apiKey)
             } else if call.method == "CLOSE_CROWDPLAY" {
                 self.flutterViewController?.dismiss(animated: true);
+            } else if call.method == "getNativeNotificationToken" {
+                result(self.notificationToken);
             }
         }
         // Used to connect plugins (only if you have plugins with iOS platform code).
@@ -55,6 +58,14 @@ public class CrowdplaySdk {
         apiKeyChannel!.invokeMethod("handleNotification", arguments: userInfo);
 
         return true
+    }
+
+    public func setNotificationToken(deviceToken: Data) {
+        let tokenString = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
+
+        self.notificationToken = tokenString;
+
+        apiKeyChannel!.invokeMethod("setNotificationToken", arguments: {tokenString});
     }
 }
 
