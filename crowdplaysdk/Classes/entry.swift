@@ -85,7 +85,7 @@ public class CrowdplaySdk {
 
         self.presentCrowdplay(vc: vc);
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             self.apiKeyChannel!.invokeMethod("handleNotification", arguments: customApns);
         }
 
