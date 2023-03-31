@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        CrowdplaySdk.shared.initialize(apiKey: "KUUsEjwsDKtI1dVFYJotH1QlFm")
+        CrowdplaySdk.shared.initialize(apiKey: "efebd8e4-d1ba-4ba4-86ee-a7a9fe49685e")
         return true
     }
 
@@ -43,6 +43,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        CrowdplaySdk.shared.setNotificationToken(deviceToken: deviceToken)
+    }
 
 }
-
