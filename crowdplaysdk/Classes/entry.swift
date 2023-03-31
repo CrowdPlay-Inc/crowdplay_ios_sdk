@@ -65,7 +65,7 @@ public class CrowdplaySdk {
 
         self.notificationToken = tokenString;
 
-        apiKeyChannel!.invokeMethod("setNotificationToken", arguments: {tokenString});
+        apiKeyChannel!.invokeMethod("setNotificationToken", arguments: tokenString);
     }
 }
 
