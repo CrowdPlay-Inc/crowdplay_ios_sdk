@@ -1,5 +1,5 @@
 PODS:
-  - crowdplaysdk (0.1.31):
+  - crowdplaysdk (0.1.36):
     - GoogleDataTransport (~> 9.2.0)
     - GoogleUtilities (~> 7.8.0)
   - FBSnapshotTestCase (2.1.4):
@@ -87,7 +87,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: cebb3897ea4d1c1d23e383f017e35a253e688bf0
+  crowdplaysdk: e0e3ac1eac64ff043525065be401921974fa2b91
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
   GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
@@ -98,6 +98,6 @@ SPEC CHECKSUMS:
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
-PODFILE CHECKSUM: c628c14afa6425b2aecfd08a24ba331451ab8568
+PODFILE CHECKSUM: 61b5e7d8c4f78ffe01364995762fd287c65ef0bf
 
 COCOAPODS: 1.11.2

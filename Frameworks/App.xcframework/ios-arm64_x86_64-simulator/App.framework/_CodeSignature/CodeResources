@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		9kySqr8UnmGNLhtot9TZd/7pmlQ=
+		sQAbNTrQmthgK7y07hGaRtZnfO8=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,11 +18,15 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		R5BgkOJ6Y3FcWP8Z6oXOpsGgVkE=
+		l3Lay1CNILqCINJLsxdSZWcYJ58=
 		</data>
 		<key>flutter_assets/assets/account_freeze.json</key>
 		<data>
 		HK97LCYYG22LaZtXRV8Vo7yxLYE=
+		</data>
+		<key>flutter_assets/assets/account_in_use.json</key>
+		<data>
+		5upsW/1MfBWNJWfdnc5HrpKJaGY=
 		</data>
 		<key>flutter_assets/assets/account_options.png</key>
 		<data>
@@ -1004,34 +1008,6 @@
 		<data>
 		7ZQ6hYh5B85k0Xqqs7gGYp9TL90=
 		</data>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_0.json</key>
-		<data>
-		1Hn6NfQa+Y8VF8QvWlwytq7fvXA=
-		</data>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_1.json</key>
-		<data>
-		ZPp/YX/G1HeSwiS0pIIxisJIFKY=
-		</data>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_2.json</key>
-		<data>
-		kKVNudoIRuS57poMGlugs7grY0w=
-		</data>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_3.json</key>
-		<data>
-		3Gzl4iMaEvzjDymTehJBwt9hIK4=
-		</data>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_4.json</key>
-		<data>
-		wb/0mFP+cV2dFe0qiii0XeSCLOA=
-		</data>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_5.json</key>
-		<data>
-		64oD7JcMBRKJhnGh+vQ+cIHNmZ8=
-		</data>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_6.json</key>
-		<data>
-		HMcc2CwNshg00VcYZQDWaWLeDoY=
-		</data>
 		<key>flutter_assets/assets/g_check.gif</key>
 		<data>
 		WlELUCa4Zbi5tSI4gxjUpwSJkJ0=
@@ -1332,6 +1308,14 @@
 		<data>
 		8tuadjeHLbTGJVk0y5euUE2L6OQ=
 		</data>
+		<key>flutter_assets/assets/points_directory.png</key>
+		<data>
+		f2eAQxU+8nPB42YdWLaUcUGurJg=
+		</data>
+		<key>flutter_assets/assets/points_directory_old.png</key>
+		<data>
+		sxWgZxH6F7jaGL9w8cYE5Z1hdXU=
+		</data>
 		<key>flutter_assets/assets/points_send.png</key>
 		<data>
 		BIJYYTZcgRJTgWQBdc1dk1BkhTI=
@@ -1544,61 +1528,93 @@
 		<data>
 		dg/FKJAAHgKjFlYIHhrq6n+gy90=
 		</data>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_Lottie_6.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_1.json</key>
 		<data>
-		8/MBy5kL2yC/Ft3MyDR/8srTdLI=
+		qQkv2bkt23PQBS7LsZ1+dZS8ayQ=
 		</data>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_0.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_10.json</key>
 		<data>
-		bPF8zQTVMgeglPIALvH4Z/A1rHk=
+		s7ZZ4k47PbWQxZUjysdZgeMRs9Q=
 		</data>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_1.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_11.json</key>
 		<data>
-		5jiq8iGZYIP0vftb2KV1MYL9HEA=
+		1gEHuEhNZZDReM8zC6O7kmUYCcw=
 		</data>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_2.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_2.json</key>
 		<data>
-		u5WN5pXjmEejZYujgDL1389KQlE=
+		whZZ1a4gDMA6ObQXppC+T7Kq5ng=
 		</data>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_3.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_3.json</key>
 		<data>
-		2f+lxEtZIP288yIhbZR7vVM9hDk=
+		oqFx3UE5ZKh9rmzvDVlB8Kx4/7A=
 		</data>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_4.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_4.json</key>
 		<data>
-		CTpAtreUp0ZmLRNIJA+o31fn978=
+		24X6inbhZZHiFVExy8+cE0yVr7w=
 		</data>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_5.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_5.json</key>
 		<data>
-		PJJqLqNMsIVLQrmkrsm/gQLd1Qo=
+		IlubSA6phcipewVxH1Qv0Jfeark=
 		</data>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie0.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_6.json</key>
 		<data>
-		QrwMlsgZRFTXtp9bP3WluINh1/4=
+		8qsrxqUined6EvHj29eP1CjBPbU=
 		</data>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie1.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_7.json</key>
 		<data>
-		Li0tOOtQfkU/+14YaVsmALZ9WMk=
+		b3cr6RjASAvwdmjz/wY7eEHL+ok=
 		</data>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie2.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_8.json</key>
 		<data>
-		FyrD5kK5YVNARBY7M0wRjlj58kU=
+		soX+wY/BI835sNPHFqVL6AlnfZQ=
 		</data>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie3.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_9.json</key>
 		<data>
-		0O8v8cZzFS8GCE6m4p2+IKxWOKw=
+		E/MjNMCST3H6lC/iH8EnZ88i28E=
 		</data>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie4.json</key>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_1.json</key>
 		<data>
-		OZUgDEo8gzisrqj3RZnc7XYeBkA=
+		tiLao9cRb/KU+4Ak0C5UbxeLPU8=
 		</data>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie5.json</key>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_10.json</key>
 		<data>
-		Cu2/7ZPsftPlSZYa3cCIdYxw/Ro=
+		PT9Z/xdx38XMgTrL1hb0OFbt0nA=
 		</data>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie6.json</key>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_11.json</key>
 		<data>
-		jiD9z8KqPJhZARolND95c2Y4mRg=
+		rnqtbE5yWcbPfeOp5h4pujzHJRE=
+		</data>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_2.json</key>
+		<data>
+		EbYNhseQlNfkHOQT1tYhnCLlJTE=
+		</data>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_3.json</key>
+		<data>
+		h1GTN7CPphJqS+U5Yt/uBZr4DkA=
+		</data>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_4.json</key>
+		<data>
+		NttdyDuJ+KoP+/potgrJ+30F2KQ=
+		</data>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_5.json</key>
+		<data>
+		Dro6RWJcjD5ehRoAXMsRmGlmfXo=
+		</data>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_6.json</key>
+		<data>
+		joslF2knMPenCH9ijyQJ4FOQG8E=
+		</data>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_7.json</key>
+		<data>
+		pYcCftmvI2WtO6NVt9eIWSFwhlg=
+		</data>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_8.json</key>
+		<data>
+		7UxDbRHcUZ9do7PfEFPLaEWrdJo=
+		</data>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_9.json</key>
+		<data>
+		jp82PxZ7n70UnI+78icZekIGUuc=
 		</data>
 		<key>flutter_assets/assets/upcoming_games_tab.png</key>
 		<data>
@@ -1630,7 +1646,7 @@
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
-		gwtZZnB+Ai/ArPd1bpgUKekVsI4=
+		i7lvqDJClRhFdcQP1Q25fpUQO0k=
 		</data>
 		<key>flutter_assets/fonts/anonymous_mono.ttf</key>
 		<data>
@@ -1670,7 +1686,7 @@
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
-		yBaOvakCKWC3Gt1XWxQ673/oEz8=
+		Z/DhfUUahgFGsthszkW1YubfdU8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1679,7 +1695,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8ksWE7dDOdgyf7a9i6TFMWLDcv5CAUhidDsJPvfZGbM=
+			bJfhkStC54NJLvu2BO/OdqKE7J1AVV4jTmxsLO1Naxg=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -1693,7 +1709,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d831qpj3sUlgQqvc28VnKEZuAhollAadWtfTtBVM/pM=
+			lvjwgR3CajRJu3KGGlVNp24ugRedWQjc+LbjJaqH908=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/account_freeze.json</key>
@@ -1701,6 +1717,13 @@
 			<key>hash2</key>
 			<data>
 			MHBWvqCPJtgl+JISND+jB6E3HQ/GxCMgDGpXYFykgWg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/account_in_use.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CgPkmOmikfIjFrSusfebQxL+VqbSZCWoTTPJuSACWlM=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/account_options.png</key>
@@ -3418,55 +3441,6 @@
 			EE8waDorTvMhCP2rEl8SNiSrp0Yfi9rLn6X+zuaMqdE=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_0.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			P+DIx04QdP8pXytUuePr2h4cgks4SuRb3uNYz9/rL5g=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_1.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gw9TirSGyYRFQcla643Ri4axufjWDqoHjY1eB1uy9jo=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_2.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gICPKG6igXiPV9HZC26c0XMCYMM+J/KEAycDwY2Wpe4=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_3.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xGROlYPbMp3uaZnryZ+MHXbWqme5sdR6W/P8hDNYeFo=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_4.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			haNkzWlbspdJ/Lb4BCcaOGwWSAXcAbHiqjvg4ah8rho=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_5.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Fbg+DzaCGzkPP1Ufqfwis8dgBbWS6XP+Qb23FhTBTCk=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/flyers_tutorials/CP_TeamApp_lottie_6.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7Ic7Gm6SbEBcvsb/69N0IVBFVcrNU/TYQcXij/FikP8=
-			</data>
-		</dict>
 		<key>flutter_assets/assets/g_check.gif</key>
 		<dict>
 			<key>hash2</key>
@@ -3992,6 +3966,20 @@
 			/a9+VnTsJBNXM09a+0XA3A3NSC7P6jyqS+Oz1+mXWY8=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/points_directory.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NRi8nGjzObqPXfiQTziBUgsgIxH8UchVugIgnIcc67w=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/points_directory_old.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W9PqHDW6myII5SZPhygpeFuHDkvG/tRIBOH2g7qSh0w=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/points_send.png</key>
 		<dict>
 			<key>hash2</key>
@@ -4363,102 +4351,158 @@
 			QKAMcSdAZTR5b72aSwZ5YHqAFnJ5Ic6vBQivVg5Z3tQ=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_Lottie_6.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_1.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bkROXNEl4psEBvcMFVGwuroFHtb1XYy9tNw5axNZgeQ=
+			oekTB/BDaYLASb7Eo1TOKv0K3Sb5T1Lr6M0eVbWd/9Y=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_0.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_10.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZSI30/a46rolCGlGaSylAqEB8AIa4ko6n+b1+VKHcL4=
+			HVw+VsSqjeSl40VL9QKqXaxPGoFdyEwhWIF7f5GizNI=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_1.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_11.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6I4LI2/umSCMdIZL/luHEoe8H+3gVkCkZXv/aEWFlK0=
+			v3WRNpu13NRXOP+ZEU+L6vKp54pJa25r9PEt0idHhYI=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_2.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_2.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iYWVYhI/mNjffuIjeGS+/d+Gd6q5LlqpRbcOOpkD4tA=
+			mHIk8M9D29oXn1hqUYn+LVOH85A2QiFZSnLCy/UL9Uk=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_3.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_3.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pj9wm+tjJvJNzunRFeb3Utfx1jU91R9mS2W2h/7eVmE=
+			i0hJEFxJKu6V8ZMCl/hluOoIRX8yiEpQLU7tYST3R4I=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_4.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_4.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f7vCJ08bxg7Rdn9NeCggdBEWg8piV1nc0nXe8dRVPmw=
+			y7kxWUyHtfZags54/dRmThp+BDyVTiuZReEpFDSTDcA=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/CP_TeamApp_lottie_5.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_5.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2MCBE2sKLm4JXf5tOEk51pXsE8DskNDKpkwbE5EvqF8=
+			32EBoUh1lAwmhqEF805YrRLzSZleA/x31L3I8JRVjHw=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie0.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_6.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MfUXW1tfjpgMJotywNVTJt3ns0WGZoqMwlMqqBscOEg=
+			5KR+nNyX4IZ+vfCgqo+15N521RoAevCjoGfOfAY3XKc=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie1.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_7.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZB8yq4/2dNSr6qAMOqyXGA6eVMY5HD1B7mIsufD3NgI=
+			IMb9cJ+95CBfaXb6K9OkCpMrY6HhpQPhjbMApGoZjSM=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie2.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_8.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MJa4QDxPERZCJKWzT1oGJgvpKp8kvw/+ob9wbh/lloI=
+			jOVa92YXa+HiUborLX28QN6ZuCfoDTdZ0AGYrGGyK7w=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie3.json</key>
+		<key>flutter_assets/assets/tutorials/CP_DeskTut_9.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j0AoF+mlwK98ky0UGv+kywg9kcEUfyezm2B1756v3ZE=
+			gqDo9axKSpNo6YauCpCDRo4xBq/TTYCryGNTLIau6E8=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie4.json</key>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_1.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qrydSF7WUA2MdU+ur9hFrRtNCRpOQeJhSiF3dktug4w=
+			Ix0VzfTyUOLdSU3OzENYNb5XpDix1El1+WAG8+iiU0A=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie5.json</key>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_10.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mqaO4I7g2bsrujsBOIMrja/jzMeMXDQAts5zTgS0akU=
+			SZM6GwwhXn7ABeFQzytVszVZOT9xR/H1QNtw7MIGRa0=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/tutorials/tutorial_old_lottie6.json</key>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_11.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U/HHPJlRg1wIPqUmd4YSQcLCgo8n9+WFr0NBqRvo0WM=
+			4I+J/RBKibD7fMIlSsHmQRVuaZR8ZOWw+INnMP4Ba4Y=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_2.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9/CECq4aE0u913rOYX+8cCoJ4DQamRND6k/IvXqMm10=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_3.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Br+nkWp+TNDKAPzpPtADpOxnwhSsawZLIbRrFbjfRmk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_4.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8vX65LtBVi88yhDzE0WozM8jezKGnaZBWi0FT1OtguM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_5.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RLodqARYmnosS5YUxugjGWaJPsZFvPjoTkpvXTSKjBM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_6.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ooITrdDQ4GlOr0F7Brlivt7Z6NMx5Ow3kFHICWNLIVQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_7.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			exAvNnHpRDmDvcrpHeuUHdnNOqXMSToCz7Z1NDRZLuA=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_8.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U3YVxCgKhCDAjkUMyncbcoiFcyHaaaYxOeqqTPIbHjU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/tutorials/CP_MobileTut_9.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ArbJ6nTMPgSTugfGdCKE7bmvgj/b8irzlmlKMxkDK2o=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/upcoming_games_tab.png</key>
@@ -4514,7 +4558,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W4T7xZ/WYSxZEiv53XhoVRSDi4gAr0Uw8uN/uvAoNRk=
+			TmlwFEHjJ7pSfrEPs7Egjm+UrCJE6BnYgLs4xBIJuyE=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/anonymous_mono.ttf</key>
@@ -4584,7 +4628,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xQZoHYUZNHo5OaHncSX9+zcO9rhPGM5Wn3I4E/6o01w=
+			hgGex10sKxTSC95tzLdljzYd3qnntuSb96YXXaU9Nlc=
 			</data>
 		</dict>
 	</dict>

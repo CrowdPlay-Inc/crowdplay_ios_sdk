@@ -4,17 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/ActionEventSink.h</key>
+		<data>
+		8dkPjBlPHAnG9/AzC6uiYtzo64U=
+		</data>
+		<key>Headers/Converters.h</key>
+		<data>
+		yeDhTMGc1kUYPOkt9lNnLrnb00g=
+		</data>
+		<key>Headers/FlutterEngineManager.h</key>
+		<data>
+		AM/NLip8hx5VGl63/ALqJEzb768=
+		</data>
 		<key>Headers/FlutterLocalNotificationsPlugin.h</key>
 		<data>
-		qQ7AUvoIUPQd3Zub0T+93zepjXk=
+		jU9TcXeoDIMhDy3wgvasz0ZEQZ0=
 		</data>
 		<key>Headers/flutter_local_notifications-umbrella.h</key>
 		<data>
-		m5dk3gFGHeTaHhFGjVTWyXsv1HY=
+		VHn8xjhTAVRXpSCGbF/y8syW8uI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oB7Pu8je1p6BPKoO2MIAGqd+Hvg=
+		qJTqHlyVtWkBkLnoyMMUR9NL/OI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -23,18 +35,39 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/ActionEventSink.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WFGuaKGm4T3VykjjYUgiOa08YbbgtsjeXZ5wgB1JoRI=
+			</data>
+		</dict>
+		<key>Headers/Converters.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tIQTNmaKHyihn2r8k3ouqhcN5X7eyShmYLvSB2hUOdI=
+			</data>
+		</dict>
+		<key>Headers/FlutterEngineManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RAgq8XdbR2sH+59+8oLCFFZtav/QLgmEOrUpOjBdguw=
+			</data>
+		</dict>
 		<key>Headers/FlutterLocalNotificationsPlugin.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BcfvsrT40hC7kQgjpdEJJYoUPvTpWURE9fM3ENGW1VY=
+			Zgwp3FRQTeX8F6nZ0suNYoEXd38+9v/6Ncjy/VsnYCM=
 			</data>
 		</dict>
 		<key>Headers/flutter_local_notifications-umbrella.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7IYV44c+A+oslTCnHn7Tq2mZrd8Xovn/p5fyCxLXYV8=
+			yLxU4vBHHRRoVKBEuBS76xWIokvHpiCtjjlQmHsremU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
