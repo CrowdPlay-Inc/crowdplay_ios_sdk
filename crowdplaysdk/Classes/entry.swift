@@ -12,7 +12,7 @@ private extension UIDevice {
 
     var pushEnvironment: PushEnvironment {
         guard let provisioningProfile = try? provisioningProfile(),
-              let entitlements = provisioningProfile?["Entitlements"] as? [String: Any],
+              let entitlements = provisioningProfile["Entitlements"] as? [String: Any],
               let environment = entitlements["aps-environment"] as? String
         else {
             return .unknown
