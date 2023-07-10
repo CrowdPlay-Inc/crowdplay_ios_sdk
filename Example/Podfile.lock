@@ -1,12 +1,7 @@
 PODS:
-  - crowdplaysdk (0.1.37):
+  - crowdplaysdk (0.1.42):
     - GoogleDataTransport (~> 9.2.0)
     - GoogleUtilities (~> 7.8.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - GoogleDataTransport (9.2.0):
     - GoogleUtilities/Environment (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
@@ -65,14 +60,12 @@ PODS:
 
 DEPENDENCIES:
   - crowdplaysdk (from `../`)
-  - FBSnapshotTestCase (~> 2.1.4)
   - Nimble (~> 9.2)
   - Nimble-Snapshots (~> 9.2)
   - Quick (~> 2.2.0)
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
     - GoogleDataTransport
     - GoogleUtilities
     - iOSSnapshotTestCase
@@ -87,8 +80,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: 34149b967831bc3c753e54226fba879df775fad0
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  crowdplaysdk: 2d27151a1b2df10cf948eb062b604a2757175715
   GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
   GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
@@ -98,6 +90,6 @@ SPEC CHECKSUMS:
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
-PODFILE CHECKSUM: 61b5e7d8c4f78ffe01364995762fd287c65ef0bf
+PODFILE CHECKSUM: 69c2b08693de0980675c3ed5c4c5d89668ea884e
 
 COCOAPODS: 1.11.2

@@ -1,0 +1,250 @@
+{
+  "marketplace_redemption_1": {
+    "title": "First Time Buyer!",
+    "description": "Make 1 redemption in the Marketplace"
+  },
+  "marketplace_redemption_5": {
+    "title": "Big Spender",
+    "description": "Make 5 redemptions in the Marketplace"
+  },
+  "marketplace_redemption_10": {
+    "title": "Fan Cave In Progress",
+    "description": "Make 10 redemptions in the Marketplace"
+  },
+  "marketplace_redemption_25": {
+    "title": "Ultimate Collector",
+    "description": "Make 25 redemptions in the Marketplace"
+  },
+  "enter_sweepstake": {
+    "title": "Try Your Luck!",
+    "description": "Enter a Sweepstake in the Marketplace"
+  },
+  "win_sweepstake": {
+    "title": "Winner, Winner!",
+    "description": "Win a Sweepstake in the Marketplace"
+  },
+  "add_to_wishlist": {
+    "title": "My Wishlist",
+    "description": "Add an item to your Wishlist in the Marketplace"
+  },
+  "claim_active_rewards_1": {
+    "title": "Active Reward",
+    "description": "Claim your first Active Reward"
+  },
+  "claim_daily_rewards_1": {
+    "title": "I Got It, I Got It!",
+    "description": "Claim your first Daily Reward"
+  },
+  "claim_daily_rewards_10": {
+    "title": "Keep Earning!",
+    "description": "Claim 10 total Daily Rewards"
+  },
+  "claim_daily_rewards_50": {
+    "title": "Collect Them All",
+    "description": "Claim 50 total Daily Rewards"
+  },
+  "claim_daily_rewards_150": {
+    "title": "Bag Of Goodies",
+    "description": "Claim 150 total Daily Rewards"
+  },
+  "claim_daily_rewards_250": {
+    "title": "High Roller",
+    "description": "Claim 250 total Daily Rewards"
+  },
+  "claim_daily_rewards_365": {
+    "title": "365!",
+    "description": "Claim 365 total Daily Rewards"
+  },
+  "add_friend": {
+    "title": "Hello Friend!",
+    "description": "Add a friend to your friends list"
+  },
+  "earn_points_10000": {
+    "title": "Pockets Full",
+    "description": "Earn 10,000 total points (spending your points will not prevent you from unlocking this achievement)"
+  },
+  "earn_points_25000": {
+    "title": "Focused",
+    "description": "Earn 25,000 total points (spending your points will not prevent you from unlocking this achievement)"
+  },
+  "earn_points_50000": {
+    "title": "Legendary",
+    "description": "Earn 50,000 total points (spending your points will not prevent you from unlocking this achievement)"
+  },
+  "earn_points_100000": {
+    "title": "Here For It All",
+    "description": "Earn 100,000 total points (spending your points will not prevent you from unlocking this achievement)"
+  },
+  "earn_points_250000": {
+    "title": "Never Tell Me The Odds",
+    "description": "Earn 250,000 total points (spending your points will not prevent you from unlocking this achievement)"
+  },
+  "earn_points_500000": {
+    "title": "Impressive, Most Impressive",
+    "description": "Earn 500,000 total points (spending your points will not prevent you from unlocking this achievement)"
+  },
+  "log_in_1": {
+    "title": "Hello There",
+    "description": "Register with the program"
+  },
+  "log_in_7": {
+    "title": "On A Roll!",
+    "description": "Log in for 1 week straight without missing a day"
+  },
+  "log_in_30": {
+    "title": "Bragging Rights",
+    "description": "Log in for 1 month straight without missing a day"
+  },
+  "log_in_91": {
+    "title": "MVP",
+    "description": "Log in for 3 months straight without missing a day"
+  },
+  "log_in_182": {
+    "title": "Champion",
+    "description": "Log in for 6 months straight without missing a day"
+  },
+  "log_in_365": {
+    "title": "SuperFan",
+    "description": "Log in for 1 year straight without missing a day"
+  },
+  "points_directory": {
+    "title": "I Know How It Works",
+    "description": "Navigate to the Points Directory page"
+  },
+  "attend_games_1": {
+    "title": "I Am Here!",
+    "description": "Attend and check in at 1 game"
+  },
+  "attend_games_5": {
+    "title": "Set The Tone",
+    "description": "Attend and check in at 5 games"
+  },
+  "attend_games_10": {
+    "title": "Heating Up",
+    "description": "Attend and check in at 10 games"
+  },
+  "attend_games_15": {
+    "title": "Keep On Going!",
+    "description": "Attend and check in at 15 games"
+  },
+  "attend_games_25": {
+    "title": "Loyalty",
+    "description": "Attend and check in at 25 games"
+  },
+  "attend_games_40": {
+    "title": "All-Star",
+    "description": "Attend and check in at 40 games"
+  },
+  "attend_games_60": {
+    "title": "Stadium Star",
+    "description": "Attend and check in at 60 games"
+  },
+  "attend_games_80": {
+    "title": "Suit Up!",
+    "description": "Attend and check in at 80 games"
+  },
+  "attend_games_100": {
+    "title": "That’s Dedication!",
+    "description": "Attend and check in at 100 games"
+  },
+  "watch_games_1": {
+    "title": "I Am Watching",
+    "description": "Watch 1 game from outside the venue and check in"
+  },
+  "watch_games_5": {
+    "title": "It’s On!",
+    "description": "Watch 5 games from outside the venue and check in"
+  },
+  "watch_games_10": {
+    "title": "Moving On Up",
+    "description": "Watch 10 games from outside the venue and check in"
+  },
+  "watch_games_15": {
+    "title": "Promoted",
+    "description": "Watch 15 games from outside the venue and check in"
+  },
+  "watch_games_25": {
+    "title": "Stealing The Show",
+    "description": "Watch 25 games from outside the venue and check in"
+  },
+  "watch_games_40": {
+    "title": "Skilled",
+    "description": "Watch 40 games from outside the venue and check in"
+  },
+  "watch_games_60": {
+    "title": "Accomplished",
+    "description": "Watch 60 games from outside the venue and check in"
+  },
+  "watch_games_80": {
+    "title": "No Better Feeling",
+    "description": "Watch 80 games from outside the venue and check in"
+  },
+  "watch_games_100": {
+    "title": "Always Watching...",
+    "description": "Watch 100 games from outside the venue and check in"
+  },
+  "game_day_1": {
+    "title": "On To The Next One",
+    "description": "Participate in 1 Game Day Activated event"
+  },
+  "game_day_5": {
+    "title": "Competitor",
+    "description": "Participate in 5 Game Day Activated events"
+  },
+  "game_day_10": {
+    "title": "Victorious",
+    "description": "Participate in 10 Game Day Activated events"
+  },
+  "game_day_20": {
+    "title": "Elite",
+    "description": "Participate in 20 Game Day Activated events"
+  },
+  "game_day_40": {
+    "title": "Ultimate Competitor",
+    "description": "Participate in 40 Game Day Activated events"
+  },
+  "game_day_60": {
+    "title": "Master",
+    "description": "Participate in 60 Game Day Activated events"
+  },
+  "win_btc": {
+    "title": "Beat The Crowd!",
+    "description": "Win Beat The Crowd!"
+  },
+  "win_top_10": {
+    "title": "A New Hope",
+    "description": "Place within the top 10 in any Game Day Activated event"
+  },
+  "win_top_3": {
+    "title": "Going For It All!",
+    "description": "Place within the top 3 in any Game Day Activated event"
+  },
+  "win_top_1": {
+    "title": "Superstar!",
+    "description": "Place in first in any Game Day Activated event"
+  },
+  "answer_correctly_1": {
+    "title": "Watch Out!",
+    "description": "Correctly answer 1 Game Day Activated event question"
+  },
+  "answer_correctly_10": {
+    "title": "Off To The Right Start",
+    "description": "Correctly answer 10 Game Day Activated event questions"
+  },
+  "answer_correctly_50": {
+    "title": "Iconic",
+    "description": "Correctly answer 50 Game Day Activated event questions"
+  },
+  "answer_correctly_100": {
+    "title": "This Is Easy!",
+    "description": "Correctly answer 100 Game Day Activated event questions"
+  },
+  "answer_correctly_500": {
+    "title": "Prestigious",
+    "description": "Correctly answer 500 Game Day Activated event questions"
+  },
+  "answer_correctly_1000": {
+    "title": "Untouchable!",
+    "description": "Correctly answer 1,000 Game Day Activated event questions"
+  }
+}
