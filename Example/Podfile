@@ -10,7 +10,6 @@ target 'crowdplaysdk_Example' do
 
     pod 'Quick', '~> 2.2.0'
     pod 'Nimble', '~> 9.2'
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
     pod 'Nimble-Snapshots' , '~> 9.2'
   end
 end
