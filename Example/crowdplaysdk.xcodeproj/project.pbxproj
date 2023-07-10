@@ -307,6 +307,8 @@
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/App.framework/App",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/FirebaseInstallations.framework/FirebaseInstallations",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/device_info_plus.framework/device_info_plus",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/flutter_inappwebview.framework/flutter_inappwebview",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/vibration.framework/vibration",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/path_provider_foundation.framework/path_provider_foundation",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/MTBBarcodeScanner.framework/MTBBarcodeScanner",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/image_picker_ios.framework/image_picker_ios",
@@ -342,6 +344,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/device_info_plus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_inappwebview.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/vibration.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/path_provider_foundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTBBarcodeScanner.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/image_picker_ios.framework",
@@ -379,7 +383,6 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-crowdplaysdk_Tests/Pods-crowdplaysdk_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
@@ -387,10 +390,10 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
