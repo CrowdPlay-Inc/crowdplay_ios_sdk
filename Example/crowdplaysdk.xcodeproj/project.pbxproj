@@ -218,11 +218,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = APPBH7XVZ5;
+						DevelopmentTeam = 875JDH887F;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 875JDH887F;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -307,6 +308,9 @@
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/App.framework/App",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/FirebaseInstallations.framework/FirebaseInstallations",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/device_info_plus.framework/device_info_plus",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/flutter_inappwebview.framework/flutter_inappwebview",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/OrderedSet.framework/OrderedSet",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/vibration.framework/vibration",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/path_provider_foundation.framework/path_provider_foundation",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/MTBBarcodeScanner.framework/MTBBarcodeScanner",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/image_picker_ios.framework/image_picker_ios",
@@ -342,6 +346,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/device_info_plus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_inappwebview.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrderedSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/vibration.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/path_provider_foundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTBBarcodeScanner.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/image_picker_ios.framework",
@@ -379,7 +386,6 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-crowdplaysdk_Tests/Pods-crowdplaysdk_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
@@ -387,10 +393,10 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -574,13 +580,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = crowdplaysdk_Example.entitlements;
-				DEVELOPMENT_TEAM = APPBH7XVZ5;
+				DEVELOPMENT_TEAM = 875JDH887F;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = crowdplaysdk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.crowdplayapp.sdkexample;
+				PRODUCT_BUNDLE_IDENTIFIER = cpsdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -593,13 +599,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = crowdplaysdk_Example.entitlements;
-				DEVELOPMENT_TEAM = APPBH7XVZ5;
+				DEVELOPMENT_TEAM = 875JDH887F;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = crowdplaysdk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.crowdplayapp.sdkexample;
+				PRODUCT_BUNDLE_IDENTIFIER = cpsdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -610,6 +616,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 638ECC82BAE1D7F1AC8791CD /* Pods-crowdplaysdk_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 875JDH887F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -633,6 +640,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 10CDAB941C9BE365FCB27C9F /* Pods-crowdplaysdk_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 875JDH887F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
