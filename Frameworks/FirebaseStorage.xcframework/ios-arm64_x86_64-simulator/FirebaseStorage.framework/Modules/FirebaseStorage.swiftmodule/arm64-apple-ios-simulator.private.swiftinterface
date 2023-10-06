@@ -18,13 +18,13 @@ extension FirebaseStorage.StorageReference {
   public func data(maxSize: Swift.Int64) async throws -> Foundation.Data
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func putDataAsync(_ uploadData: Foundation.Data, metadata: FirebaseStorage.StorageMetadata? = nil) async throws -> FirebaseStorage.StorageMetadata
+  public func putDataAsync(_ uploadData: Foundation.Data, metadata: FirebaseStorage.StorageMetadata? = nil, onProgress: ((Foundation.Progress?) -> Swift.Void)? = nil) async throws -> FirebaseStorage.StorageMetadata
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func putFileAsync(from url: Foundation.URL, metadata: FirebaseStorage.StorageMetadata? = nil) async throws -> FirebaseStorage.StorageMetadata
+  public func putFileAsync(from url: Foundation.URL, metadata: FirebaseStorage.StorageMetadata? = nil, onProgress: ((Foundation.Progress?) -> Swift.Void)? = nil) async throws -> FirebaseStorage.StorageMetadata
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func writeAsync(toFile fileURL: Foundation.URL) async throws -> Foundation.URL
+  public func writeAsync(toFile fileURL: Foundation.URL, onProgress: ((Foundation.Progress?) -> Swift.Void)? = nil) async throws -> Foundation.URL
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func list(maxResults: Swift.Int64) async throws -> FirebaseStorage.StorageListResult
@@ -67,6 +67,7 @@ extension FirebaseStorage.StorageReference {
     @objc get
     @objc set
   }
+  @objc public var uploadChunkSizeBytes: Swift.Int64
   @objc public var callbackQueue: Dispatch.DispatchQueue {
     @objc get
     @objc set(newValue)

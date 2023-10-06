@@ -538,6 +538,100 @@
           },
           {
             "kind": "Var",
+            "name": "uploadChunkSizeBytes",
+            "printedName": "uploadChunkSizeBytes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorage(py)uploadChunkSizeBytes",
+            "mangledName": "$s15FirebaseStorage0B0C20uploadChunkSizeBytess5Int64Vvp",
+            "moduleName": "FirebaseStorage",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorage(im)uploadChunkSizeBytes",
+                "mangledName": "$s15FirebaseStorage0B0C20uploadChunkSizeBytess5Int64Vvg",
+                "moduleName": "FirebaseStorage",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorage(im)setUploadChunkSizeBytes:",
+                "mangledName": "$s15FirebaseStorage0B0C20uploadChunkSizeBytess5Int64Vvs",
+                "moduleName": "FirebaseStorage",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FirebaseStorage0B0C20uploadChunkSizeBytess5Int64VvM",
+                "mangledName": "$s15FirebaseStorage0B0C20uploadChunkSizeBytess5Int64VvM",
+                "moduleName": "FirebaseStorage",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "callbackQueue",
             "printedName": "callbackQueue",
             "children": [
@@ -7292,7 +7386,7 @@
           {
             "kind": "Function",
             "name": "putDataAsync",
-            "printedName": "putDataAsync(_:metadata:)",
+            "printedName": "putDataAsync(_:metadata:onProgress:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7320,11 +7414,46 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.Progress?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Progress?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Progress?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Progress",
+                            "printedName": "Foundation.Progress",
+                            "usr": "c:objc(cs)NSProgress"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15FirebaseStorage0B9ReferenceC12putDataAsync_8metadataAA0B8MetadataC10Foundation0E0V_AGSgtYaKF",
-            "mangledName": "$s15FirebaseStorage0B9ReferenceC12putDataAsync_8metadataAA0B8MetadataC10Foundation0E0V_AGSgtYaKF",
+            "usr": "s:15FirebaseStorage0B9ReferenceC12putDataAsync_8metadata10onProgressAA0B8MetadataC10Foundation0E0V_AHSgySo10NSProgressCSgcSgtYaKF",
+            "mangledName": "$s15FirebaseStorage0B9ReferenceC12putDataAsync_8metadata10onProgressAA0B8MetadataC10Foundation0E0V_AHSgySo10NSProgressCSgcSgtYaKF",
             "moduleName": "FirebaseStorage",
             "declAttributes": [
               "RawDocComment"
@@ -7336,7 +7465,7 @@
           {
             "kind": "Function",
             "name": "putFileAsync",
-            "printedName": "putFileAsync(from:metadata:)",
+            "printedName": "putFileAsync(from:metadata:onProgress:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7364,11 +7493,46 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.Progress?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Progress?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Progress?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Progress",
+                            "printedName": "Foundation.Progress",
+                            "usr": "c:objc(cs)NSProgress"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15FirebaseStorage0B9ReferenceC12putFileAsync4from8metadataAA0B8MetadataC10Foundation3URLV_AHSgtYaKF",
-            "mangledName": "$s15FirebaseStorage0B9ReferenceC12putFileAsync4from8metadataAA0B8MetadataC10Foundation3URLV_AHSgtYaKF",
+            "usr": "s:15FirebaseStorage0B9ReferenceC12putFileAsync4from8metadata10onProgressAA0B8MetadataC10Foundation3URLV_AISgySo10NSProgressCSgcSgtYaKF",
+            "mangledName": "$s15FirebaseStorage0B9ReferenceC12putFileAsync4from8metadata10onProgressAA0B8MetadataC10Foundation3URLV_AISgySo10NSProgressCSgcSgtYaKF",
             "moduleName": "FirebaseStorage",
             "declAttributes": [
               "RawDocComment"
@@ -7380,7 +7544,7 @@
           {
             "kind": "Function",
             "name": "writeAsync",
-            "printedName": "writeAsync(toFile:)",
+            "printedName": "writeAsync(toFile:onProgress:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7393,11 +7557,46 @@
                 "name": "URL",
                 "printedName": "Foundation.URL",
                 "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.Progress?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Progress?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Progress?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Progress",
+                            "printedName": "Foundation.Progress",
+                            "usr": "c:objc(cs)NSProgress"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15FirebaseStorage0B9ReferenceC10writeAsync6toFile10Foundation3URLVAH_tYaKF",
-            "mangledName": "$s15FirebaseStorage0B9ReferenceC10writeAsync6toFile10Foundation3URLVAH_tYaKF",
+            "usr": "s:15FirebaseStorage0B9ReferenceC10writeAsync6toFile10onProgress10Foundation3URLVAI_ySo10NSProgressCSgcSgtYaKF",
+            "mangledName": "$s15FirebaseStorage0B9ReferenceC10writeAsync6toFile10onProgress10Foundation3URLVAI_ySo10NSProgressCSgcSgtYaKF",
             "moduleName": "FirebaseStorage",
             "declAttributes": [
               "RawDocComment"
@@ -9241,28 +9440,28 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/flutter_crowdplay\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "Dictionary",
-      "offset": 11947,
+      "offset": 12255,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/flutter_crowdplay\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "BooleanLiteral",
-      "offset": 13758,
+      "offset": 14052,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/flutter_crowdplay\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "StringLiteral",
-      "offset": 1483,
+      "offset": 1520,
       "length": 7,
       "value": "\"FirebaseStorage.Storage\""
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/flutter_crowdplay\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageComponent.swift",
       "kind": "Dictionary",
-      "offset": 1346,
+      "offset": 1451,
       "length": 3,
       "value": "[]"
     },
@@ -9577,14 +9776,14 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/flutter_crowdplay\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageObservableTask.swift",
       "kind": "StringLiteral",
-      "offset": 1063,
+      "offset": 987,
       "length": 21,
       "value": "\"FirebaseStorage.StorageObservableTask\""
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/flutter_crowdplay\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTask.swift",
       "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 1088,
       "length": 11,
       "value": "\"FirebaseStorage.StorageTask\""
     },
@@ -9619,7 +9818,7 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/flutter_crowdplay\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
       "kind": "StringLiteral",
-      "offset": 1327,
+      "offset": 1253,
       "length": 17,
       "value": "\"FirebaseStorage.StorageUploadTask\""
     }

@@ -259,7 +259,7 @@ using UInt = size_t;
 
 /// Firebase Storage is a service that supports uploading and downloading binary objects,
 /// such as images, videos, and other files to Google Cloud Storage. Instances of <code>Storage</code>
-/// are not thread-safe.
+/// are not thread-safe, but can be accessed from any thread.
 /// If you call <code>Storage.storage()</code>, the instance will initialize with the default <code>FirebaseApp</code>,
 /// <code>FirebaseApp.app()</code>, and the storage location will come from the provided
 /// <code>GoogleService-Info.plist</code>.
@@ -311,6 +311,9 @@ SWIFT_CLASS_NAMED("Storage")
 /// The maximum time in seconds to retry operations other than upload and download if a failure occurs.
 /// Defaults to 2 minutes (120 seconds).
 @property (nonatomic) NSTimeInterval maxOperationRetryTime;
+/// Specify the maximum upload chunk size. Values less than 256K (262144) will be rounded up to 256K. Values
+/// above 256K will be rounded down to the nearest 256K multiple. The default is no maximum.
+@property (nonatomic) int64_t uploadChunkSizeBytes;
 /// A <code>DispatchQueue</code> that all developer callbacks are fired on. Defaults to the main queue.
 @property (nonatomic, strong) dispatch_queue_t _Nonnull callbackQueue;
 /// Creates a <code>StorageReference</code> initialized at the root Firebase Storage location.
@@ -375,7 +378,7 @@ SWIFT_PROTOCOL_NAMED("StorageTaskManagement")
 /// for metadata and errors.
 /// Callbacks are always fired on the developer-specified callback queue.
 /// If no queue is specified, it defaults to the main queue.
-/// This class is not thread safe, so only call methods on the main thread.
+/// This class is thread-safe.
 SWIFT_CLASS_NAMED("StorageTask")
 @interface FIRStorageTask : NSObject
 /// An immutable view of the task and associated metadata, progress, error, etc.
@@ -390,7 +393,6 @@ enum FIRStorageTaskStatus : NSInteger;
 /// in task state.
 /// Observers produce a <code>StorageHandle</code>, which is used to keep track of and remove specific
 /// observers at a later date.
-/// This class is not thread safe and can only be called on the main thread.
 SWIFT_CLASS_NAMED("StorageObservableTask")
 @interface FIRStorageObservableTask : FIRStorageTask
 /// Observes changes in the upload status: Resume, Pause, Progress, Success, and Failure.
@@ -423,7 +425,6 @@ SWIFT_CLASS_NAMED("StorageObservableTask")
 /// Downloads can currently be returned as <code>Data</code> in memory, or as a <code>URL</code> to a file on disk.
 /// Downloads are performed on a background queue, and callbacks are raised on the developer
 /// specified <code>callbackQueue</code> in Storage, or the main queue if left unspecified.
-/// Currently all uploads must be initiated and managed on the main queue.
 SWIFT_CLASS_NAMED("StorageDownloadTask")
 @interface FIRStorageDownloadTask : FIRStorageObservableTask <FIRStorageTaskManagement>
 /// Prepares a task and begins execution.
@@ -802,7 +803,6 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FIRStorageTaskStatus, "StorageTaskStatus", o
 /// Uploads can be initialized from <code>Data</code> in memory, or a URL to a file on disk.
 /// Uploads are performed on a background queue, and callbacks are raised on the developer
 /// specified <code>callbackQueue</code> in Storage, or the main queue if unspecified.
-/// Currently all uploads must be initiated and managed on the main queue.
 SWIFT_CLASS_NAMED("StorageUploadTask")
 @interface FIRStorageUploadTask : FIRStorageObservableTask <FIRStorageTaskManagement>
 /// Prepares a task and begins execution.
@@ -1084,7 +1084,7 @@ using UInt = size_t;
 
 /// Firebase Storage is a service that supports uploading and downloading binary objects,
 /// such as images, videos, and other files to Google Cloud Storage. Instances of <code>Storage</code>
-/// are not thread-safe.
+/// are not thread-safe, but can be accessed from any thread.
 /// If you call <code>Storage.storage()</code>, the instance will initialize with the default <code>FirebaseApp</code>,
 /// <code>FirebaseApp.app()</code>, and the storage location will come from the provided
 /// <code>GoogleService-Info.plist</code>.
@@ -1136,6 +1136,9 @@ SWIFT_CLASS_NAMED("Storage")
 /// The maximum time in seconds to retry operations other than upload and download if a failure occurs.
 /// Defaults to 2 minutes (120 seconds).
 @property (nonatomic) NSTimeInterval maxOperationRetryTime;
+/// Specify the maximum upload chunk size. Values less than 256K (262144) will be rounded up to 256K. Values
+/// above 256K will be rounded down to the nearest 256K multiple. The default is no maximum.
+@property (nonatomic) int64_t uploadChunkSizeBytes;
 /// A <code>DispatchQueue</code> that all developer callbacks are fired on. Defaults to the main queue.
 @property (nonatomic, strong) dispatch_queue_t _Nonnull callbackQueue;
 /// Creates a <code>StorageReference</code> initialized at the root Firebase Storage location.
@@ -1200,7 +1203,7 @@ SWIFT_PROTOCOL_NAMED("StorageTaskManagement")
 /// for metadata and errors.
 /// Callbacks are always fired on the developer-specified callback queue.
 /// If no queue is specified, it defaults to the main queue.
-/// This class is not thread safe, so only call methods on the main thread.
+/// This class is thread-safe.
 SWIFT_CLASS_NAMED("StorageTask")
 @interface FIRStorageTask : NSObject
 /// An immutable view of the task and associated metadata, progress, error, etc.
@@ -1215,7 +1218,6 @@ enum FIRStorageTaskStatus : NSInteger;
 /// in task state.
 /// Observers produce a <code>StorageHandle</code>, which is used to keep track of and remove specific
 /// observers at a later date.
-/// This class is not thread safe and can only be called on the main thread.
 SWIFT_CLASS_NAMED("StorageObservableTask")
 @interface FIRStorageObservableTask : FIRStorageTask
 /// Observes changes in the upload status: Resume, Pause, Progress, Success, and Failure.
@@ -1248,7 +1250,6 @@ SWIFT_CLASS_NAMED("StorageObservableTask")
 /// Downloads can currently be returned as <code>Data</code> in memory, or as a <code>URL</code> to a file on disk.
 /// Downloads are performed on a background queue, and callbacks are raised on the developer
 /// specified <code>callbackQueue</code> in Storage, or the main queue if left unspecified.
-/// Currently all uploads must be initiated and managed on the main queue.
 SWIFT_CLASS_NAMED("StorageDownloadTask")
 @interface FIRStorageDownloadTask : FIRStorageObservableTask <FIRStorageTaskManagement>
 /// Prepares a task and begins execution.
@@ -1627,7 +1628,6 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FIRStorageTaskStatus, "StorageTaskStatus", o
 /// Uploads can be initialized from <code>Data</code> in memory, or a URL to a file on disk.
 /// Uploads are performed on a background queue, and callbacks are raised on the developer
 /// specified <code>callbackQueue</code> in Storage, or the main queue if unspecified.
-/// Currently all uploads must be initiated and managed on the main queue.
 SWIFT_CLASS_NAMED("StorageUploadTask")
 @interface FIRStorageUploadTask : FIRStorageObservableTask <FIRStorageTaskManagement>
 /// Prepares a task and begins execution.
