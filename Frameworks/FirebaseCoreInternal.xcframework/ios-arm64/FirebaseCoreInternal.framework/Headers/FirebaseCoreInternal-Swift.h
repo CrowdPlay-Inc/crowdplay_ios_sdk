@@ -265,7 +265,8 @@ SWIFT_CLASS_NAMED("_ObjC_HeartbeatController")
 /// Asynchronously logs a new heartbeat, if needed.
 /// note:
 /// This API is thread-safe.
-/// \param agent The string agent (i.e. Firebase User Agent) to associate the logged heartbeat with.
+/// \param agent The string agent (i.e. Firebase User Agent) to associate the logged
+/// heartbeat with.
 ///
 - (void)log:(NSString * _Nonnull)agent;
 /// Synchronously flushes heartbeats from storage into a heartbeats payload.
@@ -288,7 +289,8 @@ SWIFT_CLASS_NAMED("_ObjC_HeartbeatController")
 @end
 
 
-/// A model object representing a payload of heartbeat data intended for sending in network requests.
+/// A model object representing a payload of heartbeat data intended for sending in network
+/// requests.
 SWIFT_CLASS_NAMED("_ObjC_HeartbeatsPayload")
 @interface FIRHeartbeatsPayload : NSObject
 /// Returns a processed payload string intended for use in a HTTP header.
