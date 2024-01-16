@@ -49,19 +49,19 @@ PODS:
     - nanopb/encode (= 2.30909.0)
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
-  - Nimble (9.2.1)
-  - Nimble-Snapshots (9.3.0):
-    - Nimble-Snapshots/Core (= 9.3.0)
-  - Nimble-Snapshots/Core (9.3.0):
+  - Nimble (12.3.0)
+  - Nimble-Snapshots (9.6.1):
+    - Nimble-Snapshots/Core (= 9.6.1)
+  - Nimble-Snapshots/Core (9.6.1):
     - iOSSnapshotTestCase (~> 8.0)
-    - Nimble
+    - Nimble (~> 12.0)
   - PromisesObjC (2.1.1)
   - Quick (2.2.1)
 
 DEPENDENCIES:
   - crowdplaysdk (from `../`)
-  - Nimble (~> 9.2)
-  - Nimble-Snapshots (~> 9.2)
+  - Nimble (~> 12.0)
+  - Nimble-Snapshots (~> 9.6.1)
   - Quick (~> 2.2.0)
 
 SPEC REPOS:
@@ -85,11 +85,11 @@ SPEC CHECKSUMS:
   GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
-  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
-  Nimble-Snapshots: 97270cd48f0e6eebd6c80ccf7dd35d4e57fb9997
+  Nimble: f8a8219d16f176429b951e8f7e72df5c23ceddc0
+  Nimble-Snapshots: 4988d1cf2fe062f13bd2eb87c4279770785e682b
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
-PODFILE CHECKSUM: 69c2b08693de0980675c3ed5c4c5d89668ea884e
+PODFILE CHECKSUM: c81e3773fc61362d1d2e87ea0559febced5731b1
 
 COCOAPODS: 1.14.3
