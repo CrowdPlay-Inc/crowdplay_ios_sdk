@@ -6,7 +6,11 @@
 	<dict>
 		<key>Headers/FIRAppCheckInterop.h</key>
 		<data>
-		g7AaHmUid8R6vXHLNkNMbwz0sb8=
+		ArtWjMctu/kUnhE2Spb5f5H/NdU=
+		</data>
+		<key>Headers/FIRAppCheckProtocol.h</key>
+		<data>
+		6cD24frvGtJ0pQkEbPDw8SrKh/w=
 		</data>
 		<key>Headers/FIRAppCheckTokenResultInterop.h</key>
 		<data>
@@ -14,11 +18,15 @@
 		</data>
 		<key>Headers/FirebaseAppCheckInterop-umbrella.h</key>
 		<data>
-		bT4xtOGQirYawIL0t7yP3xnehnA=
+		JtPIv5oxj17Yr+fnkFZEnQn/KgI=
+		</data>
+		<key>Headers/FirebaseAppCheckInterop.h</key>
+		<data>
+		4eBwqw6ARXvbgptPySByzgIzQ/k=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		125RXv8n+k0Xntp4EjZSM/jHl0U=
+		ynDzg6aFX8yXhfHnj4hj9+wrMTU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,7 +39,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tTsxi+fQ0MNeqU6ddyXux+BPLWTIgDMVJvmwsP1FHG8=
+			lqyjwMs5fbRbmoQd91XB9IOBIqM6HuxjOQBtV81cigM=
+			</data>
+		</dict>
+		<key>Headers/FIRAppCheckProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IYZ44gds65zIwMSW6bdnH8rlTWK9nc9Jp/HbkN8GI/4=
 			</data>
 		</dict>
 		<key>Headers/FIRAppCheckTokenResultInterop.h</key>
@@ -45,7 +60,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zOqBsdyNEucZTp9uIEIAdLxaknNrjPXr7zl2FPgzdJk=
+			2qbA21frf+mmswWvnMh9zdhzYnCzEFHHs3KxCDQDA/E=
+			</data>
+		</dict>
+		<key>Headers/FirebaseAppCheckInterop.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vj9HfO3aYpmAZkBz1p1QC2YoPCy0C/IcHxBQXvcZfI4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
