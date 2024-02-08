@@ -322,7 +322,6 @@
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/flutter_inappwebview.framework/flutter_inappwebview",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/flutter_local_notifications.framework/flutter_local_notifications",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/GoogleDataTransport.framework/GoogleDataTransport",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/GoogleUtilities.framework/GoogleUtilities",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/GTMSessionFetcher.framework/GTMSessionFetcher",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/image_picker_ios.framework/image_picker_ios",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/leveldb.framework/leveldb",
