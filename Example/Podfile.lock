@@ -1,5 +1,5 @@
 PODS:
-  - crowdplaysdk (0.1.57):
+  - crowdplaysdk (0.1.60):
     - GoogleDataTransport (~> 9.2.0)
     - GoogleUtilities (~> 7.8.0)
   - GoogleDataTransport (9.2.0):
@@ -80,7 +80,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: 962985321806e56619fe611175d057e8164c6f97
+  crowdplaysdk: 888076673220e10aef46cd009ad61e887482da2e
   GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
   GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
@@ -92,4 +92,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: c81e3773fc61362d1d2e87ea0559febced5731b1
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
