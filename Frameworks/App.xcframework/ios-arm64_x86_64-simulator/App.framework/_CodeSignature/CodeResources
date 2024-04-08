@@ -6,11 +6,15 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		85iaADE5tc/NukRC+KGdiZaZ0ZA=
+		T7ae0s1yqPVdrLK0y5gqABVb1PU=
+		</data>
+		<key>flutter_assets/AssetManifest.bin</key>
+		<data>
+		aOQ6KIv/RdQhm35ui3dzBWHI7zw=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		1EWRbEqQ+nkbeuqO6fDXKifB8ZY=
+		yVJ9yHUvyjAKoyFAT98T/frHMNY=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,7 +22,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		2KYMb+Ut899Ch9V3euYiu8jXH0M=
+		CuNnNyxS3RplgiLXSKcEKYJ4uFQ=
 		</data>
 		<key>flutter_assets/assets/account_freeze.json</key>
 		<data>
@@ -3864,6 +3868,14 @@
 		<data>
 		58oIL3TK2fgTLIyujMx+uWdYvw4=
 		</data>
+		<key>flutter_assets/assets/assetsByTeam/penguins/penguins_launcher_original.png</key>
+		<data>
+		RuzgRq2mEzZi80BhNnvBVCyl7k0=
+		</data>
+		<key>flutter_assets/assets/assetsByTeam/penguins/penguins_launcher_white.png</key>
+		<data>
+		wcrY/HxBqwloHAVKtvA3w6FWpX0=
+		</data>
 		<key>flutter_assets/assets/assetsByTeam/penguins/splash.png</key>
 		<data>
 		YvXL6eTKE10RinDdsNThDJesfI0=
@@ -5430,7 +5442,7 @@
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
-		hHt1eTam6YJ9h9Ge43sQhF6BTvo=
+		MfpUBjLJ7tsGpziOiybr8Q11PMU=
 		</data>
 		<key>flutter_assets/fonts/anonymous_mono.ttf</key>
 		<data>
@@ -5478,16 +5490,23 @@
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
-		Z/DhfUUahgFGsthszkW1YubfdU8=
+		hBZgIGdEvhX+IvXd5bjkjJVu6+s=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>flutter_assets/AssetManifest.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Pk20xUyBQVtCNqpB0PP97Tdyf24PX4Agctzb0oCd7XY=
+			</data>
+		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yIdmOMMf4gBpWnZdEPo2gD99tjEmmLBavGbGyd3VeM8=
+			S7G6wB6OrDjXDSfEYHtUWCGLeetWxyCXkBxSD/HJ0jc=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -5501,7 +5520,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hbPJkwSuUpbat+jhCv3l3jKWJCikItbRY7V6Cu6dZ/w=
+			BpCqmUl//j4RDTevi15007hMRxD0YOy0VSzfl8nTh0Y=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/account_freeze.json</key>
@@ -12231,6 +12250,20 @@
 			TzgjttltBMUK6LkXZAFhZo7asEA3SNeN3lSMtJBfYLA=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/assetsByTeam/penguins/penguins_launcher_original.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lSlSZG5fkLHbz9lgv5Ms1rcQjFEpb8gPrPyigDt8zkI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/assetsByTeam/penguins/penguins_launcher_white.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G1qXXScLfFxyA3mCEw5o6P3G3sR9IRXCd8NJgtSVYvc=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/assetsByTeam/penguins/splash.png</key>
 		<dict>
 			<key>hash2</key>
@@ -14972,7 +15005,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SyW0Q99kA7KJ2Co9TsNA2bP+w+CoYjexG66Rfl5W0ZU=
+			BRGeaFgtX7VC2ot+UmYggaiFV5aD6eq4mRZG/HOL8qU=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/anonymous_mono.ttf</key>
@@ -15056,7 +15089,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hgGex10sKxTSC95tzLdljzYd3qnntuSb96YXXaU9Nlc=
+			0T+w183eMSTh5phjUfkXjg4ZpPYnVqkH4Gv3Ge4QCh8=
 			</data>
 		</dict>
 	</dict>
