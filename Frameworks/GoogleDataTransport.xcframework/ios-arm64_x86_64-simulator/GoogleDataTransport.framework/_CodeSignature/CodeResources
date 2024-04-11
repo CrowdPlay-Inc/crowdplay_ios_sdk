@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>GoogleDataTransport_Privacy.bundle/Info.plist</key>
+		<data>
+		qyhCQDzD99LJ600WBJCGNjWDDis=
+		</data>
+		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		WXQUJr75eMRgiVnLGyf8Gr3uLUU=
+		</data>
 		<key>Headers/GDTCORClock.h</key>
 		<data>
 		sG7akfwMxggtOPYkuBxhbh+65R8=
@@ -50,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vK64HmxIdLuwP87WC4x9m5smW3k=
+		VLH11OXXRTQ5bgxTgSC8Z9/TsjI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,6 +67,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>GoogleDataTransport_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XZQRzFpK+xQh+xFiE5F2n4x1RCCQ23PeBY11Q/fJ564=
+			</data>
+		</dict>
+		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z7s8T3ambVNpi66R9xEMAPIUjm5vE619MlkpCbwBDlE=
+			</data>
+		</dict>
 		<key>Headers/GDTCORClock.h</key>
 		<dict>
 			<key>hash2</key>
