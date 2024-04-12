@@ -1,11 +1,6 @@
 PODS:
-  - crowdplaysdk (0.1.57):
-    - GoogleDataTransport (~> 9.2.0)
+  - crowdplaysdk (0.1.66):
     - GoogleUtilities (~> 7.8.0)
-  - GoogleDataTransport (9.2.0):
-    - GoogleUtilities/Environment (~> 7.7)
-    - nanopb (< 2.30910.0, >= 2.30908.0)
-    - PromisesObjC (< 3.0, >= 1.2)
   - GoogleUtilities (7.8.0):
     - GoogleUtilities/AppDelegateSwizzler (= 7.8.0)
     - GoogleUtilities/Environment (= 7.8.0)
@@ -44,11 +39,6 @@ PODS:
   - iOSSnapshotTestCase/Core (8.0.0)
   - iOSSnapshotTestCase/SwiftSupport (8.0.0):
     - iOSSnapshotTestCase/Core
-  - nanopb (2.30909.0):
-    - nanopb/decode (= 2.30909.0)
-    - nanopb/encode (= 2.30909.0)
-  - nanopb/decode (2.30909.0)
-  - nanopb/encode (2.30909.0)
   - Nimble (12.3.0)
   - Nimble-Snapshots (9.6.1):
     - Nimble-Snapshots/Core (= 9.6.1)
@@ -66,10 +56,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - GoogleDataTransport
     - GoogleUtilities
     - iOSSnapshotTestCase
-    - nanopb
     - Nimble
     - Nimble-Snapshots
     - PromisesObjC
@@ -80,11 +68,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: 962985321806e56619fe611175d057e8164c6f97
-  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
+  crowdplaysdk: 6c12cc6c7324aaa2c67e0938ef1d2dfe15b13a35
   GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
-  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   Nimble: f8a8219d16f176429b951e8f7e72df5c23ceddc0
   Nimble-Snapshots: 4988d1cf2fe062f13bd2eb87c4279770785e682b
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
@@ -92,4 +78,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: c81e3773fc61362d1d2e87ea0559febced5731b1
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
