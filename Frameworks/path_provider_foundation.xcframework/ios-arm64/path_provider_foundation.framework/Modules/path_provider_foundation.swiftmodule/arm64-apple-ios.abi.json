@@ -170,128 +170,205 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 491,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 521,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 542,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 561,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 577,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 491,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 521,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 542,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 561,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 577,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 491,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 521,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 542,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 561,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 577,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
+      "offset": 698,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 707,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 40,
+      "value": "\"Stacktrace: \""
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 779,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 956,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 986,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1007,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1026,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1042,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1070,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 956,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 986,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1007,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1026,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1042,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1070,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 956,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 986,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1007,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1026,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1042,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1070,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 1739,
       "length": 53,
       "value": "\"dev.flutter.pigeon.PathProviderApi.getDirectoryPath\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/messages.g.swift",
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1431,
+      "offset": 2008,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.1.3\/ios\/Classes\/PathProviderPlugin.swift",
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 2349,
+      "length": 53,
+      "value": "\"dev.flutter.pigeon.PathProviderApi.getContainerPath\""
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2608,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/PathProviderPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 2313,
+      "offset": 2682,
       "length": 4,
       "value": "true"
     }
