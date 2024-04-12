@@ -1,0 +1,39 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name patrol
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Flutter
+import Foundation
+import Swift
+import Telegraph
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import patrol
+@objc public class ObjCRunDartTestResponse : ObjectiveC.NSObject {
+  @objc dynamic final public let passed: Swift.Bool
+  @objc dynamic final public let details: Swift.String?
+  @objc public init(passed: Swift.Bool, details: Swift.String?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ObjCPatrolAppServiceClient : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public func listDartTests(completion: @escaping ([Swift.String]?, (any Swift.Error)?) -> Swift.Void)
+  @objc public func runDartTest(name: Swift.String, completion: @escaping (patrol.ObjCRunDartTestResponse?, (any Swift.Error)?) -> Swift.Void)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PatrolServer : ObjectiveC.NSObject {
+  @objc public var appReady: Swift.Bool {
+    get
+  }
+  @objc override dynamic public init()
+  @objc public func start() throws
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class SwiftPatrolPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc override dynamic public init()
+  @objc deinit
+}
