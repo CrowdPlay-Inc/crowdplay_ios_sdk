@@ -4,6 +4,13 @@ platform :ios, '13.0'
 
 target 'crowdplaysdk_Example' do
   pod 'crowdplaysdk', :path => '../'
+  
+  pod 'Firebase', '~> 10.22.0'
+  pod 'FirebaseAuth', '~> 10.22.0'
+  pod 'FirebaseStorage', '~> 10.22.0'
+  pod 'FirebaseDatabase', '~> 10.22.0'
+  pod 'FirebaseMessaging', '~> 10.22.0'
+  pod 'GoogleUtilities', '~> 7.11'
 
   target 'crowdplaysdk_Tests' do
     inherit! :search_paths
