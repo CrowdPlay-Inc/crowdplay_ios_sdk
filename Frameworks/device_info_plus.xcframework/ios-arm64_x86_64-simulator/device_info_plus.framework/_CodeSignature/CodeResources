@@ -4,17 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/FLTDeviceInfoPlusPlugin.h</key>
+		<key>Headers/FPPDeviceInfoPlusPlugin.h</key>
 		<data>
-		MuKvllVDKBrqu2X3mVIF6d8yHzc=
+		jK2eBNr3bLIjDaI4U4nnxjZLcsY=
 		</data>
 		<key>Headers/device_info_plus-umbrella.h</key>
 		<data>
-		ESr9FbMDepmRlAj56tGUeR+R4hE=
+		XE4+oAC2CAkwn8Qxbo5KAAb4uH4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FfHQm1yPLKRofBHhPWr7bTBTyxU=
+		TmMVnkoIIOpVdBawisLOa8hvwaM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -23,18 +23,18 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/FLTDeviceInfoPlusPlugin.h</key>
+		<key>Headers/FPPDeviceInfoPlusPlugin.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oLKG5keLiphOCy9dV37slAcn6DDhTnj4PdsYOVwZqZE=
+			4Pcm+PvvGkUNIC+muxNwlwDn24fmlZvG7kR+9sMdHhs=
 			</data>
 		</dict>
 		<key>Headers/device_info_plus-umbrella.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IuWlM8wUsnlY8IK5x/6KmXTNersjEzZqd7CLMtnTzE0=
+			ExigpzWWLa5VTGMC3bGfQUocP6qw5urSvpi1GrKbgnk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
