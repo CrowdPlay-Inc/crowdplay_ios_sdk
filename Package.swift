@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "crowdplay_ios_sdk",
-            targets: ["crowdplay_ios_sdk", "App", "audioplayers_darwin", "CocoaAsyncSocket", "device_info_plus", "firebase_auth", "firebase_core", "firebase_database", "firebase_messaging", "firebase_storage", "Flutter", "flutter_inappwebview", "flutter_local_notifications", "GTMSessionFetcher", "HTTPParserC", "image_picker_ios", "integration_test", "leveldb", "location", "MTBBarcodeScanner", "OrderedSet", "package_info", "path_provider_foundation", "patrol", "qr_code_scanner", "RecaptchaInterop", "share", "store_redirect", "Telegraph", "uni_links", "url_launcher_ios", "vibration"]),
+            targets: ["crowdplay_ios_sdk", "App", "audioplayers_darwin", "CocoaAsyncSocket", "device_info_plus", "firebase_auth", "firebase_core", "firebase_database", "firebase_messaging", "firebase_storage", "Flutter", "flutter_inappwebview", "flutter_local_notifications", "GTMSessionFetcher", "HTTPParserC", "image_picker_ios", "integration_test", "location", "MTBBarcodeScanner", "OrderedSet", "package_info", "path_provider_foundation", "patrol", "qr_code_scanner", "share", "store_redirect", "Telegraph", "uni_links", "url_launcher_ios", "vibration"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -92,10 +92,6 @@ let package = Package(
             path: "Frameworks/integration_test.xcframework"
         ),
         .binaryTarget(
-            name: "leveldb",
-            path: "Frameworks/leveldb.xcframework"
-        ),
-        .binaryTarget(
             name: "location",
             path: "Frameworks/location.xcframework"
         ),
@@ -122,10 +118,6 @@ let package = Package(
         .binaryTarget(
             name: "qr_code_scanner",
             path: "Frameworks/qr_code_scanner.xcframework"
-        ),
-        .binaryTarget(
-            name: "RecaptchaInterop",
-            path: "Frameworks/RecaptchaInterop.xcframework"
         ),
         .binaryTarget(
             name: "share",
