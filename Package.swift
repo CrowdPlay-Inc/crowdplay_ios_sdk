@@ -13,8 +13,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(name: "Firebase", url: "https://github.com/firebase/firebase-ios-sdk.git", from: "10.22.0")
-        .package(url: "https://github.com/google/GoogleUtilities.git", from: "7.11.")
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "10.22.0"),
+        .package(url: "https://github.com/google/GoogleUtilities.git", from: "7.11.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -22,10 +22,10 @@ let package = Package(
         .target(
             name: "crowdplay_ios_sdk",
             dependencies: [
-                .product(name: "FirebaseAuth", package: "Firebase")
-                .product(name: "FirebaseStorage", package: "Firebase")
-                .product(name: "FirebaseDatabase", package: "Firebase")
-                .product(name: "FirebaseMessaging", package: "Firebase")
+                .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
+                .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),
+                .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
+                .product(name: "FirebaseMessaging", package: "firebase-ios-sdk")
             ]),
         .binaryTarget(
             name: "App",
