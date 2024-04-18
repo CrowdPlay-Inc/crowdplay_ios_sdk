@@ -142,7 +142,7 @@ PODS:
   - GoogleUtilities/UserDefaults (7.13.0):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - GTMSessionFetcher/Core (3.3.2)
+  - GTMSessionFetcher/Core (3.4.0)
   - iOSSnapshotTestCase (8.0.0):
     - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
   - iOSSnapshotTestCase/Core (8.0.0)
@@ -165,7 +165,7 @@ PODS:
   - RecaptchaInterop (100.0.0)
 
 DEPENDENCIES:
-  - crowdplaysdk (from `../`)
+  - "crowdplaysdk (from `git@github.com:CrowdPlay-Inc/crowdplay_ios_sdk.git`, branch `master`)"
   - Nimble (~> 12.0)
   - Nimble-Snapshots (~> 9.6.1)
   - Quick (~> 2.2.0)
@@ -200,10 +200,16 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   crowdplaysdk:
-    :path: "../"
+    :branch: master
+    :git: "git@github.com:CrowdPlay-Inc/crowdplay_ios_sdk.git"
+
+CHECKOUT OPTIONS:
+  crowdplaysdk:
+    :commit: 6f60ffaee09f49e65fb3ceee603060d0fe12b04c
+    :git: "git@github.com:CrowdPlay-Inc/crowdplay_ios_sdk.git"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: a9784d22070e3744bfae075983a2e2d673f6cb1f
+  crowdplaysdk: 1c54fbde6c5b7b4578cad76f3c822263620647d0
   Firebase: 797fd7297b7e1be954432743a0b3f90038e45a71
   FirebaseAnalytics: 8d0ff929c63b7f72260f332b86ccf569776b75d3
   FirebaseAppCheckInterop: fecc08c89936c8acb1428d8088313aabedb348e4
@@ -220,7 +226,7 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: ccefe3eac9b0aa27f96066809fb1a7fe4b462626
   GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
   GoogleUtilities: d053d902a8edaa9904e1bd00c37535385b8ed152
-  GTMSessionFetcher: 0e876eea9782ec6462e91ab872711c357322c94f
+  GTMSessionFetcher: ed61055dc13f769533d057edc520a4cb8f41c324
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
   leveldb-library: e8eadf9008a61f9e1dde3978c086d2b6d9b9dc28
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
@@ -230,6 +236,6 @@ SPEC CHECKSUMS:
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: c81e3773fc61362d1d2e87ea0559febced5731b1
+PODFILE CHECKSUM: 6206ef64a179be7314b6b3db5cd583d512c557ad
 
 COCOAPODS: 1.15.2
