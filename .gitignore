@@ -22,6 +22,7 @@ DerivedData
 Example/Pods
 Example_SPM/Pods
 *.bak
+Example_SPM/crowdplay_ios_sdk/
 
 # Bundler
 .bundle
