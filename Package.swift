@@ -26,7 +26,6 @@ let package = Package(
                 .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
-                "App", "audioplayers_darwin", "CocoaAsyncSocket", "device_info_plus", "firebase_auth", "firebase_core", "firebase_database", "firebase_messaging", "firebase_storage", "Flutter", "flutter_inappwebview", "flutter_local_notifications", "GTMSessionFetcher", "HTTPParserC", "image_picker_ios", "integration_test", "location", "MTBBarcodeScanner", "OrderedSet", "package_info", "path_provider_foundation", "patrol", "qr_code_scanner", "share", "store_redirect", "Telegraph", "uni_links", "url_launcher_ios", "vibration"
             ]),
         .binaryTarget(
             name: "App",
