@@ -6058,12 +6058,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6073,7 +6073,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -6092,12 +6092,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -6239,12 +6239,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6254,7 +6254,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -6273,12 +6273,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -6326,7 +6326,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Foundation.Data?, Swift.Error?) -> ()",
+                "printedName": "(Foundation.Data?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -6336,7 +6336,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Foundation.Data?, Swift.Error?)",
+                    "printedName": "(Foundation.Data?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6355,12 +6355,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -6398,7 +6398,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -6408,7 +6408,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Foundation.URL?, Swift.Error?)",
+                    "printedName": "(Foundation.URL?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6427,12 +6427,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -6540,12 +6540,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.URL?, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.URL?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6555,7 +6555,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.URL?, Swift.Error?)",
+                        "printedName": "(Foundation.URL?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -6574,12 +6574,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -6620,7 +6620,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?) -> ()",
+                "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -6630,7 +6630,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?)",
+                    "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6649,12 +6649,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -6729,7 +6729,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?) -> ()",
+                "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -6739,7 +6739,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?)",
+                    "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6758,12 +6758,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -6812,7 +6812,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?) -> ()",
+                "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -6822,7 +6822,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?)",
+                    "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6841,12 +6841,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -6883,7 +6883,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -6893,7 +6893,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6912,12 +6912,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -6992,12 +6992,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7007,7 +7007,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -7026,12 +7026,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -7109,12 +7109,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7124,12 +7124,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -7685,7 +7685,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.URL, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Foundation.URL, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -7695,7 +7695,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.URL, Swift.Error>",
+                    "printedName": "Swift.Result<Foundation.URL, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7706,7 +7706,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -7745,7 +7745,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.Data, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Foundation.Data, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -7755,7 +7755,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.Data, Swift.Error>",
+                    "printedName": "Swift.Result<Foundation.Data, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7766,7 +7766,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -7799,7 +7799,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -7809,7 +7809,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7820,7 +7820,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -7864,7 +7864,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -7874,7 +7874,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7885,7 +7885,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -7923,7 +7923,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -7933,7 +7933,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7944,7 +7944,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -7976,7 +7976,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -7986,7 +7986,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7997,7 +7997,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -8051,7 +8051,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -8061,7 +8061,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8072,7 +8072,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -8127,7 +8127,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -8137,7 +8137,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8148,7 +8148,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -8187,7 +8187,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -8197,7 +8197,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8208,7 +8208,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -8247,7 +8247,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.URL, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Foundation.URL, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -8257,7 +8257,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.URL, Swift.Error>",
+                    "printedName": "Swift.Result<Foundation.URL, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8268,7 +8268,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -8901,12 +8901,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -8935,12 +8935,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -9441,307 +9441,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/AsyncAwait.swift",
-      "kind": "StringLiteral",
-      "offset": 3215,
-      "length": 40,
-      "value": "\"Internal Storage Error in putDataAsync\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/AsyncAwait.swift",
-      "kind": "StringLiteral",
-      "offset": 4940,
-      "length": 40,
-      "value": "\"Internal Storage Error in putFileAsync\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/AsyncAwait.swift",
-      "kind": "StringLiteral",
-      "offset": 6375,
-      "length": 38,
-      "value": "\"Internal Storage Error in writeAsync\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Result.swift",
-      "kind": "StringLiteral",
-      "offset": 1492,
-      "length": 39,
-      "value": "\"Internal failure in getResultCallback\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 2995,
-      "length": 73,
-      "value": "\"No \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 3022,
-      "length": 8,
-      "value": "\" instance found for Firebase app: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 3067,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 3817,
-      "length": 73,
-      "value": "\"No \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 3844,
-      "length": 8,
-      "value": "\" instance found for Firebase app: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 3889,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 5531,
-      "length": 67,
-      "value": "\"Internal error: Failed to initialize fetcherService callbackQueue\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 6971,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 7183,
-      "length": 85,
-      "value": "\"Provided bucket: `\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 7216,
-      "length": 1,
-      "value": "\"` does not match the Storage bucket of the current \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 7281,
-      "length": 30,
-      "value": "\"instance: `\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 7309,
-      "length": 1,
-      "value": "\"`\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 7496,
-      "length": 46,
-      "value": "\"Internal error finding StoragePath: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 7541,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 8504,
-      "length": 46,
-      "value": "\"Internal error finding StoragePath: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 8549,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 8651,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 8885,
-      "length": 63,
-      "value": "\"Provided bucket: `\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 8918,
-      "length": 1,
-      "value": "\"` does not match the Storage \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 8961,
-      "length": 52,
-      "value": "\"bucket of the current instance: `\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 9011,
-      "length": 1,
-      "value": "\"`\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9914,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 9940,
-      "length": 54,
-      "value": "\"Invalid host argument: Cannot connect to empty host.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10020,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 10046,
-      "length": 63,
-      "value": "\"Invalid port argument: Port must be greater or equal to zero.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 10173,
-      "length": 63,
-      "value": "\"Cannot connect to emulator after Storage SDK initialization. \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 10247,
-      "length": 57,
-      "value": "\"Call useEmulator(host:port:) before creating a Storage \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 10315,
-      "length": 35,
-      "value": "\"reference or trying to load data.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10377,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 10395,
-      "length": 6,
-      "value": "\"http\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10770,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 11155,
-      "length": 58,
-      "value": "\"Internal error: fetcherServiceForApp not yet configured.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 11671,
-      "length": 32,
-      "value": "\"firebasestorage.googleapis.com\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 11717,
-      "length": 7,
-      "value": "\"https\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11736,
-      "length": 3,
-      "value": "443"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 11875,
-      "length": 29,
-      "value": "\"com.google.firebase.storage\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "FloatLiteral",
-      "offset": 11933,
-      "length": 5,
-      "value": "600.0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "FloatLiteral",
-      "offset": 12064,
-      "length": 5,
-      "value": "120.0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "FloatLiteral",
-      "offset": 12194,
-      "length": 5,
-      "value": "600.0"
-    },
-    {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "Dictionary",
       "offset": 12512,
@@ -9750,129 +9449,10 @@
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "Dictionary",
-      "offset": 13517,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13737,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13840,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "BooleanLiteral",
       "offset": 14313,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "FloatLiteral",
-      "offset": 15431,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "FloatLiteral",
-      "offset": 15463,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15532,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15926,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "Array",
-      "offset": 15978,
-      "length": 8,
-      "value": "[\"http\"]"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 16134,
-      "length": 79,
-      "value": "\"No default Storage bucket found. Did you configure Firebase Storage properly?\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 16238,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 16292,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 16358,
-      "length": 17,
-      "value": "\"gs:\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 16373,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 16490,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 16508,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 16637,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 16666,
-      "length": 66,
-      "value": "\"Internal Error: Storage bucket cannot be initialized with a path\""
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
@@ -9887,27 +9467,6 @@
       "offset": 1451,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageComponent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1840,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageComponent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1916,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageComponent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2274,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageComponent.swift",
@@ -9989,58 +9548,9 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageDeleteTask.swift",
       "kind": "StringLiteral",
-      "offset": 1816,
-      "length": 8,
-      "value": "\"DELETE\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageDeleteTask.swift",
-      "kind": "StringLiteral",
-      "offset": 1990,
-      "length": 12,
-      "value": "\"DeleteTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageDeleteTask.swift",
-      "kind": "StringLiteral",
       "offset": 784,
       "length": 17,
       "value": "\"FirebaseStorage.StorageDeleteTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageDownloadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3656,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageDownloadTask.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3819,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageDownloadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3852,
-      "length": 11,
-      "value": "\"alt=media\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageDownloadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 4071,
-      "length": 23,
-      "value": "\"Resuming DownloadTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageDownloadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 4197,
-      "length": 23,
-      "value": "\"Starting DownloadTask\""
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
@@ -10136,426 +9646,6 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2016,
-      "length": 3,
-      "value": "400"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2051,
-      "length": 3,
-      "value": "401"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2094,
-      "length": 3,
-      "value": "402"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2135,
-      "length": 3,
-      "value": "403"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2175,
-      "length": 3,
-      "value": "404"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 2316,
-      "length": 21,
-      "value": "\"ResponseErrorDomain\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 2380,
-      "length": 19,
-      "value": "\"ResponseErrorCode\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 2440,
-      "length": 8,
-      "value": "\"bucket\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 2585,
-      "length": 8,
-      "value": "\"object\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 2645,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 2687,
-      "length": 14,
-      "value": "\"ResponseBody\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 3227,
-      "length": 21,
-      "value": "\"<unstringable data>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 3284,
-      "length": 36,
-      "value": "\"<nil request returned from server>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 3355,
-      "length": 56,
-      "value": "\"Invalid data returned from the server:\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 3410,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 3612,
-      "length": 20,
-      "value": "\"NSLocalizedFailure\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "Dictionary",
-      "offset": 4063,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4170,
-      "length": 8,
-      "value": "\"object\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4183,
-      "length": 32,
-      "value": "\"<object-entity-internal-error>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4237,
-      "length": 34,
-      "value": "\"Object \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4254,
-      "length": 4,
-      "value": "\" does not exist.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4328,
-      "length": 8,
-      "value": "\"bucket\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4341,
-      "length": 32,
-      "value": "\"<bucket-entity-internal-error>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4395,
-      "length": 34,
-      "value": "\"Bucket \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4412,
-      "length": 4,
-      "value": "\" does not exist.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4488,
-      "length": 9,
-      "value": "\"project\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4502,
-      "length": 33,
-      "value": "\"<project-entity-internal-error>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4557,
-      "length": 36,
-      "value": "\"Project \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4576,
-      "length": 4,
-      "value": "\" does not exist.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4649,
-      "length": 8,
-      "value": "\"bucket\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4662,
-      "length": 32,
-      "value": "\"<bucket-entity-internal-error>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4724,
-      "length": 80,
-      "value": "\"Quota for bucket \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4751,
-      "length": 8,
-      "value": "\" exceeded, please view quota on firebase.google.com.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4855,
-      "length": 41,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4869,
-      "length": 11,
-      "value": "\"totalSize\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4885,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4895,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4914,
-      "length": 46,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4928,
-      "length": 16,
-      "value": "\"maxAllowedSize\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4949,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4959,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 4982,
-      "length": 60,
-      "value": "\"Attempted to download object with size of \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5033,
-      "length": 5,
-      "value": "\" bytes, \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5053,
-      "length": 51,
-      "value": "\"which exceeds the maximum size of \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5095,
-      "length": 5,
-      "value": "\" bytes. \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5115,
-      "length": 77,
-      "value": "\"Consider raising the maximum download size, or using StorageReference.write\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5241,
-      "length": 64,
-      "value": "\"User is not authenticated, please authenticate using Firebase \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5316,
-      "length": 31,
-      "value": "\"Authentication and try again.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5402,
-      "length": 8,
-      "value": "\"bucket\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5415,
-      "length": 32,
-      "value": "\"<bucket-entity-internal-error>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5478,
-      "length": 8,
-      "value": "\"object\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5491,
-      "length": 32,
-      "value": "\"<object-entity-internal-error>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5545,
-      "length": 67,
-      "value": "\"User does not have permission to access gs:\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5600,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5610,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5664,
-      "length": 58,
-      "value": "\"Max retry time for operation exceeded, please try again.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5856,
-      "length": 53,
-      "value": "\"Uploaded\/downloaded object TODO has checksum: TODO \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 5920,
-      "length": 79,
-      "value": "\"which does not match server checksum: TODO. Please retry the upload\/download.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 6042,
-      "length": 37,
-      "value": "\"User cancelled the upload\/download.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 6199,
-      "length": 62,
-      "value": "\"An unknown error occurred, please check the server response.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
       "offset": 1165,
       "length": 1,
       "value": "-13000"
@@ -10638,291 +9728,11 @@
       "value": "-13050"
     },
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 7213,
-      "length": 8,
-      "value": "\"object\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 7307,
-      "length": 76,
-      "value": "\"Failed to decode object not found error: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 7382,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 7538,
-      "length": 8,
-      "value": "\"bucket\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 7632,
-      "length": 76,
-      "value": "\"Failed to decode bucket not found error: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 7707,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 7865,
-      "length": 9,
-      "value": "\"project\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 7960,
-      "length": 77,
-      "value": "\"Failed to decode project not found error: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 8036,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 8193,
-      "length": 8,
-      "value": "\"bucket\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 8274,
-      "length": 74,
-      "value": "\"Failed to decode quota exceeded error: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 8347,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 8577,
-      "length": 8,
-      "value": "\"bucket\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 8633,
-      "length": 8,
-      "value": "\"object\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 8727,
-      "length": 72,
-      "value": "\"Failed to decode unauthorized error: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 8798,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 9162,
-      "length": 11,
-      "value": "\"totalSize\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 9221,
-      "length": 16,
-      "value": "\"maxAllowedSize\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 9322,
-      "length": 80,
-      "value": "\"Failed to decode downloadSizeExceeded error: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 9401,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "StringLiteral",
-      "offset": 9736,
-      "length": 47,
-      "value": "\"Internal error converting ObjC Error to Swift\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 1871,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2042,
-      "length": 20,
-      "value": "\"GetDownloadURLTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2952,
-      "length": 36,
-      "value": "\"Failed to retrieve a download URL.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3473,
-      "length": 16,
-      "value": "\"downloadTokens\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3582,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3682,
-      "length": 3,
-      "value": "\",\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3715,
-      "length": 8,
-      "value": "\"bucket\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3728,
-      "length": 25,
-      "value": "\"<error: missing bucket>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3780,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3802,
-      "length": 28,
-      "value": "\"<error: missing path name>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3850,
-      "length": 58,
-      "value": "\"\/v0\/b\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3866,
-      "length": 1,
-      "value": "\"\/o\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3907,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 4302,
-      "length": 5,
-      "value": "\"alt\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 4316,
-      "length": 7,
-      "value": "\"media\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 4364,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4399,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 25,
       "value": "\"FirebaseStorage.StorageGetDownloadURLTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetMetadataTask.swift",
-      "kind": "StringLiteral",
-      "offset": 1924,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetMetadataTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2095,
-      "length": 17,
-      "value": "\"GetMetadataTask\""
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetMetadataTask.swift",
@@ -10934,128 +9744,9 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageListResult.swift",
       "kind": "StringLiteral",
-      "offset": 1672,
-      "length": 10,
-      "value": "\"prefixes\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageListResult.swift",
-      "kind": "StringLiteral",
-      "offset": 1824,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageListResult.swift",
-      "kind": "StringLiteral",
-      "offset": 2031,
-      "length": 7,
-      "value": "\"items\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageListResult.swift",
-      "kind": "StringLiteral",
-      "offset": 2134,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageListResult.swift",
-      "kind": "StringLiteral",
-      "offset": 2249,
-      "length": 15,
-      "value": "\"nextPageToken\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageListResult.swift",
-      "kind": "StringLiteral",
       "offset": 732,
       "length": 17,
       "value": "\"FirebaseStorage.StorageListResult\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3017,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3041,
-      "length": 8,
-      "value": "\"prefix\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3053,
-      "length": 12,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3063,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3300,
-      "length": 11,
-      "value": "\"delimiter\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3315,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3681,
-      "length": 12,
-      "value": "\"maxResults\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3697,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3709,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3798,
-      "length": 11,
-      "value": "\"pageToken\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 4034,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 4205,
-      "length": 10,
-      "value": "\"ListTask\""
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
@@ -11063,307 +9754,6 @@
       "offset": 774,
       "length": 15,
       "value": "\"FirebaseStorage.StorageListTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3351,
-      "length": 8,
-      "value": "\"bucket\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3375,
-      "length": 14,
-      "value": "\"cacheControl\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3411,
-      "length": 20,
-      "value": "\"contentDisposition\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3459,
-      "length": 17,
-      "value": "\"contentEncoding\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3501,
-      "length": 17,
-      "value": "\"contentLanguage\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3543,
-      "length": 13,
-      "value": "\"contentType\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3577,
-      "length": 9,
-      "value": "\"md5Hash\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3603,
-      "length": 6,
-      "value": "\"size\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3619,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3641,
-      "length": 12,
-      "value": "\"generation\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3669,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3673,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3687,
-      "length": 8,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3702,
-      "length": 16,
-      "value": "\"metageneration\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3738,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3742,
-      "length": 19,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3760,
-      "length": 8,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3775,
-      "length": 13,
-      "value": "\"timeCreated\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3829,
-      "length": 9,
-      "value": "\"updated\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3875,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3928,
-      "length": 10,
-      "value": "\"metadata\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "Dictionary",
-      "offset": 4557,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 4862,
-      "length": 8,
-      "value": "\"bucket\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 4886,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 4919,
-      "length": 14,
-      "value": "\"cacheControl\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 4989,
-      "length": 20,
-      "value": "\"contentDisposition\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5062,
-      "length": 17,
-      "value": "\"contentEncoding\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5132,
-      "length": 17,
-      "value": "\"contentLanguage\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5198,
-      "length": 13,
-      "value": "\"contentType\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5263,
-      "length": 10,
-      "value": "\"metadata\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5364,
-      "length": 6,
-      "value": "\"size\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5440,
-      "length": 12,
-      "value": "\"generation\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5526,
-      "length": 16,
-      "value": "\"metageneration\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5612,
-      "length": 13,
-      "value": "\"timeCreated\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5691,
-      "length": 9,
-      "value": "\"updated\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5728,
-      "length": 9,
-      "value": "\"md5Hash\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 5873,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6344,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 6600,
-      "length": 49,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 6618,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 6648,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7283,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7298,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
@@ -11387,438 +9777,11 @@
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8821,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageObservableTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2694,
-      "length": 45,
-      "value": "\"Invalid observer status requested, use one \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageObservableTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2752,
-      "length": 51,
-      "value": "\"of: Pause, Resume, Progress, Complete, or Failure\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageObservableTask.swift",
-      "kind": "Dictionary",
-      "offset": 5127,
-      "length": 3,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageObservableTask.swift",
       "kind": "StringLiteral",
       "offset": 990,
       "length": 21,
       "value": "\"FirebaseStorage.StorageObservableTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 1418,
-      "length": 7,
-      "value": "\"gs:\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 1535,
-      "length": 9,
-      "value": "\"http:\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 1566,
-      "length": 10,
-      "value": "\"https:\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 1811,
-      "length": 41,
-      "value": "\"Internal error: URL scheme must be one \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 1863,
-      "length": 32,
-      "value": "\"of gs:\/\/, http:\/\/, or https:\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 2293,
-      "length": 7,
-      "value": "\"gs:\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 2350,
-      "length": 7,
-      "value": "\"gs:\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 2396,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 2464,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2480,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2547,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2568,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2627,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2684,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 2801,
-      "length": 45,
-      "value": "\"Internal error: URI must be in the form of \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 2855,
-      "length": 32,
-      "value": "\"gs:\/\/<bucket>\/<path\/to\/object>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3548,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3576,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 3582,
-      "length": 4,
-      "value": "\"v0\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3613,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 3619,
-      "length": 3,
-      "value": "\"b\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 3676,
-      "length": 45,
-      "value": "\"Internal error: URL must be in the form of \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 3732,
-      "length": 77,
-      "value": "\"http[s]:\/\/<host>\/v0\/b\/<bucket>\/o\/<path\/to\/object>[?token=signed_url_params]\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3853,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3890,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4013,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4029,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 4077,
-      "length": 36,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 4091,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 4112,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4465,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 4526,
-      "length": 4,
-      "value": "\"\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 4538,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "Array",
-      "offset": 4668,
-      "length": 5,
-      "value": "[\"\/\"]"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5991,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6594,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 7187,
-      "length": 32,
-      "value": "\"gs:\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 7202,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 7215,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StoragePath.swift",
-      "kind": "StringLiteral",
-      "offset": 7218,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 1548,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 1812,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 15645,
-      "length": 51,
-      "value": "\"internal error: both listResult and error are nil\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18654,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18672,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 18918,
-      "length": 61,
-      "value": "\"Argument 'maxResults' must be between 1 and 1000 inclusive.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20550,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20568,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 20814,
-      "length": 61,
-      "value": "\"Argument 'maxResults' must be between 1 and 1000 inclusive.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25305,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 25578,
-      "length": 42,
-      "value": "\"gs:\/\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 25598,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 25616,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 25619,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 26424,
-      "length": 11,
-      "value": "\"totalSize\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
-      "kind": "StringLiteral",
-      "offset": 26505,
-      "length": 16,
-      "value": "\"maxAllowedSize\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2770,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTask.swift",
@@ -11830,233 +9793,9 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 1657,
-      "length": 17,
-      "value": "\"<State: Resume>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
-      "kind": "StringLiteral",
-      "offset": 1702,
-      "length": 62,
-      "value": "\"<State: Progress, Progress: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
-      "kind": "StringLiteral",
-      "offset": 1762,
-      "length": 1,
-      "value": "\">\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
-      "kind": "StringLiteral",
-      "offset": 1789,
-      "length": 17,
-      "value": "\"<State: Paused>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
-      "kind": "StringLiteral",
-      "offset": 1833,
-      "length": 18,
-      "value": "\"<State: Success>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
-      "kind": "StringLiteral",
-      "offset": 1878,
-      "length": 53,
-      "value": "\"<State: Failed, Error: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
-      "kind": "StringLiteral",
-      "offset": 1930,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
-      "kind": "StringLiteral",
-      "offset": 1958,
-      "length": 18,
-      "value": "\"<State: Unknown>\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
-      "kind": "StringLiteral",
       "offset": 842,
       "length": 19,
       "value": "\"FirebaseStorage.StorageTaskSnapshot\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 1097,
-      "length": 26,
-      "value": "\"ios\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 1122,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 1181,
-      "length": 28,
-      "value": "\"x-firebase-storage-version\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 1301,
-      "length": 18,
-      "value": "\"x-firebase-gmpid\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1559,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 1700,
-      "length": 21,
-      "value": "\"ResponseErrorDomain\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 1764,
-      "length": 19,
-      "value": "\"ResponseErrorCode\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 1865,
-      "length": 48,
-      "value": "\"User is not authenticated, please authenticate\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 1928,
-      "length": 47,
-      "value": "\" using Firebase Authentication and try again.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 2015,
-      "length": 23,
-      "value": "\"FIRStorageErrorDomain\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 2246,
-      "length": 19,
-      "value": "\"Firebase \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 2264,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 2329,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2505,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 2594,
-      "length": 21,
-      "value": "\"X-Firebase-AppCheck\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 2739,
-      "length": 19,
-      "value": "\"[FirebaseStorage]\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 2778,
-      "length": 13,
-      "value": "\"I-STR000001\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 2814,
-      "length": 49,
-      "value": "\"Failed to fetch AppCheck token. Error: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 2862,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 3134,
-      "length": 54,
-      "value": "\"Internal error: Should not call old authorizeRequest\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3691,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 3818,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3855,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 3899,
-      "length": 10,
-      "value": "\"Firebase\""
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
@@ -12075,62 +9814,6 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUpdateMetadataTask.swift",
       "kind": "StringLiteral",
-      "offset": 2141,
-      "length": 7,
-      "value": "\"PATCH\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUpdateMetadataTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2285,
-      "length": 33,
-      "value": "\"application\/json; charset=UTF-8\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUpdateMetadataTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2340,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUpdateMetadataTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2422,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUpdateMetadataTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2431,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUpdateMetadataTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2454,
-      "length": 16,
-      "value": "\"Content-Length\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUpdateMetadataTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2568,
-      "length": 17,
-      "value": "\"GetMetadataTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUpdateMetadataTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3468,
-      "length": 20,
-      "value": "\"UpdateMetadataTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUpdateMetadataTask.swift",
-      "kind": "StringLiteral",
       "offset": 785,
       "length": 25,
       "value": "\"FirebaseStorage.StorageUpdateMetadataTask\""
@@ -12138,275 +9821,9 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
       "kind": "StringLiteral",
-      "offset": 1840,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2143,
-      "length": 33,
-      "value": "\"application\/json; charset=UTF-8\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2198,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2278,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2287,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2310,
-      "length": 16,
-      "value": "\"Content-Length\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2418,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2454,
-      "length": 20,
-      "value": "\"www.googleapis.com\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2556,
-      "length": 16,
-      "value": "\"\/upload\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2571,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2678,
-      "length": 42,
-      "value": "\"Internal error enqueueing a Storage task\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2770,
-      "length": 35,
-      "value": "\"uploadType=resumable&name=\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2804,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 2932,
-      "length": 42,
-      "value": "\"Internal error enqueueing a Storage task\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3324,
-      "length": 17,
-      "value": "\"Data UploadTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 3465,
-      "length": 17,
-      "value": "\"File UploadTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 4895,
-      "length": 72,
-      "value": "\"Internal Error: fetcherCompletion returned with nil data and nil error\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8068,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 8151,
-      "length": 65,
-      "value": "\"File at URL: \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 8194,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 8197,
-      "length": 2,
-      "value": "\" is not reachable.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 8225,
-      "length": 69,
-      "value": "\" Ensure file URL is not a directory, symbolic link, or invalid url.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 8787,
-      "length": 78,
-      "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~!$'()*,=:@\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
       "offset": 1262,
       "length": 17,
       "value": "\"FirebaseStorage.StorageUploadTask\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2099,
-      "length": 3,
-      "value": "\"+\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2118,
-      "length": 5,
-      "value": "\"%2B\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2299,
-      "length": 78,
-      "value": "\"FirebaseStorage Internal Error: Failed to create url for \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2376,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2504,
-      "length": 37,
-      "value": "\"\/b\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2540,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2630,
-      "length": 36,
-      "value": "\"\/o\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2665,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2701,
-      "length": 4,
-      "value": "\"\/o\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2723,
-      "length": 35,
-      "value": "\"\/v0\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2742,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2757,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2982,
-      "length": 78,
-      "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~!$'()*,=:@\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 3286,
-      "length": 26,
-      "value": "\"application\/octet-stream\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 3659,
-      "length": 26,
-      "value": "\"application\/octet-stream\""
     }
   ]
 }

@@ -213,7 +213,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -241,7 +241,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -422,12 +422,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -437,12 +437,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -656,20 +656,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseDatabase\/FirebaseDatabase\/Swift\/Sources\/Codable\/ServerTimestamp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1715,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseDatabase\/FirebaseDatabase\/Swift\/Sources\/Codable\/ServerTimestamp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1952,
-      "length": 4,
-      "value": "1000"
-    }
-  ]
+  "ConstValues": []
 }

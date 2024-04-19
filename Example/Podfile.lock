@@ -1,5 +1,5 @@
 PODS:
-  - crowdplaysdk (0.1.69):
+  - crowdplaysdk (0.1.71):
     - Firebase (~> 10.22.0)
     - FirebaseAuth (~> 10.22.0)
     - FirebaseDatabase (~> 10.22.0)
@@ -205,11 +205,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   crowdplaysdk:
-    :commit: ce6a7cf48c34cb42948f833dce7178785892e320
+    :commit: 8b1922f47ef3c45f0d718d84c1dfee21ad685333
     :git: "git@github.com:CrowdPlay-Inc/crowdplay_ios_sdk.git"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: 1c54fbde6c5b7b4578cad76f3c822263620647d0
+  crowdplaysdk: 418e63e77e16fb1e7bb2bc286fbdf4ce63a93abc
   Firebase: 797fd7297b7e1be954432743a0b3f90038e45a71
   FirebaseAnalytics: 8d0ff929c63b7f72260f332b86ccf569776b75d3
   FirebaseAppCheckInterop: fecc08c89936c8acb1428d8088313aabedb348e4

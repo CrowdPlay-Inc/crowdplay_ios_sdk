@@ -936,7 +936,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -958,7 +958,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "FlutterPluginRegistrar",
-                    "printedName": "Flutter.FlutterPluginRegistrar",
+                    "printedName": "any Flutter.FlutterPluginRegistrar",
                     "usr": "c:objc(pl)FlutterPluginRegistrar"
                   }
                 ],
@@ -983,7 +983,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "FlutterPluginRegistrar",
-                    "printedName": "Flutter.FlutterPluginRegistrar",
+                    "printedName": "any Flutter.FlutterPluginRegistrar",
                     "usr": "c:objc(pl)FlutterPluginRegistrar"
                   }
                 ],
@@ -1426,7 +1426,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               },
               {
@@ -1461,7 +1461,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -1491,7 +1491,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -3769,6 +3769,7 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
