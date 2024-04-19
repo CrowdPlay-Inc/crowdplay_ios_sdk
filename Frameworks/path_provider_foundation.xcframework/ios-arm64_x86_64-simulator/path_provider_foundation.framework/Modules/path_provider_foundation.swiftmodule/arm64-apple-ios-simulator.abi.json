@@ -485,18 +485,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterBinaryMessenger",
-                "printedName": "Flutter.FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
                 "usr": "c:objc(pl)FlutterBinaryMessenger"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "path_provider_foundation.PathProviderApi?",
+                "printedName": "(any path_provider_foundation.PathProviderApi)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "PathProviderApi",
-                    "printedName": "path_provider_foundation.PathProviderApi",
+                    "printedName": "any path_provider_foundation.PathProviderApi",
                     "usr": "s:24path_provider_foundation15PathProviderApiP"
                   }
                 ],
@@ -578,7 +578,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],

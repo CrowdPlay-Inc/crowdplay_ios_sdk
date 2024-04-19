@@ -56,7 +56,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -171,48 +171,6 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 698,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 707,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 714,
-      "length": 20,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 733,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 40,
-      "value": "\"Stacktrace: \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 779,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 956,
       "length": 1,
@@ -336,41 +294,6 @@
       "offset": 1070,
       "length": 1,
       "value": "5"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 1739,
-      "length": 53,
-      "value": "\"dev.flutter.pigeon.PathProviderApi.getDirectoryPath\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2008,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 2349,
-      "length": 53,
-      "value": "\"dev.flutter.pigeon.PathProviderApi.getContainerPath\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2608,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.3.1\/darwin\/Classes\/PathProviderPlugin.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2682,
-      "length": 4,
-      "value": "true"
     }
   ]
 }

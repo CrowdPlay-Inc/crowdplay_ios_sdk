@@ -307,12 +307,12 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseSharedSwift.FirebaseDataEncoder.DateEncodingStrategy.Type) -> (@escaping (Foundation.Date, Swift.Encoder) throws -> ()) -> FirebaseSharedSwift.FirebaseDataEncoder.DateEncodingStrategy",
+                    "printedName": "(FirebaseSharedSwift.FirebaseDataEncoder.DateEncodingStrategy.Type) -> (@escaping (Foundation.Date, any Swift.Encoder) throws -> ()) -> FirebaseSharedSwift.FirebaseDataEncoder.DateEncodingStrategy",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(@escaping (Foundation.Date, Swift.Encoder) throws -> ()) -> FirebaseSharedSwift.FirebaseDataEncoder.DateEncodingStrategy",
+                        "printedName": "(@escaping (Foundation.Date, any Swift.Encoder) throws -> ()) -> FirebaseSharedSwift.FirebaseDataEncoder.DateEncodingStrategy",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -323,7 +323,7 @@
                           {
                             "kind": "TypeFunc",
                             "name": "Function",
-                            "printedName": "(Foundation.Date, Swift.Encoder) throws -> ()",
+                            "printedName": "(Foundation.Date, any Swift.Encoder) throws -> ()",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -333,7 +333,7 @@
                               {
                                 "kind": "TypeNominal",
                                 "name": "Tuple",
-                                "printedName": "(Foundation.Date, Swift.Encoder)",
+                                "printedName": "(Foundation.Date, any Swift.Encoder)",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
@@ -344,7 +344,7 @@
                                   {
                                     "kind": "TypeNominal",
                                     "name": "Encoder",
-                                    "printedName": "Swift.Encoder",
+                                    "printedName": "any Swift.Encoder",
                                     "usr": "s:s7EncoderP"
                                   }
                                 ]
@@ -520,12 +520,12 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseSharedSwift.FirebaseDataEncoder.DataEncodingStrategy.Type) -> (@escaping (Foundation.Data, Swift.Encoder) throws -> ()) -> FirebaseSharedSwift.FirebaseDataEncoder.DataEncodingStrategy",
+                    "printedName": "(FirebaseSharedSwift.FirebaseDataEncoder.DataEncodingStrategy.Type) -> (@escaping (Foundation.Data, any Swift.Encoder) throws -> ()) -> FirebaseSharedSwift.FirebaseDataEncoder.DataEncodingStrategy",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(@escaping (Foundation.Data, Swift.Encoder) throws -> ()) -> FirebaseSharedSwift.FirebaseDataEncoder.DataEncodingStrategy",
+                        "printedName": "(@escaping (Foundation.Data, any Swift.Encoder) throws -> ()) -> FirebaseSharedSwift.FirebaseDataEncoder.DataEncodingStrategy",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -536,7 +536,7 @@
                           {
                             "kind": "TypeFunc",
                             "name": "Function",
-                            "printedName": "(Foundation.Data, Swift.Encoder) throws -> ()",
+                            "printedName": "(Foundation.Data, any Swift.Encoder) throws -> ()",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -546,7 +546,7 @@
                               {
                                 "kind": "TypeNominal",
                                 "name": "Tuple",
-                                "printedName": "(Foundation.Data, Swift.Encoder)",
+                                "printedName": "(Foundation.Data, any Swift.Encoder)",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
@@ -557,7 +557,7 @@
                                   {
                                     "kind": "TypeNominal",
                                     "name": "Encoder",
-                                    "printedName": "Swift.Encoder",
+                                    "printedName": "any Swift.Encoder",
                                     "usr": "s:s7EncoderP"
                                   }
                                 ]
@@ -820,12 +820,12 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseSharedSwift.FirebaseDataEncoder.KeyEncodingStrategy.Type) -> (@escaping ([Swift.CodingKey]) -> Swift.CodingKey) -> FirebaseSharedSwift.FirebaseDataEncoder.KeyEncodingStrategy",
+                    "printedName": "(FirebaseSharedSwift.FirebaseDataEncoder.KeyEncodingStrategy.Type) -> (@escaping ([any Swift.CodingKey]) -> any Swift.CodingKey) -> FirebaseSharedSwift.FirebaseDataEncoder.KeyEncodingStrategy",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(@escaping ([Swift.CodingKey]) -> Swift.CodingKey) -> FirebaseSharedSwift.FirebaseDataEncoder.KeyEncodingStrategy",
+                        "printedName": "(@escaping ([any Swift.CodingKey]) -> any Swift.CodingKey) -> FirebaseSharedSwift.FirebaseDataEncoder.KeyEncodingStrategy",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -836,23 +836,23 @@
                           {
                             "kind": "TypeFunc",
                             "name": "Function",
-                            "printedName": "([Swift.CodingKey]) -> Swift.CodingKey",
+                            "printedName": "([any Swift.CodingKey]) -> any Swift.CodingKey",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "CodingKey",
-                                "printedName": "Swift.CodingKey",
+                                "printedName": "any Swift.CodingKey",
                                 "usr": "s:s9CodingKeyP"
                               },
                               {
                                 "kind": "TypeNominal",
                                 "name": "Array",
-                                "printedName": "[Swift.CodingKey]",
+                                "printedName": "[any Swift.CodingKey]",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "CodingKey",
-                                    "printedName": "Swift.CodingKey",
+                                    "printedName": "any Swift.CodingKey",
                                     "usr": "s:s9CodingKeyP"
                                   }
                                 ],
@@ -1268,7 +1268,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
+                "printedName": "any FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1300,7 +1300,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
+                    "printedName": "any FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1332,7 +1332,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
+                    "printedName": "any FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1804,12 +1804,12 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseSharedSwift.FirebaseDataDecoder.DateDecodingStrategy.Type) -> (@escaping (Swift.Decoder) throws -> Foundation.Date) -> FirebaseSharedSwift.FirebaseDataDecoder.DateDecodingStrategy",
+                    "printedName": "(FirebaseSharedSwift.FirebaseDataDecoder.DateDecodingStrategy.Type) -> (@escaping (any Swift.Decoder) throws -> Foundation.Date) -> FirebaseSharedSwift.FirebaseDataDecoder.DateDecodingStrategy",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(@escaping (Swift.Decoder) throws -> Foundation.Date) -> FirebaseSharedSwift.FirebaseDataDecoder.DateDecodingStrategy",
+                        "printedName": "(@escaping (any Swift.Decoder) throws -> Foundation.Date) -> FirebaseSharedSwift.FirebaseDataDecoder.DateDecodingStrategy",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1820,7 +1820,7 @@
                           {
                             "kind": "TypeFunc",
                             "name": "Function",
-                            "printedName": "(Swift.Decoder) throws -> Foundation.Date",
+                            "printedName": "(any Swift.Decoder) throws -> Foundation.Date",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -1831,7 +1831,7 @@
                               {
                                 "kind": "TypeNominal",
                                 "name": "Decoder",
-                                "printedName": "Swift.Decoder",
+                                "printedName": "any Swift.Decoder",
                                 "usr": "s:s7DecoderP"
                               }
                             ]
@@ -2005,12 +2005,12 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseSharedSwift.FirebaseDataDecoder.DataDecodingStrategy.Type) -> (@escaping (Swift.Decoder) throws -> Foundation.Data) -> FirebaseSharedSwift.FirebaseDataDecoder.DataDecodingStrategy",
+                    "printedName": "(FirebaseSharedSwift.FirebaseDataDecoder.DataDecodingStrategy.Type) -> (@escaping (any Swift.Decoder) throws -> Foundation.Data) -> FirebaseSharedSwift.FirebaseDataDecoder.DataDecodingStrategy",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(@escaping (Swift.Decoder) throws -> Foundation.Data) -> FirebaseSharedSwift.FirebaseDataDecoder.DataDecodingStrategy",
+                        "printedName": "(@escaping (any Swift.Decoder) throws -> Foundation.Data) -> FirebaseSharedSwift.FirebaseDataDecoder.DataDecodingStrategy",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -2021,7 +2021,7 @@
                           {
                             "kind": "TypeFunc",
                             "name": "Function",
-                            "printedName": "(Swift.Decoder) throws -> Foundation.Data",
+                            "printedName": "(any Swift.Decoder) throws -> Foundation.Data",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -2032,7 +2032,7 @@
                               {
                                 "kind": "TypeNominal",
                                 "name": "Decoder",
-                                "printedName": "Swift.Decoder",
+                                "printedName": "any Swift.Decoder",
                                 "usr": "s:s7DecoderP"
                               }
                             ]
@@ -2293,12 +2293,12 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseSharedSwift.FirebaseDataDecoder.KeyDecodingStrategy.Type) -> (@escaping ([Swift.CodingKey]) -> Swift.CodingKey) -> FirebaseSharedSwift.FirebaseDataDecoder.KeyDecodingStrategy",
+                    "printedName": "(FirebaseSharedSwift.FirebaseDataDecoder.KeyDecodingStrategy.Type) -> (@escaping ([any Swift.CodingKey]) -> any Swift.CodingKey) -> FirebaseSharedSwift.FirebaseDataDecoder.KeyDecodingStrategy",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(@escaping ([Swift.CodingKey]) -> Swift.CodingKey) -> FirebaseSharedSwift.FirebaseDataDecoder.KeyDecodingStrategy",
+                        "printedName": "(@escaping ([any Swift.CodingKey]) -> any Swift.CodingKey) -> FirebaseSharedSwift.FirebaseDataDecoder.KeyDecodingStrategy",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -2309,23 +2309,23 @@
                           {
                             "kind": "TypeFunc",
                             "name": "Function",
-                            "printedName": "([Swift.CodingKey]) -> Swift.CodingKey",
+                            "printedName": "([any Swift.CodingKey]) -> any Swift.CodingKey",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "CodingKey",
-                                "printedName": "Swift.CodingKey",
+                                "printedName": "any Swift.CodingKey",
                                 "usr": "s:s9CodingKeyP"
                               },
                               {
                                 "kind": "TypeNominal",
                                 "name": "Array",
-                                "printedName": "[Swift.CodingKey]",
+                                "printedName": "[any Swift.CodingKey]",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "CodingKey",
-                                    "printedName": "Swift.CodingKey",
+                                    "printedName": "any Swift.CodingKey",
                                     "usr": "s:s9CodingKeyP"
                                   }
                                 ],
@@ -2741,7 +2741,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
+                "printedName": "any FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2773,7 +2773,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
+                    "printedName": "any FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2805,7 +2805,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
+                    "printedName": "any FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3264,12 +3264,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.CodingKey]",
+                "printedName": "[any Swift.CodingKey]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CodingKey",
-                    "printedName": "Swift.CodingKey",
+                    "printedName": "any Swift.CodingKey",
                     "usr": "s:s9CodingKeyP"
                   }
                 ],
@@ -3278,7 +3278,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "Any.Type",
+                "printedName": "any Any.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3348,7 +3348,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "Swift.Decodable.Type",
+                "printedName": "any Swift.Decodable.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3374,7 +3374,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "Swift.Decodable.Type",
+                    "printedName": "any Swift.Decodable.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3405,6 +3405,7 @@
         "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
         "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
