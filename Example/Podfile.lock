@@ -1,5 +1,5 @@
 PODS:
-  - crowdplaysdk (0.1.69):
+  - crowdplaysdk (0.1.73):
     - Firebase (~> 10.22.0)
     - FirebaseAuth (~> 10.22.0)
     - FirebaseDatabase (~> 10.22.0)
@@ -165,7 +165,7 @@ PODS:
   - RecaptchaInterop (100.0.0)
 
 DEPENDENCIES:
-  - "crowdplaysdk (from `git@github.com:CrowdPlay-Inc/crowdplay_ios_sdk.git`, branch `master`)"
+  - "crowdplaysdk (from `git@github.com:CrowdPlay-Inc/crowdplay_ios_sdk.git`, branch `0.1.73`)"
   - Nimble (~> 12.0)
   - Nimble-Snapshots (~> 9.6.1)
   - Quick (~> 2.2.0)
@@ -200,16 +200,16 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   crowdplaysdk:
-    :branch: master
+    :branch: 0.1.73
     :git: "git@github.com:CrowdPlay-Inc/crowdplay_ios_sdk.git"
 
 CHECKOUT OPTIONS:
   crowdplaysdk:
-    :commit: ce6a7cf48c34cb42948f833dce7178785892e320
+    :commit: 3aea0a538403666da5bf37832c345ac7084d3b9f
     :git: "git@github.com:CrowdPlay-Inc/crowdplay_ios_sdk.git"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: 1c54fbde6c5b7b4578cad76f3c822263620647d0
+  crowdplaysdk: 3dd241c8d85e69bf02e336e501684c7e324200e5
   Firebase: 797fd7297b7e1be954432743a0b3f90038e45a71
   FirebaseAnalytics: 8d0ff929c63b7f72260f332b86ccf569776b75d3
   FirebaseAppCheckInterop: fecc08c89936c8acb1428d8088313aabedb348e4
@@ -236,6 +236,6 @@ SPEC CHECKSUMS:
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: 6206ef64a179be7314b6b3db5cd583d512c557ad
+PODFILE CHECKSUM: fe0937416ba36d59d17be7c31fe4ce3b3a6c5708
 
 COCOAPODS: 1.15.2
