@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'crowdplaysdk_Example' do
-  pod 'crowdplaysdk', :git => 'git@github.com:CrowdPlay-Inc/crowdplay_ios_sdk.git', :branch => '0.1.73'
+  pod 'crowdplaysdk', :path => '../'
 
   target 'crowdplaysdk_Tests' do
     inherit! :search_paths
