@@ -693,7 +693,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -718,7 +718,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1566,13 +1566,6 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "IntegerLiteral",
-      "offset": 982,
-      "length": 5,
-      "value": "86400"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
-      "kind": "IntegerLiteral",
       "offset": 869,
       "length": 1,
       "value": "1"
@@ -1618,55 +1611,6 @@
       "offset": 1343,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2473,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 3672,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 3683,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 3746,
-      "length": 46,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 3765,
-      "length": 5,
-      "value": "\" error\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 3791,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "Array",
-      "offset": 4659,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
@@ -1726,108 +1670,10 @@
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 4965,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 4976,
-      "length": 3,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5013,
-      "length": 3,
-      "value": "\"+\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5024,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5061,
-      "length": 3,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5072,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 5453,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5531,
-      "length": 3,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5542,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5579,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5590,
-      "length": 3,
-      "value": "\"+\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5725,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5757,
-      "length": 3,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1920,
-      "length": 29,
-      "value": "\"com.heartbeat.storage.\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1948,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
@@ -1835,76 +1681,6 @@
       "offset": 2158,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "StringLiteral",
-      "offset": 1232,
-      "length": 62,
-      "value": "\"Out-of-bounds push at index \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "StringLiteral",
-      "offset": 1273,
-      "length": 2,
-      "value": "\" to ring buffer with\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "StringLiteral",
-      "offset": 1307,
-      "length": 27,
-      "value": "\"end index of \""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "StringLiteral",
-      "offset": 1332,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1992,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2499,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2930,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3106,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3197,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Storage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3161,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
@@ -1919,62 +1695,6 @@
       "offset": 905,
       "length": 30,
       "value": "\"com.google.heartbeat.storage\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1459,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1470,
-      "length": 3,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1503,
-      "length": 27,
-      "value": "\"heartbeats-\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1529,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1634,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1702,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 2367,
-      "length": 18,
-      "value": "\"heartbeats-\""
-    },
-    {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 2384,
-      "length": 1,
-      "value": "\"\""
     }
   ]
 }
