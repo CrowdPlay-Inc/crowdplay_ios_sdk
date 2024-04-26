@@ -293,7 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = crowdplaysdk_Example.entitlements;
-				CURRENT_PROJECT_VERSION = 72;
+				CURRENT_PROJECT_VERSION = 74;
 				DEVELOPMENT_TEAM = APPBH7XVZ5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = crowdplaysdk/Info.plist;
@@ -303,7 +303,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.72;
+				MARKETING_VERSION = 0.1.74;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.crowdplayapp.sdkexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -317,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = crowdplaysdk_Example.entitlements;
-				CURRENT_PROJECT_VERSION = 72;
+				CURRENT_PROJECT_VERSION = 74;
 				DEVELOPMENT_TEAM = APPBH7XVZ5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = crowdplaysdk/Info.plist;
@@ -327,7 +327,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.72;
+				MARKETING_VERSION = 0.1.74;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.crowdplayapp.sdkexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

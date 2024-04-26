@@ -22,6 +22,9 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "crowdplaysdk",
+            resources: [
+                .copy("Sources/crowdplaysdk/PrivacyInfo.xcprivacy")
+            ],
             dependencies: [
                 .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),

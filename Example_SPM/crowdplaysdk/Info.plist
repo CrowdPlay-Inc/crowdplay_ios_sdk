@@ -2,10 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSCameraUsageDescription</key>
-	<string>Crowdplay accesses this to do things</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Crowdplay accesses this to do things</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>CrowdPlay needs your location to ensure you are in the stadium</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -19,15 +17,19 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1.72</string>
+	<string>0.1.74</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>74</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>CrowdPlay uses your camera to allow you to take pictures of receipts to redeem</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Crowdplay does stuff</string>
+	<string>CrowdPlay needs your location to ensure you are in the stadium</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>CrowdPlay uses your library to allow you to upload receipts to redeem loyalty points</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>

@@ -40,6 +40,10 @@ TODO: Add long description of the pod here.
   s.dependency 'FirebaseDatabase', '~> 10.22.0'
   s.dependency 'FirebaseMessaging', '~> 10.22.0'
   s.dependency 'GoogleUtilities', '~> 7.11'
+
+  s.resource_bundles     = {
+    'CrowdplayPrivacy' => ['Sources/crowdplaysdk/PrivacyInfo.xcprivacy']
+}
   
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'armv7' }
 
