@@ -1553,7 +1553,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1578,7 +1578,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1783,7 +1783,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1808,7 +1808,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1980,7 +1980,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2005,7 +2005,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2318,7 +2318,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2343,7 +2343,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2522,7 +2522,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2547,7 +2547,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2726,7 +2726,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2751,7 +2751,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2830,7 +2830,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2855,7 +2855,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4561,7 +4561,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4586,7 +4586,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4865,7 +4865,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4890,7 +4890,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5154,7 +5154,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5179,7 +5179,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5390,7 +5390,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5415,7 +5415,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6623,7 +6623,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6648,7 +6648,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6852,7 +6852,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6877,7 +6877,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7149,7 +7149,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7174,7 +7174,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7821,7 +7821,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7846,7 +7846,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8425,7 +8425,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8450,7 +8450,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8729,7 +8729,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8754,7 +8754,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8933,7 +8933,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8958,7 +8958,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9505,7 +9505,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9530,7 +9530,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9741,7 +9741,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9766,7 +9766,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9845,7 +9845,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9870,7 +9870,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -10236,7 +10236,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -10261,7 +10261,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -10440,7 +10440,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -10465,7 +10465,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -10644,7 +10644,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -10669,7 +10669,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -10848,7 +10848,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -10873,7 +10873,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -11052,7 +11052,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -11077,7 +11077,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -11335,12 +11335,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(patrol.PatrolError.Type) -> (Swift.Error) -> patrol.PatrolError",
+                "printedName": "(patrol.PatrolError.Type) -> (any Swift.Error) -> patrol.PatrolError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> patrol.PatrolError",
+                    "printedName": "(any Swift.Error) -> patrol.PatrolError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11351,7 +11351,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -12845,7 +12845,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([Swift.String]?, Swift.Error?) -> ()",
+                "printedName": "([Swift.String]?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12855,7 +12855,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "([Swift.String]?, Swift.Error?)",
+                    "printedName": "([Swift.String]?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12882,12 +12882,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -12929,7 +12929,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(patrol.ObjCRunDartTestResponse?, Swift.Error?) -> ()",
+                "printedName": "(patrol.ObjCRunDartTestResponse?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12939,7 +12939,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(patrol.ObjCRunDartTestResponse?, Swift.Error?)",
+                    "printedName": "(patrol.ObjCRunDartTestResponse?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12958,12 +12958,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -13186,7 +13186,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<patrol.ListDartTestsResponse, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<patrol.ListDartTestsResponse, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13196,7 +13196,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<patrol.ListDartTestsResponse, Swift.Error>",
+                    "printedName": "Swift.Result<patrol.ListDartTestsResponse, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13207,7 +13207,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13242,7 +13242,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<patrol.RunDartTestResponse, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<patrol.RunDartTestResponse, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13252,7 +13252,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<patrol.RunDartTestResponse, Swift.Error>",
+                    "printedName": "Swift.Result<patrol.RunDartTestResponse, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13263,7 +13263,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13600,7 +13600,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],

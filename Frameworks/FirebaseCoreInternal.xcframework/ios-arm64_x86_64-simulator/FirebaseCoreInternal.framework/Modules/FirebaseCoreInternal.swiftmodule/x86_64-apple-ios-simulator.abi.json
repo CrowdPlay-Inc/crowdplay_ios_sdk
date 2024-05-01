@@ -1042,7 +1042,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1067,7 +1067,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1358,7 +1358,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "HeartbeatStorageProtocol",
-                "printedName": "FirebaseCoreInternal.HeartbeatStorageProtocol",
+                "printedName": "any FirebaseCoreInternal.HeartbeatStorageProtocol",
                 "usr": "s:20FirebaseCoreInternal24HeartbeatStorageProtocolP"
               },
               {
@@ -2352,7 +2352,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2377,7 +2377,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2707,7 +2707,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -2732,7 +2732,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Encoder",
-                    "printedName": "Swift.Encoder",
+                    "printedName": "any Swift.Encoder",
                     "usr": "s:s7EncoderP"
                   }
                 ],
@@ -3408,7 +3408,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3433,7 +3433,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -3891,7 +3891,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Storage",
-                "printedName": "FirebaseCoreInternal.Storage",
+                "printedName": "any FirebaseCoreInternal.Storage",
                 "usr": "s:20FirebaseCoreInternal7StorageP"
               }
             ],
@@ -4013,7 +4013,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Storage",
-                "printedName": "FirebaseCoreInternal.Storage",
+                "printedName": "any FirebaseCoreInternal.Storage",
                 "usr": "s:20FirebaseCoreInternal7StorageP"
               }
             ],
@@ -4644,7 +4644,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4672,7 +4672,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5236,7 +5236,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Storage",
-                "printedName": "FirebaseCoreInternal.Storage",
+                "printedName": "any FirebaseCoreInternal.Storage",
                 "usr": "s:20FirebaseCoreInternal7StorageP"
               },
               {
@@ -5442,7 +5442,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Storage",
-                "printedName": "FirebaseCoreInternal.Storage",
+                "printedName": "any FirebaseCoreInternal.Storage",
                 "usr": "s:20FirebaseCoreInternal7StorageP"
               },
               {
@@ -5512,7 +5512,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Storage",
-                "printedName": "FirebaseCoreInternal.Storage",
+                "printedName": "any FirebaseCoreInternal.Storage",
                 "usr": "s:20FirebaseCoreInternal7StorageP"
               },
               {

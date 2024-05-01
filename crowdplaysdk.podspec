@@ -34,11 +34,11 @@ TODO: Add long description of the pod here.
   
   s.ios.frameworks  = 'UIKit'
 
-  s.dependency 'Firebase', '~> 10.22.0'
-  s.dependency 'FirebaseAuth', '~> 10.22.0'
-  s.dependency 'FirebaseStorage', '~> 10.22.0'
-  s.dependency 'FirebaseDatabase', '~> 10.22.0'
-  s.dependency 'FirebaseMessaging', '~> 10.22.0'
+  s.dependency 'Firebase', '~> 10.24.0'
+  s.dependency 'FirebaseAuth', '~> 10.24.0'
+  s.dependency 'FirebaseStorage', '~> 10.24.0'
+  s.dependency 'FirebaseDatabase', '~> 10.24.0'
+  s.dependency 'FirebaseMessaging', '~> 10.24.0'
   s.dependency 'GoogleUtilities', '~> 7.11'
 
   s.resource_bundles     = {

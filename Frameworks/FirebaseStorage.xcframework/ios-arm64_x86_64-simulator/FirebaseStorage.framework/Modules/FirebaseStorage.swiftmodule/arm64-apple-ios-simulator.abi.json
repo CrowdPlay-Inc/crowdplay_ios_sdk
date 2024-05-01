@@ -2679,12 +2679,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2694,12 +2694,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -2756,12 +2756,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2771,12 +2771,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3171,12 +3171,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.Data?, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.Data?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.Data?, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.Data?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3186,7 +3186,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.Data?, Swift.Error?)",
+                        "printedName": "(Foundation.Data?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3205,12 +3205,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -3244,12 +3244,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Foundation.Data?, Swift.Error?) -> ())?",
+                    "printedName": "((Foundation.Data?, (any Swift.Error)?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Foundation.Data?, Swift.Error?) -> ()",
+                        "printedName": "(Foundation.Data?, (any Swift.Error)?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3259,7 +3259,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(Foundation.Data?, Swift.Error?)",
+                            "printedName": "(Foundation.Data?, (any Swift.Error)?)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -3278,12 +3278,12 @@
                               {
                                 "kind": "TypeNominal",
                                 "name": "Optional",
-                                "printedName": "Swift.Error?",
+                                "printedName": "(any Swift.Error)?",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "Error",
-                                    "printedName": "Swift.Error",
+                                    "printedName": "any Swift.Error",
                                     "usr": "s:s5ErrorP"
                                   }
                                 ],
@@ -3318,12 +3318,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Foundation.Data?, Swift.Error?) -> ())?",
+                    "printedName": "((Foundation.Data?, (any Swift.Error)?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Foundation.Data?, Swift.Error?) -> ()",
+                        "printedName": "(Foundation.Data?, (any Swift.Error)?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3333,7 +3333,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(Foundation.Data?, Swift.Error?)",
+                            "printedName": "(Foundation.Data?, (any Swift.Error)?)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -3352,12 +3352,12 @@
                               {
                                 "kind": "TypeNominal",
                                 "name": "Optional",
-                                "printedName": "Swift.Error?",
+                                "printedName": "(any Swift.Error)?",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "Error",
-                                    "printedName": "Swift.Error",
+                                    "printedName": "any Swift.Error",
                                     "usr": "s:s5ErrorP"
                                   }
                                 ],
@@ -3408,12 +3408,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.URL?, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.URL?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3423,7 +3423,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.URL?, Swift.Error?)",
+                        "printedName": "(Foundation.URL?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3442,12 +3442,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -3480,12 +3480,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Foundation.URL?, Swift.Error?) -> ())?",
+                    "printedName": "((Foundation.URL?, (any Swift.Error)?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                        "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3495,7 +3495,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(Foundation.URL?, Swift.Error?)",
+                            "printedName": "(Foundation.URL?, (any Swift.Error)?)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -3514,12 +3514,12 @@
                               {
                                 "kind": "TypeNominal",
                                 "name": "Optional",
-                                "printedName": "Swift.Error?",
+                                "printedName": "(any Swift.Error)?",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "Error",
-                                    "printedName": "Swift.Error",
+                                    "printedName": "any Swift.Error",
                                     "usr": "s:s5ErrorP"
                                   }
                                 ],
@@ -3554,12 +3554,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Foundation.URL?, Swift.Error?) -> ())?",
+                    "printedName": "((Foundation.URL?, (any Swift.Error)?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                        "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3569,7 +3569,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(Foundation.URL?, Swift.Error?)",
+                            "printedName": "(Foundation.URL?, (any Swift.Error)?)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -3588,12 +3588,12 @@
                               {
                                 "kind": "TypeNominal",
                                 "name": "Optional",
-                                "printedName": "Swift.Error?",
+                                "printedName": "(any Swift.Error)?",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "Error",
-                                    "printedName": "Swift.Error",
+                                    "printedName": "any Swift.Error",
                                     "usr": "s:s5ErrorP"
                                   }
                                 ],
@@ -5614,12 +5614,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.URL?, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.URL?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -5629,7 +5629,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.URL?, Swift.Error?)",
+                        "printedName": "(Foundation.URL?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -5648,12 +5648,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -5712,12 +5712,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.URL?, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.URL?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -5727,7 +5727,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.URL?, Swift.Error?)",
+                        "printedName": "(Foundation.URL?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -5746,12 +5746,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -6092,12 +6092,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6107,7 +6107,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -6126,12 +6126,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -6190,12 +6190,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6205,7 +6205,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -6224,12 +6224,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -11479,12 +11479,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11494,7 +11494,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -11513,12 +11513,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -11660,12 +11660,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11675,7 +11675,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -11694,12 +11694,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -11747,7 +11747,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Foundation.Data?, Swift.Error?) -> ()",
+                "printedName": "(Foundation.Data?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -11757,7 +11757,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Foundation.Data?, Swift.Error?)",
+                    "printedName": "(Foundation.Data?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11776,12 +11776,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -11819,7 +11819,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -11829,7 +11829,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Foundation.URL?, Swift.Error?)",
+                    "printedName": "(Foundation.URL?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11848,12 +11848,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -11961,12 +11961,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.URL?, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.URL?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11976,7 +11976,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.URL?, Swift.Error?)",
+                        "printedName": "(Foundation.URL?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -11995,12 +11995,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -12041,7 +12041,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?) -> ()",
+                "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12051,7 +12051,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?)",
+                    "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12070,12 +12070,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -12150,7 +12150,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?) -> ()",
+                "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12160,7 +12160,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?)",
+                    "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12179,12 +12179,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -12233,7 +12233,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?) -> ()",
+                "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12243,7 +12243,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(FirebaseStorage.StorageListResult?, Swift.Error?)",
+                    "printedName": "(FirebaseStorage.StorageListResult?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12262,12 +12262,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -12304,7 +12304,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12314,7 +12314,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12333,12 +12333,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -12413,12 +12413,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12428,7 +12428,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -12447,12 +12447,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -12530,12 +12530,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12545,12 +12545,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -13219,7 +13219,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.URL, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Foundation.URL, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13229,7 +13229,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.URL, Swift.Error>",
+                    "printedName": "Swift.Result<Foundation.URL, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13240,7 +13240,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13280,7 +13280,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.Data, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Foundation.Data, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13290,7 +13290,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.Data, Swift.Error>",
+                    "printedName": "Swift.Result<Foundation.Data, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13301,7 +13301,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13335,7 +13335,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13345,7 +13345,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13356,7 +13356,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13401,7 +13401,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13411,7 +13411,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13422,7 +13422,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13461,7 +13461,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13471,7 +13471,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13482,7 +13482,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13515,7 +13515,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13525,7 +13525,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13536,7 +13536,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13591,7 +13591,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13601,7 +13601,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13612,7 +13612,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13668,7 +13668,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13678,7 +13678,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13689,7 +13689,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13729,7 +13729,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13739,7 +13739,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, Swift.Error>",
+                    "printedName": "Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13750,7 +13750,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -13790,7 +13790,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.URL, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Foundation.URL, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13800,7 +13800,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.URL, Swift.Error>",
+                    "printedName": "Swift.Result<Foundation.URL, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13811,7 +13811,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -15079,12 +15079,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -15113,12 +15113,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -16116,7 +16116,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?) -> ()",
+                "printedName": "((any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -16126,12 +16126,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -16512,12 +16512,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FirebaseAuthInterop.AuthInterop?",
+                "printedName": "(any FirebaseAuthInterop.AuthInterop)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "AuthInterop",
-                    "printedName": "FirebaseAuthInterop.AuthInterop",
+                    "printedName": "any FirebaseAuthInterop.AuthInterop",
                     "usr": "c:objc(pl)FIRAuthInterop"
                   }
                 ],
@@ -16546,12 +16546,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FirebaseAppCheckInterop.AppCheckInterop?",
+                "printedName": "(any FirebaseAppCheckInterop.AppCheckInterop)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "AppCheckInterop",
-                    "printedName": "FirebaseAppCheckInterop.AppCheckInterop",
+                    "printedName": "any FirebaseAppCheckInterop.AppCheckInterop",
                     "usr": "c:objc(pl)FIRAppCheckInterop"
                   }
                 ],
@@ -16625,12 +16625,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FirebaseAuthInterop.AuthInterop?",
+                "printedName": "(any FirebaseAuthInterop.AuthInterop)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "AuthInterop",
-                    "printedName": "FirebaseAuthInterop.AuthInterop",
+                    "printedName": "any FirebaseAuthInterop.AuthInterop",
                     "usr": "c:objc(pl)FIRAuthInterop"
                   }
                 ],
@@ -16639,12 +16639,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FirebaseAppCheckInterop.AppCheckInterop?",
+                "printedName": "(any FirebaseAppCheckInterop.AppCheckInterop)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "AppCheckInterop",
-                    "printedName": "FirebaseAppCheckInterop.AppCheckInterop",
+                    "printedName": "any FirebaseAppCheckInterop.AppCheckInterop",
                     "usr": "c:objc(pl)FIRAppCheckInterop"
                   }
                 ],
@@ -16885,12 +16885,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -16900,7 +16900,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -16919,12 +16919,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -17013,12 +17013,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -17028,7 +17028,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -17047,12 +17047,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -17222,6 +17222,16 @@
       },
       {
         "kind": "Import",
+        "name": "GoogleUtilities",
+        "printedName": "GoogleUtilities",
+        "declKind": "Import",
+        "moduleName": "FirebaseStorage",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "GTMSessionFetcher",
         "printedName": "GTMSessionFetcher",
         "declKind": "Import",
@@ -17336,12 +17346,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                    "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -17351,7 +17361,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -17370,12 +17380,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -17409,12 +17419,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                    "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -17424,7 +17434,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                            "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -17443,12 +17453,12 @@
                               {
                                 "kind": "TypeNominal",
                                 "name": "Optional",
-                                "printedName": "Swift.Error?",
+                                "printedName": "(any Swift.Error)?",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "Error",
-                                    "printedName": "Swift.Error",
+                                    "printedName": "any Swift.Error",
                                     "usr": "s:s5ErrorP"
                                   }
                                 ],
@@ -17483,12 +17493,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((FirebaseStorage.StorageMetadata?, Swift.Error?) -> ())?",
+                    "printedName": "((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?) -> ()",
+                        "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -17498,7 +17508,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(FirebaseStorage.StorageMetadata?, Swift.Error?)",
+                            "printedName": "(FirebaseStorage.StorageMetadata?, (any Swift.Error)?)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -17517,12 +17527,12 @@
                               {
                                 "kind": "TypeNominal",
                                 "name": "Optional",
-                                "printedName": "Swift.Error?",
+                                "printedName": "(any Swift.Error)?",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "Error",
-                                    "printedName": "Swift.Error",
+                                    "printedName": "any Swift.Error",
                                     "usr": "s:s5ErrorP"
                                   }
                                 ],
@@ -18380,7 +18390,7 @@
     {
       "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1415,
       "length": 17,
       "value": "\"FirebaseStorage.StorageUploadTask\""
     }

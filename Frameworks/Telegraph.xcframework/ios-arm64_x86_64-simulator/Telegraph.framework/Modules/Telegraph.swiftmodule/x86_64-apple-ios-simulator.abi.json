@@ -2231,7 +2231,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "HTTPErrorHandler",
-                "printedName": "Telegraph.HTTPErrorHandler",
+                "printedName": "any Telegraph.HTTPErrorHandler",
                 "usr": "s:9Telegraph16HTTPErrorHandlerP"
               }
             ],
@@ -2255,7 +2255,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "HTTPErrorHandler",
-                    "printedName": "Telegraph.HTTPErrorHandler",
+                    "printedName": "any Telegraph.HTTPErrorHandler",
                     "usr": "s:9Telegraph16HTTPErrorHandlerP"
                   }
                 ],
@@ -2279,7 +2279,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "HTTPErrorHandler",
-                    "printedName": "Telegraph.HTTPErrorHandler",
+                    "printedName": "any Telegraph.HTTPErrorHandler",
                     "usr": "s:9Telegraph16HTTPErrorHandlerP"
                   }
                 ],
@@ -2318,12 +2318,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Telegraph.HTTPRequestHandler]",
+                "printedName": "[any Telegraph.HTTPRequestHandler]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "HTTPRequestHandler",
-                    "printedName": "Telegraph.HTTPRequestHandler",
+                    "printedName": "any Telegraph.HTTPRequestHandler",
                     "usr": "s:9Telegraph18HTTPRequestHandlerP"
                   }
                 ],
@@ -2349,12 +2349,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Telegraph.HTTPRequestHandler]",
+                    "printedName": "[any Telegraph.HTTPRequestHandler]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "HTTPRequestHandler",
-                        "printedName": "Telegraph.HTTPRequestHandler",
+                        "printedName": "any Telegraph.HTTPRequestHandler",
                         "usr": "s:9Telegraph18HTTPRequestHandlerP"
                       }
                     ],
@@ -2381,12 +2381,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Telegraph.HTTPRequestHandler]",
+                    "printedName": "[any Telegraph.HTTPRequestHandler]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "HTTPRequestHandler",
-                        "printedName": "Telegraph.HTTPRequestHandler",
+                        "printedName": "any Telegraph.HTTPRequestHandler",
                         "usr": "s:9Telegraph18HTTPRequestHandlerP"
                       }
                     ],
@@ -2521,12 +2521,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Telegraph.HTTPRequestHandler]",
+                "printedName": "[any Telegraph.HTTPRequestHandler]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "HTTPRequestHandler",
-                    "printedName": "Telegraph.HTTPRequestHandler",
+                    "printedName": "any Telegraph.HTTPRequestHandler",
                     "usr": "s:9Telegraph18HTTPRequestHandlerP"
                   }
                 ],
@@ -2668,12 +2668,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -2715,12 +2715,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -2762,12 +2762,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -2842,7 +2842,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Telegraph.HTTPConnectionDelegate?"
+                "printedName": "(any Telegraph.HTTPConnectionDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -2867,12 +2867,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.HTTPConnectionDelegate?",
+                    "printedName": "(any Telegraph.HTTPConnectionDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "HTTPConnectionDelegate",
-                        "printedName": "Telegraph.HTTPConnectionDelegate",
+                        "printedName": "any Telegraph.HTTPConnectionDelegate",
                         "usr": "s:9Telegraph22HTTPConnectionDelegateP"
                       }
                     ],
@@ -2900,12 +2900,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.HTTPConnectionDelegate?",
+                    "printedName": "(any Telegraph.HTTPConnectionDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "HTTPConnectionDelegate",
-                        "printedName": "Telegraph.HTTPConnectionDelegate",
+                        "printedName": "any Telegraph.HTTPConnectionDelegate",
                         "usr": "s:9Telegraph22HTTPConnectionDelegateP"
                       }
                     ],
@@ -3375,12 +3375,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -4159,7 +4159,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -4249,7 +4249,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -7789,7 +7789,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WriteStream",
-                "printedName": "Telegraph.WriteStream",
+                "printedName": "any Telegraph.WriteStream",
                 "usr": "s:9Telegraph11WriteStreamP"
               },
               {
@@ -7829,7 +7829,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WriteStream",
-                "printedName": "Telegraph.WriteStream",
+                "printedName": "any Telegraph.WriteStream",
                 "usr": "s:9Telegraph11WriteStreamP"
               },
               {
@@ -7863,7 +7863,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WriteStream",
-                "printedName": "Telegraph.WriteStream",
+                "printedName": "any Telegraph.WriteStream",
                 "usr": "s:9Telegraph11WriteStreamP"
               },
               {
@@ -11867,7 +11867,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -17944,7 +17944,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Telegraph.ServerDelegate?"
+                "printedName": "(any Telegraph.ServerDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -17969,12 +17969,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.ServerDelegate?",
+                    "printedName": "(any Telegraph.ServerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ServerDelegate",
-                        "printedName": "Telegraph.ServerDelegate",
+                        "printedName": "any Telegraph.ServerDelegate",
                         "usr": "s:9Telegraph14ServerDelegateP"
                       }
                     ],
@@ -18002,12 +18002,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.ServerDelegate?",
+                    "printedName": "(any Telegraph.ServerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ServerDelegate",
-                        "printedName": "Telegraph.ServerDelegate",
+                        "printedName": "any Telegraph.ServerDelegate",
                         "usr": "s:9Telegraph14ServerDelegateP"
                       }
                     ],
@@ -18321,7 +18321,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Telegraph.ServerWebSocketDelegate?"
+                "printedName": "(any Telegraph.ServerWebSocketDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -18346,12 +18346,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.ServerWebSocketDelegate?",
+                    "printedName": "(any Telegraph.ServerWebSocketDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ServerWebSocketDelegate",
-                        "printedName": "Telegraph.ServerWebSocketDelegate",
+                        "printedName": "any Telegraph.ServerWebSocketDelegate",
                         "usr": "s:9Telegraph23ServerWebSocketDelegateP"
                       }
                     ],
@@ -18379,12 +18379,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.ServerWebSocketDelegate?",
+                    "printedName": "(any Telegraph.ServerWebSocketDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ServerWebSocketDelegate",
-                        "printedName": "Telegraph.ServerWebSocketDelegate",
+                        "printedName": "any Telegraph.ServerWebSocketDelegate",
                         "usr": "s:9Telegraph23ServerWebSocketDelegateP"
                       }
                     ],
@@ -18611,12 +18611,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -18728,7 +18728,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -19135,12 +19135,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Telegraph.WebSocket]",
+                "printedName": "[any Telegraph.WebSocket]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "WebSocket",
-                    "printedName": "Telegraph.WebSocket",
+                    "printedName": "any Telegraph.WebSocket",
                     "usr": "s:9Telegraph9WebSocketP"
                   }
                 ],
@@ -19165,12 +19165,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Telegraph.WebSocket]",
+                    "printedName": "[any Telegraph.WebSocket]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebSocket",
-                        "printedName": "Telegraph.WebSocket",
+                        "printedName": "any Telegraph.WebSocket",
                         "usr": "s:9Telegraph9WebSocketP"
                       }
                     ],
@@ -19241,12 +19241,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -19290,12 +19290,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -19339,12 +19339,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -19417,12 +19417,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -19530,12 +19530,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -20060,12 +20060,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -20120,7 +20120,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               },
               {
@@ -20162,18 +20162,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -20212,7 +20212,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               },
               {
@@ -20254,7 +20254,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               },
               {
@@ -20326,7 +20326,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               },
               {
@@ -21373,12 +21373,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -21422,7 +21422,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Telegraph.TCPListenerDelegate?"
+                "printedName": "(any Telegraph.TCPListenerDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -21448,12 +21448,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.TCPListenerDelegate?",
+                    "printedName": "(any Telegraph.TCPListenerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "TCPListenerDelegate",
-                        "printedName": "Telegraph.TCPListenerDelegate",
+                        "printedName": "any Telegraph.TCPListenerDelegate",
                         "usr": "s:9Telegraph19TCPListenerDelegateP"
                       }
                     ],
@@ -21483,12 +21483,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.TCPListenerDelegate?",
+                    "printedName": "(any Telegraph.TCPListenerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "TCPListenerDelegate",
-                        "printedName": "Telegraph.TCPListenerDelegate",
+                        "printedName": "any Telegraph.TCPListenerDelegate",
                         "usr": "s:9Telegraph19TCPListenerDelegateP"
                       }
                     ],
@@ -22000,12 +22000,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -22435,12 +22435,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -22603,7 +22603,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Telegraph.TCPSocketDelegate?"
+                "printedName": "(any Telegraph.TCPSocketDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -22629,12 +22629,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.TCPSocketDelegate?",
+                    "printedName": "(any Telegraph.TCPSocketDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "TCPSocketDelegate",
-                        "printedName": "Telegraph.TCPSocketDelegate",
+                        "printedName": "any Telegraph.TCPSocketDelegate",
                         "usr": "s:9Telegraph17TCPSocketDelegateP"
                       }
                     ],
@@ -22664,12 +22664,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.TCPSocketDelegate?",
+                    "printedName": "(any Telegraph.TCPSocketDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "TCPSocketDelegate",
-                        "printedName": "Telegraph.TCPSocketDelegate",
+                        "printedName": "any Telegraph.TCPSocketDelegate",
                         "usr": "s:9Telegraph17TCPSocketDelegateP"
                       }
                     ],
@@ -23021,7 +23021,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "TCPSocketDelegate",
-                "printedName": "Telegraph.TCPSocketDelegate",
+                "printedName": "any Telegraph.TCPSocketDelegate",
                 "usr": "s:9Telegraph17TCPSocketDelegateP"
               },
               {
@@ -23452,12 +23452,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -25773,12 +25773,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -26268,7 +26268,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Telegraph.WebSocketClientDelegate?"
+                "printedName": "(any Telegraph.WebSocketClientDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -26293,12 +26293,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.WebSocketClientDelegate?",
+                    "printedName": "(any Telegraph.WebSocketClientDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebSocketClientDelegate",
-                        "printedName": "Telegraph.WebSocketClientDelegate",
+                        "printedName": "any Telegraph.WebSocketClientDelegate",
                         "usr": "s:9Telegraph23WebSocketClientDelegateP"
                       }
                     ],
@@ -26326,12 +26326,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.WebSocketClientDelegate?",
+                    "printedName": "(any Telegraph.WebSocketClientDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebSocketClientDelegate",
-                        "printedName": "Telegraph.WebSocketClientDelegate",
+                        "printedName": "any Telegraph.WebSocketClientDelegate",
                         "usr": "s:9Telegraph23WebSocketClientDelegateP"
                       }
                     ],
@@ -26810,12 +26810,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -26929,12 +26929,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -26978,12 +26978,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -27027,12 +27027,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -27105,12 +27105,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -28021,7 +28021,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocketErrorHandler",
-                "printedName": "Telegraph.WebSocketErrorHandler",
+                "printedName": "any Telegraph.WebSocketErrorHandler",
                 "usr": "s:9Telegraph21WebSocketErrorHandlerP"
               }
             ],
@@ -28045,7 +28045,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "WebSocketErrorHandler",
-                    "printedName": "Telegraph.WebSocketErrorHandler",
+                    "printedName": "any Telegraph.WebSocketErrorHandler",
                     "usr": "s:9Telegraph21WebSocketErrorHandlerP"
                   }
                 ],
@@ -28069,7 +28069,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "WebSocketErrorHandler",
-                    "printedName": "Telegraph.WebSocketErrorHandler",
+                    "printedName": "any Telegraph.WebSocketErrorHandler",
                     "usr": "s:9Telegraph21WebSocketErrorHandlerP"
                   }
                 ],
@@ -28108,7 +28108,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocketMessageHandler",
-                "printedName": "Telegraph.WebSocketMessageHandler",
+                "printedName": "any Telegraph.WebSocketMessageHandler",
                 "usr": "s:9Telegraph23WebSocketMessageHandlerP"
               }
             ],
@@ -28132,7 +28132,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "WebSocketMessageHandler",
-                    "printedName": "Telegraph.WebSocketMessageHandler",
+                    "printedName": "any Telegraph.WebSocketMessageHandler",
                     "usr": "s:9Telegraph23WebSocketMessageHandlerP"
                   }
                 ],
@@ -28156,7 +28156,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "WebSocketMessageHandler",
-                    "printedName": "Telegraph.WebSocketMessageHandler",
+                    "printedName": "any Telegraph.WebSocketMessageHandler",
                     "usr": "s:9Telegraph23WebSocketMessageHandlerP"
                   }
                 ],
@@ -28399,12 +28399,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -28446,7 +28446,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Telegraph.WebSocketConnectionDelegate?"
+                "printedName": "(any Telegraph.WebSocketConnectionDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -28471,12 +28471,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.WebSocketConnectionDelegate?",
+                    "printedName": "(any Telegraph.WebSocketConnectionDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebSocketConnectionDelegate",
-                        "printedName": "Telegraph.WebSocketConnectionDelegate",
+                        "printedName": "any Telegraph.WebSocketConnectionDelegate",
                         "usr": "s:9Telegraph27WebSocketConnectionDelegateP"
                       }
                     ],
@@ -28504,12 +28504,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.WebSocketConnectionDelegate?",
+                    "printedName": "(any Telegraph.WebSocketConnectionDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebSocketConnectionDelegate",
-                        "printedName": "Telegraph.WebSocketConnectionDelegate",
+                        "printedName": "any Telegraph.WebSocketConnectionDelegate",
                         "usr": "s:9Telegraph27WebSocketConnectionDelegateP"
                       }
                     ],
@@ -28903,12 +28903,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -29608,13 +29608,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               },
               {
@@ -29656,13 +29656,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               },
               {
@@ -29757,13 +29757,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               },
               {
@@ -29804,13 +29804,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               },
               {
@@ -30464,7 +30464,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WriteStream",
-                "printedName": "Telegraph.WriteStream",
+                "printedName": "any Telegraph.WriteStream",
                 "usr": "s:9Telegraph11WriteStreamP"
               },
               {
@@ -31396,7 +31396,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               }
             ],
@@ -31430,7 +31430,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               }
             ],
@@ -31508,7 +31508,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               }
             ],
@@ -31542,7 +31542,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WebSocket",
-                "printedName": "Telegraph.WebSocket",
+                "printedName": "any Telegraph.WebSocket",
                 "usr": "s:9Telegraph9WebSocketP"
               }
             ],
@@ -31688,7 +31688,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Telegraph.WebSocketParserDelegate?"
+                "printedName": "(any Telegraph.WebSocketParserDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -31713,12 +31713,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.WebSocketParserDelegate?",
+                    "printedName": "(any Telegraph.WebSocketParserDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebSocketParserDelegate",
-                        "printedName": "Telegraph.WebSocketParserDelegate",
+                        "printedName": "any Telegraph.WebSocketParserDelegate",
                         "usr": "s:9Telegraph23WebSocketParserDelegateP"
                       }
                     ],
@@ -31746,12 +31746,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Telegraph.WebSocketParserDelegate?",
+                    "printedName": "(any Telegraph.WebSocketParserDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebSocketParserDelegate",
-                        "printedName": "Telegraph.WebSocketParserDelegate",
+                        "printedName": "any Telegraph.WebSocketParserDelegate",
                         "usr": "s:9Telegraph23WebSocketParserDelegateP"
                       }
                     ],
@@ -32602,6 +32602,7 @@
         "genericSig": "<τ_0_0>",
         "sugared_genericSig": "<Element>",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -39583,6 +39584,7 @@
         "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
         "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -40646,8 +40648,8 @@
             "usr": "s:Sl9TelegraphAA18HTTPRequestHandler_p7ElementRtzrlE5chain04lastC0AA12HTTPResponseCSgAA0B0CKcAiKKc_tF",
             "mangledName": "$sSl9TelegraphAA18HTTPRequestHandler_p7ElementRtzrlE5chain04lastC0AA12HTTPResponseCSgAA0B0CKcAiKKc_tF",
             "moduleName": "Telegraph",
-            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Collection, τ_0_0.Element == Telegraph.HTTPRequestHandler>",
-            "sugared_genericSig": "<Self where Self : Swift.Collection, Self.Element == Telegraph.HTTPRequestHandler>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Collection, τ_0_0.Element == any Telegraph.HTTPRequestHandler>",
+            "sugared_genericSig": "<Self where Self : Swift.Collection, Self.Element == any Telegraph.HTTPRequestHandler>",
             "declAttributes": [
               "RawDocComment"
             ],
@@ -41075,6 +41077,7 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,

@@ -326,7 +326,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([Swift.String]?, Swift.Error?) -> ()",
+                "printedName": "([Swift.String]?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -336,7 +336,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "([Swift.String]?, Swift.Error?)",
+                    "printedName": "([Swift.String]?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -363,12 +363,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -409,7 +409,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(patrol.ObjCRunDartTestResponse?, Swift.Error?) -> ()",
+                "printedName": "(patrol.ObjCRunDartTestResponse?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -419,7 +419,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(patrol.ObjCRunDartTestResponse?, Swift.Error?)",
+                    "printedName": "(patrol.ObjCRunDartTestResponse?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -438,12 +438,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -747,7 +747,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -915,76 +915,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 398,
-      "length": 37,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 420,
-      "length": 5,
-      "value": "\" doesn't exist\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 490,
-      "length": 42,
-      "value": "\"app \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 514,
-      "length": 2,
-      "value": "\" is not installed\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 594,
-      "length": 50,
-      "value": "\"method \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 615,
-      "length": 1,
-      "value": "\"() is not implemented on iOS\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 8,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 747,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 885,
-      "length": 14,
-      "value": "\"\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 896,
-      "length": 1,
-      "value": "\"\"\""
-    },
-    {
       "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 54,
@@ -992,543 +922,11 @@
       "value": "\"PatrolServer\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 159,
-      "length": 23,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 166,
-      "length": 1,
-      "value": "\": DEBUG: \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 181,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 225,
-      "length": 22,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 232,
-      "length": 1,
-      "value": "\": INFO: \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 290,
-      "length": 23,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 297,
-      "length": 1,
-      "value": "\": ERROR: \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 312,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 9781,
-      "length": 12,
-      "value": "\"initialize\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 9951,
-      "length": 11,
-      "value": "\"configure\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 10119,
-      "length": 11,
-      "value": "\"pressHome\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 10287,
-      "length": 11,
-      "value": "\"pressBack\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 10455,
-      "length": 17,
-      "value": "\"pressRecentApps\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 10635,
-      "length": 23,
-      "value": "\"doublePressRecentApps\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 10827,
-      "length": 9,
-      "value": "\"openApp\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 10991,
-      "length": 19,
-      "value": "\"openQuickSettings\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 11175,
-      "length": 17,
-      "value": "\"getNativeUITree\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 11355,
-      "length": 16,
-      "value": "\"getNativeViews\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 11533,
-      "length": 5,
-      "value": "\"tap\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 11689,
-      "length": 11,
-      "value": "\"doubleTap\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 11857,
-      "length": 11,
-      "value": "\"enterText\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 12025,
-      "length": 7,
-      "value": "\"swipe\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 12185,
-      "length": 18,
-      "value": "\"waitUntilVisible\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 12367,
-      "length": 20,
-      "value": "\"enableAirplaneMode\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 12553,
-      "length": 21,
-      "value": "\"disableAirplaneMode\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 12741,
-      "length": 12,
-      "value": "\"enableWiFi\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 12911,
-      "length": 13,
-      "value": "\"disableWiFi\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 13083,
-      "length": 16,
-      "value": "\"enableCellular\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 13261,
-      "length": 17,
-      "value": "\"disableCellular\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 13441,
-      "length": 17,
-      "value": "\"enableBluetooth\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 13621,
-      "length": 18,
-      "value": "\"disableBluetooth\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 13803,
-      "length": 16,
-      "value": "\"enableDarkMode\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 13981,
-      "length": 17,
-      "value": "\"disableDarkMode\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 14161,
-      "length": 19,
-      "value": "\"openNotifications\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 14345,
-      "length": 20,
-      "value": "\"closeNotifications\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 14531,
-      "length": 26,
-      "value": "\"closeHeadsUpNotification\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 14729,
-      "length": 18,
-      "value": "\"getNotifications\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 14911,
-      "length": 19,
-      "value": "\"tapOnNotification\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 15095,
-      "length": 27,
-      "value": "\"isPermissionDialogVisible\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 15295,
-      "length": 24,
-      "value": "\"handlePermissionDialog\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 15489,
-      "length": 21,
-      "value": "\"setLocationAccuracy\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 15677,
-      "length": 7,
-      "value": "\"debug\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "StringLiteral",
-      "offset": 15837,
-      "length": 27,
-      "value": "\"markPatrolAppServiceReady\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/NativeAutomatorServer.swift",
-      "kind": "Dictionary",
-      "offset": 16314,
-      "length": 3,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 23,
       "value": "\"patrol.ObjCRunDartTestResponse\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 965,
-      "length": 4,
-      "value": "8082"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1094,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1098,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1103,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1118,
-      "length": 48,
-      "value": "\"PatrolAppServiceClient: created, port: \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1165,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1226,
-      "length": 11,
-      "value": "\"localhost\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1359,
-      "length": 40,
-      "value": "\"PatrolAppServiceClient.listDartTests()\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1559,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "FloatLiteral",
-      "offset": 2118,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2137,
-      "length": 45,
-      "value": "\"PatrolAppServiceClient.runDartTest(\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2180,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3046,
-      "length": 65,
-      "value": "\"Invariant violated: test \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3084,
-      "length": 3,
-      "value": "\" has no named parent group\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3144,
-      "length": 33,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3163,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3176,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3478,
-      "length": 33,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3497,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3510,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 496,
-      "length": 15,
-      "value": "\"listDartTests\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 764,
-      "length": 13,
-      "value": "\"runDartTest\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1989,
-      "length": 42,
-      "value": "\"http:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2007,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2015,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2030,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2253,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2501,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2590,
-      "length": 79,
-      "value": "\"Invalid response: \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2640,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolAppServiceClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2668,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
@@ -1599,20 +997,6 @@
       "offset": 746,
       "length": 1,
       "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
-      "kind": "StringLiteral",
-      "offset": 868,
-      "length": 33,
-      "value": "\"PatrolServer constructor called\""
-    },
-    {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
-      "kind": "StringLiteral",
-      "offset": 1108,
-      "length": 49,
-      "value": "\"Fatal error: PATROL_ENABLED flag is not defined\""
     },
     {
       "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/SwiftPatrolPlugin.swift",

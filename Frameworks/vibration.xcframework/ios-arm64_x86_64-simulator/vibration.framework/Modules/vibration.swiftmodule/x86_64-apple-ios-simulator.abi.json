@@ -178,7 +178,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -371,9 +371,9 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/vibration-1.7.7\/ios\/Classes\/VibrationPluginSwift.swift",
+      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/vibration-1.8.4\/ios\/Classes\/VibrationPluginSwift.swift",
       "kind": "BooleanLiteral",
-      "offset": 197,
+      "offset": 189,
       "length": 5,
       "value": "false"
     }
