@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'crowdplaysdk'
-  s.version          = '0.1.77'
+  s.version          = '0.1.78'
   s.summary          = 'A short description of crowdplaysdk.'
 
 # This description is used to generate tags and improve search results.
@@ -40,10 +40,6 @@ TODO: Add long description of the pod here.
   s.dependency 'FirebaseDatabase', '~> 10.24.0'
   s.dependency 'FirebaseMessaging', '~> 10.24.0'
   s.dependency 'GoogleUtilities', '~> 7.11'
-
-  s.resource_bundles     = {
-    'CrowdplayPrivacy' => ['Sources/crowdplaysdk/PrivacyInfo.xcprivacy']
-}
   
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'armv7' }
 
