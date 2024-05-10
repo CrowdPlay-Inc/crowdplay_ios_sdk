@@ -23,6 +23,7 @@ Example/Pods
 Example_SPM/Pods
 *.bak
 Example_SPM/crowdplay_ios_sdk/
+Example/gc_keys.json
 
 # Bundler
 .bundle

@@ -1,0 +1,108 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# IDEAS
+
+# get_build_number
+# get_version_number(
+# xcodeproj: "Runner.xcodeproj",
+# target: "Runner"
+# )
+# increment_build_number(xcodeproj: "Runner.xcodeproj")
+# build_app(workspace: "Runner.xcworkspace", scheme: "Runner")
+# increment_version_number(xcodeproj: "Runner.xcodeproj")
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  before_all do
+    setup_circle_ci
+  end
+
+  # lane :beta do
+  #   desc "Push a new beta build to TestFlight"
+  #   puts get_version_number
+  #   puts get_build_number
+  #   gym(scheme: "Runner")
+  #   xcarchive(scheme: "Runner")
+  #   upload_to_testflight
+  # end
+
+  desc "Deploy a new build to Testflight"
+  lane :beta do |options|
+    build_number = number_of_commits()
+    package_name = "com.crowdplayapp.sdkexample"
+    puts package_name
+    match(type: "appstore", app_identifier: package_name)
+
+    sh("pod install")
+
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      path: "crowdplaysdk.xcodeproj",
+      code_sign_identity: "iPhone Distribution",
+      profile_name: "match AppStore #{package_name}",
+      bundle_identifier: package_name
+    )
+
+    build_ios_app(
+      scheme: "crowdplaysdk-Example",
+      export_method: "app-store",
+      export_options: {
+        provisioningProfiles: {
+          package_name => "match AppStore #{package_name}"
+        }
+      }
+    )
+    upload_to_testflight(skip_waiting_for_build_processing: true, apple_id: appIdByTeamName[team.to_sym].to_s)
+    Dir.chdir "../../scripts" do
+      sh("./setVersionNumber.sh", team_id, "v#{build_number}", team.to_s)
+    end
+  end
+
+  lane :build do |options|
+    desc "Build"
+    build_number = number_of_commits()
+    package_name = "com.crowdplayapp.sdkexample"
+    puts package_name
+    match(type: "appstore", app_identifier: package_name)
+
+    sh("pod install")
+
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      path: "crowdplaysdk.xcodeproj",
+      code_sign_identity: "iPhone Distribution",
+      profile_name: "match AppStore #{package_name}",
+      bundle_identifier: package_name
+    )
+
+    build_ios_app(
+      scheme: "crowdplaysdk-Example",
+      export_method: "app-store",
+      export_options: {
+        provisioningProfiles: {
+          package_name => "match AppStore #{package_name}"
+        }
+      }
+    )
+  end
+  
+  lane :alpha do
+    desc "Test function"
+    # get_build_number
+    puts get_version_number
+  end
+end
