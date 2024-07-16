@@ -17,7 +17,6 @@ public class FirebaseDataEncoder {
     case deferredToDate
     case secondsSince1970
     case millisecondsSince1970
-    @available(macOS 10.12, iOS 10.0, watchOS 3.0, tvOS 10.0, *)
     case iso8601
     case formatted(Foundation.DateFormatter)
     case custom((Foundation.Date, any Swift.Encoder) throws -> Swift.Void)
@@ -52,7 +51,6 @@ public class FirebaseDataDecoder {
     case deferredToDate
     case secondsSince1970
     case millisecondsSince1970
-    @available(macOS 10.12, iOS 10.0, watchOS 3.0, tvOS 10.0, *)
     case iso8601
     case formatted(Foundation.DateFormatter)
     case custom((_ decoder: any Swift.Decoder) throws -> Foundation.Date)

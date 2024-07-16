@@ -13857,112 +13857,112 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 54,
       "length": 14,
       "value": "\"PatrolServer\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/ObjCPatrolAppServiceClient.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 23,
       "value": "\"patrol.ObjCRunDartTestResponse\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
       "kind": "StringLiteral",
       "offset": 114,
       "length": 13,
       "value": "\"PATROL_PORT\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
       "kind": "IntegerLiteral",
       "offset": 164,
       "length": 4,
       "value": "8081"
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
       "kind": "BooleanLiteral",
       "offset": 340,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
       "kind": "StringLiteral",
       "offset": 482,
       "length": 65,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 2,
       "value": "\" is null, falling back to default (\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 1,
       "value": "\")\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
       "kind": "StringLiteral",
       "offset": 656,
       "length": 92,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 4,
       "value": "\" with value \""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
       "kind": "StringLiteral",
       "offset": 692,
       "length": 2,
       "value": "\" is not valid, falling back to default (\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/AutomatorServer\/PatrolServer.swift",
       "kind": "StringLiteral",
       "offset": 746,
       "length": 1,
       "value": "\")\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/SwiftPatrolPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/SwiftPatrolPlugin.swift",
       "kind": "StringLiteral",
       "offset": 48,
       "length": 25,
       "value": "\"pl.leancode.patrol\/main\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/SwiftPatrolPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/SwiftPatrolPlugin.swift",
       "kind": "StringLiteral",
       "offset": 104,
       "length": 18,
       "value": "\"allTestsFinished\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/SwiftPatrolPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/SwiftPatrolPlugin.swift",
       "kind": "StringLiteral",
       "offset": 156,
       "length": 23,
       "value": "\"create_channel_failed\""
     },
     {
-      "filePath": "\/Users\/matthewbaker\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/SwiftPatrolPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/patrol-3.0.1\/ios\/Classes\/SwiftPatrolPlugin.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 31,

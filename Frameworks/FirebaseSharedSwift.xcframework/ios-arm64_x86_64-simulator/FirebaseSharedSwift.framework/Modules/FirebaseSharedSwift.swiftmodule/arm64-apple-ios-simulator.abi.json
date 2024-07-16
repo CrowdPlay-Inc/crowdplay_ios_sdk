@@ -234,15 +234,7 @@
                 "usr": "s:19FirebaseSharedSwift0A11DataEncoderC20DateEncodingStrategyO7iso8601yA2EmF",
                 "mangledName": "$s19FirebaseSharedSwift0A11DataEncoderC20DateEncodingStrategyO7iso8601yA2EmF",
                 "moduleName": "FirebaseSharedSwift",
-                "intro_Macosx": "10.12",
-                "intro_iOS": "10.0",
-                "intro_tvOS": "10.0",
-                "intro_watchOS": "3.0",
                 "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
                   "RawDocComment"
                 ]
               },
@@ -1731,15 +1723,7 @@
                 "usr": "s:19FirebaseSharedSwift0A11DataDecoderC20DateDecodingStrategyO7iso8601yA2EmF",
                 "mangledName": "$s19FirebaseSharedSwift0A11DataDecoderC20DateDecodingStrategyO7iso8601yA2EmF",
                 "moduleName": "FirebaseSharedSwift",
-                "intro_Macosx": "10.12",
-                "intro_iOS": "10.0",
-                "intro_tvOS": "10.0",
-                "intro_watchOS": "3.0",
                 "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
                   "RawDocComment"
                 ]
               },
@@ -3713,58 +3697,58 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
       "kind": "Dictionary",
-      "offset": 12051,
+      "offset": 11986,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
       "kind": "Array",
-      "offset": 14880,
+      "offset": 14815,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
       "kind": "Array",
-      "offset": 17954,
+      "offset": 17889,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 40844,
+      "offset": 40608,
       "length": 24,
       "value": "\"FirebaseSharedSwift.__JSONReferencingEncoder\""
     },
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
       "kind": "Dictionary",
-      "offset": 50174,
+      "offset": 49873,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
       "kind": "Array",
-      "offset": 53060,
+      "offset": 52759,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
       "kind": "Array",
-      "offset": 55989,
+      "offset": 55688,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/Samsung_T5\/Projects\/crowdplay_app\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseSharedSwift\/FirebaseSharedSwift\/Sources\/third_party\/FirebaseDataEncoder\/FirebaseDataEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 108915,
+      "offset": 108443,
       "length": 7,
       "value": "\"super\""
     }

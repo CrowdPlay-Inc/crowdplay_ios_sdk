@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Volumes/Samsung_T5/Projects/crowdplay_app/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/url_launcher_ios/url_launcher_ios.framework/url_launcher_ios'
+binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/url_launcher_ios/url_launcher_ios.framework/url_launcher_ios'
 relocations:
   - { offsetInCU: 0x34, offset: 0x5813F, size: 0x8, addend: 0x0, symName: _url_launcher_iosVersionString, symObjAddr: 0x0, symBinAddr: 0xDDE0, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x58174, size: 0x8, addend: 0x0, symName: _url_launcher_iosVersionNumber, symObjAddr: 0x30, symBinAddr: 0xDE10, symSize: 0x0 }

@@ -1,12 +1,12 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Volumes/Samsung_T5/Projects/crowdplay_app/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/uni_links/uni_links.framework/uni_links'
+binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/uni_links/uni_links.framework/uni_links'
 relocations:
   - { offsetInCU: 0x33, offset: 0x3C6C, size: 0x8, addend: 0x0, symName: _uni_linksVersionString, symObjAddr: 0x0, symBinAddr: 0x4878, symSize: 0x0 }
   - { offsetInCU: 0x67, offset: 0x3CA0, size: 0x8, addend: 0x0, symName: _uni_linksVersionNumber, symObjAddr: 0x28, symBinAddr: 0x48A0, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x3CDC, size: 0x8, addend: 0x0, symName: '+[UniLinksPlugin sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x44 }
   - { offsetInCU: 0x65, offset: 0x3D1A, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin setLatestLink:]', symObjAddr: 0x160, symBinAddr: 0x4160, symSize: 0x90 }
-  - { offsetInCU: 0xC6, offset: 0x3D7B, size: 0x8, addend: 0x0, symName: __instance, symObjAddr: 0x43E0, symBinAddr: 0xCDC0, symSize: 0x0 }
+  - { offsetInCU: 0xC6, offset: 0x3D7B, size: 0x8, addend: 0x0, symName: __instance, symObjAddr: 0x4410, symBinAddr: 0xCDC0, symSize: 0x0 }
   - { offsetInCU: 0x1A1, offset: 0x3E56, size: 0x8, addend: 0x0, symName: '+[UniLinksPlugin sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x44 }
   - { offsetInCU: 0x1D1, offset: 0x3E86, size: 0x8, addend: 0x0, symName: '+[UniLinksPlugin registerWithRegistrar:]', symObjAddr: 0x44, symBinAddr: 0x4044, symSize: 0x11C }
   - { offsetInCU: 0x239, offset: 0x3EEE, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin application:didFinishLaunchingWithOptions:]', symObjAddr: 0x1F0, symBinAddr: 0x41F0, symSize: 0x9C }

@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Volumes/Samsung_T5/Projects/crowdplay_app/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/FirebaseInstallations'
+binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/FirebaseInstallations'
 relocations:
   - { offsetInCU: 0x34, offset: 0x563A5, size: 0x8, addend: 0x0, symName: _FirebaseInstallationsVersionString, symObjAddr: 0x0, symBinAddr: 0x107B0, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x563DA, size: 0x8, addend: 0x0, symName: _FirebaseInstallationsVersionNumber, symObjAddr: 0x38, symBinAddr: 0x107E8, symSize: 0x0 }

@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Volumes/Samsung_T5/Projects/crowdplay_app/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/audioplayers_darwin/audioplayers_darwin.framework/audioplayers_darwin'
+binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/audioplayers_darwin/audioplayers_darwin.framework/audioplayers_darwin'
 relocations:
   - { offsetInCU: 0x34, offset: 0x740F5, size: 0x8, addend: 0x0, symName: _audioplayers_darwinVersionString, symObjAddr: 0x0, symBinAddr: 0x144C0, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x7412A, size: 0x8, addend: 0x0, symName: _audioplayers_darwinVersionNumber, symObjAddr: 0x38, symBinAddr: 0x144F8, symSize: 0x0 }

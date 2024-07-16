@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Volumes/Samsung_T5/Projects/crowdplay_app/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/image_picker_ios/image_picker_ios.framework/image_picker_ios'
+binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/image_picker_ios/image_picker_ios.framework/image_picker_ios'
 relocations:
   - { offsetInCU: 0x34, offset: 0x729FF, size: 0x8, addend: 0x0, symName: _image_picker_iosVersionString, symObjAddr: 0x0, symBinAddr: 0xCB08, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x72A34, size: 0x8, addend: 0x0, symName: _image_picker_iosVersionNumber, symObjAddr: 0x30, symBinAddr: 0xCB38, symSize: 0x0 }
@@ -139,8 +139,8 @@ relocations:
   - { offsetInCU: 0x9C3, offset: 0x771AC, size: 0x8, addend: 0x0, symName: '-[FLTPHPickerSaveImageToPathOperation .cxx_destruct]', symObjAddr: 0xCD0, symBinAddr: 0x8DBC, symSize: 0x7C }
   - { offsetInCU: 0x27, offset: 0x774C4, size: 0x8, addend: 0x0, symName: '-[FLTSourceCameraBox initWithValue:]', symObjAddr: 0x0, symBinAddr: 0x8E38, symSize: 0x48 }
   - { offsetInCU: 0x35, offset: 0x774D2, size: 0x8, addend: 0x0, symName: _FLTImagePickerApiGetCodec, symObjAddr: 0xD48, symBinAddr: 0x9B80, symSize: 0x40 }
-  - { offsetInCU: 0x5B, offset: 0x774F8, size: 0x8, addend: 0x0, symName: _FLTImagePickerApiGetCodec.sSharedObject, symObjAddr: 0xA5D8, symBinAddr: 0x1B948, symSize: 0x0 }
-  - { offsetInCU: 0x71, offset: 0x7750E, size: 0x8, addend: 0x0, symName: _FLTImagePickerApiGetCodec.sPred, symObjAddr: 0xA5E0, symBinAddr: 0x1B950, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x774F8, size: 0x8, addend: 0x0, symName: _FLTImagePickerApiGetCodec.sSharedObject, symObjAddr: 0xA630, symBinAddr: 0x1B948, symSize: 0x0 }
+  - { offsetInCU: 0x71, offset: 0x7750E, size: 0x8, addend: 0x0, symName: _FLTImagePickerApiGetCodec.sPred, symObjAddr: 0xA638, symBinAddr: 0x1B950, symSize: 0x0 }
   - { offsetInCU: 0x2C2, offset: 0x7775F, size: 0x8, addend: 0x0, symName: '-[FLTSourceCameraBox initWithValue:]', symObjAddr: 0x0, symBinAddr: 0x8E38, symSize: 0x48 }
   - { offsetInCU: 0x309, offset: 0x777A6, size: 0x8, addend: 0x0, symName: '-[FLTSourceCameraBox value]', symObjAddr: 0x48, symBinAddr: 0x8E80, symSize: 0x8 }
   - { offsetInCU: 0x340, offset: 0x777DD, size: 0x8, addend: 0x0, symName: '-[FLTSourceCameraBox setValue:]', symObjAddr: 0x50, symBinAddr: 0x8E88, symSize: 0x8 }

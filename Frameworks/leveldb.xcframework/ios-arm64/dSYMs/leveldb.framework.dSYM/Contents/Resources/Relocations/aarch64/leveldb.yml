@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Volumes/Samsung_T5/Projects/crowdplay_app/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/leveldb-library/leveldb.framework/leveldb'
+binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/leveldb-library/leveldb.framework/leveldb'
 relocations:
   - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _leveldbVersionString, symObjAddr: 0x0, symBinAddr: 0x299E0, symSize: 0x0 }
   - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _leveldbVersionNumber, symObjAddr: 0x28, symBinAddr: 0x29A08, symSize: 0x0 }
@@ -252,7 +252,7 @@ relocations:
   - { offsetInCU: 0x50BD, offset: 0x3B041, size: 0x8, addend: 0x0, symName: __ZN7leveldb22GetLengthPrefixedSliceEPNS_5SliceES1_.cold.1, symObjAddr: 0x584, symBinAddr: 0x27AF4, symSize: 0x28 }
   - { offsetInCU: 0x26, offset: 0x3B0B9, size: 0x8, addend: 0x0, symName: __ZN7leveldb10ComparatorD2Ev, symObjAddr: 0x0, symBinAddr: 0x7F60, symSize: 0x4 }
   - { offsetInCU: 0x38, offset: 0x3B0CB, size: 0x8, addend: 0x0, symName: __ZN7leveldb18BytewiseComparatorEv, symObjAddr: 0xC, symBinAddr: 0x7F6C, symSize: 0x58 }
-  - { offsetInCU: 0x61, offset: 0x3B0F4, size: 0x8, addend: 0x0, symName: __ZZN7leveldb18BytewiseComparatorEvE9singleton, symObjAddr: 0x11500, symBinAddr: 0x38458, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0x3B0F4, size: 0x8, addend: 0x0, symName: __ZZN7leveldb18BytewiseComparatorEvE9singleton, symObjAddr: 0x11510, symBinAddr: 0x38458, symSize: 0x0 }
   - { offsetInCU: 0x492B, offset: 0x3F9BE, size: 0x8, addend: 0x0, symName: __ZN7leveldb10ComparatorD2Ev, symObjAddr: 0x0, symBinAddr: 0x7F60, symSize: 0x4 }
   - { offsetInCU: 0x4955, offset: 0x3F9E8, size: 0x8, addend: 0x0, symName: __ZN7leveldb10ComparatorD1Ev, symObjAddr: 0x4, symBinAddr: 0x7F64, symSize: 0x4 }
   - { offsetInCU: 0x497C, offset: 0x3FA0F, size: 0x8, addend: 0x0, symName: __ZN7leveldb10ComparatorD0Ev, symObjAddr: 0x8, symBinAddr: 0x7F68, symSize: 0x4 }
@@ -624,13 +624,13 @@ relocations:
   - { offsetInCU: 0x625C, offset: 0xAE153, size: 0x8, addend: 0x0, symName: __ZN7leveldb10EnvWrapper20SleepForMicrosecondsEi, symObjAddr: 0x4C8, symBinAddr: 0x13944, symSize: 0x10 }
   - { offsetInCU: 0x5DE, offset: 0xAE77F, size: 0x8, addend: 0x0, symName: __ZN7leveldb12_GLOBAL__N_127g_open_read_only_file_limitE, symObjAddr: 0x4B84, symBinAddr: 0x38450, symSize: 0x0 }
   - { offsetInCU: 0x5F8, offset: 0xAE799, size: 0x8, addend: 0x0, symName: __ZN7leveldb12_GLOBAL__N_112g_mmap_limitE, symObjAddr: 0x4B88, symBinAddr: 0x38454, symSize: 0x0 }
-  - { offsetInCU: 0x60C, offset: 0xAE7AD, size: 0x8, addend: 0x0, symName: __ZN7leveldb12_GLOBAL__N_112SingletonEnvINS0_8PosixEnvEE16env_initialized_E.0, symObjAddr: 0x8B660, symBinAddr: 0x38590, symSize: 0x0 }
+  - { offsetInCU: 0x60C, offset: 0xAE7AD, size: 0x8, addend: 0x0, symName: __ZN7leveldb12_GLOBAL__N_112SingletonEnvINS0_8PosixEnvEE16env_initialized_E.0, symObjAddr: 0x8B6B0, symBinAddr: 0x38590, symSize: 0x0 }
   - { offsetInCU: 0x7A5, offset: 0xAE946, size: 0x8, addend: 0x0, symName: __ZN7leveldb12_GLOBAL__N_110PosixErrorERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEi, symObjAddr: 0x191C, symBinAddr: 0x15264, symSize: 0xB4 }
   - { offsetInCU: 0xDAA9, offset: 0xBBC4A, size: 0x8, addend: 0x0, symName: __ZNSt3__114__thread_proxyB8ue170006INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEPFvPN7leveldb12_GLOBAL__N_18PosixEnvEESA_EEEEEPvSE_, symObjAddr: 0x3464, symBinAddr: 0x16408, symSize: 0x64 }
   - { offsetInCU: 0xE127, offset: 0xBC2C8, size: 0x8, addend: 0x0, symName: __ZNSt3__114__thread_proxyB8ue170006INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEPFvPvES7_EEEEES7_S7_, symObjAddr: 0x35FC, symBinAddr: 0x165A0, symSize: 0x74 }
   - { offsetInCU: 0xE604, offset: 0xBC7A5, size: 0x8, addend: 0x0, symName: __ZNSt3__1lsB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_NS_11__thread_idE, symObjAddr: 0x3B74, symBinAddr: 0x16A44, symSize: 0x1C0 }
   - { offsetInCU: 0xF2F4, offset: 0xBD495, size: 0x8, addend: 0x0, symName: __ZN7leveldb3Env7DefaultEv, symObjAddr: 0x50, symBinAddr: 0x139A4, symSize: 0x6C }
-  - { offsetInCU: 0xF318, offset: 0xBD4B9, size: 0x8, addend: 0x0, symName: __ZZN7leveldb3Env7DefaultEvE13env_container, symObjAddr: 0x8B540, symBinAddr: 0x38470, symSize: 0x0 }
+  - { offsetInCU: 0xF318, offset: 0xBD4B9, size: 0x8, addend: 0x0, symName: __ZZN7leveldb3Env7DefaultEvE13env_container, symObjAddr: 0x8B590, symBinAddr: 0x38470, symSize: 0x0 }
   - { offsetInCU: 0xF88F, offset: 0xBDA30, size: 0x8, addend: 0x0, symName: __ZN7leveldb12_GLOBAL__N_18PosixEnv9NowMicrosEv, symObjAddr: 0x1854, symBinAddr: 0x151A8, symSize: 0x38 }
   - { offsetInCU: 0x11B91, offset: 0xBFD32, size: 0x8, addend: 0x0, symName: __ZN7leveldb18EnvPosixTestHelper18SetReadOnlyFDLimitEi, symObjAddr: 0x0, symBinAddr: 0x13954, symSize: 0x28 }
   - { offsetInCU: 0x11C02, offset: 0xBFDA3, size: 0x8, addend: 0x0, symName: __ZN7leveldb18EnvPosixTestHelper20SetReadOnlyMMapLimitEi, symObjAddr: 0x28, symBinAddr: 0x1397C, symSize: 0x28 }

@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Volumes/Samsung_T5/Projects/crowdplay_app/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/qr_code_scanner/qr_code_scanner.framework/qr_code_scanner'
+binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/qr_code_scanner/qr_code_scanner.framework/qr_code_scanner'
 relocations:
   - { offsetInCU: 0x34, offset: 0xC5C24, size: 0x8, addend: 0x0, symName: _qr_code_scannerVersionString, symObjAddr: 0x0, symBinAddr: 0xBD00, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0xC5C59, size: 0x8, addend: 0x0, symName: _qr_code_scannerVersionNumber, symObjAddr: 0x30, symBinAddr: 0xBD30, symSize: 0x0 }

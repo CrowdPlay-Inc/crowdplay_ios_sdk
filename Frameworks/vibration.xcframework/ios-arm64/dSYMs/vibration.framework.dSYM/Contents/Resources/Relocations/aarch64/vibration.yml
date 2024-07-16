@@ -1,12 +1,12 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Volumes/Samsung_T5/Projects/crowdplay_app/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/vibration/vibration.framework/vibration'
+binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/vibration/vibration.framework/vibration'
 relocations:
   - { offsetInCU: 0x34, offset: 0x64C3C, size: 0x8, addend: 0x0, symName: _vibrationVersionString, symObjAddr: 0x0, symBinAddr: 0xD220, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x64C71, size: 0x8, addend: 0x0, symName: _vibrationVersionNumber, symObjAddr: 0x28, symBinAddr: 0xD248, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x64CAE, size: 0x8, addend: 0x0, symName: '+[VibrationPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xC }
   - { offsetInCU: 0x91, offset: 0x64D18, size: 0x8, addend: 0x0, symName: '+[VibrationPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xC }
-  - { offsetInCU: 0x4F, offset: 0x64DD4, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvpZ', symObjAddr: 0xDCB8, symBinAddr: 0x15DD8, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x64DD4, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvpZ', symObjAddr: 0xDCC8, symBinAddr: 0x15DD8, symSize: 0x0 }
   - { offsetInCU: 0x110, offset: 0x64E95, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC8register4withySo07FlutterC9Registrar_p_tFZTo', symObjAddr: 0x104, symBinAddr: 0x8110, symSize: 0x30 }
   - { offsetInCU: 0x142, offset: 0x64EC7, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC06cancelB033_3A3257C106E34F8F40D4D9BC5ACEDFA2LLyyFys5Error_pSgcfU_', symObjAddr: 0x4B4, symBinAddr: 0x84C0, symSize: 0x150 }
   - { offsetInCU: 0x2FF, offset: 0x65084, size: 0x8, addend: 0x0, symName: '_$s9vibration20VibrationPluginSwiftC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0xB48, symBinAddr: 0x8B54, symSize: 0x78 }

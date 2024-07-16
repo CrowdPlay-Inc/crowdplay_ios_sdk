@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Volumes/Samsung_T5/Projects/crowdplay_app/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/patrol/patrol.framework/patrol'
+binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/patrol/patrol.framework/patrol'
 relocations:
   - { offsetInCU: 0x33, offset: 0x4365, size: 0x8, addend: 0x0, symName: _patrolVersionString, symObjAddr: 0x0, symBinAddr: 0xD390, symSize: 0x0 }
   - { offsetInCU: 0x67, offset: 0x4399, size: 0x8, addend: 0x0, symName: _patrolVersionNumber, symObjAddr: 0x28, symBinAddr: 0xD3B8, symSize: 0x0 }
@@ -184,7 +184,7 @@ relocations:
   - { offsetInCU: 0x22A, offset: 0x6A95, size: 0x8, addend: 0x0, symName: '_$s6patrol11PatrolErrorOs0C0AAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0xC, symBinAddr: 0x7120, symSize: 0x4 }
   - { offsetInCU: 0x3A4, offset: 0x6C0F, size: 0x8, addend: 0x0, symName: '_$s6patrol11PatrolErrorO11descriptionSSvg', symObjAddr: 0x10, symBinAddr: 0x7124, symSize: 0x1F4 }
   - { offsetInCU: 0x2B, offset: 0x6EF3, size: 0x8, addend: 0x0, symName: '_$s6patrol6LoggerC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x7550, symSize: 0x48 }
-  - { offsetInCU: 0x4E, offset: 0x6F16, size: 0x8, addend: 0x0, symName: '_$s6patrol6LoggerC6sharedACvpZ', symObjAddr: 0x19B8, symBinAddr: 0x1C0D8, symSize: 0x0 }
+  - { offsetInCU: 0x4E, offset: 0x6F16, size: 0x8, addend: 0x0, symName: '_$s6patrol6LoggerC6sharedACvpZ', symObjAddr: 0x1998, symBinAddr: 0x1C0D8, symSize: 0x0 }
   - { offsetInCU: 0xBF, offset: 0x6F87, size: 0x8, addend: 0x0, symName: '_$s6patrol6LoggerC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x7550, symSize: 0x48 }
   - { offsetInCU: 0x10D, offset: 0x6FD5, size: 0x8, addend: 0x0, symName: '_$s6patrol6LoggerCMa', symObjAddr: 0x6C, symBinAddr: 0x75BC, symSize: 0x20 }
   - { offsetInCU: 0x203, offset: 0x70CB, size: 0x8, addend: 0x0, symName: '_$s6patrol6LoggerCfD', symObjAddr: 0x48, symBinAddr: 0x7598, symSize: 0x24 }
