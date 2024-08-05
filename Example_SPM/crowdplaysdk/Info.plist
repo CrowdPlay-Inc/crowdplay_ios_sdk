@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>CrowdPlay needs your location to ensure you are in the stadium</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -20,12 +18,27 @@
 	<string>0.1.74</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>cpsdkdemo.crowdplayapp.com</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>cpsdkdemo</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>74</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>CrowdPlay uses your camera to allow you to take pictures of receipts to redeem</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>CrowdPlay needs your location to ensure you are in the stadium</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>CrowdPlay needs your location to ensure you are in the stadium</string>
 	<key>NSPhotoLibraryUsageDescription</key>

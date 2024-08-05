@@ -48,11 +48,14 @@ public class CrowdplaySdk {
     var flutterViewController: FlutterViewController?
     private var apiKey = ""
     private var notificationToken = "";
+    private var authToken = "";
+    private var appUrlScheme = "";
 
     private init() {}
 
-    public func initialize(apiKey: String) {
+    public func initialize(apiKey: String, appUrlScheme: String) {
         self.apiKey = apiKey;
+        self.appUrlScheme = appUrlScheme;
         
         flutterEngine.run();
         
@@ -66,6 +69,10 @@ public class CrowdplaySdk {
                 result(self.notificationToken);
             } else if call.method == "getApnsMode" {
                 result(UIDevice.current.pushEnvironment == .development ? "development" : "production");
+            } else if call.method == "getAuthToken" {
+                result(self.authToken);
+            } else if call.method == "getUrlScheme" {
+                result(self.appUrlScheme);
             }
         }
         // Used to connect plugins (only if you have plugins with iOS platform code).
@@ -139,6 +146,14 @@ public class CrowdplaySdk {
         print("Device Token: " + tokenString);
 
         apiKeyChannel!.invokeMethod("setNotificationToken", arguments: tokenString);
+    }
+
+    public func setAuthToken(authToken: String) {
+        self.authToken = authToken;
+
+        if (flutterViewController != nil) {
+            apiKeyChannel!.invokeMethod("performTokenLogin", arguments: authToken);
+        }
     }
 }
 
