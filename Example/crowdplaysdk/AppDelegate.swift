@@ -17,8 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         UNUserNotificationCenter.current().delegate = self;
         
-        // Override point for customization after application launch.
-        CrowdplaySdk.shared.initialize(apiKey: "efebd8e4-d1ba-4ba4-86ee-a7a9fe49685e", appUrlScheme: "cpsdkdemopod")
         return true
     }
 

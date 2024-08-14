@@ -10,6 +10,7 @@ import UIKit
 import crowdplaysdk
 
 class ViewController: UIViewController {
+    @IBOutlet var apiKeyInput: UITextField?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func launchCrowdplayTapped(_ sender: UIButton) {
+        guard let apiKey = apiKeyInput?.text else { return ;}
+        
+        // Override point for customization after application launch.
+        CrowdplaySdk.shared.initialize(apiKey: apiKey, appUrlScheme: "cpsdkdemopod")
         self.present(CrowdplaySdk.shared.viewController(), animated: true)
     }
 }
