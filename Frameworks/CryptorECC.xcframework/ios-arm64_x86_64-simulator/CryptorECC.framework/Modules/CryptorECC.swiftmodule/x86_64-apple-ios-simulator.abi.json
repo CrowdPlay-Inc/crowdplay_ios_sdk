@@ -1,0 +1,5527 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ASN1",
+        "printedName": "ASN1",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ASN1Element",
+            "printedName": "ASN1Element",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "seq",
+                "printedName": "seq",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CryptorECC.ASN1.ASN1Element.Type) -> ([CryptorECC.ASN1.ASN1Element]) -> CryptorECC.ASN1.ASN1Element",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([CryptorECC.ASN1.ASN1Element]) -> CryptorECC.ASN1.ASN1Element",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ASN1Element",
+                            "printedName": "CryptorECC.ASN1.ASN1Element",
+                            "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(elements: [CryptorECC.ASN1.ASN1Element])",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[CryptorECC.ASN1.ASN1Element]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ASN1Element",
+                                    "printedName": "CryptorECC.ASN1.ASN1Element",
+                                    "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CryptorECC.ASN1.ASN1Element.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ASN1Element",
+                            "printedName": "CryptorECC.ASN1.ASN1Element",
+                            "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10CryptorECC4ASN1V0C7ElementO3seqyAESayAEG_tcAEmF",
+                "mangledName": "$s10CryptorECC4ASN1V0C7ElementO3seqyAESayAEG_tcAEmF",
+                "moduleName": "CryptorECC",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "integer",
+                "printedName": "integer",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CryptorECC.ASN1.ASN1Element.Type) -> (Swift.Int) -> CryptorECC.ASN1.ASN1Element",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int) -> CryptorECC.ASN1.ASN1Element",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ASN1Element",
+                            "printedName": "CryptorECC.ASN1.ASN1Element",
+                            "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(int: Swift.Int)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CryptorECC.ASN1.ASN1Element.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ASN1Element",
+                            "printedName": "CryptorECC.ASN1.ASN1Element",
+                            "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10CryptorECC4ASN1V0C7ElementO7integeryAESi_tcAEmF",
+                "mangledName": "$s10CryptorECC4ASN1V0C7ElementO7integeryAESi_tcAEmF",
+                "moduleName": "CryptorECC",
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "bytes",
+                "printedName": "bytes",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CryptorECC.ASN1.ASN1Element.Type) -> (Foundation.Data) -> CryptorECC.ASN1.ASN1Element",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.Data) -> CryptorECC.ASN1.ASN1Element",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ASN1Element",
+                            "printedName": "CryptorECC.ASN1.ASN1Element",
+                            "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(data: Foundation.Data)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Data",
+                                "printedName": "Foundation.Data",
+                                "usr": "s:10Foundation4DataV"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CryptorECC.ASN1.ASN1Element.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ASN1Element",
+                            "printedName": "CryptorECC.ASN1.ASN1Element",
+                            "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10CryptorECC4ASN1V0C7ElementO5bytesyAE10Foundation4DataV_tcAEmF",
+                "mangledName": "$s10CryptorECC4ASN1V0C7ElementO5bytesyAE10Foundation4DataV_tcAEmF",
+                "moduleName": "CryptorECC",
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Var",
+                "name": "constructed",
+                "printedName": "constructed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CryptorECC.ASN1.ASN1Element.Type) -> (Swift.Int, CryptorECC.ASN1.ASN1Element) -> CryptorECC.ASN1.ASN1Element",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int, CryptorECC.ASN1.ASN1Element) -> CryptorECC.ASN1.ASN1Element",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ASN1Element",
+                            "printedName": "CryptorECC.ASN1.ASN1Element",
+                            "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(tag: Swift.Int, elem: CryptorECC.ASN1.ASN1Element)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ASN1Element",
+                                "printedName": "CryptorECC.ASN1.ASN1Element",
+                                "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CryptorECC.ASN1.ASN1Element.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ASN1Element",
+                            "printedName": "CryptorECC.ASN1.ASN1Element",
+                            "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10CryptorECC4ASN1V0C7ElementO11constructedyAESi_AEtcAEmF",
+                "mangledName": "$s10CryptorECC4ASN1V0C7ElementO11constructedyAESi_AEtcAEmF",
+                "moduleName": "CryptorECC",
+                "fixedbinaryorder": 3
+              },
+              {
+                "kind": "Var",
+                "name": "unknown",
+                "printedName": "unknown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CryptorECC.ASN1.ASN1Element.Type) -> CryptorECC.ASN1.ASN1Element",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ASN1Element",
+                        "printedName": "CryptorECC.ASN1.ASN1Element",
+                        "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CryptorECC.ASN1.ASN1Element.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ASN1Element",
+                            "printedName": "CryptorECC.ASN1.ASN1Element",
+                            "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10CryptorECC4ASN1V0C7ElementO7unknownyA2EmF",
+                "mangledName": "$s10CryptorECC4ASN1V0C7ElementO7unknownyA2EmF",
+                "moduleName": "CryptorECC",
+                "fixedbinaryorder": 4
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10CryptorECC4ASN1V0C7ElementO",
+            "mangledName": "$s10CryptorECC4ASN1V0C7ElementO",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Indirect"
+            ],
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "toASN1Element",
+            "printedName": "toASN1Element(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(CryptorECC.ASN1.ASN1Element, Swift.Int)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ASN1Element",
+                    "printedName": "CryptorECC.ASN1.ASN1Element",
+                    "usr": "s:10CryptorECC4ASN1V0C7ElementO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC4ASN1V02toC7Element4dataAC0cE0O_Sit10Foundation4DataV_tFZ",
+            "mangledName": "$s10CryptorECC4ASN1V02toC7Element4dataAC0cE0O_Sit10Foundation4DataV_tFZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ASN1",
+                "printedName": "CryptorECC.ASN1",
+                "usr": "s:10CryptorECC4ASN1V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CryptorECC4ASN1VACycfc",
+            "mangledName": "$s10CryptorECC4ASN1VACycfc",
+            "moduleName": "CryptorECC",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CryptorECC4ASN1V",
+        "mangledName": "$s10CryptorECC4ASN1V",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "CryptorECC"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "CryptorECC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ECEncryptable",
+        "printedName": "ECEncryptable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encrypt",
+            "printedName": "encrypt(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECPublicKey",
+                "printedName": "CryptorECC.ECPublicKey",
+                "usr": "s:10CryptorECC11ECPublicKeyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC13ECEncryptableP7encrypt4with10Foundation4DataVAA11ECPublicKeyC_tKF",
+            "mangledName": "$s10CryptorECC13ECEncryptableP7encrypt4with10Foundation4DataVAA11ECPublicKeyC_tKF",
+            "moduleName": "CryptorECC",
+            "genericSig": "<τ_0_0 where τ_0_0 : CryptorECC.ECEncryptable>",
+            "sugared_genericSig": "<Self where Self : CryptorECC.ECEncryptable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10CryptorECC13ECEncryptableP",
+        "mangledName": "$s10CryptorECC13ECEncryptableP",
+        "moduleName": "CryptorECC",
+        "intro_Macosx": "10.13",
+        "intro_iOS": "11",
+        "intro_tvOS": "11.0",
+        "intro_watchOS": "4.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ECError",
+        "printedName": "ECError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV20localizedDescriptionSSvp",
+            "mangledName": "$s10CryptorECC7ECErrorV20localizedDescriptionSSvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV20localizedDescriptionSSvg",
+                "mangledName": "$s10CryptorECC7ECErrorV20localizedDescriptionSSvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidPEMString",
+            "printedName": "invalidPEMString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV16invalidPEMStringACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV16invalidPEMStringACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV16invalidPEMStringACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV16invalidPEMStringACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknownPEMHeader",
+            "printedName": "unknownPEMHeader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV16unknownPEMHeaderACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV16unknownPEMHeaderACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV16unknownPEMHeaderACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV16unknownPEMHeaderACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedBase64Encoding",
+            "printedName": "failedBase64Encoding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV20failedBase64EncodingACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV20failedBase64EncodingACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV20failedBase64EncodingACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV20failedBase64EncodingACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedASN1Decoding",
+            "printedName": "failedASN1Decoding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV18failedASN1DecodingACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV18failedASN1DecodingACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV18failedASN1DecodingACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV18failedASN1DecodingACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unsupportedCurve",
+            "printedName": "unsupportedCurve",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV16unsupportedCurveACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV16unsupportedCurveACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV16unsupportedCurveACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV16unsupportedCurveACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedNativeKeyCreation",
+            "printedName": "failedNativeKeyCreation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV23failedNativeKeyCreationACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV23failedNativeKeyCreationACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV23failedNativeKeyCreationACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV23failedNativeKeyCreationACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedEvpInit",
+            "printedName": "failedEvpInit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV13failedEvpInitACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV13failedEvpInitACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV13failedEvpInitACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV13failedEvpInitACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedSigningAlgorithm",
+            "printedName": "failedSigningAlgorithm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV22failedSigningAlgorithmACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV22failedSigningAlgorithmACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV22failedSigningAlgorithmACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV22failedSigningAlgorithmACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidRSLength",
+            "printedName": "invalidRSLength",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV15invalidRSLengthACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV15invalidRSLengthACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV15invalidRSLengthACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV15invalidRSLengthACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedEncryptionAlgorithm",
+            "printedName": "failedEncryptionAlgorithm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV25failedEncryptionAlgorithmACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV25failedEncryptionAlgorithmACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV25failedEncryptionAlgorithmACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV25failedEncryptionAlgorithmACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedDecryptionAlgorithm",
+            "printedName": "failedDecryptionAlgorithm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV25failedDecryptionAlgorithmACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV25failedDecryptionAlgorithmACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV25failedDecryptionAlgorithmACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV25failedDecryptionAlgorithmACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedUTF8Decoding",
+            "printedName": "failedUTF8Decoding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC7ECErrorV18failedUTF8DecodingACvpZ",
+            "mangledName": "$s10CryptorECC7ECErrorV18failedUTF8DecodingACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECError",
+                    "printedName": "CryptorECC.ECError",
+                    "usr": "s:10CryptorECC7ECErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC7ECErrorV18failedUTF8DecodingACvgZ",
+                "mangledName": "$s10CryptorECC7ECErrorV18failedUTF8DecodingACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECError",
+                "printedName": "CryptorECC.ECError",
+                "usr": "s:10CryptorECC7ECErrorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC7ECErrorV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10CryptorECC7ECErrorV2eeoiySbAC_ACtFZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CryptorECC7ECErrorV",
+        "mangledName": "$s10CryptorECC7ECErrorV",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "CryptorECC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ECPrivateKey",
+        "printedName": "ECPrivateKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "curveId",
+            "printedName": "curveId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC12ECPrivateKeyC7curveIdSSvp",
+            "mangledName": "$s10CryptorECC12ECPrivateKeyC7curveIdSSvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC12ECPrivateKeyC7curveIdSSvg",
+                "mangledName": "$s10CryptorECC12ECPrivateKeyC7curveIdSSvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "curve",
+            "printedName": "curve",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC12ECPrivateKeyC5curveAA13EllipticCurveVvp",
+            "mangledName": "$s10CryptorECC12ECPrivateKeyC5curveAA13EllipticCurveVvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EllipticCurve",
+                    "printedName": "CryptorECC.EllipticCurve",
+                    "usr": "s:10CryptorECC13EllipticCurveV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC12ECPrivateKeyC5curveAA13EllipticCurveVvg",
+                "mangledName": "$s10CryptorECC12ECPrivateKeyC5curveAA13EllipticCurveVvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pemString",
+            "printedName": "pemString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC12ECPrivateKeyC9pemStringSSvp",
+            "mangledName": "$s10CryptorECC12ECPrivateKeyC9pemStringSSvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC12ECPrivateKeyC9pemStringSSvg",
+                "mangledName": "$s10CryptorECC12ECPrivateKeyC9pemStringSSvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nativeKey",
+            "printedName": "nativeKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC12ECPrivateKeyC06nativeD0So03SecD3Refavp",
+            "mangledName": "$s10CryptorECC12ECPrivateKeyC06nativeD0So03SecD3Refavp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC12ECPrivateKeyC06nativeD0So03SecD3Refavg",
+                "mangledName": "$s10CryptorECC12ECPrivateKeyC06nativeD0So03SecD3Refavg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pubKeyBytes",
+            "printedName": "pubKeyBytes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC12ECPrivateKeyC03pubD5Bytes10Foundation4DataVvp",
+            "mangledName": "$s10CryptorECC12ECPrivateKeyC03pubD5Bytes10Foundation4DataVvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC12ECPrivateKeyC03pubD5Bytes10Foundation4DataVvg",
+                "mangledName": "$s10CryptorECC12ECPrivateKeyC03pubD5Bytes10Foundation4DataVvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECPrivateKey",
+                "printedName": "CryptorECC.ECPrivateKey",
+                "usr": "s:10CryptorECC12ECPrivateKeyC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CryptorECC12ECPrivateKeyC3keyACSS_tKcfc",
+            "mangledName": "$s10CryptorECC12ECPrivateKeyC3keyACSS_tKcfc",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(pkcs8DER:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECPrivateKey",
+                "printedName": "CryptorECC.ECPrivateKey",
+                "usr": "s:10CryptorECC12ECPrivateKeyC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CryptorECC12ECPrivateKeyC8pkcs8DERAC10Foundation4DataV_tKcfc",
+            "mangledName": "$s10CryptorECC12ECPrivateKeyC8pkcs8DERAC10Foundation4DataV_tKcfc",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sec1DER:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECPrivateKey",
+                "printedName": "CryptorECC.ECPrivateKey",
+                "usr": "s:10CryptorECC12ECPrivateKeyC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CryptorECC12ECPrivateKeyC7sec1DERAC10Foundation4DataV_tKcfc",
+            "mangledName": "$s10CryptorECC12ECPrivateKeyC7sec1DERAC10Foundation4DataV_tKcfc",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "extractPublicKey",
+            "printedName": "extractPublicKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECPublicKey",
+                "printedName": "CryptorECC.ECPublicKey",
+                "usr": "s:10CryptorECC11ECPublicKeyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC12ECPrivateKeyC013extractPublicD0AA08ECPublicD0CyKF",
+            "mangledName": "$s10CryptorECC12ECPrivateKeyC013extractPublicD0AA08ECPublicD0CyKF",
+            "moduleName": "CryptorECC",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECPrivateKey",
+                "printedName": "CryptorECC.ECPrivateKey",
+                "usr": "s:10CryptorECC12ECPrivateKeyC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC12ECPrivateKeyC4make3forAcA13EllipticCurveV_tKFZ",
+            "mangledName": "$s10CryptorECC12ECPrivateKeyC4make3forAcA13EllipticCurveV_tKFZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10CryptorECC12ECPrivateKeyC",
+        "mangledName": "$s10CryptorECC12ECPrivateKeyC",
+        "moduleName": "CryptorECC",
+        "isOpen": true,
+        "intro_Macosx": "10.13",
+        "intro_iOS": "11",
+        "intro_tvOS": "11.0",
+        "intro_watchOS": "4.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "CryptorECC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ECPublicKey",
+        "printedName": "ECPublicKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "curveId",
+            "printedName": "curveId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC11ECPublicKeyC7curveIdSSvp",
+            "mangledName": "$s10CryptorECC11ECPublicKeyC7curveIdSSvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC11ECPublicKeyC7curveIdSSvg",
+                "mangledName": "$s10CryptorECC11ECPublicKeyC7curveIdSSvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "curve",
+            "printedName": "curve",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC11ECPublicKeyC5curveAA13EllipticCurveVvp",
+            "mangledName": "$s10CryptorECC11ECPublicKeyC5curveAA13EllipticCurveVvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EllipticCurve",
+                    "printedName": "CryptorECC.EllipticCurve",
+                    "usr": "s:10CryptorECC13EllipticCurveV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC11ECPublicKeyC5curveAA13EllipticCurveVvg",
+                "mangledName": "$s10CryptorECC11ECPublicKeyC5curveAA13EllipticCurveVvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nativeKey",
+            "printedName": "nativeKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC11ECPublicKeyC06nativeD0So03SecD3Refavp",
+            "mangledName": "$s10CryptorECC11ECPublicKeyC06nativeD0So03SecD3Refavp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC11ECPublicKeyC06nativeD0So03SecD3Refavg",
+                "mangledName": "$s10CryptorECC11ECPublicKeyC06nativeD0So03SecD3Refavg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pemString",
+            "printedName": "pemString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC11ECPublicKeyC9pemStringSSvp",
+            "mangledName": "$s10CryptorECC11ECPublicKeyC9pemStringSSvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC11ECPublicKeyC9pemStringSSvg",
+                "mangledName": "$s10CryptorECC11ECPublicKeyC9pemStringSSvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECPublicKey",
+                "printedName": "CryptorECC.ECPublicKey",
+                "usr": "s:10CryptorECC11ECPublicKeyC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CryptorECC11ECPublicKeyC3keyACSS_tKcfc",
+            "mangledName": "$s10CryptorECC11ECPublicKeyC3keyACSS_tKcfc",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(der:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECPublicKey",
+                "printedName": "CryptorECC.ECPublicKey",
+                "usr": "s:10CryptorECC11ECPublicKeyC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CryptorECC11ECPublicKeyC3derAC10Foundation4DataV_tKcfc",
+            "mangledName": "$s10CryptorECC11ECPublicKeyC3derAC10Foundation4DataV_tKcfc",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10CryptorECC11ECPublicKeyC",
+        "mangledName": "$s10CryptorECC11ECPublicKeyC",
+        "moduleName": "CryptorECC",
+        "isOpen": true,
+        "intro_Macosx": "10.13",
+        "intro_iOS": "11",
+        "intro_tvOS": "11.0",
+        "intro_watchOS": "4.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "CryptorECC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ECSignable",
+        "printedName": "ECSignable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sign",
+            "printedName": "sign(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECSignature",
+                "printedName": "CryptorECC.ECSignature",
+                "usr": "s:10CryptorECC11ECSignatureV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECPrivateKey",
+                "printedName": "CryptorECC.ECPrivateKey",
+                "usr": "s:10CryptorECC12ECPrivateKeyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC10ECSignableP4sign4withAA11ECSignatureVAA12ECPrivateKeyC_tKF",
+            "mangledName": "$s10CryptorECC10ECSignableP4sign4withAA11ECSignatureVAA12ECPrivateKeyC_tKF",
+            "moduleName": "CryptorECC",
+            "genericSig": "<τ_0_0 where τ_0_0 : CryptorECC.ECSignable>",
+            "sugared_genericSig": "<Self where Self : CryptorECC.ECSignable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10CryptorECC10ECSignableP",
+        "mangledName": "$s10CryptorECC10ECSignableP",
+        "moduleName": "CryptorECC",
+        "intro_Macosx": "10.13",
+        "intro_iOS": "11",
+        "intro_tvOS": "11.0",
+        "intro_watchOS": "4.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "CryptorECC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ECSignature",
+        "printedName": "ECSignature",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "r",
+            "printedName": "r",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC11ECSignatureV1r10Foundation4DataVvp",
+            "mangledName": "$s10CryptorECC11ECSignatureV1r10Foundation4DataVvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC11ECSignatureV1r10Foundation4DataVvg",
+                "mangledName": "$s10CryptorECC11ECSignatureV1r10Foundation4DataVvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "s",
+            "printedName": "s",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC11ECSignatureV1s10Foundation4DataVvp",
+            "mangledName": "$s10CryptorECC11ECSignatureV1s10Foundation4DataVvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC11ECSignatureV1s10Foundation4DataVvg",
+                "mangledName": "$s10CryptorECC11ECSignatureV1s10Foundation4DataVvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "asn1",
+            "printedName": "asn1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC11ECSignatureV4asn110Foundation4DataVvp",
+            "mangledName": "$s10CryptorECC11ECSignatureV4asn110Foundation4DataVvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC11ECSignatureV4asn110Foundation4DataVvg",
+                "mangledName": "$s10CryptorECC11ECSignatureV4asn110Foundation4DataVvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(r:s:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECSignature",
+                "printedName": "CryptorECC.ECSignature",
+                "usr": "s:10CryptorECC11ECSignatureV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CryptorECC11ECSignatureV1r1sAC10Foundation4DataV_AHtKcfc",
+            "mangledName": "$s10CryptorECC11ECSignatureV1r1sAC10Foundation4DataV_AHtKcfc",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(asn1:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECSignature",
+                "printedName": "CryptorECC.ECSignature",
+                "usr": "s:10CryptorECC11ECSignatureV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CryptorECC11ECSignatureV4asn1AC10Foundation4DataV_tKcfc",
+            "mangledName": "$s10CryptorECC11ECSignatureV4asn1AC10Foundation4DataV_tKcfc",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "verify",
+            "printedName": "verify(plaintext:using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECPublicKey",
+                "printedName": "CryptorECC.ECPublicKey",
+                "usr": "s:10CryptorECC11ECPublicKeyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC11ECSignatureV6verify9plaintext5usingSbSS_AA11ECPublicKeyCtF",
+            "mangledName": "$s10CryptorECC11ECSignatureV6verify9plaintext5usingSbSS_AA11ECPublicKeyCtF",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verify",
+            "printedName": "verify(plaintext:using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECPublicKey",
+                "printedName": "CryptorECC.ECPublicKey",
+                "usr": "s:10CryptorECC11ECPublicKeyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC11ECSignatureV6verify9plaintext5usingSb10Foundation4DataV_AA11ECPublicKeyCtF",
+            "mangledName": "$s10CryptorECC11ECSignatureV6verify9plaintext5usingSb10Foundation4DataV_AA11ECPublicKeyCtF",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rsSigToASN1",
+            "printedName": "rsSigToASN1(r:s:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC11ECSignatureV11rsSigToASN11r1s10Foundation4DataVAI_AItKFZ",
+            "mangledName": "$s10CryptorECC11ECSignatureV11rsSigToASN11r1s10Foundation4DataVAI_AItKFZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asn1ToRSSig",
+            "printedName": "asn1ToRSSig(asn1:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.Data, Foundation.Data)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC11ECSignatureV11asn1ToRSSig0D010Foundation4DataV_AHtAH_tKFZ",
+            "mangledName": "$s10CryptorECC11ECSignatureV11asn1ToRSSig0D010Foundation4DataV_AHtAH_tKFZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CryptorECC11ECSignatureV",
+        "mangledName": "$s10CryptorECC11ECSignatureV",
+        "moduleName": "CryptorECC",
+        "intro_Macosx": "10.13",
+        "intro_iOS": "11",
+        "intro_tvOS": "11.0",
+        "intro_watchOS": "4.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CryptorECC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "CryptorECC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EllipticCurve",
+        "printedName": "EllipticCurve",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "prime256v1",
+            "printedName": "prime256v1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV10prime256v1ACvpZ",
+            "mangledName": "$s10CryptorECC13EllipticCurveV10prime256v1ACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EllipticCurve",
+                    "printedName": "CryptorECC.EllipticCurve",
+                    "usr": "s:10CryptorECC13EllipticCurveV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV10prime256v1ACvgZ",
+                "mangledName": "$s10CryptorECC13EllipticCurveV10prime256v1ACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secp384r1",
+            "printedName": "secp384r1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV9secp384r1ACvpZ",
+            "mangledName": "$s10CryptorECC13EllipticCurveV9secp384r1ACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EllipticCurve",
+                    "printedName": "CryptorECC.EllipticCurve",
+                    "usr": "s:10CryptorECC13EllipticCurveV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV9secp384r1ACvgZ",
+                "mangledName": "$s10CryptorECC13EllipticCurveV9secp384r1ACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secp521r1",
+            "printedName": "secp521r1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV9secp521r1ACvpZ",
+            "mangledName": "$s10CryptorECC13EllipticCurveV9secp521r1ACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EllipticCurve",
+                    "printedName": "CryptorECC.EllipticCurve",
+                    "usr": "s:10CryptorECC13EllipticCurveV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV9secp521r1ACvgZ",
+                "mangledName": "$s10CryptorECC13EllipticCurveV9secp521r1ACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC13EllipticCurveV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10CryptorECC13EllipticCurveV2eeoiySbAC_ACtFZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV11descriptionSSvp",
+            "mangledName": "$s10CryptorECC13EllipticCurveV11descriptionSSvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV11descriptionSSvg",
+                "mangledName": "$s10CryptorECC13EllipticCurveV11descriptionSSvg",
+                "moduleName": "CryptorECC",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signingAlgorithm",
+            "printedName": "signingAlgorithm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SecKeyAlgorithm",
+                "printedName": "Security.SecKeyAlgorithm",
+                "usr": "c:@T@SecKeyAlgorithm"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV16signingAlgorithmSo06SecKeyF0avp",
+            "mangledName": "$s10CryptorECC13EllipticCurveV16signingAlgorithmSo06SecKeyF0avp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKeyAlgorithm",
+                    "printedName": "Security.SecKeyAlgorithm",
+                    "usr": "c:@T@SecKeyAlgorithm"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV16signingAlgorithmSo06SecKeyF0avg",
+                "mangledName": "$s10CryptorECC13EllipticCurveV16signingAlgorithmSo06SecKeyF0avg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "encryptionAlgorithm",
+            "printedName": "encryptionAlgorithm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SecKeyAlgorithm",
+                "printedName": "Security.SecKeyAlgorithm",
+                "usr": "c:@T@SecKeyAlgorithm"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV19encryptionAlgorithmSo06SecKeyF0avp",
+            "mangledName": "$s10CryptorECC13EllipticCurveV19encryptionAlgorithmSo06SecKeyF0avp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKeyAlgorithm",
+                    "printedName": "Security.SecKeyAlgorithm",
+                    "usr": "c:@T@SecKeyAlgorithm"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV19encryptionAlgorithmSo06SecKeyF0avg",
+                "mangledName": "$s10CryptorECC13EllipticCurveV19encryptionAlgorithmSo06SecKeyF0avg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashEngine",
+            "printedName": "hashEngine",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeRawPointer?, Swift.UInt32, Swift.UnsafeMutablePointer<Swift.UInt8>?) -> Swift.UnsafeMutablePointer<Swift.UInt8>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutablePointer<Swift.UInt8>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutablePointer",
+                        "printedName": "Swift.UnsafeMutablePointer<Swift.UInt8>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sp"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.UnsafeRawPointer?, Swift.UInt32, Swift.UnsafeMutablePointer<Swift.UInt8>?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafeRawPointer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafeRawPointer",
+                            "printedName": "Swift.UnsafeRawPointer",
+                            "usr": "s:SV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt32",
+                        "printedName": "Swift.UInt32",
+                        "usr": "s:s6UInt32V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafeMutablePointer<Swift.UInt8>?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafeMutablePointer",
+                            "printedName": "Swift.UnsafeMutablePointer<Swift.UInt8>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UInt8",
+                                "printedName": "Swift.UInt8",
+                                "usr": "s:s5UInt8V"
+                              }
+                            ],
+                            "usr": "s:Sp"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV10hashEngineySpys5UInt8VGSgSVSg_s6UInt32VAHtcvp",
+            "mangledName": "$s10CryptorECC13EllipticCurveV10hashEngineySpys5UInt8VGSgSVSg_s6UInt32VAHtcvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.UnsafeRawPointer?, Swift.UInt32, Swift.UnsafeMutablePointer<Swift.UInt8>?) -> Swift.UnsafeMutablePointer<Swift.UInt8>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafeMutablePointer<Swift.UInt8>?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafeMutablePointer",
+                            "printedName": "Swift.UnsafeMutablePointer<Swift.UInt8>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UInt8",
+                                "printedName": "Swift.UInt8",
+                                "usr": "s:s5UInt8V"
+                              }
+                            ],
+                            "usr": "s:Sp"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.UnsafeRawPointer?, Swift.UInt32, Swift.UnsafeMutablePointer<Swift.UInt8>?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.UnsafeRawPointer?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UnsafeRawPointer",
+                                "printedName": "Swift.UnsafeRawPointer",
+                                "usr": "s:SV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt32",
+                            "printedName": "Swift.UInt32",
+                            "usr": "s:s6UInt32V"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.UnsafeMutablePointer<Swift.UInt8>?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UnsafeMutablePointer",
+                                "printedName": "Swift.UnsafeMutablePointer<Swift.UInt8>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "UInt8",
+                                    "printedName": "Swift.UInt8",
+                                    "usr": "s:s5UInt8V"
+                                  }
+                                ],
+                                "usr": "s:Sp"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV10hashEngineySpys5UInt8VGSgSVSg_s6UInt32VAHtcvg",
+                "mangledName": "$s10CryptorECC13EllipticCurveV10hashEngineySpys5UInt8VGSgSVSg_s6UInt32VAHtcvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashLength",
+            "printedName": "hashLength",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV10hashLengths6UInt32Vvp",
+            "mangledName": "$s10CryptorECC13EllipticCurveV10hashLengths6UInt32Vvp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV10hashLengths6UInt32Vvg",
+                "mangledName": "$s10CryptorECC13EllipticCurveV10hashLengths6UInt32Vvg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keySize",
+            "printedName": "keySize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV7keySizeSivp",
+            "mangledName": "$s10CryptorECC13EllipticCurveV7keySizeSivp",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV7keySizeSivg",
+                "mangledName": "$s10CryptorECC13EllipticCurveV7keySizeSivg",
+                "moduleName": "CryptorECC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "p256",
+            "printedName": "p256",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV4p256ACvpZ",
+            "mangledName": "$s10CryptorECC13EllipticCurveV4p256ACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EllipticCurve",
+                    "printedName": "CryptorECC.EllipticCurve",
+                    "usr": "s:10CryptorECC13EllipticCurveV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV4p256ACvgZ",
+                "mangledName": "$s10CryptorECC13EllipticCurveV4p256ACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "p384",
+            "printedName": "p384",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV4p384ACvpZ",
+            "mangledName": "$s10CryptorECC13EllipticCurveV4p384ACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EllipticCurve",
+                    "printedName": "CryptorECC.EllipticCurve",
+                    "usr": "s:10CryptorECC13EllipticCurveV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV4p384ACvgZ",
+                "mangledName": "$s10CryptorECC13EllipticCurveV4p384ACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "p521",
+            "printedName": "p521",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CryptorECC13EllipticCurveV4p521ACvpZ",
+            "mangledName": "$s10CryptorECC13EllipticCurveV4p521ACvpZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EllipticCurve",
+                    "printedName": "CryptorECC.EllipticCurve",
+                    "usr": "s:10CryptorECC13EllipticCurveV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CryptorECC13EllipticCurveV4p521ACvgZ",
+                "mangledName": "$s10CryptorECC13EllipticCurveV4p521ACvgZ",
+                "moduleName": "CryptorECC",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "objectToCurve",
+            "printedName": "objectToCurve(ObjectIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EllipticCurve",
+                "printedName": "CryptorECC.EllipticCurve",
+                "usr": "s:10CryptorECC13EllipticCurveV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC13EllipticCurveV08objectToD016ObjectIdentifierAC10Foundation4DataV_tKFZ",
+            "mangledName": "$s10CryptorECC13EllipticCurveV08objectToD016ObjectIdentifierAC10Foundation4DataV_tKFZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "digest",
+            "printedName": "digest(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CryptorECC13EllipticCurveV6digest4data10Foundation4DataVAH_tF",
+            "mangledName": "$s10CryptorECC13EllipticCurveV6digest4data10Foundation4DataVAH_tF",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CryptorECC13EllipticCurveV",
+        "mangledName": "$s10CryptorECC13EllipticCurveV",
+        "moduleName": "CryptorECC",
+        "intro_Macosx": "10.13",
+        "intro_iOS": "11",
+        "intro_tvOS": "11.0",
+        "intro_watchOS": "4.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Data",
+        "printedName": "Data",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "decrypt",
+            "printedName": "decrypt(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECPrivateKey",
+                "printedName": "CryptorECC.ECPrivateKey",
+                "usr": "s:10CryptorECC12ECPrivateKeyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV10CryptorECCE7decrypt4withAcD12ECPrivateKeyC_tKF",
+            "mangledName": "$s10Foundation4DataV10CryptorECCE7decrypt4withAcD12ECPrivateKeyC_tKF",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encrypt",
+            "printedName": "encrypt(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECPublicKey",
+                "printedName": "CryptorECC.ECPublicKey",
+                "usr": "s:10CryptorECC11ECPublicKeyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV10CryptorECCE7encrypt4withAcD11ECPublicKeyC_tKF",
+            "mangledName": "$s10Foundation4DataV10CryptorECCE7encrypt4withAcD11ECPublicKeyC_tKF",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sign",
+            "printedName": "sign(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECSignature",
+                "printedName": "CryptorECC.ECSignature",
+                "usr": "s:10CryptorECC11ECSignatureV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECPrivateKey",
+                "printedName": "CryptorECC.ECPrivateKey",
+                "usr": "s:10CryptorECC12ECPrivateKeyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV10CryptorECCE4sign4withAD11ECSignatureVAD12ECPrivateKeyC_tKF",
+            "mangledName": "$s10Foundation4DataV10CryptorECCE4sign4withAD11ECSignatureVAD12ECPrivateKeyC_tKF",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation4DataV",
+        "mangledName": "$s10Foundation4DataV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ECEncryptable",
+            "printedName": "ECEncryptable",
+            "usr": "s:10CryptorECC13ECEncryptableP",
+            "mangledName": "$s10CryptorECC13ECEncryptableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ECSignable",
+            "printedName": "ECSignable",
+            "usr": "s:10CryptorECC10ECSignableP",
+            "mangledName": "$s10CryptorECC10ECSignableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encrypt",
+            "printedName": "encrypt(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECPublicKey",
+                "printedName": "CryptorECC.ECPublicKey",
+                "usr": "s:10CryptorECC11ECPublicKeyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS10CryptorECCE7encrypt4with10Foundation4DataVAA11ECPublicKeyC_tKF",
+            "mangledName": "$sSS10CryptorECCE7encrypt4with10Foundation4DataVAA11ECPublicKeyC_tKF",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sign",
+            "printedName": "sign(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ECSignature",
+                "printedName": "CryptorECC.ECSignature",
+                "usr": "s:10CryptorECC11ECSignatureV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECPrivateKey",
+                "printedName": "CryptorECC.ECPrivateKey",
+                "usr": "s:10CryptorECC12ECPrivateKeyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS10CryptorECCE4sign4withAA11ECSignatureVAA12ECPrivateKeyC_tKF",
+            "mangledName": "$sSS10CryptorECCE4sign4withAA11ECSignatureVAA12ECPrivateKeyC_tKF",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "split",
+            "printedName": "split(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS10CryptorECCE5split2toSaySSGSi_tF",
+            "mangledName": "$sSS10CryptorECCE5split2toSaySSGSi_tF",
+            "moduleName": "CryptorECC",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ECEncryptable",
+            "printedName": "ECEncryptable",
+            "usr": "s:10CryptorECC13ECEncryptableP",
+            "mangledName": "$s10CryptorECC13ECEncryptableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ECSignable",
+            "printedName": "ECSignable",
+            "usr": "s:10CryptorECC10ECSignableP",
+            "mangledName": "$s10CryptorECC10ECSignableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnsafePointer",
+        "printedName": "UnsafePointer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:SP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:SP10CryptorECCEySPyxGABcfc",
+            "mangledName": "$sSP10CryptorECCEySPyxGABcfc",
+            "moduleName": "CryptorECC",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Pointee>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(optional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafePointer<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafePointer",
+                    "printedName": "Swift.UnsafePointer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:SP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafePointer<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafePointer",
+                    "printedName": "Swift.UnsafePointer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:SP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SP10CryptorECCE4make8optionalSPyxGSgAE_tFZ",
+            "mangledName": "$sSP10CryptorECCE4make8optionalSPyxGSgAE_tFZ",
+            "moduleName": "CryptorECC",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Pointee>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(optional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafePointer<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafePointer",
+                    "printedName": "Swift.UnsafePointer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:SP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.OpaquePointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SP10CryptorECCE4make8optionalSPyxGSgs13OpaquePointerVSg_tFZ",
+            "mangledName": "$sSP10CryptorECCE4make8optionalSPyxGSgs13OpaquePointerVSg_tFZ",
+            "moduleName": "CryptorECC",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Pointee>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SP",
+        "mangledName": "$sSP",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Pointee>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_Pointer",
+            "printedName": "_Pointer",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Pointee",
+                "printedName": "Pointee",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s8_PointerP",
+            "mangledName": "$ss8_PointerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnsafeMutablePointer",
+        "printedName": "UnsafeMutablePointer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sp"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:Sp10CryptorECCEySpyxGSvcfc",
+            "mangledName": "$sSp10CryptorECCEySpyxGSvcfc",
+            "moduleName": "CryptorECC",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Pointee>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(optional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutablePointer<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutablePointer<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sp10CryptorECCE4make8optionalSpyxGSgAE_tFZ",
+            "mangledName": "$sSp10CryptorECCE4make8optionalSpyxGSgAE_tFZ",
+            "moduleName": "CryptorECC",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Pointee>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(optional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutablePointer<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sp10CryptorECCE4make8optionalSpyxGSgSvSg_tFZ",
+            "mangledName": "$sSp10CryptorECCE4make8optionalSpyxGSgSvSg_tFZ",
+            "moduleName": "CryptorECC",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Pointee>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(optional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutablePointer<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.OpaquePointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sp10CryptorECCE4make8optionalSpyxGSgs13OpaquePointerVSg_tFZ",
+            "mangledName": "$sSp10CryptorECCE4make8optionalSpyxGSgs13OpaquePointerVSg_tFZ",
+            "moduleName": "CryptorECC",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Pointee>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sp",
+        "mangledName": "$sSp",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Pointee>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_Pointer",
+            "printedName": "_Pointer",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Pointee",
+                "printedName": "Pointee",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s8_PointerP",
+            "mangledName": "$ss8_PointerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnsafeMutableRawPointer",
+        "printedName": "UnsafeMutableRawPointer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(optional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.OpaquePointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sv10CryptorECCE4make8optionalSvSgs13OpaquePointerVSg_tFZ",
+            "mangledName": "$sSv10CryptorECCE4make8optionalSvSgs13OpaquePointerVSg_tFZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sv",
+        "mangledName": "$sSv",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_Pointer",
+            "printedName": "_Pointer",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Pointee",
+                "printedName": "Pointee",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s8_PointerP",
+            "mangledName": "$ss8_PointerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OpaquePointer",
+        "printedName": "OpaquePointer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaquePointer",
+                "printedName": "Swift.OpaquePointer",
+                "usr": "s:s13OpaquePointerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpaquePointer",
+                "printedName": "Swift.OpaquePointer",
+                "usr": "s:s13OpaquePointerV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:s13OpaquePointerV10CryptorECCEyA2Bcfc",
+            "mangledName": "$ss13OpaquePointerV10CryptorECCEyA2Bcfc",
+            "moduleName": "CryptorECC",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(optional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.OpaquePointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.OpaquePointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:s13OpaquePointerV10CryptorECCE4make8optionalABSgAF_tFZ",
+            "mangledName": "$ss13OpaquePointerV10CryptorECCE4make8optionalABSgAF_tFZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(optional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.OpaquePointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:s13OpaquePointerV10CryptorECCE4make8optionalABSgSvSg_tFZ",
+            "mangledName": "$ss13OpaquePointerV10CryptorECCE4make8optionalABSgSvSg_tFZ",
+            "moduleName": "CryptorECC",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(optional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.OpaquePointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutablePointer<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:s13OpaquePointerV10CryptorECCE4make8optionalABSgSpyxGSg_tlFZ",
+            "mangledName": "$ss13OpaquePointerV10CryptorECCE4make8optionalABSgSpyxGSg_tlFZ",
+            "moduleName": "CryptorECC",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Pointee>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:s13OpaquePointerV",
+        "mangledName": "$ss13OpaquePointerV",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 1340,
+      "length": 34,
+      "value": "\"Input was not a valid PEM String\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 1546,
+      "length": 37,
+      "value": "\"Input PEM header was not recognized\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 1758,
+      "length": 36,
+      "value": "\"Failed to base64 encode the String\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 1996,
+      "length": 54,
+      "value": "\"ASN1 data could not be decoded to expected structure\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 2256,
+      "length": 56,
+      "value": "\"The key object identifier is for a non-supported curve\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 2546,
+      "length": 53,
+      "value": "\"The key data could not be converted to a native key\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 2786,
+      "length": 43,
+      "value": "\"Failed to initialize the signing envelope\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 3028,
+      "length": 50,
+      "value": "\"Signing algorithm failed to create the signature\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 3369,
+      "length": 53,
+      "value": "\"The provided R and S values were not a valid length\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 3626,
+      "length": 49,
+      "value": "\"Encryption algorithm failed to encrypt the data\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 3894,
+      "length": 49,
+      "value": "\"Decryption algorithm failed to decrypt the data\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECError.swift",
+      "kind": "StringLiteral",
+      "offset": 4142,
+      "length": 44,
+      "value": "\"Data could not be decoded as a UTF8 String\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/ECPrivateKey.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2118,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/EllipticCurve.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3741,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/EllipticCurve.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4135,
+      "length": 2,
+      "value": "97"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueECC\/Sources\/CryptorECC\/EllipticCurve.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4527,
+      "length": 3,
+      "value": "133"
+    }
+  ]
+}

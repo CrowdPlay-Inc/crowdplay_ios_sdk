@@ -151,6 +151,46 @@ let package = Package(
             name: "vibration",
             path: "Frameworks/vibration.xcframework"
         ),
+        .binaryTarget(
+            name: "Braintree",
+            path: "Frameworks/Braintree.xcframework"
+        ),
+        .binaryTarget(
+            name: "BraintreeDropIn",
+            path: "Frameworks/BraintreeDropIn.xcframework"
+        ),
+        .binaryTarget(
+            name: "Cryptor",
+            path: "Frameworks/Cryptor.xcframework"
+        ),
+        .binaryTarget(
+            name: "CryptorECC",
+            path: "Frameworks/CryptorECC.xcframework"
+        ),
+        .binaryTarget(
+            name: "CryptorRSA",
+            path: "Frameworks/CryptorRSA.xcframework"
+        ),
+        .binaryTarget(
+            name: "KituraContracts",
+            path: "Frameworks/KituraContracts.xcframework"
+        ),
+        .binaryTarget(
+            name: "LoggerAPI",
+            path: "Frameworks/LoggerAPI.xcframework"
+        ),
+        .binaryTarget(
+            name: "Logging",
+            path: "Frameworks/Logging.xcframework"
+        ),
+        .binaryTarget(
+            name: "shift4_sdk",
+            path: "Frameworks/shift4_sdk.xcframework"
+        ),
+        .binaryTarget(
+            name: "SwiftJWT",
+            path: "Frameworks/SwiftJWT.xcframework"
+        ),
         .testTarget(
             name: "crowdplay_ios_sdkTests",
             dependencies: ["crowdplaysdk"]),

@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/shift4_sdk/shift4_sdk.framework/shift4_sdk'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5C8EC, size: 0x8, addend: 0x0, symName: _shift4_sdkVersionString, symObjAddr: 0x0, symBinAddr: 0x7888, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5C921, size: 0x8, addend: 0x0, symName: _shift4_sdkVersionNumber, symObjAddr: 0x28, symBinAddr: 0x78B0, symSize: 0x0 }
+  - { offsetInCU: 0xD4, offset: 0x5CA0B, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC8register4withySo07FlutterE9Registrar_p_tFZTo', symObjAddr: 0x114, symBinAddr: 0x4114, symSize: 0xE8 }
+  - { offsetInCU: 0x19B, offset: 0x5CAD2, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x1104, symBinAddr: 0x5104, symSize: 0x78 }
+  - { offsetInCU: 0x1E3, offset: 0x5CB1A, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCACycfcTo', symObjAddr: 0x11AC, symBinAddr: 0x51AC, symSize: 0x3C }
+  - { offsetInCU: 0x234, offset: 0x5CB6B, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypM7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x13C0, symBinAddr: 0x53C0, symSize: 0x11BC }
+  - { offsetInCU: 0x578, offset: 0x5CEAF, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCMa', symObjAddr: 0xF4, symBinAddr: 0x40F4, symSize: 0x20 }
+  - { offsetInCU: 0x5C1, offset: 0x5CEF8, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1004, symBinAddr: 0x5004, symSize: 0x40 }
+  - { offsetInCU: 0x5D5, offset: 0x5CF0C, size: 0x8, addend: 0x0, symName: '_$sSo8NSObjectCMa', symObjAddr: 0x1044, symBinAddr: 0x5044, symSize: 0x3C }
+  - { offsetInCU: 0x5E9, offset: 0x5CF20, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x10BC, symBinAddr: 0x50BC, symSize: 0x48 }
+  - { offsetInCU: 0x632, offset: 0x5CF69, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x127C, symBinAddr: 0x527C, symSize: 0x3C }
+  - { offsetInCU: 0x676, offset: 0x5CFAD, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x257C, symBinAddr: 0x657C, symSize: 0x48 }
+  - { offsetInCU: 0x68A, offset: 0x5CFC1, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x25C4, symBinAddr: 0x65C4, symSize: 0x24 }
+  - { offsetInCU: 0x69E, offset: 0x5CFD5, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x25E8, symBinAddr: 0x65E8, symSize: 0x20 }
+  - { offsetInCU: 0x89E, offset: 0x5D1D5, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC8register4withySo07FlutterE9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xD4 }
+  - { offsetInCU: 0x920, offset: 0x5D257, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCACycfC', symObjAddr: 0xD4, symBinAddr: 0x40D4, symSize: 0x20 }
+  - { offsetInCU: 0x962, offset: 0x5D299, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x1FC, symBinAddr: 0x41FC, symSize: 0xE08 }
+  - { offsetInCU: 0xC6D, offset: 0x5D5A4, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCACycfc', symObjAddr: 0x117C, symBinAddr: 0x517C, symSize: 0x30 }
+  - { offsetInCU: 0xC9E, offset: 0x5D5D5, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCfD', symObjAddr: 0x11E8, symBinAddr: 0x51E8, symSize: 0x30 }
+  - { offsetInCU: 0xCCE, offset: 0x5D605, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x1218, symBinAddr: 0x5218, symSize: 0x64 }
+  - { offsetInCU: 0xD0C, offset: 0x5D643, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x12E0, symBinAddr: 0x52E0, symSize: 0xE0 }
+...

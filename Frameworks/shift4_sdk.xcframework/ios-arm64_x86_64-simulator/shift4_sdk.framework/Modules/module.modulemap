@@ -1,0 +1,11 @@
+framework module shift4_sdk {
+  umbrella header "shift4_sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module shift4_sdk.Swift {
+  header "shift4_sdk-Swift.h"
+  requires objc
+}
