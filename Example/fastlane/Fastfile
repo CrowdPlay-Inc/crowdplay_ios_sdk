@@ -42,7 +42,7 @@ platform :ios do
 
   desc "Deploy a new build to Testflight"
   lane :beta do |options|
-    build_number = number_of_commits()
+    build_number = options[:version]
     package_name = "com.crowdplayapp.sdkexample"
     puts package_name
     match(type: "appstore", app_identifier: package_name)
@@ -55,6 +55,16 @@ platform :ios do
       code_sign_identity: "iPhone Distribution",
       profile_name: "match AppStore #{package_name}",
       bundle_identifier: package_name
+    )
+
+    increment_build_number(
+      build_number: "#{build_number.to_s}", # set a specific number
+      xcodeproj: "./crowdplaysdk.xcodeproj"  # (optional, you must specify the path to your main Xcode project if it is not in the project root directory)
+    )
+
+    increment_version_number(
+      version_number: "1.#{build_number.to_s}",      # specify specific version number (optional, omitting it increments patch version number)
+      xcodeproj: "./crowdplaysdk.xcodeproj"  # (optional, you must specify the path to your main Xcode project if it is not in the project root directory)
     )
 
     build_ios_app(
