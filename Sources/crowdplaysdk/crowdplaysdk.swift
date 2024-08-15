@@ -54,6 +54,11 @@ public class CrowdplaySdk {
     private init() {}
 
     public func initialize(apiKey: String, appUrlScheme: String) {
+        if (self.apiKey != "") {
+            print("CrowdPlay has already been initialized")
+            return;
+        }
+
         self.apiKey = apiKey;
         self.appUrlScheme = appUrlScheme;
         
