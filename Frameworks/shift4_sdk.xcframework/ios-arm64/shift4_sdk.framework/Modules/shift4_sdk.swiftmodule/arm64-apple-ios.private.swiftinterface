@@ -9,6 +9,12 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import shift4_sdk
+extension UIKit.UIWindow {
+  @_Concurrency.MainActor(unsafe) public var visibleViewController: UIKit.UIViewController? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public static func getVisibleViewControllerFrom(_ vc: UIKit.UIViewController?) -> UIKit.UIViewController?
+}
 @objc @_inheritsConvenienceInitializers public class Shift4SdkPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
   @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)

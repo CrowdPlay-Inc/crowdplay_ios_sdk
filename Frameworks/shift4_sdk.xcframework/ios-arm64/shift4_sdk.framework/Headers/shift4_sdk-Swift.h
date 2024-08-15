@@ -309,6 +309,7 @@ SWIFT_CLASS("_TtC10shift4_sdk15Shift4SdkPlugin")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
