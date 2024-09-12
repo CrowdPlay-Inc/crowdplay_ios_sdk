@@ -191,6 +191,18 @@ let package = Package(
             name: "SwiftJWT",
             path: "Frameworks/SwiftJWT.xcframework"
         ),
+        .binaryTarget(
+            name: "Sentry",
+            path: "Frameworks/Sentry.xcframework"
+        ),
+        .binaryTarget(
+            name: "package_info_plus",
+            path: "Frameworks/package_info_plus.xcframework"
+        ),
+        .binaryTarget(
+            name: "sentry_flutter",
+            path: "Frameworks/sentry_flutter.xcframework"
+        ),
         .testTarget(
             name: "crowdplay_ios_sdkTests",
             dependencies: ["crowdplaysdk"]),
