@@ -60,4 +60,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             completionHandler();
         }
     }
+    
+    func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        let handled = CrowdplaySdk.shared.handleAppLink(appLink: url);
+        if (handled) {
+            return true;
+        }
+        
+        // Handle pass it down the line or handle within this app
+        // .
+        // .
+        // .
+        return false;
+    }
 }

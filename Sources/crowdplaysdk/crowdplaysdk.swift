@@ -52,8 +52,17 @@ public class CrowdplaySdk {
     private var appUrlScheme = "";
 
     private init() {}
+    
+    public var isInitialized: Bool {
+        get {
+            return self.apiKeyChannel != nil;
+        }
+    }
 
     public func initialize(apiKey: String, appUrlScheme: String) {
+        if (apiKey == "" || appUrlScheme == "") {
+            fatalError("apiKey and appUrlScheme are required")
+        }
         if (self.apiKey != "") {
             print("CrowdPlay has already been initialized")
             return;
@@ -99,6 +108,10 @@ public class CrowdplaySdk {
     }
 
     public func handleNotification(userInfo: [AnyHashable : Any]?, vc: UIViewController) -> Bool {
+        if (apiKeyChannel == nil) {
+            return false;
+        }
+        
         print("handleNotification" + (userInfo?.description ?? ""));
         if userInfo == nil || apiKeyChannel == nil {
             print("No userInfo or apiKeyChannel");
@@ -149,6 +162,10 @@ public class CrowdplaySdk {
 
         self.notificationToken = tokenString;
         print("Device Token: " + tokenString);
+        
+        if (apiKeyChannel == nil) {
+            return;
+        }
 
         apiKeyChannel!.invokeMethod("setNotificationToken", arguments: tokenString);
     }
@@ -156,9 +173,19 @@ public class CrowdplaySdk {
     public func setAuthToken(authToken: String) {
         self.authToken = authToken;
 
-        if (flutterViewController != nil) {
+        if (flutterViewController != nil && apiKeyChannel != nil) {
             apiKeyChannel!.invokeMethod("performTokenLogin", arguments: authToken);
         }
+    }
+    
+    public func handleAppLink(appLink: URL) -> Bool {
+        if (apiKeyChannel == nil || (appLink.host != "crowdplay" && appLink.host != "rtl-callback")) {
+            return false;
+        }
+        
+        apiKeyChannel!.invokeMethod("handleAppLink", arguments: appLink.absoluteURL);
+        
+        return true;
     }
 }
 

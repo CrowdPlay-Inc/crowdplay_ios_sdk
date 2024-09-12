@@ -77,6 +77,12 @@ platform :ios do
       }
     )
     upload_to_testflight(skip_waiting_for_build_processing: true, apple_id: "6499055381")
+    sentry_debug_files_upload(
+      auth_token: options[:sentryAuthToken],
+      org_slug: 'crowdplay',
+      project_slug: options[:sentryProject],
+      include_sources: true, # Optional. For source context.
+    )
   end
 
   lane :build do |options|
