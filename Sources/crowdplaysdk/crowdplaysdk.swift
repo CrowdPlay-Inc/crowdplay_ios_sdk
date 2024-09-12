@@ -183,7 +183,7 @@ public class CrowdplaySdk {
             return false;
         }
         
-        apiKeyChannel!.invokeMethod("handleAppLink", arguments: appLink.absoluteURL);
+        apiKeyChannel!.invokeMethod("handleAppLink", arguments: appLink.absoluteString);
         
         return true;
     }
