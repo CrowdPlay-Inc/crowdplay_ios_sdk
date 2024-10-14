@@ -36,7 +36,8 @@ let package = Package(
                 "qr_code_scanner", "share", "store_redirect", "Telegraph", "uni_links",
                 "url_launcher_ios", "vibration", "sentry_flutter", "Sentry", "SwiftJWT",
                 "shift4_sdk", "Logging", "LoggerAPI", "KituraContracts", "CryptorRSA", "CryptorECC",
-                "Cryptor", "BraintreeDropIn", "Braintree",
+                "Cryptor", "BraintreeDropIn", "Braintree", "CardinalMobile", "PPRiskMagnes",
+                "VNWebSDK",
             ],
             resources: [
                 .copy("PrivacyInfo.xcprivacy")
@@ -208,6 +209,18 @@ let package = Package(
         .binaryTarget(
             name: "sentry_flutter",
             path: "Frameworks/sentry_flutter.xcframework"
+        ),
+        .binaryTarget(
+            name: "CardinalMobile",
+            path: "FixedFrameworks/CardinalMobile.xcframework"
+        ),
+        .binaryTarget(
+            name: "PPRiskMagnes",
+            path: "FixedFrameworks/PPRiskMagnes.xcframework"
+        ),
+        .binaryTarget(
+            name: "VNWebSDK",
+            path: "FixedFrameworks/VNWebSDK.xcframework"
         ),
         .testTarget(
             name: "crowdplay_ios_sdkTests",
