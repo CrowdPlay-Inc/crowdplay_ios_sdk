@@ -1,5 +1,5 @@
 PODS:
-  - crowdplaysdk (1.1199):
+  - crowdplaysdk (1.1207):
     - Firebase (~> 10.24.0)
     - FirebaseAuth (~> 10.24.0)
     - FirebaseDatabase (~> 10.24.0)
@@ -203,7 +203,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: 1525ddf43e724f5917053e849b99ab38311f4277
+  crowdplaysdk: e3e8cfadece0853cf67f75b10fb130447d0ccb3c
   Firebase: 91fefd38712feb9186ea8996af6cbdef41473442
   FirebaseAnalytics: b5efc493eb0f40ec560b04a472e3e1a15d39ca13
   FirebaseAppCheckInterop: 6a1757cfd4067d8e00fccd14fcc1b8fd78cfac07
