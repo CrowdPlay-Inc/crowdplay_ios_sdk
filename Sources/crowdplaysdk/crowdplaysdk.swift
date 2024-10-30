@@ -110,6 +110,12 @@ public class CrowdplaySdk {
     }
 
     public func presentCrowdplay(vc: UIViewController) throws {
+        var toDisplay = self.viewController()
+
+        if !toDisplay.isViewLoaded || toDisplay.view.window == nil {
+            return
+        }
+
         DispatchQueue.main.async {
             vc.present(self.viewController(), animated: true, completion: nil)
         }
