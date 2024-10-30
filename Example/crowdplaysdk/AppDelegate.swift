@@ -8,6 +8,7 @@
 
 import UIKit
 import crowdplaysdk
+import os
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
@@ -43,6 +44,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     }
 
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        let log = OSLog(subsystem: "com.crowdplayapp.sdkexample", category: "network")
+        os_log("didRegisterForRemoteNotificationsWithDeviceToken called", log: log, type: .info)
+
         CrowdplaySdk.shared.setNotificationToken(deviceToken: deviceToken)
     }
     
