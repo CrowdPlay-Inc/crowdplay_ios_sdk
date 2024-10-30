@@ -15,9 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        UNUserNotificationCenter.current().delegate = self;
-        
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        UNUserNotificationCenter.current().delegate = self
+
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) {
+            granted, error in
+            if granted {
+                DispatchQueue.main.async { UIApplication.shared.registerForRemoteNotifications() }
+            }
+        }
+
         return true
     }
 
@@ -43,38 +53,50 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+    func application(
+        _ application: UIApplication,
+        didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
+    ) {
         let log = OSLog(subsystem: "com.crowdplayapp.sdkexample", category: "network")
         os_log("didRegisterForRemoteNotificationsWithDeviceToken called", log: log, type: .info)
 
         CrowdplaySdk.shared.setNotificationToken(deviceToken: deviceToken)
     }
-    
+
     @available(iOS 10.0, *)
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-        
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
+        withCompletionHandler completionHandler: @escaping () -> Void
+    ) {
+
         //OnTap Notification
         let userInfo = response.notification.request.content.userInfo
-        print("userNotificationCenter center: response: completionHandler:");
-        print(userInfo);
-        if (self.window?.rootViewController != nil && CrowdplaySdk.shared.handleNotification(userInfo: userInfo, vc: self.window!.rootViewController!)) {
-            print("Handled by Crowdplay");
-            completionHandler();
+        print("userNotificationCenter center: response: completionHandler:")
+        print(userInfo)
+        if self.window?.rootViewController != nil
+            && CrowdplaySdk.shared.handleNotification(
+                userInfo: userInfo, vc: self.window!.rootViewController!)
+        {
+            print("Handled by Crowdplay")
+            completionHandler()
         } else {
-            completionHandler();
+            completionHandler()
         }
     }
-    
-    func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        let handled = CrowdplaySdk.shared.handleAppLink(appLink: url);
-        if (handled) {
-            return true;
+
+    func application(
+        _ application: UIApplication, open url: URL,
+        options: [UIApplication.OpenURLOptionsKey: Any] = [:]
+    ) -> Bool {
+        let handled = CrowdplaySdk.shared.handleAppLink(appLink: url)
+        if handled {
+            return true
         }
-        
+
         // Handle pass it down the line or handle within this app
         // .
         // .
         // .
-        return false;
+        return false
     }
 }
