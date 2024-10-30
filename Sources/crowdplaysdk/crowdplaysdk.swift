@@ -109,7 +109,7 @@ public class CrowdplaySdk {
         return flutterViewController!
     }
 
-    public func presentCrowdplay(vc: UIViewController) {
+    public func presentCrowdplay(vc: UIViewController) throws {
         vc.present(viewController(), animated: true, completion: nil)
     }
 
@@ -154,7 +154,16 @@ public class CrowdplaySdk {
             return false
         }
 
-        self.presentCrowdplay(vc: vc)
+        do {
+            try self.presentCrowdplay(vc: vc)
+        } catch {
+            let log = OSLog(subsystem: "com.crowdplayapp.sdkexample", category: "error")
+            os_log(
+                "An unexpected error occurred: %@", log: log, type: .error,
+                String(describing: error))
+
+            print("An unexpected error occurred: \(error)")
+        }
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             self.apiKeyChannel!.invokeMethod("handleNotification", arguments: customApns)
