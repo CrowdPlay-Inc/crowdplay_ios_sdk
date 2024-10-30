@@ -110,7 +110,9 @@ public class CrowdplaySdk {
     }
 
     public func presentCrowdplay(vc: UIViewController) throws {
-        vc.present(viewController(), animated: true, completion: nil)
+        DispatchQueue.main.async {
+            vc.present(self.viewController(), animated: true, completion: nil)
+        }
     }
 
     public func handleNotification(userInfo: [AnyHashable: Any]?, vc: UIViewController) -> Bool {
