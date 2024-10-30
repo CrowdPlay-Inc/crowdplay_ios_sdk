@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'crowdplaysdk'
-  s.version          = '1.1229'
+  s.version          = '1.1231'
   s.summary          = 'A short description of crowdplaysdk.'
 
 # This description is used to generate tags and improve search results.
