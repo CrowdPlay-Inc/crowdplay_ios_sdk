@@ -32,11 +32,7 @@ class ViewController: UIViewController {
         // Override point for customization after application launch.
         CrowdplaySdk.shared.initialize(apiKey: apiKey, appUrlScheme: "cpsdkdemopod")
         UserDefaults.standard.set(apiKey, forKey: "apiKey")
-        do {
-            try CrowdplaySdk.shared.presentCrowdplay(vc: self)
-        } catch {
-            print(error)
-        }
+        CrowdplaySdk.shared.presentCrowdplay(vc: self)
         
 //        print("Setting up background worker")
 //        DispatchQueue.global().asyncAfter(deadline: .now() + 5.0) {
