@@ -54,6 +54,7 @@ public class CrowdplaySdk {
     private var notificationToken = ""
     private var authToken = ""
     private var appUrlScheme = ""
+    private var presentingViewController: UIViewController?
 
     private init() {}
 
@@ -116,6 +117,11 @@ public class CrowdplaySdk {
             return
         }
 
+        if presentingViewController?.presentedViewController == toDisplay {
+            return
+        }
+
+        presentingViewController = vc
         DispatchQueue.main.async {
             vc.present(self.viewController(), animated: true, completion: nil)
         }
