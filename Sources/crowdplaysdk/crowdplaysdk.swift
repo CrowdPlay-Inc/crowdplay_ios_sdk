@@ -119,13 +119,19 @@ public class CrowdplaySdk {
             return
         }
 
+        if presentingViewController != nil && presentingViewController != vc {
+            DispatchQueue.main.async {
+                self.flutterViewController?.dismiss(animated: false)
+            }
+        }
+
         presentingViewController = vc
         DispatchQueue.main.async {
             vc.present(toDisplay, animated: true, completion: nil)
         }
     }
 
-    public func handleNotification(userInfo: [AnyHashable: Any]?, vc: UIViewController) -> Bool {
+    public func handleNotification(userInfo: [AnyHashable: Any]?, vc: UIViewController?) -> Bool {
         if apiKeyChannel == nil {
             return false
         }
@@ -166,15 +172,17 @@ public class CrowdplaySdk {
             return false
         }
 
-        do {
-            try self.presentCrowdplay(vc: vc)
-        } catch {
-            let log = OSLog(subsystem: "com.crowdplayapp.sdkexample", category: "error")
-            os_log(
-                "An unexpected error occurred: %@", log: log, type: .error,
-                String(describing: error))
+        if vc != nil {
+            do {
+                try self.presentCrowdplay(vc: vc!)
+            } catch {
+                let log = OSLog(subsystem: "com.crowdplayapp.sdkexample", category: "error")
+                os_log(
+                    "An unexpected error occurred: %@", log: log, type: .error,
+                    String(describing: error))
 
-            print("An unexpected error occurred: \(error)")
+                print("An unexpected error occurred: \(error)")
+            }
         }
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
