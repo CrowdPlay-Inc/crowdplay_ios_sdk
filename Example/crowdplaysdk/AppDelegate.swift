@@ -68,20 +68,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         _ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
         withCompletionHandler completionHandler: @escaping () -> Void
     ) {
-
         //OnTap Notification
         let userInfo = response.notification.request.content.userInfo
         print("userNotificationCenter center: response: completionHandler:")
         print(userInfo)
-        if self.window?.rootViewController != nil
-            && CrowdplaySdk.shared.handleNotification(
+        if self.window?.rootViewController != nil {
+            if let apiKey = UserDefaults.standard.string(forKey: "apiKey") {
+                CrowdplaySdk.shared.initialize(apiKey: apiKey, appUrlScheme: "cpsdkdemopod")
+            }
+
+            if CrowdplaySdk.shared.handleNotification(
                 userInfo: userInfo, vc: self.window!.rootViewController!)
-        {
-            print("Handled by Crowdplay")
-            completionHandler()
-        } else {
-            completionHandler()
+            {
+                print("Handled by Crowdplay")
+            }
         }
+
+        completionHandler()
     }
 
     func application(

@@ -9,8 +9,8 @@ target 'crowdplaysdk_Example' do
     inherit! :search_paths
 
     pod 'Quick', '~> 2.2.0'
-    pod 'Nimble', '~> 12.0'
-    pod 'Nimble-Snapshots' , '~> 9.6.1'
+    pod 'Nimble', '~> 13.6.0'
+    pod 'Nimble-Snapshots' , '~> 9.8.0'
   end
 end
 

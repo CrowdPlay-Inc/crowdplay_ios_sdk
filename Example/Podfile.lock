@@ -6,6 +6,15 @@ PODS:
     - FirebaseMessaging (~> 10.24.0)
     - FirebaseStorage (~> 10.24.0)
     - GoogleUtilities (~> 7.11)
+  - CwlCatchException (2.2.1):
+    - CwlCatchExceptionSupport (~> 2.2.1)
+  - CwlCatchExceptionSupport (2.2.1)
+  - CwlMachBadInstructionHandler (2.2.2)
+  - CwlPosixPreconditionTesting (2.2.2)
+  - CwlPreconditionTesting (2.2.2):
+    - CwlCatchException (~> 2.2.1)
+    - CwlMachBadInstructionHandler (~> 2.2.2)
+    - CwlPosixPreconditionTesting (~> 2.2.2)
   - Firebase (10.24.0):
     - Firebase/Core (= 10.24.0)
   - Firebase/Core (10.24.0):
@@ -148,30 +157,36 @@ PODS:
   - iOSSnapshotTestCase/Core (8.0.0)
   - iOSSnapshotTestCase/SwiftSupport (8.0.0):
     - iOSSnapshotTestCase/Core
-  - leveldb-library (1.22.6)
+  - leveldb-library (1.22.5)
   - nanopb (2.30910.0):
     - nanopb/decode (= 2.30910.0)
     - nanopb/encode (= 2.30910.0)
   - nanopb/decode (2.30910.0)
   - nanopb/encode (2.30910.0)
-  - Nimble (12.3.0)
-  - Nimble-Snapshots (9.6.1):
-    - Nimble-Snapshots/Core (= 9.6.1)
-  - Nimble-Snapshots/Core (9.6.1):
+  - Nimble (13.6.0):
+    - CwlPreconditionTesting (~> 2.2.0)
+  - Nimble-Snapshots (9.8.0):
+    - Nimble-Snapshots/Core (= 9.8.0)
+  - Nimble-Snapshots/Core (9.8.0):
     - iOSSnapshotTestCase (~> 8.0)
-    - Nimble (~> 12.0)
+    - Nimble (~> 13.0)
   - PromisesObjC (2.4.0)
   - Quick (2.2.1)
   - RecaptchaInterop (100.0.0)
 
 DEPENDENCIES:
   - crowdplaysdk (from `../`)
-  - Nimble (~> 12.0)
-  - Nimble-Snapshots (~> 9.6.1)
+  - Nimble (~> 13.6.0)
+  - Nimble-Snapshots (~> 9.8.0)
   - Quick (~> 2.2.0)
 
 SPEC REPOS:
   trunk:
+    - CwlCatchException
+    - CwlCatchExceptionSupport
+    - CwlMachBadInstructionHandler
+    - CwlPosixPreconditionTesting
+    - CwlPreconditionTesting
     - Firebase
     - FirebaseAnalytics
     - FirebaseAppCheckInterop
@@ -204,6 +219,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   crowdplaysdk: add3a768713aecc1a539f45c8e37dcd9a7baf8e6
+  CwlCatchException: 7acc161b299a6de7f0a46a6ed741eae2c8b4d75a
+  CwlCatchExceptionSupport: 54ccab8d8c78907b57f99717fb19d4cc3bce02dc
+  CwlMachBadInstructionHandler: dae4fdd124d45c9910ac240287cc7b898f4502a1
+  CwlPosixPreconditionTesting: ecd095aa2129e740b44301c34571e8d85906fb88
+  CwlPreconditionTesting: 67a0047dd4de4382b93442c0e3f25207f984f35a
   Firebase: 91fefd38712feb9186ea8996af6cbdef41473442
   FirebaseAnalytics: b5efc493eb0f40ec560b04a472e3e1a15d39ca13
   FirebaseAppCheckInterop: 6a1757cfd4067d8e00fccd14fcc1b8fd78cfac07
@@ -222,14 +242,14 @@ SPEC CHECKSUMS:
   GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
-  leveldb-library: cc8b8f8e013647a295ad3f8cd2ddf49a6f19be19
+  leveldb-library: e8eadf9008a61f9e1dde3978c086d2b6d9b9dc28
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
-  Nimble: f8a8219d16f176429b951e8f7e72df5c23ceddc0
-  Nimble-Snapshots: 4988d1cf2fe062f13bd2eb87c4279770785e682b
+  Nimble: abf7d6cd9824ec284a3654cbef4d0dd3c79d45a3
+  Nimble-Snapshots: 240ea76ee8e52dfc1387b8d0d9bf1db3420cabbd
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: c81e3773fc61362d1d2e87ea0559febced5731b1
+PODFILE CHECKSUM: 0d39e95a63c423b57b638c08008dff0fbec467e4
 
 COCOAPODS: 1.15.2

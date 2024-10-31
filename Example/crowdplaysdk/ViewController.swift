@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        if let apiKey = UserDefaults.standard.string(forKey: "apiKey") {
+            apiKeyInput?.text = apiKey
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,7 +31,30 @@ class ViewController: UIViewController {
         
         // Override point for customization after application launch.
         CrowdplaySdk.shared.initialize(apiKey: apiKey, appUrlScheme: "cpsdkdemopod")
-        self.present(CrowdplaySdk.shared.viewController(), animated: true)
+        UserDefaults.standard.set(apiKey, forKey: "apiKey")
+        do {
+            try CrowdplaySdk.shared.presentCrowdplay(vc: self)
+        } catch {
+            print(error)
+        }
+        
+//        print("Setting up background worker")
+//        DispatchQueue.global().asyncAfter(deadline: .now() + 5.0) {
+//            if UIApplication.shared.windows.first?.rootViewController == nil {
+//                print("Root view controller is nil")
+//                return
+//            }
+//            
+//            var userInfo: [AnyHashable: Any] = [:]
+//            var custom: [AnyHashable: Any] = [:]
+//            var a: [AnyHashable: Any] = [:]
+//            a["source"] = "crowdplay"
+//            custom["a"] = a
+//            userInfo["custom"] = custom
+//            
+//            let result = CrowdplaySdk.shared.handleNotification(userInfo: userInfo, vc: UIApplication.shared.windows.first!.rootViewController!)
+//            print(result)
+//        }
     }
 }
 

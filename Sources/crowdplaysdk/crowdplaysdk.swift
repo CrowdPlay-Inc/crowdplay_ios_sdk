@@ -84,6 +84,7 @@ public class CrowdplaySdk {
                 result(self.apiKey)
             } else if call.method == "CLOSE_CROWDPLAY" {
                 self.flutterViewController?.dismiss(animated: true)
+                self.presentingViewController = nil
             } else if call.method == "getNativeNotificationToken" {
                 result(self.notificationToken)
             } else if call.method == "getApnsMode" {
@@ -111,19 +112,16 @@ public class CrowdplaySdk {
     }
 
     public func presentCrowdplay(vc: UIViewController) throws {
-        var toDisplay = self.viewController()
-
-        if !toDisplay.isViewLoaded || toDisplay.view.window == nil {
-            return
-        }
+        let toDisplay = self.viewController()
 
         if presentingViewController?.presentedViewController == toDisplay {
+            print("Already presented")
             return
         }
 
         presentingViewController = vc
         DispatchQueue.main.async {
-            vc.present(self.viewController(), animated: true, completion: nil)
+            vc.present(toDisplay, animated: true, completion: nil)
         }
     }
 
