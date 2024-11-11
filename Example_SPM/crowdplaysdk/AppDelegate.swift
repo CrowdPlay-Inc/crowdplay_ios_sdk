@@ -8,17 +8,26 @@
 
 import UIKit
 import crowdplaysdk
+import os
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        UNUserNotificationCenter.current().delegate = self;
-        
-        // Override point for customization after application launch.
-        CrowdplaySdk.shared.initialize(apiKey: "efebd8e4-d1ba-4ba4-86ee-a7a9fe49685e", appUrlScheme: "cpsdkdemo")
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        UNUserNotificationCenter.current().delegate = self
+
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) {
+            granted, error in
+            if granted {
+                DispatchQueue.main.async { UIApplication.shared.registerForRemoteNotifications() }
+            }
+        }
+
         return true
     }
 
@@ -44,22 +53,67 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+    func application(
+        _ application: UIApplication,
+        didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
+    ) {
+        let log = OSLog(subsystem: "com.crowdplayapp.sdkexample", category: "network")
+        os_log("didRegisterForRemoteNotificationsWithDeviceToken called", log: log, type: .info)
+
         CrowdplaySdk.shared.setNotificationToken(deviceToken: deviceToken)
     }
-    
+
     @available(iOS 10.0, *)
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-        
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
+        withCompletionHandler completionHandler: @escaping () -> Void
+    ) {
         //OnTap Notification
         let userInfo = response.notification.request.content.userInfo
-        print("userNotificationCenter center: response: completionHandler:");
-        print(userInfo);
-        if (self.window?.rootViewController != nil && CrowdplaySdk.shared.handleNotification(userInfo: userInfo, vc: self.window!.rootViewController!)) {
-            print("Handled by Crowdplay");
-            completionHandler();
+        print("userNotificationCenter center: response: completionHandler:")
+        print(userInfo)
+        if self.window?.rootViewController != nil {
+            if let apiKey = UserDefaults.standard.string(forKey: "apiKey") {
+                CrowdplaySdk.shared.initialize(apiKey: apiKey, appUrlScheme: "cpsdkdemopod")
+            }
+
+            if CrowdplaySdk.shared.handleNotification(
+                userInfo: userInfo, vc: self.window!.rootViewController!)
+            {
+                print("Handled by Crowdplay")
+            }
+        }
+
+        completionHandler()
+    }
+
+    func application(
+        _ application: UIApplication, open url: URL,
+        options: [UIApplication.OpenURLOptionsKey: Any] = [:]
+    ) -> Bool {
+        let handled = CrowdplaySdk.shared.handleAppLink(appLink: url)
+        if handled {
+            return true
+        }
+
+        // Handle pass it down the line or handle within this app
+        // .
+        // .
+        // .
+        return false
+    }
+
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter, willPresent notification: UNNotification,
+        withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) ->
+            Void
+    ) {
+        // Display the notification as a banner and play sound
+        if #available(iOS 14.0, *) {
+            completionHandler([.banner, .sound])
         } else {
-            completionHandler();
+            completionHandler([.alert, .sound])
         }
     }
 }
+

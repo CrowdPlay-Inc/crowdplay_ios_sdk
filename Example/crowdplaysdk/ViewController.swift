@@ -34,23 +34,23 @@ class ViewController: UIViewController {
         UserDefaults.standard.set(apiKey, forKey: "apiKey")
         CrowdplaySdk.shared.presentCrowdplay(vc: self)
         
-//        print("Setting up background worker")
-//        DispatchQueue.global().asyncAfter(deadline: .now() + 5.0) {
-//            if UIApplication.shared.windows.first?.rootViewController == nil {
-//                print("Root view controller is nil")
-//                return
-//            }
-//            
-//            var userInfo: [AnyHashable: Any] = [:]
-//            var custom: [AnyHashable: Any] = [:]
-//            var a: [AnyHashable: Any] = [:]
-//            a["source"] = "crowdplay"
-//            custom["a"] = a
-//            userInfo["custom"] = custom
-//            
-//            let result = CrowdplaySdk.shared.handleNotification(userInfo: userInfo, vc: UIApplication.shared.windows.first!.rootViewController!)
-//            print(result)
-//        }
+        // print("Setting up background worker")
+        // DispatchQueue.global().asyncAfter(deadline: .now() + 5.0) {
+        //     if UIApplication.shared.windows.first?.rootViewController == nil {
+        //         print("Root view controller is nil")
+        //         return
+        //     }
+            
+        //     var userInfo: [AnyHashable: Any] = [:]
+        //     var custom: [AnyHashable: Any] = [:]
+        //     var a: [AnyHashable: Any] = [:]
+        //     a["source"] = "crowdplay"
+        //     custom["a"] = a
+        //     userInfo["custom"] = custom
+            
+        //     let result = CrowdplaySdk.shared.handleNotification(userInfo: userInfo, vc: UIApplication.shared.windows.first!.rootViewController!)
+        //     print(result)
+        // }
     }
 }
 
