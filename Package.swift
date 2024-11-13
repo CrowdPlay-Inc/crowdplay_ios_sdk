@@ -35,7 +35,7 @@ let package = Package(
                 "OrderedSet", "package_info_plus", "path_provider_foundation", "patrol",
                 "qr_code_scanner", "share", "store_redirect", "Telegraph", "uni_links",
                 "url_launcher_ios", "vibration", "sentry_flutter", "Sentry", "SwiftJWT",
-                "shift4_sdk", "Logging", "LoggerAPI", "KituraContracts", "CryptorRSA", "CryptorECC",
+                "shift4_sdk", "LoggerAPI", "KituraContracts", "CryptorRSA", "CryptorECC",
                 "Cryptor", "BraintreeDropIn", "Braintree", "CardinalMobile", "PPRiskMagnes",
                 "VNWebSDK",
             ],
@@ -185,10 +185,6 @@ let package = Package(
         .binaryTarget(
             name: "LoggerAPI",
             path: "Frameworks/LoggerAPI.xcframework"
-        ),
-        .binaryTarget(
-            name: "Logging",
-            path: "Frameworks/Logging.xcframework"
         ),
         .binaryTarget(
             name: "shift4_sdk",
