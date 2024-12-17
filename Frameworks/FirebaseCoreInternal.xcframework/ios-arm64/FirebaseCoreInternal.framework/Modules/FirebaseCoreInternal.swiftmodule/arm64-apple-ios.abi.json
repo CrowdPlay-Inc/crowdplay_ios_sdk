@@ -101,6 +101,46 @@
           },
           {
             "kind": "Function",
+            "name": "flushAsync",
+            "printedName": "flushAsync(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseCoreInternal._ObjC_HeartbeatsPayload) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ObjC_HeartbeatsPayload",
+                    "printedName": "FirebaseCoreInternal._ObjC_HeartbeatsPayload",
+                    "usr": "c:@M@FirebaseCoreInternal@objc(cs)FIRHeartbeatsPayload"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FirebaseCoreInternal@objc(cs)FIRHeartbeatController(im)flushAsyncWithCompletionHandler:",
+            "mangledName": "$s20FirebaseCoreInternal25_ObjC_HeartbeatControllerC10flushAsync17completionHandleryyAA01_D19C_HeartbeatsPayloadCYbc_tF",
+            "moduleName": "FirebaseCoreInternal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "flushHeartbeatFromToday",
             "printedName": "flushHeartbeatFromToday()",
             "children": [
@@ -535,6 +575,45 @@
           },
           {
             "kind": "Function",
+            "name": "flushAsync",
+            "printedName": "flushAsync(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseCoreInternal.HeartbeatsPayload) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HeartbeatsPayload",
+                    "printedName": "FirebaseCoreInternal.HeartbeatsPayload",
+                    "usr": "s:20FirebaseCoreInternal17HeartbeatsPayloadV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20FirebaseCoreInternal19HeartbeatControllerC10flushAsync17completionHandleryyAA17HeartbeatsPayloadVYbc_tF",
+            "mangledName": "$s20FirebaseCoreInternal19HeartbeatControllerC10flushAsync17completionHandleryyAA17HeartbeatsPayloadVYbc_tF",
+            "moduleName": "FirebaseCoreInternal",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "flushHeartbeatFromToday",
             "printedName": "flushHeartbeatFromToday()",
             "children": [
@@ -567,7 +646,16 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -862,6 +950,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -1596,92 +1691,92 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 972,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "StringLiteral",
-      "offset": 1279,
+      "offset": 997,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1343,
+      "offset": 1063,
       "length": 1,
       "value": "0"
     },
     {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1442,
+      "length": 2,
+      "value": "30"
+    },
+    {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "IntegerLiteral",
-      "offset": 1672,
+      "offset": 1682,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2254,
+      "offset": 2264,
       "length": 12,
       "value": "\"heartbeats\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2254,
+      "offset": 2264,
       "length": 12,
       "value": "\"heartbeats\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
-      "offset": 2585,
+      "offset": 2595,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
-      "offset": 4351,
+      "offset": 4122,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
-      "offset": 4406,
+      "offset": 4177,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "IntegerLiteral",
-      "offset": 4471,
+      "offset": 4242,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
-      "offset": 4933,
+      "offset": 4704,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
-      "offset": 5495,
+      "offset": 5266,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
       "kind": "Dictionary",
-      "offset": 2158,
+      "offset": 3056,
       "length": 3,
       "value": "[]"
     },

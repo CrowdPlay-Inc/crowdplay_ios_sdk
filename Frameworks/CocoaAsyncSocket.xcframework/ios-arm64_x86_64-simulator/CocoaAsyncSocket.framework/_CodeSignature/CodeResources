@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		F9GXO3GoXTsUbPDGM4WzS6hMrJk=
+		TKAxCTRZMGGeT955lmOLJ0gXyXM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -29,6 +29,10 @@
 	<dict>
 		<key>Headers/CocoaAsyncSocket-umbrella.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			nSwYnon4SZxIt4qjZlFgqb+K1Us=
+			</data>
 			<key>hash2</key>
 			<data>
 			59fttrV3RSfUCwT+YLZ5+NLPFgwQxm72dVgH5sO5PMQ=
@@ -36,6 +40,10 @@
 		</dict>
 		<key>Headers/GCDAsyncSocket.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			JwDJxahaKup9fnB5MJuoxDHbdDs=
+			</data>
 			<key>hash2</key>
 			<data>
 			JL0b2lWPgVphz/ekZLsGMKrShDXTK2YY53aKtusc9hk=
@@ -43,6 +51,10 @@
 		</dict>
 		<key>Headers/GCDAsyncUdpSocket.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			9hL7D86xSUKQ1TBRDa+fDNkDlqI=
+			</data>
 			<key>hash2</key>
 			<data>
 			uNVm5yZ0jBhGDXZuAynPXvem1qcBvAVdWXAewQdJbh8=
@@ -50,6 +62,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			R0c/IzB2QNGYwGW9/k2yGrSkHuE=
+			</data>
 			<key>hash2</key>
 			<data>
 			8gBU9Oh25lVpTi38qYX+Tp6S4YF4YUmNTPUqJuajlPI=

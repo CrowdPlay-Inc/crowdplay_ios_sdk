@@ -1,5 +1,10 @@
-#import "SentryDefines.h"
-#import "SentryProfilingConditionals.h"
+#if __has_include(<Sentry/Sentry.h>)
+#    import <Sentry/SentryDefines.h>
+#    import <Sentry/SentryProfilingConditionals.h>
+#else
+#    import <SentryWithoutUIKit/SentryDefines.h>
+#    import <SentryWithoutUIKit/SentryProfilingConditionals.h>
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -74,6 +79,27 @@ NS_SWIFT_NAME(Options)
  * @note Crash reporting is automatically disabled if a debugger is attached.
  */
 @property (nonatomic, assign) BOOL enableCrashHandler;
+
+#if TARGET_OS_OSX
+
+/**
+ * When enabled, the SDK captures uncaught NSExceptions. As this feature uses swizzling, disabling
+ * @c enableSwizzling also disables this feature.
+ *
+ * @discussion This option registers the `NSApplicationCrashOnExceptions` UserDefault,
+ * so your macOS application crashes when an uncaught exception occurs. As the Cocoa Frameworks are
+ * generally not exception-safe on macOS, we recommend this approach because the application could
+ * otherwise end up in a corrupted state.
+ *
+ * @warning Don't use this in combination with `SentryCrashExceptionApplication`. Either enable this
+ * feature or use the `SentryCrashExceptionApplication`. Having both enabled can lead to duplicated
+ * reports.
+ *
+ * @note Default value is @c NO .
+ */
+@property (nonatomic, assign) BOOL enableUncaughtNSExceptionReporting;
+
+#endif // TARGET_OS_OSX
 
 #if !TARGET_OS_WATCH
 
@@ -441,17 +467,17 @@ NS_SWIFT_NAME(Options)
 @property (nonatomic, assign) BOOL enableSwizzling;
 
 /**
- * An array of class names to ignore for swizzling.
+ * A set of class names to ignore for swizzling.
  *
  * @discussion The SDK checks if a class name of a class to swizzle contains a class name of this
  * array. For example, if you add MyUIViewController to this list, the SDK excludes the following
  * classes from swizzling: YourApp.MyUIViewController, YourApp.MyUIViewControllerA,
  * MyApp.MyUIViewController.
- * We can't use an @c NSArray<Class>  here because we use this as a workaround for which users have
+ * We can't use an @c NSSet<Class>  here because we use this as a workaround for which users have
  * to pass in class names that aren't available on specific iOS versions. By using @c
- * NSArray<NSString *>, users can specify unavailable class names.
+ * NSSet<NSString *>, users can specify unavailable class names.
  *
- * @note Default is an empty array.
+ * @note Default is an empty set.
  */
 @property (nonatomic, strong) NSSet<NSString *> *swizzleClassNameExcludes;
 
@@ -466,11 +492,12 @@ NS_SWIFT_NAME(Options)
 /**
  * @warning This is an experimental feature and may still have bugs.
  * Set to @c YES to run the profiler as early as possible in an app launch, before you would
- * normally have the opportunity to call @c SentrySDK.start . If enabled, the @c tracesSampleRate
- * and @c profilesSampleRate are persisted to disk and read on the next app launch to decide whether
- * to profile that launch.
- * @see @c tracesSampler and @c profilesSampler for more information on how they work for this
- * feature.
+ * normally have the opportunity to call @c SentrySDK.start . If @c profilesSampleRate is nonnull,
+ * the @c tracesSampleRate and @c profilesSampleRate are persisted to disk and read on the next app
+ * launch to decide whether to profile that launch.
+ * @warning If @c profilesSampleRate is @c nil then a continuous profile will be started on every
+ * launch; if you desire sampling profiled launches, you must compute your own sample rate to decide
+ * whether to set this property to @c YES or @c NO .
  * @note Profiling is automatically disabled if a thread sanitizer is attached.
  */
 @property (nonatomic, assign) BOOL enableAppLaunchProfiling;
@@ -478,12 +505,11 @@ NS_SWIFT_NAME(Options)
 /**
  * @note Profiling is not supported on watchOS or tvOS.
  * Indicates the percentage profiles being sampled out of the sampled transactions.
- * @note The default is @c 0.
  * @note The value needs to be >= @c 0.0 and \<= @c 1.0. When setting a value out of range
- * the SDK sets it to the default of @c 0.
- * This property is dependent on @c tracesSampleRate -- if @c tracesSampleRate is @c 0 (default),
- * no profiles will be collected no matter what this property is set to. This property is
- * used to undersample profiles *relative to* @c tracesSampleRate .
+ * the SDK sets it to @c 0. When set to a valid nonnull value, this property is dependent on
+ * @c tracesSampleRate -- if @c tracesSampleRate is @c 0 (default), no profiles will be collected no
+ * matter what this property is set to. This property is used to undersample profiles *relative to*
+ * @c tracesSampleRate .
  * @note Setting this value to @c nil enables an experimental new profiling mode, called continuous
  * profiling. This allows you to start and stop a profiler any time with @c SentrySDK.startProfiler
  * and @c SentrySDK.stopProfiler, which can run with no time limit, periodically uploading profiling
@@ -493,6 +519,9 @@ NS_SWIFT_NAME(Options)
  * automatically started for app launches. If you wish to sample them, you must do so at the
  * callsites where you use the API or configure launch profiling. Continuous profiling is not
  * automatically started for performance transactions as was the previous version of profiling.
+ * @seealso https://docs.sentry.io/platforms/apple/profiling/ for more information about the
+ * different profiling modes.
+ * @note The default is @c nil (which implies continuous profiling mode).
  * @warning The new continuous profiling mode is experimental and may still contain bugs.
  * @note Profiling is automatically disabled if a thread sanitizer is attached.
  */
@@ -550,6 +579,40 @@ NS_SWIFT_NAME(Options)
  * @note ANR tracking is automatically disabled if a debugger is attached.
  */
 @property (nonatomic, assign) BOOL enableAppHangTracking;
+
+#if SENTRY_UIKIT_AVAILABLE
+
+/**
+ * AppHangTrackingV2 can differentiate between fully-blocking and non-fully blocking app hangs.
+ * fully-blocking app hang is when the main thread is stuck completely, and the app can't render a
+ * single frame. A non-fully-blocking app hang is when the app appears stuck to the user but can
+ still
+ * render a few frames. Fully-blocking app hangs are more actionable because the stacktrace shows
+ the
+ * exact blocking location on the main thread. As the main thread isn't completely blocked,
+ * non-fully-blocking app hangs can have a stacktrace that doesn't highlight the exact blocking
+ * location.
+ *
+ * You can use @c enableReportNonFullyBlockingAppHangs to ignore non-fully-blocking app hangs.
+ *
+ * @note This flag wins over enableAppHangTracking. When enabling both enableAppHangTracking and
+ enableAppHangTrackingV2, the SDK only enables enableAppHangTrackingV2 and disables
+ enableAppHangTracking.
+ *
+ * @warning This is an experimental feature and may still have bugs.
+ */
+@property (nonatomic, assign) BOOL enableAppHangTrackingV2;
+
+/**
+ * When enabled the SDK reports non-fully-blocking app hangs. A non-fully-blocking app hang is when
+ * the app appears stuck to the user but can still render a few frames. For more information see @c
+ * enableAppHangTrackingV2.
+ *
+ * @note The default is @c YES. This feature only works when @c enableAppHangTrackingV2 is enabled.
+ */
+@property (nonatomic, assign) BOOL enableReportNonFullyBlockingAppHangs;
+
+#endif // SENTRY_UIKIT_AVAILABLE
 
 /**
  * The minimum amount of time an app should be unresponsive to be classified as an App Hanging.
@@ -671,38 +734,6 @@ NS_SWIFT_NAME(Options)
  * https://spotlightjs.com/
  */
 @property (nonatomic, copy) NSString *spotlightUrl;
-
-/**
- * Wether to enable DDM (delightful developer metrics) or not. For more information see
- * https://docs.sentry.io/product/metrics/.
- *
- * @warning This is an experimental feature and may still have bugs.
- * @note Default value is @c NO .
- */
-@property (nonatomic, assign) BOOL enableMetrics;
-
-/**
- * Wether to enable adding some default tags to every metrics or not. You need to enable @c
- * enableMetrics for this flag to work.
- *
- * @warning This is an experimental feature and may still have bugs.
- * @note Default value is @c YES .
- */
-@property (nonatomic, assign) BOOL enableDefaultTagsForMetrics;
-
-/**
- * Wether to enable connecting metrics to spans and transactions or not. You need to enable @c
- * enableMetrics for this flag to work.
- *
- * @warning This is an experimental feature and may still have bugs.
- * @note Default value is @c YES .
- */
-@property (nonatomic, assign) BOOL enableSpanLocalMetricAggregation;
-
-/**
- * This block can be used to modify the event before it will be serialized and sent.
- */
-@property (nullable, nonatomic, copy) SentryBeforeEmitMetricCallback beforeEmitMetric;
 
 /**
  * This aggregates options for experimental features.

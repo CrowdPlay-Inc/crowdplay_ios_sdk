@@ -57,13 +57,6 @@
       },
       {
         "kind": "Import",
-        "name": "GTMSessionFetcher",
-        "printedName": "GTMSessionFetcher",
-        "declKind": "Import",
-        "moduleName": "FirebaseStorage"
-      },
-      {
-        "kind": "Import",
         "name": "FirebaseCoreExtension",
         "printedName": "FirebaseCoreExtension",
         "declKind": "Import",
@@ -346,6 +339,17 @@
                 "mangledName": "$s15FirebaseStorage0B0C18maxUploadRetryTimeSdvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -439,6 +443,17 @@
                 "mangledName": "$s15FirebaseStorage0B0C20maxDownloadRetryTimeSdvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -532,6 +547,17 @@
                 "mangledName": "$s15FirebaseStorage0B0C21maxOperationRetryTimeSdvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -626,6 +652,17 @@
                 "mangledName": "$s15FirebaseStorage0B0C20uploadChunkSizeBytess5Int64VvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -647,10 +684,13 @@
             "mangledName": "$s15FirebaseStorage0B0C13callbackQueueSo17OS_dispatch_queueCvp",
             "moduleName": "FirebaseStorage",
             "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
             ],
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -668,6 +708,7 @@
                 "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorage(im)callbackQueue",
                 "mangledName": "$s15FirebaseStorage0B0C13callbackQueueSo17OS_dispatch_queueCvg",
                 "moduleName": "FirebaseStorage",
+                "implicit": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -694,6 +735,7 @@
                 "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorage(im)setCallbackQueue:",
                 "mangledName": "$s15FirebaseStorage0B0C13callbackQueueSo17OS_dispatch_queueCvs",
                 "moduleName": "FirebaseStorage",
+                "implicit": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -715,6 +757,17 @@
                 "mangledName": "$s15FirebaseStorage0B0C13callbackQueueSo17OS_dispatch_queueCvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -736,9 +789,18 @@
             "mangledName": "$s15FirebaseStorage0B0C9referenceAA0B9ReferenceCyF",
             "moduleName": "FirebaseStorage",
             "isOpen": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "7",
             "declAttributes": [
               "AccessControl",
               "ObjC",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -766,10 +828,19 @@
             "mangledName": "$s15FirebaseStorage0B0C9reference6forURLAA0B9ReferenceCSS_tF",
             "moduleName": "FirebaseStorage",
             "isOpen": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "7",
             "objc_name": "referenceForURL:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -1021,10 +1092,19 @@
         "mangledName": "$s15FirebaseStorage0B0C",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "objc_name": "FIRStorage",
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -1082,48 +1162,6 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "FirebaseAppCheckInterop",
-        "printedName": "FirebaseAppCheckInterop",
-        "declKind": "Import",
-        "moduleName": "FirebaseStorage",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "FirebaseAuthInterop",
-        "printedName": "FirebaseAuthInterop",
-        "declKind": "Import",
-        "moduleName": "FirebaseStorage"
-      },
-      {
-        "kind": "Import",
-        "name": "FirebaseCore",
-        "printedName": "FirebaseCore",
-        "declKind": "Import",
-        "moduleName": "FirebaseStorage"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FirebaseStorage"
-      },
-      {
-        "kind": "Import",
-        "name": "FirebaseCoreExtension",
-        "printedName": "FirebaseCoreExtension",
-        "declKind": "Import",
-        "moduleName": "FirebaseStorage",
-        "declAttributes": [
-          "ImplementationOnly",
-          "RawDocComment"
         ]
       },
       {
@@ -1650,9 +1688,18 @@
         "mangledName": "$s15FirebaseStorage0B12DownloadTaskC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "objc_name": "FIRStorageDownloadTask",
         "declAttributes": [
           "AccessControl",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
           "ObjC",
           "RawDocComment"
         ],
@@ -2277,6 +2324,129 @@
             "fixedbinaryorder": 11
           },
           {
+            "kind": "Var",
+            "name": "bucketMismatch",
+            "printedName": "bucketMismatch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseStorage.StorageErrorCode.Type) -> FirebaseStorage.StorageErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorageErrorCode",
+                    "printedName": "FirebaseStorage.StorageErrorCode",
+                    "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FirebaseStorage.StorageErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageErrorCode",
+                        "printedName": "FirebaseStorage.StorageErrorCode",
+                        "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode@FIRStorageErrorCodeBucketMismatch",
+            "mangledName": "$s15FirebaseStorage0B9ErrorCodeO14bucketMismatchyA2CmF",
+            "moduleName": "FirebaseStorage",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 12
+          },
+          {
+            "kind": "Var",
+            "name": "internalError",
+            "printedName": "internalError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseStorage.StorageErrorCode.Type) -> FirebaseStorage.StorageErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorageErrorCode",
+                    "printedName": "FirebaseStorage.StorageErrorCode",
+                    "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FirebaseStorage.StorageErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageErrorCode",
+                        "printedName": "FirebaseStorage.StorageErrorCode",
+                        "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode@FIRStorageErrorCodeInternalError",
+            "mangledName": "$s15FirebaseStorage0B9ErrorCodeO08internalC0yA2CmF",
+            "moduleName": "FirebaseStorage",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 13
+          },
+          {
+            "kind": "Var",
+            "name": "pathError",
+            "printedName": "pathError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseStorage.StorageErrorCode.Type) -> FirebaseStorage.StorageErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorageErrorCode",
+                    "printedName": "FirebaseStorage.StorageErrorCode",
+                    "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FirebaseStorage.StorageErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageErrorCode",
+                        "printedName": "FirebaseStorage.StorageErrorCode",
+                        "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode@FIRStorageErrorCodePathError",
+            "mangledName": "$s15FirebaseStorage0B9ErrorCodeO04pathC0yA2CmF",
+            "moduleName": "FirebaseStorage",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 14
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -2394,10 +2564,19 @@
         "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode",
         "mangledName": "$s15FirebaseStorage0B9ErrorCodeO",
         "moduleName": "FirebaseStorage",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "objc_name": "FIRStorageErrorCode",
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
           "RawDocComment"
         ],
         "enumRawTypeName": "Int",
@@ -2481,12 +2660,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseStorage.StorageError.Type) -> (Swift.String) -> FirebaseStorage.StorageError",
+                "printedName": "(FirebaseStorage.StorageError.Type) -> (Swift.String, [Swift.String : Any]) -> FirebaseStorage.StorageError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String) -> FirebaseStorage.StorageError",
+                    "printedName": "(Swift.String, [Swift.String : Any]) -> FirebaseStorage.StorageError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2496,9 +2675,35 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String, serverError: [Swift.String : Any])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -2519,8 +2724,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO7unknownyACSScACmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO7unknownyACSScACmF",
+            "usr": "s:15FirebaseStorage0B5ErrorO7unknownyACSS_SDySSypGtcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO7unknownyACSS_SDySSypGtcACmF",
             "moduleName": "FirebaseStorage"
           },
           {
@@ -2531,12 +2736,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseStorage.StorageError.Type) -> (Swift.String) -> FirebaseStorage.StorageError",
+                "printedName": "(FirebaseStorage.StorageError.Type) -> (Swift.String, [Swift.String : Any]) -> FirebaseStorage.StorageError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String) -> FirebaseStorage.StorageError",
+                    "printedName": "(Swift.String, [Swift.String : Any]) -> FirebaseStorage.StorageError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2546,9 +2751,35 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Tuple",
+                        "printedName": "(object: Swift.String, serverError: [Swift.String : Any])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -2569,8 +2800,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO14objectNotFoundyACSScACmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO14objectNotFoundyACSScACmF",
+            "usr": "s:15FirebaseStorage0B5ErrorO14objectNotFoundyACSS_SDySSypGtcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO14objectNotFoundyACSS_SDySSypGtcACmF",
             "moduleName": "FirebaseStorage"
           },
           {
@@ -2596,202 +2827,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FirebaseStorage.StorageError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StorageError",
-                        "printedName": "FirebaseStorage.StorageError",
-                        "usr": "s:15FirebaseStorage0B5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO14bucketNotFoundyACSScACmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO14bucketNotFoundyACSScACmF",
-            "moduleName": "FirebaseStorage"
-          },
-          {
-            "kind": "Var",
-            "name": "projectNotFound",
-            "printedName": "projectNotFound",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FirebaseStorage.StorageError.Type) -> (Swift.String) -> FirebaseStorage.StorageError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> FirebaseStorage.StorageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StorageError",
-                        "printedName": "FirebaseStorage.StorageError",
-                        "usr": "s:15FirebaseStorage0B5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FirebaseStorage.StorageError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StorageError",
-                        "printedName": "FirebaseStorage.StorageError",
-                        "usr": "s:15FirebaseStorage0B5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO15projectNotFoundyACSScACmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO15projectNotFoundyACSScACmF",
-            "moduleName": "FirebaseStorage"
-          },
-          {
-            "kind": "Var",
-            "name": "quotaExceeded",
-            "printedName": "quotaExceeded",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FirebaseStorage.StorageError.Type) -> (Swift.String) -> FirebaseStorage.StorageError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> FirebaseStorage.StorageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StorageError",
-                        "printedName": "FirebaseStorage.StorageError",
-                        "usr": "s:15FirebaseStorage0B5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FirebaseStorage.StorageError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StorageError",
-                        "printedName": "FirebaseStorage.StorageError",
-                        "usr": "s:15FirebaseStorage0B5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO13quotaExceededyACSScACmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO13quotaExceededyACSScACmF",
-            "moduleName": "FirebaseStorage"
-          },
-          {
-            "kind": "Var",
-            "name": "unauthenticated",
-            "printedName": "unauthenticated",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FirebaseStorage.StorageError.Type) -> FirebaseStorage.StorageError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StorageError",
-                    "printedName": "FirebaseStorage.StorageError",
-                    "usr": "s:15FirebaseStorage0B5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FirebaseStorage.StorageError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StorageError",
-                        "printedName": "FirebaseStorage.StorageError",
-                        "usr": "s:15FirebaseStorage0B5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO15unauthenticatedyA2CmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO15unauthenticatedyA2CmF",
-            "moduleName": "FirebaseStorage"
-          },
-          {
-            "kind": "Var",
-            "name": "unauthorized",
-            "printedName": "unauthorized",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FirebaseStorage.StorageError.Type) -> (Swift.String, Swift.String) -> FirebaseStorage.StorageError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.String) -> FirebaseStorage.StorageError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StorageError",
-                        "printedName": "FirebaseStorage.StorageError",
-                        "usr": "s:15FirebaseStorage0B5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.String, Swift.String)",
+                        "printedName": "(bucket: Swift.String)",
                         "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
                           {
                             "kind": "TypeNominal",
                             "name": "String",
@@ -2819,8 +2857,293 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO12unauthorizedyACSS_SStcACmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO12unauthorizedyACSS_SStcACmF",
+            "usr": "s:15FirebaseStorage0B5ErrorO14bucketNotFoundyACSS_tcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO14bucketNotFoundyACSS_tcACmF",
+            "moduleName": "FirebaseStorage"
+          },
+          {
+            "kind": "Var",
+            "name": "projectNotFound",
+            "printedName": "projectNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseStorage.StorageError.Type) -> (Swift.String) -> FirebaseStorage.StorageError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> FirebaseStorage.StorageError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageError",
+                        "printedName": "FirebaseStorage.StorageError",
+                        "usr": "s:15FirebaseStorage0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(project: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FirebaseStorage.StorageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageError",
+                        "printedName": "FirebaseStorage.StorageError",
+                        "usr": "s:15FirebaseStorage0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15FirebaseStorage0B5ErrorO15projectNotFoundyACSS_tcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO15projectNotFoundyACSS_tcACmF",
+            "moduleName": "FirebaseStorage"
+          },
+          {
+            "kind": "Var",
+            "name": "quotaExceeded",
+            "printedName": "quotaExceeded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseStorage.StorageError.Type) -> (Swift.String, [Swift.String : Any]) -> FirebaseStorage.StorageError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, [Swift.String : Any]) -> FirebaseStorage.StorageError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageError",
+                        "printedName": "FirebaseStorage.StorageError",
+                        "usr": "s:15FirebaseStorage0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(bucket: Swift.String, serverError: [Swift.String : Any])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FirebaseStorage.StorageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageError",
+                        "printedName": "FirebaseStorage.StorageError",
+                        "usr": "s:15FirebaseStorage0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15FirebaseStorage0B5ErrorO13quotaExceededyACSS_SDySSypGtcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO13quotaExceededyACSS_SDySSypGtcACmF",
+            "moduleName": "FirebaseStorage"
+          },
+          {
+            "kind": "Var",
+            "name": "unauthenticated",
+            "printedName": "unauthenticated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseStorage.StorageError.Type) -> ([Swift.String : Any]) -> FirebaseStorage.StorageError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any]) -> FirebaseStorage.StorageError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageError",
+                        "printedName": "FirebaseStorage.StorageError",
+                        "usr": "s:15FirebaseStorage0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(serverError: [Swift.String : Any])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FirebaseStorage.StorageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageError",
+                        "printedName": "FirebaseStorage.StorageError",
+                        "usr": "s:15FirebaseStorage0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15FirebaseStorage0B5ErrorO15unauthenticatedyACSDySSypG_tcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO15unauthenticatedyACSDySSypG_tcACmF",
+            "moduleName": "FirebaseStorage"
+          },
+          {
+            "kind": "Var",
+            "name": "unauthorized",
+            "printedName": "unauthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseStorage.StorageError.Type) -> (Swift.String, Swift.String, [Swift.String : Any]) -> FirebaseStorage.StorageError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String, [Swift.String : Any]) -> FirebaseStorage.StorageError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageError",
+                        "printedName": "FirebaseStorage.StorageError",
+                        "usr": "s:15FirebaseStorage0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(bucket: Swift.String, object: Swift.String, serverError: [Swift.String : Any])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FirebaseStorage.StorageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageError",
+                        "printedName": "FirebaseStorage.StorageError",
+                        "usr": "s:15FirebaseStorage0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15FirebaseStorage0B5ErrorO12unauthorizedyACSS_SSSDySSypGtcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO12unauthorizedyACSS_SSSDySSypGtcACmF",
             "moduleName": "FirebaseStorage"
           },
           {
@@ -2921,7 +3244,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Int64, Swift.Int64)",
+                        "printedName": "(total: Swift.Int64, maxSize: Swift.Int64)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3020,9 +3343,16 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -3043,8 +3373,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO15invalidArgumentyACSScACmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO15invalidArgumentyACSScACmF",
+            "usr": "s:15FirebaseStorage0B5ErrorO15invalidArgumentyACSS_tcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO15invalidArgumentyACSS_tcACmF",
             "moduleName": "FirebaseStorage"
           },
           {
@@ -3070,9 +3400,16 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -3093,8 +3430,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO08internalC0yACSScACmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO08internalC0yACSScACmF",
+            "usr": "s:15FirebaseStorage0B5ErrorO08internalC0yACSS_tcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO08internalC0yACSS_tcACmF",
             "moduleName": "FirebaseStorage"
           },
           {
@@ -3120,9 +3457,16 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -3143,8 +3487,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO14bucketMismatchyACSScACmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO14bucketMismatchyACSScACmF",
+            "usr": "s:15FirebaseStorage0B5ErrorO14bucketMismatchyACSS_tcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO14bucketMismatchyACSS_tcACmF",
             "moduleName": "FirebaseStorage"
           },
           {
@@ -3170,9 +3514,16 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -3193,17 +3544,178 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15FirebaseStorage0B5ErrorO04pathC0yACSScACmF",
-            "mangledName": "$s15FirebaseStorage0B5ErrorO04pathC0yACSScACmF",
+            "usr": "s:15FirebaseStorage0B5ErrorO04pathC0yACSS_tcACmF",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO04pathC0yACSS_tcACmF",
             "moduleName": "FirebaseStorage"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDomain",
+            "printedName": "errorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FirebaseStorage0B5ErrorO11errorDomainSSvpZ",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO11errorDomainSSvpZ",
+            "moduleName": "FirebaseStorage",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FirebaseStorage0B5ErrorO11errorDomainSSvgZ",
+                "mangledName": "$s15FirebaseStorage0B5ErrorO11errorDomainSSvgZ",
+                "moduleName": "FirebaseStorage",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FirebaseStorage0B5ErrorO9errorCodeSivp",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO9errorCodeSivp",
+            "moduleName": "FirebaseStorage",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FirebaseStorage0B5ErrorO9errorCodeSivg",
+                "mangledName": "$s15FirebaseStorage0B5ErrorO9errorCodeSivg",
+                "moduleName": "FirebaseStorage",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorUserInfo",
+            "printedName": "errorUserInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FirebaseStorage0B5ErrorO13errorUserInfoSDySSypGvp",
+            "mangledName": "$s15FirebaseStorage0B5ErrorO13errorUserInfoSDySSypGvp",
+            "moduleName": "FirebaseStorage",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FirebaseStorage0B5ErrorO13errorUserInfoSDySSypGvg",
+                "mangledName": "$s15FirebaseStorage0B5ErrorO13errorUserInfoSDySSypGvg",
+                "moduleName": "FirebaseStorage",
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
         "usr": "s:15FirebaseStorage0B5ErrorO",
         "mangledName": "$s15FirebaseStorage0B5ErrorO",
         "moduleName": "FirebaseStorage",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -3212,6 +3724,13 @@
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
           },
           {
             "kind": "Conformance",
@@ -3238,6 +3757,26 @@
         "printedName": "GTMSessionFetcher",
         "declKind": "Import",
         "moduleName": "FirebaseStorage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3531,10 +4070,19 @@
         "mangledName": "$s15FirebaseStorage0B10ListResultC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "objc_name": "FIRStorageListResult",
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -3603,13 +4151,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "GTMSessionFetcher",
-        "printedName": "GTMSessionFetcher",
-        "declKind": "Import",
-        "moduleName": "FirebaseStorage"
       },
       {
         "kind": "Import",
@@ -3791,6 +4332,17 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC12cacheControlSSSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -3909,6 +4461,17 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC18contentDispositionSSSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4027,6 +4590,17 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC15contentEncodingSSSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4145,6 +4719,17 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC15contentLanguageSSSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4263,6 +4848,17 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC11contentTypeSSSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4541,6 +5137,17 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC06customC0SDyS2SGSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "intro_tvOS": "13",
+                "intro_watchOS": "7",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5358,10 +5965,19 @@
         "mangledName": "$s15FirebaseStorage0B8MetadataC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "objc_name": "FIRStorageMetadata",
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -5430,13 +6046,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "GTMSessionFetcher",
-        "printedName": "GTMSessionFetcher",
-        "declKind": "Import",
-        "moduleName": "FirebaseStorage"
       },
       {
         "kind": "TypeDecl",
@@ -5582,10 +6191,19 @@
         "mangledName": "$s15FirebaseStorage0B14ObservableTaskC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "objc_name": "FIRStorageObservableTask",
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:@M@FirebaseStorage@objc(cs)FIRStorageTask",
@@ -6473,16 +7091,8 @@
             "mangledName": "$s15FirebaseStorage0B9ReferenceC11downloadURL10Foundation0E0VyYaKF",
             "moduleName": "FirebaseStorage",
             "isOpen": true,
-            "intro_Macosx": "10.15",
-            "intro_iOS": "13",
-            "intro_tvOS": "13",
-            "intro_watchOS": "8",
             "declAttributes": [
               "AccessControl",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
               "RawDocComment"
             ],
             "throwing": true,
@@ -6695,16 +7305,8 @@
             "mangledName": "$s15FirebaseStorage0B9ReferenceC7listAllAA0B10ListResultCyYaKF",
             "moduleName": "FirebaseStorage",
             "isOpen": true,
-            "intro_Macosx": "10.15",
-            "intro_iOS": "13",
-            "intro_tvOS": "13",
-            "intro_watchOS": "8",
             "declAttributes": [
               "AccessControl",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
               "RawDocComment"
             ],
             "throwing": true,
@@ -6958,16 +7560,8 @@
             "mangledName": "$s15FirebaseStorage0B9ReferenceC11getMetadataAA0bE0CyYaKF",
             "moduleName": "FirebaseStorage",
             "isOpen": true,
-            "intro_Macosx": "10.15",
-            "intro_iOS": "13",
-            "intro_tvOS": "13",
-            "intro_watchOS": "8",
             "declAttributes": [
               "AccessControl",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
               "RawDocComment"
             ],
             "throwing": true,
@@ -7081,16 +7675,8 @@
             "mangledName": "$s15FirebaseStorage0B9ReferenceC14updateMetadatayAA0bE0CAFYaKF",
             "moduleName": "FirebaseStorage",
             "isOpen": true,
-            "intro_Macosx": "10.15",
-            "intro_iOS": "13",
-            "intro_tvOS": "13",
-            "intro_watchOS": "8",
             "declAttributes": [
               "AccessControl",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
               "RawDocComment"
             ],
             "throwing": true,
@@ -7170,16 +7756,8 @@
             "mangledName": "$s15FirebaseStorage0B9ReferenceC6deleteyyYaKF",
             "moduleName": "FirebaseStorage",
             "isOpen": true,
-            "intro_Macosx": "10.15",
-            "intro_iOS": "13",
-            "intro_tvOS": "13",
-            "intro_watchOS": "8",
             "declAttributes": [
               "AccessControl",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
               "RawDocComment"
             ],
             "throwing": true,
@@ -8294,10 +8872,19 @@
         "mangledName": "$s15FirebaseStorage0B9ReferenceC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "objc_name": "FIRStorageReference",
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -8457,10 +9044,19 @@
         "mangledName": "$s15FirebaseStorage0B4TaskC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "objc_name": "FIRStorageTask",
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -9095,10 +9691,19 @@
         "mangledName": "$s15FirebaseStorage0B12TaskSnapshotC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "objc_name": "FIRStorageTaskSnapshot",
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -9215,13 +9820,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "GTMSessionFetcher",
-        "printedName": "GTMSessionFetcher",
-        "declKind": "Import",
-        "moduleName": "FirebaseStorage"
       },
       {
         "kind": "Import",
@@ -9357,10 +9955,19 @@
         "mangledName": "$s15FirebaseStorage0B10UploadTaskC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13",
+        "intro_tvOS": "13",
+        "intro_watchOS": "7",
         "objc_name": "FIRStorageUploadTask",
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:@M@FirebaseStorage@objc(cs)FIRStorageObservableTask",
@@ -9453,39 +10060,32 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "Dictionary",
-      "offset": 12512,
+      "offset": 10706,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "BooleanLiteral",
-      "offset": 14313,
+      "offset": 12354,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12452,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "StringLiteral",
-      "offset": 1522,
+      "offset": 1508,
       "length": 7,
       "value": "\"FirebaseStorage.Storage\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageComponent.swift",
-      "kind": "Dictionary",
-      "offset": 1451,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 940,
-      "length": 16,
-      "value": "\"FirebaseStorage.StorageComponent\""
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 695,
@@ -9554,13 +10154,6 @@
       "offset": 753,
       "length": 7,
       "value": "5"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageDeleteTask.swift",
-      "kind": "StringLiteral",
-      "offset": 784,
-      "length": 17,
-      "value": "\"FirebaseStorage.StorageDeleteTask\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
@@ -9572,266 +10165,294 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1165,
+      "offset": 1236,
       "length": 6,
       "value": "-13000"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1196,
+      "offset": 1267,
       "length": 6,
       "value": "-13010"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1227,
+      "offset": 1298,
       "length": 6,
       "value": "-13011"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1259,
+      "offset": 1330,
       "length": 6,
       "value": "-13012"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1289,
+      "offset": 1360,
       "length": 6,
       "value": "-13013"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1321,
+      "offset": 1392,
       "length": 6,
       "value": "-13020"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1350,
+      "offset": 1421,
       "length": 6,
       "value": "-13021"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1385,
+      "offset": 1456,
       "length": 6,
       "value": "-13030"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1421,
+      "offset": 1492,
       "length": 6,
       "value": "-13031"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1458,
+      "offset": 1529,
       "length": 6,
       "value": "-13032"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1484,
+      "offset": 1555,
       "length": 6,
       "value": "-13040"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1516,
+      "offset": 1587,
       "length": 6,
       "value": "-13050"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1165,
+      "offset": 1618,
+      "length": 6,
+      "value": "-13051"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1648,
+      "length": 6,
+      "value": "-13052"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1674,
+      "length": 6,
+      "value": "-13053"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1236,
       "length": 1,
       "value": "-13000"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1196,
+      "offset": 1267,
       "length": 1,
       "value": "-13010"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1227,
+      "offset": 1298,
       "length": 1,
       "value": "-13011"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1259,
+      "offset": 1330,
       "length": 1,
       "value": "-13012"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1289,
+      "offset": 1360,
       "length": 1,
       "value": "-13013"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1321,
+      "offset": 1392,
       "length": 1,
       "value": "-13020"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1350,
+      "offset": 1421,
       "length": 1,
       "value": "-13021"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1385,
+      "offset": 1456,
       "length": 1,
       "value": "-13030"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1421,
+      "offset": 1492,
       "length": 1,
       "value": "-13031"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1458,
+      "offset": 1529,
       "length": 1,
       "value": "-13032"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1484,
+      "offset": 1555,
       "length": 1,
       "value": "-13040"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1516,
+      "offset": 1587,
       "length": 1,
       "value": "-13050"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetDownloadURLTask.swift",
-      "kind": "StringLiteral",
-      "offset": 800,
-      "length": 25,
-      "value": "\"FirebaseStorage.StorageGetDownloadURLTask\""
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1618,
+      "length": 1,
+      "value": "-13051"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageGetMetadataTask.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1648,
+      "length": 1,
+      "value": "-13052"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1674,
+      "length": 1,
+      "value": "-13053"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageFetcherService.swift",
+      "kind": "Dictionary",
+      "offset": 3097,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageInternalTask.swift",
       "kind": "StringLiteral",
-      "offset": 784,
-      "length": 22,
-      "value": "\"FirebaseStorage.StorageGetMetadataTask\""
+      "offset": 848,
+      "length": 19,
+      "value": "\"FirebaseStorage.StorageInternalTask\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageListResult.swift",
       "kind": "StringLiteral",
-      "offset": 732,
+      "offset": 803,
       "length": 17,
       "value": "\"FirebaseStorage.StorageListResult\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageListTask.swift",
-      "kind": "StringLiteral",
-      "offset": 774,
-      "length": 15,
-      "value": "\"FirebaseStorage.StorageListTask\""
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 7445,
+      "offset": 7516,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 7526,
+      "offset": 7597,
       "length": 40,
       "value": "\"yyyy'-'MM'-'dd'T'HH':'mm':'ss.SSSZZZZZ\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "IntegerLiteral",
-      "offset": 7621,
+      "offset": 7692,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageObservableTask.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 975,
       "length": 21,
       "value": "\"FirebaseStorage.StorageObservableTask\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTask.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1162,
       "length": 11,
       "value": "\"FirebaseStorage.StorageTask\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 842,
+      "offset": 913,
       "length": 19,
       "value": "\"FirebaseStorage.StorageTaskSnapshot\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
       "kind": "StringLiteral",
-      "offset": 4155,
+      "offset": 3826,
       "length": 39,
       "value": "\"com.google.firebasestorage.authorizer\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
       "kind": "StringLiteral",
-      "offset": 829,
+      "offset": 900,
       "length": 22,
       "value": "\"FirebaseStorage.StorageTokenAuthorizer\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageUpdateMetadataTask.swift",
-      "kind": "StringLiteral",
-      "offset": 785,
-      "length": 25,
-      "value": "\"FirebaseStorage.StorageUpdateMetadataTask\""
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
       "kind": "StringLiteral",
-      "offset": 1415,
+      "offset": 1478,
       "length": 17,
       "value": "\"FirebaseStorage.StorageUploadTask\""
     }

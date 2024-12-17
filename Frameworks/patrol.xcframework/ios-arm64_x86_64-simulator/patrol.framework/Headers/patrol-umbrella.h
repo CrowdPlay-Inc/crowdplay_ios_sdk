@@ -10,9 +10,10 @@
 #endif
 #endif
 
-#import "PatrolIntegrationTestRunner.h"
+#import "PatrolIntegrationTestIosRunner.h"
+#import "PatrolIntegrationTestMacosRunner.h"
 #import "PatrolPlugin.h"
-#import "PatrolUtils.h"
+#import "http_parser.h"
 
 FOUNDATION_EXPORT double patrolVersionNumber;
 FOUNDATION_EXPORT const unsigned char patrolVersionString[];

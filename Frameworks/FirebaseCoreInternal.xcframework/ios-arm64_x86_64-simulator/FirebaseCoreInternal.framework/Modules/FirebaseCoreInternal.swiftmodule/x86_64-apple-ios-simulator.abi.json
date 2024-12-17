@@ -103,6 +103,47 @@
           },
           {
             "kind": "Function",
+            "name": "flushAsync",
+            "printedName": "flushAsync(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseCoreInternal._ObjC_HeartbeatsPayload) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ObjC_HeartbeatsPayload",
+                    "printedName": "FirebaseCoreInternal._ObjC_HeartbeatsPayload",
+                    "usr": "c:@M@FirebaseCoreInternal@objc(cs)FIRHeartbeatsPayload"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FirebaseCoreInternal@objc(cs)FIRHeartbeatController(im)flushAsyncWithCompletionHandler:",
+            "mangledName": "$s20FirebaseCoreInternal25_ObjC_HeartbeatControllerC10flushAsync17completionHandleryyAA01_D19C_HeartbeatsPayloadCYbc_tF",
+            "moduleName": "FirebaseCoreInternal",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "flushHeartbeatFromToday",
             "printedName": "flushHeartbeatFromToday()",
             "children": [
@@ -1192,84 +1233,6 @@
         "printedName": "HeartbeatController",
         "children": [
           {
-            "kind": "Var",
-            "name": "dateStandardizer",
-            "printedName": "dateStandardizer",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Foundation.Date) -> Foundation.Date",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20FirebaseCoreInternal19HeartbeatControllerC16dateStandardizery10Foundation4DateVAGcvpZ",
-            "mangledName": "$s20FirebaseCoreInternal19HeartbeatControllerC16dateStandardizery10Foundation4DateVAGcvpZ",
-            "moduleName": "FirebaseCoreInternal",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Foundation.Date) -> Foundation.Date",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Date",
-                        "printedName": "Foundation.Date",
-                        "usr": "s:10Foundation4DateV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Date",
-                        "printedName": "Foundation.Date",
-                        "usr": "s:10Foundation4DateV"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20FirebaseCoreInternal19HeartbeatControllerC16dateStandardizery10Foundation4DateVAGcvgZ",
-                "mangledName": "$s20FirebaseCoreInternal19HeartbeatControllerC16dateStandardizery10Foundation4DateVAGcvgZ",
-                "moduleName": "FirebaseCoreInternal",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(id:)",
@@ -1335,8 +1298,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20FirebaseCoreInternal19HeartbeatControllerC2id12dateProviderACSS_10Foundation4DateVyctcfc",
-            "mangledName": "$s20FirebaseCoreInternal19HeartbeatControllerC2id12dateProviderACSS_10Foundation4DateVyctcfc",
+            "usr": "s:20FirebaseCoreInternal19HeartbeatControllerC2id12dateProviderACSS_10Foundation4DateVyYbctcfc",
+            "mangledName": "$s20FirebaseCoreInternal19HeartbeatControllerC2id12dateProviderACSS_10Foundation4DateVyYbctcfc",
             "moduleName": "FirebaseCoreInternal",
             "declAttributes": [
               "Convenience",
@@ -1382,8 +1345,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20FirebaseCoreInternal19HeartbeatControllerC7storage12dateProviderAcA0D15StorageProtocol_p_10Foundation4DateVyctcfc",
-            "mangledName": "$s20FirebaseCoreInternal19HeartbeatControllerC7storage12dateProviderAcA0D15StorageProtocol_p_10Foundation4DateVyctcfc",
+            "usr": "s:20FirebaseCoreInternal19HeartbeatControllerC7storage12dateProviderAcA0D15StorageProtocol_p_10Foundation4DateVyYbctcfc",
+            "mangledName": "$s20FirebaseCoreInternal19HeartbeatControllerC7storage12dateProviderAcA0D15StorageProtocol_p_10Foundation4DateVyYbctcfc",
             "moduleName": "FirebaseCoreInternal",
             "declAttributes": [
               "RawDocComment"
@@ -1444,6 +1407,45 @@
           },
           {
             "kind": "Function",
+            "name": "flushAsync",
+            "printedName": "flushAsync(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseCoreInternal.HeartbeatsPayload) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HeartbeatsPayload",
+                    "printedName": "FirebaseCoreInternal.HeartbeatsPayload",
+                    "usr": "s:20FirebaseCoreInternal17HeartbeatsPayloadV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20FirebaseCoreInternal19HeartbeatControllerC10flushAsync17completionHandleryyAA17HeartbeatsPayloadVYbc_tF",
+            "mangledName": "$s20FirebaseCoreInternal19HeartbeatControllerC10flushAsync17completionHandleryyAA17HeartbeatsPayloadVYbc_tF",
+            "moduleName": "FirebaseCoreInternal",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "flushHeartbeatFromToday",
             "printedName": "flushHeartbeatFromToday()",
             "children": [
@@ -1476,7 +1478,16 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3632,6 +3643,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "HTTPHeaderRepresentable",
             "printedName": "HTTPHeaderRepresentable",
             "usr": "s:20FirebaseCoreInternal23HTTPHeaderRepresentableP",
@@ -3767,8 +3785,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20FirebaseCoreInternal24HeartbeatStorageProtocolP17readAndWriteAsync5usingyAA16HeartbeatsBundleVSgAHc_tF",
-            "mangledName": "$s20FirebaseCoreInternal24HeartbeatStorageProtocolP17readAndWriteAsync5usingyAA16HeartbeatsBundleVSgAHc_tF",
+            "usr": "s:20FirebaseCoreInternal24HeartbeatStorageProtocolP17readAndWriteAsync5usingyAA16HeartbeatsBundleVSgAHYbc_tF",
+            "mangledName": "$s20FirebaseCoreInternal24HeartbeatStorageProtocolP17readAndWriteAsync5usingyAA16HeartbeatsBundleVSgAHYbc_tF",
             "moduleName": "FirebaseCoreInternal",
             "genericSig": "<τ_0_0 where τ_0_0 : FirebaseCoreInternal.HeartbeatStorageProtocol>",
             "sugared_genericSig": "<Self where Self : FirebaseCoreInternal.HeartbeatStorageProtocol>",
@@ -3844,14 +3862,121 @@
             "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAndSetAsync",
+            "printedName": "getAndSetAsync(using:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseCoreInternal.HeartbeatsBundle?) -> FirebaseCoreInternal.HeartbeatsBundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FirebaseCoreInternal.HeartbeatsBundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HeartbeatsBundle",
+                        "printedName": "FirebaseCoreInternal.HeartbeatsBundle",
+                        "usr": "s:20FirebaseCoreInternal16HeartbeatsBundleV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FirebaseCoreInternal.HeartbeatsBundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HeartbeatsBundle",
+                        "printedName": "FirebaseCoreInternal.HeartbeatsBundle",
+                        "usr": "s:20FirebaseCoreInternal16HeartbeatsBundleV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<FirebaseCoreInternal.HeartbeatsBundle?, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<FirebaseCoreInternal.HeartbeatsBundle?, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "FirebaseCoreInternal.HeartbeatsBundle?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HeartbeatsBundle",
+                            "printedName": "FirebaseCoreInternal.HeartbeatsBundle",
+                            "usr": "s:20FirebaseCoreInternal16HeartbeatsBundleV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20FirebaseCoreInternal24HeartbeatStorageProtocolP14getAndSetAsync5using10completionyAA16HeartbeatsBundleVSgAIYbc_ys6ResultOyAIs5Error_pGYbctF",
+            "mangledName": "$s20FirebaseCoreInternal24HeartbeatStorageProtocolP14getAndSetAsync5using10completionyAA16HeartbeatsBundleVSgAIYbc_ys6ResultOyAIs5Error_pGYbctF",
+            "moduleName": "FirebaseCoreInternal",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseCoreInternal.HeartbeatStorageProtocol>",
+            "sugared_genericSig": "<Self where Self : FirebaseCoreInternal.HeartbeatStorageProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
         "usr": "s:20FirebaseCoreInternal24HeartbeatStorageProtocolP",
         "mangledName": "$s20FirebaseCoreInternal24HeartbeatStorageProtocolP",
         "moduleName": "FirebaseCoreInternal",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -4164,8 +4289,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20FirebaseCoreInternal16HeartbeatStorageC17readAndWriteAsync5usingyAA16HeartbeatsBundleVSgAHc_tF",
-            "mangledName": "$s20FirebaseCoreInternal16HeartbeatStorageC17readAndWriteAsync5usingyAA16HeartbeatsBundleVSgAHc_tF",
+            "usr": "s:20FirebaseCoreInternal16HeartbeatStorageC17readAndWriteAsync5usingyAA16HeartbeatsBundleVSgAHYbc_tF",
+            "mangledName": "$s20FirebaseCoreInternal16HeartbeatStorageC17readAndWriteAsync5usingyAA16HeartbeatsBundleVSgAHYbc_tF",
             "moduleName": "FirebaseCoreInternal",
             "declAttributes": [
               "Final",
@@ -4242,6 +4367,102 @@
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAndSetAsync",
+            "printedName": "getAndSetAsync(using:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FirebaseCoreInternal.HeartbeatsBundle?) -> FirebaseCoreInternal.HeartbeatsBundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FirebaseCoreInternal.HeartbeatsBundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HeartbeatsBundle",
+                        "printedName": "FirebaseCoreInternal.HeartbeatsBundle",
+                        "usr": "s:20FirebaseCoreInternal16HeartbeatsBundleV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FirebaseCoreInternal.HeartbeatsBundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HeartbeatsBundle",
+                        "printedName": "FirebaseCoreInternal.HeartbeatsBundle",
+                        "usr": "s:20FirebaseCoreInternal16HeartbeatsBundleV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<FirebaseCoreInternal.HeartbeatsBundle?, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<FirebaseCoreInternal.HeartbeatsBundle?, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "FirebaseCoreInternal.HeartbeatsBundle?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HeartbeatsBundle",
+                            "printedName": "FirebaseCoreInternal.HeartbeatsBundle",
+                            "usr": "s:20FirebaseCoreInternal16HeartbeatsBundleV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20FirebaseCoreInternal16HeartbeatStorageC14getAndSetAsync5using10completionyAA16HeartbeatsBundleVSgAIYbc_ys6ResultOyAIs5Error_pGYbctF",
+            "mangledName": "$s20FirebaseCoreInternal16HeartbeatStorageC14getAndSetAsync5using10completionyAA16HeartbeatsBundleVSgAIYbc_ys6ResultOyAIs5Error_pGYbctF",
+            "moduleName": "FirebaseCoreInternal",
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -4253,6 +4474,13 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "HeartbeatStorageProtocol",
@@ -4462,13 +4690,6 @@
             ],
             "isEnumExhaustive": true,
             "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "LocalizedError",
-                "printedName": "LocalizedError",
-                "usr": "s:10Foundation14LocalizedErrorP",
-                "mangledName": "$s10Foundation14LocalizedErrorP"
-              },
               {
                 "kind": "Conformance",
                 "name": "Error",
@@ -4858,8 +5079,19 @@
         "usr": "s:20FirebaseCoreInternal7StorageP",
         "mangledName": "$s20FirebaseCoreInternal7StorageP",
         "moduleName": "FirebaseCoreInternal",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -5112,36 +5344,9 @@
             "hasStorage": true
           },
           {
-            "kind": "Var",
-            "name": "fileManager",
-            "printedName": "fileManager",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FileManager",
-                "printedName": "Foundation.FileManager",
-                "usr": "c:objc(cs)NSFileManager"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20FirebaseCoreInternal11FileStorageC11fileManager33_26D5C93C7D03F44519742A2518326517LLSo06NSFileG0Cvp",
-            "mangledName": "$s20FirebaseCoreInternal11FileStorageC11fileManager33_26D5C93C7D03F44519742A2518326517LLSo06NSFileG0Cvp",
-            "moduleName": "FirebaseCoreInternal",
-            "isInternal": true,
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(url:fileManager:)",
+            "printedName": "init(url:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5154,18 +5359,11 @@
                 "name": "URL",
                 "printedName": "Foundation.URL",
                 "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FileManager",
-                "printedName": "Foundation.FileManager",
-                "hasDefaultArg": true,
-                "usr": "c:objc(cs)NSFileManager"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20FirebaseCoreInternal11FileStorageC3url11fileManagerAC10Foundation3URLV_So06NSFileH0Ctcfc",
-            "mangledName": "$s20FirebaseCoreInternal11FileStorageC3url11fileManagerAC10Foundation3URLV_So06NSFileH0Ctcfc",
+            "usr": "s:20FirebaseCoreInternal11FileStorageC3urlAC10Foundation3URLV_tcfc",
+            "mangledName": "$s20FirebaseCoreInternal11FileStorageC3urlAC10Foundation3URLV_tcfc",
             "moduleName": "FirebaseCoreInternal",
             "declAttributes": [
               "RawDocComment"
@@ -5279,6 +5477,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "StorageFactory",
             "printedName": "StorageFactory",
             "usr": "s:20FirebaseCoreInternal14StorageFactoryP",
@@ -5293,19 +5498,19 @@
         "children": [
           {
             "kind": "Var",
-            "name": "defaults",
-            "printedName": "defaults",
+            "name": "suiteName",
+            "printedName": "suiteName",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UserDefaults",
-                "printedName": "Foundation.UserDefaults",
-                "usr": "c:objc(cs)NSUserDefaults"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:20FirebaseCoreInternal19UserDefaultsStorageC8defaults33_26D5C93C7D03F44519742A2518326517LLSo06NSUserE0Cvp",
-            "mangledName": "$s20FirebaseCoreInternal19UserDefaultsStorageC8defaults33_26D5C93C7D03F44519742A2518326517LLSo06NSUserE0Cvp",
+            "usr": "s:20FirebaseCoreInternal19UserDefaultsStorageC9suiteName33_26D5C93C7D03F44519742A2518326517LLSSvp",
+            "mangledName": "$s20FirebaseCoreInternal19UserDefaultsStorageC9suiteName33_26D5C93C7D03F44519742A2518326517LLSSvp",
             "moduleName": "FirebaseCoreInternal",
             "isInternal": true,
             "declAttributes": [
@@ -5348,7 +5553,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(defaults:key:)",
+            "printedName": "init(suiteName:key:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5358,9 +5563,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UserDefaults",
-                "printedName": "Foundation.UserDefaults",
-                "usr": "c:objc(cs)NSUserDefaults"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -5370,8 +5575,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20FirebaseCoreInternal19UserDefaultsStorageC8defaults3keyACSo06NSUserE0C_SStcfc",
-            "mangledName": "$s20FirebaseCoreInternal19UserDefaultsStorageC8defaults3keyACSo06NSUserE0C_SStcfc",
+            "usr": "s:20FirebaseCoreInternal19UserDefaultsStorageC9suiteName3keyACSS_SStcfc",
+            "mangledName": "$s20FirebaseCoreInternal19UserDefaultsStorageC9suiteName3keyACSS_SStcfc",
             "moduleName": "FirebaseCoreInternal",
             "declAttributes": [
               "RawDocComment"
@@ -5482,6 +5687,13 @@
             "printedName": "Storage",
             "usr": "s:20FirebaseCoreInternal7StorageP",
             "mangledName": "$s20FirebaseCoreInternal7StorageP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -6548,24 +6760,24 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 972,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "StringLiteral",
-      "offset": 1279,
+      "offset": 997,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1343,
+      "offset": 1063,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1442,
+      "length": 2,
+      "value": "30"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatLoggingTestUtils.swift",
@@ -6584,70 +6796,70 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "IntegerLiteral",
-      "offset": 1672,
+      "offset": 1682,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2254,
+      "offset": 2264,
       "length": 12,
       "value": "\"heartbeats\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
-      "offset": 2254,
+      "offset": 2264,
       "length": 12,
       "value": "\"heartbeats\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
-      "offset": 2585,
+      "offset": 2595,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
-      "offset": 4351,
+      "offset": 4122,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
-      "offset": 4406,
+      "offset": 4177,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "IntegerLiteral",
-      "offset": 4471,
+      "offset": 4242,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
-      "offset": 4933,
+      "offset": 4704,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
-      "offset": 5495,
+      "offset": 5266,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
       "kind": "Dictionary",
-      "offset": 2158,
+      "offset": 3056,
       "length": 3,
       "value": "[]"
     },

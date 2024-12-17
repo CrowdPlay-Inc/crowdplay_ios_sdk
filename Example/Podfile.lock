@@ -1,5 +1,5 @@
 PODS:
-  - crowdplaysdk (1.1246):
+  - crowdplaysdk (1.1284):
     - Firebase (~> 10.24.0)
     - FirebaseAuth (~> 10.24.0)
     - FirebaseDatabase (~> 10.24.0)
@@ -218,7 +218,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: fd8cb90e3cd48f764f0456bbfab29682f7debfc9
+  crowdplaysdk: 85c1a58974ddb91a04938bebe37131dbcf1ac0d4
   CwlCatchException: 7acc161b299a6de7f0a46a6ed741eae2c8b4d75a
   CwlCatchExceptionSupport: 54ccab8d8c78907b57f99717fb19d4cc3bce02dc
   CwlMachBadInstructionHandler: dae4fdd124d45c9910ac240287cc7b898f4502a1

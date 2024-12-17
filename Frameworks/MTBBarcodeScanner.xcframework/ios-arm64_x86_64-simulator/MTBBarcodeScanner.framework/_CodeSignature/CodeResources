@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HC7rQJyYrzK/ZGxqMwVgbhLvjsg=
+		ngGyRk5k3qw1z5WGie5uigQq3bA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -25,6 +25,10 @@
 	<dict>
 		<key>Headers/MTBBarcodeScanner-umbrella.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			bYsiuTWtV0Q3FZuz1I7/rbLrvHw=
+			</data>
 			<key>hash2</key>
 			<data>
 			63IWY53x5NNZ1fewowdhbn9OC4Mdfp3Z+TLQlRKFGtY=
@@ -32,6 +36,10 @@
 		</dict>
 		<key>Headers/MTBBarcodeScanner.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			NObz/budpFE9ibxE3ktkr9bY4fc=
+			</data>
 			<key>hash2</key>
 			<data>
 			UljKwrrsoCA7UBkvkg4X0yHR4x623PBm4x5K5I9eTDo=
@@ -39,6 +47,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tja/Hc15QeCfbSeoH4fcDs45Ayc=
+			</data>
 			<key>hash2</key>
 			<data>
 			eSAYBLwJ41uW+rEqvktKy2zo2FvDdmYf6ByC+i+70XE=

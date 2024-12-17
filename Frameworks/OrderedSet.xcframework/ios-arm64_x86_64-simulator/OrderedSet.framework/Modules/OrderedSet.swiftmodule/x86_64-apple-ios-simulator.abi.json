@@ -333,6 +333,60 @@
           {
             "kind": "Function",
             "name": "removeAllObjects",
+            "printedName": "removeAllObjects(where:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OrderedSet",
+                "printedName": "OrderedSet.OrderedSet<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10OrderedSetAAV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10OrderedSetAAV16removeAllObjects5whereAByxGSbxXE_tF",
+            "mangledName": "$s10OrderedSetAAV16removeAllObjects5whereAByxGSbxXE_tF",
+            "moduleName": "OrderedSet",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<T where T : Swift.Hashable>",
+            "declAttributes": [
+              "Mutating",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAllObjects",
             "printedName": "removeAllObjects()",
             "children": [
               {

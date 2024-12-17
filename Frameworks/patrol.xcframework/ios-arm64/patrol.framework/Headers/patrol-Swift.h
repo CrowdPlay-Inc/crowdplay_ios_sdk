@@ -277,9 +277,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CocoaAsyncSocket;
 @import Flutter;
 @import Foundation;
 @import ObjectiveC;
+@import Security;
 #endif
 
 #endif
@@ -300,6 +302,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+
+
+
+
+
 @class NSString;
 @class ObjCRunDartTestResponse;
 
@@ -309,9 +317,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// various UI actions such as tapping, entering text, etc., and they must be called on the main thread.
 SWIFT_CLASS("_TtC6patrol26ObjCPatrolAppServiceClient")
 @interface ObjCPatrolAppServiceClient : NSObject
-/// Construct client for accessing PatrolAppService server using the existing channel.
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)listDartTestsWithCompletion:(void (^ _Nonnull)(NSArray<NSString *> * _Nullable, NSError * _Nullable))completion;
+- (void)listDartTestsWithCompletion:(void (^ _Nonnull)(NSArray<NSDictionary<NSString *, id> *> * _Nullable, NSError * _Nullable))completion;
 - (void)runDartTestWithName:(NSString * _Nonnull)name completion:(void (^ _Nonnull)(ObjCRunDartTestResponse * _Nullable, NSError * _Nullable))completion;
 @end
 
@@ -337,14 +344,53 @@ SWIFT_CLASS("_TtC6patrol12PatrolServer")
 @protocol FlutterPluginRegistrar;
 @class FlutterMethodCall;
 
-/// A Flutter plugin that was  responsible for communicating the test results back
-/// to iOS XCUITest.
+/// A Flutter plugin that was responsible for communicating the test results back
+/// to iOS/macOS XCUITest.
 /// Since test reports are now sent directly from PatrolBinding to native test runners, this plugin does nothing.
 SWIFT_CLASS("_TtC6patrol17SwiftPatrolPlugin")
 @interface SwiftPatrolPlugin : NSObject <FlutterPlugin>
 + (void)registerWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (void)handleMethodCall:(FlutterMethodCall * _Nonnull)call result:(FlutterResult _Nonnull)result;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6patrol11TCPListener")
+@interface TCPListener : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class GCDAsyncSocket;
+
+@interface TCPListener (SWIFT_EXTENSION(patrol)) <GCDAsyncSocketDelegate>
+/// Raised when the socket accepts a new incoming client socket.
+- (void)socket:(GCDAsyncSocket * _Nonnull)sock didAcceptNewSocket:(GCDAsyncSocket * _Nonnull)newSocket;
+/// Raised when the socket disconnects.
+- (void)socketDidDisconnect:(GCDAsyncSocket * _Nonnull)sock withError:(NSError * _Nullable)err;
+@end
+
+
+SWIFT_CLASS("_TtC6patrol9TCPSocket")
+@interface TCPSocket : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+@class NSData;
+
+@interface TCPSocket (SWIFT_EXTENSION(patrol)) <GCDAsyncSocketDelegate>
+/// Raised when the socket has connected to the host.
+- (void)socket:(GCDAsyncSocket * _Nonnull)sock didConnectToHost:(NSString * _Nonnull)host port:(uint16_t)port;
+/// Raised when the socket has disconnected from the host.
+- (void)socketDidDisconnect:(GCDAsyncSocket * _Nonnull)sock withError:(NSError * _Nullable)err;
+/// Raised when the socket is done reading data.
+- (void)socket:(GCDAsyncSocket * _Nonnull)sock didReadData:(NSData * _Nonnull)data withTag:(NSInteger)tag;
+/// Raised when the socket is done writing data.
+- (void)socket:(GCDAsyncSocket * _Nonnull)sock didWriteDataWithTag:(NSInteger)tag;
+/// Raised when the socket is asking to evaluate the trust as part of the TLS handshake.
+- (void)socket:(GCDAsyncSocket * _Nonnull)sock didReceiveTrust:(SecTrustRef _Nonnull)trust completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
 @end
 
 #endif
