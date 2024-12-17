@@ -105,6 +105,7 @@ public class CrowdplaySdk {
             return flutterViewController!
         }
 
+        flutterEngine.isGpuDisabled = false
         flutterViewController = FlutterViewController(
             engine: flutterEngine, nibName: nil, bundle: nil)
         flutterViewController?.modalPresentationStyle = .fullScreen
