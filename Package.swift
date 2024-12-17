@@ -14,8 +14,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "10.24.0"),
-        .package(url: "https://github.com/google/GoogleUtilities.git", from: "7.11.0"),
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "11.4.0"),
+        .package(url: "https://github.com/google/GoogleUtilities.git", from: "8.0.2"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -27,17 +27,17 @@ let package = Package(
                 .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
-                "App", "audioplayers_darwin", "CocoaAsyncSocket", "device_info_plus",
-                "firebase_auth", "firebase_core", "firebase_database", "firebase_messaging",
-                "firebase_storage", "Flutter", "FlutterPluginRegistrant", "flutter_inappwebview",
-                "flutter_local_notifications", "GTMSessionFetcher", "HTTPParserC",
-                "image_picker_ios", "integration_test", "location", "MTBBarcodeScanner",
-                "OrderedSet", "package_info_plus", "path_provider_foundation", "patrol",
-                "qr_code_scanner", "share", "store_redirect", "Telegraph", "uni_links",
-                "url_launcher_ios", "vibration", "sentry_flutter", "Sentry", "SwiftJWT",
-                "shift4_sdk", "LoggerAPI", "KituraContracts", "CryptorRSA", "CryptorECC",
-                "Cryptor", "BraintreeDropIn", "Braintree", "CardinalMobile", "PPRiskMagnes",
-                "VNWebSDK",
+                "App", "Braintree", "BraintreeDropIn", "CocoaAsyncSocket", "Cryptor",
+                "CryptorECC", "CryptorRSA", "Flutter", "FlutterPluginRegistrant",
+                "GTMSessionFetcher", "KituraContracts", "LoggerAPI", "MTBBarcodeScanner",
+                "OrderedSet",
+                "Sentry", "SwiftJWT", "audioplayers_darwin", "device_info_plus", "firebase_auth",
+                "firebase_core", "firebase_database", "firebase_messaging", "firebase_storage",
+                "flutter_inappwebview_ios", "flutter_local_notifications", "image_picker_ios",
+                "integration_test", "leveldb", "location", "nanopb", "package_info_plus",
+                "path_provider_foundation", "patrol", "qr_code_scanner", "sentry_flutter",
+                "share", "shift4_sdk", "store_redirect", "uni_links", "url_launcher_ios",
+                "vibration", "CardinalMobile", "PPRiskMagnes", "VNWebSDK",
             ],
             resources: [
                 .copy("PrivacyInfo.xcprivacy")
@@ -47,12 +47,68 @@ let package = Package(
             path: "Frameworks/App.xcframework"
         ),
         .binaryTarget(
-            name: "audioplayers_darwin",
-            path: "Frameworks/audioplayers_darwin.xcframework"
+            name: "Braintree",
+            path: "Frameworks/Braintree.xcframework"
+        ),
+        .binaryTarget(
+            name: "BraintreeDropIn",
+            path: "Frameworks/BraintreeDropIn.xcframework"
         ),
         .binaryTarget(
             name: "CocoaAsyncSocket",
             path: "Frameworks/CocoaAsyncSocket.xcframework"
+        ),
+        .binaryTarget(
+            name: "Cryptor",
+            path: "Frameworks/Cryptor.xcframework"
+        ),
+        .binaryTarget(
+            name: "CryptorECC",
+            path: "Frameworks/CryptorECC.xcframework"
+        ),
+        .binaryTarget(
+            name: "CryptorRSA",
+            path: "Frameworks/CryptorRSA.xcframework"
+        ),
+        .binaryTarget(
+            name: "Flutter",
+            path: "Frameworks/Flutter.xcframework"
+        ),
+        .binaryTarget(
+            name: "FlutterPluginRegistrant",
+            path: "Frameworks/FlutterPluginRegistrant.xcframework"
+        ),
+        .binaryTarget(
+            name: "GTMSessionFetcher",
+            path: "Frameworks/GTMSessionFetcher.xcframework"
+        ),
+        .binaryTarget(
+            name: "KituraContracts",
+            path: "Frameworks/KituraContracts.xcframework"
+        ),
+        .binaryTarget(
+            name: "LoggerAPI",
+            path: "Frameworks/LoggerAPI.xcframework"
+        ),
+        .binaryTarget(
+            name: "MTBBarcodeScanner",
+            path: "Frameworks/MTBBarcodeScanner.xcframework"
+        ),
+        .binaryTarget(
+            name: "OrderedSet",
+            path: "Frameworks/OrderedSet.xcframework"
+        ),
+        .binaryTarget(
+            name: "Sentry",
+            path: "Frameworks/Sentry.xcframework"
+        ),
+        .binaryTarget(
+            name: "SwiftJWT",
+            path: "Frameworks/SwiftJWT.xcframework"
+        ),
+        .binaryTarget(
+            name: "audioplayers_darwin",
+            path: "Frameworks/audioplayers_darwin.xcframework"
         ),
         .binaryTarget(
             name: "device_info_plus",
@@ -79,28 +135,12 @@ let package = Package(
             path: "Frameworks/firebase_storage.xcframework"
         ),
         .binaryTarget(
-            name: "Flutter",
-            path: "Frameworks/Flutter.xcframework"
-        ),
-        .binaryTarget(
-            name: "FlutterPluginRegistrant",
-            path: "Frameworks/FlutterPluginRegistrant.xcframework"
-        ),
-        .binaryTarget(
-            name: "flutter_inappwebview",
-            path: "Frameworks/flutter_inappwebview.xcframework"
+            name: "flutter_inappwebview_ios",
+            path: "Frameworks/flutter_inappwebview_ios.xcframework"
         ),
         .binaryTarget(
             name: "flutter_local_notifications",
             path: "Frameworks/flutter_local_notifications.xcframework"
-        ),
-        .binaryTarget(
-            name: "GTMSessionFetcher",
-            path: "Frameworks/GTMSessionFetcher.xcframework"
-        ),
-        .binaryTarget(
-            name: "HTTPParserC",
-            path: "Frameworks/HTTPParserC.xcframework"
         ),
         .binaryTarget(
             name: "image_picker_ios",
@@ -111,16 +151,20 @@ let package = Package(
             path: "Frameworks/integration_test.xcframework"
         ),
         .binaryTarget(
+            name: "leveldb",
+            path: "Frameworks/leveldb.xcframework"
+        ),
+        .binaryTarget(
             name: "location",
             path: "Frameworks/location.xcframework"
         ),
         .binaryTarget(
-            name: "MTBBarcodeScanner",
-            path: "Frameworks/MTBBarcodeScanner.xcframework"
+            name: "nanopb",
+            path: "Frameworks/nanopb.xcframework"
         ),
         .binaryTarget(
-            name: "OrderedSet",
-            path: "Frameworks/OrderedSet.xcframework"
+            name: "package_info_plus",
+            path: "Frameworks/package_info_plus.xcframework"
         ),
         .binaryTarget(
             name: "path_provider_foundation",
@@ -135,16 +179,20 @@ let package = Package(
             path: "Frameworks/qr_code_scanner.xcframework"
         ),
         .binaryTarget(
+            name: "sentry_flutter",
+            path: "Frameworks/sentry_flutter.xcframework"
+        ),
+        .binaryTarget(
             name: "share",
             path: "Frameworks/share.xcframework"
         ),
         .binaryTarget(
-            name: "store_redirect",
-            path: "Frameworks/store_redirect.xcframework"
+            name: "shift4_sdk",
+            path: "Frameworks/shift4_sdk.xcframework"
         ),
         .binaryTarget(
-            name: "Telegraph",
-            path: "Frameworks/Telegraph.xcframework"
+            name: "store_redirect",
+            path: "Frameworks/store_redirect.xcframework"
         ),
         .binaryTarget(
             name: "uni_links",
@@ -157,54 +205,6 @@ let package = Package(
         .binaryTarget(
             name: "vibration",
             path: "Frameworks/vibration.xcframework"
-        ),
-        .binaryTarget(
-            name: "Braintree",
-            path: "Frameworks/Braintree.xcframework"
-        ),
-        .binaryTarget(
-            name: "BraintreeDropIn",
-            path: "Frameworks/BraintreeDropIn.xcframework"
-        ),
-        .binaryTarget(
-            name: "Cryptor",
-            path: "Frameworks/Cryptor.xcframework"
-        ),
-        .binaryTarget(
-            name: "CryptorECC",
-            path: "Frameworks/CryptorECC.xcframework"
-        ),
-        .binaryTarget(
-            name: "CryptorRSA",
-            path: "Frameworks/CryptorRSA.xcframework"
-        ),
-        .binaryTarget(
-            name: "KituraContracts",
-            path: "Frameworks/KituraContracts.xcframework"
-        ),
-        .binaryTarget(
-            name: "LoggerAPI",
-            path: "Frameworks/LoggerAPI.xcframework"
-        ),
-        .binaryTarget(
-            name: "shift4_sdk",
-            path: "Frameworks/shift4_sdk.xcframework"
-        ),
-        .binaryTarget(
-            name: "SwiftJWT",
-            path: "Frameworks/SwiftJWT.xcframework"
-        ),
-        .binaryTarget(
-            name: "Sentry",
-            path: "Frameworks/Sentry.xcframework"
-        ),
-        .binaryTarget(
-            name: "package_info_plus",
-            path: "Frameworks/package_info_plus.xcframework"
-        ),
-        .binaryTarget(
-            name: "sentry_flutter",
-            path: "Frameworks/sentry_flutter.xcframework"
         ),
         .binaryTarget(
             name: "CardinalMobile",

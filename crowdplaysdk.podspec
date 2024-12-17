@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'crowdplaysdk'
-  s.version          = '1.1284'
+  s.version          = '1.1285'
   s.summary          = 'A short description of crowdplaysdk.'
 
 # This description is used to generate tags and improve search results.
@@ -34,12 +34,10 @@ TODO: Add long description of the pod here.
   
   s.ios.frameworks  = 'UIKit'
 
-  s.dependency 'Firebase', '~> 10.24.0'
-  s.dependency 'FirebaseAuth', '~> 10.24.0'
-  s.dependency 'FirebaseStorage', '~> 10.24.0'
-  s.dependency 'FirebaseDatabase', '~> 10.24.0'
-  s.dependency 'FirebaseMessaging', '~> 10.24.0'
-  s.dependency 'GoogleUtilities', '~> 7.11'
+  s.dependency 'FirebaseAuth', '~> 11.4.0'
+  s.dependency 'FirebaseStorage', '~> 11.4.0'
+  s.dependency 'FirebaseDatabase', '~> 11.4.0'
+  s.dependency 'FirebaseMessaging', '~> 11.4.0'
 
   s.resource_bundles     = {
     'CrowdplayPrivacy' => ['Sources/crowdplaysdk/PrivacyInfo.xcprivacy']
@@ -47,6 +45,6 @@ TODO: Add long description of the pod here.
   
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'armv7' }
 
-  s.ios.vendored_frameworks = 'Frameworks/App.xcframework', 'Frameworks/Braintree.xcframework', 'Frameworks/BraintreeDropIn.xcframework', 'Frameworks/Cryptor.xcframework', 'Frameworks/CryptorECC.xcframework', 'Frameworks/CryptorRSA.xcframework', 'Frameworks/KituraContracts.xcframework', 'Frameworks/LoggerAPI.xcframework', 'Frameworks/Logging.xcframework', 'Frameworks/shift4_sdk.xcframework', 'Frameworks/SwiftJWT.xcframework', 'Frameworks/audioplayers_darwin.xcframework', 'Frameworks/CocoaAsyncSocket.xcframework', 'Frameworks/device_info_plus.xcframework', 'Frameworks/firebase_auth.xcframework', 'Frameworks/firebase_core.xcframework', 'Frameworks/firebase_database.xcframework', 'Frameworks/firebase_messaging.xcframework', 'Frameworks/firebase_storage.xcframework', 'Frameworks/Flutter.xcframework', 'Frameworks/FlutterPluginRegistrant.xcframework', 'Frameworks/flutter_inappwebview_ios.xcframework', 'Frameworks/flutter_local_notifications.xcframework', 'Frameworks/GTMSessionFetcher.xcframework', 'Frameworks/HTTPParserC.xcframework', 'Frameworks/image_picker_ios.xcframework', 'Frameworks/integration_test.xcframework', 'Frameworks/leveldb.xcframework', 'Frameworks/location.xcframework', 'Frameworks/MTBBarcodeScanner.xcframework', 'Frameworks/OrderedSet.xcframework', 'Frameworks/package_info.xcframework', 'Frameworks/path_provider_foundation.xcframework', 'Frameworks/patrol.xcframework', 'Frameworks/qr_code_scanner.xcframework', 'Frameworks/RecaptchaInterop.xcframework', 'Frameworks/Sentry.xcframework', 'Frameworks/share.xcframework', 'Frameworks/store_redirect.xcframework', 'Frameworks/Telegraph.xcframework', 'Frameworks/uni_links.xcframework', 'Frameworks/url_launcher_ios.xcframework', 'Frameworks/vibration.xcframework', 'Frameworks/package_info_plus.xcframework', 'Frameworks/sentry_flutter.xcframework'
+  s.ios.vendored_frameworks = 'Frameworks/App.xcframework', 'Frameworks/Braintree.xcframework', 'Frameworks/BraintreeDropIn.xcframework', 'Frameworks/CocoaAsyncSocket.xcframework', 'Frameworks/Cryptor.xcframework', 'Frameworks/CryptorECC.xcframework', 'Frameworks/CryptorRSA.xcframework', 'Frameworks/Flutter.xcframework', 'Frameworks/FlutterPluginRegistrant.xcframework', 'Frameworks/GTMSessionFetcher.xcframework', 'Frameworks/KituraContracts.xcframework', 'Frameworks/LoggerAPI.xcframework', 'Frameworks/Logging.xcframework', 'Frameworks/MTBBarcodeScanner.xcframework', 'Frameworks/OrderedSet.xcframework', 'Frameworks/Sentry.xcframework', 'Frameworks/SwiftJWT.xcframework', 'Frameworks/audioplayers_darwin.xcframework', 'Frameworks/device_info_plus.xcframework', 'Frameworks/firebase_auth.xcframework', 'Frameworks/firebase_core.xcframework', 'Frameworks/firebase_database.xcframework', 'Frameworks/firebase_messaging.xcframework', 'Frameworks/firebase_storage.xcframework', 'Frameworks/flutter_inappwebview_ios.xcframework', 'Frameworks/flutter_local_notifications.xcframework', 'Frameworks/image_picker_ios.xcframework', 'Frameworks/location.xcframework', 'Frameworks/package_info_plus.xcframework', 'Frameworks/path_provider_foundation.xcframework', 'Frameworks/qr_code_scanner.xcframework', 'Frameworks/sentry_flutter.xcframework', 'Frameworks/share.xcframework', 'Frameworks/shift4_sdk.xcframework', 'Frameworks/store_redirect.xcframework', 'Frameworks/uni_links.xcframework', 'Frameworks/url_launcher_ios.xcframework', 'Frameworks/vibration.xcframework',
   s.preserve_path = 'Frameworks/*'
 end
