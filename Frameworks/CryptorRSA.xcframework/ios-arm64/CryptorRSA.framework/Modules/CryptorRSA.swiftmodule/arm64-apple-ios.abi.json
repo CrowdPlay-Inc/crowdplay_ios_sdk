@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "CryptorRSA",
+    "printedName": "CryptorRSA",
     "children": [
       {
         "kind": "Import",
@@ -410,6 +410,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "Equatable",
                     "printedName": "Equatable",
                     "usr": "s:SQ",
@@ -811,7 +825,23 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "hasMissingDesignatedInitializers": true
+            "hasMissingDesignatedInitializers": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -829,6 +859,22 @@
             "hasMissingDesignatedInitializers": true,
             "superclassNames": [
               "CryptorRSA.CryptorRSA.RSAData"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -908,6 +954,22 @@
             "hasMissingDesignatedInitializers": true,
             "superclassNames": [
               "CryptorRSA.CryptorRSA.RSAData"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -956,6 +1018,22 @@
             "hasMissingDesignatedInitializers": true,
             "superclassNames": [
               "CryptorRSA.CryptorRSA.RSAData"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -2856,6 +2934,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Error",
                 "printedName": "Error",
                 "usr": "s:s5ErrorP",
@@ -3711,6 +3803,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "Equatable",
                     "printedName": "Equatable",
                     "usr": "s:SQ",
@@ -3930,6 +4036,22 @@
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
                 ]
               },
               {
@@ -4037,7 +4159,23 @@
               "RawDocComment"
             ],
             "isFromExtension": true,
-            "hasMissingDesignatedInitializers": true
+            "hasMissingDesignatedInitializers": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -4153,6 +4291,22 @@
             "hasMissingDesignatedInitializers": true,
             "superclassNames": [
               "CryptorRSA.CryptorRSA.RSAKey"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -4231,6 +4385,22 @@
             "hasMissingDesignatedInitializers": true,
             "superclassNames": [
               "CryptorRSA.CryptorRSA.RSAKey"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -4415,7 +4585,23 @@
           "Available",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -5137,6 +5323,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -5591,6 +5791,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -5769,6 +5983,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_CFObject",
             "printedName": "_CFObject",
             "usr": "s:14CoreFoundation9_CFObjectP",
@@ -5807,55 +6035,6 @@
       "offset": 32925,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSA.swift",
-      "kind": "StringLiteral",
-      "offset": 37899,
-      "length": 13,
-      "value": "\"CryptorRSA.PlaintextData\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSA.swift",
-      "kind": "StringLiteral",
-      "offset": 37899,
-      "length": 13,
-      "value": "\"CryptorRSA.PlaintextData\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSA.swift",
-      "kind": "StringLiteral",
-      "offset": 38767,
-      "length": 13,
-      "value": "\"CryptorRSA.EncryptedData\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSA.swift",
-      "kind": "StringLiteral",
-      "offset": 38767,
-      "length": 13,
-      "value": "\"CryptorRSA.EncryptedData\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSA.swift",
-      "kind": "StringLiteral",
-      "offset": 39538,
-      "length": 10,
-      "value": "\"CryptorRSA.SignedData\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSA.swift",
-      "kind": "StringLiteral",
-      "offset": 39538,
-      "length": 10,
-      "value": "\"CryptorRSA.SignedData\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSA.swift",
-      "kind": "StringLiteral",
-      "offset": 39538,
-      "length": 10,
-      "value": "\"CryptorRSA.SignedData\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAConstants.swift",
@@ -6122,34 +6301,6 @@
       "offset": 24337,
       "length": 1,
       "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
-      "kind": "StringLiteral",
-      "offset": 24079,
-      "length": 9,
-      "value": "\"CryptorRSA.PublicKey\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
-      "kind": "StringLiteral",
-      "offset": 24079,
-      "length": 9,
-      "value": "\"CryptorRSA.PublicKey\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
-      "kind": "StringLiteral",
-      "offset": 27416,
-      "length": 10,
-      "value": "\"CryptorRSA.PrivateKey\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
-      "kind": "StringLiteral",
-      "offset": 27416,
-      "length": 10,
-      "value": "\"CryptorRSA.PrivateKey\""
     }
   ]
 }

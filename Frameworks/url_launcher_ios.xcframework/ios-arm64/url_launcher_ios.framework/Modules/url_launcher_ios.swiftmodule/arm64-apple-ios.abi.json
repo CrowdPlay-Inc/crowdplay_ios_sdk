@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "url_launcher_ios",
+    "printedName": "url_launcher_ios",
     "children": [
       {
         "kind": "Import",
@@ -127,6 +127,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -221,48 +235,6 @@
     {
       "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1151,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1220,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1301,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1151,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1220,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1301,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
       "offset": 1454,
       "length": 1,
       "value": "0"
@@ -280,62 +252,6 @@
       "offset": 1600,
       "length": 1,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1454,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1519,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1600,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1454,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1519,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1600,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLauncherPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 213,
-      "length": 17,
-      "value": "\"url_launcher_ios.URLLauncherPlugin\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLaunchSession.swift",
-      "kind": "StringLiteral",
-      "offset": 380,
-      "length": 16,
-      "value": "\"url_launcher_ios.URLLaunchSession\""
     }
   ]
 }

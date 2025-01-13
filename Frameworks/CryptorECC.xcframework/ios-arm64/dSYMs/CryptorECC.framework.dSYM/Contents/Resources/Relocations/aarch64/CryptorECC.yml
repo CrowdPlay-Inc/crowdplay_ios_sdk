@@ -2,272 +2,258 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/BlueECC/CryptorECC.framework/CryptorECC'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x54FD8, size: 0x8, addend: 0x0, symName: _CryptorECCVersionString, symObjAddr: 0x0, symBinAddr: 0x12D30, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x5500D, size: 0x8, addend: 0x0, symName: _CryptorECCVersionNumber, symObjAddr: 0x28, symBinAddr: 0x12D58, symSize: 0x0 }
-  - { offsetInCU: 0x8C, offset: 0x550AF, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V10readLength33_596B2998934BA7B8E5D6529ED79AE874LL4dataSi_Sit10Foundation4DataV_tFZTf4nd_n', symObjAddr: 0x968, symBinAddr: 0x4968, symSize: 0x290 }
-  - { offsetInCU: 0x31C, offset: 0x5533F, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefa14CoreFoundation9_CFObjectSCSHWb', symObjAddr: 0x8E0, symBinAddr: 0x48E0, symSize: 0x24 }
-  - { offsetInCU: 0x330, offset: 0x55353, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaSHSCSQWb', symObjAddr: 0x904, symBinAddr: 0x4904, symSize: 0x24 }
-  - { offsetInCU: 0x34F, offset: 0x55372, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0xC08, symBinAddr: 0x4C08, symSize: 0x44 }
-  - { offsetInCU: 0x363, offset: 0x55386, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1VMa', symObjAddr: 0xCCC, symBinAddr: 0x4CCC, symSize: 0x10 }
-  - { offsetInCU: 0x377, offset: 0x5539A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwCP', symObjAddr: 0xCDC, symBinAddr: 0x4CDC, symSize: 0x30 }
-  - { offsetInCU: 0x38B, offset: 0x553AE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwxx', symObjAddr: 0xD0C, symBinAddr: 0x4D0C, symSize: 0xC }
-  - { offsetInCU: 0x39F, offset: 0x553C2, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwca', symObjAddr: 0xD18, symBinAddr: 0x4D18, symSize: 0x40 }
-  - { offsetInCU: 0x3B3, offset: 0x553D6, size: 0x8, addend: 0x0, symName: ___swift_memcpy8_8, symObjAddr: 0xD58, symBinAddr: 0x4D58, symSize: 0xC }
-  - { offsetInCU: 0x3C7, offset: 0x553EA, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwta', symObjAddr: 0xD64, symBinAddr: 0x4D64, symSize: 0x34 }
-  - { offsetInCU: 0x3DB, offset: 0x553FE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwet', symObjAddr: 0xD98, symBinAddr: 0x4D98, symSize: 0x58 }
-  - { offsetInCU: 0x3EF, offset: 0x55412, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwst', symObjAddr: 0xDF0, symBinAddr: 0x4DF0, symSize: 0x54 }
-  - { offsetInCU: 0x403, offset: 0x55426, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwug', symObjAddr: 0xE44, symBinAddr: 0x4E44, symSize: 0x1C }
-  - { offsetInCU: 0x417, offset: 0x5543A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwup', symObjAddr: 0xE60, symBinAddr: 0x4E60, symSize: 0x10 }
-  - { offsetInCU: 0x42B, offset: 0x5544E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwui', symObjAddr: 0xE70, symBinAddr: 0x4E70, symSize: 0x2C }
-  - { offsetInCU: 0x43F, offset: 0x55462, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOMa', symObjAddr: 0xE9C, symBinAddr: 0x4E9C, symSize: 0x10 }
-  - { offsetInCU: 0x524, offset: 0x55547, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaSHSCSH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x83C, symBinAddr: 0x483C, symSize: 0x58 }
-  - { offsetInCU: 0x6E9, offset: 0x5570C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V02toC7Element4dataAC0cE0O_Sit10Foundation4DataV_tFZ', symObjAddr: 0x94, symBinAddr: 0x4094, symSize: 0x6F4 }
-  - { offsetInCU: 0xC3F, offset: 0x55C62, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaSHSCSH9hashValueSivgTW', symObjAddr: 0x7B8, symBinAddr: 0x47B8, symSize: 0x3C }
-  - { offsetInCU: 0xC5B, offset: 0x55C7E, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaSHSCSH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x7F4, symBinAddr: 0x47F4, symSize: 0x48 }
-  - { offsetInCU: 0xC7E, offset: 0x55CA1, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x894, symBinAddr: 0x4894, symSize: 0x4C }
-  - { offsetInCU: 0x27, offset: 0x55D0B, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10CryptorECCE7decrypt4withAcD12ECPrivateKeyC_tKF', symObjAddr: 0x0, symBinAddr: 0x4EB0, symSize: 0x17C }
-  - { offsetInCU: 0x7D, offset: 0x55D61, size: 0x8, addend: 0x0, symName: '_$sSo10CFErrorRefaABs5Error10FoundationWl', symObjAddr: 0x17C, symBinAddr: 0x502C, symSize: 0x48 }
-  - { offsetInCU: 0x91, offset: 0x55D75, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVACs5ErrorAAWl', symObjAddr: 0x1C4, symBinAddr: 0x5074, symSize: 0x44 }
-  - { offsetInCU: 0x15C, offset: 0x55E40, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10CryptorECCE7decrypt4withAcD12ECPrivateKeyC_tKF', symObjAddr: 0x0, symBinAddr: 0x4EB0, symSize: 0x17C }
-  - { offsetInCU: 0x225, offset: 0x56139, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x7CC, symBinAddr: 0x579C, symSize: 0x40 }
-  - { offsetInCU: 0x239, offset: 0x5614D, size: 0x8, addend: 0x0, symName: '_$s10Foundation15ContiguousBytes_pSgWOh', symObjAddr: 0x80C, symBinAddr: 0x57DC, symSize: 0x40 }
-  - { offsetInCU: 0x3A2, offset: 0x562B6, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_SS8UTF8ViewV_TG5', symObjAddr: 0xCEC, symBinAddr: 0x5CBC, symSize: 0x88 }
-  - { offsetInCU: 0x418, offset: 0x5632C, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationO5countAESi_tcfCTf4nd_n', symObjAddr: 0xD74, symBinAddr: 0x5D44, symSize: 0x9C }
-  - { offsetInCU: 0x476, offset: 0x5638A, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_SS8UTF8ViewV_TG5TA', symObjAddr: 0xE10, symBinAddr: 0x5DE0, symSize: 0x58 }
-  - { offsetInCU: 0x4B4, offset: 0x563C8, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOSgWOe', symObjAddr: 0xE68, symBinAddr: 0x5E38, symSize: 0x14 }
-  - { offsetInCU: 0x4C8, offset: 0x563DC, size: 0x8, addend: 0x0, symName: '_$s10Foundation15ContiguousBytes_pWOb', symObjAddr: 0xE7C, symBinAddr: 0x5E4C, symSize: 0x18 }
-  - { offsetInCU: 0x4DC, offset: 0x563F0, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0xE94, symBinAddr: 0x5E64, symSize: 0x24 }
-  - { offsetInCU: 0x4F0, offset: 0x56404, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0xEB8, symBinAddr: 0x5E88, symSize: 0x20 }
-  - { offsetInCU: 0x504, offset: 0x56418, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_SS8UTF8ViewV_TG5TA', symObjAddr: 0xED8, symBinAddr: 0x5EA8, symSize: 0x18 }
-  - { offsetInCU: 0x5DA, offset: 0x564EE, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCSS8UTF8ViewV_Tgm5', symObjAddr: 0x8C, symBinAddr: 0x5144, symSize: 0x4CC }
-  - { offsetInCU: 0x84B, offset: 0x5675F, size: 0x8, addend: 0x0, symName: '_$sSS10CryptorECCE7encrypt4with10Foundation4DataVAA11ECPublicKeyC_tKF', symObjAddr: 0x0, symBinAddr: 0x50B8, symSize: 0x8C }
-  - { offsetInCU: 0x8F8, offset: 0x5680C, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10CryptorECCE7encrypt4withAcD11ECPublicKeyC_tKF', symObjAddr: 0x568, symBinAddr: 0x5620, symSize: 0x17C }
-  - { offsetInCU: 0x9A6, offset: 0x568BA, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFs16IndexingIteratorVySS8UTF8ViewVG_Sit_Tg5', symObjAddr: 0x84C, symBinAddr: 0x581C, symSize: 0x30C }
-  - { offsetInCU: 0xAD7, offset: 0x569EB, size: 0x8, addend: 0x0, symName: '_$sSw17withMemoryRebound2to_q_xm_q_SryxGKXEtKr0_lFs5UInt8V_s16IndexingIteratorVySS8UTF8ViewVG_SitTgm5', symObjAddr: 0xB68, symBinAddr: 0x5B38, symSize: 0x60 }
-  - { offsetInCU: 0xAF2, offset: 0x56A06, size: 0x8, addend: 0x0, symName: '_$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyxSnySiG_xSwKXEtKlFs16IndexingIteratorVySS8UTF8ViewVG_Sit_Tg5', symObjAddr: 0xBC8, symBinAddr: 0x5B98, symSize: 0xAC }
-  - { offsetInCU: 0xB27, offset: 0x56A3B, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV27_slowEnsureMatchingEncodingySS5IndexVAEF', symObjAddr: 0xC74, symBinAddr: 0x5C44, symSize: 0x78 }
-  - { offsetInCU: 0x4F, offset: 0x56AD9, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16invalidPEMStringACvpZ', symObjAddr: 0xC00, symBinAddr: 0x193B8, symSize: 0x0 }
-  - { offsetInCU: 0xAF, offset: 0x56B39, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x2C, symBinAddr: 0x5EEC, symSize: 0x14 }
-  - { offsetInCU: 0x12D, offset: 0x56BB7, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOSHAASH9hashValueSivgTW', symObjAddr: 0x40, symBinAddr: 0x5F00, symSize: 0x44 }
-  - { offsetInCU: 0x210, offset: 0x56C9A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x84, symBinAddr: 0x5F44, symSize: 0x28 }
-  - { offsetInCU: 0x3DA, offset: 0x56E64, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x79C, symBinAddr: 0x665C, symSize: 0x14 }
-  - { offsetInCU: 0x3FA, offset: 0x56E84, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x79C, symBinAddr: 0x665C, symSize: 0x14 }
-  - { offsetInCU: 0x440, offset: 0x56ECA, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unknownPEMHeaderACvpZ', symObjAddr: 0xC18, symBinAddr: 0x193D0, symSize: 0x0 }
-  - { offsetInCU: 0x45A, offset: 0x56EE4, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV20failedBase64EncodingACvpZ', symObjAddr: 0xC30, symBinAddr: 0x193E8, symSize: 0x0 }
-  - { offsetInCU: 0x474, offset: 0x56EFE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedASN1DecodingACvpZ', symObjAddr: 0xC48, symBinAddr: 0x19400, symSize: 0x0 }
-  - { offsetInCU: 0x48E, offset: 0x56F18, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unsupportedCurveACvpZ', symObjAddr: 0xC60, symBinAddr: 0x19418, symSize: 0x0 }
-  - { offsetInCU: 0x4A8, offset: 0x56F32, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV23failedNativeKeyCreationACvpZ', symObjAddr: 0xC78, symBinAddr: 0x19430, symSize: 0x0 }
-  - { offsetInCU: 0x4C2, offset: 0x56F4C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13failedEvpInitACvpZ', symObjAddr: 0xC90, symBinAddr: 0x19448, symSize: 0x0 }
-  - { offsetInCU: 0x4DC, offset: 0x56F66, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV22failedSigningAlgorithmACvpZ', symObjAddr: 0xCA8, symBinAddr: 0x19460, symSize: 0x0 }
-  - { offsetInCU: 0x4F6, offset: 0x56F80, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV15invalidRSLengthACvpZ', symObjAddr: 0xCC0, symBinAddr: 0x19478, symSize: 0x0 }
-  - { offsetInCU: 0x510, offset: 0x56F9A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedEncryptionAlgorithmACvpZ', symObjAddr: 0xCD8, symBinAddr: 0x19490, symSize: 0x0 }
-  - { offsetInCU: 0x52A, offset: 0x56FB4, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedDecryptionAlgorithmACvpZ', symObjAddr: 0xCF0, symBinAddr: 0x194A8, symSize: 0x0 }
-  - { offsetInCU: 0x544, offset: 0x56FCE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedUTF8DecodingACvpZ', symObjAddr: 0xD08, symBinAddr: 0x194C0, symSize: 0x0 }
-  - { offsetInCU: 0x572, offset: 0x56FFC, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16invalidPEMString_WZ', symObjAddr: 0xEC, symBinAddr: 0x5FAC, symSize: 0x2C }
-  - { offsetInCU: 0x590, offset: 0x5701A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16invalidPEMString_WZ', symObjAddr: 0xEC, symBinAddr: 0x5FAC, symSize: 0x2C }
-  - { offsetInCU: 0x5B3, offset: 0x5703D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unknownPEMHeader_WZ', symObjAddr: 0x174, symBinAddr: 0x6034, symSize: 0x30 }
-  - { offsetInCU: 0x5D1, offset: 0x5705B, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unknownPEMHeader_WZ', symObjAddr: 0x174, symBinAddr: 0x6034, symSize: 0x30 }
-  - { offsetInCU: 0x5F4, offset: 0x5707E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV20failedBase64Encoding_WZ', symObjAddr: 0x200, symBinAddr: 0x60C0, symSize: 0x30 }
-  - { offsetInCU: 0x612, offset: 0x5709C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV20failedBase64Encoding_WZ', symObjAddr: 0x200, symBinAddr: 0x60C0, symSize: 0x30 }
-  - { offsetInCU: 0x635, offset: 0x570BF, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedASN1Decoding_WZ', symObjAddr: 0x28C, symBinAddr: 0x614C, symSize: 0x30 }
-  - { offsetInCU: 0x653, offset: 0x570DD, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedASN1Decoding_WZ', symObjAddr: 0x28C, symBinAddr: 0x614C, symSize: 0x30 }
-  - { offsetInCU: 0x676, offset: 0x57100, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unsupportedCurve_WZ', symObjAddr: 0x318, symBinAddr: 0x61D8, symSize: 0x30 }
-  - { offsetInCU: 0x694, offset: 0x5711E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unsupportedCurve_WZ', symObjAddr: 0x318, symBinAddr: 0x61D8, symSize: 0x30 }
-  - { offsetInCU: 0x6B7, offset: 0x57141, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV23failedNativeKeyCreation_WZ', symObjAddr: 0x3A4, symBinAddr: 0x6264, symSize: 0x30 }
-  - { offsetInCU: 0x6D5, offset: 0x5715F, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV23failedNativeKeyCreation_WZ', symObjAddr: 0x3A4, symBinAddr: 0x6264, symSize: 0x30 }
-  - { offsetInCU: 0x6F8, offset: 0x57182, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13failedEvpInit_WZ', symObjAddr: 0x430, symBinAddr: 0x62F0, symSize: 0x30 }
-  - { offsetInCU: 0x716, offset: 0x571A0, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13failedEvpInit_WZ', symObjAddr: 0x430, symBinAddr: 0x62F0, symSize: 0x30 }
-  - { offsetInCU: 0x739, offset: 0x571C3, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV22failedSigningAlgorithm_WZ', symObjAddr: 0x4BC, symBinAddr: 0x637C, symSize: 0x30 }
-  - { offsetInCU: 0x757, offset: 0x571E1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV22failedSigningAlgorithm_WZ', symObjAddr: 0x4BC, symBinAddr: 0x637C, symSize: 0x30 }
-  - { offsetInCU: 0x77A, offset: 0x57204, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV15invalidRSLength_WZ', symObjAddr: 0x548, symBinAddr: 0x6408, symSize: 0x30 }
-  - { offsetInCU: 0x798, offset: 0x57222, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV15invalidRSLength_WZ', symObjAddr: 0x548, symBinAddr: 0x6408, symSize: 0x30 }
-  - { offsetInCU: 0x7BB, offset: 0x57245, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedEncryptionAlgorithm_WZ', symObjAddr: 0x5D4, symBinAddr: 0x6494, symSize: 0x30 }
-  - { offsetInCU: 0x7D9, offset: 0x57263, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedEncryptionAlgorithm_WZ', symObjAddr: 0x5D4, symBinAddr: 0x6494, symSize: 0x30 }
-  - { offsetInCU: 0x7FC, offset: 0x57286, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedDecryptionAlgorithm_WZ', symObjAddr: 0x660, symBinAddr: 0x6520, symSize: 0x30 }
-  - { offsetInCU: 0x81A, offset: 0x572A4, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedDecryptionAlgorithm_WZ', symObjAddr: 0x660, symBinAddr: 0x6520, symSize: 0x30 }
-  - { offsetInCU: 0x83D, offset: 0x572C7, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedUTF8Decoding_WZ', symObjAddr: 0x6EC, symBinAddr: 0x65AC, symSize: 0x30 }
-  - { offsetInCU: 0x85B, offset: 0x572E5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedUTF8Decoding_WZ', symObjAddr: 0x6EC, symBinAddr: 0x65AC, symSize: 0x30 }
-  - { offsetInCU: 0x87E, offset: 0x57308, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVwxx', symObjAddr: 0x7B4, symBinAddr: 0x6674, symSize: 0x8 }
-  - { offsetInCU: 0x892, offset: 0x5731C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVwca', symObjAddr: 0x7F4, symBinAddr: 0x66B4, symSize: 0x54 }
-  - { offsetInCU: 0x8A6, offset: 0x57330, size: 0x8, addend: 0x0, symName: ___swift_memcpy17_8, symObjAddr: 0x848, symBinAddr: 0x6708, symSize: 0x14 }
-  - { offsetInCU: 0x8BA, offset: 0x57344, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVwta', symObjAddr: 0x85C, symBinAddr: 0x671C, symSize: 0x3C }
-  - { offsetInCU: 0x8CE, offset: 0x57358, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVwet', symObjAddr: 0x898, symBinAddr: 0x6758, symSize: 0x48 }
-  - { offsetInCU: 0x8E2, offset: 0x5736C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVwst', symObjAddr: 0x8E0, symBinAddr: 0x67A0, symSize: 0x40 }
-  - { offsetInCU: 0x8F6, offset: 0x57380, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVMa', symObjAddr: 0x920, symBinAddr: 0x67E0, symSize: 0x10 }
-  - { offsetInCU: 0x90A, offset: 0x57394, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x930, symBinAddr: 0x67F0, symSize: 0xC }
-  - { offsetInCU: 0x91E, offset: 0x573A8, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x93C, symBinAddr: 0x67FC, symSize: 0x4 }
-  - { offsetInCU: 0x932, offset: 0x573BC, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOwet', symObjAddr: 0x940, symBinAddr: 0x6800, symSize: 0x90 }
-  - { offsetInCU: 0x946, offset: 0x573D0, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOwst', symObjAddr: 0x9D0, symBinAddr: 0x6890, symSize: 0xBC }
-  - { offsetInCU: 0x95A, offset: 0x573E4, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOwug', symObjAddr: 0xA8C, symBinAddr: 0x694C, symSize: 0x8 }
-  - { offsetInCU: 0x96E, offset: 0x573F8, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOwup', symObjAddr: 0xA94, symBinAddr: 0x6954, symSize: 0x4 }
-  - { offsetInCU: 0x982, offset: 0x5740C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOwui', symObjAddr: 0xA98, symBinAddr: 0x6958, symSize: 0x8 }
-  - { offsetInCU: 0x996, offset: 0x57420, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOMa', symObjAddr: 0xAA0, symBinAddr: 0x6960, symSize: 0x10 }
-  - { offsetInCU: 0x9AA, offset: 0x57434, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOSHAASQWb', symObjAddr: 0xAB0, symBinAddr: 0x6970, symSize: 0x4 }
-  - { offsetInCU: 0x9BE, offset: 0x57448, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOAFSQAAWl', symObjAddr: 0xAB4, symBinAddr: 0x6974, symSize: 0x44 }
-  - { offsetInCU: 0xA4E, offset: 0x574D8, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xAC, symBinAddr: 0x5F6C, symSize: 0x40 }
-  - { offsetInCU: 0xAEA, offset: 0x57574, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVs5ErrorAAsADP7_domainSSvgTW', symObjAddr: 0x78C, symBinAddr: 0x664C, symSize: 0x4 }
-  - { offsetInCU: 0xB06, offset: 0x57590, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVs5ErrorAAsADP5_codeSivgTW', symObjAddr: 0x790, symBinAddr: 0x6650, symSize: 0x4 }
-  - { offsetInCU: 0xB22, offset: 0x575AC, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVs5ErrorAAsADP9_userInfoyXlSgvgTW', symObjAddr: 0x794, symBinAddr: 0x6654, symSize: 0x4 }
-  - { offsetInCU: 0xB3E, offset: 0x575C8, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVs5ErrorAAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x798, symBinAddr: 0x6658, symSize: 0x4 }
-  - { offsetInCU: 0xBBD, offset: 0x57647, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV20localizedDescriptionSSvg', symObjAddr: 0x0, symBinAddr: 0x5EC0, symSize: 0x2C }
-  - { offsetInCU: 0xC5A, offset: 0x576E4, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16invalidPEMStringACvgZ', symObjAddr: 0x118, symBinAddr: 0x5FD8, symSize: 0x5C }
-  - { offsetInCU: 0xC88, offset: 0x57712, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unknownPEMHeaderACvgZ', symObjAddr: 0x1A4, symBinAddr: 0x6064, symSize: 0x5C }
-  - { offsetInCU: 0xCB6, offset: 0x57740, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV20failedBase64EncodingACvgZ', symObjAddr: 0x230, symBinAddr: 0x60F0, symSize: 0x5C }
-  - { offsetInCU: 0xCE4, offset: 0x5776E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedASN1DecodingACvgZ', symObjAddr: 0x2BC, symBinAddr: 0x617C, symSize: 0x5C }
-  - { offsetInCU: 0xD12, offset: 0x5779C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unsupportedCurveACvgZ', symObjAddr: 0x348, symBinAddr: 0x6208, symSize: 0x5C }
-  - { offsetInCU: 0xD40, offset: 0x577CA, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV23failedNativeKeyCreationACvgZ', symObjAddr: 0x3D4, symBinAddr: 0x6294, symSize: 0x5C }
-  - { offsetInCU: 0xD6E, offset: 0x577F8, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13failedEvpInitACvgZ', symObjAddr: 0x460, symBinAddr: 0x6320, symSize: 0x5C }
-  - { offsetInCU: 0xD9C, offset: 0x57826, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV22failedSigningAlgorithmACvgZ', symObjAddr: 0x4EC, symBinAddr: 0x63AC, symSize: 0x5C }
-  - { offsetInCU: 0xDCA, offset: 0x57854, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV15invalidRSLengthACvgZ', symObjAddr: 0x578, symBinAddr: 0x6438, symSize: 0x5C }
-  - { offsetInCU: 0xDF8, offset: 0x57882, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedEncryptionAlgorithmACvgZ', symObjAddr: 0x604, symBinAddr: 0x64C4, symSize: 0x5C }
-  - { offsetInCU: 0xE26, offset: 0x578B0, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedDecryptionAlgorithmACvgZ', symObjAddr: 0x690, symBinAddr: 0x6550, symSize: 0x5C }
-  - { offsetInCU: 0xE54, offset: 0x578DE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedUTF8DecodingACvgZ', symObjAddr: 0x71C, symBinAddr: 0x65DC, symSize: 0x5C }
-  - { offsetInCU: 0xE82, offset: 0x5790C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV2eeoiySbAC_ACtFZ', symObjAddr: 0x778, symBinAddr: 0x6638, symSize: 0x14 }
-  - { offsetInCU: 0x2AC, offset: 0x57C16, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC013bytesToNativeD033_4C1A60F1C8452B65A54F2A1847BD5B4FLL07privateD4Data06publicdS05curveSo03SecD3Refa10Foundation0S0V_AmA13EllipticCurveVtKFZTf4nnnd_n', symObjAddr: 0x4084, symBinAddr: 0xA9A8, symSize: 0x2CC }
-  - { offsetInCU: 0x41D, offset: 0x57D87, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC12generateASN133_4C1A60F1C8452B65A54F2A1847BD5B4FLL07privateD006publicD05curve10Foundation4DataVAK_AkA13EllipticCurveVtFZTf4nnnd_n', symObjAddr: 0x4350, symBinAddr: 0xAC74, symSize: 0x724 }
-  - { offsetInCU: 0x8CC, offset: 0x58236, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC11decodeToPEM33_4C1A60F1C8452B65A54F2A1847BD5B4FLL06nativeD05curveSSSo03SecD3Refa_AA13EllipticCurveVtKFZTf4nnd_n', symObjAddr: 0x4C24, symBinAddr: 0xB4C4, symSize: 0x3D0 }
-  - { offsetInCU: 0xDC6, offset: 0x58730, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x1374, symBinAddr: 0x7D2C, symSize: 0x44 }
-  - { offsetInCU: 0xDDA, offset: 0x58744, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyCMa', symObjAddr: 0x1440, symBinAddr: 0x7D70, symSize: 0x20 }
-  - { offsetInCU: 0xDEE, offset: 0x58758, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x1460, symBinAddr: 0x7D90, symSize: 0x44 }
-  - { offsetInCU: 0x1226, offset: 0x58B90, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC10CryptorECC4ASN1V0J7ElementO_Tgm5', symObjAddr: 0x3544, symBinAddr: 0x9E74, symSize: 0x80 }
-  - { offsetInCU: 0x12A9, offset: 0x58C13, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgm5', symObjAddr: 0x364C, symBinAddr: 0x9F70, symSize: 0x6C }
-  - { offsetInCU: 0x1366, offset: 0x58CD0, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSWXEfU_', symObjAddr: 0x36B8, symBinAddr: 0x9FDC, symSize: 0x74 }
-  - { offsetInCU: 0x13FE, offset: 0x58D68, size: 0x8, addend: 0x0, symName: '_$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFyt_Tg5015$s10Foundation4B57V6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFySWXEfU_AA0B0VTf1nncn_n', symObjAddr: 0x380C, symBinAddr: 0xA130, symSize: 0x90 }
-  - { offsetInCU: 0x152B, offset: 0x58E95, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SS_TG5', symObjAddr: 0x3AA0, symBinAddr: 0xA3C4, symSize: 0x54 }
-  - { offsetInCU: 0x15E7, offset: 0x58F51, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n', symObjAddr: 0x3AF4, symBinAddr: 0xA418, symSize: 0xC4 }
-  - { offsetInCU: 0x165D, offset: 0x58FC7, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n', symObjAddr: 0x3BB8, symBinAddr: 0xA4DC, symSize: 0x78 }
-  - { offsetInCU: 0x168A, offset: 0x58FF4, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n', symObjAddr: 0x3C30, symBinAddr: 0xA554, symSize: 0x80 }
-  - { offsetInCU: 0x16DF, offset: 0x59049, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n', symObjAddr: 0x3CB0, symBinAddr: 0xA5D4, symSize: 0x68 }
-  - { offsetInCU: 0x17F5, offset: 0x5915F, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SS_TG5TA', symObjAddr: 0x3EA4, symBinAddr: 0xA7C8, symSize: 0x54 }
-  - { offsetInCU: 0x1C6B, offset: 0x595D5, size: 0x8, addend: 0x0, symName: '_$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLO_Tg5', symObjAddr: 0x313C, symBinAddr: 0x9A6C, symSize: 0x110 }
-  - { offsetInCU: 0x1F3A, offset: 0x598A4, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC7curveIdSSvg', symObjAddr: 0x0, symBinAddr: 0x69B8, symSize: 0x2C }
-  - { offsetInCU: 0x1F5F, offset: 0x598C9, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC5curveAA13EllipticCurveVvg', symObjAddr: 0x2C, symBinAddr: 0x69E4, symSize: 0x58 }
-  - { offsetInCU: 0x1F84, offset: 0x598EE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC9pemStringSSvg', symObjAddr: 0x84, symBinAddr: 0x6A3C, symSize: 0x2C }
-  - { offsetInCU: 0x2080, offset: 0x599EA, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC3keyACSS_tKcfC', symObjAddr: 0xB0, symBinAddr: 0x6A68, symSize: 0x55C }
-  - { offsetInCU: 0x2436, offset: 0x59DA0, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC8pkcs8DERAC10Foundation4DataV_tKcfC', symObjAddr: 0x60C, symBinAddr: 0x6FC4, symSize: 0x54 }
-  - { offsetInCU: 0x25E7, offset: 0x59F51, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC8pkcs8DERAC10Foundation4DataV_tKcfc', symObjAddr: 0x660, symBinAddr: 0x7018, symSize: 0xC80 }
-  - { offsetInCU: 0x2B75, offset: 0x5A4DF, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC7sec1DERAC10Foundation4DataV_tKcfC', symObjAddr: 0x1320, symBinAddr: 0x7CD8, symSize: 0x54 }
-  - { offsetInCU: 0x2B89, offset: 0x5A4F3, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC7sec1DERAC10Foundation4DataV_tKcfc', symObjAddr: 0x14A4, symBinAddr: 0x7DD4, symSize: 0x988 }
-  - { offsetInCU: 0x2FFC, offset: 0x5A966, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC013extractPublicD0AA08ECPublicD0CyKF', symObjAddr: 0x1E6C, symBinAddr: 0x879C, symSize: 0x7E8 }
-  - { offsetInCU: 0x3318, offset: 0x5AC82, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC4make3forAcA13EllipticCurveV_tKFZ', symObjAddr: 0x2654, symBinAddr: 0x8F84, symSize: 0x94 }
-  - { offsetInCU: 0x338B, offset: 0x5ACF5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC3forAcA13EllipticCurveV_tKc33_4C1A60F1C8452B65A54F2A1847BD5B4FLlfc', symObjAddr: 0x26E8, symBinAddr: 0x9018, symSize: 0x80C }
-  - { offsetInCU: 0x3753, offset: 0x5B0BD, size: 0x8, addend: 0x0, symName: '_$sSKsE8dropLasty11SubSequenceQzSiF10Foundation4DataV_Tg5', symObjAddr: 0x2EF4, symBinAddr: 0x9824, symSize: 0x150 }
-  - { offsetInCU: 0x383E, offset: 0x5B1A8, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyCfd', symObjAddr: 0x3074, symBinAddr: 0x99A4, symSize: 0x60 }
-  - { offsetInCU: 0x3871, offset: 0x5B1DB, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyCfD', symObjAddr: 0x30D4, symBinAddr: 0x9A04, symSize: 0x68 }
-  - { offsetInCU: 0x38DD, offset: 0x5B247, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10CryptorECC4ASN1V0Q7ElementO_Tg5', symObjAddr: 0x324C, symBinAddr: 0x9B7C, symSize: 0xBC }
-  - { offsetInCU: 0x39C6, offset: 0x5B330, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSJ_Tg5', symObjAddr: 0x3308, symBinAddr: 0x9C38, symSize: 0xC4 }
-  - { offsetInCU: 0x3AAF, offset: 0x5B419, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5', symObjAddr: 0x33CC, symBinAddr: 0x9CFC, symSize: 0xC4 }
-  - { offsetInCU: 0x3B98, offset: 0x5B502, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tg5', symObjAddr: 0x3490, symBinAddr: 0x9DC0, symSize: 0xB4 }
-  - { offsetInCU: 0x3C92, offset: 0x5B5FC, size: 0x8, addend: 0x0, symName: '_$sSTsE8contains5whereS2b7ElementQzKXE_tKFSS_Tg5', symObjAddr: 0x372C, symBinAddr: 0xA050, symSize: 0xE0 }
-  - { offsetInCU: 0x3CF0, offset: 0x5B65A, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFAC_Tg5', symObjAddr: 0x389C, symBinAddr: 0xA1C0, symSize: 0x1F4 }
-  - { offsetInCU: 0x3E47, offset: 0x5B7B1, size: 0x8, addend: 0x0, symName: '_$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySSG_s15EmptyCollectionVySSGTg5Tf4nndn_n', symObjAddr: 0x3D18, symBinAddr: 0xA63C, symSize: 0x18C }
-  - { offsetInCU: 0x403D, offset: 0x5B9A7, size: 0x8, addend: 0x0, symName: '_$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySJG_s15EmptyCollectionVySJGTg5Tf4nndn_n', symObjAddr: 0x3EF8, symBinAddr: 0xA81C, symSize: 0x18C }
-  - { offsetInCU: 0x383, offset: 0x5C02D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyCMa', symObjAddr: 0xE90, symBinAddr: 0xC668, symSize: 0x20 }
-  - { offsetInCU: 0x420, offset: 0x5C0CA, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SS_TG5TA', symObjAddr: 0x1280, symBinAddr: 0xCA58, symSize: 0x1C }
-  - { offsetInCU: 0x434, offset: 0x5C0DE, size: 0x8, addend: 0x0, symName: '_$sSaySSGMa', symObjAddr: 0x12DC, symBinAddr: 0xCA74, symSize: 0x54 }
-  - { offsetInCU: 0x7AB, offset: 0x5C455, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_ADTgm5Tf4g_n', symObjAddr: 0x1374, symBinAddr: 0xCAC8, symSize: 0xFC }
-  - { offsetInCU: 0x90B, offset: 0x5C5B5, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_yXlTgm5Tf4g_n', symObjAddr: 0x14D4, symBinAddr: 0xCC28, symSize: 0x100 }
-  - { offsetInCU: 0xAFC, offset: 0x5C7A6, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyC3derAC10Foundation4DataV_tKcfC', symObjAddr: 0x0, symBinAddr: 0xB8A4, symSize: 0x54 }
-  - { offsetInCU: 0xB10, offset: 0x5C7BA, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyC7curveIdSSvg', symObjAddr: 0x54, symBinAddr: 0xB8F8, symSize: 0x2C }
-  - { offsetInCU: 0xB35, offset: 0x5C7DF, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyC5curveAA13EllipticCurveVvg', symObjAddr: 0x80, symBinAddr: 0xB924, symSize: 0x58 }
-  - { offsetInCU: 0xB5A, offset: 0x5C804, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyC9pemStringSSvg', symObjAddr: 0xD8, symBinAddr: 0xB97C, symSize: 0x2C }
-  - { offsetInCU: 0xBF6, offset: 0x5C8A0, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyC3keyACSS_tKcfC', symObjAddr: 0x104, symBinAddr: 0xB9A8, symSize: 0x3A4 }
-  - { offsetInCU: 0xF1B, offset: 0x5CBC5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyC3derAC10Foundation4DataV_tKcfc', symObjAddr: 0x4A8, symBinAddr: 0xBD4C, symSize: 0x8FC }
-  - { offsetInCU: 0x13C4, offset: 0x5D06E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyCfd', symObjAddr: 0xEB0, symBinAddr: 0xC688, symSize: 0x58 }
-  - { offsetInCU: 0x13FC, offset: 0x5D0A6, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyCfD', symObjAddr: 0xF08, symBinAddr: 0xC6E0, symSize: 0x60 }
-  - { offsetInCU: 0x1470, offset: 0x5D11A, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo11CFStringRefa_Tg5', symObjAddr: 0xF68, symBinAddr: 0xC740, symSize: 0x88 }
-  - { offsetInCU: 0x14CA, offset: 0x5D174, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0xFF0, symBinAddr: 0xC7C8, symSize: 0x64 }
-  - { offsetInCU: 0x1508, offset: 0x5D1B2, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo11CFStringRefa_Tg5', symObjAddr: 0x1054, symBinAddr: 0xC82C, symSize: 0x14C }
-  - { offsetInCU: 0x1529, offset: 0x5D1D3, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x11A0, symBinAddr: 0xC978, symSize: 0xE0 }
-  - { offsetInCU: 0x351, offset: 0x5D64A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVWOr', symObjAddr: 0x630, symBinAddr: 0xD314, symSize: 0x48 }
-  - { offsetInCU: 0x365, offset: 0x5D65E, size: 0x8, addend: 0x0, symName: '_$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFyt_Tg5055$s10CryptorECC13EllipticCurveV6digest4data10Foundation4B14VAH_tFySWXEfU_0J3ECC0lM0VAA0B0VSays5UInt8VGTf1nncn_n', symObjAddr: 0x678, symBinAddr: 0xD35C, symSize: 0xDC }
-  - { offsetInCU: 0x390, offset: 0x5D689, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVWOs', symObjAddr: 0x798, symBinAddr: 0xD438, symSize: 0x44 }
-  - { offsetInCU: 0x3A4, offset: 0x5D69D, size: 0x8, addend: 0x0, symName: '_$sSays5UInt8VGMa', symObjAddr: 0x81C, symBinAddr: 0xD47C, symSize: 0x54 }
-  - { offsetInCU: 0x42F, offset: 0x5D728, size: 0x8, addend: 0x0, symName: '_$sSa9repeating5countSayxGx_SitcfCs5UInt8V_Tgm5', symObjAddr: 0x5B8, symBinAddr: 0xD29C, symSize: 0x78 }
-  - { offsetInCU: 0x59E, offset: 0x5D897, size: 0x8, addend: 0x0, symName: '_$sSS10CryptorECCE4sign4withAA11ECSignatureVAA12ECPrivateKeyC_tKF', symObjAddr: 0x0, symBinAddr: 0xCD28, symSize: 0x84 }
-  - { offsetInCU: 0x703, offset: 0x5D9FC, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10CryptorECCE4sign4withAD11ECSignatureVAD12ECPrivateKeyC_tKF', symObjAddr: 0x84, symBinAddr: 0xCDAC, symSize: 0x4E0 }
-  - { offsetInCU: 0x27, offset: 0x5DEDB, size: 0x8, addend: 0x0, symName: '_$sSlsE9dropFirsty11SubSequenceQzSiF10Foundation4DataV_Tg5', symObjAddr: 0x0, symBinAddr: 0xD510, symSize: 0x160 }
-  - { offsetInCU: 0x1D7, offset: 0x5E08B, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV11asn1ToRSSig0D010Foundation4DataV_AHtAH_tKFZTf4nd_n', symObjAddr: 0x8E8, symBinAddr: 0xDDF8, symSize: 0x3AC }
-  - { offsetInCU: 0x44E, offset: 0x5E302, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV11rsSigToASN11r1s10Foundation4DataVAI_AItKFZTf4nnd_n', symObjAddr: 0xD4C, symBinAddr: 0xE1D4, symSize: 0x558 }
-  - { offsetInCU: 0xB36, offset: 0x5E9EA, size: 0x8, addend: 0x0, symName: '_$sSays5UInt8VGSayxG10Foundation15ContiguousBytesAeBRszlWl', symObjAddr: 0x13C0, symBinAddr: 0xE77C, symSize: 0x48 }
-  - { offsetInCU: 0xB4A, offset: 0x5E9FE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwCP', symObjAddr: 0x14A0, symBinAddr: 0xE7C4, symSize: 0x30 }
-  - { offsetInCU: 0xB5E, offset: 0x5EA12, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwxx', symObjAddr: 0x14D0, symBinAddr: 0xE7F4, symSize: 0x34 }
-  - { offsetInCU: 0xB72, offset: 0x5EA26, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwcp', symObjAddr: 0x1504, symBinAddr: 0xE828, symSize: 0x68 }
-  - { offsetInCU: 0xB86, offset: 0x5EA3A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwca', symObjAddr: 0x156C, symBinAddr: 0xE890, symSize: 0x80 }
-  - { offsetInCU: 0xB9A, offset: 0x5EA4E, size: 0x8, addend: 0x0, symName: ___swift_memcpy48_8, symObjAddr: 0x15EC, symBinAddr: 0xE910, symSize: 0x14 }
-  - { offsetInCU: 0xBAE, offset: 0x5EA62, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwta', symObjAddr: 0x1600, symBinAddr: 0xE924, symSize: 0x58 }
-  - { offsetInCU: 0xBC2, offset: 0x5EA76, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwet', symObjAddr: 0x1658, symBinAddr: 0xE97C, symSize: 0x54 }
-  - { offsetInCU: 0xBD6, offset: 0x5EA8A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwst', symObjAddr: 0x16AC, symBinAddr: 0xE9D0, symSize: 0x5C }
-  - { offsetInCU: 0xBEA, offset: 0x5EA9E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVMa', symObjAddr: 0x1708, symBinAddr: 0xEA2C, symSize: 0x10 }
-  - { offsetInCU: 0xE38, offset: 0x5ECEC, size: 0x8, addend: 0x0, symName: '_$sSlsE9dropFirsty11SubSequenceQzSiF10Foundation4DataV_Tg5', symObjAddr: 0x0, symBinAddr: 0xD510, symSize: 0x160 }
-  - { offsetInCU: 0xF36, offset: 0x5EDEA, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV4asn1AC10Foundation4DataV_tKcfC', symObjAddr: 0x190, symBinAddr: 0xD6A0, symSize: 0xA4 }
-  - { offsetInCU: 0xF9F, offset: 0x5EE53, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV1r10Foundation4DataVvg', symObjAddr: 0x234, symBinAddr: 0xD744, symSize: 0x30 }
-  - { offsetInCU: 0xFB3, offset: 0x5EE67, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV1s10Foundation4DataVvg', symObjAddr: 0x264, symBinAddr: 0xD774, symSize: 0x30 }
-  - { offsetInCU: 0xFC7, offset: 0x5EE7B, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV4asn110Foundation4DataVvg', symObjAddr: 0x294, symBinAddr: 0xD7A4, symSize: 0x30 }
-  - { offsetInCU: 0xFE2, offset: 0x5EE96, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV1r1sAC10Foundation4DataV_AHtKcfC', symObjAddr: 0x2C4, symBinAddr: 0xD7D4, symSize: 0x74 }
-  - { offsetInCU: 0x104B, offset: 0x5EEFF, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV6verify9plaintext5usingSbSS_AA11ECPublicKeyCtF', symObjAddr: 0x338, symBinAddr: 0xD848, symSize: 0x98 }
-  - { offsetInCU: 0x1188, offset: 0x5F03C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV6verify9plaintext5usingSb10Foundation4DataV_AA11ECPublicKeyCtF', symObjAddr: 0x3D0, symBinAddr: 0xD8E0, symSize: 0x3BC }
-  - { offsetInCU: 0x158E, offset: 0x5F442, size: 0x8, addend: 0x0, symName: '_$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE8distance4from2toSiAB_ABtF10Foundation4DataV_Tgq5', symObjAddr: 0x79C, symBinAddr: 0xDCAC, symSize: 0xB8 }
-  - { offsetInCU: 0x15C3, offset: 0x5F477, size: 0x8, addend: 0x0, symName: '_$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index_8offsetByA2B_SitF10Foundation4DataV_Tgq5', symObjAddr: 0x874, symBinAddr: 0xDD84, symSize: 0x64 }
-  - { offsetInCU: 0x2B, offset: 0x5F54E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV08objectToD016ObjectIdentifierAC10Foundation4DataV_tKFZ', symObjAddr: 0x0, symBinAddr: 0xEA3C, symSize: 0x2BC }
-  - { offsetInCU: 0x4F, offset: 0x5F572, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV10prime256v1ACvpZ', symObjAddr: 0x1A10, symBinAddr: 0x19720, symSize: 0x0 }
-  - { offsetInCU: 0xD9, offset: 0x5F5FC, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSYAASY8rawValuexSg03RawQ0Qz_tcfCTW', symObjAddr: 0x8D0, symBinAddr: 0xF30C, symSize: 0x2C }
-  - { offsetInCU: 0x10A, offset: 0x5F62D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSYAASY8rawValue03RawQ0QzvgTW', symObjAddr: 0x8FC, symBinAddr: 0xF338, symSize: 0x6C }
-  - { offsetInCU: 0x13E, offset: 0x5F661, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLO8rawValueAFSgSS_tcfCTf4nd_n', symObjAddr: 0x16B0, symBinAddr: 0x100DC, symSize: 0x74 }
-  - { offsetInCU: 0x229, offset: 0x5F74C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV6digest4data10Foundation4DataVAH_tFySWXEfU_', symObjAddr: 0xE58, symBinAddr: 0xF894, symSize: 0x104 }
-  - { offsetInCU: 0x3A1, offset: 0x5F8C4, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xF6C, symBinAddr: 0xF9A8, symSize: 0x4 }
-  - { offsetInCU: 0x3C1, offset: 0x5F8E4, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xF6C, symBinAddr: 0xF9A8, symSize: 0x4 }
-  - { offsetInCU: 0x3D3, offset: 0x5F8F6, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVs23CustomStringConvertibleAAsADP11descriptionSSvgTW', symObjAddr: 0xF70, symBinAddr: 0xF9AC, symSize: 0x68 }
-  - { offsetInCU: 0x3F3, offset: 0x5F916, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVs23CustomStringConvertibleAAsADP11descriptionSSvgTW', symObjAddr: 0xF70, symBinAddr: 0xF9AC, symSize: 0x68 }
-  - { offsetInCU: 0x424, offset: 0x5F947, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV2eeoiySbAC_ACtFZTf4nnd_n', symObjAddr: 0x1044, symBinAddr: 0xFA80, symSize: 0xF4 }
-  - { offsetInCU: 0x4FF, offset: 0x5FA22, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp384r1ACvpZ', symObjAddr: 0x1A48, symBinAddr: 0x19758, symSize: 0x0 }
-  - { offsetInCU: 0x519, offset: 0x5FA3C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp521r1ACvpZ', symObjAddr: 0x1A80, symBinAddr: 0x19790, symSize: 0x0 }
-  - { offsetInCU: 0x533, offset: 0x5FA56, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p256ACvpZ', symObjAddr: 0xAA80, symBinAddr: 0x1A300, symSize: 0x0 }
-  - { offsetInCU: 0x54D, offset: 0x5FA70, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p384ACvpZ', symObjAddr: 0xAAB8, symBinAddr: 0x1A338, symSize: 0x0 }
-  - { offsetInCU: 0x567, offset: 0x5FA8A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p521ACvpZ', symObjAddr: 0xAAF0, symBinAddr: 0x1A370, symSize: 0x0 }
-  - { offsetInCU: 0x884, offset: 0x5FDA7, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV10prime256v1_WZ', symObjAddr: 0x968, symBinAddr: 0xF3A4, symSize: 0x88 }
-  - { offsetInCU: 0x8BD, offset: 0x5FDE0, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp384r1_WZ', symObjAddr: 0xA7C, symBinAddr: 0xF4B8, symSize: 0x88 }
-  - { offsetInCU: 0x8F6, offset: 0x5FE19, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp521r1_WZ', symObjAddr: 0xB90, symBinAddr: 0xF5CC, symSize: 0x88 }
-  - { offsetInCU: 0x91E, offset: 0x5FE41, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p256_WZ', symObjAddr: 0xCA4, symBinAddr: 0xF6E0, symSize: 0x64 }
-  - { offsetInCU: 0x94E, offset: 0x5FE71, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p384_WZ', symObjAddr: 0xD0C, symBinAddr: 0xF748, symSize: 0x68 }
-  - { offsetInCU: 0x97E, offset: 0x5FEA1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p521_WZ', symObjAddr: 0xD78, symBinAddr: 0xF7B4, symSize: 0x68 }
-  - { offsetInCU: 0xABB, offset: 0x5FFDE, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5', symObjAddr: 0xFD8, symBinAddr: 0xFA14, symSize: 0x6C }
-  - { offsetInCU: 0xB07, offset: 0x6002A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwCP', symObjAddr: 0x1138, symBinAddr: 0xFB74, symSize: 0x30 }
-  - { offsetInCU: 0xB1B, offset: 0x6003E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwxx', symObjAddr: 0x1168, symBinAddr: 0xFBA4, symSize: 0x30 }
-  - { offsetInCU: 0xB2F, offset: 0x60052, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwcp', symObjAddr: 0x1198, symBinAddr: 0xFBD4, symSize: 0x64 }
-  - { offsetInCU: 0xB43, offset: 0x60066, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwca', symObjAddr: 0x11FC, symBinAddr: 0xFC38, symSize: 0x8C }
-  - { offsetInCU: 0xB57, offset: 0x6007A, size: 0x8, addend: 0x0, symName: ___swift_memcpy56_8, symObjAddr: 0x1288, symBinAddr: 0xFCC4, symSize: 0x1C }
-  - { offsetInCU: 0xB6B, offset: 0x6008E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwta', symObjAddr: 0x12A4, symBinAddr: 0xFCE0, symSize: 0x6C }
-  - { offsetInCU: 0xB7F, offset: 0x600A2, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwet', symObjAddr: 0x1310, symBinAddr: 0xFD4C, symSize: 0x48 }
-  - { offsetInCU: 0xB93, offset: 0x600B6, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwst', symObjAddr: 0x1358, symBinAddr: 0xFD94, symSize: 0x4C }
-  - { offsetInCU: 0xBA7, offset: 0x600CA, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVMa', symObjAddr: 0x13A4, symBinAddr: 0xFDE0, symSize: 0x10 }
-  - { offsetInCU: 0xBBB, offset: 0x600DE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOwet', symObjAddr: 0x13C4, symBinAddr: 0xFDF0, symSize: 0x90 }
-  - { offsetInCU: 0xBCF, offset: 0x600F2, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOwst', symObjAddr: 0x1454, symBinAddr: 0xFE80, symSize: 0xBC }
-  - { offsetInCU: 0xBE3, offset: 0x60106, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOwug', symObjAddr: 0x1510, symBinAddr: 0xFF3C, symSize: 0x8 }
-  - { offsetInCU: 0xBF7, offset: 0x6011A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOwup', symObjAddr: 0x1518, symBinAddr: 0xFF44, symSize: 0x4 }
-  - { offsetInCU: 0xC0B, offset: 0x6012E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOwui', symObjAddr: 0x151C, symBinAddr: 0xFF48, symSize: 0x8 }
-  - { offsetInCU: 0xC1F, offset: 0x60142, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOMa', symObjAddr: 0x1524, symBinAddr: 0xFF50, symSize: 0x10 }
-  - { offsetInCU: 0xC33, offset: 0x60156, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSHAASQWb', symObjAddr: 0x1534, symBinAddr: 0xFF60, symSize: 0x4 }
-  - { offsetInCU: 0xC47, offset: 0x6016A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOAFSQAAWl', symObjAddr: 0x1538, symBinAddr: 0xFF64, symSize: 0x44 }
-  - { offsetInCU: 0xC81, offset: 0x601A4, size: 0x8, addend: 0x0, symName: '_$sSaySJGSayxGSTsWl', symObjAddr: 0x1764, symBinAddr: 0x10150, symSize: 0x48 }
-  - { offsetInCU: 0xC95, offset: 0x601B8, size: 0x8, addend: 0x0, symName: '_$sSaySJGMa', symObjAddr: 0x17AC, symBinAddr: 0x10198, symSize: 0x54 }
-  - { offsetInCU: 0xDE2, offset: 0x60305, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x6E8, symBinAddr: 0xF124, symSize: 0xC }
-  - { offsetInCU: 0xE62, offset: 0x60385, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSHAASH9hashValueSivgTW', symObjAddr: 0x6F4, symBinAddr: 0xF130, symSize: 0xAC }
-  - { offsetInCU: 0xF16, offset: 0x60439, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x7A0, symBinAddr: 0xF1DC, symSize: 0x88 }
-  - { offsetInCU: 0xF86, offset: 0x604A9, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x828, symBinAddr: 0xF264, symSize: 0xA8 }
-  - { offsetInCU: 0x105D, offset: 0x60580, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZs5UInt8V_Tgm5', symObjAddr: 0xDE4, symBinAddr: 0xF820, symSize: 0x74 }
-  - { offsetInCU: 0x107D, offset: 0x605A0, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZs5UInt8V_Tgm5', symObjAddr: 0xDE4, symBinAddr: 0xF820, symSize: 0x74 }
-  - { offsetInCU: 0x1091, offset: 0x605B4, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZs5UInt8V_Tgm5', symObjAddr: 0xDE4, symBinAddr: 0xF820, symSize: 0x74 }
-  - { offsetInCU: 0x10A5, offset: 0x605C8, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZs5UInt8V_Tgm5', symObjAddr: 0xDE4, symBinAddr: 0xF820, symSize: 0x74 }
-  - { offsetInCU: 0x1202, offset: 0x60725, size: 0x8, addend: 0x0, symName: '_$sSaySayxGqd__c7ElementQyd__RszSTRd__lufCs5UInt8V_10Foundation4DataVTgm5Tf4g_n', symObjAddr: 0x157C, symBinAddr: 0xFFA8, symSize: 0x124 }
-  - { offsetInCU: 0x12F5, offset: 0x60818, size: 0x8, addend: 0x0, symName: '_$sSo9CC_SHA256ySpys5UInt8VGSgSVSg_s6UInt32VAEtFTO', symObjAddr: 0xD08, symBinAddr: 0xF744, symSize: 0x4 }
-  - { offsetInCU: 0x1311, offset: 0x60834, size: 0x8, addend: 0x0, symName: '_$sSo9CC_SHA384ySpys5UInt8VGSgSVSg_s6UInt32VAEtFTO', symObjAddr: 0xD74, symBinAddr: 0xF7B0, symSize: 0x4 }
-  - { offsetInCU: 0x132D, offset: 0x60850, size: 0x8, addend: 0x0, symName: '_$sSo9CC_SHA512ySpys5UInt8VGSgSVSg_s6UInt32VAEtFTO', symObjAddr: 0xDE0, symBinAddr: 0xF81C, symSize: 0x4 }
-  - { offsetInCU: 0x1396, offset: 0x608B9, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV08objectToD016ObjectIdentifierAC10Foundation4DataV_tKFZ', symObjAddr: 0x0, symBinAddr: 0xEA3C, symSize: 0x2BC }
-  - { offsetInCU: 0x1491, offset: 0x609B4, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV11descriptionSSvg', symObjAddr: 0x2BC, symBinAddr: 0xECF8, symSize: 0x68 }
-  - { offsetInCU: 0x14C4, offset: 0x609E7, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV2eeoiySbAC_ACtFZ', symObjAddr: 0x324, symBinAddr: 0xED60, symSize: 0x4 }
-  - { offsetInCU: 0x15FD, offset: 0x60B20, size: 0x8, addend: 0x0, symName: '_$sSS10CryptorECCE5split2toSaySSGSi_tF', symObjAddr: 0x328, symBinAddr: 0xED64, symSize: 0x3C0 }
-  - { offsetInCU: 0x1BDD, offset: 0x61100, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV10prime256v1ACvgZ', symObjAddr: 0x9F0, symBinAddr: 0xF42C, symSize: 0x8C }
-  - { offsetInCU: 0x1C0B, offset: 0x6112E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp384r1ACvgZ', symObjAddr: 0xB04, symBinAddr: 0xF540, symSize: 0x8C }
-  - { offsetInCU: 0x1C39, offset: 0x6115C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp521r1ACvgZ', symObjAddr: 0xC18, symBinAddr: 0xF654, symSize: 0x8C }
+  - { offset: 0x59DB1, size: 0x8, addend: 0x0, symName: _CryptorECCVersionString, symObjAddr: 0x0, symBinAddr: 0x129E0, symSize: 0x0 }
+  - { offset: 0x59DE6, size: 0x8, addend: 0x0, symName: _CryptorECCVersionNumber, symObjAddr: 0x28, symBinAddr: 0x12A08, symSize: 0x0 }
+  - { offset: 0x59F05, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaSHSCSH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x844, symBinAddr: 0x4844, symSize: 0x58 }
+  - { offset: 0x5A0B2, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefa14CoreFoundation9_CFObjectSCSHWb', symObjAddr: 0x8E8, symBinAddr: 0x48E8, symSize: 0x24 }
+  - { offset: 0x5A0C6, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaSHSCSQWb', symObjAddr: 0x90C, symBinAddr: 0x490C, symSize: 0x24 }
+  - { offset: 0x5A0E5, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0xC10, symBinAddr: 0x4C10, symSize: 0x44 }
+  - { offset: 0x5A0F9, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1VMa', symObjAddr: 0xCD4, symBinAddr: 0x4CD4, symSize: 0x10 }
+  - { offset: 0x5A10D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwCP', symObjAddr: 0xCE4, symBinAddr: 0x4CE4, symSize: 0x30 }
+  - { offset: 0x5A121, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwxx', symObjAddr: 0xD14, symBinAddr: 0x4D14, symSize: 0xC }
+  - { offset: 0x5A135, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwca', symObjAddr: 0xD20, symBinAddr: 0x4D20, symSize: 0x40 }
+  - { offset: 0x5A149, size: 0x8, addend: 0x0, symName: ___swift_memcpy8_8, symObjAddr: 0xD60, symBinAddr: 0x4D60, symSize: 0xC }
+  - { offset: 0x5A15D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwta', symObjAddr: 0xD6C, symBinAddr: 0x4D6C, symSize: 0x34 }
+  - { offset: 0x5A171, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwet', symObjAddr: 0xDA0, symBinAddr: 0x4DA0, symSize: 0x5C }
+  - { offset: 0x5A185, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwst', symObjAddr: 0xDFC, symBinAddr: 0x4DFC, symSize: 0x50 }
+  - { offset: 0x5A199, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwug', symObjAddr: 0xE4C, symBinAddr: 0x4E4C, symSize: 0x1C }
+  - { offset: 0x5A1AD, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwup', symObjAddr: 0xE68, symBinAddr: 0x4E68, symSize: 0x10 }
+  - { offset: 0x5A1C1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOwui', symObjAddr: 0xE78, symBinAddr: 0x4E78, symSize: 0x2C }
+  - { offset: 0x5A1D5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V0C7ElementOMa', symObjAddr: 0xEA4, symBinAddr: 0x4EA4, symSize: 0x10 }
+  - { offset: 0x5A239, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V02toC7Element4dataAC0cE0O_Sit10Foundation4DataV_tFZ', symObjAddr: 0x94, symBinAddr: 0x4094, symSize: 0x6FC }
+  - { offset: 0x5A7D9, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaSHSCSH9hashValueSivgTW', symObjAddr: 0x7C0, symBinAddr: 0x47C0, symSize: 0x3C }
+  - { offset: 0x5A7F5, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaSHSCSH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x7FC, symBinAddr: 0x47FC, symSize: 0x48 }
+  - { offset: 0x5A818, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x89C, symBinAddr: 0x489C, symSize: 0x4C }
+  - { offset: 0x5A835, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC4ASN1V10readLength33_596B2998934BA7B8E5D6529ED79AE874LL4dataSi_Sit10Foundation4DataV_tFZTf4nd_n', symObjAddr: 0x970, symBinAddr: 0x4970, symSize: 0x290 }
+  - { offset: 0x5AA69, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10CryptorECCE7decrypt4withAcD12ECPrivateKeyC_tKF', symObjAddr: 0x0, symBinAddr: 0x4EB8, symSize: 0x17C }
+  - { offset: 0x5AA92, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10CryptorECCE7decrypt4withAcD12ECPrivateKeyC_tKF', symObjAddr: 0x0, symBinAddr: 0x4EB8, symSize: 0x17C }
+  - { offset: 0x5AB29, size: 0x8, addend: 0x0, symName: '_$sSo10CFErrorRefaABs5Error10FoundationWl', symObjAddr: 0x17C, symBinAddr: 0x5034, symSize: 0x48 }
+  - { offset: 0x5AB3D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVACs5ErrorAAWl', symObjAddr: 0x1C4, symBinAddr: 0x507C, symSize: 0x44 }
+  - { offset: 0x5ACAB, size: 0x8, addend: 0x0, symName: '_$sSS10CryptorECCE7encrypt4with10Foundation4DataVAA11ECPublicKeyC_tKF', symObjAddr: 0x0, symBinAddr: 0x50C0, symSize: 0x8C }
+  - { offset: 0x5ADE9, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10CryptorECCE7encrypt4withAcD11ECPublicKeyC_tKF', symObjAddr: 0x578, symBinAddr: 0x5638, symSize: 0x17C }
+  - { offset: 0x5AE80, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x7DC, symBinAddr: 0x57B4, symSize: 0x40 }
+  - { offset: 0x5AE94, size: 0x8, addend: 0x0, symName: '_$s10Foundation15ContiguousBytes_pSgWOh', symObjAddr: 0x81C, symBinAddr: 0x57F4, symSize: 0x40 }
+  - { offset: 0x5AF1F, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFs16IndexingIteratorVySS8UTF8ViewVG_Sit_Tg5', symObjAddr: 0x85C, symBinAddr: 0x5834, symSize: 0x2E0 }
+  - { offset: 0x5B026, size: 0x8, addend: 0x0, symName: '_$sSw17withMemoryRebound2to_q0_xm_q0_SryxGq_YKXEtq_YKs5ErrorR_Ri_zRi_0_r1_lFs5UInt8V_s5NeverOs16IndexingIteratorVySS8UTF8ViewVG_SitTgm5', symObjAddr: 0xB4C, symBinAddr: 0x5B24, symSize: 0x64 }
+  - { offset: 0x5B045, size: 0x8, addend: 0x0, symName: '_$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyxSnySiG_xSwKXEtKlFs16IndexingIteratorVySS8UTF8ViewVG_Sit_Tg5', symObjAddr: 0xBB0, symBinAddr: 0x5B88, symSize: 0xAC }
+  - { offset: 0x5B084, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV27_slowEnsureMatchingEncodingySS5IndexVAEF', symObjAddr: 0xC5C, symBinAddr: 0x5C34, symSize: 0x78 }
+  - { offset: 0x5B0B9, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_SS8UTF8ViewV_TG5', symObjAddr: 0xCD4, symBinAddr: 0x5CAC, symSize: 0x88 }
+  - { offset: 0x5B125, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationO5countAESi_tcfCTf4nd_n', symObjAddr: 0xD5C, symBinAddr: 0x5D34, symSize: 0x9C }
+  - { offset: 0x5B183, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_SS8UTF8ViewV_TG5TA', symObjAddr: 0xDF8, symBinAddr: 0x5DD0, symSize: 0x5C }
+  - { offset: 0x5B1C1, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOSgWOe', symObjAddr: 0xE54, symBinAddr: 0x5E2C, symSize: 0x14 }
+  - { offset: 0x5B1D5, size: 0x8, addend: 0x0, symName: '_$s10Foundation15ContiguousBytes_pWOb', symObjAddr: 0xE68, symBinAddr: 0x5E40, symSize: 0x18 }
+  - { offset: 0x5B1E9, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0xE80, symBinAddr: 0x5E58, symSize: 0x24 }
+  - { offset: 0x5B1FD, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0xEA4, symBinAddr: 0x5E7C, symSize: 0x20 }
+  - { offset: 0x5B211, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_SS8UTF8ViewV_TG5TA', symObjAddr: 0xEC4, symBinAddr: 0x5E9C, symSize: 0x1C }
+  - { offset: 0x5B2EC, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCSS8UTF8ViewV_Tgm5', symObjAddr: 0x8C, symBinAddr: 0x514C, symSize: 0x4DC }
+  - { offset: 0x5B596, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16invalidPEMStringACvpZ', symObjAddr: 0xC00, symBinAddr: 0x193C0, symSize: 0x0 }
+  - { offset: 0x5B7F1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unknownPEMHeaderACvpZ', symObjAddr: 0xC18, symBinAddr: 0x193D8, symSize: 0x0 }
+  - { offset: 0x5B80B, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV20failedBase64EncodingACvpZ', symObjAddr: 0xC30, symBinAddr: 0x193F0, symSize: 0x0 }
+  - { offset: 0x5B825, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedASN1DecodingACvpZ', symObjAddr: 0xC48, symBinAddr: 0x19408, symSize: 0x0 }
+  - { offset: 0x5B83F, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unsupportedCurveACvpZ', symObjAddr: 0xC60, symBinAddr: 0x19420, symSize: 0x0 }
+  - { offset: 0x5B859, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV23failedNativeKeyCreationACvpZ', symObjAddr: 0xC78, symBinAddr: 0x19438, symSize: 0x0 }
+  - { offset: 0x5B873, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13failedEvpInitACvpZ', symObjAddr: 0xC90, symBinAddr: 0x19450, symSize: 0x0 }
+  - { offset: 0x5B88D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV22failedSigningAlgorithmACvpZ', symObjAddr: 0xCA8, symBinAddr: 0x19468, symSize: 0x0 }
+  - { offset: 0x5B8A7, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV15invalidRSLengthACvpZ', symObjAddr: 0xCC0, symBinAddr: 0x19480, symSize: 0x0 }
+  - { offset: 0x5B8C1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedEncryptionAlgorithmACvpZ', symObjAddr: 0xCD8, symBinAddr: 0x19498, symSize: 0x0 }
+  - { offset: 0x5B8DB, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedDecryptionAlgorithmACvpZ', symObjAddr: 0xCF0, symBinAddr: 0x194B0, symSize: 0x0 }
+  - { offset: 0x5B8F5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedUTF8DecodingACvpZ', symObjAddr: 0xD08, symBinAddr: 0x194C8, symSize: 0x0 }
+  - { offset: 0x5B90E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16invalidPEMString_WZ', symObjAddr: 0xEC, symBinAddr: 0x5FA4, symSize: 0x2C }
+  - { offset: 0x5B92C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16invalidPEMString_WZ', symObjAddr: 0xEC, symBinAddr: 0x5FA4, symSize: 0x2C }
+  - { offset: 0x5B94F, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unknownPEMHeader_WZ', symObjAddr: 0x174, symBinAddr: 0x602C, symSize: 0x30 }
+  - { offset: 0x5B96D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unknownPEMHeader_WZ', symObjAddr: 0x174, symBinAddr: 0x602C, symSize: 0x30 }
+  - { offset: 0x5B990, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV20failedBase64Encoding_WZ', symObjAddr: 0x200, symBinAddr: 0x60B8, symSize: 0x30 }
+  - { offset: 0x5B9AE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV20failedBase64Encoding_WZ', symObjAddr: 0x200, symBinAddr: 0x60B8, symSize: 0x30 }
+  - { offset: 0x5B9D1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedASN1Decoding_WZ', symObjAddr: 0x28C, symBinAddr: 0x6144, symSize: 0x30 }
+  - { offset: 0x5B9EF, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedASN1Decoding_WZ', symObjAddr: 0x28C, symBinAddr: 0x6144, symSize: 0x30 }
+  - { offset: 0x5BA12, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unsupportedCurve_WZ', symObjAddr: 0x318, symBinAddr: 0x61D0, symSize: 0x30 }
+  - { offset: 0x5BA30, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unsupportedCurve_WZ', symObjAddr: 0x318, symBinAddr: 0x61D0, symSize: 0x30 }
+  - { offset: 0x5BA53, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV23failedNativeKeyCreation_WZ', symObjAddr: 0x3A4, symBinAddr: 0x625C, symSize: 0x30 }
+  - { offset: 0x5BA71, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV23failedNativeKeyCreation_WZ', symObjAddr: 0x3A4, symBinAddr: 0x625C, symSize: 0x30 }
+  - { offset: 0x5BA94, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13failedEvpInit_WZ', symObjAddr: 0x430, symBinAddr: 0x62E8, symSize: 0x30 }
+  - { offset: 0x5BAB2, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13failedEvpInit_WZ', symObjAddr: 0x430, symBinAddr: 0x62E8, symSize: 0x30 }
+  - { offset: 0x5BAD5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV22failedSigningAlgorithm_WZ', symObjAddr: 0x4BC, symBinAddr: 0x6374, symSize: 0x30 }
+  - { offset: 0x5BAF3, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV22failedSigningAlgorithm_WZ', symObjAddr: 0x4BC, symBinAddr: 0x6374, symSize: 0x30 }
+  - { offset: 0x5BB16, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV15invalidRSLength_WZ', symObjAddr: 0x548, symBinAddr: 0x6400, symSize: 0x30 }
+  - { offset: 0x5BB34, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV15invalidRSLength_WZ', symObjAddr: 0x548, symBinAddr: 0x6400, symSize: 0x30 }
+  - { offset: 0x5BB57, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedEncryptionAlgorithm_WZ', symObjAddr: 0x5D4, symBinAddr: 0x648C, symSize: 0x30 }
+  - { offset: 0x5BB75, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedEncryptionAlgorithm_WZ', symObjAddr: 0x5D4, symBinAddr: 0x648C, symSize: 0x30 }
+  - { offset: 0x5BB98, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedDecryptionAlgorithm_WZ', symObjAddr: 0x660, symBinAddr: 0x6518, symSize: 0x30 }
+  - { offset: 0x5BBB6, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedDecryptionAlgorithm_WZ', symObjAddr: 0x660, symBinAddr: 0x6518, symSize: 0x30 }
+  - { offset: 0x5BBD9, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedUTF8Decoding_WZ', symObjAddr: 0x6EC, symBinAddr: 0x65A4, symSize: 0x30 }
+  - { offset: 0x5BBF7, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedUTF8Decoding_WZ', symObjAddr: 0x6EC, symBinAddr: 0x65A4, symSize: 0x30 }
+  - { offset: 0x5BC1A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVwxx', symObjAddr: 0x7B4, symBinAddr: 0x6658, symSize: 0x8 }
+  - { offset: 0x5BC2E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVwca', symObjAddr: 0x7F4, symBinAddr: 0x6694, symSize: 0x54 }
+  - { offset: 0x5BC42, size: 0x8, addend: 0x0, symName: ___swift_memcpy17_8, symObjAddr: 0x848, symBinAddr: 0x66E8, symSize: 0x14 }
+  - { offset: 0x5BC56, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVwta', symObjAddr: 0x85C, symBinAddr: 0x66FC, symSize: 0x3C }
+  - { offset: 0x5BC6A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVwet', symObjAddr: 0x898, symBinAddr: 0x6738, symSize: 0x48 }
+  - { offset: 0x5BC7E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVwst', symObjAddr: 0x8E0, symBinAddr: 0x6780, symSize: 0x40 }
+  - { offset: 0x5BC92, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVMa', symObjAddr: 0x920, symBinAddr: 0x67C0, symSize: 0x10 }
+  - { offset: 0x5BCA6, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x930, symBinAddr: 0x67D0, symSize: 0xC }
+  - { offset: 0x5BCBA, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x93C, symBinAddr: 0x67DC, symSize: 0x4 }
+  - { offset: 0x5BCCE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOwet', symObjAddr: 0x940, symBinAddr: 0x67E0, symSize: 0x90 }
+  - { offset: 0x5BCE2, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOwst', symObjAddr: 0x9D0, symBinAddr: 0x6870, symSize: 0xBC }
+  - { offset: 0x5BCF6, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOwug', symObjAddr: 0xA8C, symBinAddr: 0x692C, symSize: 0x8 }
+  - { offset: 0x5BD0A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOwup', symObjAddr: 0xA94, symBinAddr: 0x6934, symSize: 0x4 }
+  - { offset: 0x5BD1E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOwui', symObjAddr: 0xA98, symBinAddr: 0x6938, symSize: 0x8 }
+  - { offset: 0x5BD32, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOMa', symObjAddr: 0xAA0, symBinAddr: 0x6940, symSize: 0x10 }
+  - { offset: 0x5BD46, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOSHAASQWb', symObjAddr: 0xAB0, symBinAddr: 0x6950, symSize: 0x4 }
+  - { offset: 0x5BD5A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOAFSQAAWl', symObjAddr: 0xAB4, symBinAddr: 0x6954, symSize: 0x44 }
+  - { offset: 0x5BDDA, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xAC, symBinAddr: 0x5F64, symSize: 0x40 }
+  - { offset: 0x5BE61, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVs5ErrorAAsADP7_domainSSvgTW', symObjAddr: 0x78C, symBinAddr: 0x6644, symSize: 0x4 }
+  - { offset: 0x5BE7D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVs5ErrorAAsADP5_codeSivgTW', symObjAddr: 0x790, symBinAddr: 0x6648, symSize: 0x4 }
+  - { offset: 0x5BE99, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVs5ErrorAAsADP9_userInfoyXlSgvgTW', symObjAddr: 0x794, symBinAddr: 0x664C, symSize: 0x4 }
+  - { offset: 0x5BEB5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorVs5ErrorAAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x798, symBinAddr: 0x6650, symSize: 0x4 }
+  - { offset: 0x5BED8, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV20localizedDescriptionSSvg', symObjAddr: 0x0, symBinAddr: 0x5EB8, symSize: 0x2C }
+  - { offset: 0x5BF19, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x2C, symBinAddr: 0x5EE4, symSize: 0x14 }
+  - { offset: 0x5BF95, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOSHAASH9hashValueSivgTW', symObjAddr: 0x40, symBinAddr: 0x5EF8, symSize: 0x44 }
+  - { offset: 0x5C05B, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13InternalError33_6925F1B6773621418CDACEABBDEFC2D4LLOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x84, symBinAddr: 0x5F3C, symSize: 0x28 }
+  - { offset: 0x5C0DB, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16invalidPEMStringACvgZ', symObjAddr: 0x118, symBinAddr: 0x5FD0, symSize: 0x5C }
+  - { offset: 0x5C109, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unknownPEMHeaderACvgZ', symObjAddr: 0x1A4, symBinAddr: 0x605C, symSize: 0x5C }
+  - { offset: 0x5C137, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV20failedBase64EncodingACvgZ', symObjAddr: 0x230, symBinAddr: 0x60E8, symSize: 0x5C }
+  - { offset: 0x5C165, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedASN1DecodingACvgZ', symObjAddr: 0x2BC, symBinAddr: 0x6174, symSize: 0x5C }
+  - { offset: 0x5C193, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV16unsupportedCurveACvgZ', symObjAddr: 0x348, symBinAddr: 0x6200, symSize: 0x5C }
+  - { offset: 0x5C1C1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV23failedNativeKeyCreationACvgZ', symObjAddr: 0x3D4, symBinAddr: 0x628C, symSize: 0x5C }
+  - { offset: 0x5C1EF, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV13failedEvpInitACvgZ', symObjAddr: 0x460, symBinAddr: 0x6318, symSize: 0x5C }
+  - { offset: 0x5C21D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV22failedSigningAlgorithmACvgZ', symObjAddr: 0x4EC, symBinAddr: 0x63A4, symSize: 0x5C }
+  - { offset: 0x5C24B, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV15invalidRSLengthACvgZ', symObjAddr: 0x578, symBinAddr: 0x6430, symSize: 0x5C }
+  - { offset: 0x5C279, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedEncryptionAlgorithmACvgZ', symObjAddr: 0x604, symBinAddr: 0x64BC, symSize: 0x5C }
+  - { offset: 0x5C2A7, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV25failedDecryptionAlgorithmACvgZ', symObjAddr: 0x690, symBinAddr: 0x6548, symSize: 0x5C }
+  - { offset: 0x5C2D5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV18failedUTF8DecodingACvgZ', symObjAddr: 0x71C, symBinAddr: 0x65D4, symSize: 0x5C }
+  - { offset: 0x5C303, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC7ECErrorV2eeoiySbAC_ACtFZ', symObjAddr: 0x778, symBinAddr: 0x6630, symSize: 0x14 }
+  - { offset: 0x5C939, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x1324, symBinAddr: 0x7CBC, symSize: 0x44 }
+  - { offset: 0x5C94D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyCMa', symObjAddr: 0x1404, symBinAddr: 0x7D00, symSize: 0x20 }
+  - { offset: 0x5CB5E, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10CryptorECC4ASN1V0Q7ElementO_Tg5', symObjAddr: 0x3288, symBinAddr: 0x9B84, symSize: 0x108 }
+  - { offset: 0x5CCE2, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSJ_Tg5', symObjAddr: 0x3390, symBinAddr: 0x9C8C, symSize: 0x108 }
+  - { offset: 0x5CE66, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5', symObjAddr: 0x3498, symBinAddr: 0x9D94, symSize: 0x108 }
+  - { offset: 0x5CFDF, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tg5', symObjAddr: 0x35A0, symBinAddr: 0x9E9C, symSize: 0xF0 }
+  - { offset: 0x5D12C, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSWXEfU_', symObjAddr: 0x3690, symBinAddr: 0x9F8C, symSize: 0x74 }
+  - { offset: 0x5D1AB, size: 0x8, addend: 0x0, symName: '_$sSTsE8contains5whereS2b7ElementQzKXE_tKFSS_Tg5', symObjAddr: 0x3704, symBinAddr: 0xA000, symSize: 0xC8 }
+  - { offset: 0x5D1FC, size: 0x8, addend: 0x0, symName: '_$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFyt_Tg5015$s10Foundation4B57V6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFySWXEfU_AA0B0VTf1nncn_n', symObjAddr: 0x37CC, symBinAddr: 0xA0C8, symSize: 0x90 }
+  - { offset: 0x5D2CB, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFAC_Tg5', symObjAddr: 0x385C, symBinAddr: 0xA158, symSize: 0x208 }
+  - { offset: 0x5D470, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SS_TG5', symObjAddr: 0x3A74, symBinAddr: 0xA370, symSize: 0x54 }
+  - { offset: 0x5D503, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n', symObjAddr: 0x3AC8, symBinAddr: 0xA3C4, symSize: 0xC0 }
+  - { offset: 0x5D579, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n', symObjAddr: 0x3B88, symBinAddr: 0xA484, symSize: 0x78 }
+  - { offset: 0x5D5A6, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n', symObjAddr: 0x3C00, symBinAddr: 0xA4FC, symSize: 0x80 }
+  - { offset: 0x5D5FB, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n', symObjAddr: 0x3C80, symBinAddr: 0xA57C, symSize: 0x64 }
+  - { offset: 0x5D613, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n', symObjAddr: 0x3C80, symBinAddr: 0xA57C, symSize: 0x64 }
+  - { offset: 0x5D697, size: 0x8, addend: 0x0, symName: '_$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySSG_s15EmptyCollectionVySSGTg5Tf4nndn_n', symObjAddr: 0x3CE4, symBinAddr: 0xA5E0, symSize: 0xBC }
+  - { offset: 0x5D77D, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SS_TG5TA', symObjAddr: 0x3DA0, symBinAddr: 0xA69C, symSize: 0x54 }
+  - { offset: 0x5D80F, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x3DF4, symBinAddr: 0xA6F0, symSize: 0x44 }
+  - { offset: 0x5D9D4, size: 0x8, addend: 0x0, symName: '_$sSKsE8dropLasty11SubSequenceQzSiF10Foundation4DataV_Tg5', symObjAddr: 0x2F30, symBinAddr: 0x982C, symSize: 0x150 }
+  - { offset: 0x5DAC7, size: 0x8, addend: 0x0, symName: '_$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLO_Tg5', symObjAddr: 0x3178, symBinAddr: 0x9A74, symSize: 0x110 }
+  - { offset: 0x5DC54, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC7curveIdSSvg', symObjAddr: 0x0, symBinAddr: 0x6998, symSize: 0x2C }
+  - { offset: 0x5DC79, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC5curveAA13EllipticCurveVvg', symObjAddr: 0x2C, symBinAddr: 0x69C4, symSize: 0x68 }
+  - { offset: 0x5DC9E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC9pemStringSSvg', symObjAddr: 0x94, symBinAddr: 0x6A2C, symSize: 0x2C }
+  - { offset: 0x5DDB8, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC3keyACSS_tKcfC', symObjAddr: 0xC0, symBinAddr: 0x6A58, symSize: 0x4D0 }
+  - { offset: 0x5E188, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC8pkcs8DERAC10Foundation4DataV_tKcfC', symObjAddr: 0x590, symBinAddr: 0x6F28, symSize: 0x54 }
+  - { offset: 0x5E2C3, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC8pkcs8DERAC10Foundation4DataV_tKcfc', symObjAddr: 0x5E4, symBinAddr: 0x6F7C, symSize: 0xCAC }
+  - { offset: 0x5E83B, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC7sec1DERAC10Foundation4DataV_tKcfC', symObjAddr: 0x12D0, symBinAddr: 0x7C68, symSize: 0x54 }
+  - { offset: 0x5E84F, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC7sec1DERAC10Foundation4DataV_tKcfc', symObjAddr: 0x1424, symBinAddr: 0x7D20, symSize: 0x9E0 }
+  - { offset: 0x5ECC1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC013extractPublicD0AA08ECPublicD0CyKF', symObjAddr: 0x1E44, symBinAddr: 0x8740, symSize: 0x7F8 }
+  - { offset: 0x5F0AE, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC4make3forAcA13EllipticCurveV_tKFZ', symObjAddr: 0x263C, symBinAddr: 0x8F38, symSize: 0xA0 }
+  - { offset: 0x5F0FF, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC3forAcA13EllipticCurveV_tKc33_4C1A60F1C8452B65A54F2A1847BD5B4FLlfc', symObjAddr: 0x26DC, symBinAddr: 0x8FD8, symSize: 0x854 }
+  - { offset: 0x5F4B8, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyCfd', symObjAddr: 0x30B0, symBinAddr: 0x99AC, symSize: 0x60 }
+  - { offset: 0x5F4EB, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyCfD', symObjAddr: 0x3110, symBinAddr: 0x9A0C, symSize: 0x68 }
+  - { offset: 0x5F554, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC013bytesToNativeD033_4C1A60F1C8452B65A54F2A1847BD5B4FLL07privateD4Data06publicdS05curveSo03SecD3Refa10Foundation0S0V_AmA13EllipticCurveVtKFZTf4nnnd_n', symObjAddr: 0x3E38, symBinAddr: 0xA734, symSize: 0x2E8 }
+  - { offset: 0x5F6CA, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC12generateASN133_4C1A60F1C8452B65A54F2A1847BD5B4FLL07privateD006publicD05curve10Foundation4DataVAK_AkA13EllipticCurveVtFZTf4nnnd_n', symObjAddr: 0x4120, symBinAddr: 0xAA1C, symSize: 0x724 }
+  - { offset: 0x5FD59, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC12ECPrivateKeyC11decodeToPEM33_4C1A60F1C8452B65A54F2A1847BD5B4FLL06nativeD05curveSSSo03SecD3Refa_AA13EllipticCurveVtKFZTf4nnd_n', symObjAddr: 0x49F4, symBinAddr: 0xB26C, symSize: 0x3DC }
+  - { offset: 0x6031D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyCMa', symObjAddr: 0xEAC, symBinAddr: 0xC390, symSize: 0x20 }
+  - { offset: 0x60331, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo11CFStringRefa_Tg5', symObjAddr: 0xF84, symBinAddr: 0xC468, symSize: 0x88 }
+  - { offset: 0x60393, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x100C, symBinAddr: 0xC4F0, symSize: 0x64 }
+  - { offset: 0x603C0, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo11CFStringRefa_Tg5', symObjAddr: 0x1070, symBinAddr: 0xC554, symSize: 0x14C }
+  - { offset: 0x603F0, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x11BC, symBinAddr: 0xC6A0, symSize: 0xE0 }
+  - { offset: 0x60468, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SS_TG5TA', symObjAddr: 0x129C, symBinAddr: 0xC780, symSize: 0x1C }
+  - { offset: 0x6047C, size: 0x8, addend: 0x0, symName: '_$sSaySSGMa', symObjAddr: 0x12F8, symBinAddr: 0xC79C, symSize: 0x54 }
+  - { offset: 0x606C3, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_ADTgm5Tf4g_n', symObjAddr: 0x1390, symBinAddr: 0xC7F0, symSize: 0xF0 }
+  - { offset: 0x60808, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_yXlTgm5Tf4g_n', symObjAddr: 0x14E4, symBinAddr: 0xC904, symSize: 0xF4 }
+  - { offset: 0x60944, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyC3derAC10Foundation4DataV_tKcfC', symObjAddr: 0x0, symBinAddr: 0xB658, symSize: 0x54 }
+  - { offset: 0x60958, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyC9pemStringSSvg', symObjAddr: 0xE8, symBinAddr: 0xB6AC, symSize: 0x2C }
+  - { offset: 0x609C0, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyC3keyACSS_tKcfC', symObjAddr: 0x114, symBinAddr: 0xB6D8, symSize: 0x394 }
+  - { offset: 0x60C4A, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyC3derAC10Foundation4DataV_tKcfc', symObjAddr: 0x4A8, symBinAddr: 0xBA6C, symSize: 0x904 }
+  - { offset: 0x610FF, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyCfd', symObjAddr: 0xECC, symBinAddr: 0xC3B0, symSize: 0x58 }
+  - { offset: 0x61137, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECPublicKeyCfD', symObjAddr: 0xF24, symBinAddr: 0xC408, symSize: 0x60 }
+  - { offset: 0x61275, size: 0x8, addend: 0x0, symName: '_$sSS10CryptorECCE4sign4withAA11ECSignatureVAA12ECPrivateKeyC_tKF', symObjAddr: 0x0, symBinAddr: 0xC9F8, symSize: 0x84 }
+  - { offset: 0x614BA, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10CryptorECCE4sign4withAD11ECSignatureVAD12ECPrivateKeyC_tKF', symObjAddr: 0x84, symBinAddr: 0xCA7C, symSize: 0x5CC }
+  - { offset: 0x6198E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVWOr', symObjAddr: 0x718, symBinAddr: 0xD0CC, symSize: 0x48 }
+  - { offset: 0x619A2, size: 0x8, addend: 0x0, symName: '_$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFyt_Tg5055$s10CryptorECC13EllipticCurveV6digest4data10Foundation4B14VAH_tFySWXEfU_0J3ECC0lM0VAA0B0VSays5UInt8VGTf1nncn_n', symObjAddr: 0x760, symBinAddr: 0xD114, symSize: 0xDC }
+  - { offset: 0x619CD, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVWOs', symObjAddr: 0x880, symBinAddr: 0xD1F0, symSize: 0x44 }
+  - { offset: 0x619E1, size: 0x8, addend: 0x0, symName: '_$sSays5UInt8VGMa', symObjAddr: 0x904, symBinAddr: 0xD234, symSize: 0x54 }
+  - { offset: 0x61AF1, size: 0x8, addend: 0x0, symName: '_$sSa9repeating5countSayxGx_SitcfCs5UInt8V_Tgm5', symObjAddr: 0x6A4, symBinAddr: 0xD058, symSize: 0x74 }
+  - { offset: 0x61CFC, size: 0x8, addend: 0x0, symName: '_$sSlsE9dropFirsty11SubSequenceQzSiF10Foundation4DataV_Tg5', symObjAddr: 0x0, symBinAddr: 0xD288, symSize: 0x160 }
+  - { offset: 0x6201A, size: 0x8, addend: 0x0, symName: '_$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE8distance4from2toSiAB_ABtF10Foundation4DataV_Tgq5', symObjAddr: 0x7FC, symBinAddr: 0xDA84, symSize: 0xB8 }
+  - { offset: 0x62053, size: 0x8, addend: 0x0, symName: '_$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index_8offsetByA2B_SitF10Foundation4DataV_Tgq5', symObjAddr: 0x8D4, symBinAddr: 0xDB5C, symSize: 0x64 }
+  - { offset: 0x620F8, size: 0x8, addend: 0x0, symName: '_$sSays5UInt8VGSayxG10Foundation15ContiguousBytesAeBRszlWl', symObjAddr: 0x13CC, symBinAddr: 0xE500, symSize: 0x48 }
+  - { offset: 0x6210C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwCP', symObjAddr: 0x14AC, symBinAddr: 0xE548, symSize: 0x30 }
+  - { offset: 0x62120, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwxx', symObjAddr: 0x14DC, symBinAddr: 0xE578, symSize: 0x34 }
+  - { offset: 0x62134, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwcp', symObjAddr: 0x1510, symBinAddr: 0xE5AC, symSize: 0x68 }
+  - { offset: 0x62148, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwca', symObjAddr: 0x1578, symBinAddr: 0xE614, symSize: 0x80 }
+  - { offset: 0x6215C, size: 0x8, addend: 0x0, symName: ___swift_memcpy48_8, symObjAddr: 0x15F8, symBinAddr: 0xE694, symSize: 0x14 }
+  - { offset: 0x62170, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwta', symObjAddr: 0x160C, symBinAddr: 0xE6A8, symSize: 0x58 }
+  - { offset: 0x62184, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwet', symObjAddr: 0x1664, symBinAddr: 0xE700, symSize: 0x54 }
+  - { offset: 0x62198, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVwst', symObjAddr: 0x16B8, symBinAddr: 0xE754, symSize: 0x5C }
+  - { offset: 0x621AC, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureVMa', symObjAddr: 0x1714, symBinAddr: 0xE7B0, symSize: 0x10 }
+  - { offset: 0x621D4, size: 0x8, addend: 0x0, symName: '_$sSlsE9dropFirsty11SubSequenceQzSiF10Foundation4DataV_Tg5', symObjAddr: 0x0, symBinAddr: 0xD288, symSize: 0x160 }
+  - { offset: 0x62424, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV4asn1AC10Foundation4DataV_tKcfC', symObjAddr: 0x190, symBinAddr: 0xD418, symSize: 0xA4 }
+  - { offset: 0x6248D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV1r10Foundation4DataVvg', symObjAddr: 0x234, symBinAddr: 0xD4BC, symSize: 0x30 }
+  - { offset: 0x624A1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV1s10Foundation4DataVvg', symObjAddr: 0x264, symBinAddr: 0xD4EC, symSize: 0x30 }
+  - { offset: 0x624B5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV4asn110Foundation4DataVvg', symObjAddr: 0x294, symBinAddr: 0xD51C, symSize: 0x30 }
+  - { offset: 0x624D0, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV1r1sAC10Foundation4DataV_AHtKcfC', symObjAddr: 0x2C4, symBinAddr: 0xD54C, symSize: 0x74 }
+  - { offset: 0x62539, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV6verify9plaintext5usingSbSS_AA11ECPublicKeyCtF', symObjAddr: 0x338, symBinAddr: 0xD5C0, symSize: 0x98 }
+  - { offset: 0x6262C, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV6verify9plaintext5usingSb10Foundation4DataV_AA11ECPublicKeyCtF', symObjAddr: 0x3D0, symBinAddr: 0xD658, symSize: 0x41C }
+  - { offset: 0x62A69, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV11asn1ToRSSig0D010Foundation4DataV_AHtAH_tKFZTf4nd_n', symObjAddr: 0x948, symBinAddr: 0xDBD0, symSize: 0x388 }
+  - { offset: 0x62CD9, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC11ECSignatureV11rsSigToASN11r1s10Foundation4DataVAI_AItKFZTf4nnd_n', symObjAddr: 0xD88, symBinAddr: 0xDF88, symSize: 0x528 }
+  - { offset: 0x6318E, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV08objectToD016ObjectIdentifierAC10Foundation4DataV_tKFZ', symObjAddr: 0x0, symBinAddr: 0xE7C0, symSize: 0x2D8 }
+  - { offset: 0x631B2, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV10prime256v1ACvpZ', symObjAddr: 0x1A50, symBinAddr: 0x19728, symSize: 0x0 }
+  - { offset: 0x6339B, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp384r1ACvpZ', symObjAddr: 0x1A88, symBinAddr: 0x19760, symSize: 0x0 }
+  - { offset: 0x633B5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp521r1ACvpZ', symObjAddr: 0x1AC0, symBinAddr: 0x19798, symSize: 0x0 }
+  - { offset: 0x633CF, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p256ACvpZ', symObjAddr: 0xAB90, symBinAddr: 0x1A310, symSize: 0x0 }
+  - { offset: 0x633E9, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p384ACvpZ', symObjAddr: 0xABC8, symBinAddr: 0x1A348, symSize: 0x0 }
+  - { offset: 0x63403, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p521ACvpZ', symObjAddr: 0xAC00, symBinAddr: 0x1A380, symSize: 0x0 }
+  - { offset: 0x63639, size: 0x8, addend: 0x0, symName: '_$sSS10CryptorECCE5split2toSaySSGSi_tF', symObjAddr: 0x344, symBinAddr: 0xEB04, symSize: 0x37C }
+  - { offset: 0x63CE7, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV10prime256v1_WZ', symObjAddr: 0x940, symBinAddr: 0xF100, symSize: 0xA0 }
+  - { offset: 0x63D20, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp384r1_WZ', symObjAddr: 0xA7C, symBinAddr: 0xF23C, symSize: 0xA0 }
+  - { offset: 0x63D59, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp521r1_WZ', symObjAddr: 0xBB8, symBinAddr: 0xF378, symSize: 0xA0 }
+  - { offset: 0x63D81, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p256_WZ', symObjAddr: 0xCF4, symBinAddr: 0xF4B4, symSize: 0x64 }
+  - { offset: 0x63DB1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p384_WZ', symObjAddr: 0xD5C, symBinAddr: 0xF51C, symSize: 0x68 }
+  - { offset: 0x63DE1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV4p521_WZ', symObjAddr: 0xDC8, symBinAddr: 0xF588, symSize: 0x68 }
+  - { offset: 0x63E95, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5', symObjAddr: 0x1028, symBinAddr: 0xF77C, symSize: 0x6C }
+  - { offset: 0x63EE1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwxx', symObjAddr: 0x11B8, symBinAddr: 0xF8DC, symSize: 0x30 }
+  - { offset: 0x63EF5, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwcp', symObjAddr: 0x11E8, symBinAddr: 0xF90C, symSize: 0x74 }
+  - { offset: 0x63F09, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwca', symObjAddr: 0x125C, symBinAddr: 0xF980, symSize: 0x8C }
+  - { offset: 0x63F1D, size: 0x8, addend: 0x0, symName: ___swift_memcpy56_8, symObjAddr: 0x12E8, symBinAddr: 0xFA0C, symSize: 0x1C }
+  - { offset: 0x63F31, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwta', symObjAddr: 0x1304, symBinAddr: 0xFA28, symSize: 0x64 }
+  - { offset: 0x63F45, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwet', symObjAddr: 0x1368, symBinAddr: 0xFA8C, symSize: 0x48 }
+  - { offset: 0x63F59, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVwst', symObjAddr: 0x13B0, symBinAddr: 0xFAD4, symSize: 0x4C }
+  - { offset: 0x63F6D, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveVMa', symObjAddr: 0x13FC, symBinAddr: 0xFB20, symSize: 0x10 }
+  - { offset: 0x63F81, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOwet', symObjAddr: 0x141C, symBinAddr: 0xFB30, symSize: 0x90 }
+  - { offset: 0x63F95, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOwst', symObjAddr: 0x14AC, symBinAddr: 0xFBC0, symSize: 0xBC }
+  - { offset: 0x63FA9, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOMa', symObjAddr: 0x157C, symBinAddr: 0xFC7C, symSize: 0x10 }
+  - { offset: 0x63FBD, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSHAASQWb', symObjAddr: 0x158C, symBinAddr: 0xFC8C, symSize: 0x4 }
+  - { offset: 0x63FD1, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOAFSQAAWl', symObjAddr: 0x1590, symBinAddr: 0xFC90, symSize: 0x44 }
+  - { offset: 0x64006, size: 0x8, addend: 0x0, symName: '_$sSaySJGSayxGSTsWl', symObjAddr: 0x17A8, symBinAddr: 0xFE68, symSize: 0x48 }
+  - { offset: 0x6401A, size: 0x8, addend: 0x0, symName: '_$sSaySJGMa', symObjAddr: 0x17F0, symBinAddr: 0xFEB0, symSize: 0x54 }
+  - { offset: 0x6411B, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x6C0, symBinAddr: 0xEE80, symSize: 0xC }
+  - { offset: 0x64182, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSHAASH9hashValueSivgTW', symObjAddr: 0x6CC, symBinAddr: 0xEE8C, symSize: 0xAC }
+  - { offset: 0x64236, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x778, symBinAddr: 0xEF38, symSize: 0x88 }
+  - { offset: 0x642A6, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x800, symBinAddr: 0xEFC0, symSize: 0xA8 }
+  - { offset: 0x64362, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZs5UInt8V_Tgm5', symObjAddr: 0xE34, symBinAddr: 0xF5F4, symSize: 0x74 }
+  - { offset: 0x64382, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZs5UInt8V_Tgm5', symObjAddr: 0xE34, symBinAddr: 0xF5F4, symSize: 0x74 }
+  - { offset: 0x64396, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZs5UInt8V_Tgm5', symObjAddr: 0xE34, symBinAddr: 0xF5F4, symSize: 0x74 }
+  - { offset: 0x643AA, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZs5UInt8V_Tgm5', symObjAddr: 0xE34, symBinAddr: 0xF5F4, symSize: 0x74 }
+  - { offset: 0x644CD, size: 0x8, addend: 0x0, symName: '_$sSaySayxGqd__c7ElementQyd__RszSTRd__lufCs5UInt8V_10Foundation4DataVTgm5Tf4g_n', symObjAddr: 0x15D4, symBinAddr: 0xFCD4, symSize: 0x110 }
+  - { offset: 0x645D9, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV08objectToD016ObjectIdentifierAC10Foundation4DataV_tKFZ', symObjAddr: 0x0, symBinAddr: 0xE7C0, symSize: 0x2D8 }
+  - { offset: 0x646D4, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV11descriptionSSvg', symObjAddr: 0x2D8, symBinAddr: 0xEA98, symSize: 0x68 }
+  - { offset: 0x64707, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV2eeoiySbAC_ACtFZ', symObjAddr: 0x340, symBinAddr: 0xEB00, symSize: 0x4 }
+  - { offset: 0x64742, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSYAASY8rawValuexSg03RawQ0Qz_tcfCTW', symObjAddr: 0x8A8, symBinAddr: 0xF068, symSize: 0x2C }
+  - { offset: 0x6476B, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLOSYAASY8rawValue03RawQ0QzvgTW', symObjAddr: 0x8D4, symBinAddr: 0xF094, symSize: 0x6C }
+  - { offset: 0x6479F, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV10prime256v1ACvgZ', symObjAddr: 0x9E0, symBinAddr: 0xF1A0, symSize: 0x9C }
+  - { offset: 0x647CD, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp384r1ACvgZ', symObjAddr: 0xB1C, symBinAddr: 0xF2DC, symSize: 0x9C }
+  - { offset: 0x647FB, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV9secp521r1ACvgZ', symObjAddr: 0xC58, symBinAddr: 0xF418, symSize: 0x9C }
+  - { offset: 0x64861, size: 0x8, addend: 0x0, symName: '_$sSo9CC_SHA256ySpys5UInt8VGSgSVSg_s6UInt32VAEtFTO', symObjAddr: 0xD58, symBinAddr: 0xF518, symSize: 0x4 }
+  - { offset: 0x6487D, size: 0x8, addend: 0x0, symName: '_$sSo9CC_SHA384ySpys5UInt8VGSgSVSg_s6UInt32VAEtFTO', symObjAddr: 0xDC4, symBinAddr: 0xF584, symSize: 0x4 }
+  - { offset: 0x64899, size: 0x8, addend: 0x0, symName: '_$sSo9CC_SHA512ySpys5UInt8VGSgSVSg_s6UInt32VAEtFTO', symObjAddr: 0xE30, symBinAddr: 0xF5F0, symSize: 0x4 }
+  - { offset: 0x648CB, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV6digest4data10Foundation4DataVAH_tFySWXEfU_', symObjAddr: 0xEA8, symBinAddr: 0xF668, symSize: 0x104 }
+  - { offset: 0x64A36, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV2eeoiySbAC_ACtFZTf4nnd_n', symObjAddr: 0x1094, symBinAddr: 0xF7E8, symSize: 0xF4 }
+  - { offset: 0x64B07, size: 0x8, addend: 0x0, symName: '_$s10CryptorECC13EllipticCurveV22InternalRepresentation33_9ED7A968DCE1F3D03FCEF1D6E4BAB780LLO8rawValueAFSgSS_tcfCTf4nd_n', symObjAddr: 0x16F4, symBinAddr: 0xFDF4, symSize: 0x74 }
 ...

@@ -36,7 +36,7 @@ let package = Package(
                 "flutter_inappwebview_ios", "flutter_local_notifications", "image_picker_ios",
                 "integration_test", "leveldb", "location", "nanopb", "package_info_plus",
                 "path_provider_foundation", "patrol", "qr_code_scanner", "sentry_flutter",
-                "share", "shift4_sdk", "store_redirect", "uni_links", "url_launcher_ios",
+                "share_plus", "shift4_sdk", "store_redirect", "app_links", "url_launcher_ios",
                 "vibration", "CardinalMobile", "PPRiskMagnes", "VNWebSDK",
             ],
             resources: [
@@ -175,16 +175,16 @@ let package = Package(
             path: "Frameworks/patrol.xcframework"
         ),
         .binaryTarget(
-            name: "qr_code_scanner",
-            path: "Frameworks/qr_code_scanner.xcframework"
+            name: "mobile_scanner",
+            path: "Frameworks/mobile_scanner.xcframework"
         ),
         .binaryTarget(
             name: "sentry_flutter",
             path: "Frameworks/sentry_flutter.xcframework"
         ),
         .binaryTarget(
-            name: "share",
-            path: "Frameworks/share.xcframework"
+            name: "share_plus",
+            path: "Frameworks/share_plus.xcframework"
         ),
         .binaryTarget(
             name: "shift4_sdk",
@@ -195,8 +195,8 @@ let package = Package(
             path: "Frameworks/store_redirect.xcframework"
         ),
         .binaryTarget(
-            name: "uni_links",
-            path: "Frameworks/uni_links.xcframework"
+            name: "app_links",
+            path: "Frameworks/app_links.xcframework"
         ),
         .binaryTarget(
             name: "url_launcher_ios",

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "Cryptor",
+    "printedName": "Cryptor",
     "children": [
       {
         "kind": "Import",
@@ -401,6 +401,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -601,6 +617,20 @@
             "printedName": "Updatable",
             "usr": "s:7Cryptor9UpdatableP",
             "mangledName": "$s7Cryptor9UpdatableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1146,6 +1176,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1269,6 +1313,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Updatable",
@@ -1675,6 +1733,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1961,6 +2033,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Updatable",
@@ -2305,6 +2391,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2608,7 +2708,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2760,7 +2876,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3329,6 +3461,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3671,6 +3817,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -3907,6 +4067,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -4105,6 +4279,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -4452,6 +4642,20 @@
               "RawDocComment"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "OptionSet",
@@ -5101,6 +5305,20 @@
               "RawDocComment"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -5804,6 +6022,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6078,6 +6312,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6528,6 +6778,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6974,6 +7240,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CryptoDigest",
             "printedName": "CryptoDigest",
             "usr": "s:7Cryptor12CryptoDigestP",
@@ -7105,6 +7385,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CryptoDigest",
@@ -7776,118 +8070,6 @@
       "offset": 2603,
       "length": 12,
       "value": "\"RNGFailure\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1012,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1059,
-      "length": 14,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1108,
-      "length": 13,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1157,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1204,
-      "length": 11,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1249,
-      "length": 13,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1291,
-      "length": 8,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1347,
-      "length": 10,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1012,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1059,
-      "length": 14,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1108,
-      "length": 13,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1157,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1204,
-      "length": 11,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1249,
-      "length": 13,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1291,
-      "length": 8,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/Status.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1347,
-      "length": 10,
-      "value": "8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueCryptor\/Sources\/Cryptor\/StreamCryptor.swift",

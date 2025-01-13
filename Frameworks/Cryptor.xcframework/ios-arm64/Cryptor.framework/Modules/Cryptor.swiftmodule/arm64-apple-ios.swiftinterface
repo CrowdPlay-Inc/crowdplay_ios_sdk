@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Cryptor
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CommonCrypto
 @_exported import Cryptor
 import Foundation
@@ -67,7 +68,7 @@ public class Digest : Cryptor.Updatable {
     }
   }
   public init(using algorithm: Cryptor.Digest.Algorithm)
-  public func update(from buffer: Swift.UnsafeRawPointer, byteCount: Darwin.size_t) -> Self?
+  public func update(from buffer: Swift.UnsafeRawPointer, byteCount: _Builtin_stddef.size_t) -> Self?
   public func final() -> [Swift.UInt8]
   @objc deinit
 }
@@ -94,7 +95,7 @@ public class Digest : Cryptor.Updatable {
   public init(using algorithm: Cryptor.HMAC.Algorithm, key: [Swift.UInt8])
   public init(using algorithm: Cryptor.HMAC.Algorithm, key: Swift.String)
   @objc deinit
-  public func update(from buffer: Swift.UnsafeRawPointer, byteCount: Darwin.size_t) -> Self?
+  public func update(from buffer: Swift.UnsafeRawPointer, byteCount: _Builtin_stddef.size_t) -> Self?
   public func final() -> [Swift.UInt8]
 }
 @_hasMissingDesignatedInitializers public class PBKDF {
@@ -111,9 +112,9 @@ public class Digest : Cryptor.Updatable {
     }
   }
   public class func calibrate(passwordLength: Swift.Int, saltLength: Swift.Int, algorithm: Cryptor.PBKDF.PseudoRandomAlgorithm, derivedKeyLength: Swift.Int, msec: Swift.UInt32) -> Swift.UInt
-  public class func deriveKey(fromPassword password: Swift.String, salt: Swift.String, prf: Cryptor.PBKDF.PseudoRandomAlgorithm, rounds: Darwin.uint, derivedKeyLength: Swift.UInt) throws -> [Swift.UInt8]
-  public class func deriveKey(fromPassword password: Swift.String, salt: [Swift.UInt8], prf: Cryptor.PBKDF.PseudoRandomAlgorithm, rounds: Darwin.uint, derivedKeyLength: Swift.UInt) throws -> [Swift.UInt8]
-  public class func deriveKey(fromPassword password: Swift.UnsafePointer<Swift.Int8>, passwordLen: Swift.Int, salt: Swift.UnsafePointer<Swift.UInt8>, saltLen: Swift.Int, prf: Cryptor.PBKDF.PseudoRandomAlgorithm, rounds: Darwin.uint, derivedKey: Swift.UnsafeMutablePointer<Swift.UInt8>, derivedKeyLen: Swift.Int) throws
+  public class func deriveKey(fromPassword password: Swift.String, salt: Swift.String, prf: Cryptor.PBKDF.PseudoRandomAlgorithm, rounds: sys_types.uint, derivedKeyLength: Swift.UInt) throws -> [Swift.UInt8]
+  public class func deriveKey(fromPassword password: Swift.String, salt: [Swift.UInt8], prf: Cryptor.PBKDF.PseudoRandomAlgorithm, rounds: sys_types.uint, derivedKeyLength: Swift.UInt) throws -> [Swift.UInt8]
+  public class func deriveKey(fromPassword password: Swift.UnsafePointer<Swift.Int8>, passwordLen: Swift.Int, salt: Swift.UnsafePointer<Swift.UInt8>, saltLen: Swift.Int, prf: Cryptor.PBKDF.PseudoRandomAlgorithm, rounds: sys_types.uint, derivedKey: Swift.UnsafeMutablePointer<Swift.UInt8>, derivedKeyLen: Swift.Int) throws
   @objc deinit
 }
 public typealias RNGStatus = Cryptor.Status
@@ -219,7 +220,7 @@ public class StreamCryptor {
 }
 public protocol Updatable {
   var status: Cryptor.Status { get }
-  func update(from buffer: Swift.UnsafeRawPointer, byteCount: Darwin.size_t) -> Self?
+  func update(from buffer: Swift.UnsafeRawPointer, byteCount: _Builtin_stddef.size_t) -> Self?
 }
 extension Cryptor.Updatable {
   public func update(data: Foundation.NSData) -> Self?

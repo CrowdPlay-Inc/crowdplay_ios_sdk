@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "shift4_sdk",
+    "printedName": "shift4_sdk",
     "children": [
       {
         "kind": "Import",
@@ -156,6 +156,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -242,6 +256,7 @@
             "mangledName": "$sSo8UIWindowC10shift4_sdkE21visibleViewControllerSo06UIViewF0CSgvp",
             "moduleName": "shift4_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -315,6 +330,7 @@
             "moduleName": "shift4_sdk",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -329,6 +345,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIWindow",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -344,6 +361,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",

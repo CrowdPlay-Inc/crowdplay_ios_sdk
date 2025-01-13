@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "KituraContracts",
+    "printedName": "KituraContracts",
     "children": [
       {
         "kind": "Import",
@@ -72,6 +72,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -130,6 +146,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -287,6 +319,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -382,6 +428,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -584,6 +644,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -732,6 +808,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -4284,6 +4376,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "RawRepresentable",
             "printedName": "RawRepresentable",
             "children": [
@@ -4555,6 +4661,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -4720,6 +4840,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4903,6 +5037,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5024,6 +5172,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -5302,6 +5464,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -5486,6 +5662,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -5636,6 +5826,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -6062,6 +6266,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6210,6 +6428,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -6450,6 +6682,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Operation",
@@ -6699,6 +6945,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Operation",
             "printedName": "Operation",
             "usr": "s:15KituraContracts9OperationP",
@@ -6946,6 +7206,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Operation",
             "printedName": "Operation",
             "usr": "s:15KituraContracts9OperationP",
@@ -7191,6 +7465,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Operation",
@@ -7457,6 +7745,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Operation",
             "printedName": "Operation",
             "usr": "s:15KituraContracts9OperationP",
@@ -7719,6 +8021,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Operation",
@@ -8408,6 +8724,20 @@
             "printedName": "BodyDecoder",
             "usr": "s:15KituraContracts11BodyDecoderP",
             "mangledName": "$s15KituraContracts11BodyDecoderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8994,6 +9324,20 @@
             "printedName": "BodyEncoder",
             "usr": "s:15KituraContracts11BodyEncoderP",
             "mangledName": "$s15KituraContracts11BodyEncoderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -9029,6 +9373,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "BodyDecoder",
@@ -9088,6 +9446,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "BodyEncoder",
@@ -11247,6 +11619,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -12007,6 +12393,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -12188,6 +12588,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -12469,6 +12876,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -12636,6 +13057,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -12917,6 +13345,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -13084,6 +13526,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -13365,6 +13814,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -13532,6 +13995,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -13813,6 +14283,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -13987,6 +14471,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -14261,6 +14752,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -14428,6 +14933,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -14702,6 +15214,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -14876,6 +15402,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -15150,6 +15683,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -15324,6 +15871,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -15598,6 +16152,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -15765,6 +16333,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -16039,6 +16614,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -16216,6 +16805,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -16348,6 +16944,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Identifier",
@@ -16742,6 +17352,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -16874,6 +17491,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Identifier",
@@ -17268,6 +17899,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -17409,6 +18047,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifier",
             "printedName": "Identifier",
             "usr": "s:15KituraContracts10IdentifierP",
@@ -17505,6 +18157,13 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -17652,6 +18311,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -18180,6 +18853,76 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6325,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6626,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7083,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7536,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7781,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7982,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8323,
+      "length": 55,
+      "value": "\"ISO8601DateFormatter is unavailable on this platform.\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/Extensions.swift",
+      "kind": "Array",
+      "offset": 8465,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8588,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9087,
+      "length": 29,
+      "value": "\"Decoding strategy not found\""
+    },
+    {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryDecoder.swift",
       "kind": "Array",
       "offset": 2010,
@@ -18211,6 +18954,181 @@
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
       "kind": "Dictionary",
       "offset": 2037,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 9369,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 9601,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 9834,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 10067,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 10300,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 11496,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 11752,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 11986,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 12220,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 12454,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 12867,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 13283,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 13691,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 14042,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14970,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 15464,
+      "length": 55,
+      "value": "\"ISO8601DateFormatter is unavailable on this platform.\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 16146,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 16484,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16690,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 16834,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 17180,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 17307,
+      "length": 55,
+      "value": "\"ISO8601DateFormatter is unavailable on this platform.\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 17580,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 18738,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/KituraContracts\/Sources\/KituraContracts\/CodableQuery\/QueryEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 18818,
       "length": 3,
       "value": "[]"
     }

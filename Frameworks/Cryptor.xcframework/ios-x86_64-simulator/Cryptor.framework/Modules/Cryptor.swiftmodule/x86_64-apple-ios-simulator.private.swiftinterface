@@ -1,0 +1,256 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name Cryptor
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CommonCrypto
+@_exported import Cryptor
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol CryptoDigest {
+  func digest(using algorithm: Cryptor.Digest.Algorithm) -> Self
+}
+extension Cryptor.CryptoDigest {
+  public var md2: Self {
+    get
+  }
+  public var md4: Self {
+    get
+  }
+  public var md5: Self {
+    get
+  }
+  public var sha1: Self {
+    get
+  }
+  public var sha224: Self {
+    get
+  }
+  public var sha256: Self {
+    get
+  }
+  public var sha384: Self {
+    get
+  }
+  public var sha512: Self {
+    get
+  }
+}
+extension Foundation.Data : Cryptor.CryptoDigest {
+  public func digest(using algorithm: Cryptor.Digest.Algorithm) -> Foundation.Data
+}
+extension Swift.String : Cryptor.CryptoDigest {
+  public func digest(using algorithm: Cryptor.Digest.Algorithm) -> Swift.String
+}
+@_inheritsConvenienceInitializers public class Cryptor : Cryptor.StreamCryptor, Cryptor.Updatable {
+  public func final() -> [Swift.UInt8]?
+  public func update(from buffer: Swift.UnsafeRawPointer, byteCount: Swift.Int) -> Self?
+  override public init(operation: Cryptor.StreamCryptor.Operation, algorithm: Cryptor.StreamCryptor.Algorithm, options: Cryptor.StreamCryptor.Options, keyBuffer: [Swift.UInt8], keyByteCount: Swift.Int, ivBuffer: Swift.UnsafePointer<Swift.UInt8>, ivLength: Swift.Int = super) throws
+  @objc deinit
+}
+public class Digest : Cryptor.Updatable {
+  public var status: Cryptor.Status
+  public enum Algorithm {
+    case md2
+    case md4
+    case md5
+    case sha1
+    case sha224
+    case sha256
+    case sha384
+    case sha512
+    public static func == (a: Cryptor.Digest.Algorithm, b: Cryptor.Digest.Algorithm) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public init(using algorithm: Cryptor.Digest.Algorithm)
+  public func update(from buffer: Swift.UnsafeRawPointer, byteCount: _Builtin_stddef.size_t) -> Self?
+  public func final() -> [Swift.UInt8]
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class HMAC : Cryptor.Updatable {
+  public enum Algorithm {
+    case md5
+    case sha1
+    case sha224
+    case sha256
+    case sha384
+    case sha512
+    public func digestLength() -> Swift.Int
+    public static func == (a: Cryptor.HMAC.Algorithm, b: Cryptor.HMAC.Algorithm) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var status: Cryptor.Status {
+    get
+  }
+  public init(using algorithm: Cryptor.HMAC.Algorithm, key: Foundation.Data)
+  public init(using algorithm: Cryptor.HMAC.Algorithm, key: Foundation.NSData)
+  public init(using algorithm: Cryptor.HMAC.Algorithm, key: [Swift.UInt8])
+  public init(using algorithm: Cryptor.HMAC.Algorithm, key: Swift.String)
+  @objc deinit
+  public func update(from buffer: Swift.UnsafeRawPointer, byteCount: _Builtin_stddef.size_t) -> Self?
+  public func final() -> [Swift.UInt8]
+}
+@_hasMissingDesignatedInitializers public class PBKDF {
+  public enum PseudoRandomAlgorithm {
+    case sha1
+    case sha224
+    case sha256
+    case sha384
+    case sha512
+    public static func == (a: Cryptor.PBKDF.PseudoRandomAlgorithm, b: Cryptor.PBKDF.PseudoRandomAlgorithm) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public class func calibrate(passwordLength: Swift.Int, saltLength: Swift.Int, algorithm: Cryptor.PBKDF.PseudoRandomAlgorithm, derivedKeyLength: Swift.Int, msec: Swift.UInt32) -> Swift.UInt
+  public class func deriveKey(fromPassword password: Swift.String, salt: Swift.String, prf: Cryptor.PBKDF.PseudoRandomAlgorithm, rounds: sys_types.uint, derivedKeyLength: Swift.UInt) throws -> [Swift.UInt8]
+  public class func deriveKey(fromPassword password: Swift.String, salt: [Swift.UInt8], prf: Cryptor.PBKDF.PseudoRandomAlgorithm, rounds: sys_types.uint, derivedKeyLength: Swift.UInt) throws -> [Swift.UInt8]
+  public class func deriveKey(fromPassword password: Swift.UnsafePointer<Swift.Int8>, passwordLen: Swift.Int, salt: Swift.UnsafePointer<Swift.UInt8>, saltLen: Swift.Int, prf: Cryptor.PBKDF.PseudoRandomAlgorithm, rounds: sys_types.uint, derivedKey: Swift.UnsafeMutablePointer<Swift.UInt8>, derivedKeyLen: Swift.Int) throws
+  @objc deinit
+}
+public typealias RNGStatus = Cryptor.Status
+@_hasMissingDesignatedInitializers public class Random {
+  public class func generate(bytes: Swift.UnsafeMutablePointer<Swift.UInt8>, byteCount: Swift.Int) -> Cryptor.RNGStatus
+  public class func generate(byteCount: Swift.Int) throws -> [Swift.UInt8]
+  public class func generateBytesThrow(byteCount: Swift.Int) throws -> [Swift.UInt8]
+  @objc deinit
+}
+public enum Status : CommonCrypto.CCCryptorStatus, Swift.Error, Swift.CustomStringConvertible {
+  case success
+  case paramError
+  case bufferTooSmall
+  case memoryFailure
+  case alignmentError
+  case decodeError
+  case unimplemented
+  case overflow
+  case rngFailure
+  public func toRaw() -> CommonCrypto.CCCryptorStatus
+  public var description: Swift.String {
+    get
+  }
+  public static func fromRaw(status: CommonCrypto.CCCryptorStatus) -> Cryptor.Status?
+  public init?(rawValue: CommonCrypto.CCCryptorStatus)
+  public typealias RawValue = CommonCrypto.CCCryptorStatus
+  public var rawValue: CommonCrypto.CCCryptorStatus {
+    get
+  }
+}
+public enum CryptorError : Swift.Error, Swift.CustomStringConvertible {
+  case success
+  case invalidKeySize
+  case invalidIVSizeOrLength
+  case fail(Swift.Int32, Swift.String)
+  public var errCode: Swift.Int32 {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+public class StreamCryptor {
+  public enum Operation {
+    case encrypt
+    case decrypt
+    public static func == (a: Cryptor.StreamCryptor.Operation, b: Cryptor.StreamCryptor.Operation) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum ValidKeySize {
+    case fixed(Swift.Int)
+    case discrete([Swift.Int])
+    case range(Swift.Int, Swift.Int)
+  }
+  public struct Options : Swift.OptionSet {
+    public typealias RawValue = Swift.Int
+    public let rawValue: Cryptor.StreamCryptor.Options.RawValue
+    public init(rawValue: Cryptor.StreamCryptor.Options.RawValue)
+    public init(_ rawValue: Cryptor.StreamCryptor.Options.RawValue)
+    public static let none: Cryptor.StreamCryptor.Options
+    public static var pkcs7Padding: Cryptor.StreamCryptor.Options
+    public static var ecbMode: Cryptor.StreamCryptor.Options
+    public typealias ArrayLiteralElement = Cryptor.StreamCryptor.Options
+    public typealias Element = Cryptor.StreamCryptor.Options
+  }
+  public enum Algorithm {
+    case aes, aes128, aes192, aes256
+    case des
+    case tripleDes
+    case cast
+    case rc2
+    case blowfish
+    public var blockSize: Swift.Int {
+      get
+    }
+    public var defaultKeySize: Swift.Int {
+      get
+    }
+    public static func == (a: Cryptor.StreamCryptor.Algorithm, b: Cryptor.StreamCryptor.Algorithm) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var status: Cryptor.Status {
+    get
+  }
+  public init(operation: Cryptor.StreamCryptor.Operation, algorithm: Cryptor.StreamCryptor.Algorithm, options: Cryptor.StreamCryptor.Options, keyBuffer: [Swift.UInt8], keyByteCount: Swift.Int, ivBuffer: Swift.UnsafePointer<Swift.UInt8>, ivLength: Swift.Int = 0) throws
+  convenience public init(operation: Cryptor.StreamCryptor.Operation, algorithm: Cryptor.StreamCryptor.Algorithm, options: Cryptor.StreamCryptor.Options, key: [Swift.UInt8], iv: [Swift.UInt8]) throws
+  convenience public init(operation: Cryptor.StreamCryptor.Operation, algorithm: Cryptor.StreamCryptor.Algorithm, options: Cryptor.StreamCryptor.Options, key: Swift.String, iv: Swift.String) throws
+  @objc deinit
+  public func update(dataIn: Foundation.Data, byteArrayOut: inout [Swift.UInt8]) -> (Swift.Int, Cryptor.Status)
+  public func update(dataIn: Foundation.NSData, byteArrayOut: inout [Swift.UInt8]) -> (Swift.Int, Cryptor.Status)
+  public func update(byteArrayIn: [Swift.UInt8], byteArrayOut: inout [Swift.UInt8]) -> (Swift.Int, Cryptor.Status)
+  public func update(stringIn: Swift.String, byteArrayOut: inout [Swift.UInt8]) -> (Swift.Int, Cryptor.Status)
+  public func final(byteArrayOut: inout [Swift.UInt8]) -> (Swift.Int, Cryptor.Status)
+  public func update(bufferIn: Swift.UnsafeRawPointer, byteCountIn: Swift.Int, bufferOut: Swift.UnsafeMutablePointer<Swift.UInt8>, byteCapacityOut: Swift.Int, byteCountOut: inout Swift.Int) -> Cryptor.Status
+  public func final(bufferOut: Swift.UnsafeMutablePointer<Swift.UInt8>, byteCapacityOut: Swift.Int, byteCountOut: inout Swift.Int) -> Cryptor.Status
+  public func getOutputLength(inputByteCount: Swift.Int, isFinal: Swift.Bool = false) -> Swift.Int
+}
+public protocol Updatable {
+  var status: Cryptor.Status { get }
+  func update(from buffer: Swift.UnsafeRawPointer, byteCount: _Builtin_stddef.size_t) -> Self?
+}
+extension Cryptor.Updatable {
+  public func update(data: Foundation.NSData) -> Self?
+  public func update(data: Foundation.Data) -> Self?
+  public func update(byteArray: [Swift.UInt8]) -> Self?
+  public func update(string: Swift.String) -> Self?
+}
+public struct CryptoUtils {
+  public static func byteArray(fromHex string: Swift.String) -> [Swift.UInt8]
+  public static func byteArray(from string: Swift.String) -> [Swift.UInt8]
+  public static func data(fromHex string: Swift.String) -> Foundation.NSData
+  public static func data(fromHex string: Swift.String) -> Foundation.Data
+  public static func data(from byteArray: [Swift.UInt8]) -> Foundation.NSData
+  public static func data(from byteArray: [Swift.UInt8]) -> Foundation.Data
+  public static func hexString(from byteArray: [Swift.UInt8], uppercase: Swift.Bool = false) -> Swift.String
+  public static func hexNSString(from byteArray: [Swift.UInt8], uppercase: Swift.Bool = false) -> Foundation.NSString
+  public static func hexList(from byteArray: [Swift.UInt8]) -> Swift.String
+  public static func zeroPad(byteArray: [Swift.UInt8], blockSize: Swift.Int) -> [Swift.UInt8]
+  public static func zeroPad(string: Swift.String, blockSize: Swift.Int) -> [Swift.UInt8]
+}
+extension Cryptor.Digest.Algorithm : Swift.Equatable {}
+extension Cryptor.Digest.Algorithm : Swift.Hashable {}
+extension Cryptor.HMAC.Algorithm : Swift.Equatable {}
+extension Cryptor.HMAC.Algorithm : Swift.Hashable {}
+extension Cryptor.PBKDF.PseudoRandomAlgorithm : Swift.Equatable {}
+extension Cryptor.PBKDF.PseudoRandomAlgorithm : Swift.Hashable {}
+extension Cryptor.Status : Swift.Equatable {}
+extension Cryptor.Status : Swift.Hashable {}
+extension Cryptor.Status : Swift.RawRepresentable {}
+extension Cryptor.StreamCryptor.Operation : Swift.Equatable {}
+extension Cryptor.StreamCryptor.Operation : Swift.Hashable {}
+extension Cryptor.StreamCryptor.Algorithm : Swift.Equatable {}
+extension Cryptor.StreamCryptor.Algorithm : Swift.Hashable {}

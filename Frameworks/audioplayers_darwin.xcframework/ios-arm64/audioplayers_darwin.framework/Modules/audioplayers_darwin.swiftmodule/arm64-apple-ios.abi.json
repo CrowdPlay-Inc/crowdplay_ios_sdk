@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "audioplayers_darwin",
+    "printedName": "audioplayers_darwin",
     "children": [
       {
         "kind": "Import",
@@ -205,6 +205,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -285,13 +299,6 @@
       "offset": 220,
       "length": 30,
       "value": "\"xyz.luan\/audioplayers.global\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.0.0\/ios\/Classes\/SwiftAudioplayersDarwinPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 265,
-      "length": 29,
-      "value": "\"audioplayers_darwin.SwiftAudioplayersDarwinPlugin\""
     },
     {
       "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.0.0\/ios\/Classes\/WrappedMediaPlayer.swift",

@@ -2,68 +2,69 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/LoggerAPI/LoggerAPI.framework/LoggerAPI'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x543BA, size: 0x8, addend: 0x0, symName: _LoggerAPIVersionString, symObjAddr: 0x0, symBinAddr: 0xA240, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x543EF, size: 0x8, addend: 0x0, symName: _LoggerAPIVersionNumber, symObjAddr: 0x28, symBinAddr: 0xA268, symSize: 0x0 }
-  - { offsetInCU: 0x4F, offset: 0x54454, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC7_logger33_B93F7DB664D3980B55FCF8B477E7235BLLAA0A0_pSgvpZ', symObjAddr: 0x10BD8, symBinAddr: 0xCA28, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x5447A, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC11_loggerLock33_B93F7DB664D3980B55FCF8B477E7235BLLSo6NSLockCvpZ', symObjAddr: 0x10C08, symBinAddr: 0xCA58, symSize: 0x0 }
-  - { offsetInCU: 0x8F, offset: 0x54494, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC06_swiftA033_B93F7DB664D3980B55FCF8B477E7235BLL7Logging0A0VSgvpZ', symObjAddr: 0x10C18, symBinAddr: 0xCA68, symSize: 0x0 }
-  - { offsetInCU: 0xA9, offset: 0x544AE, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC06_swiftA4Lock33_B93F7DB664D3980B55FCF8B477E7235BLLSo6NSLockCvpZ', symObjAddr: 0x10C38, symBinAddr: 0xCA88, symSize: 0x0 }
-  - { offsetInCU: 0x115, offset: 0x5451A, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x40F8, symBinAddr: 0x80F8, symSize: 0x8 }
-  - { offsetInCU: 0x131, offset: 0x54536, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x4100, symBinAddr: 0x8100, symSize: 0x10 }
-  - { offsetInCU: 0x149, offset: 0x5454E, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x4100, symBinAddr: 0x8100, symSize: 0x10 }
-  - { offsetInCU: 0x15B, offset: 0x54560, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOs23CustomStringConvertibleAAsADP11descriptionSSvgTW', symObjAddr: 0xA4, symBinAddr: 0x40A4, symSize: 0xA4 }
-  - { offsetInCU: 0x17B, offset: 0x54580, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOs23CustomStringConvertibleAAsADP11descriptionSSvgTW', symObjAddr: 0xA4, symBinAddr: 0x40A4, symSize: 0xA4 }
-  - { offsetInCU: 0x18D, offset: 0x54592, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC7_logger33_B93F7DB664D3980B55FCF8B477E7235BLL_WZ', symObjAddr: 0x148, symBinAddr: 0x4148, symSize: 0x18 }
-  - { offsetInCU: 0x1A7, offset: 0x545AC, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC11_loggerLock33_B93F7DB664D3980B55FCF8B477E7235BLL_WZ', symObjAddr: 0x160, symBinAddr: 0x4160, symSize: 0x30 }
-  - { offsetInCU: 0x4D7, offset: 0x548DC, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC016isLoggingToSwiftC033_B93F7DB664D3980B55FCF8B477E7235BLLySbAA0A11MessageTypeOFZTf4nd_n', symObjAddr: 0x47CC, symBinAddr: 0x87CC, symSize: 0x404 }
-  - { offsetInCU: 0x619, offset: 0x54A1E, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x270, symBinAddr: 0x4270, symSize: 0x40 }
-  - { offsetInCU: 0x64E, offset: 0x54A53, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC06_swiftA033_B93F7DB664D3980B55FCF8B477E7235BLL_WZ', symObjAddr: 0x5F0, symBinAddr: 0x45F0, symSize: 0x68 }
-  - { offsetInCU: 0x668, offset: 0x54A6D, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC06_swiftA4Lock33_B93F7DB664D3980B55FCF8B477E7235BLL_WZ', symObjAddr: 0x658, symBinAddr: 0x4658, symSize: 0x30 }
-  - { offsetInCU: 0x6F0, offset: 0x54AF5, size: 0x8, addend: 0x0, symName: ___swift_project_value_buffer, symObjAddr: 0x778, symBinAddr: 0x4778, symSize: 0x18 }
-  - { offsetInCU: 0x7A2, offset: 0x54BA7, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x1314, symBinAddr: 0x5314, symSize: 0x24 }
-  - { offsetInCU: 0x7B6, offset: 0x54BBB, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x1338, symBinAddr: 0x5338, symSize: 0x20 }
-  - { offsetInCU: 0x83E, offset: 0x54C43, size: 0x8, addend: 0x0, symName: '_$sSKsSQ7ElementRpzrlE9lastIndex2of0C0QzSgAB_tFSbABXEfU_SS8UTF8ViewV_TGq5TA', symObjAddr: 0x4110, symBinAddr: 0x8110, symSize: 0x18 }
-  - { offsetInCU: 0x882, offset: 0x54C87, size: 0x8, addend: 0x0, symName: '_$s7Logging6LoggerV13currentModule8filePathS2S_tFZSsSgSS5IndexVXEfU_', symObjAddr: 0x4308, symBinAddr: 0x8308, symSize: 0x160 }
-  - { offsetInCU: 0x8C9, offset: 0x54CCE, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A0_pWOb', symObjAddr: 0x4468, symBinAddr: 0x8468, symSize: 0x18 }
-  - { offsetInCU: 0x946, offset: 0x54D4B, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSHAASQWb', symObjAddr: 0x4BD0, symBinAddr: 0x8BD0, symSize: 0x4 }
-  - { offsetInCU: 0x95A, offset: 0x54D5F, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOACSQAAWl', symObjAddr: 0x4BD4, symBinAddr: 0x8BD4, symSize: 0x44 }
-  - { offsetInCU: 0x96E, offset: 0x54D73, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogCMa', symObjAddr: 0x4C30, symBinAddr: 0x8C30, symSize: 0x20 }
-  - { offsetInCU: 0x982, offset: 0x54D87, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x4C94, symBinAddr: 0x8C94, symSize: 0xC }
-  - { offsetInCU: 0x996, offset: 0x54D9B, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x4CA0, symBinAddr: 0x8CA0, symSize: 0x4 }
-  - { offsetInCU: 0x9AA, offset: 0x54DAF, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOwet', symObjAddr: 0x4CA4, symBinAddr: 0x8CA4, symSize: 0x90 }
-  - { offsetInCU: 0x9BE, offset: 0x54DC3, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOwst', symObjAddr: 0x4D34, symBinAddr: 0x8D34, symSize: 0xBC }
-  - { offsetInCU: 0x9D2, offset: 0x54DD7, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOwug', symObjAddr: 0x4DF0, symBinAddr: 0x8DF0, symSize: 0x8 }
-  - { offsetInCU: 0x9E6, offset: 0x54DEB, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOwup', symObjAddr: 0x4DF8, symBinAddr: 0x8DF8, symSize: 0x4 }
-  - { offsetInCU: 0x9FA, offset: 0x54DFF, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOwui', symObjAddr: 0x4DFC, symBinAddr: 0x8DFC, symSize: 0x8 }
-  - { offsetInCU: 0xA0E, offset: 0x54E13, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOMa', symObjAddr: 0x4E04, symBinAddr: 0x8E04, symSize: 0x10 }
-  - { offsetInCU: 0xA22, offset: 0x54E27, size: 0x8, addend: 0x0, symName: ___swift_allocate_value_buffer, symObjAddr: 0x4E14, symBinAddr: 0x8E14, symSize: 0x40 }
-  - { offsetInCU: 0xB0F, offset: 0x54F14, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x4034, symBinAddr: 0x8034, symSize: 0x14 }
-  - { offsetInCU: 0xBBF, offset: 0x54FC4, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSHAASH9hashValueSivgTW', symObjAddr: 0x4048, symBinAddr: 0x8048, symSize: 0x44 }
-  - { offsetInCU: 0xC97, offset: 0x5509C, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x408C, symBinAddr: 0x808C, symSize: 0x2C }
-  - { offsetInCU: 0xD13, offset: 0x55118, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x40B8, symBinAddr: 0x80B8, symSize: 0x40 }
-  - { offsetInCU: 0x1038, offset: 0x5543D, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeO11descriptionSSvg', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
-  - { offsetInCU: 0x10B1, offset: 0x554B6, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC6loggerAA0A0_pSgvgZ', symObjAddr: 0x190, symBinAddr: 0x4190, symSize: 0xE0 }
-  - { offsetInCU: 0x115C, offset: 0x55561, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC6loggerAA0A0_pSgvsZ', symObjAddr: 0x2B0, symBinAddr: 0x42B0, symSize: 0xF8 }
-  - { offsetInCU: 0x121B, offset: 0x55620, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC6loggerAA0A0_pSgvMZ', symObjAddr: 0x3A8, symBinAddr: 0x43A8, symSize: 0xF4 }
-  - { offsetInCU: 0x12B4, offset: 0x556B9, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC6loggerAA0A0_pSgvMZ.resume.0', symObjAddr: 0x49C, symBinAddr: 0x449C, symSize: 0x154 }
-  - { offsetInCU: 0x13A3, offset: 0x557A8, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC05swiftA07Logging0A0VSgvgZ', symObjAddr: 0x688, symBinAddr: 0x4688, symSize: 0xF0 }
-  - { offsetInCU: 0x1429, offset: 0x5582E, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC05swiftA07Logging0A0VSgvsZ', symObjAddr: 0x7D4, symBinAddr: 0x47D4, symSize: 0x104 }
-  - { offsetInCU: 0x14E8, offset: 0x558ED, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC05swiftA07Logging0A0VSgvMZ', symObjAddr: 0x958, symBinAddr: 0x4958, symSize: 0x134 }
-  - { offsetInCU: 0x1581, offset: 0x55986, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC05swiftA07Logging0A0VSgvMZ.resume.0', symObjAddr: 0xA8C, symBinAddr: 0x4A8C, symSize: 0x164 }
-  - { offsetInCU: 0x1682, offset: 0x55A87, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC7verbose_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0xBF0, symBinAddr: 0x4BF0, symSize: 0x724 }
-  - { offsetInCU: 0x18D8, offset: 0x55CDD, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC4info_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x1398, symBinAddr: 0x5398, symSize: 0x724 }
-  - { offsetInCU: 0x1B05, offset: 0x55F0A, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC7warning_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x1ABC, symBinAddr: 0x5ABC, symSize: 0x724 }
-  - { offsetInCU: 0x1D32, offset: 0x56137, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC5error_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x21E0, symBinAddr: 0x61E0, symSize: 0x724 }
-  - { offsetInCU: 0x1F5F, offset: 0x56364, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC5debug_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x2904, symBinAddr: 0x6904, symSize: 0x724 }
-  - { offsetInCU: 0x218C, offset: 0x56591, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC5entry_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x3028, symBinAddr: 0x7028, symSize: 0x740 }
-  - { offsetInCU: 0x23B2, offset: 0x567B7, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC4exit_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x3768, symBinAddr: 0x7768, symSize: 0x724 }
-  - { offsetInCU: 0x25F0, offset: 0x569F5, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC9isLoggingySbAA0A11MessageTypeOFZ', symObjAddr: 0x3E8C, symBinAddr: 0x7E8C, symSize: 0x158 }
-  - { offsetInCU: 0x26CA, offset: 0x56ACF, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogCfd', symObjAddr: 0x3FE4, symBinAddr: 0x7FE4, symSize: 0x8 }
-  - { offsetInCU: 0x26EF, offset: 0x56AF4, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogCfD', symObjAddr: 0x3FEC, symBinAddr: 0x7FEC, symSize: 0x10 }
-  - { offsetInCU: 0x271A, offset: 0x56B1F, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeO8rawValueACSgSi_tcfC', symObjAddr: 0x3FFC, symBinAddr: 0x7FFC, symSize: 0x2C }
-  - { offsetInCU: 0x273B, offset: 0x56B40, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeO8rawValueSivg', symObjAddr: 0x4028, symBinAddr: 0x8028, symSize: 0xC }
-  - { offsetInCU: 0x2791, offset: 0x56B96, size: 0x8, addend: 0x0, symName: '_$sSKsE9lastIndex5where0B0QzSgSb7ElementQzKXE_tKFSS8UTF8ViewV_Tgq5', symObjAddr: 0x4128, symBinAddr: 0x8128, symSize: 0x1E0 }
-  - { offsetInCU: 0x27B9, offset: 0x56BBE, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV27_slowEnsureMatchingEncodingySS5IndexVAEF', symObjAddr: 0x4480, symBinAddr: 0x8480, symSize: 0x78 }
-  - { offsetInCU: 0x27D4, offset: 0x56BD9, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV22validateSubscalarRangeySnySS5IndexVGAFF', symObjAddr: 0x44F8, symBinAddr: 0x84F8, symSize: 0xCC }
-  - { offsetInCU: 0x280B, offset: 0x56C10, size: 0x8, addend: 0x0, symName: '_$sSKsSQ7ElementRpzrlE9lastIndex2of0C0QzSgAB_tFSs8UTF8ViewV_Tgq5', symObjAddr: 0x45C4, symBinAddr: 0x85C4, symSize: 0x208 }
+  - { offset: 0x59150, size: 0x8, addend: 0x0, symName: _LoggerAPIVersionString, symObjAddr: 0x0, symBinAddr: 0xF400, symSize: 0x0 }
+  - { offset: 0x59185, size: 0x8, addend: 0x0, symName: _LoggerAPIVersionNumber, symObjAddr: 0x28, symBinAddr: 0xF428, symSize: 0x0 }
+  - { offset: 0x591EA, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC7_logger33_B93F7DB664D3980B55FCF8B477E7235BLLAA0A0_pSgvpZ', symObjAddr: 0x10D48, symBinAddr: 0x10AC8, symSize: 0x0 }
+  - { offset: 0x59210, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC11_loggerLock33_B93F7DB664D3980B55FCF8B477E7235BLLSo6NSLockCvpZ', symObjAddr: 0x10D78, symBinAddr: 0x10AF8, symSize: 0x0 }
+  - { offset: 0x5922A, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC06_swiftA033_B93F7DB664D3980B55FCF8B477E7235BLL7Logging0A0VSgvpZ', symObjAddr: 0x10D88, symBinAddr: 0x10B08, symSize: 0x0 }
+  - { offset: 0x59244, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC06_swiftA4Lock33_B93F7DB664D3980B55FCF8B477E7235BLLSo6NSLockCvpZ', symObjAddr: 0x10DA8, symBinAddr: 0x10B28, symSize: 0x0 }
+  - { offset: 0x59252, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeO11descriptionSSvg', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x9C }
+  - { offset: 0x592F2, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOs23CustomStringConvertibleAAsADP11descriptionSSvgTW', symObjAddr: 0x9C, symBinAddr: 0x809C, symSize: 0x9C }
+  - { offset: 0x59312, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOs23CustomStringConvertibleAAsADP11descriptionSSvgTW', symObjAddr: 0x9C, symBinAddr: 0x809C, symSize: 0x9C }
+  - { offset: 0x59324, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC7_logger33_B93F7DB664D3980B55FCF8B477E7235BLL_WZ', symObjAddr: 0x138, symBinAddr: 0x8138, symSize: 0x18 }
+  - { offset: 0x5933E, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC11_loggerLock33_B93F7DB664D3980B55FCF8B477E7235BLL_WZ', symObjAddr: 0x150, symBinAddr: 0x8150, symSize: 0x30 }
+  - { offset: 0x5968E, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x260, symBinAddr: 0x8260, symSize: 0x40 }
+  - { offset: 0x596C6, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC06_swiftA033_B93F7DB664D3980B55FCF8B477E7235BLL_WZ', symObjAddr: 0x5D4, symBinAddr: 0x85D4, symSize: 0x68 }
+  - { offset: 0x596E0, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC06_swiftA4Lock33_B93F7DB664D3980B55FCF8B477E7235BLL_WZ', symObjAddr: 0x63C, symBinAddr: 0x863C, symSize: 0x30 }
+  - { offset: 0x5976B, size: 0x8, addend: 0x0, symName: ___swift_project_value_buffer, symObjAddr: 0x75C, symBinAddr: 0x875C, symSize: 0x18 }
+  - { offset: 0x597F0, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x1318, symBinAddr: 0x9318, symSize: 0x24 }
+  - { offset: 0x59804, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x133C, symBinAddr: 0x933C, symSize: 0x20 }
+  - { offset: 0x59889, size: 0x8, addend: 0x0, symName: '_$sSKsSQ7ElementRpzrlE9lastIndex2of0C0QzSgAB_tFSbABXEfU_SS8UTF8ViewV_TGq5TA', symObjAddr: 0x4260, symBinAddr: 0xC260, symSize: 0x18 }
+  - { offset: 0x598C7, size: 0x8, addend: 0x0, symName: '_$sSKsE9lastIndex5where0B0QzSgSb7ElementQzKXE_tKFSS8UTF8ViewV_Tgq5', symObjAddr: 0x4278, symBinAddr: 0xC278, symSize: 0x1D0 }
+  - { offset: 0x598F2, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV27_slowEnsureMatchingEncodingySS5IndexVAEF', symObjAddr: 0x4448, symBinAddr: 0xC448, symSize: 0x78 }
+  - { offset: 0x5990A, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV22validateSubscalarRangeySnySS5IndexVGAFF', symObjAddr: 0x44C0, symBinAddr: 0xC4C0, symSize: 0xC8 }
+  - { offset: 0x59942, size: 0x8, addend: 0x0, symName: '_$sSKsE9lastIndex5where0B0QzSgSb7ElementQzKXE_tKFSs8UTF8ViewV_Tgq5', symObjAddr: 0x4588, symBinAddr: 0xC588, symSize: 0x164 }
+  - { offset: 0x5997A, size: 0x8, addend: 0x0, symName: '_$s7Logging6LoggerV13currentModule8filePathS2S_tFZSsSgSS5IndexVXEfU_SsAHXEfU_', symObjAddr: 0x46EC, symBinAddr: 0xC6EC, symSize: 0xE8 }
+  - { offset: 0x599C1, size: 0x8, addend: 0x0, symName: '_$sSq3mapyqd_0_Sgqd_0_xqd__YKXEqd__YKs5ErrorRd__Ri_d_0_r0_lFSS5IndexV_s5NeverOSsTgq5056$s7Logging6LoggerV13currentModule8filePathS2S_tFZSsSgSS5C15VXEfU_SsAHXEfU_S2S8UTF8ViewVAETf1cn_nTf4nggn_n', symObjAddr: 0x47D4, symBinAddr: 0xC7D4, symSize: 0x68 }
+  - { offset: 0x599E0, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A0_pWOb', symObjAddr: 0x483C, symBinAddr: 0xC83C, symSize: 0x18 }
+  - { offset: 0x599F4, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSHAASQWb', symObjAddr: 0x4C58, symBinAddr: 0xCC58, symSize: 0x4 }
+  - { offset: 0x59A08, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOACSQAAWl', symObjAddr: 0x4C5C, symBinAddr: 0xCC5C, symSize: 0x44 }
+  - { offset: 0x59A1C, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogCMa', symObjAddr: 0x4CB8, symBinAddr: 0xCCB8, symSize: 0x20 }
+  - { offset: 0x59A30, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x4D1C, symBinAddr: 0xCD1C, symSize: 0xC }
+  - { offset: 0x59A44, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x4D28, symBinAddr: 0xCD28, symSize: 0x4 }
+  - { offset: 0x59A58, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOwet', symObjAddr: 0x4D2C, symBinAddr: 0xCD2C, symSize: 0x90 }
+  - { offset: 0x59A6C, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOwst', symObjAddr: 0x4DBC, symBinAddr: 0xCDBC, symSize: 0xBC }
+  - { offset: 0x59A80, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOwug', symObjAddr: 0x4E78, symBinAddr: 0xCE78, symSize: 0x8 }
+  - { offset: 0x59A94, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOwup', symObjAddr: 0x4E80, symBinAddr: 0xCE80, symSize: 0x4 }
+  - { offset: 0x59AA8, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOwui', symObjAddr: 0x4E84, symBinAddr: 0xCE84, symSize: 0x8 }
+  - { offset: 0x59ABC, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOMa', symObjAddr: 0x4E8C, symBinAddr: 0xCE8C, symSize: 0x10 }
+  - { offset: 0x59AD0, size: 0x8, addend: 0x0, symName: ___swift_allocate_value_buffer, symObjAddr: 0x4E9C, symBinAddr: 0xCE9C, symSize: 0x40 }
+  - { offset: 0x59BB7, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x4184, symBinAddr: 0xC184, symSize: 0x14 }
+  - { offset: 0x59C48, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSHAASH9hashValueSivgTW', symObjAddr: 0x4198, symBinAddr: 0xC198, symSize: 0x44 }
+  - { offset: 0x59D0B, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x41DC, symBinAddr: 0xC1DC, symSize: 0x2C }
+  - { offset: 0x59D72, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x4208, symBinAddr: 0xC208, symSize: 0x40 }
+  - { offset: 0x59F5B, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC6loggerAA0A0_pSgvgZ', symObjAddr: 0x180, symBinAddr: 0x8180, symSize: 0xE0 }
+  - { offset: 0x59FEC, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC6loggerAA0A0_pSgvsZ', symObjAddr: 0x2A0, symBinAddr: 0x82A0, symSize: 0xF8 }
+  - { offset: 0x5A0AB, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC6loggerAA0A0_pSgvMZ', symObjAddr: 0x398, symBinAddr: 0x8398, symSize: 0xF4 }
+  - { offset: 0x5A144, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC6loggerAA0A0_pSgvMZ.resume.0', symObjAddr: 0x48C, symBinAddr: 0x848C, symSize: 0x148 }
+  - { offset: 0x5A207, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC05swiftA07Logging0A0VSgvgZ', symObjAddr: 0x66C, symBinAddr: 0x866C, symSize: 0xF0 }
+  - { offset: 0x5A28D, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC05swiftA07Logging0A0VSgvsZ', symObjAddr: 0x7B8, symBinAddr: 0x87B8, symSize: 0x104 }
+  - { offset: 0x5A34C, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC05swiftA07Logging0A0VSgvMZ', symObjAddr: 0x93C, symBinAddr: 0x893C, symSize: 0x134 }
+  - { offset: 0x5A3E5, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC05swiftA07Logging0A0VSgvMZ.resume.0', symObjAddr: 0xA70, symBinAddr: 0x8A70, symSize: 0x158 }
+  - { offset: 0x5A4B4, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC7verbose_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0xBC8, symBinAddr: 0x8BC8, symSize: 0x750 }
+  - { offset: 0x5A6F9, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC4info_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x139C, symBinAddr: 0x939C, symSize: 0x750 }
+  - { offset: 0x5A930, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC7warning_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x1AEC, symBinAddr: 0x9AEC, symSize: 0x750 }
+  - { offset: 0x5AB67, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC5error_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x223C, symBinAddr: 0xA23C, symSize: 0x750 }
+  - { offset: 0x5AD9E, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC5debug_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x298C, symBinAddr: 0xA98C, symSize: 0x750 }
+  - { offset: 0x5AFD5, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC5entry_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x30DC, symBinAddr: 0xB0DC, symSize: 0x7B0 }
+  - { offset: 0x5B20C, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC4exit_12functionName7lineNum04fileF0ySSyXK_SSSiSStFZ', symObjAddr: 0x388C, symBinAddr: 0xB88C, symSize: 0x750 }
+  - { offset: 0x5B480, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC9isLoggingySbAA0A11MessageTypeOFZ', symObjAddr: 0x3FDC, symBinAddr: 0xBFDC, symSize: 0x158 }
+  - { offset: 0x5B53B, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogCfd', symObjAddr: 0x4134, symBinAddr: 0xC134, symSize: 0x8 }
+  - { offset: 0x5B560, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogCfD', symObjAddr: 0x413C, symBinAddr: 0xC13C, symSize: 0x10 }
+  - { offset: 0x5B58B, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeO8rawValueACSgSi_tcfC', symObjAddr: 0x414C, symBinAddr: 0xC14C, symSize: 0x2C }
+  - { offset: 0x5B5AC, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeO8rawValueSivg', symObjAddr: 0x4178, symBinAddr: 0xC178, symSize: 0xC }
+  - { offset: 0x5B5E6, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x4248, symBinAddr: 0xC248, symSize: 0x8 }
+  - { offset: 0x5B5FA, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x4250, symBinAddr: 0xC250, symSize: 0x10 }
+  - { offset: 0x5B612, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI0A11MessageTypeOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x4250, symBinAddr: 0xC250, symSize: 0x10 }
+  - { offset: 0x5B638, size: 0x8, addend: 0x0, symName: '_$s9LoggerAPI3LogC016isLoggingToSwiftC033_B93F7DB664D3980B55FCF8B477E7235BLLySbAA0A11MessageTypeOFZTf4nd_n', symObjAddr: 0x4854, symBinAddr: 0xC854, symSize: 0x404 }
 ...

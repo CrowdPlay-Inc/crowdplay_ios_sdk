@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FirebaseCoreInternal",
+    "printedName": "FirebaseCoreInternal",
     "children": [
       {
         "kind": "Import",
@@ -205,6 +205,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -415,6 +429,20 @@
             "printedName": "HTTPHeaderRepresentable",
             "usr": "s:20FirebaseCoreInternal23HTTPHeaderRepresentableP",
             "mangledName": "$s20FirebaseCoreInternal23HTTPHeaderRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -650,6 +678,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -722,6 +764,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -937,6 +995,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1557,6 +1629,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -1641,34 +1727,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/_ObjC_HeartbeatController.swift",
-      "kind": "StringLiteral",
-      "offset": 763,
-      "length": 25,
-      "value": "\"FirebaseCoreInternal._ObjC_HeartbeatController\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/_ObjC_HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 755,
-      "length": 23,
-      "value": "\"FirebaseCoreInternal._ObjC_HeartbeatsPayload\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 869,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 869,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "IntegerLiteral",
       "offset": 869,
@@ -1726,13 +1784,6 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 2264,
-      "length": 12,
-      "value": "\"heartbeats\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 2595,
       "length": 2,
@@ -1776,7 +1827,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
       "kind": "Dictionary",
-      "offset": 3056,
+      "offset": 2858,
       "length": 3,
       "value": "[]"
     },

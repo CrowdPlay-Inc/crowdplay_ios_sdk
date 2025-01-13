@@ -2,29 +2,29 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/shift4_sdk/shift4_sdk.framework/shift4_sdk'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x5C90D, size: 0x8, addend: 0x0, symName: _shift4_sdkVersionString, symObjAddr: 0x0, symBinAddr: 0x8550, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x5C942, size: 0x8, addend: 0x0, symName: _shift4_sdkVersionNumber, symObjAddr: 0x28, symBinAddr: 0x8578, symSize: 0x0 }
-  - { offsetInCU: 0x6E, offset: 0x5C9C6, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk20getTopViewControllerSo06UIViewF0CSgyF', symObjAddr: 0x4C, symBinAddr: 0x404C, symSize: 0xFC }
-  - { offsetInCU: 0x190, offset: 0x5CAE8, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC8register4withySo07FlutterE9Registrar_p_tFZTo', symObjAddr: 0x23C, symBinAddr: 0x423C, symSize: 0xE8 }
-  - { offsetInCU: 0x257, offset: 0x5CBAF, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x1544, symBinAddr: 0x5544, symSize: 0x78 }
-  - { offsetInCU: 0x29F, offset: 0x5CBF7, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCACycfcTo', symObjAddr: 0x15EC, symBinAddr: 0x55EC, symSize: 0x3C }
-  - { offsetInCU: 0x2F0, offset: 0x5CC48, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypM7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x1A4C, symBinAddr: 0x5A4C, symSize: 0x16D8 }
-  - { offsetInCU: 0x7C4, offset: 0x5D11C, size: 0x8, addend: 0x0, symName: '_$sSo8UIWindowC10shift4_sdkE28getVisibleViewControllerFromySo06UIViewG0CSgAGFZTf4nd_n', symObjAddr: 0x179C, symBinAddr: 0x579C, symSize: 0x12C }
-  - { offsetInCU: 0x842, offset: 0x5D19A, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCMa', symObjAddr: 0x18C8, symBinAddr: 0x58C8, symSize: 0x20 }
-  - { offsetInCU: 0x856, offset: 0x5D1AE, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x18E8, symBinAddr: 0x58E8, symSize: 0x40 }
-  - { offsetInCU: 0x86A, offset: 0x5D1C2, size: 0x8, addend: 0x0, symName: '_$sSo8NSObjectCMa', symObjAddr: 0x1928, symBinAddr: 0x5928, symSize: 0x3C }
-  - { offsetInCU: 0x87E, offset: 0x5D1D6, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x19A0, symBinAddr: 0x59A0, symSize: 0x48 }
-  - { offsetInCU: 0x892, offset: 0x5D1EA, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x19E8, symBinAddr: 0x59E8, symSize: 0x3C }
-  - { offsetInCU: 0x8B1, offset: 0x5D209, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x3124, symBinAddr: 0x7124, symSize: 0x48 }
-  - { offsetInCU: 0x8C5, offset: 0x5D21D, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x316C, symBinAddr: 0x716C, symSize: 0x24 }
-  - { offsetInCU: 0x8D9, offset: 0x5D231, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x3190, symBinAddr: 0x7190, symSize: 0x20 }
-  - { offsetInCU: 0xBB7, offset: 0x5D50F, size: 0x8, addend: 0x0, symName: '_$sSo8UIWindowC10shift4_sdkE21visibleViewControllerSo06UIViewF0CSgvg', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x48 }
-  - { offsetInCU: 0xBEB, offset: 0x5D543, size: 0x8, addend: 0x0, symName: '_$sSo8UIWindowC10shift4_sdkE28getVisibleViewControllerFromySo06UIViewG0CSgAGFZ', symObjAddr: 0x48, symBinAddr: 0x4048, symSize: 0x4 }
-  - { offsetInCU: 0xC4E, offset: 0x5D5A6, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC8register4withySo07FlutterE9Registrar_p_tFZ', symObjAddr: 0x148, symBinAddr: 0x4148, symSize: 0xD4 }
-  - { offsetInCU: 0xCD0, offset: 0x5D628, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCACycfC', symObjAddr: 0x21C, symBinAddr: 0x421C, symSize: 0x20 }
-  - { offsetInCU: 0xD1F, offset: 0x5D677, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x324, symBinAddr: 0x4324, symSize: 0x1220 }
-  - { offsetInCU: 0x1123, offset: 0x5DA7B, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCACycfc', symObjAddr: 0x15BC, symBinAddr: 0x55BC, symSize: 0x30 }
-  - { offsetInCU: 0x1154, offset: 0x5DAAC, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCfD', symObjAddr: 0x1628, symBinAddr: 0x5628, symSize: 0x30 }
-  - { offsetInCU: 0x1184, offset: 0x5DADC, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x1658, symBinAddr: 0x5658, symSize: 0x64 }
-  - { offsetInCU: 0x11C2, offset: 0x5DB1A, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x16BC, symBinAddr: 0x56BC, symSize: 0xE0 }
+  - { offset: 0x61810, size: 0x8, addend: 0x0, symName: _shift4_sdkVersionString, symObjAddr: 0x0, symBinAddr: 0x7E38, symSize: 0x0 }
+  - { offset: 0x61845, size: 0x8, addend: 0x0, symName: _shift4_sdkVersionNumber, symObjAddr: 0x28, symBinAddr: 0x7E60, symSize: 0x0 }
+  - { offset: 0x618A9, size: 0x8, addend: 0x0, symName: '_$sSo8UIWindowC10shift4_sdkE21visibleViewControllerSo06UIViewF0CSgvg', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x48 }
+  - { offset: 0x618DD, size: 0x8, addend: 0x0, symName: '_$sSo8UIWindowC10shift4_sdkE28getVisibleViewControllerFromySo06UIViewG0CSgAGFZ', symObjAddr: 0x48, symBinAddr: 0x4048, symSize: 0x4 }
+  - { offset: 0x6190F, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk20getTopViewControllerSo06UIViewF0CSgyF', symObjAddr: 0x4C, symBinAddr: 0x404C, symSize: 0xFC }
+  - { offset: 0x61ADD, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x13B8, symBinAddr: 0x53B8, symSize: 0x64 }
+  - { offset: 0x61B15, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x141C, symBinAddr: 0x541C, symSize: 0xE0 }
+  - { offset: 0x61B8D, size: 0x8, addend: 0x0, symName: '_$sSo8UIWindowC10shift4_sdkE28getVisibleViewControllerFromySo06UIViewG0CSgAGFZTf4nd_n', symObjAddr: 0x14FC, symBinAddr: 0x54FC, symSize: 0x12C }
+  - { offset: 0x61C1F, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCMa', symObjAddr: 0x1628, symBinAddr: 0x5628, symSize: 0x20 }
+  - { offset: 0x61C33, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1648, symBinAddr: 0x5648, symSize: 0x40 }
+  - { offset: 0x61C47, size: 0x8, addend: 0x0, symName: '_$sSo8NSObjectCMa', symObjAddr: 0x1688, symBinAddr: 0x5688, symSize: 0x3C }
+  - { offset: 0x61C5B, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x1700, symBinAddr: 0x5700, symSize: 0x48 }
+  - { offset: 0x61C6F, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x1748, symBinAddr: 0x5748, symSize: 0x3C }
+  - { offset: 0x61C8E, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x2A04, symBinAddr: 0x6A04, symSize: 0x48 }
+  - { offset: 0x61CA2, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x2A4C, symBinAddr: 0x6A4C, symSize: 0x24 }
+  - { offset: 0x61CB6, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x2A70, symBinAddr: 0x6A70, symSize: 0x20 }
+  - { offset: 0x61F23, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC8register4withySo07FlutterE9Registrar_p_tFZ', symObjAddr: 0x148, symBinAddr: 0x4148, symSize: 0xD4 }
+  - { offset: 0x61FA5, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCACycfC', symObjAddr: 0x21C, symBinAddr: 0x421C, symSize: 0x20 }
+  - { offset: 0x61FC6, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC8register4withySo07FlutterE9Registrar_p_tFZTo', symObjAddr: 0x23C, symBinAddr: 0x423C, symSize: 0xE8 }
+  - { offset: 0x6209F, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x324, symBinAddr: 0x4324, symSize: 0xF80 }
+  - { offset: 0x624E8, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x12A4, symBinAddr: 0x52A4, symSize: 0x78 }
+  - { offset: 0x62512, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCACycfc', symObjAddr: 0x131C, symBinAddr: 0x531C, symSize: 0x30 }
+  - { offset: 0x62545, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCACycfcTo', symObjAddr: 0x134C, symBinAddr: 0x534C, symSize: 0x3C }
+  - { offset: 0x6257A, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginCfD', symObjAddr: 0x1388, symBinAddr: 0x5388, symSize: 0x30 }
+  - { offset: 0x6259D, size: 0x8, addend: 0x0, symName: '_$s10shift4_sdk15Shift4SdkPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypM7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x17AC, symBinAddr: 0x57AC, symSize: 0x1258 }
 ...

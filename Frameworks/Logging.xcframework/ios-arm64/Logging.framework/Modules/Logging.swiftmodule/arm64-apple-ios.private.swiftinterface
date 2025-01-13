@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Logging
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Darwin
 @_exported import Logging
 import Swift
@@ -84,7 +85,7 @@ extension Logging.Logger {
     public init?(rawValue: Swift.String)
     public typealias AllCases = [Logging.Logger.Level]
     public typealias RawValue = Swift.String
-    public static var allCases: [Logging.Logger.Level] {
+    nonisolated public static var allCases: [Logging.Logger.Level] {
       get
     }
     public var rawValue: Swift.String {

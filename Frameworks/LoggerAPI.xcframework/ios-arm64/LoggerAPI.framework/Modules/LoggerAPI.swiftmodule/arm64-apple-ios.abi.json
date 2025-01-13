@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "LoggerAPI",
+    "printedName": "LoggerAPI",
     "children": [
       {
         "kind": "Import",
@@ -119,6 +119,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -853,7 +869,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1268,6 +1300,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1315,104 +1361,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15367,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15452,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15529,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15613,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15694,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15771,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15845,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15367,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15452,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15529,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15613,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15694,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15771,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15845,
-      "length": 1,
-      "value": "7"
-    },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/LoggerAPI\/Sources\/LoggerAPI\/Logger.swift",
       "kind": "IntegerLiteral",

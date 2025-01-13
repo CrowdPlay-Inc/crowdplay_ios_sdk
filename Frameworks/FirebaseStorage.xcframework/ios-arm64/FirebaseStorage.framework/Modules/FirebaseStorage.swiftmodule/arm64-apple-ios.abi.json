@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FirebaseStorage",
+    "printedName": "FirebaseStorage",
     "children": [
       {
         "kind": "Import",
@@ -1115,6 +1115,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1511,6 +1525,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1718,6 +1746,20 @@
             "printedName": "StorageTaskManagement",
             "usr": "c:@M@FirebaseStorage@objc(pl)FIRStorageTaskManagement",
             "mangledName": "$s15FirebaseStorage0B14TaskManagementP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2581,6 +2623,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3720,6 +3776,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -4091,6 +4161,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5988,6 +6072,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6213,6 +6311,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8896,6 +9008,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9067,6 +9193,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9236,6 +9376,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -9714,6 +9870,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9987,6 +10157,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10077,48 +10261,6 @@
       "offset": 12452,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
-      "kind": "StringLiteral",
-      "offset": 1508,
-      "length": 7,
-      "value": "\"FirebaseStorage.Storage\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 695,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 709,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 725,
-      "length": 5,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 738,
-      "length": 7,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 753,
-      "length": 7,
-      "value": "5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
@@ -10268,111 +10410,6 @@
       "value": "-13053"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1236,
-      "length": 1,
-      "value": "-13000"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1267,
-      "length": 1,
-      "value": "-13010"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1298,
-      "length": 1,
-      "value": "-13011"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1330,
-      "length": 1,
-      "value": "-13012"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1360,
-      "length": 1,
-      "value": "-13013"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1392,
-      "length": 1,
-      "value": "-13020"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1421,
-      "length": 1,
-      "value": "-13021"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1456,
-      "length": 1,
-      "value": "-13030"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1492,
-      "length": 1,
-      "value": "-13031"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1529,
-      "length": 1,
-      "value": "-13032"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1555,
-      "length": 1,
-      "value": "-13040"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1587,
-      "length": 1,
-      "value": "-13050"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1618,
-      "length": 1,
-      "value": "-13051"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1648,
-      "length": 1,
-      "value": "-13052"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1674,
-      "length": 1,
-      "value": "-13053"
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageFetcherService.swift",
       "kind": "Dictionary",
       "offset": 3097,
@@ -10380,18 +10417,25 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageInternalTask.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 848,
-      "length": 19,
-      "value": "\"FirebaseStorage.StorageInternalTask\""
+      "offset": 6671,
+      "length": 49,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageListResult.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 803,
-      "length": 17,
-      "value": "\"FirebaseStorage.StorageListResult\""
+      "offset": 6689,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 6719,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
@@ -10415,25 +10459,102 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageObservableTask.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
       "kind": "StringLiteral",
-      "offset": 975,
-      "length": 21,
-      "value": "\"FirebaseStorage.StorageObservableTask\""
+      "offset": 1619,
+      "length": 2,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTask.swift",
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
-      "length": 11,
-      "value": "\"FirebaseStorage.StorageTask\""
+      "offset": 1883,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
+      "kind": "StringLiteral",
+      "offset": 23422,
+      "length": 42,
+      "value": "\"gs:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
+      "kind": "StringLiteral",
+      "offset": 23442,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
+      "kind": "StringLiteral",
+      "offset": 23460,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
+      "kind": "StringLiteral",
+      "offset": 23463,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 913,
-      "length": 19,
-      "value": "\"FirebaseStorage.StorageTaskSnapshot\""
+      "offset": 1728,
+      "length": 17,
+      "value": "\"<State: Resume>\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 1773,
+      "length": 62,
+      "value": "\"<State: Progress, Progress: \""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 1833,
+      "length": 1,
+      "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 1860,
+      "length": 17,
+      "value": "\"<State: Paused>\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 1904,
+      "length": 18,
+      "value": "\"<State: Success>\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 1949,
+      "length": 53,
+      "value": "\"<State: Failed, Error: \""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 2001,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 2029,
+      "length": 18,
+      "value": "\"<State: Unknown>\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
@@ -10441,20 +10562,6 @@
       "offset": 3826,
       "length": 39,
       "value": "\"com.google.firebasestorage.authorizer\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
-      "kind": "StringLiteral",
-      "offset": 900,
-      "length": 22,
-      "value": "\"FirebaseStorage.StorageTokenAuthorizer\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageUploadTask.swift",
-      "kind": "StringLiteral",
-      "offset": 1478,
-      "length": 17,
-      "value": "\"FirebaseStorage.StorageUploadTask\""
     }
   ]
 }

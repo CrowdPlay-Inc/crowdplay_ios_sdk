@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "sentry_flutter",
+    "printedName": "sentry_flutter",
     "children": [
       {
         "kind": "Import",
@@ -92,6 +92,22 @@
         "declAttributes": [
           "Final",
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -248,6 +264,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -384,13 +414,6 @@
       "offset": 19262,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/sentry_flutter-8.10.1\/ios\/Classes\/SentryFlutterPluginApple.swift",
-      "kind": "StringLiteral",
-      "offset": 242,
-      "length": 24,
-      "value": "\"sentry_flutter.SentryFlutterPluginApple\""
     }
   ]
 }

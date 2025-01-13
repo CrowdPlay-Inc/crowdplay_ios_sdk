@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "vibration",
+    "printedName": "vibration",
     "children": [
       {
         "kind": "Import",
@@ -315,6 +315,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -369,7 +383,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/vibration-2.0.1\/ios\/Classes\/VibrationPluginSwift.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/git\/flutter_vibration-33fdb972a083a9a22281bd7c5e6a8771745f0019\/vibration\/ios\/Classes\/VibrationPluginSwift.swift",
       "kind": "BooleanLiteral",
       "offset": 228,
       "length": 4,

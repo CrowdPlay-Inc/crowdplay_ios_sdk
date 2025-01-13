@@ -2,37 +2,37 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/location/location.framework/location'
 relocations:
-  - { offsetInCU: 0x33, offset: 0x4D75, size: 0x8, addend: 0x0, symName: _locationVersionString, symObjAddr: 0x0, symBinAddr: 0x9BD8, symSize: 0x0 }
-  - { offsetInCU: 0x67, offset: 0x4DA9, size: 0x8, addend: 0x0, symName: _locationVersionNumber, symObjAddr: 0x28, symBinAddr: 0x9C00, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x4DE5, size: 0x8, addend: 0x0, symName: '+[LocationPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xD8 }
-  - { offsetInCU: 0x1A8, offset: 0x4F66, size: 0x8, addend: 0x0, symName: '+[LocationPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xD8 }
-  - { offsetInCU: 0x210, offset: 0x4FCE, size: 0x8, addend: 0x0, symName: '-[LocationPlugin init]', symObjAddr: 0xD8, symBinAddr: 0x80D8, symSize: 0x84 }
-  - { offsetInCU: 0x244, offset: 0x5002, size: 0x8, addend: 0x0, symName: '-[LocationPlugin initLocation]', symObjAddr: 0x15C, symBinAddr: 0x815C, symSize: 0x104 }
-  - { offsetInCU: 0x291, offset: 0x504F, size: 0x8, addend: 0x0, symName: '-[LocationPlugin handleMethodCall:result:]', symObjAddr: 0x260, symBinAddr: 0x8260, symSize: 0x6F8 }
-  - { offsetInCU: 0x3A7, offset: 0x5165, size: 0x8, addend: 0x0, symName: '-[LocationPlugin requestPermission]', symObjAddr: 0x958, symBinAddr: 0x8958, symSize: 0xF0 }
-  - { offsetInCU: 0x3D7, offset: 0x5195, size: 0x8, addend: 0x0, symName: '-[LocationPlugin isHighAccuracyPermitted]', symObjAddr: 0xA48, symBinAddr: 0x8A48, symSize: 0x38 }
-  - { offsetInCU: 0x428, offset: 0x51E6, size: 0x8, addend: 0x0, symName: '-[LocationPlugin isPermissionGranted]', symObjAddr: 0xA80, symBinAddr: 0x8A80, symSize: 0x28 }
-  - { offsetInCU: 0x476, offset: 0x5234, size: 0x8, addend: 0x0, symName: '-[LocationPlugin onListenWithArguments:eventSink:]', symObjAddr: 0xAA8, symBinAddr: 0x8AA8, symSize: 0x64 }
-  - { offsetInCU: 0x4C7, offset: 0x5285, size: 0x8, addend: 0x0, symName: '-[LocationPlugin onCancelWithArguments:]', symObjAddr: 0xB0C, symBinAddr: 0x8B0C, symSize: 0x40 }
-  - { offsetInCU: 0x508, offset: 0x52C6, size: 0x8, addend: 0x0, symName: '-[LocationPlugin locationManager:didUpdateLocations:]', symObjAddr: 0xB4C, symBinAddr: 0x8B4C, symSize: 0x3A8 }
-  - { offsetInCU: 0x5B5, offset: 0x5373, size: 0x8, addend: 0x0, symName: '-[LocationPlugin locationManager:didChangeAuthorizationStatus:]', symObjAddr: 0xEF4, symBinAddr: 0x8EF4, symSize: 0x10C }
-  - { offsetInCU: 0x623, offset: 0x53E1, size: 0x8, addend: 0x0, symName: '-[LocationPlugin clLocationManager]', symObjAddr: 0x1000, symBinAddr: 0x9000, symSize: 0x8 }
-  - { offsetInCU: 0x657, offset: 0x5415, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setClLocationManager:]', symObjAddr: 0x1008, symBinAddr: 0x9008, symSize: 0xC }
-  - { offsetInCU: 0x694, offset: 0x5452, size: 0x8, addend: 0x0, symName: '-[LocationPlugin flutterResult]', symObjAddr: 0x1014, symBinAddr: 0x9014, symSize: 0x8 }
-  - { offsetInCU: 0x6C8, offset: 0x5486, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setFlutterResult:]', symObjAddr: 0x101C, symBinAddr: 0x901C, symSize: 0x8 }
-  - { offsetInCU: 0x703, offset: 0x54C1, size: 0x8, addend: 0x0, symName: '-[LocationPlugin locationWanted]', symObjAddr: 0x1024, symBinAddr: 0x9024, symSize: 0x8 }
-  - { offsetInCU: 0x737, offset: 0x54F5, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setLocationWanted:]', symObjAddr: 0x102C, symBinAddr: 0x902C, symSize: 0x8 }
-  - { offsetInCU: 0x76E, offset: 0x552C, size: 0x8, addend: 0x0, symName: '-[LocationPlugin permissionWanted]', symObjAddr: 0x1034, symBinAddr: 0x9034, symSize: 0x8 }
-  - { offsetInCU: 0x7A2, offset: 0x5560, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setPermissionWanted:]', symObjAddr: 0x103C, symBinAddr: 0x903C, symSize: 0x8 }
-  - { offsetInCU: 0x7D9, offset: 0x5597, size: 0x8, addend: 0x0, symName: '-[LocationPlugin waitNextLocation]', symObjAddr: 0x1044, symBinAddr: 0x9044, symSize: 0x8 }
-  - { offsetInCU: 0x80D, offset: 0x55CB, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setWaitNextLocation:]', symObjAddr: 0x104C, symBinAddr: 0x904C, symSize: 0x8 }
-  - { offsetInCU: 0x846, offset: 0x5604, size: 0x8, addend: 0x0, symName: '-[LocationPlugin flutterEventSink]', symObjAddr: 0x1054, symBinAddr: 0x9054, symSize: 0x8 }
-  - { offsetInCU: 0x87A, offset: 0x5638, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setFlutterEventSink:]', symObjAddr: 0x105C, symBinAddr: 0x905C, symSize: 0x8 }
-  - { offsetInCU: 0x8B5, offset: 0x5673, size: 0x8, addend: 0x0, symName: '-[LocationPlugin flutterListening]', symObjAddr: 0x1064, symBinAddr: 0x9064, symSize: 0x8 }
-  - { offsetInCU: 0x8E9, offset: 0x56A7, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setFlutterListening:]', symObjAddr: 0x106C, symBinAddr: 0x906C, symSize: 0x8 }
-  - { offsetInCU: 0x920, offset: 0x56DE, size: 0x8, addend: 0x0, symName: '-[LocationPlugin hasInit]', symObjAddr: 0x1074, symBinAddr: 0x9074, symSize: 0x8 }
-  - { offsetInCU: 0x954, offset: 0x5712, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setHasInit:]', symObjAddr: 0x107C, symBinAddr: 0x907C, symSize: 0x8 }
-  - { offsetInCU: 0x98B, offset: 0x5749, size: 0x8, addend: 0x0, symName: '-[LocationPlugin applicationHasLocationBackgroundMode]', symObjAddr: 0x1084, symBinAddr: 0x9084, symSize: 0x8 }
-  - { offsetInCU: 0x9BF, offset: 0x577D, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setApplicationHasLocationBackgroundMode:]', symObjAddr: 0x108C, symBinAddr: 0x908C, symSize: 0x8 }
-  - { offsetInCU: 0x9F6, offset: 0x57B4, size: 0x8, addend: 0x0, symName: '-[LocationPlugin .cxx_destruct]', symObjAddr: 0x1094, symBinAddr: 0x9094, symSize: 0x3C }
+  - { offset: 0x4FEC, size: 0x8, addend: 0x0, symName: _locationVersionString, symObjAddr: 0x0, symBinAddr: 0x9BE0, symSize: 0x0 }
+  - { offset: 0x5020, size: 0x8, addend: 0x0, symName: _locationVersionNumber, symObjAddr: 0x28, symBinAddr: 0x9C08, symSize: 0x0 }
+  - { offset: 0x505C, size: 0x8, addend: 0x0, symName: '+[LocationPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xD8 }
+  - { offset: 0x51AB, size: 0x8, addend: 0x0, symName: '+[LocationPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xD8 }
+  - { offset: 0x5213, size: 0x8, addend: 0x0, symName: '-[LocationPlugin init]', symObjAddr: 0xD8, symBinAddr: 0x80D8, symSize: 0x84 }
+  - { offset: 0x5247, size: 0x8, addend: 0x0, symName: '-[LocationPlugin initLocation]', symObjAddr: 0x15C, symBinAddr: 0x815C, symSize: 0x104 }
+  - { offset: 0x5294, size: 0x8, addend: 0x0, symName: '-[LocationPlugin handleMethodCall:result:]', symObjAddr: 0x260, symBinAddr: 0x8260, symSize: 0x6F8 }
+  - { offset: 0x53AA, size: 0x8, addend: 0x0, symName: '-[LocationPlugin requestPermission]', symObjAddr: 0x958, symBinAddr: 0x8958, symSize: 0xF0 }
+  - { offset: 0x53DA, size: 0x8, addend: 0x0, symName: '-[LocationPlugin isHighAccuracyPermitted]', symObjAddr: 0xA48, symBinAddr: 0x8A48, symSize: 0x38 }
+  - { offset: 0x542B, size: 0x8, addend: 0x0, symName: '-[LocationPlugin isPermissionGranted]', symObjAddr: 0xA80, symBinAddr: 0x8A80, symSize: 0x28 }
+  - { offset: 0x5479, size: 0x8, addend: 0x0, symName: '-[LocationPlugin onListenWithArguments:eventSink:]', symObjAddr: 0xAA8, symBinAddr: 0x8AA8, symSize: 0x64 }
+  - { offset: 0x54CA, size: 0x8, addend: 0x0, symName: '-[LocationPlugin onCancelWithArguments:]', symObjAddr: 0xB0C, symBinAddr: 0x8B0C, symSize: 0x40 }
+  - { offset: 0x550B, size: 0x8, addend: 0x0, symName: '-[LocationPlugin locationManager:didUpdateLocations:]', symObjAddr: 0xB4C, symBinAddr: 0x8B4C, symSize: 0x3A8 }
+  - { offset: 0x55B8, size: 0x8, addend: 0x0, symName: '-[LocationPlugin locationManager:didChangeAuthorizationStatus:]', symObjAddr: 0xEF4, symBinAddr: 0x8EF4, symSize: 0x10C }
+  - { offset: 0x5626, size: 0x8, addend: 0x0, symName: '-[LocationPlugin clLocationManager]', symObjAddr: 0x1000, symBinAddr: 0x9000, symSize: 0x8 }
+  - { offset: 0x565A, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setClLocationManager:]', symObjAddr: 0x1008, symBinAddr: 0x9008, symSize: 0xC }
+  - { offset: 0x5697, size: 0x8, addend: 0x0, symName: '-[LocationPlugin flutterResult]', symObjAddr: 0x1014, symBinAddr: 0x9014, symSize: 0x8 }
+  - { offset: 0x56CB, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setFlutterResult:]', symObjAddr: 0x101C, symBinAddr: 0x901C, symSize: 0x8 }
+  - { offset: 0x5706, size: 0x8, addend: 0x0, symName: '-[LocationPlugin locationWanted]', symObjAddr: 0x1024, symBinAddr: 0x9024, symSize: 0x8 }
+  - { offset: 0x573A, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setLocationWanted:]', symObjAddr: 0x102C, symBinAddr: 0x902C, symSize: 0x8 }
+  - { offset: 0x5771, size: 0x8, addend: 0x0, symName: '-[LocationPlugin permissionWanted]', symObjAddr: 0x1034, symBinAddr: 0x9034, symSize: 0x8 }
+  - { offset: 0x57A5, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setPermissionWanted:]', symObjAddr: 0x103C, symBinAddr: 0x903C, symSize: 0x8 }
+  - { offset: 0x57DC, size: 0x8, addend: 0x0, symName: '-[LocationPlugin waitNextLocation]', symObjAddr: 0x1044, symBinAddr: 0x9044, symSize: 0x8 }
+  - { offset: 0x5810, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setWaitNextLocation:]', symObjAddr: 0x104C, symBinAddr: 0x904C, symSize: 0x8 }
+  - { offset: 0x5849, size: 0x8, addend: 0x0, symName: '-[LocationPlugin flutterEventSink]', symObjAddr: 0x1054, symBinAddr: 0x9054, symSize: 0x8 }
+  - { offset: 0x587D, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setFlutterEventSink:]', symObjAddr: 0x105C, symBinAddr: 0x905C, symSize: 0x8 }
+  - { offset: 0x58B8, size: 0x8, addend: 0x0, symName: '-[LocationPlugin flutterListening]', symObjAddr: 0x1064, symBinAddr: 0x9064, symSize: 0x8 }
+  - { offset: 0x58EC, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setFlutterListening:]', symObjAddr: 0x106C, symBinAddr: 0x906C, symSize: 0x8 }
+  - { offset: 0x5923, size: 0x8, addend: 0x0, symName: '-[LocationPlugin hasInit]', symObjAddr: 0x1074, symBinAddr: 0x9074, symSize: 0x8 }
+  - { offset: 0x5957, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setHasInit:]', symObjAddr: 0x107C, symBinAddr: 0x907C, symSize: 0x8 }
+  - { offset: 0x598E, size: 0x8, addend: 0x0, symName: '-[LocationPlugin applicationHasLocationBackgroundMode]', symObjAddr: 0x1084, symBinAddr: 0x9084, symSize: 0x8 }
+  - { offset: 0x59C2, size: 0x8, addend: 0x0, symName: '-[LocationPlugin setApplicationHasLocationBackgroundMode:]', symObjAddr: 0x108C, symBinAddr: 0x908C, symSize: 0x8 }
+  - { offset: 0x59F9, size: 0x8, addend: 0x0, symName: '-[LocationPlugin .cxx_destruct]', symObjAddr: 0x1094, symBinAddr: 0x9094, symSize: 0x3C }
 ...

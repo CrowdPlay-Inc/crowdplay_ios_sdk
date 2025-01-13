@@ -1,0 +1,88 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name CryptorECC
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CommonCrypto
+@_exported import CryptorECC
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@available(macOS 10.13, iOS 11, watchOS 4.0, tvOS 11.0, *)
+extension Foundation.Data {
+  public func decrypt(with key: CryptorECC.ECPrivateKey) throws -> Foundation.Data
+}
+@available(macOS 10.13, iOS 11, watchOS 4.0, tvOS 11.0, *)
+extension Swift.String {
+  public func encrypt(with key: CryptorECC.ECPublicKey) throws -> Foundation.Data
+}
+@available(macOS 10.13, iOS 11, watchOS 4.0, tvOS 11.0, *)
+extension Foundation.Data {
+  public func encrypt(with key: CryptorECC.ECPublicKey) throws -> Foundation.Data
+}
+public struct ECError : Swift.Error, Swift.Equatable {
+  public let localizedDescription: Swift.String
+  public static let invalidPEMString: CryptorECC.ECError
+  public static let unknownPEMHeader: CryptorECC.ECError
+  public static let failedBase64Encoding: CryptorECC.ECError
+  public static let failedASN1Decoding: CryptorECC.ECError
+  public static let unsupportedCurve: CryptorECC.ECError
+  public static let failedNativeKeyCreation: CryptorECC.ECError
+  public static let failedEvpInit: CryptorECC.ECError
+  public static let failedSigningAlgorithm: CryptorECC.ECError
+  public static let invalidRSLength: CryptorECC.ECError
+  public static let failedEncryptionAlgorithm: CryptorECC.ECError
+  public static let failedDecryptionAlgorithm: CryptorECC.ECError
+  public static let failedUTF8Decoding: CryptorECC.ECError
+  public static func == (lhs: CryptorECC.ECError, rhs: CryptorECC.ECError) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers @available(macOS 10.13, iOS 11, watchOS 4.0, tvOS 11.0, *)
+public class ECPrivateKey {
+  final public let curveId: Swift.String
+  final public let curve: CryptorECC.EllipticCurve
+  final public let pemString: Swift.String
+  convenience public init(key: Swift.String) throws
+  public init(pkcs8DER: Foundation.Data) throws
+  public init(sec1DER: Foundation.Data) throws
+  public func extractPublicKey() throws -> CryptorECC.ECPublicKey
+  public static func make(for curve: CryptorECC.EllipticCurve) throws -> CryptorECC.ECPrivateKey
+  @objc deinit
+}
+@available(macOS 10.13, iOS 11, watchOS 4.0, tvOS 11.0, *)
+public class ECPublicKey {
+  final public let curveId: Swift.String
+  final public let curve: CryptorECC.EllipticCurve
+  final public let pemString: Swift.String
+  convenience public init(key: Swift.String) throws
+  public init(der: Foundation.Data) throws
+  @objc deinit
+}
+@available(macOS 10.13, iOS 11, watchOS 4.0, tvOS 11.0, *)
+extension Swift.String {
+  public func sign(with key: CryptorECC.ECPrivateKey) throws -> CryptorECC.ECSignature
+}
+@available(macOS 10.13, iOS 11, watchOS 4.0, tvOS 11.0, *)
+extension Foundation.Data {
+  public func sign(with key: CryptorECC.ECPrivateKey) throws -> CryptorECC.ECSignature
+}
+@available(macOS 10.13, iOS 11, watchOS 4.0, tvOS 11.0, *)
+public struct ECSignature {
+  public let r: Foundation.Data
+  public let s: Foundation.Data
+  public let asn1: Foundation.Data
+  public init(r: Foundation.Data, s: Foundation.Data) throws
+  public init(asn1: Foundation.Data) throws
+  public func verify(plaintext: Swift.String, using ecPublicKey: CryptorECC.ECPublicKey) -> Swift.Bool
+  public func verify(plaintext: Foundation.Data, using ecPublicKey: CryptorECC.ECPublicKey) -> Swift.Bool
+}
+@available(macOS 10.13, iOS 11, watchOS 4.0, tvOS 11.0, *)
+public struct EllipticCurve : Swift.Equatable, Swift.CustomStringConvertible {
+  public static let prime256v1: CryptorECC.EllipticCurve
+  public static let secp384r1: CryptorECC.EllipticCurve
+  public static let secp521r1: CryptorECC.EllipticCurve
+  public static func == (lhs: CryptorECC.EllipticCurve, rhs: CryptorECC.EllipticCurve) -> Swift.Bool
+  public var description: Swift.String {
+    get
+  }
+}
