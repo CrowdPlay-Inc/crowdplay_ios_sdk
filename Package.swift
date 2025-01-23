@@ -29,15 +29,15 @@ let package = Package(
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
                 "App", "Braintree", "BraintreeDropIn", "CocoaAsyncSocket", "Cryptor",
                 "CryptorECC", "CryptorRSA", "Flutter", "FlutterPluginRegistrant",
-                "GTMSessionFetcher", "KituraContracts", "LoggerAPI", "MTBBarcodeScanner",
+                "GTMSessionFetcher", "KituraContracts", "LoggerAPI",
                 "OrderedSet",
                 "Sentry", "SwiftJWT", "audioplayers_darwin", "device_info_plus", "firebase_auth",
                 "firebase_core", "firebase_database", "firebase_messaging", "firebase_storage",
                 "flutter_inappwebview_ios", "flutter_local_notifications", "image_picker_ios",
-                "integration_test", "leveldb", "location", "nanopb", "package_info_plus",
-                "path_provider_foundation", "patrol", "qr_code_scanner", "sentry_flutter",
+                "integration_test", "location", "package_info_plus",
+                "path_provider_foundation", "patrol", "sentry_flutter",
                 "share_plus", "shift4_sdk", "store_redirect", "app_links", "url_launcher_ios",
-                "vibration", "CardinalMobile", "PPRiskMagnes", "VNWebSDK",
+                "vibration", "CardinalMobile", "PPRiskMagnes", "VNWebSDK", "mobile_scanner"
             ],
             resources: [
                 .copy("PrivacyInfo.xcprivacy")
@@ -89,10 +89,6 @@ let package = Package(
         .binaryTarget(
             name: "LoggerAPI",
             path: "Frameworks/LoggerAPI.xcframework"
-        ),
-        .binaryTarget(
-            name: "MTBBarcodeScanner",
-            path: "Frameworks/MTBBarcodeScanner.xcframework"
         ),
         .binaryTarget(
             name: "OrderedSet",
@@ -151,16 +147,8 @@ let package = Package(
             path: "Frameworks/integration_test.xcframework"
         ),
         .binaryTarget(
-            name: "leveldb",
-            path: "Frameworks/leveldb.xcframework"
-        ),
-        .binaryTarget(
             name: "location",
             path: "Frameworks/location.xcframework"
-        ),
-        .binaryTarget(
-            name: "nanopb",
-            path: "Frameworks/nanopb.xcframework"
         ),
         .binaryTarget(
             name: "package_info_plus",
