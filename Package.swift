@@ -29,7 +29,7 @@ let package = Package(
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
                 "App", "Braintree", "BraintreeDropIn", "CocoaAsyncSocket", "Cryptor",
                 "CryptorECC", "CryptorRSA", "Flutter", "FlutterPluginRegistrant",
-                "GTMSessionFetcher", "KituraContracts", "LoggerAPI",
+                "GTMSessionFetcher", "KituraContracts", "LoggerAPI", "Logging",
                 "OrderedSet",
                 "Sentry", "SwiftJWT", "audioplayers_darwin", "device_info_plus", "firebase_auth",
                 "firebase_core", "firebase_database", "firebase_messaging", "firebase_storage",
@@ -89,6 +89,10 @@ let package = Package(
         .binaryTarget(
             name: "LoggerAPI",
             path: "Frameworks/LoggerAPI.xcframework"
+        ),
+        .binaryTarget(
+            name: "Logging",
+            path: "Frameworks/Logging.xcframework"
         ),
         .binaryTarget(
             name: "OrderedSet",
