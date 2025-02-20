@@ -279,15 +279,15 @@
 		<data>
 		tDrCMSDDloV4gmyjAgaVLU84A5A=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn</key>
 		<data>
-		9jAZ08IjAchNwejQw5DeX3Cj4xY=
+		iwX5ciR5nPLP0VugMvOpH0ghSSY=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/Info.plist</key>
 		<data>
 		U5nEPS9UtDy3nNfavS/QO7YIcF4=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ar.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ar.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -296,7 +296,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/da.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/da.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -305,7 +305,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/de.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/de.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -314,7 +314,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/en.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/en.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -323,7 +323,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/es.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/es.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -332,7 +332,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/fr-CA.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/fr-CA.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -341,7 +341,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/fr.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/fr.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -350,7 +350,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/he.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/he.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -359,7 +359,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/id.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/id.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -368,7 +368,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/it.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/it.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -377,7 +377,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ja.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ja.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -386,7 +386,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ko.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ko.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -395,7 +395,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/nb.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/nb.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -404,7 +404,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/nl.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/nl.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -413,7 +413,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/pl.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/pl.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -422,7 +422,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/pt.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/pt.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -431,7 +431,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ru.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ru.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -440,7 +440,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/sk.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/sk.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -449,7 +449,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/sv.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/sv.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -458,7 +458,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/th.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/th.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -467,7 +467,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hans.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hans.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -476,7 +476,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hant-HK.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hant-HK.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -485,7 +485,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hant.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hant.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -494,55 +494,55 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn_PrivacyInfo.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn_PrivacyInfo.bundle/Info.plist</key>
 		<data>
 		8l9MAwlYhJm0jptcqZrByHNQ9mk=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn_PrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn_PrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		s55tw4Q+8kmCO79mAWPBMY6s4iE=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInController.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInController.h</key>
 		<data>
 		Cs6Bju6NX5vEmXKkjfqI+3kPQA8=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInLocalization.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInLocalization.h</key>
 		<data>
 		BXypRBGNBjO1xSylV8hjloQpVWs=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInPaymentMethodType.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInPaymentMethodType.h</key>
 		<data>
 		tQHhkpHQu9NrWEzhfGm/Qdj5KUY=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInRequest.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInRequest.h</key>
 		<data>
 		XEchXt8I+n7ppyQdO6wQBtcMyyQ=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInResult.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInResult.h</key>
 		<data>
 		SmB8dnP4RvVCzhAdMrcATTiPdFc=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInUICustomization.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInUICustomization.h</key>
 		<data>
 		gpXUR5TXC+wcMwjK/uzo7xpU+ZE=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BraintreeDropIn-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BraintreeDropIn-umbrella.h</key>
 		<data>
 		YBTZ2fmjSc43NdBVgv1dmkowyD8=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BraintreeDropIn.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BraintreeDropIn.h</key>
 		<data>
 		iR4GCG+u5T381Af9u3+avd8ouQg=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Info.plist</key>
 		<data>
 		QzOBKabVGwOWNKvHBlmYyt5e5Fw=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Modules/module.modulemap</key>
 		<data>
 		wEy42Ktipo/2N8ZCCN/uthI6zTE=
 		</data>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/_CodeSignature/CodeResources</key>
 		<data>
 		wT1UNFcJobYL6WORHB6UrJEgk6Q=
 		</data>
@@ -1035,18 +1035,18 @@
 			Gj0NNTODsSE26BRbU+STuLflfbvZ3us5ZIRU5Fc5yt4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9jAZ08IjAchNwejQw5DeX3Cj4xY=
+			iwX5ciR5nPLP0VugMvOpH0ghSSY=
 			</data>
 			<key>hash2</key>
 			<data>
-			JwDWdErxQ6MpNeoFWIrWAKtry/kme2cmUHylpJ+vCHA=
+			3VaLCBqn4WF8iDT4R1H5q4CTfhqbCrYZsmGrL3rBS98=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1057,7 +1057,7 @@
 			CJkLUeI/JBnQ9VXs7RXtdGQwOTSuhzpth+S5s4SjV20=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ar.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ar.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1070,7 +1070,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/da.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/da.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1083,7 +1083,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/de.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/de.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1096,7 +1096,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/en.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/en.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1109,7 +1109,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/es.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/es.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1122,7 +1122,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/fr-CA.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/fr-CA.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1135,7 +1135,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/fr.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/fr.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1148,7 +1148,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/he.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/he.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1161,7 +1161,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/id.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/id.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1174,7 +1174,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/it.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/it.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1187,7 +1187,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ja.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ja.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1200,7 +1200,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ko.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ko.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1213,7 +1213,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/nb.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/nb.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1226,7 +1226,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/nl.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/nl.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1239,7 +1239,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/pl.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/pl.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1252,7 +1252,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/pt.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/pt.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1265,7 +1265,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ru.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/ru.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1278,7 +1278,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/sk.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/sk.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1291,7 +1291,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/sv.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/sv.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1304,7 +1304,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/th.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/th.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1317,7 +1317,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hans.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hans.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1330,7 +1330,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hant-HK.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hant-HK.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1343,7 +1343,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hant.lproj/BTUI.strings</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn-Localization.bundle/zh-Hant.lproj/BTUI.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1356,7 +1356,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn_PrivacyInfo.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn_PrivacyInfo.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1367,7 +1367,7 @@
 			nIKD9cp3lTl/iwXGEsJfAhfcxcr2N6BjhcoC0ZJDzJo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn_PrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/BraintreeDropIn_PrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1378,7 +1378,7 @@
 			6ouqO3Ps4KrepybpWFM5ioJ1Nw2aHfXZIPNeBOaSpY0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInController.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1389,7 +1389,7 @@
 			5G79X87Le9pl/k0b70/aJppEkqtNOpCXBAN2f0TnvkQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInLocalization.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInLocalization.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1400,7 +1400,7 @@
 			5n8Qe3f91tnzZ3XRZPrvFdSJJzfwtWQa/OnG7Vdgs9o=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInPaymentMethodType.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInPaymentMethodType.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1411,7 +1411,7 @@
 			ha8IJUmTTqUwogMlaQVB0+vq3+q2OAUL3pvrwO4L0aY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInRequest.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInRequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1422,7 +1422,7 @@
 			6nAsT3fsmLhBAp5kZwhEWudBp2vboifLlN+VMW5HnLo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInResult.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInResult.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1433,7 +1433,7 @@
 			rVCOv6GX1/hTt9pOMZM8ApeUPGiw1hC4I1bwQnrCzjQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInUICustomization.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BTDropInUICustomization.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1444,7 +1444,7 @@
 			1c1yY7Mkuf6CeMc/ygbKTy7iATygv6DALOL53+nWuc0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BraintreeDropIn-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BraintreeDropIn-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1455,7 +1455,7 @@
 			hoU58OdelBOtaL/v1COhF5VE5RA2GR3t+WxL5Ajd4Qo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Headers/BraintreeDropIn.h</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Headers/BraintreeDropIn.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1466,7 +1466,7 @@
 			Vtcr5HNy/jKTkFKF96UEs0uAZHtLS8JJsI6nD75Qv60=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1477,7 +1477,7 @@
 			sTe3lGKoX2xlBnDs7PoYUWEfPH8xhuIRRtqtIvO34pc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1488,7 +1488,7 @@
 			J/AJzHr9zOHhLDBqnyripWrSgTNrre/1cARC1m8S6wo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/BraintreeDropIn.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/BraintreeDropIn.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>

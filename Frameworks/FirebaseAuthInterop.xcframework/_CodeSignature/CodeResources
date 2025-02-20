@@ -36,27 +36,27 @@
 		<data>
 		sWy8l6AkvQi5mtPCi6d2MKuD/eM=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/FirebaseAuthInterop</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/FirebaseAuthInterop</key>
 		<data>
-		+Hlvk+A5/u6PHwKwAQ6mXNw5uNc=
+		GxrYZyb7YSnKP4ETmPaWmvPGloY=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/Headers/FIRAuthInterop.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/Headers/FIRAuthInterop.h</key>
 		<data>
 		eXU71ronhctgQu2dY2zgxLdKvyQ=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/Headers/FirebaseAuthInterop-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/Headers/FirebaseAuthInterop-umbrella.h</key>
 		<data>
 		PeS9/WrvqlzGaOu/mgCU7pvFhOs=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/Info.plist</key>
 		<data>
 		Lqr6tnl9/Jt6CQja3tFlXlsR/LI=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/Modules/module.modulemap</key>
 		<data>
 		zz5/o7iuc2W7la0FBtDUug4iCcU=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/_CodeSignature/CodeResources</key>
 		<data>
 		nwXAI1ziCLstaj9IV0A735hm+BQ=
 		</data>
@@ -151,18 +151,18 @@
 			uD3iiWYpwtMAo1M+muN28ILsxJ7DFrAQ2S0y8f3Z3PQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/FirebaseAuthInterop</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/FirebaseAuthInterop</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+Hlvk+A5/u6PHwKwAQ6mXNw5uNc=
+			GxrYZyb7YSnKP4ETmPaWmvPGloY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q7g1p/txMC5qQwY2D2Flud8kFm/YdL6/ZDLnAkkZZwg=
+			DWRa0fYZmLYYHDjtfVrept8JcI//qjxVo+44VMuK5VM=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/Headers/FIRAuthInterop.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/Headers/FIRAuthInterop.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -173,7 +173,7 @@
 			1k9TYP4N4IiJPQ2ZiQGcmtHRF5kMpcHPE5GHH67lP8c=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/Headers/FirebaseAuthInterop-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/Headers/FirebaseAuthInterop-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -184,7 +184,7 @@
 			66hmX41QMZxxGlua0H4ItLzvZs3+KfN+cgbGrRZUJh0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -195,7 +195,7 @@
 			OEoxzsZdMnb2UIuY6/VgyqsxPibuHKu+2O8skYFqBvo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -206,7 +206,7 @@
 			EWIkhD7SKMdXety6bYPC2aYwWTcL4v9v6jd3CdQ7wgs=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAuthInterop.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAuthInterop.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>

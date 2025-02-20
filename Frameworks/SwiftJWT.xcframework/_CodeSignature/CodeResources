@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		6CMk3VDftPK1Jf4BMPp+g0lihtI=
+		lkWTtN0zJKBWjZ9xiDrBlL2o8/M=
 		</data>
 		<key>ios-arm64/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -50,55 +50,75 @@
 		</data>
 		<key>ios-arm64/dSYMs/SwiftJWT.framework.dSYM/Contents/Resources/DWARF/SwiftJWT</key>
 		<data>
-		K7GGd2i7OPN0yEqd/qBaHrmVI1Q=
+		+cGkUqDMgeJbPy7W+ZJY7f2adBU=
 		</data>
 		<key>ios-arm64/dSYMs/SwiftJWT.framework.dSYM/Contents/Resources/Relocations/aarch64/SwiftJWT.yml</key>
 		<data>
 		Fctjgl7AyD59x9PcvhWOQmd6mSQ=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Headers/SwiftJWT-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Headers/SwiftJWT-Swift.h</key>
 		<data>
-		wMAqsILb14Cpqywox3zOhilqqAA=
+		738lXxWQZJtmrwoaV7MYlB2j8Zc=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Headers/SwiftJWT-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Headers/SwiftJWT-umbrella.h</key>
 		<data>
 		yWiH0SKeziDXJ78TE44i/Qqw0zo=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Info.plist</key>
 		<data>
 		sD7CxFsvh+zuJe20MLihmSjtKs8=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		VP/407uPqZoHm6t9v8PtNSD8HaU=
+		ghjeHUrDPF7Z0NpP42nLpsqd6iI=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		1v19uuoYiIQx6qFtZ9Xa5zVuFs8=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		R7c5JjMqG1RGYiDu7QsRhFcPUS0=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		Z4CMk/1idG7Oa+FO1Msh296I8hs=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		moyWk+uxsRy3VjZHWeXaLPe5g+c=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		Z4CMk/1idG7Oa+FO1Msh296I8hs=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		R7c5JjMqG1RGYiDu7QsRhFcPUS0=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
 		RiFSgTlkm8BXadCZ0tuP/LGpIEI=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		R+CDviTDnsXxKUlOZ1N9fi+NAwM=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
 		RiFSgTlkm8BXadCZ0tuP/LGpIEI=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/module.modulemap</key>
 		<data>
 		D1eipNHaF7lQB/J2YKwB7V4zgkw=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/SwiftJWT</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/SwiftJWT</key>
 		<data>
-		rzK5DNA2M0rCCwGkCrKbqhyCOk4=
+		IsVUmmigibKZJoOpmrjXrQU3BKw=
 		</data>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/_CodeSignature/CodeResources</key>
 		<data>
-		XH6GgCAzlCWqaR8j1KeKiinz+KU=
+		SKWFVTmUBsHyqa/aN50u2+WKugI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -140,11 +160,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6CMk3VDftPK1Jf4BMPp+g0lihtI=
+			lkWTtN0zJKBWjZ9xiDrBlL2o8/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			sIMyfY8CkpIvzkNc721ktyjA+yjUxf89vSitcjDo5BY=
+			xUUysjhDNTe15Tp/0RA2xENjY2NOW9oszqEd+/8Q4Z8=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -228,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K7GGd2i7OPN0yEqd/qBaHrmVI1Q=
+			+cGkUqDMgeJbPy7W+ZJY7f2adBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			LXhi6vkH0zeXLx0fSJQmtViSiCXBC89Isv2NloKNytU=
+			waeQU0o+V5tFRDDfsU8iRmFG6Rqndp+hqsGsUH2JRpY=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/SwiftJWT.framework.dSYM/Contents/Resources/Relocations/aarch64/SwiftJWT.yml</key>
@@ -246,18 +266,18 @@
 			6TRkfcATUs3XsBMqo5DXXuAFqZsr4uHwvVMgvj5ef2I=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Headers/SwiftJWT-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Headers/SwiftJWT-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wMAqsILb14Cpqywox3zOhilqqAA=
+			738lXxWQZJtmrwoaV7MYlB2j8Zc=
 			</data>
 			<key>hash2</key>
 			<data>
-			KekcBBlUmOneHl38HS1W7zqWx0Oinj5oBdmSXTDiSfo=
+			2AOMOV3ygPVz7pe1bG57ad6p40c/XbmXthGdb0x/0QA=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Headers/SwiftJWT-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Headers/SwiftJWT-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -268,7 +288,7 @@
 			0p7o/P8bMQSj0KWSrnLXpLFJrfVePeqURqrXpZEe4Lg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -279,18 +299,29 @@
 			52X0wHqAZVHtt8FO4CWy5WCWhJQPwp3kYep+fe6f9Qg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VP/407uPqZoHm6t9v8PtNSD8HaU=
+			ghjeHUrDPF7Z0NpP42nLpsqd6iI=
 			</data>
 			<key>hash2</key>
 			<data>
-			InQ9yq7UOWyhjI81k/K38Lh0N24Jw/yEeFdjqfTllmE=
+			GxzmqXGQ9o4W3Af49LMDE5uMCzTXSa4MU3ay1VaF8pQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1v19uuoYiIQx6qFtZ9Xa5zVuFs8=
+			</data>
+			<key>hash2</key>
+			<data>
+			BbgWGH1DkmJ0AuozWWt6f7H712EIG7EVXy9cUWMLE2M=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -301,7 +332,51 @@
 			oK41kAMvbE6A6XOqxvnN7aPpgNmcpbctjQAO/YoBdLQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z4CMk/1idG7Oa+FO1Msh296I8hs=
+			</data>
+			<key>hash2</key>
+			<data>
+			0QvoPLcnqnhUVPm+O2A8JBuFqD3mJiCEz/J7rkG1Gu4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			moyWk+uxsRy3VjZHWeXaLPe5g+c=
+			</data>
+			<key>hash2</key>
+			<data>
+			tmgMTqyLxufcMFwrMxkS5RfFb0VDRIIN4Jg3FhC2fSA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z4CMk/1idG7Oa+FO1Msh296I8hs=
+			</data>
+			<key>hash2</key>
+			<data>
+			0QvoPLcnqnhUVPm+O2A8JBuFqD3mJiCEz/J7rkG1Gu4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R7c5JjMqG1RGYiDu7QsRhFcPUS0=
+			</data>
+			<key>hash2</key>
+			<data>
+			oK41kAMvbE6A6XOqxvnN7aPpgNmcpbctjQAO/YoBdLQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -312,7 +387,7 @@
 			B1IDxpfBjUA6aWrQzT45X5dBInJl1BX2pK9ZK6xKZYI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -323,7 +398,7 @@
 			e8aUATZnb1WglaQWZgrv8hnilqmlOT4+F6o7Pvrt2+c=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -334,7 +409,7 @@
 			B1IDxpfBjUA6aWrQzT45X5dBInJl1BX2pK9ZK6xKZYI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -345,26 +420,26 @@
 			oDb/uSUVcnzhNbD3dxMgCWv6NJdruRl6WV+3OQfy8xg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/SwiftJWT</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/SwiftJWT</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rzK5DNA2M0rCCwGkCrKbqhyCOk4=
+			IsVUmmigibKZJoOpmrjXrQU3BKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			nr84ob18IyuSjuG4IG1m65FOtUDh803t7SHVRTR1SV0=
+			Dgyy6SPIYzX1oE2P4FZRrK0UmEC9V+HXs3eIOvovp6Q=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SwiftJWT.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XH6GgCAzlCWqaR8j1KeKiinz+KU=
+			SKWFVTmUBsHyqa/aN50u2+WKugI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Myl2FQk/LINtvO3DyF3s+zxnScOaWIBOhBBCinXT4+I=
+			uKykCIE3RovFaXZq21hlCE2OBgfl3IGIJg2tI9BdTJ4=
 			</data>
 		</dict>
 	</dict>

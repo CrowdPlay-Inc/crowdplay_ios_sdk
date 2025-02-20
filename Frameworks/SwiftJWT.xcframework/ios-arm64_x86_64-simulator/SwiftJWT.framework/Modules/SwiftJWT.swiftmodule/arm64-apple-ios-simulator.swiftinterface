@@ -1,0 +1,216 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name SwiftJWT
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Cryptor
+import CryptorECC
+import CryptorRSA
+import Foundation
+import KituraContracts
+import LoggerAPI
+import Swift
+@_exported import SwiftJWT
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol Claims : Swift.Decodable, Swift.Encodable {
+  var exp: Foundation.Date? { get }
+  var nbf: Foundation.Date? { get }
+  var iat: Foundation.Date? { get }
+  func encode() throws -> Swift.String
+}
+extension SwiftJWT.Claims {
+  public var exp: Foundation.Date? {
+    get
+  }
+  public var nbf: Foundation.Date? {
+    get
+  }
+  public var iat: Foundation.Date? {
+    get
+  }
+  public func encode() throws -> Swift.String
+}
+public class ClaimsMicroProfile : SwiftJWT.Claims {
+  public init(iss: Swift.String, sub: Swift.String, exp: Foundation.Date, iat: Foundation.Date, jti: Swift.String, upn: Swift.String, groups: [Swift.String])
+  public var iss: Swift.String
+  public var sub: Swift.String
+  public var exp: Foundation.Date
+  public var iat: Foundation.Date
+  public var jti: Swift.String
+  public var upn: Swift.String?
+  public var preferred_username: Swift.String?
+  public var groups: [Swift.String]
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class ClaimsOpenID : SwiftJWT.Claims {
+  public init(iss: Swift.String, sub: Swift.String, aud: [Swift.String], exp: Foundation.Date, iat: Foundation.Date, auth_time: Foundation.Date? = nil, nonce: Swift.String? = nil, acr: Swift.String? = nil, amr: [Swift.String]? = nil, azp: Swift.String? = nil, name: Swift.String? = nil, given_name: Swift.String? = nil, family_name: Swift.String? = nil, middle_name: Swift.String? = nil, nickname: Swift.String? = nil, preferred_username: Swift.String? = nil, profile: Swift.String? = nil, picture: Swift.String? = nil, website: Swift.String? = nil, email: Swift.String? = nil, email_verified: Swift.Bool? = nil, gender: Swift.String? = nil, birthdate: Swift.String? = nil, zoneinfo: Swift.String? = nil, locale: Swift.String? = nil, phone_number: Swift.String? = nil, phone_number_verified: Swift.Bool? = nil, address: SwiftJWT.AddressClaim? = nil, updated_at: Foundation.Date? = nil)
+  public var iss: Swift.String
+  public var sub: Swift.String
+  public var aud: [Swift.String]
+  public var exp: Foundation.Date
+  public var iat: Foundation.Date
+  public var auth_time: Foundation.Date?
+  public var nonce: Swift.String?
+  public var acr: Swift.String?
+  public var amr: [Swift.String]?
+  public var azp: Swift.String?
+  public var name: Swift.String?
+  public var given_name: Swift.String?
+  public var family_name: Swift.String?
+  public var middle_name: Swift.String?
+  public var nickname: Swift.String?
+  public var preferred_username: Swift.String?
+  public var profile: Swift.String?
+  public var picture: Swift.String?
+  public var website: Swift.String?
+  public var email: Swift.String?
+  public var email_verified: Swift.Bool?
+  public var gender: Swift.String?
+  public var birthdate: Swift.String?
+  public var zoneinfo: Swift.String?
+  public var locale: Swift.String?
+  public var phone_number: Swift.String?
+  public var phone_number_verified: Swift.Bool?
+  public var address: SwiftJWT.AddressClaim?
+  public var updated_at: Foundation.Date?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public struct AddressClaim : Swift.Codable {
+  public var formatted: Swift.String?
+  public var street_address: Swift.String?
+  public var locality: Swift.String?
+  public var region: Swift.String?
+  public var postal_code: Swift.String?
+  public var country: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class ClaimsStandardJWT : SwiftJWT.Claims {
+  public init(iss: Swift.String? = nil, sub: Swift.String? = nil, aud: [Swift.String]? = nil, exp: Foundation.Date? = nil, nbf: Foundation.Date? = nil, iat: Foundation.Date? = nil, jti: Swift.String? = nil)
+  public var iss: Swift.String?
+  public var sub: Swift.String?
+  public var aud: [Swift.String]?
+  public var exp: Foundation.Date?
+  public var nbf: Foundation.Date?
+  public var iat: Foundation.Date?
+  public var jti: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+extension SwiftJWT.JWTEncoder {
+  public static func base64urlEncodedString(data: Foundation.Data) -> Swift.String
+}
+extension SwiftJWT.JWTDecoder {
+  public static func data(base64urlEncoded: Swift.String) -> Foundation.Data?
+}
+public struct Header : Swift.Codable {
+  public var typ: Swift.String?
+  public var alg: Swift.String? {
+    get
+  }
+  public var jku: Swift.String?
+  public var jwk: Swift.String?
+  public var kid: Swift.String?
+  public var x5u: Swift.String?
+  public var x5c: [Swift.String]?
+  public var x5t: Swift.String?
+  public var x5tS256: Swift.String?
+  public var cty: Swift.String?
+  public var crit: [Swift.String]?
+  public init(typ: Swift.String? = "JWT", jku: Swift.String? = nil, jwk: Swift.String? = nil, kid: Swift.String? = nil, x5u: Swift.String? = nil, x5c: [Swift.String]? = nil, x5t: Swift.String? = nil, x5tS256: Swift.String? = nil, cty: Swift.String? = nil, crit: [Swift.String]? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct JWT<T> : Swift.Codable where T : SwiftJWT.Claims {
+  public var header: SwiftJWT.Header
+  public var claims: T
+  public init(header: SwiftJWT.Header = Header(), claims: T)
+  public init(jwtString: Swift.String, verifier: SwiftJWT.JWTVerifier = .none) throws
+  public mutating func sign(using jwtSigner: SwiftJWT.JWTSigner) throws -> Swift.String
+  public static func verify(_ jwt: Swift.String, using jwtVerifier: SwiftJWT.JWTVerifier) -> Swift.Bool
+  public func validateClaims(leeway: Foundation.TimeInterval = 0) -> SwiftJWT.ValidateClaimsResult
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class JWTDecoder : KituraContracts.BodyDecoder {
+  public init(jwtVerifier: SwiftJWT.JWTVerifier)
+  public init(keyIDToVerifier: @escaping (Swift.String) -> SwiftJWT.JWTVerifier?)
+  public func decode<T>(_ type: T.Type, fromString: Swift.String) throws -> T where T : Swift.Decodable
+  public func decode<T>(_ type: T.Type, from data: Foundation.Data) throws -> T where T : Swift.Decodable
+  @objc deinit
+}
+public class JWTEncoder : KituraContracts.BodyEncoder {
+  public init(jwtSigner: SwiftJWT.JWTSigner)
+  public init(keyIDToSigner: @escaping (Swift.String) -> SwiftJWT.JWTSigner?)
+  public func encode<T>(_ value: T) throws -> Foundation.Data where T : Swift.Encodable
+  public func encodeToString<T>(_ value: T) throws -> Swift.String where T : Swift.Encodable
+  @objc deinit
+}
+public struct JWTError : Swift.Error, Swift.Equatable {
+  public let localizedDescription: Swift.String
+  public static let invalidJWTString: SwiftJWT.JWTError
+  public static let failedVerification: SwiftJWT.JWTError
+  public static let osVersionToLow: SwiftJWT.JWTError
+  public static let invalidPrivateKey: SwiftJWT.JWTError
+  public static let invalidUTF8Data: SwiftJWT.JWTError
+  public static let invalidKeyID: SwiftJWT.JWTError
+  public static let missingPEMHeaders: SwiftJWT.JWTError
+  public static func == (lhs: SwiftJWT.JWTError, rhs: SwiftJWT.JWTError) -> Swift.Bool
+  public static func ~= (lhs: SwiftJWT.JWTError, rhs: any Swift.Error) -> Swift.Bool
+}
+public struct JWTSigner {
+  public static func rs256(privateKey: Foundation.Data) -> SwiftJWT.JWTSigner
+  public static func rs384(privateKey: Foundation.Data) -> SwiftJWT.JWTSigner
+  public static func rs512(privateKey: Foundation.Data) -> SwiftJWT.JWTSigner
+  public static func ps256(privateKey: Foundation.Data) -> SwiftJWT.JWTSigner
+  public static func ps384(privateKey: Foundation.Data) -> SwiftJWT.JWTSigner
+  public static func ps512(privateKey: Foundation.Data) -> SwiftJWT.JWTSigner
+  public static func hs256(key: Foundation.Data) -> SwiftJWT.JWTSigner
+  public static func hs384(key: Foundation.Data) -> SwiftJWT.JWTSigner
+  public static func hs512(key: Foundation.Data) -> SwiftJWT.JWTSigner
+  @available(macOS 10.13, iOS 11, tvOS 11.0, watchOS 4.0, *)
+  public static func es256(privateKey: Foundation.Data) -> SwiftJWT.JWTSigner
+  @available(macOS 10.13, iOS 11, tvOS 11.0, watchOS 4.0, *)
+  public static func es384(privateKey: Foundation.Data) -> SwiftJWT.JWTSigner
+  @available(macOS 10.13, iOS 11, tvOS 11.0, watchOS 4.0, *)
+  public static func es512(privateKey: Foundation.Data) -> SwiftJWT.JWTSigner
+  public static let none: SwiftJWT.JWTSigner
+}
+public struct JWTVerifier {
+  public static func rs256(publicKey: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func rs384(publicKey: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func rs512(publicKey: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func rs256(certificate: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func rs384(certificate: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func rs512(certificate: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func ps256(publicKey: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func ps384(publicKey: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func ps512(publicKey: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func hs256(key: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func hs384(key: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static func hs512(key: Foundation.Data) -> SwiftJWT.JWTVerifier
+  @available(macOS 10.13, iOS 11, tvOS 11.0, watchOS 4.0, *)
+  public static func es256(publicKey: Foundation.Data) -> SwiftJWT.JWTVerifier
+  @available(macOS 10.13, iOS 11, tvOS 11.0, watchOS 4.0, *)
+  public static func es384(publicKey: Foundation.Data) -> SwiftJWT.JWTVerifier
+  @available(macOS 10.13, iOS 11, tvOS 11.0, watchOS 4.0, *)
+  public static func es512(publicKey: Foundation.Data) -> SwiftJWT.JWTVerifier
+  public static let none: SwiftJWT.JWTVerifier
+}
+public struct ValidateClaimsResult : Swift.CustomStringConvertible, Swift.Equatable {
+  public let description: Swift.String
+  public static let success: SwiftJWT.ValidateClaimsResult
+  public static let invalidExpiration: SwiftJWT.ValidateClaimsResult
+  public static let expired: SwiftJWT.ValidateClaimsResult
+  public static let invalidNotBefore: SwiftJWT.ValidateClaimsResult
+  public static let notBefore: SwiftJWT.ValidateClaimsResult
+  public static let invalidIssuedAt: SwiftJWT.ValidateClaimsResult
+  public static let issuedAt: SwiftJWT.ValidateClaimsResult
+  public static func == (lhs: SwiftJWT.ValidateClaimsResult, rhs: SwiftJWT.ValidateClaimsResult) -> Swift.Bool
+}

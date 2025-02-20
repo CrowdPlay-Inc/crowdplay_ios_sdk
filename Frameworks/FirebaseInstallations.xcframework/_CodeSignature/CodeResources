@@ -56,47 +56,47 @@
 		<data>
 		mYznei+QvY7s7YXwPTUIgC+XbzU=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations</key>
 		<data>
-		+yccmR1AjRBGueSuSixodVUhSuA=
+		yEl1Gf6Ln3sGTS8X08QxexvZ/SM=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/Info.plist</key>
 		<data>
 		w3aKo8Kv2Dn/EfKlVrOdGt1tQVk=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		WXQUJr75eMRgiVnLGyf8Gr3uLUU=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallations.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallations.h</key>
 		<data>
 		BmsdUI3E4c0dyJOJ40pqUZmNJ/Q=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h</key>
 		<data>
 		z60m46zEzh9yn4Bt7VIlBSceIV0=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h</key>
 		<data>
 		TNCBETR4uiVb+pYBg4HMYi/1xqk=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h</key>
 		<data>
 		77D4JhMPM5LuwfY2Fy9TverO2kc=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Headers/FirebaseInstallations.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Headers/FirebaseInstallations.h</key>
 		<data>
 		ZfdzPat4xYq3QhUuKo1MaY6koQM=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Info.plist</key>
 		<data>
 		sxgo5Dx6gqFKMaovo+vN1AZfHcg=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Modules/module.modulemap</key>
 		<data>
 		dmkv8wZIrCTkLk4k1v8n+xLh5Dw=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/_CodeSignature/CodeResources</key>
 		<data>
 		iVMXPeEwb6JR5JF6sQNIErD23Eg=
 		</data>
@@ -246,18 +246,18 @@
 			P6cKpfnmpRdFM3QoQAPALBM/7KyZaHbIlLV94BIlmj4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+yccmR1AjRBGueSuSixodVUhSuA=
+			yEl1Gf6Ln3sGTS8X08QxexvZ/SM=
 			</data>
 			<key>hash2</key>
 			<data>
-			lKNqWThOPl0zfnja5wOVzoudD87Z6/ivpSnn+PH0IK8=
+			lEJ9OR47HLe1qHfYHTcS7MgQsqJkQNflsBce/eveyw4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -268,7 +268,7 @@
 			/9ozbCO06cNVOT/K5j6773aW9dmYuszOWk6cjcbaXLI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -279,7 +279,7 @@
 			z7s8T3ambVNpi66R9xEMAPIUjm5vE619MlkpCbwBDlE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallations.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallations.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -290,7 +290,7 @@
 			TuVRLfOYnKCV4eXPx9IQZKxbm14kmRc7O8Cux4mkPXI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -301,7 +301,7 @@
 			Ck0312ZhoNq87GtsV7zjdxyY+w0S2FSfn/p4lfKtT+s=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -312,7 +312,7 @@
 			1tBdUX5MYfXp5LbH4fmdcCsw5TPv5GobFGnyMz3zdQI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -323,7 +323,7 @@
 			ydRKuFg2IROTtRE3o1fwZCI0H5QHzvkEQwIhTFJWfd0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Headers/FirebaseInstallations.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Headers/FirebaseInstallations.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -334,7 +334,7 @@
 			VFpFA8n5RF/GLv0N9QEr0IoYtDzt72v7vlrDv/hjA0k=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -345,7 +345,7 @@
 			KQ5qd9lkKMd2DzziMGd/n1elaamJssmBmFOJTzrG6xI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -356,7 +356,7 @@
 			33Bhw6DIixw6oOJuRbbAXLu3Vdd9LW6MNE3zxH1N7NE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseInstallations.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseInstallations.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>

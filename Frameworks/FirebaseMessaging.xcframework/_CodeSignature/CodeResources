@@ -56,47 +56,47 @@
 		<data>
 		Gs/It2QRkGPLFsAnz/+LW4eOCcU=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging</key>
 		<data>
-		7eQJQxiqx8CgYOKjCVPwEQmwfIE=
+		2VhHl+KVi21BrMMCVfp+ZsQYnms=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging_Privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging_Privacy.bundle/Info.plist</key>
 		<data>
 		oEN910Rax6FNl2Mfc/SncCzZp7I=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		gwv2NsO/6s7ik6Px6eTTTvacWN4=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessaging+ExtensionHelper.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessaging+ExtensionHelper.h</key>
 		<data>
 		3MIP2wfKHppMV0UCdZNemuXqQP4=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessaging.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessaging.h</key>
 		<data>
 		0/REskKnoC+p3l0uQnBpVSdRDPM=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h</key>
 		<data>
 		ecrIOl83mkfRstCPto7/T+qodZI=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h</key>
 		<data>
 		H2b1i6PxyGk/3kD9vRTn5jJcLTY=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Headers/FirebaseMessaging.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Headers/FirebaseMessaging.h</key>
 		<data>
 		lWcMAj1kyt7l7Rq+kZa1VAoiBvA=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Info.plist</key>
 		<data>
 		nUtQZWKXVTcSkA4Qg25zHtxXiY0=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Modules/module.modulemap</key>
 		<data>
 		6CLldHhM370XzmBqHDjrR+p7dms=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/_CodeSignature/CodeResources</key>
 		<data>
 		d4FrpxTHIV17wPY6Ctdmqsp9hYM=
 		</data>
@@ -246,18 +246,18 @@
 			dveSXQx22MR9cZXlPWfAEnp7Q8UPtokJE5R9YSUxKSU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7eQJQxiqx8CgYOKjCVPwEQmwfIE=
+			2VhHl+KVi21BrMMCVfp+ZsQYnms=
 			</data>
 			<key>hash2</key>
 			<data>
-			9Lnbv0R0LzxcUcZGxqSPdEpCC8t3BA8Rn262c56BE1M=
+			4/W1fN08NsqKq4eFVsWJ0Agpb5wbpOjj36OA5YS/Rd0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging_Privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -268,7 +268,7 @@
 			TzSmbq8yhbLdn2vUdfmokROLhmrPzA/4Yi7lgoqfLKg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/FirebaseMessaging_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -279,7 +279,7 @@
 			mHYgljcqwn9eiIxzctUS8NP1zzKDxkAGBw9M3hpyoHE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessaging+ExtensionHelper.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessaging+ExtensionHelper.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -290,7 +290,7 @@
 			Au/lCapl2FjPAwQea9SJ4Eg08aygdhXFaqvnyaOcSXg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessaging.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessaging.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -301,7 +301,7 @@
 			HK/W59hAbOI41c7Mj90bNZCtOaRjMvs/ojEDl2uOpnM=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -312,7 +312,7 @@
 			N/h4H+/gI/Qf1bGAEwV5rq3o4+MdvjhTK2WMEzi3gWM=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -323,7 +323,7 @@
 			QxCGdF1DhyFIu9btUM3elfWc3PFnTlXjjxA7R5zTRHQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Headers/FirebaseMessaging.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Headers/FirebaseMessaging.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -334,7 +334,7 @@
 			hIAAKiby0Dy1FV10zu7DDv2h/VPTZqlmQA/yEkNcYMA=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -345,7 +345,7 @@
 			G3pzSZGvVzSVrIMe390r2epDFddgoWE/FJYTXTJTJKY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -356,7 +356,7 @@
 			bhqjCP2jxfwc099QmTX/8363JGDt5e0nXeiLhp8hrig=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseMessaging.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseMessaging.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>

@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/mobile_scanner.framework.dSYM/Contents/Resources/DWARF/mobile_scanner</key>
 		<data>
-		Zgz2wXKSwo/xdR1iY0vIcF4pSUA=
+		OQiPPOViUMwrF1siqMaqWu9zuPE=
 		</data>
 		<key>ios-arm64/dSYMs/mobile_scanner.framework.dSYM/Contents/Resources/Relocations/aarch64/mobile_scanner.yml</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Vwl/nsekFkMx1QJIengM/XEVmcQ=
+		lxpVD+HZHVUDGATDr3dN2uGDutw=
 		</data>
 		<key>ios-arm64/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -64,55 +64,75 @@
 		<data>
 		Eq4eiivdfFc9fjHGBSV6laZaNKI=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Headers/mobile_scanner-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Headers/mobile_scanner-Swift.h</key>
 		<data>
-		FZQW5dmIQmIosL3/QcIQePiDpoI=
+		U9aDjcIY8niQnXzHeqTWD6H3vtQ=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Headers/mobile_scanner-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Headers/mobile_scanner-umbrella.h</key>
 		<data>
 		oF7z9i6HRoh9GqKyK1kXKK/AQNU=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Info.plist</key>
 		<data>
 		7Np2AO7PFhfHJ5tmkpSdbUqX58M=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		3tpUEA9KBjQO3VASuqZbaSNWJ04=
+		wA9GPRBvB2AByogm+/Fm+LbTjpw=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		O4kQDAY5GmA97yrAAR8prMEGdfU=
+		</data>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		pDUkKsjUTWXJdGaHN7nde4xtOxo=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		cwkvuSMIr3cfDEtw5jOlFxyxxYw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		PfogAFRhNZjAf3yGBM7ia3vPidw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		cwkvuSMIr3cfDEtw5jOlFxyxxYw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		pDUkKsjUTWXJdGaHN7nde4xtOxo=
+		</data>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
 		tLAXPSdwJ66xwS4mVhORQkiX1uE=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		9A4Gk9WjVk2zRpXHFF/dRIu5ZzY=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
 		tLAXPSdwJ66xwS4mVhORQkiX1uE=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/module.modulemap</key>
 		<data>
 		L7tJx8HnI3fBnmvwbr+ejqZExy0=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Or/ec+Fff5HwfAFZEg3YT+N/o1Q=
+		KZbGNZOIJOiDnLdRA7iz1zKdqX0=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/mobile_scanner</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/mobile_scanner</key>
 		<data>
-		LwREa/wCMCcBWqmRwqVYn4gfJTU=
+		F0YnilxdJlecvv7yan6K5auYE6c=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/mobile_scanner_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/mobile_scanner_privacy.bundle/Info.plist</key>
 		<data>
 		eSV2+iAYgClvYYpCQmpfYEtmoCc=
 		</data>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/mobile_scanner_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/mobile_scanner_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		Eq4eiivdfFc9fjHGBSV6laZaNKI=
 		</data>
@@ -134,11 +154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zgz2wXKSwo/xdR1iY0vIcF4pSUA=
+			OQiPPOViUMwrF1siqMaqWu9zuPE=
 			</data>
 			<key>hash2</key>
 			<data>
-			q+EK4cDqAnk4d3GR9pZ9NGRtEHg5X0oPsQXJlQ2oR84=
+			S7tcQv+7wSOVxsSk4egIUJyEvjU5MrbzkG1xdSLvvDU=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/mobile_scanner.framework.dSYM/Contents/Resources/Relocations/aarch64/mobile_scanner.yml</key>
@@ -189,11 +209,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Vwl/nsekFkMx1QJIengM/XEVmcQ=
+			lxpVD+HZHVUDGATDr3dN2uGDutw=
 			</data>
 			<key>hash2</key>
 			<data>
-			t7KHjWUtqhcUtUxJXiLlvpM/mclHVjMSPcOjgLWHfTU=
+			HSr0oWNqISfL4lVnP4sjNYD19ZFYcDb208fE7A0WJX0=
 			</data>
 		</dict>
 		<key>ios-arm64/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -284,18 +304,18 @@
 			G6yCf0myuKU1hJG5aYIDvxkXkabxujo6zjsShdUtLRc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Headers/mobile_scanner-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Headers/mobile_scanner-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FZQW5dmIQmIosL3/QcIQePiDpoI=
+			U9aDjcIY8niQnXzHeqTWD6H3vtQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			wowc3cOqt12wSJm2EWrqkTD74tTlXF8VKkZM+i8lcqQ=
+			DhsBFPWz2Nh4rCCci+AWuq+9YtB0FYMyiAd2MV92YMk=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Headers/mobile_scanner-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Headers/mobile_scanner-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -306,7 +326,7 @@
 			w9Tzbs4U5dkhqEwY5G2PnwezHZd6n3Xdybobhseo34c=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -317,18 +337,29 @@
 			fRmEdGeQByeoqb6I+xEwv3SQTg1CHv4pqw9/cNR/j64=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3tpUEA9KBjQO3VASuqZbaSNWJ04=
+			wA9GPRBvB2AByogm+/Fm+LbTjpw=
 			</data>
 			<key>hash2</key>
 			<data>
-			3zviOMeX0DMDjKS8OKiM2pi58TgGfs5HSu6bWwCo98s=
+			kV16um8MK4NrVs86lpRLUfV2cwrUwev9JwhrdZS3EXs=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O4kQDAY5GmA97yrAAR8prMEGdfU=
+			</data>
+			<key>hash2</key>
+			<data>
+			s/h3Ce2cLzaiAviZsZuOcPW+DzbH9BWqWaDLUtW/zT8=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -339,7 +370,51 @@
 			cUe7rD/gz4z8GMNx7WmQYk/95gbosZz2iZD9WncSiPo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cwkvuSMIr3cfDEtw5jOlFxyxxYw=
+			</data>
+			<key>hash2</key>
+			<data>
+			H25bkrOG53GvJy+YJBm9VyV4yC/Y85x4CiVTMEId0FY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PfogAFRhNZjAf3yGBM7ia3vPidw=
+			</data>
+			<key>hash2</key>
+			<data>
+			/lBl4XmLEj1eNMyR+UEJW5LU8qMc6Rx22EQLglUIzR8=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cwkvuSMIr3cfDEtw5jOlFxyxxYw=
+			</data>
+			<key>hash2</key>
+			<data>
+			H25bkrOG53GvJy+YJBm9VyV4yC/Y85x4CiVTMEId0FY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pDUkKsjUTWXJdGaHN7nde4xtOxo=
+			</data>
+			<key>hash2</key>
+			<data>
+			cUe7rD/gz4z8GMNx7WmQYk/95gbosZz2iZD9WncSiPo=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -350,7 +425,7 @@
 			H3W+mpa+T5qGmhm47Js2V9i/VUJFbIMSlSx5sOlt9ws=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -361,7 +436,7 @@
 			0+3zbI+qFFkwP8UVVWZPcjk6h33KdReskPKRo7AVSCY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/mobile_scanner.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -372,7 +447,7 @@
 			H3W+mpa+T5qGmhm47Js2V9i/VUJFbIMSlSx5sOlt9ws=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -383,29 +458,29 @@
 			DlhMdmVwkmyq9Pob5v8XEkwvWMljFhRtQ6dDUqO7jck=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Or/ec+Fff5HwfAFZEg3YT+N/o1Q=
+			KZbGNZOIJOiDnLdRA7iz1zKdqX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			kF1VSf2IQ4xDn0yl3K+avv2TGuQDH2akp5FNIEaFVck=
+			nV3iG5n8rlYkJpk3ZNQq+PUsQVBm3pqJSFTDJbAArBg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/mobile_scanner</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/mobile_scanner</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LwREa/wCMCcBWqmRwqVYn4gfJTU=
+			F0YnilxdJlecvv7yan6K5auYE6c=
 			</data>
 			<key>hash2</key>
 			<data>
-			MI54F0vH3ABbKu5flnfov1KRdzLb8OWheVaLCfsegy0=
+			YTjbxGhtzh3sUMa8DcgyIxarPeDdc8Ess+RciOkUYzM=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/mobile_scanner_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/mobile_scanner_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -416,7 +491,7 @@
 			tGZbXwFmze9DLpUtobj3zva0/P1/nNdTYuFW89oJkzo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/mobile_scanner.framework/mobile_scanner_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/mobile_scanner.framework/mobile_scanner_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>

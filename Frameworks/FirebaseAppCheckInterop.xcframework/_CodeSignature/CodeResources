@@ -44,35 +44,35 @@
 		<data>
 		eACpzL2l8vg8vGL/v82g5d+x1Ig=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/FirebaseAppCheckInterop</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/FirebaseAppCheckInterop</key>
 		<data>
-		v5FdMzql509IKKyf7SW+7YpLOWg=
+		WaqNEazI4jWV1zrnWRHH2dLZYeo=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FIRAppCheckInterop.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FIRAppCheckInterop.h</key>
 		<data>
 		i4P3VfiVwHf/7YyJH4jhtJYXxW0=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FIRAppCheckTokenResultInterop.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FIRAppCheckTokenResultInterop.h</key>
 		<data>
 		xVWF6LnYC4mr+6+X7odpOGjF7w4=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FirebaseAppCheckInterop-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FirebaseAppCheckInterop-umbrella.h</key>
 		<data>
 		BIMUt04wTKGt/Ad4eFJbb0JFuWI=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FirebaseAppCheckInterop.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FirebaseAppCheckInterop.h</key>
 		<data>
 		3s+txujPZk/jjX1DUTw2YtwWKq8=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Info.plist</key>
 		<data>
 		IqzsUL4kQs0eTOS21NiWAM9xtD0=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Modules/module.modulemap</key>
 		<data>
 		w9L0BFybTP1Xhk/EOcOicZUdfkY=
 		</data>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/_CodeSignature/CodeResources</key>
 		<data>
 		MXILLF+/+4OVOaUL7YWEmyVFkLQ=
 		</data>
@@ -189,18 +189,18 @@
 			/Pd9mdcCwrsKphgu8IWQ+oqDyw5gbPwcsgk4J7z9nqI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/FirebaseAppCheckInterop</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/FirebaseAppCheckInterop</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v5FdMzql509IKKyf7SW+7YpLOWg=
+			WaqNEazI4jWV1zrnWRHH2dLZYeo=
 			</data>
 			<key>hash2</key>
 			<data>
-			qcfw6JKMVchM8BicJKHL5lMKnLgsb3bYMhUr3CQkxd8=
+			QmeI2EFcCA4KQ5tohMWqvTP9n0xMppG/oT/haH1ljlI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FIRAppCheckInterop.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FIRAppCheckInterop.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -211,7 +211,7 @@
 			9H3bC5Z5adEjOtzsWPfO71dJraOxxHku8QGGWFYzbB0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FIRAppCheckTokenResultInterop.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FIRAppCheckTokenResultInterop.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -222,7 +222,7 @@
 			VeCsPwt5xPDpzdYUz3Fltl3iaUZ+Dh4wJwW7xsbbx3A=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FirebaseAppCheckInterop-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FirebaseAppCheckInterop-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -233,7 +233,7 @@
 			54Nng2RnfqvhmU2ve/Nrwu2aRQe2g9ENKr0e/lb+0UQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FirebaseAppCheckInterop.h</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Headers/FirebaseAppCheckInterop.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -244,7 +244,7 @@
 			lFNyYQgNRjSd5ywQoOS6WprWX+RJh4BRvUSxOJM/1uY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -255,7 +255,7 @@
 			ISz5FJnE3r2iwpEwPIAnQm812/fZJZXrrANs6F1067s=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -266,7 +266,7 @@
 			/Zv+D2gmO7hwGLJmy0xozuyd0uR3cgegoBkDGsGrMww=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/FirebaseAppCheckInterop.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/FirebaseAppCheckInterop.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>

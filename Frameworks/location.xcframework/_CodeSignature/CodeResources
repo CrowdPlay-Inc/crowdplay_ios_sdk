@@ -36,29 +36,29 @@
 		<data>
 		SbI1R0OIr7SEE8ettP2AAVntPu8=
 		</data>
-		<key>ios-x86_64-simulator/location.framework/Headers/LocationPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/Headers/LocationPlugin.h</key>
 		<data>
 		PFW/OFSwB7jVAgclwB9zK4r07Y8=
 		</data>
-		<key>ios-x86_64-simulator/location.framework/Headers/location-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/Headers/location-umbrella.h</key>
 		<data>
 		0UpvJReQ8/HaqBNp2LU9maXuzR8=
 		</data>
-		<key>ios-x86_64-simulator/location.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/Info.plist</key>
 		<data>
 		dwwnfu4aKTTxX1VpOKZVtKUJ0Bo=
 		</data>
-		<key>ios-x86_64-simulator/location.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/Modules/module.modulemap</key>
 		<data>
 		E2/7sRgv+lDrRmghYJk96Oea2IM=
 		</data>
-		<key>ios-x86_64-simulator/location.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/_CodeSignature/CodeResources</key>
 		<data>
 		3UXrpV4sQ+S7YgNSFlpzml8P/Ww=
 		</data>
-		<key>ios-x86_64-simulator/location.framework/location</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/location</key>
 		<data>
-		JdhPOGIWpiFdE3JCrwSEP2hJrW0=
+		q8j5USRl+6xsM4EyOT7oQV/aybY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -151,7 +151,7 @@
 			1YFJO9Mg8QlejA21WePJDg1Q5rX6ozBB6WpFPV5DOyM=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/location.framework/Headers/LocationPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/Headers/LocationPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -162,7 +162,7 @@
 			JmzGyDqr6BsE/EzhFBLt+/Arc5OJWndz7oToXKgSNlg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/location.framework/Headers/location-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/Headers/location-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -173,7 +173,7 @@
 			2Q+r0IKHH4sCB3H4U41p5IuElqmbOpy8cuIz7KWK6Pc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/location.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -184,7 +184,7 @@
 			qq1uFrUhCpRAGe/oHFATpsVuTGemhJbcgvXBkOAhixc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/location.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -195,7 +195,7 @@
 			gYBQlIC9KWEPue2GWhYDSi8av9HgtIjKTfd6RyUTo0s=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/location.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -206,15 +206,15 @@
 			fDkTDOrhejqDKUUxmB6RvJr3blVKXAS9bdi4MoiK5iU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/location.framework/location</key>
+		<key>ios-arm64_x86_64-simulator/location.framework/location</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JdhPOGIWpiFdE3JCrwSEP2hJrW0=
+			q8j5USRl+6xsM4EyOT7oQV/aybY=
 			</data>
 			<key>hash2</key>
 			<data>
-			drb7sm/rK9ZeWa9x3CcXI581nz6JC2kgxLVrrxEjOAk=
+			mZRvRA5CL5xQPxjTXAJ7lCq+SAE0RigO3hldije2Ls8=
 			</data>
 		</dict>
 	</dict>

@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/app_links.framework/Modules/app_links.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		gByhcI/uICLNqoJivKjPW1ZmjG0=
+		HJ5pz4cSzZOSG0HOMQnexeiZzmA=
 		</data>
 		<key>ios-arm64/app_links.framework/Modules/app_links.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -58,61 +58,81 @@
 		</data>
 		<key>ios-arm64/dSYMs/app_links.framework.dSYM/Contents/Resources/DWARF/app_links</key>
 		<data>
-		+PAXFOzqVY80OpZnKvs41wZgRCk=
+		65+NednYyfhYSBve4Zup/adg1N0=
 		</data>
 		<key>ios-arm64/dSYMs/app_links.framework.dSYM/Contents/Resources/Relocations/aarch64/app_links.yml</key>
 		<data>
 		v9ADO1nza/1/v/hTSb4bFyI0p0o=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/Headers/app_links-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Headers/app_links-Swift.h</key>
 		<data>
-		zHR88mVLwtCqICLoVkEOvKU3cKc=
+		W2L9L5a/olRsEHywt3JpHp3IG4s=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/Headers/app_links-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Headers/app_links-umbrella.h</key>
 		<data>
 		VU7JXuAM09ytc16lD6Iz6surlkY=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Info.plist</key>
 		<data>
 		DGXyu7ucNtASHRfSgzPQnKY6JBs=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		QOBfeexejCky2q1IPxsJCKtoENA=
+		qCcmymmyj6zWH0YkZP3vEVpit4s=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		cp+VWm2LHmKgsASiE873smRO7JY=
+		</data>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		Y+zDDlTqp9snC3uNApHvX6iql+4=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		9I4Egg78Fvk+9W/dlPYg57B1ThE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		w1+6+bC6iMuN+5banbmabVTofHo=
+		</data>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		9I4Egg78Fvk+9W/dlPYg57B1ThE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		Y+zDDlTqp9snC3uNApHvX6iql+4=
+		</data>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
 		A7NeOgklOB3b3HR7oOZe+JU3TYY=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		hrxFGwuTbVnf5uUDXRuLbdiMEaw=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
 		A7NeOgklOB3b3HR7oOZe+JU3TYY=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/module.modulemap</key>
 		<data>
 		hs4n00h/od0Ul8lR4ERkJpc84c0=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/_CodeSignature/CodeResources</key>
 		<data>
-		S6RydzGjgCefm6aMTUaJhnBxlsU=
+		6B6deZBqp5VE9pwmkhrMxK/SH4A=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/app_links</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/app_links</key>
 		<data>
-		x2MzVpQ79AZd/U6w0ds+c/CF9UA=
+		jou3TlEssKT17qpUkbHibApvy9Y=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/app_links_ios_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/app_links_ios_privacy.bundle/Info.plist</key>
 		<data>
 		aHPqrLx75EmwAN8x+wkKNYW8kIU=
 		</data>
-		<key>ios-x86_64-simulator/app_links.framework/app_links_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/app_links_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		ctJ8uuPk/wINW1DahmFV+yMfr2M=
 		</data>
@@ -156,11 +176,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gByhcI/uICLNqoJivKjPW1ZmjG0=
+			HJ5pz4cSzZOSG0HOMQnexeiZzmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4XFIWshXx2Ne2BtQbYNf5sLpxyeYFkRzFAt4dXPLxbk=
+			hvBwOL6+CUf301yK+gKKMRTBVenWvUpt8FCo6xjvyHw=
 			</data>
 		</dict>
 		<key>ios-arm64/app_links.framework/Modules/app_links.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -266,11 +286,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+PAXFOzqVY80OpZnKvs41wZgRCk=
+			65+NednYyfhYSBve4Zup/adg1N0=
 			</data>
 			<key>hash2</key>
 			<data>
-			eVkmYex03V5glluwcQiceDdok6w5qj9IOKv8PTL0rNA=
+			RGLOBstxqZGsXZgXvz1Z7mhe/zUyUi2VrYG8grJ4X7U=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/app_links.framework.dSYM/Contents/Resources/Relocations/aarch64/app_links.yml</key>
@@ -284,18 +304,18 @@
 			k6dfoI9nfUKh/uKjfOP4YeUuAamQ5tsm6RdLrbZl1Ks=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/Headers/app_links-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Headers/app_links-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zHR88mVLwtCqICLoVkEOvKU3cKc=
+			W2L9L5a/olRsEHywt3JpHp3IG4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			3PFpNKHOQCaqqOSNVOnGpGJOgTfnNrzdvap4JOdtyLI=
+			qcbH5Lx8TnUN0ujqgIDeoBmxXpD5WNhXB318RG2VfqI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/Headers/app_links-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Headers/app_links-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -306,7 +326,7 @@
 			QdMVHfkyxuYwv4aqGOfdcrU7xi5Xj9rBZ7dR5TkecCk=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -317,18 +337,29 @@
 			TgNJmhuC2JAxM7rxNyb1ibw/F+3by23NHTo1mGoSzyw=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QOBfeexejCky2q1IPxsJCKtoENA=
+			qCcmymmyj6zWH0YkZP3vEVpit4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			uGKVAzCkZ3tfkG07bas7dOGuF+INCWtoFDx9bmdAYao=
+			4fo0iZXM34pP5SUiKNsW/oZKFvOEquURpRI1DaEiJf0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cp+VWm2LHmKgsASiE873smRO7JY=
+			</data>
+			<key>hash2</key>
+			<data>
+			E8OZ0sG4n/+ebSlz1p+HASx6m2oU5Cta/yPvSbQXadE=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -339,7 +370,51 @@
 			kDThgvSZCbv3JkfyEL0ZbcBUBX+w7pX5e1TWarX2FSU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9I4Egg78Fvk+9W/dlPYg57B1ThE=
+			</data>
+			<key>hash2</key>
+			<data>
+			J5LeGVKtu7j/oCangRo8B7HT6TxycTrGJ/6o5fCwnR0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w1+6+bC6iMuN+5banbmabVTofHo=
+			</data>
+			<key>hash2</key>
+			<data>
+			ljCuHEYGXkjAZtVxK5T8QEtR/O/BlYhLOSzn5dd48Xc=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9I4Egg78Fvk+9W/dlPYg57B1ThE=
+			</data>
+			<key>hash2</key>
+			<data>
+			J5LeGVKtu7j/oCangRo8B7HT6TxycTrGJ/6o5fCwnR0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y+zDDlTqp9snC3uNApHvX6iql+4=
+			</data>
+			<key>hash2</key>
+			<data>
+			kDThgvSZCbv3JkfyEL0ZbcBUBX+w7pX5e1TWarX2FSU=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -350,7 +425,7 @@
 			Samm6PfFELQu3W0oMqAqOxiLbqg5jrpX0n5ypH4y4pc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -361,7 +436,7 @@
 			PU9TcHdHibHiAA53PY7rsEawzX0oH5RpjeysCjeTMiY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/app_links.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -372,7 +447,7 @@
 			Samm6PfFELQu3W0oMqAqOxiLbqg5jrpX0n5ypH4y4pc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -383,29 +458,29 @@
 			wy62Nu/BqH4XzRO/QmnfJdyWAkpgAuhjjgbQXgh96Z8=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S6RydzGjgCefm6aMTUaJhnBxlsU=
+			6B6deZBqp5VE9pwmkhrMxK/SH4A=
 			</data>
 			<key>hash2</key>
 			<data>
-			4kpwvdNhtKOZMLYyOW3u1/4paGeOG5F20q27UJAea5s=
+			V/NF6e7A9pZM1RNY/G5WK5ATriTm8ZUq3MA1TuzOg5k=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/app_links</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/app_links</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x2MzVpQ79AZd/U6w0ds+c/CF9UA=
+			jou3TlEssKT17qpUkbHibApvy9Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			/hdWCjNJjDIYpBqNUh4STFR7mXX8o+HkW9dcXgGx8ic=
+			gs3Z2e+TyHFmJI/C+06pdZ5ftU+RuJqAGmBkRtFuZLE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/app_links_ios_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/app_links_ios_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -416,7 +491,7 @@
 			A5XSJbKxnqSGqfFIyIktGnoh61KAZJKt6fUU2V9sk8g=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/app_links.framework/app_links_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/app_links.framework/app_links_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>

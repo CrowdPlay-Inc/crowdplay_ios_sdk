@@ -1,0 +1,217 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios10.3-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name CryptorRSA
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CommonCrypto
+@_exported import CryptorRSA
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @available(macOS 10.12, iOS 10.3, watchOS 3.3, tvOS 12.0, *)
+public class CryptorRSA {
+  public class func createPlaintext(with data: Foundation.Data) -> CryptorRSA.CryptorRSA.PlaintextData
+  public class func createPlaintext(with string: Swift.String, using encoding: Swift.String.Encoding) throws -> CryptorRSA.CryptorRSA.PlaintextData
+  public class func createEncrypted(with data: Foundation.Data) -> CryptorRSA.CryptorRSA.EncryptedData
+  public class func createEncrypted(with base64String: Swift.String) throws -> CryptorRSA.CryptorRSA.EncryptedData
+  public class func createSigned(with data: Foundation.Data) -> CryptorRSA.CryptorRSA.SignedData
+  @_hasMissingDesignatedInitializers public class RSAData {
+    public enum DataType {
+      case plaintextType
+      case encryptedType
+      case signedType
+      public static func == (a: CryptorRSA.CryptorRSA.RSAData.DataType, b: CryptorRSA.CryptorRSA.RSAData.DataType) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+    final public let data: Foundation.Data
+    public var type: CryptorRSA.CryptorRSA.RSAData.DataType {
+      get
+    }
+    public var base64String: Swift.String {
+      get
+    }
+    public func encrypted(with key: CryptorRSA.CryptorRSA.PublicKey, algorithm: Foundation.Data.Algorithm) throws -> CryptorRSA.CryptorRSA.EncryptedData?
+    public func decrypted(with key: CryptorRSA.CryptorRSA.PrivateKey, algorithm: Foundation.Data.Algorithm) throws -> CryptorRSA.CryptorRSA.PlaintextData?
+    public func signed(with key: CryptorRSA.CryptorRSA.PrivateKey, algorithm: Foundation.Data.Algorithm, usePSS: Swift.Bool = false) throws -> CryptorRSA.CryptorRSA.SignedData?
+    public func verify(with key: CryptorRSA.CryptorRSA.PublicKey, signature: CryptorRSA.CryptorRSA.SignedData, algorithm: Foundation.Data.Algorithm, usePSS: Swift.Bool = false) throws -> Swift.Bool
+    public func digest(using algorithm: Foundation.Data.Algorithm) throws -> Foundation.Data
+    public func string(using encoding: Swift.String.Encoding) throws -> Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers public class PlaintextData : CryptorRSA.CryptorRSA.RSAData {
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers public class EncryptedData : CryptorRSA.CryptorRSA.RSAData {
+    public init(with data: Foundation.Data)
+    public init(withBase64 base64String: Swift.String) throws
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers public class SignedData : CryptorRSA.CryptorRSA.RSAData {
+    public init(with data: Foundation.Data)
+    @objc deinit
+  }
+  @objc deinit
+}
+@available(macOS 10.12, iOS 10.3, watchOS 3.3, tvOS 12.0, *)
+extension CryptorRSA.CryptorRSA {
+  public static let CER_SUFFIX: Swift.String
+  public static let PEM_SUFFIX: Swift.String
+  public static let DER_SUFFIX: Swift.String
+  public static let PEM_BEGIN_MARKER: Swift.String
+  public static let PEM_END_MARKER: Swift.String
+  public static let PK_BEGIN_MARKER: Swift.String
+  public static let PK_END_MARKER: Swift.String
+  public static let SK_BEGIN_MARKER: Swift.String
+  public static let SK_END_MARKER: Swift.String
+  public static let GENERIC_BEGIN_MARKER: Swift.String
+  public static let GENERIC_END_MARKER: Swift.String
+}
+extension Foundation.Data {
+  public enum Algorithm {
+    case sha1
+    case sha224
+    case sha256
+    case sha384
+    case sha512
+    case gcm
+    public var length: CommonCrypto.CC_LONG {
+      get
+    }
+    @available(macOS 10.12, iOS 10.0, watchOS 3.3, tvOS 12.0, *)
+    public var algorithmForSignature: Security.SecKeyAlgorithm {
+      get
+    }
+    @available(macOS 10.12, iOS 10.0, watchOS 3.3, tvOS 12.0, *)
+    public var alogrithmForEncryption: Security.SecKeyAlgorithm {
+      get
+    }
+    public var engine: (_ data: Swift.UnsafeRawPointer, _ len: CommonCrypto.CC_LONG, _ md: Swift.UnsafeMutablePointer<Swift.UInt8>) -> Swift.UnsafeMutablePointer<Swift.UInt8>? {
+      get
+    }
+    public static func == (a: Foundation.Data.Algorithm, b: Foundation.Data.Algorithm) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public func digest(using alogorithm: Foundation.Data.Algorithm) throws -> Foundation.Data
+}
+@available(macOS 10.12, iOS 10.3, watchOS 3.3, tvOS 12.0, *)
+extension CryptorRSA.CryptorRSA {
+  public static let ERR_DOMAIN: Swift.String
+  public static let ERR_ADD_KEY: Swift.Int
+  public static let ERR_DELETE_KEY: Swift.Int
+  public static let ERR_STRIP_PK_HEADER: Swift.Int
+  public static let ERR_INIT_PK: Swift.Int
+  public static let ERR_BASE64_PEM_DATA: Swift.Int
+  public static let ERR_STRING_ENCODING: Swift.Int
+  public static let ERR_KEY_NOT_PUBLIC: Swift.Int
+  public static let ERR_KEY_NOT_PRIVATE: Swift.Int
+  public static let ERR_NOT_ENCRYPTED: Swift.Int
+  public static let ERR_ENCRYPTION_FAILED: Swift.Int
+  public static let ERR_NOT_SIGNED_DATA: Swift.Int
+  public static let ERR_NOT_PLAINTEXT: Swift.Int
+  public static let ERR_DECRYPTION_FAILED: Swift.Int
+  public static let ERR_SIGNING_FAILED: Swift.Int
+  public static let ERR_VERIFICATION_FAILED: Swift.Int
+  public static let ERR_CREATE_CERT_FAILED: Swift.Int
+  public static let ERR_EXTRACT_PUBLIC_KEY_FAILED: Swift.Int
+  public static let ERR_EXTRACT_PRIVATE_KEY_FAILED: Swift.Int
+  public static let ERR_NOT_IMPLEMENTED: Swift.Int
+  public struct Error : Swift.Error, Swift.CustomStringConvertible {
+    public let domain: Swift.String
+    public var errorCode: Swift.Int32 {
+      get
+    }
+    public var errorReason: Swift.String? {
+      get
+    }
+    public var description: Swift.String {
+      get
+    }
+    public init(code: Swift.Int, reason: Swift.String?)
+  }
+}
+@available(macOS 10.12, iOS 10.3, watchOS 3.3, tvOS 12.0, *)
+extension CryptorRSA.CryptorRSA {
+  public typealias NativeKey = Security.SecKey
+  public class func createPublicKey(with data: Foundation.Data) throws -> CryptorRSA.CryptorRSA.PublicKey
+  public class func createPublicKey(extractingFrom data: Foundation.Data) throws -> CryptorRSA.CryptorRSA.PublicKey
+  public class func createPublicKey(withBase64 base64String: Swift.String) throws -> CryptorRSA.CryptorRSA.PublicKey
+  public class func createPublicKey(withPEM pemString: Swift.String) throws -> CryptorRSA.CryptorRSA.PublicKey
+  public class func createPublicKey(withPEMNamed pemName: Swift.String, onPath path: Swift.String) throws -> CryptorRSA.CryptorRSA.PublicKey
+  public class func createPublicKey(withDERNamed derName: Swift.String, onPath path: Swift.String) throws -> CryptorRSA.CryptorRSA.PublicKey
+  public class func createPublicKey(extractingFrom certName: Swift.String, onPath path: Swift.String) throws -> CryptorRSA.CryptorRSA.PublicKey
+  public class func createPublicKey(withPEMNamed pemName: Swift.String, in bundle: Foundation.Bundle = Bundle.main) throws -> CryptorRSA.CryptorRSA.PublicKey
+  public class func createPublicKey(withDERNamed derName: Swift.String, in bundle: Foundation.Bundle = Bundle.main) throws -> CryptorRSA.CryptorRSA.PublicKey
+  public class func createPublicKey(extractingFrom certName: Swift.String, in bundle: Foundation.Bundle = Bundle.main) throws -> CryptorRSA.CryptorRSA.PublicKey
+  public class func createPrivateKey(with data: Foundation.Data) throws -> CryptorRSA.CryptorRSA.PrivateKey
+  public class func createPrivateKey(withBase64 base64String: Swift.String) throws -> CryptorRSA.CryptorRSA.PrivateKey
+  public class func createPrivateKey(withPEM pemString: Swift.String) throws -> CryptorRSA.CryptorRSA.PrivateKey
+  public class func createPrivateKey(withPEMNamed pemName: Swift.String, onPath path: Swift.String) throws -> CryptorRSA.CryptorRSA.PrivateKey
+  public class func createPrivateKey(withDERNamed derName: Swift.String, onPath path: Swift.String) throws -> CryptorRSA.CryptorRSA.PrivateKey
+  public class func createPrivateKey(withPEMNamed pemName: Swift.String, in bundle: Foundation.Bundle = Bundle.main) throws -> CryptorRSA.CryptorRSA.PrivateKey
+  public class func createPrivateKey(withDERNamed derName: Swift.String, in bundle: Foundation.Bundle = Bundle.main) throws -> CryptorRSA.CryptorRSA.PrivateKey
+  public class func makeKeyPair(_ keySize: CryptorRSA.CryptorRSA.RSAKey.KeySize) throws -> (CryptorRSA.CryptorRSA.PrivateKey, CryptorRSA.CryptorRSA.PublicKey)
+  @_hasMissingDesignatedInitializers public class RSAKey {
+    public enum KeyType {
+      case publicType
+      case privateType
+      public static func == (a: CryptorRSA.CryptorRSA.RSAKey.KeyType, b: CryptorRSA.CryptorRSA.RSAKey.KeyType) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+    public struct KeySize {
+      public static let bits1024: CryptorRSA.CryptorRSA.RSAKey.KeySize
+      public static let bits2048: CryptorRSA.CryptorRSA.RSAKey.KeySize
+      public static let bits3072: CryptorRSA.CryptorRSA.RSAKey.KeySize
+      public static let bits4096: CryptorRSA.CryptorRSA.RSAKey.KeySize
+    }
+    final public let pemString: Swift.String
+    public var type: CryptorRSA.CryptorRSA.RSAKey.KeyType {
+      get
+    }
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers public class PublicKey : CryptorRSA.CryptorRSA.RSAKey {
+    public static func publicKeys(withPEM pemString: Swift.String) -> [CryptorRSA.CryptorRSA.PublicKey]
+    public init(with data: Foundation.Data) throws
+    public init(with nativeKey: CryptorRSA.CryptorRSA.NativeKey)
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers public class PrivateKey : CryptorRSA.CryptorRSA.RSAKey {
+    public init(with data: Foundation.Data) throws
+    public init(with nativeKey: CryptorRSA.CryptorRSA.NativeKey)
+    @objc deinit
+  }
+}
+@available(macOS 10.12, iOS 10.3, watchOS 3.3, tvOS 12.0, *)
+extension CryptorRSA.CryptorRSA {
+  public static func createKey(from keyData: Foundation.Data, type: CryptorRSA.CryptorRSA.RSAKey.KeyType) throws -> CryptorRSA.CryptorRSA.NativeKey
+  public static func convertDerToPem(from derData: Foundation.Data, type: CryptorRSA.CryptorRSA.RSAKey.KeyType) -> Swift.String
+  public static func base64String(for pemString: Swift.String) throws -> Swift.String
+  public static func stripX509CertificateHeader(for keyData: Foundation.Data) throws -> Foundation.Data
+  public static func addX509CertificateHeader(for keyData: Foundation.Data) -> Foundation.Data
+}
+extension CoreFoundation.CFString : Swift.Hashable {
+  public var hashValue: Swift.Int {
+    get
+  }
+  public static func == (lhs: CoreFoundation.CFString, rhs: CoreFoundation.CFString) -> Swift.Bool
+}
+@available(macOS 10.12, iOS 10.3, watchOS 3.3, tvOS 12.0, *)
+extension CryptorRSA.CryptorRSA.RSAData.DataType : Swift.Equatable {}
+@available(macOS 10.12, iOS 10.3, watchOS 3.3, tvOS 12.0, *)
+extension CryptorRSA.CryptorRSA.RSAData.DataType : Swift.Hashable {}
+extension Foundation.Data.Algorithm : Swift.Equatable {}
+extension Foundation.Data.Algorithm : Swift.Hashable {}
+@available(macOS 10.12, iOS 10.3, watchOS 3.3, tvOS 12.0, *)
+extension CryptorRSA.CryptorRSA.RSAKey.KeyType : Swift.Equatable {}
+@available(macOS 10.12, iOS 10.3, watchOS 3.3, tvOS 12.0, *)
+extension CryptorRSA.CryptorRSA.RSAKey.KeyType : Swift.Hashable {}

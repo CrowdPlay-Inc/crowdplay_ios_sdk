@@ -36,57 +36,57 @@
 		<data>
 		20/LlW4SXHaij1dRWoGg7Ak8TTg=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/Headers/FLTFirebaseCorePlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/FLTFirebaseCorePlugin.h</key>
 		<data>
 		dj4y5wcHGYlrJFv9kWE+6uwebzo=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/Headers/FLTFirebasePlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/FLTFirebasePlugin.h</key>
 		<data>
 		snfpemVdxv1F8wPcv+obeU57zm0=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/Headers/FLTFirebasePluginRegistry.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/FLTFirebasePluginRegistry.h</key>
 		<data>
 		aUYszQe+qvqVcUXrNyhIvA4v00g=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/Headers/firebase_core-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/firebase_core-umbrella.h</key>
 		<data>
 		RaDP9izqWMCwqFvUTyFZ1ePt9+Q=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/Headers/messages.g.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/messages.g.h</key>
 		<data>
 		otmI4me4ph/plOx5JWmOEyZhheY=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Info.plist</key>
 		<data>
 		UV2bsiXrRKbRdypK4MIQgSNSmGw=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Modules/module.modulemap</key>
 		<data>
 		z8Xwzs+B9M89S2pBBHblfD9L98w=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/_CodeSignature/CodeDirectory</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		eAcVmeyXyCQei1f3nAOr3JnsJu4=
+		rx91kAZvUBBdnKBQkgBaduG+pFY=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements</key>
 		<data>
 		OnX22wWFKRSOFN1+obRynMCeyXM=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements-1</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		Oi5e5svLBmG5ryZwIwUKsPEmkjg=
+		lHnKGafdZaYLAO1IK9IJDXkO8Ds=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeResources</key>
 		<data>
 		uQL40aGdD+dnVzqtaZeVPWEe5Ro=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/_CodeSignature/CodeSignature</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeSignature</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
-		<key>ios-x86_64-simulator/firebase_core.framework/firebase_core</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/firebase_core</key>
 		<data>
-		xo2CsyWPDHlX1ictuqS3z1B6SJM=
+		0LvxHN65NuwpQR2DmagqL/CnRS4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -179,7 +179,7 @@
 			BbEU/iQbo+nZ6IOYtYBiKiWfkalf7X/1Kv+hEUVRyb4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/Headers/FLTFirebaseCorePlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/FLTFirebaseCorePlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -190,7 +190,7 @@
 			JRisA1gzwrhNRSJBerUf3rILnf6M1/3egFYFfp6PuGs=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/Headers/FLTFirebasePlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/FLTFirebasePlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -201,7 +201,7 @@
 			ht0NeM9JO5qPYWdRT5UI179vjEPUeoDcF2xsD/NBSvQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/Headers/FLTFirebasePluginRegistry.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/FLTFirebasePluginRegistry.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -212,7 +212,7 @@
 			8Kk7LfApy8MQldjt4bveNWz7H19jZoBSyC5GoURqj8o=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/Headers/firebase_core-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/firebase_core-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -223,7 +223,7 @@
 			Opuvvzrr+S9g9om4ztiy7oBtgGwHtjp4m3pNCi64sww=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/Headers/messages.g.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/messages.g.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -234,7 +234,7 @@
 			9is4ODTEu+B2F7FUyXe94vrp9qx/WWF6P+bmJjXTKLs=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -245,7 +245,7 @@
 			XcE+p7dio4a2Nx3jdo7OOpzJFlJvQ8uNeJm5E4VDRo0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -256,18 +256,18 @@
 			u+Mx31T5uqn18D0/a1grpwZaBXGTd+SNSXtjQTWiG9A=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/_CodeSignature/CodeDirectory</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eAcVmeyXyCQei1f3nAOr3JnsJu4=
+			rx91kAZvUBBdnKBQkgBaduG+pFY=
 			</data>
 			<key>hash2</key>
 			<data>
-			oo6NIZ4xgQEvcvbKvZoJVv5TwmmqXKaEsw2yCpy3p3w=
+			a+d3lOULDdYKWSZ10acfI5CVIgfggf9vh4WgzF+Cpzs=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -278,18 +278,18 @@
 			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements-1</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements-1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Oi5e5svLBmG5ryZwIwUKsPEmkjg=
+			lHnKGafdZaYLAO1IK9IJDXkO8Ds=
 			</data>
 			<key>hash2</key>
 			<data>
-			sziED00rHBTinqHNPExEAH6XjjJD1VJ31bE62FRbaYM=
+			DnCDrBUbLNSJJGpzkcphm4m2Czx4HBgq53KeNOPoqg4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -300,7 +300,7 @@
 			vD6TPMUPu/QNvM/RF2SHLT58Rq/VrISZvil/nNOP0ak=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/_CodeSignature/CodeSignature</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -311,15 +311,15 @@
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_core.framework/firebase_core</key>
+		<key>ios-arm64_x86_64-simulator/firebase_core.framework/firebase_core</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xo2CsyWPDHlX1ictuqS3z1B6SJM=
+			0LvxHN65NuwpQR2DmagqL/CnRS4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xTw3kvbCgH5CNUffYnGvjvHL4GjmDVIPahicP/VfhVY=
+			2Ml1/P6POSogIlEL2++CY+lzuF6WTMlU+87gndYvKi4=
 			</data>
 		</dict>
 	</dict>

@@ -56,47 +56,47 @@
 		<data>
 		KY5lfwC2TvsgFj4wt7hkMmainbs=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/Headers/nanopb-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Headers/nanopb-umbrella.h</key>
 		<data>
 		3AHKVvUiwH5st6WulWFEieJUQMI=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/Headers/pb.h</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Headers/pb.h</key>
 		<data>
 		UqjkVSHa0JaGAG6o5iLn2VHyRz8=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/Headers/pb_common.h</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Headers/pb_common.h</key>
 		<data>
 		AdSOtv4HeHxYwkFyKB6MbxGs1Ns=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/Headers/pb_decode.h</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Headers/pb_decode.h</key>
 		<data>
 		71k8w9HgFHTP3y98V/i9ExE9UYU=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/Headers/pb_encode.h</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Headers/pb_encode.h</key>
 		<data>
 		10Gl/I0zZ+VjzMR3fBWtHOWdRWI=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Info.plist</key>
 		<data>
 		MUt/1Gy0a9EhLFsqqCAbe+7qzfc=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Modules/module.modulemap</key>
 		<data>
 		VE0n+HvVm7YDki/SnnYSYzJdaOE=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/_CodeSignature/CodeResources</key>
 		<data>
 		xtykdBXfvPba6jorxe0O2ifizb0=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/nanopb</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/nanopb</key>
 		<data>
-		I0i2RKvLBhUKP8WSntosltp45J8=
+		mKDTi1wA722s/xGMTcsj6PdRDao=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/nanopb_Privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/nanopb_Privacy.bundle/Info.plist</key>
 		<data>
 		OgybtqbwU0W+EqOQx2z6fpL+/Ss=
 		</data>
-		<key>ios-x86_64-simulator/nanopb.framework/nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		KY5lfwC2TvsgFj4wt7hkMmainbs=
 		</data>
@@ -246,7 +246,7 @@
 			cpujy9D0WMeM1h7fFzUO2v4ONMqG4xTsZMjLIszSG1Q=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/Headers/nanopb-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Headers/nanopb-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -257,7 +257,7 @@
 			ua0swQdCw9NqdpzW1vnyfp6Sep7qcaFrByRxT8BolY0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/Headers/pb.h</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Headers/pb.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -268,7 +268,7 @@
 			3LSuMkz44oXe0P+KGiCFLz8t/dsF7FSOw/TEQQ83iTs=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/Headers/pb_common.h</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Headers/pb_common.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -279,7 +279,7 @@
 			PtDnUYzSxgTyYx84uo0xGdqu6zxbOcttuWjKVAMtdUE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/Headers/pb_decode.h</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Headers/pb_decode.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -290,7 +290,7 @@
 			rf5T82EuZcRWFPEpIm6LAN3nzI8c9+0y61h2WYpbKJQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/Headers/pb_encode.h</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Headers/pb_encode.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -301,7 +301,7 @@
 			dkrujnmALgdV5dKQgyNrFEoK8J2t4B7vx4f6a6p0q4Q=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -312,7 +312,7 @@
 			GealAlA6/KmkSx0EcOJSlSYjR/teEzTfdX/DvuuRlyM=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -323,7 +323,7 @@
 			964ewTQFnBAQHHPXRiTBEL9kMV+4JU4sMGWXVlK03/s=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -334,18 +334,18 @@
 			LjXH9aXN0snb3aj7ajiW7a3limdI7FB1KOeSXOnA/oM=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/nanopb</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/nanopb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I0i2RKvLBhUKP8WSntosltp45J8=
+			mKDTi1wA722s/xGMTcsj6PdRDao=
 			</data>
 			<key>hash2</key>
 			<data>
-			arpW4/NWXYs6B/toSKq5BbD4LlFTA3riYpQOSDVSV2U=
+			Dph/FGtXWwxL9jSGv23OcmEta9rCfsMlrOYRj3R2310=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/nanopb_Privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/nanopb_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -356,7 +356,7 @@
 			3TH2dBNYR5qT4iwX5u0LROl2mtYLS1K/3fr4BLvKE8I=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/nanopb.framework/nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/nanopb.framework/nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>

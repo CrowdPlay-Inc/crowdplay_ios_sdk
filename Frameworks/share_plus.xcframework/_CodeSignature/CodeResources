@@ -44,35 +44,35 @@
 		<data>
 		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
-		<key>ios-x86_64-simulator/share_plus.framework/Headers/FPPSharePlusPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/Headers/FPPSharePlusPlugin.h</key>
 		<data>
 		ib4KyXwSDVsaFGiT08uoa4h/RxA=
 		</data>
-		<key>ios-x86_64-simulator/share_plus.framework/Headers/share_plus-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/Headers/share_plus-umbrella.h</key>
 		<data>
 		/EK3HlFuqx47mflbnNOQmeSPC2E=
 		</data>
-		<key>ios-x86_64-simulator/share_plus.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/Info.plist</key>
 		<data>
 		mzpfUnWIqkc3Yb7j59wQfzQmSL4=
 		</data>
-		<key>ios-x86_64-simulator/share_plus.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/Modules/module.modulemap</key>
 		<data>
 		Uy4pX3plzTC2T2bCnFdgakT6VyY=
 		</data>
-		<key>ios-x86_64-simulator/share_plus.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/_CodeSignature/CodeResources</key>
 		<data>
 		aI84jR2X4oPVtUHs9W1wiAfe00g=
 		</data>
-		<key>ios-x86_64-simulator/share_plus.framework/share_plus</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/share_plus</key>
 		<data>
-		IwVrHGOpLfnd7qd8+NJNAMGEFKc=
+		3l41mITLTnZ+5SLsbjo9/X7iuuI=
 		</data>
-		<key>ios-x86_64-simulator/share_plus.framework/share_plus_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/share_plus_privacy.bundle/Info.plist</key>
 		<data>
 		ReVGQD5opYuvQW3wc8YfZFeSWV0=
 		</data>
-		<key>ios-x86_64-simulator/share_plus.framework/share_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/share_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
@@ -189,7 +189,7 @@
 			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/share_plus.framework/Headers/FPPSharePlusPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/Headers/FPPSharePlusPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -200,7 +200,7 @@
 			aHKDCOiZdgXJ28VG80oWXjEY72oJapPyhfztvFfCVH0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/share_plus.framework/Headers/share_plus-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/Headers/share_plus-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -211,7 +211,7 @@
 			djWC1c4X6AHd40AOwZzQmmynmUMFf6w9gQHrWBHTrSo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/share_plus.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -222,7 +222,7 @@
 			cINv43BX2UZ2HfB78a88sCAOtfzEX/OF+KDRo0tNoHE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/share_plus.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -233,7 +233,7 @@
 			39JoytFZnbxsQE3Y7nERznrRSXkw3uvJzC/jUocPB2M=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/share_plus.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -244,18 +244,18 @@
 			pds7mSQm5ehulUkmV0VGCPZeSGoUIVacvXhmSR0/nJo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/share_plus.framework/share_plus</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/share_plus</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IwVrHGOpLfnd7qd8+NJNAMGEFKc=
+			3l41mITLTnZ+5SLsbjo9/X7iuuI=
 			</data>
 			<key>hash2</key>
 			<data>
-			/4m3PIKOyZYL8fl/XDjmGM+WQwmmOUdeWAQZrrZygsM=
+			nGYJq6lHdCDqAXOGGAtrCTECuPDTlDhucA4MH380/KA=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/share_plus.framework/share_plus_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/share_plus_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -266,7 +266,7 @@
 			GdWAZoF+Vw7CdXMYFXOkOcEPzy3DwGMRQy51umbBivE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/share_plus.framework/share_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/share_plus.framework/share_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>

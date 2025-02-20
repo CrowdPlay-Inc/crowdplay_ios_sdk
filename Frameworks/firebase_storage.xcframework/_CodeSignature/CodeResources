@@ -32,53 +32,53 @@
 		<data>
 		+KdIabrkVGB0rpN+IzcpZoCyHS0=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Headers/FLTFirebaseStoragePlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Headers/FLTFirebaseStoragePlugin.h</key>
 		<data>
 		XuyMl7KJcZ3TCQMHRFgPk+tYRQA=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Headers/FLTTaskStateChannelStreamHandler.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Headers/FLTTaskStateChannelStreamHandler.h</key>
 		<data>
 		rZm8RdoYCN9f2rF9kjqtGvWVmOg=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Headers/firebase_storage-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Headers/firebase_storage-umbrella.h</key>
 		<data>
 		FFILh0z2ftHrf7Z2OB3hIbmu6WA=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Headers/firebase_storage_messages.g.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Headers/firebase_storage_messages.g.h</key>
 		<data>
 		ORYMdEO0MA3VOL5FTH7EUKcY0AU=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Info.plist</key>
 		<data>
 		fvJbhxK24LNusiaOysm9MtnDI80=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Modules/module.modulemap</key>
 		<data>
 		6mwsUuxS0Veqn/zl5Ef5E/Jnm40=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeDirectory</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		kxqTxfmg1HLihLjBLoUsSBht5mk=
+		Ll+NvXMCYICPQ0HJ/kYhNKdl0C4=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeRequirements</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeRequirements</key>
 		<data>
 		OnX22wWFKRSOFN1+obRynMCeyXM=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeRequirements-1</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		5Gsz55G/boDlKbTukeKXWMQ4lqg=
+		Fj+dIG3dEr9HYop8/Ykus0tQT7I=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeResources</key>
 		<data>
 		Ud18LoRlTtpgQFGs+MFS3v7dq78=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeSignature</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeSignature</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
-		<key>ios-x86_64-simulator/firebase_storage.framework/firebase_storage</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/firebase_storage</key>
 		<data>
-		gX5q9YNSeCcy0K85tnNhfoKfY6M=
+		tkN+0WDo+QaKBmp6nX+OGAHRy1g=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -160,7 +160,7 @@
 			a4BuONq/eOjcGBc+8Pbf1vS5F+TovaGAdPelfyQ5mpU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Headers/FLTFirebaseStoragePlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Headers/FLTFirebaseStoragePlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -171,7 +171,7 @@
 			//ba+quvvxKOidIlk35cCfPPEC4kmmEXNG4h5UV5ij0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Headers/FLTTaskStateChannelStreamHandler.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Headers/FLTTaskStateChannelStreamHandler.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -182,7 +182,7 @@
 			vJnweQw0B8GsOOdFVHzRHUQhJ1jjp1VxjVXPngaegOE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Headers/firebase_storage-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Headers/firebase_storage-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -193,7 +193,7 @@
 			R72iXg46itrVNTbzpn5xJtp/l6hA5zptUfPjE2l9H2k=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Headers/firebase_storage_messages.g.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Headers/firebase_storage_messages.g.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -204,7 +204,7 @@
 			FX1JqYvxkInLwJk7jc+OQK/C94DNXUhQShLcbVwQXg4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -215,7 +215,7 @@
 			U9QxFJWvUvcljZClZj1xB76OwS6PTklt5mPvp+Q0rUw=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -226,18 +226,18 @@
 			qSt10w3E7bKp5PKPdXsDKZoSDP9mjiesOz5rDLAGKDA=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeDirectory</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kxqTxfmg1HLihLjBLoUsSBht5mk=
+			Ll+NvXMCYICPQ0HJ/kYhNKdl0C4=
 			</data>
 			<key>hash2</key>
 			<data>
-			9TvpXYkpkIfapzLu/xA9e3/kIqeXKnLfAb6j3b+g1Ow=
+			GLZrREnJHdSWfK7Z7q9W7zbhY/0zu/2WA1r23rE3U+Q=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeRequirements</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeRequirements</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -248,18 +248,18 @@
 			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeRequirements-1</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeRequirements-1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5Gsz55G/boDlKbTukeKXWMQ4lqg=
+			Fj+dIG3dEr9HYop8/Ykus0tQT7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			68dQ2cOFJWlmsR8hc9Nd5ebYuI3D0HuMffvP3QntgH4=
+			Mrmo9WoC5J1oje1Wgm2jFXnCwEDaYdOBSVvWOL/AcCI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -270,7 +270,7 @@
 			j10OEuMnEL6xSoauYqLPEx+O5BNN4K6rGA/Fks0/l18=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeSignature</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -281,15 +281,15 @@
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_storage.framework/firebase_storage</key>
+		<key>ios-arm64_x86_64-simulator/firebase_storage.framework/firebase_storage</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gX5q9YNSeCcy0K85tnNhfoKfY6M=
+			tkN+0WDo+QaKBmp6nX+OGAHRy1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			PQmDHjz4Y/Ax0xHcNzCCD82iD/uPZwQjlkWFQNtAhR0=
+			/d7fk9Spkp1U68Rgu2zgnX7b8IgJBgFr75X1ZyNrkmM=
 			</data>
 		</dict>
 	</dict>

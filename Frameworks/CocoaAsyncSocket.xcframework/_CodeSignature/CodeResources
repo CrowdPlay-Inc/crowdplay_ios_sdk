@@ -40,31 +40,31 @@
 		<data>
 		UxXgMK53ILsCoxzvY7LQzIb29rc=
 		</data>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<data>
-		PaGvDxnlVRGtH/7lP+Cf35eSf+c=
+		kPvAKsO/QPGG+iftCvwdCqX+dqs=
 		</data>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/Headers/CocoaAsyncSocket-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Headers/CocoaAsyncSocket-umbrella.h</key>
 		<data>
 		nSwYnon4SZxIt4qjZlFgqb+K1Us=
 		</data>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/Headers/GCDAsyncSocket.h</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Headers/GCDAsyncSocket.h</key>
 		<data>
 		JwDJxahaKup9fnB5MJuoxDHbdDs=
 		</data>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/Headers/GCDAsyncUdpSocket.h</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Headers/GCDAsyncUdpSocket.h</key>
 		<data>
 		9hL7D86xSUKQ1TBRDa+fDNkDlqI=
 		</data>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Info.plist</key>
 		<data>
 		ZcmQlpPzTBoz1cFiGXSLTdg5BKA=
 		</data>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Modules/module.modulemap</key>
 		<data>
 		R0c/IzB2QNGYwGW9/k2yGrSkHuE=
 		</data>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
 		<data>
 		gfPdOK7C95wtIH5mgdunyc+p1EA=
 		</data>
@@ -170,18 +170,18 @@
 			LbZA+CvUQ8VZ//6inOD3UCEpFS3kmhBZfrKI+BX8T4g=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PaGvDxnlVRGtH/7lP+Cf35eSf+c=
+			kPvAKsO/QPGG+iftCvwdCqX+dqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ewnnj37RWNGeoPO6lMjh0VkvgwzUsRtLQg4/GdpiK/0=
+			vUk20J7cpDJm/yQMMBILUnzrq06NvCeLQPXiPhVBCqA=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/Headers/CocoaAsyncSocket-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Headers/CocoaAsyncSocket-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -192,7 +192,7 @@
 			59fttrV3RSfUCwT+YLZ5+NLPFgwQxm72dVgH5sO5PMQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/Headers/GCDAsyncSocket.h</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Headers/GCDAsyncSocket.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -203,7 +203,7 @@
 			JL0b2lWPgVphz/ekZLsGMKrShDXTK2YY53aKtusc9hk=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/Headers/GCDAsyncUdpSocket.h</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Headers/GCDAsyncUdpSocket.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -214,7 +214,7 @@
 			uNVm5yZ0jBhGDXZuAynPXvem1qcBvAVdWXAewQdJbh8=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -225,7 +225,7 @@
 			g5nlZ8apFsereKfkYhL3/GfyySk6B20JgLpbtdG0VJQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -236,7 +236,7 @@
 			8gBU9Oh25lVpTi38qYX+Tp6S4YF4YUmNTPUqJuajlPI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>

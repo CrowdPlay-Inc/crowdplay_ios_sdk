@@ -56,47 +56,47 @@
 		<data>
 		TACQAjNH8aZiPGPN1ibJPOzuF+k=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Headers/ActionEventSink.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Headers/ActionEventSink.h</key>
 		<data>
 		8dkPjBlPHAnG9/AzC6uiYtzo64U=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Headers/Converters.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Headers/Converters.h</key>
 		<data>
 		yeDhTMGc1kUYPOkt9lNnLrnb00g=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Headers/FlutterEngineManager.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Headers/FlutterEngineManager.h</key>
 		<data>
 		AM/NLip8hx5VGl63/ALqJEzb768=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Headers/FlutterLocalNotificationsPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Headers/FlutterLocalNotificationsPlugin.h</key>
 		<data>
 		qQ7AUvoIUPQd3Zub0T+93zepjXk=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Headers/flutter_local_notifications-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Headers/flutter_local_notifications-umbrella.h</key>
 		<data>
 		VHn8xjhTAVRXpSCGbF/y8syW8uI=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Info.plist</key>
 		<data>
 		tO8v9YbQYYG3+zwjM/Vq1zLv65s=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Modules/module.modulemap</key>
 		<data>
 		o3Hx2jctFO1lgiOtzSa+uVf9mgI=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/_CodeSignature/CodeResources</key>
 		<data>
 		kP7hKX9CQzdZN5H17SP42Yp1oDc=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications</key>
 		<data>
-		LOMAOHZZV7hCTXamRKMhbiKq8sA=
+		6S382WCc3XJwkMFG/daNzUNGpf4=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/Info.plist</key>
 		<data>
 		hUUu8vo5ubLzsAmElevEn6fxBco=
 		</data>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		TACQAjNH8aZiPGPN1ibJPOzuF+k=
 		</data>
@@ -246,7 +246,7 @@
 			j0y/Om8Yt96qvIZGvSVd9FPw0QDe8HTsBeREY0N76dU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Headers/ActionEventSink.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Headers/ActionEventSink.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -257,7 +257,7 @@
 			WFGuaKGm4T3VykjjYUgiOa08YbbgtsjeXZ5wgB1JoRI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Headers/Converters.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Headers/Converters.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -268,7 +268,7 @@
 			tIQTNmaKHyihn2r8k3ouqhcN5X7eyShmYLvSB2hUOdI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Headers/FlutterEngineManager.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Headers/FlutterEngineManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -279,7 +279,7 @@
 			RAgq8XdbR2sH+59+8oLCFFZtav/QLgmEOrUpOjBdguw=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Headers/FlutterLocalNotificationsPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Headers/FlutterLocalNotificationsPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -290,7 +290,7 @@
 			BcfvsrT40hC7kQgjpdEJJYoUPvTpWURE9fM3ENGW1VY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Headers/flutter_local_notifications-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Headers/flutter_local_notifications-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -301,7 +301,7 @@
 			yLxU4vBHHRRoVKBEuBS76xWIokvHpiCtjjlQmHsremU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -312,7 +312,7 @@
 			23QRC1plcd5P9bHm0apJkQ1c3TWfh+JgIHebEW9NnPQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -323,7 +323,7 @@
 			p3eDTfQvYLoyf8fgGoVdr28t8tSQtNrkuptekNxAocE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -334,18 +334,18 @@
 			YhO8Tmh5GmiQarATj5CUKSr1wtghLjytOxX+YMvTGlE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LOMAOHZZV7hCTXamRKMhbiKq8sA=
+			6S382WCc3XJwkMFG/daNzUNGpf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fGW4jxGJ5kWTtHMYZ1mmGohmAlQ9chMVNoGpfm3t1Yk=
+			cdxG1vw0RA7L6HpjnBxByb2cykghVVAEKs5qKDulsG0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -356,7 +356,7 @@
 			+inprm6GR1WkZmzNCcg1AmfCq34Vb2SH8emVaj8Mh+g=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>

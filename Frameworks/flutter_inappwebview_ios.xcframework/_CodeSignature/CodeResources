@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/flutter_inappwebview_ios.framework.dSYM/Contents/Resources/DWARF/flutter_inappwebview_ios</key>
 		<data>
-		Gge2f37s3RND7wXXc/S/M4ldyVE=
+		/42KWv06hoF6UiyzXplZ0qvYg4s=
 		</data>
 		<key>ios-arm64/dSYMs/flutter_inappwebview_ios.framework.dSYM/Contents/Resources/Relocations/aarch64/flutter_inappwebview_ios.yml</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		8c6eBKLf8ZGC7RTAj7pTa/ZHi50=
+		X43pKrGNe62Tp4M0HnrE1KLiYVQ=
 		</data>
 		<key>ios-arm64/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -84,75 +84,95 @@
 		<data>
 		YIiJ5tHvqBeSpBm2mcfVZdaGz3E=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Headers/InAppWebViewFlutterPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Headers/InAppWebViewFlutterPlugin.h</key>
 		<data>
 		7YJWrBXLzL4dnJ6HFlQrrBneDow=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Headers/flutter_inappwebview_ios-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Headers/flutter_inappwebview_ios-Swift.h</key>
 		<data>
-		5w2ST04wd1vJv8ddjmUoNSGryys=
+		4wxnCScydE5aLViWJQehK5McXMs=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Headers/flutter_inappwebview_ios-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Headers/flutter_inappwebview_ios-umbrella.h</key>
 		<data>
 		5lGkhaGszhl9ojH2a17ukTs8uDU=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Info.plist</key>
 		<data>
 		fxXoLtkeDgLWBUlxqhmG2Q2ubdY=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		pmDXMRwCvs6R2QSKNe9hkIy9U8M=
+		xJbXH+++AdvF/scogO94I2ufVhY=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		Vy/QswS2u85xMZ/8vZ7eAAXpN1U=
+		</data>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		GQTRWe/jMH/RCwpMf9RlG3rE4xQ=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		UfRcpKbRpHvSvU2BSqoLQiBWbfE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		Vn6ngdX8Qq4YMb4fhF+n050cdjE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		UfRcpKbRpHvSvU2BSqoLQiBWbfE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		GQTRWe/jMH/RCwpMf9RlG3rE4xQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
 		b13kwClF9jmdqz+K3/Qcxr45EWw=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		vaRL9u9Cr1FJRFlDwA7AoDEBje8=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
 		b13kwClF9jmdqz+K3/Qcxr45EWw=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/module.modulemap</key>
 		<data>
 		KQ8knX2gTbqsSgEaWS1QNK6Ix6k=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/Info.plist</key>
 		<data>
 		Jy29WF5V3X3M6f6G20Q5Adf/5ME=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib</key>
 		<data>
 		uty2L58SD2aV2D5N8JrNJ96V8kM=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/navController.nib</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/navController.nib</key>
 		<data>
 		8HYgGJ4vmXC1b2szD6CyaRscSds=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/viewController.nib</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/viewController.nib</key>
 		<data>
 		bbutQch+sFOdJaKbclbFgQNLboU=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/_CodeSignature/CodeResources</key>
 		<data>
-		dkbvMXqXEegZzzjKs5/t0F0IKDY=
+		drSPAOHjQEpSDxNsVAmEBLcYSX4=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios</key>
 		<data>
-		3c8cJUBD7QcjHzfKAzRrE/t9IPM=
+		tFtTvowrELOe6jvoe8kLnUO2ves=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios_privacy.bundle/Info.plist</key>
 		<data>
 		ersWYq30ejeuxdVNA2WC9jSl1LA=
 		</data>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		YIiJ5tHvqBeSpBm2mcfVZdaGz3E=
 		</data>
@@ -174,11 +194,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Gge2f37s3RND7wXXc/S/M4ldyVE=
+			/42KWv06hoF6UiyzXplZ0qvYg4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			JMqLTWHaP9MI0iW+/SLj5BprW/PeBAgbBgwS34dWpVk=
+			TI5KF07Dj3d3DAu9U+FVS2bO/dYY9YpW+wP4MtQIGZs=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/flutter_inappwebview_ios.framework.dSYM/Contents/Resources/Relocations/aarch64/flutter_inappwebview_ios.yml</key>
@@ -240,11 +260,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8c6eBKLf8ZGC7RTAj7pTa/ZHi50=
+			X43pKrGNe62Tp4M0HnrE1KLiYVQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wum/gtif8q74SRgtbKA0qsg7l6458MXwEbMRAsCs35w=
+			37pY99J0hAf1J52cP9Vq7+awkUM4CrHkW/pJNysUgWE=
 			</data>
 		</dict>
 		<key>ios-arm64/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -379,7 +399,7 @@
 			RyJqKWCN8gatChEOav61p3/1dawd+cdr/bLW37P6/tE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Headers/InAppWebViewFlutterPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Headers/InAppWebViewFlutterPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -390,18 +410,18 @@
 			CEsFYWzMrXKfFSj89XzDyVkOT6Wplzb7bEVkiguNMmk=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Headers/flutter_inappwebview_ios-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Headers/flutter_inappwebview_ios-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5w2ST04wd1vJv8ddjmUoNSGryys=
+			4wxnCScydE5aLViWJQehK5McXMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Dq3DZKTDumiy/bN9AoECxv3jw4RxcCmkzn7OSa/t5A=
+			e1t6Qf1AEqIEDg68WeqMtoDl6A4+1Taq2AAm3VVZJ/Y=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Headers/flutter_inappwebview_ios-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Headers/flutter_inappwebview_ios-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -412,7 +432,7 @@
 			eGgcRQmYHbAgIjcmERyeZMnFWMs98Ibm76Aercqz+gk=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -423,18 +443,29 @@
 			ADRodh/b/PgiWbX7osGezEVPsyhZjJFPRNykQiEKuEA=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pmDXMRwCvs6R2QSKNe9hkIy9U8M=
+			xJbXH+++AdvF/scogO94I2ufVhY=
 			</data>
 			<key>hash2</key>
 			<data>
-			rqi8Vy1QCfYvXiwUYKTFCPUNQPphb3OskHrvS8DiJeY=
+			U93yH7xcfqHiZccjmys+HIYFjk+s2yPhEujMpCMNZWQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vy/QswS2u85xMZ/8vZ7eAAXpN1U=
+			</data>
+			<key>hash2</key>
+			<data>
+			cmm1QHrk3MXv+KWJJb123Y+TM9dBLhUjbavlRfKKT7o=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -445,7 +476,51 @@
 			6fP289KKeGjMotuS1rljKZ1FYtX25qrnBGKWaWfyeIY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UfRcpKbRpHvSvU2BSqoLQiBWbfE=
+			</data>
+			<key>hash2</key>
+			<data>
+			c8jGTp1SZcYsrV5giZccc83zGFZS/ubb8EyQcbv+6fU=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vn6ngdX8Qq4YMb4fhF+n050cdjE=
+			</data>
+			<key>hash2</key>
+			<data>
+			y3WO8acDrux5x6xdMlsZAYGrRwvbyBcHcrXLEGQxrQE=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UfRcpKbRpHvSvU2BSqoLQiBWbfE=
+			</data>
+			<key>hash2</key>
+			<data>
+			c8jGTp1SZcYsrV5giZccc83zGFZS/ubb8EyQcbv+6fU=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GQTRWe/jMH/RCwpMf9RlG3rE4xQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			6fP289KKeGjMotuS1rljKZ1FYtX25qrnBGKWaWfyeIY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -456,7 +531,7 @@
 			/3CY9GKeGSxIfhfnjkDuVKeKrAoQoK26citVA107pRs=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -467,7 +542,7 @@
 			WNnKImn0oaj0xoMNTcwKuIXjHGhd/ClgWhydmAWu4Lo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/flutter_inappwebview_ios.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -478,7 +553,7 @@
 			/3CY9GKeGSxIfhfnjkDuVKeKrAoQoK26citVA107pRs=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -489,7 +564,7 @@
 			urKrKFEzOYWMu8pUxQTLWJP718CCKSfhvgPI6UgnS8E=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -500,7 +575,7 @@
 			KHCcIMSR/wfVkGHOiPdC9Uu240k7G+mdZF80IbA2mvI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/Myh-pL-l6f-view-1n8-5e-oxa.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -511,7 +586,7 @@
 			06d2t4A877H8Rt3w2KC6/tsFOJX8+EtEBLJ4gTDm0UQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/navController.nib</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/navController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -522,7 +597,7 @@
 			/B70M+OFgq0ILOg7kND9sehGk5O7l/BT0QVwZJRtF7c=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/viewController.nib</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/WebView.storyboardc/viewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -533,29 +608,29 @@
 			dXwSO+m/gyuEYdL+H9vjxjVQ1ri5O8dWQ1QFEir6TeA=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dkbvMXqXEegZzzjKs5/t0F0IKDY=
+			drSPAOHjQEpSDxNsVAmEBLcYSX4=
 			</data>
 			<key>hash2</key>
 			<data>
-			F/d0GppFwOyyUoiTpsbZsA+tYPd8PqD04fSWQEb4Nmo=
+			IMBw8gYbjEy1LO8GBkmXglSlDkJz+NhQG+KUcoCt9T4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3c8cJUBD7QcjHzfKAzRrE/t9IPM=
+			tFtTvowrELOe6jvoe8kLnUO2ves=
 			</data>
 			<key>hash2</key>
 			<data>
-			cKGKJwjPRdDJDMcSELYUikIWiVnbGZo48fJOiQmPTBY=
+			gvUNAUZY+DF/DoacaIWSuAoY0yNlTPwdVvN5FlY3Bg8=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -566,7 +641,7 @@
 			fjUP4ZQN/mld8FTfaHV+BucYGFrumE5QWKVZ6/efHpk=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/flutter_inappwebview_ios.framework/flutter_inappwebview_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>

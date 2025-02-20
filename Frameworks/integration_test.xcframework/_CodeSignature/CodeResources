@@ -44,37 +44,37 @@
 		<data>
 		+GY1v15uOR8zm5+Dzny99mmWEUg=
 		</data>
-		<key>ios-x86_64-simulator/integration_test.framework/Headers/FLTIntegrationTestRunner.h</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Headers/FLTIntegrationTestRunner.h</key>
 		<data>
 		kpsgKvkFBgRLvgWRyII5sfzV9/s=
 		</data>
-		<key>ios-x86_64-simulator/integration_test.framework/Headers/IntegrationTestIosTest.h</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Headers/IntegrationTestIosTest.h</key>
 		<data>
 		Q477+H0ynBNgoVWL+hdPdQMpLyg=
 		</data>
-		<key>ios-x86_64-simulator/integration_test.framework/Headers/IntegrationTestPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Headers/IntegrationTestPlugin.h</key>
 		<data>
 		d+rA9r3406Ri8607i1a5ab1N0MI=
 		</data>
-		<key>ios-x86_64-simulator/integration_test.framework/Headers/integration_test-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Headers/integration_test-umbrella.h</key>
 		<data>
 		SBN2cFdxkN/c94Wxkj4I0CNzn9g=
 		</data>
-		<key>ios-x86_64-simulator/integration_test.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Info.plist</key>
 		<data>
 		Sbg3iohkdX068172soxgMVb/GF8=
 		</data>
-		<key>ios-x86_64-simulator/integration_test.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Modules/module.modulemap</key>
 		<data>
 		lhX7AimHYA+/5CXa0WPWUnGbuJU=
 		</data>
-		<key>ios-x86_64-simulator/integration_test.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/_CodeSignature/CodeResources</key>
 		<data>
 		IzDw6YQTExoslnif83lnehhdgtY=
 		</data>
-		<key>ios-x86_64-simulator/integration_test.framework/integration_test</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/integration_test</key>
 		<data>
-		jlq4/jHi1IR7wiHqMvGZVHkMbbY=
+		qdBGXEQj2jP4svsqPrvoapaOmzY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -189,7 +189,7 @@
 			18x7p5WybCx0qD5fvMRtKtd0AHOlPqbZsVoAj9DRiMQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/integration_test.framework/Headers/FLTIntegrationTestRunner.h</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Headers/FLTIntegrationTestRunner.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -200,7 +200,7 @@
 			gChfhXI/SSJOVktLhyBGoboUu8t4GE3rF2+Si+2No6o=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/integration_test.framework/Headers/IntegrationTestIosTest.h</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Headers/IntegrationTestIosTest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -211,7 +211,7 @@
 			xpudfkQ8SyNZT5d4TmKnEEJKwqD9gRWT5eqtEdneKLI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/integration_test.framework/Headers/IntegrationTestPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Headers/IntegrationTestPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -222,7 +222,7 @@
 			XFmh+yWdTDja7/j3DoDBpTUphfTKzh9v6cxWWoDT36I=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/integration_test.framework/Headers/integration_test-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Headers/integration_test-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -233,7 +233,7 @@
 			mhclBTkrS8o8K0RACZ8OSisM9XxRfbmZxOti3GcpTbg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/integration_test.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -244,7 +244,7 @@
 			U56IF+178IG0P0CD6XeIgAjT0wWBkaHXBJaA9+QhTjI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/integration_test.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -255,7 +255,7 @@
 			cfPP1SsIUz4kP75Q7JoPfRgsXtryb2q5OonL9wh39Jk=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/integration_test.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -266,15 +266,15 @@
 			JcedzXGNbfyqwemdnOnghK1cQbGtQd1oUUKodAiL4TA=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/integration_test.framework/integration_test</key>
+		<key>ios-arm64_x86_64-simulator/integration_test.framework/integration_test</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jlq4/jHi1IR7wiHqMvGZVHkMbbY=
+			qdBGXEQj2jP4svsqPrvoapaOmzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			1mqd9XTGz4LRK/ttfR6GCkQ/ouuzhKzU75sp0oCBYQA=
+			0ACXIpkbxfmVMD0N2TkwAOBwQJq3m21M5d1/LN33ASU=
 			</data>
 		</dict>
 	</dict>

@@ -44,35 +44,35 @@
 		<data>
 		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
-		<key>ios-x86_64-simulator/package_info_plus.framework/Headers/FPPPackageInfoPlusPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/Headers/FPPPackageInfoPlusPlugin.h</key>
 		<data>
 		TDgjwrW3MT/E6oBIQZm5Rf5hiGY=
 		</data>
-		<key>ios-x86_64-simulator/package_info_plus.framework/Headers/package_info_plus-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/Headers/package_info_plus-umbrella.h</key>
 		<data>
 		fFQUgSJsy+2G96LV/IyC3eyjqtY=
 		</data>
-		<key>ios-x86_64-simulator/package_info_plus.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/Info.plist</key>
 		<data>
 		XBpT1etQ91WDkzEfwCtz5ZBiIJM=
 		</data>
-		<key>ios-x86_64-simulator/package_info_plus.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/Modules/module.modulemap</key>
 		<data>
 		xYay+XiwCOFhHmPqIoR96MTag1Q=
 		</data>
-		<key>ios-x86_64-simulator/package_info_plus.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/_CodeSignature/CodeResources</key>
 		<data>
 		M2bmDI/arL0kJEkF3mAS+Cr2HSk=
 		</data>
-		<key>ios-x86_64-simulator/package_info_plus.framework/package_info_plus</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/package_info_plus</key>
 		<data>
-		GRKMA6tWBgAokSd0GLszmenExz0=
+		BZP0wwOca1gdpa6DvnYl32mq08Y=
 		</data>
-		<key>ios-x86_64-simulator/package_info_plus.framework/package_info_plus_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/package_info_plus_privacy.bundle/Info.plist</key>
 		<data>
 		p3cvy5bwgZNHn27z5+vHT8NUWL4=
 		</data>
-		<key>ios-x86_64-simulator/package_info_plus.framework/package_info_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/package_info_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
@@ -189,7 +189,7 @@
 			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/package_info_plus.framework/Headers/FPPPackageInfoPlusPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/Headers/FPPPackageInfoPlusPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -200,7 +200,7 @@
 			+WFPcqsAmfwPEEeo6bRxfoLIQHlhGx3V6+j5osKtISo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/package_info_plus.framework/Headers/package_info_plus-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/Headers/package_info_plus-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -211,7 +211,7 @@
 			SorXThepFuMKhQ6KUvz89q09dVtsnzNG4S5ii7+e0JY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/package_info_plus.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -222,7 +222,7 @@
 			/87/pFacZgYoY1V5iGEmE2LltH03UJYNThSb1dde+1w=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/package_info_plus.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -233,7 +233,7 @@
 			LwR3Th8olBUOATz9esc0SvrHPR0pkHTDQArk/x29sT4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/package_info_plus.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -244,18 +244,18 @@
 			7v145irRtwr7TD5E+4VALpnROIlNH2MeortVzfycty0=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/package_info_plus.framework/package_info_plus</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/package_info_plus</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GRKMA6tWBgAokSd0GLszmenExz0=
+			BZP0wwOca1gdpa6DvnYl32mq08Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			6CmmaYKZrxHu38jL8Z9jTa95Ai0hrOP8zydW+TqIqts=
+			jGLCcp9uJkVPRf48rTaLCZv8xJ50tnalb2j48uazK2M=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/package_info_plus.framework/package_info_plus_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/package_info_plus_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -266,7 +266,7 @@
 			SL6+4e/mZdsdYaeb/ID7cju8ulrhY/wUNWRVJgZDQb4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/package_info_plus.framework/package_info_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/package_info_plus.framework/package_info_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>

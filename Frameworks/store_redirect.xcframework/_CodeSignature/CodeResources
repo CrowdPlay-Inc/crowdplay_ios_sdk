@@ -36,29 +36,29 @@
 		<data>
 		Rv62802cxg8rMEJldJDIWCHavJE=
 		</data>
-		<key>ios-x86_64-simulator/store_redirect.framework/Headers/StoreRedirectPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/Headers/StoreRedirectPlugin.h</key>
 		<data>
 		svgnk65Qp3GA7/2zmCs9oXCVdhI=
 		</data>
-		<key>ios-x86_64-simulator/store_redirect.framework/Headers/store_redirect-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/Headers/store_redirect-umbrella.h</key>
 		<data>
 		shg3I+XYIb2RkvLzZGR0SPZgloA=
 		</data>
-		<key>ios-x86_64-simulator/store_redirect.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/Info.plist</key>
 		<data>
 		D9wxWEvmZ6fjWz90g/RYt1W4fWs=
 		</data>
-		<key>ios-x86_64-simulator/store_redirect.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/Modules/module.modulemap</key>
 		<data>
 		zTvxsbqNeY3Un92h5AHGlgxTFY8=
 		</data>
-		<key>ios-x86_64-simulator/store_redirect.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/_CodeSignature/CodeResources</key>
 		<data>
 		LWC4R/6WM9+OqnjSZTHQOTZV0Uk=
 		</data>
-		<key>ios-x86_64-simulator/store_redirect.framework/store_redirect</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/store_redirect</key>
 		<data>
-		ysRZobgEWv25Gb4+LM1UoraNb2Q=
+		f2iZRyHDsyFdvtgBzRMsrnpzPVc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -151,7 +151,7 @@
 			Oni0XqFA+iNm9pceDkbtoB1BhwXbN/dMX1F5k+CNYGI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/store_redirect.framework/Headers/StoreRedirectPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/Headers/StoreRedirectPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -162,7 +162,7 @@
 			b6Arolz6TRN5ZlFNjR/kV/sFZU4+C0jKrPBhi3erhWA=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/store_redirect.framework/Headers/store_redirect-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/Headers/store_redirect-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -173,7 +173,7 @@
 			LOFD2EHUaYUWY02du4zliwRKjBOHtY3FxUeGtHJpkfI=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/store_redirect.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -184,7 +184,7 @@
 			FKunhODL7xH9Nx0IKsNxJvC2zGuim7Z/raB7fIfvzBk=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/store_redirect.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -195,7 +195,7 @@
 			joDmzXpOuFe4ml22sqf2HPrDvXxW9OVeqJjK+dYyCmU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/store_redirect.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -206,15 +206,15 @@
 			wQgRH8BlcYUO4XMskFEQAAoS2LWEaWxTbtGu48JsgJE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/store_redirect.framework/store_redirect</key>
+		<key>ios-arm64_x86_64-simulator/store_redirect.framework/store_redirect</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ysRZobgEWv25Gb4+LM1UoraNb2Q=
+			f2iZRyHDsyFdvtgBzRMsrnpzPVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dYyvX3+Ma87wR8K+vKujTw267Ev6ytAKxaWob/q3zaU=
+			zK4UOY/KbsB+1C2WqoVKYM9sFa9M1jQizCAa5RKgA8w=
 			</data>
 		</dict>
 	</dict>

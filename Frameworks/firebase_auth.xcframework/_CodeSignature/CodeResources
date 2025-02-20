@@ -48,69 +48,69 @@
 		<data>
 		3EWteMDxS/aIol2EA+LUGA9+KdU=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/CustomPigeonHeader.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/CustomPigeonHeader.h</key>
 		<data>
 		d4/VNhd7yth6ZCWQj0GLU8Q/3sM=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/FLTAuthStateChannelStreamHandler.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/FLTAuthStateChannelStreamHandler.h</key>
 		<data>
 		649phFsKSMSX52MxmnKutFXcqHI=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/FLTFirebaseAuthPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/FLTFirebaseAuthPlugin.h</key>
 		<data>
 		r6mhW1rUOQzd0B38fUS0bNk6Pwo=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/FLTIdTokenChannelStreamHandler.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/FLTIdTokenChannelStreamHandler.h</key>
 		<data>
 		abCczxT4+eCIRjbioH0sPDLeu1E=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/FLTPhoneNumberVerificationStreamHandler.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/FLTPhoneNumberVerificationStreamHandler.h</key>
 		<data>
 		2BOBro27pOTLwurKmSkVPXPmjBY=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/PigeonParser.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/PigeonParser.h</key>
 		<data>
 		Jerafu9Le4nb1ednJXdcA/Vtvtc=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/firebase_auth-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/firebase_auth-umbrella.h</key>
 		<data>
 		tv8kXiILblw7PWE9SuvKeUKV/3I=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/firebase_auth_messages.g.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/firebase_auth_messages.g.h</key>
 		<data>
 		pZRtENnMEfXFXZJdTtRngTsVR0U=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Info.plist</key>
 		<data>
 		Oxbj+3ZPn3RJJnLCSqKA+E8nQaw=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Modules/module.modulemap</key>
 		<data>
 		VF2hxpeww9SFTDbHkpBrdtFvSa8=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeDirectory</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		Jf1F/fw9Ltumn82o5pLWEYfTGNU=
+		LSNnmNpGwNVLbqlgrDd7VpqAAgk=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeRequirements</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeRequirements</key>
 		<data>
 		OnX22wWFKRSOFN1+obRynMCeyXM=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeRequirements-1</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		HE9PobvQdOt1s7/SqRaYI4asUuE=
+		qKZSrTCKTt15XJ8t3cOq3cl7Bp8=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeResources</key>
 		<data>
 		FQVs2HkrOGGCcFfDEGfO5LU9ajY=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeSignature</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeSignature</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
-		<key>ios-x86_64-simulator/firebase_auth.framework/firebase_auth</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/firebase_auth</key>
 		<data>
-		OuKNR7N9dKnreu/bu3lLzVSLMRw=
+		BfbHT9LC+PUd7VY8AZKEYqnklEI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -236,7 +236,7 @@
 			DcAlz6nlPpqYVEejZmJJTQgYN/U+MpDbLzsrvz70JFw=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/CustomPigeonHeader.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/CustomPigeonHeader.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -247,7 +247,7 @@
 			IHb0SdLqv/C+ZDyGJL9KQ3TEfjvT1YCWNluCTrUYxyE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/FLTAuthStateChannelStreamHandler.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/FLTAuthStateChannelStreamHandler.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -258,7 +258,7 @@
 			BYg5YIbScXxlbvdUiYfRAR/aFfPCTe5k+4Dqqe/2Tv4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/FLTFirebaseAuthPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/FLTFirebaseAuthPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -269,7 +269,7 @@
 			U4KiEf04esVUXFaXK1d6l7HZoA7GrnthFQyPEGf3Uvc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/FLTIdTokenChannelStreamHandler.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/FLTIdTokenChannelStreamHandler.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -280,7 +280,7 @@
 			oXq/DHyiSOqJT9G1KR21duDB4PSe/cYqK+TF8gekpQo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/FLTPhoneNumberVerificationStreamHandler.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/FLTPhoneNumberVerificationStreamHandler.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -291,7 +291,7 @@
 			JtQhRxjfvAMuuBlvtic1ywSQPmCcOIPAhQidw8/Cwjg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/PigeonParser.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/PigeonParser.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -302,7 +302,7 @@
 			KDznVI9NY3ovlgq6nawiiG2YeglZYOOzkG7/97Nz3gU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/firebase_auth-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/firebase_auth-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -313,7 +313,7 @@
 			YJnSXKobKLee1aWG/Zh28LPcoL54TbvzKlMy7cFUmBE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Headers/firebase_auth_messages.g.h</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Headers/firebase_auth_messages.g.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -324,7 +324,7 @@
 			oSoU/2jrdtdtrLFYw3pF6NwBR9UMePDOVY5peHuUkhg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -335,7 +335,7 @@
 			4ZxVBCcisTL/1ApoLZx1Ba+Vm9XuOm86PP/Dj4bfNpw=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -346,18 +346,18 @@
 			5nxJPQVpp0nzKk91AXY0jfwD3E1NQnFS7o+M/vrxx1E=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeDirectory</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jf1F/fw9Ltumn82o5pLWEYfTGNU=
+			LSNnmNpGwNVLbqlgrDd7VpqAAgk=
 			</data>
 			<key>hash2</key>
 			<data>
-			aWTWrLFIvJ9Fo+GfddTHOLY0Yxiofd4SrKxZiMPGvFc=
+			7MvHq8h9rJWFT/n3TvKMu5LT1NHfxtCYpwWEQ6ksysQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeRequirements</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeRequirements</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -368,18 +368,18 @@
 			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeRequirements-1</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeRequirements-1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HE9PobvQdOt1s7/SqRaYI4asUuE=
+			qKZSrTCKTt15XJ8t3cOq3cl7Bp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			5RM+sBuowrDyn5vfouZtpuM7J+pCh/m6X1MzcMZG5zQ=
+			lvh6eGQIbg0K+1MfnS1SJTtStnLHhLEMYcGPf0fBQeg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -390,7 +390,7 @@
 			ZO01/FTie3PLY3ZjWXfVK67GqVkUtN3g/6hCb+PJisg=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeSignature</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -401,15 +401,15 @@
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/firebase_auth.framework/firebase_auth</key>
+		<key>ios-arm64_x86_64-simulator/firebase_auth.framework/firebase_auth</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OuKNR7N9dKnreu/bu3lLzVSLMRw=
+			BfbHT9LC+PUd7VY8AZKEYqnklEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			FITfV5dvjiB2/8ZdBhGWkzXPSqbVnWE292wTTrZZhu8=
+			C2kCX8Bfpg6MkbZU417XN3Oj8mkeChpHVbJ3YImrXuE=
 			</data>
 		</dict>
 	</dict>

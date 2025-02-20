@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/patrol.framework.dSYM/Contents/Resources/DWARF/patrol</key>
 		<data>
-		rhS5VOJwAjt6kmqL3+xMr9ff5/8=
+		xDdL4mS33+330YJefzDGn+q12/Q=
 		</data>
 		<key>ios-arm64/dSYMs/patrol.framework.dSYM/Contents/Resources/Relocations/aarch64/patrol.yml</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/patrol.framework/Modules/patrol.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		fmuAGIfuk+a70fOqjSNWrumlH5Q=
+		rATfCrPmZV6lCK+l9Ed3ngscweo=
 		</data>
 		<key>ios-arm64/patrol.framework/Modules/patrol.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>ios-arm64/patrol.framework/patrol</key>
 		<data>
-		yz5s0OSbdh2RNtyWMjXh0lzZKrQ=
+		oooPyTPgvsqKvMTLQ/MkJeKYbeI=
 		</data>
 		<key>ios-arm64/patrol.framework/patrol_privacy.bundle/Info.plist</key>
 		<data>
@@ -80,71 +80,91 @@
 		<data>
 		J/z69og9QRzvR7I4PZMXxl+7ojs=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/PatrolIntegrationTestIosRunner.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/PatrolIntegrationTestIosRunner.h</key>
 		<data>
 		kU/Q5ImnDoK5Lb4Z0eFFdBA/T60=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/PatrolIntegrationTestMacosRunner.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/PatrolIntegrationTestMacosRunner.h</key>
 		<data>
 		8BB1ueUyHZNak0qylSoON33+/+M=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/PatrolPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/PatrolPlugin.h</key>
 		<data>
 		N9TnxQyPLNflxt09rWCf1AU1Kys=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/http_parser.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/http_parser.h</key>
 		<data>
 		nG/4zSopeTZQ0RA23bs/l4o0Anc=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/patrol-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/patrol-Swift.h</key>
 		<data>
-		6LCOLoANSXtZPnVuKB0dLt9L1/k=
+		aJ9A1PYr7u+uZcw1SRIpuUEuf9Y=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/patrol-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/patrol-umbrella.h</key>
 		<data>
 		ywu/uD3FolyCFEcnBQawrumBin8=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Info.plist</key>
 		<data>
 		XP5/wcXEFEhDs6L0iizxZTpmbjo=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/module.modulemap</key>
 		<data>
 		E9PaD15ef0FIW2fe59ETkjUdhJQ=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		MwdIbBufQue1hQXBaJUAf+w9FV4=
+		s0rzHQ6wKSpgsmmFyQ7oYIl1nDI=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		oKUUYFlO2iehrRPtzQjz+k9TzqA=
+		</data>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		YkBu2DtEMecPgphmPDepa9GIThc=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		QUUpAXfUjQrLsB/wDOKqh0j+MDQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		hCEzKJkQsOQxHnjtM3iyHSnFNeQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		QUUpAXfUjQrLsB/wDOKqh0j+MDQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		YkBu2DtEMecPgphmPDepa9GIThc=
+		</data>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
 		8+/yUaCxF+m0GLvkV0JyJo+geFE=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		yarMb7zGYblykZJ3HOJqwJDYTBc=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
 		8+/yUaCxF+m0GLvkV0JyJo+geFE=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/_CodeSignature/CodeResources</key>
 		<data>
-		yyqafS1SHhQtfjvGcEm3NgthBxc=
+		haAaUboDiTFtswuqoYK/w/1aeB0=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/patrol</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/patrol</key>
 		<data>
-		3zGCIFv2vhgkuQ0QzuiaFu4JxhI=
+		IANJigqTGCXAayR5tjFSV6ftG2M=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/patrol_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/patrol_privacy.bundle/Info.plist</key>
 		<data>
 		pO+1ndAvc05u6HMjYuXQMfLVPN4=
 		</data>
-		<key>ios-x86_64-simulator/patrol.framework/patrol_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/patrol_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		J/z69og9QRzvR7I4PZMXxl+7ojs=
 		</data>
@@ -166,11 +186,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rhS5VOJwAjt6kmqL3+xMr9ff5/8=
+			xDdL4mS33+330YJefzDGn+q12/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			tyAXwMSrYKD+dyDV65W6GQJ/w1dyT0di3+veOZ9ZONg=
+			0tcY7APlyGaMN0yA3aiqBgNGi43IDLBI4FKcrKuhqu8=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/patrol.framework.dSYM/Contents/Resources/Relocations/aarch64/patrol.yml</key>
@@ -276,11 +296,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fmuAGIfuk+a70fOqjSNWrumlH5Q=
+			rATfCrPmZV6lCK+l9Ed3ngscweo=
 			</data>
 			<key>hash2</key>
 			<data>
-			QAmqIsIxuqRAE7+18kA/i9RXdTlfssI4ylbe9XKfScQ=
+			OjF2riQGJduEU6pGUPqWU6FGHuGqiK1FPLUcajeWKTs=
 			</data>
 		</dict>
 		<key>ios-arm64/patrol.framework/Modules/patrol.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -331,11 +351,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yz5s0OSbdh2RNtyWMjXh0lzZKrQ=
+			oooPyTPgvsqKvMTLQ/MkJeKYbeI=
 			</data>
 			<key>hash2</key>
 			<data>
-			1FTyR2Aba8Mx2hBRzP44TK2pyWZOZFRBsRymrO1BR4Q=
+			oBd/12q8tKY4QkVu8Zdit+JIpUefubY3Sw8EuTqCcYM=
 			</data>
 		</dict>
 		<key>ios-arm64/patrol.framework/patrol_privacy.bundle/Info.plist</key>
@@ -360,7 +380,7 @@
 			y93qiFKw+aU40OeydwHGP2HK6yq76jHkEppx3B8GMEw=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/PatrolIntegrationTestIosRunner.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/PatrolIntegrationTestIosRunner.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -371,7 +391,7 @@
 			qM2S4im3+SzGZ4wJQGNGi2I9/4f0sHzvs9icXyB9h8M=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/PatrolIntegrationTestMacosRunner.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/PatrolIntegrationTestMacosRunner.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -382,7 +402,7 @@
 			wC0gyNRjBe0oPTCSjmED5EJqbVny+kTUWjILP1aRh0Y=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/PatrolPlugin.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/PatrolPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -393,7 +413,7 @@
 			AqNRLXjHpuYRDd/gwR2s+v+GS/LckzH9r+n4pehLUS4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/http_parser.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/http_parser.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -404,18 +424,18 @@
 			MeT5Q4wo5JJ0wYCWmMRxS7lFxq44RqHgdZg4/Vxt3k4=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/patrol-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/patrol-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6LCOLoANSXtZPnVuKB0dLt9L1/k=
+			aJ9A1PYr7u+uZcw1SRIpuUEuf9Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			dHTfb8462ddVEbSesGUfM2AqH1sYhYBofHyEXaKVRu8=
+			BxpOla5aoeLZqQt0D2zDbtMaxDVTj/e3vLGPW2hXqzc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Headers/patrol-umbrella.h</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Headers/patrol-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -426,7 +446,7 @@
 			Oj8wcD0jihAIjEXly4i0ABQDnnaeAHjnHtF8IhBgv9Y=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -437,7 +457,7 @@
 			pEmYiK9NljNBI3Z/9d19L9vIautUBx5rEXzlwtUBTMM=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -448,18 +468,29 @@
 			uPWhbO+kCdZUab54mQVlL7baSQcJ8h1yI2FBE5gU7kY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MwdIbBufQue1hQXBaJUAf+w9FV4=
+			s0rzHQ6wKSpgsmmFyQ7oYIl1nDI=
 			</data>
 			<key>hash2</key>
 			<data>
-			NaLcqYV4TWIzrcDgToCi3cFG+sBvjhOmk8A58337pdc=
+			pNcgvmETL9BuWmSxKAeWx4E7axFkk3whh7rNqe8ZlvQ=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oKUUYFlO2iehrRPtzQjz+k9TzqA=
+			</data>
+			<key>hash2</key>
+			<data>
+			j34JW0o9SlclGQgalQzGoC1/dMxpmf846AAUzU49JW0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -470,7 +501,51 @@
 			ATRNyKMeX1GSqO8XJxzBrJteqXmC+6ul+4HBHWAuSOY=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QUUpAXfUjQrLsB/wDOKqh0j+MDQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			3EWAZs+nE7cpjFVGV83NrSSRLzzT7bPioG57b37RVPA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hCEzKJkQsOQxHnjtM3iyHSnFNeQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			6Y+y9iRPhxTNBHLQ1k2vMTkpzG4EPsYKSw2xphenS10=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QUUpAXfUjQrLsB/wDOKqh0j+MDQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			3EWAZs+nE7cpjFVGV83NrSSRLzzT7bPioG57b37RVPA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YkBu2DtEMecPgphmPDepa9GIThc=
+			</data>
+			<key>hash2</key>
+			<data>
+			ATRNyKMeX1GSqO8XJxzBrJteqXmC+6ul+4HBHWAuSOY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -481,7 +556,7 @@
 			GtrHAZ7RbDHBzCjLdNBGn7i+AmAo1BJ3XWRPVYjSbXc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -492,7 +567,7 @@
 			tbilfhXZKHSSmPIzqCXWRZt26p1orpltOZHB3wCHlzo=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/Modules/patrol.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -503,29 +578,29 @@
 			GtrHAZ7RbDHBzCjLdNBGn7i+AmAo1BJ3XWRPVYjSbXc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yyqafS1SHhQtfjvGcEm3NgthBxc=
+			haAaUboDiTFtswuqoYK/w/1aeB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			LnGnmUM64GKyJm2xTVE2/L47F3szNGynuYw8FmFXNYw=
+			0SnQ109HcvIJI6v251gPxMxHKWkHjk6nU5NC738heTM=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/patrol</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/patrol</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3zGCIFv2vhgkuQ0QzuiaFu4JxhI=
+			IANJigqTGCXAayR5tjFSV6ftG2M=
 			</data>
 			<key>hash2</key>
 			<data>
-			nT8wsF9GHL4Dezl7wkWOOxPtWHsFibJ0mNrr4aM/u9Q=
+			f4xbh4hBOyk2CkBOaE8ujWWM6LuadxaF1PQGFHFd0WU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/patrol_privacy.bundle/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/patrol_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -536,7 +611,7 @@
 			pzRTIGrl5+p1zJ1gRUvJ4bKzsxz7U2JNj+AeTiJ0OUE=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/patrol.framework/patrol_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/patrol.framework/patrol_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
