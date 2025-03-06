@@ -5,37 +5,37 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.073688">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.065433">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: setup_circle_ci" time="0.150719">
+      <testcase classname="fastlane.lanes" name="1: setup_circle_ci" time="0.170096">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: number_of_commits" time="0.026258">
+      <testcase classname="fastlane.lanes" name="2: number_of_commits" time="0.22387">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: match" time="2.219836">
+      <testcase classname="fastlane.lanes" name="3: match" time="2.006901">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: pod install" time="30.614281">
+      <testcase classname="fastlane.lanes" name="4: pod install" time="28.584121">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: update_code_signing_settings" time="0.158315">
+      <testcase classname="fastlane.lanes" name="5: update_code_signing_settings" time="0.201002">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: build_ios_app" time="192.322884">
+      <testcase classname="fastlane.lanes" name="6: build_ios_app" time="192.0899">
         
       </testcase>
     
