@@ -378,7 +378,7 @@
 		</data>
 		<key>ios-arm64/Braintree.framework/Modules/Braintree.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		EAx6yXC+UO+I0spGQ7g3TnALnt4=
+		QwPHTocKvptwMLd63R+6PZGQYQY=
 		</data>
 		<key>ios-arm64/Braintree.framework/Modules/Braintree.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -414,7 +414,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/Braintree.framework.dSYM/Contents/Resources/DWARF/Braintree</key>
 		<data>
-		S2hai2yF6XyZfcvHTauRHR3fDuU=
+		jeg/jSI+3Ky/000mYddiiUR4zD4=
 		</data>
 		<key>ios-arm64/dSYMs/Braintree.framework.dSYM/Contents/Resources/Relocations/aarch64/Braintree.yml</key>
 		<data>
@@ -426,7 +426,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Braintree.framework/Braintree</key>
 		<data>
-		9zRMj1IV8rbFXvUaFYychpG+mpk=
+		0mv10A9ekygRjA8GihZ9gEu17ys=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Braintree.framework/BraintreeApplePay_PrivacyInfo.bundle/Info.plist</key>
 		<data>
@@ -798,11 +798,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Braintree.framework/Modules/Braintree.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		km048OKjXF2m5GflAVosvXC9pns=
+		7QMm+3XatR1KD2SWVSiMW9omMmw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Braintree.framework/Modules/Braintree.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		tfx9r/vKMaFe+FFQaEGjozBL/3w=
+		ReQd0rv413hXoPiloe9Oi6/hv84=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Braintree.framework/Modules/Braintree.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -850,7 +850,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Braintree.framework/_CodeSignature/CodeResources</key>
 		<data>
-		6Q5uJzzWeQw9uBSv9wiUkkE1zHs=
+		HkHqQEHr7vzisl5HKPDGgshBIN8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1882,11 +1882,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EAx6yXC+UO+I0spGQ7g3TnALnt4=
+			QwPHTocKvptwMLd63R+6PZGQYQY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ToMcSnetSOXCpQ8nv18QOPnalIIm0riRXBwvo7h5UTE=
+			TGVJ1NNGfcoBLpqTcDJi80Rox31HI8ygPCqvfDGQ6Y4=
 			</data>
 		</dict>
 		<key>ios-arm64/Braintree.framework/Modules/Braintree.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -1981,11 +1981,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S2hai2yF6XyZfcvHTauRHR3fDuU=
+			jeg/jSI+3Ky/000mYddiiUR4zD4=
 			</data>
 			<key>hash2</key>
 			<data>
-			sc+lG4iN1HGYZ38ukkIf8kbz55tlZ7BPVX01TyrwJPU=
+			hHYIA/v8qAaRWX/zeOOu45Ndy/e0Y8Wy7VXyopoCM9s=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/Braintree.framework.dSYM/Contents/Resources/Relocations/aarch64/Braintree.yml</key>
@@ -2014,11 +2014,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9zRMj1IV8rbFXvUaFYychpG+mpk=
+			0mv10A9ekygRjA8GihZ9gEu17ys=
 			</data>
 			<key>hash2</key>
 			<data>
-			d1Szuy0j6lkNMP6qRPpSAg4tNXLI0bwFXU3nibMzfJk=
+			lu+NrCsiZ6X5Ybc/dI253gZM0NRjzNexnxUUVQH/CvM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Braintree.framework/BraintreeApplePay_PrivacyInfo.bundle/Info.plist</key>
@@ -3037,22 +3037,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			km048OKjXF2m5GflAVosvXC9pns=
+			7QMm+3XatR1KD2SWVSiMW9omMmw=
 			</data>
 			<key>hash2</key>
 			<data>
-			suPW0xKB6T0yydupNtDLXF6HSYUCVH6RGzcCzQ2uM0g=
+			8CQ7dmLGaWscWYX9/w54Ztd+ecBhD0vWNvfe/6BpHKI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Braintree.framework/Modules/Braintree.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tfx9r/vKMaFe+FFQaEGjozBL/3w=
+			ReQd0rv413hXoPiloe9Oi6/hv84=
 			</data>
 			<key>hash2</key>
 			<data>
-			o7JMKrWMeB40xNnBJ7PO+MNgmbIpWLDh8XoHpoXtsGc=
+			aJ9y9lC1ytDSJHbz7VZ3nmg9zKrX0meLsHFxzPIN+Wo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Braintree.framework/Modules/Braintree.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -3180,11 +3180,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Q5uJzzWeQw9uBSv9wiUkkE1zHs=
+			HkHqQEHr7vzisl5HKPDGgshBIN8=
 			</data>
 			<key>hash2</key>
 			<data>
-			myxi0k9vf5cfDw8iIDB9+qykK+zYQxqESbmV7u+dPSQ=
+			MCymI/Ar75L3nip2Hlb+kTuZEQAnD6okVBolszSGrBU=
 			</data>
 		</dict>
 	</dict>

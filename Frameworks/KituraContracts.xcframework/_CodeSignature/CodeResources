@@ -22,7 +22,7 @@
 		</data>
 		<key>ios-arm64/KituraContracts.framework/Modules/KituraContracts.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		CK9AZEjCmeJU3vO9Y5yXlnyyD4Y=
+		+AIOtSRSCFT4VMifjBC2QLI8/8Y=
 		</data>
 		<key>ios-arm64/KituraContracts.framework/Modules/KituraContracts.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/KituraContracts.framework.dSYM/Contents/Resources/DWARF/KituraContracts</key>
 		<data>
-		jSijDPttPaSHRGZQh9lqCK/9yZE=
+		hUIceFRheYF/bOfKqr6HPOCNwoM=
 		</data>
 		<key>ios-arm64/dSYMs/KituraContracts.framework.dSYM/Contents/Resources/Relocations/aarch64/KituraContracts.yml</key>
 		<data>
@@ -70,15 +70,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/KituraContracts.framework/KituraContracts</key>
 		<data>
-		0URqi3tcdKJo87BwNcYv+bq/qxc=
+		oTfEWMxmvFufdryhntByS+eZHOM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KituraContracts.framework/Modules/KituraContracts.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		0ptz6x2o3AM0EyDjHJvney6k3Fc=
+		LTEc7ArRsc7QJQ/RPTwwobkyuQ0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KituraContracts.framework/Modules/KituraContracts.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		n/VY4IoHYR489Qb3JLHELRNbJwI=
+		FDRVvdDnFNKUhVXgLf2n9j41Lb8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KituraContracts.framework/Modules/KituraContracts.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/KituraContracts.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ON41I5UcTNUBK0tlCiC7s4GoEdU=
+		JHlaFd36SekIorHIayYVHvCPsl0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -171,11 +171,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CK9AZEjCmeJU3vO9Y5yXlnyyD4Y=
+			+AIOtSRSCFT4VMifjBC2QLI8/8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			hpdOGQWp4RxN5CoLpykVgFRdLDqnxDkZhdCUb9HHlPM=
+			3OJ6UGj+Oqu05x/1IfQ1CxoRsawcXDFrKG/0na+ux8c=
 			</data>
 		</dict>
 		<key>ios-arm64/KituraContracts.framework/Modules/KituraContracts.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -248,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jSijDPttPaSHRGZQh9lqCK/9yZE=
+			hUIceFRheYF/bOfKqr6HPOCNwoM=
 			</data>
 			<key>hash2</key>
 			<data>
-			mexpRmalEJ5MThhNpWNdic/5lwg4WNsU1YfbSTpjAbY=
+			iqG2Y6Vo6oxn5btz7qDnTAKZhELm5K8W8p4rv7uZBDE=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/KituraContracts.framework.dSYM/Contents/Resources/Relocations/aarch64/KituraContracts.yml</key>
@@ -303,33 +303,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0URqi3tcdKJo87BwNcYv+bq/qxc=
+			oTfEWMxmvFufdryhntByS+eZHOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			rcelMwuqjX04kMkCB7yhxV/zO5IpWZalGp37pdjnSww=
+			FrnwYnt7Wsxkv6CndOt1+KxXshZfOCuqNL6kPvwwzwc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KituraContracts.framework/Modules/KituraContracts.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0ptz6x2o3AM0EyDjHJvney6k3Fc=
+			LTEc7ArRsc7QJQ/RPTwwobkyuQ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			zlBqJr2Ad3WpR9JsoNp6WqI99a/kzpAO7SrPkYjjeiw=
+			XamE5fy+EHQdoszpWxuh6HATf2yodeU4qWnxrFXQkv4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KituraContracts.framework/Modules/KituraContracts.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n/VY4IoHYR489Qb3JLHELRNbJwI=
+			FDRVvdDnFNKUhVXgLf2n9j41Lb8=
 			</data>
 			<key>hash2</key>
 			<data>
-			OAnrpHRnhhg8tOn6hrxrQuV6vMqwo5/NfExc8CoW3xc=
+			+GeWw5EKKi1QZGyx31zS2hzPOcZ6eCGXxWeZYemth9Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KituraContracts.framework/Modules/KituraContracts.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -435,11 +435,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ON41I5UcTNUBK0tlCiC7s4GoEdU=
+			JHlaFd36SekIorHIayYVHvCPsl0=
 			</data>
 			<key>hash2</key>
 			<data>
-			rl12N2zhtIEN8OqPaKwhWb5LqYfUmdnzeQpZ7qTNM1o=
+			pDs32t63g9aV/C+dkMdySziAQcAnQMyMQkWPisVeMJg=
 			</data>
 		</dict>
 	</dict>
