@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		PO0mU7cMxTsyymxBMO1osR+gw6Q=
+		RnpJZ850IJx+gVAaUx54Az4Vc2Q=
 		</data>
 		<key>ios-arm64/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/SwiftJWT.framework.dSYM/Contents/Resources/DWARF/SwiftJWT</key>
 		<data>
-		JLRglaL0HahE9MFJuJ03Mrnh4P0=
+		lwzVN2I8QryCXITDbSzl2GX7SCM=
 		</data>
 		<key>ios-arm64/dSYMs/SwiftJWT.framework.dSYM/Contents/Resources/Relocations/aarch64/SwiftJWT.yml</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		8LiZrJXEiH33186185pF4yQyMFY=
+		/BTrnCBWawbg6hd95VPgvzI6Dmo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		I9W35vW3UE+WFAdMwuNopjT2BaI=
+		E3V2OKM6Uj5LaE4MFCshkrykgks=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -114,11 +114,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/SwiftJWT</key>
 		<data>
-		r9sLDNjfBWMlY243MWmThd2hm9Y=
+		OBjzVFKJ3gbS1VOzMfaUS1rCvjs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/_CodeSignature/CodeResources</key>
 		<data>
-		1f9w11ldiami+MDZVerZs7cNiyI=
+		OGDekw33GH9a8+SkCQsdAfZV/vo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -160,11 +160,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PO0mU7cMxTsyymxBMO1osR+gw6Q=
+			RnpJZ850IJx+gVAaUx54Az4Vc2Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			SHLeTfBtQJKyYgjmoQagysVP8DWuTliENpXB9uKvk50=
+			CP1QMlVi+st8ZF+6/aceKe4ehTVaJlFzwOrCRDoGdCk=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -248,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JLRglaL0HahE9MFJuJ03Mrnh4P0=
+			lwzVN2I8QryCXITDbSzl2GX7SCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LIk+pAHieDp9St2KfkUwtFRGI564h7r0pVO6zO2yJaA=
+			9woYeh2PLDd08bvV7hcgtQ3IFQrfaRJ0MIA/YajgLEA=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/SwiftJWT.framework.dSYM/Contents/Resources/Relocations/aarch64/SwiftJWT.yml</key>
@@ -303,22 +303,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8LiZrJXEiH33186185pF4yQyMFY=
+			/BTrnCBWawbg6hd95VPgvzI6Dmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			fl5UjFPnQWzqiTT4u/m8BcLgoj4MIsVL0q5i8ZZfi4s=
+			kXlDxmO8kcbtULmHB7eZP8SqHyyTVwm1yhdmq2w4J5c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I9W35vW3UE+WFAdMwuNopjT2BaI=
+			E3V2OKM6Uj5LaE4MFCshkrykgks=
 			</data>
 			<key>hash2</key>
 			<data>
-			09ZHZTtNT3XPggAvzZ7rmxMxlpRmMFl2F4eXNkKQW4k=
+			K5t0dhjOoeYZRe50yYVDkyzygGdKXVAex10vmiEBwR0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/Modules/SwiftJWT.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -424,22 +424,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r9sLDNjfBWMlY243MWmThd2hm9Y=
+			OBjzVFKJ3gbS1VOzMfaUS1rCvjs=
 			</data>
 			<key>hash2</key>
 			<data>
-			aWfDI1/U48yRfT2vhP/IGfg0v6qkwTjHHsyYkVvcWUA=
+			PFC5RDZ28Cq+WTPag1F6XFcwGQmhEK81IuE8refbqFg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftJWT.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1f9w11ldiami+MDZVerZs7cNiyI=
+			OGDekw33GH9a8+SkCQsdAfZV/vo=
 			</data>
 			<key>hash2</key>
 			<data>
-			WyP61RfYwSyfX9dYEPilbpGT4bx1kB7vXN8E4VKr7hQ=
+			48tRWQagJ57D1ajPTaHabtUPnZlrib6bZR6c58GBzG0=
 			</data>
 		</dict>
 	</dict>
