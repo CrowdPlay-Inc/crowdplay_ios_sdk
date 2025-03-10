@@ -12,6 +12,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		E5533A7B2D414B4D003FCBC7 /* crowdplaysdk in Frameworks */ = {isa = PBXBuildFile; productRef = E5533A7A2D414B4D003FCBC7 /* crowdplaysdk */; };
 		E56DE49527B44BB6001E38AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E56DE49427B44BB6001E38AF /* GoogleService-Info.plist */; };
 		E5CA18E32BD18F540051B2F3 /* crowdplaysdk in Frameworks */ = {isa = PBXBuildFile; productRef = E5CA18E22BD18F540051B2F3 /* crowdplaysdk */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5CA18E32BD18F540051B2F3 /* crowdplaysdk in Frameworks */,
+				E5533A7B2D414B4D003FCBC7 /* crowdplaysdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +100,7 @@
 			name = crowdplaysdk_Example;
 			packageProductDependencies = (
 				E5CA18E22BD18F540051B2F3 /* crowdplaysdk */,
+				E5533A7A2D414B4D003FCBC7 /* crowdplaysdk */,
 			);
 			productName = crowdplaysdk;
 			productReference = 607FACD01AFB9204008FA782 /* crowdplaysdk_Example.app */;
@@ -131,7 +134,7 @@
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			packageReferences = (
-				E5CA18E12BD18F540051B2F3 /* XCLocalSwiftPackageReference "crowdplay_ios_sdk" */,
+				E5533A792D414B4D003FCBC7 /* XCLocalSwiftPackageReference "crowdplay_ios_sdk" */,
 			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
@@ -305,6 +308,7 @@
 				);
 				MARKETING_VERSION = 0.1.74;
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crowdplayapp.sdkexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -329,6 +333,7 @@
 				);
 				MARKETING_VERSION = 0.1.74;
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crowdplayapp.sdkexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -360,13 +365,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		E5CA18E12BD18F540051B2F3 /* XCLocalSwiftPackageReference "crowdplay_ios_sdk" */ = {
+		E5533A792D414B4D003FCBC7 /* XCLocalSwiftPackageReference "crowdplay_ios_sdk" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = crowdplay_ios_sdk;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E5533A7A2D414B4D003FCBC7 /* crowdplaysdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = crowdplaysdk;
+		};
 		E5CA18E22BD18F540051B2F3 /* crowdplaysdk */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = crowdplaysdk;

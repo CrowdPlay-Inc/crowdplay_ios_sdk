@@ -21,12 +21,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     ) -> Bool {
         UNUserNotificationCenter.current().delegate = self
 
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) {
-            granted, error in
-            if granted {
-                DispatchQueue.main.async { UIApplication.shared.registerForRemoteNotifications() }
-            }
-        }
+        // UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) {
+        //     granted, error in
+        //     if granted {
+        //         DispatchQueue.main.async { UIApplication.shared.registerForRemoteNotifications() }
+        //     }
+        // }
 
         return true
     }
