@@ -86,7 +86,7 @@
 		</data>
 		<key>ios-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		+6LU5ifaii5ktcU6If2zAHdsuX4=
+		jLHu2e2OINcha2My+GqPN+wYKOo=
 		</data>
 		<key>ios-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/FirebaseAuth.framework.dSYM/Contents/Resources/DWARF/FirebaseAuth</key>
 		<data>
-		FP21eJUyMwFUUb25r9emjlYponQ=
+		JreXc1X9QE+t+RNkA2uXQ6XzBJw=
 		</data>
 		<key>ios-arm64/dSYMs/FirebaseAuth.framework.dSYM/Contents/Resources/Relocations/aarch64/FirebaseAuth.yml</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
-		UrtAI9h0bhbb9Td1ydAvKWocvtk=
+		rp8jY4g2GZaOqHOFT9UE3WHSXjE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<data>
@@ -202,11 +202,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		BY9T6aTggmufGM20eNV4gO+zAb4=
+		BM98ful5m1BTNbg2Xz9cawnaXms=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		OVFZjl1xbNJwkL9CzNQZj2vTks8=
+		U3cjiGTbVr+0vSUnaJPosRoTfBA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ISF6KwUXLTi6j18niMfwZ725YRQ=
+		WAz1u6RKhfdtpAejXCsUhoHZTyY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -475,11 +475,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+6LU5ifaii5ktcU6If2zAHdsuX4=
+			jLHu2e2OINcha2My+GqPN+wYKOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			tPZt26HTUyUddR0NvfOoZbbm2SFgxeuOcXoswum9wrU=
+			cCiWR8vqyo6L36bjpOIT/gngk3ZBLfwgcC3iuhxE/ak=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -552,11 +552,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FP21eJUyMwFUUb25r9emjlYponQ=
+			JreXc1X9QE+t+RNkA2uXQ6XzBJw=
 			</data>
 			<key>hash2</key>
 			<data>
-			f1TFuzNhzOy2GvEL8Qxwb8sRJQU/isY0mMH5APPHHBU=
+			4Iu736shZj3O7oEu6m3Ir/N9byH4yI/z9iEFqwwZyp8=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/FirebaseAuth.framework.dSYM/Contents/Resources/Relocations/aarch64/FirebaseAuth.yml</key>
@@ -574,11 +574,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UrtAI9h0bhbb9Td1ydAvKWocvtk=
+			rp8jY4g2GZaOqHOFT9UE3WHSXjE=
 			</data>
 			<key>hash2</key>
 			<data>
-			MahdAhrJHrD9XVJpbnkuxwfkJc9hdxqKINRpqK4cUsU=
+			55j3p8rns3lWSZVZn7w+32k0JoFsCGSHTR1MrxkpYbk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
@@ -794,22 +794,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BY9T6aTggmufGM20eNV4gO+zAb4=
+			BM98ful5m1BTNbg2Xz9cawnaXms=
 			</data>
 			<key>hash2</key>
 			<data>
-			sBn//MAwotgKj8vm8lTUxEyD9V+UbwcEoAqeH8FCElg=
+			xD8zSVWYCZP6RizU9JfVxeLdFHCpSnuK8jqpEiUKQmg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OVFZjl1xbNJwkL9CzNQZj2vTks8=
+			U3cjiGTbVr+0vSUnaJPosRoTfBA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gv07Cup4MazVKKMPhoGihQrJKwhUT3zlcyyRUHCD1r8=
+			nHL/thB0wmePb4wBo0XcHH2SlwlPNVV5CiMjZ74rK/w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -915,11 +915,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ISF6KwUXLTi6j18niMfwZ725YRQ=
+			WAz1u6RKhfdtpAejXCsUhoHZTyY=
 			</data>
 			<key>hash2</key>
 			<data>
-			KRHzZ927yIlk/PhIqOQHSpLIEqH15BREXUX1ZX1UaE8=
+			OwXz1mw0SXRuMgTFxvsPM1Orq+9X8s2oEJTNKG7iji4=
 			</data>
 		</dict>
 	</dict>
