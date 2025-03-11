@@ -86,6 +86,9 @@ public class CrowdplaySdk {
                 self.flutterViewController?.dismiss(animated: true)
                 self.presentingViewController = nil
             } else if call.method == "getNativeNotificationToken" {
+                if self.notificationToken == "" {
+                    DispatchQueue.main.async { UIApplication.shared.registerForRemoteNotifications() }
+                }
                 result(self.notificationToken)
             } else if call.method == "getApnsMode" {
                 result(
