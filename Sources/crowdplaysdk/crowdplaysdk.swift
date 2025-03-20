@@ -103,7 +103,11 @@ public class CrowdplaySdk {
         GeneratedPluginRegistrant.register(with: self.flutterEngine)
     }
 
-    public func viewController() -> FlutterViewController {
+    public func viewController() -> FlutterViewController? {
+        if !isInitialized {
+            return nil
+        }
+
         if flutterViewController != nil {
             return flutterViewController!
         }
@@ -116,7 +120,10 @@ public class CrowdplaySdk {
     }
 
     public func presentCrowdplay(vc: UIViewController) {
-        let toDisplay = self.viewController()
+        guard let toDisplay = self.viewController() else {
+            print("CrowdPlay SDK has not yet been initialized")
+            return
+        }
 
         if presentingViewController?.presentedViewController == toDisplay {
             print("Already presented")
@@ -136,7 +143,7 @@ public class CrowdplaySdk {
     }
 
     public func handleNotification(userInfo: [AnyHashable: Any]?, vc: UIViewController?) -> Bool {
-        if apiKeyChannel == nil {
+        if !isInitialized {
             return false
         }
 
