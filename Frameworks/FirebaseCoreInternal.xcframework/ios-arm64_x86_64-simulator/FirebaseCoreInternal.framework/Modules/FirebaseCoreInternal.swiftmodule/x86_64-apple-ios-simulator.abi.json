@@ -516,6 +516,247 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "AtomicBox",
+        "printedName": "AtomicBox",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "_value",
+            "printedName": "_value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20FirebaseCoreInternal9AtomicBoxC6_value33_9B0D1BF97040307B85E57B7F6C17C5D3LLxvp",
+            "mangledName": "$s20FirebaseCoreInternal9AtomicBoxC6_value33_9B0D1BF97040307B85E57B7F6C17C5D3LLxvp",
+            "moduleName": "FirebaseCoreInternal",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "lock",
+            "printedName": "lock",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSLock",
+                "printedName": "Foundation.NSLock",
+                "usr": "c:objc(cs)NSLock"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20FirebaseCoreInternal9AtomicBoxC4lock33_9B0D1BF97040307B85E57B7F6C17C5D3LLSo6NSLockCvp",
+            "mangledName": "$s20FirebaseCoreInternal9AtomicBoxC4lock33_9B0D1BF97040307B85E57B7F6C17C5D3LLSo6NSLockCvp",
+            "moduleName": "FirebaseCoreInternal",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AtomicBox",
+                "printedName": "FirebaseCoreInternal.AtomicBox<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:20FirebaseCoreInternal9AtomicBoxC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20FirebaseCoreInternal9AtomicBoxCyACyxGxcfc",
+            "mangledName": "$s20FirebaseCoreInternal9AtomicBoxCyACyxGxcfc",
+            "moduleName": "FirebaseCoreInternal",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "value",
+            "printedName": "value()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20FirebaseCoreInternal9AtomicBoxC5valuexyF",
+            "mangledName": "$s20FirebaseCoreInternal9AtomicBoxC5valuexyF",
+            "moduleName": "FirebaseCoreInternal",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withLock",
+            "printedName": "withLock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(inout τ_0_0) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20FirebaseCoreInternal9AtomicBoxC8withLockyxyxzXEF",
+            "mangledName": "$s20FirebaseCoreInternal9AtomicBoxC8withLockyxyxzXEF",
+            "moduleName": "FirebaseCoreInternal",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withLock",
+            "printedName": "withLock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(inout τ_0_0) throws -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20FirebaseCoreInternal9AtomicBoxC8withLockyqd__qd__xzKXEKlF",
+            "mangledName": "$s20FirebaseCoreInternal9AtomicBoxC8withLockyqd__qd__xzKXEKlF",
+            "moduleName": "FirebaseCoreInternal",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<T, R>",
+            "declAttributes": [
+              "Final",
+              "Rethrows",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20FirebaseCoreInternal9AtomicBoxC",
+        "mangledName": "$s20FirebaseCoreInternal9AtomicBoxC",
+        "moduleName": "FirebaseCoreInternal",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseCoreInternal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "TimePeriod",
         "printedName": "TimePeriod",
         "children": [
@@ -7227,7 +7468,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
       "kind": "Dictionary",
-      "offset": 2858,
+      "offset": 2879,
       "length": 3,
       "value": "[]"
     },
