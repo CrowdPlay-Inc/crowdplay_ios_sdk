@@ -22,7 +22,7 @@
 		</data>
 		<key>ios-arm64/Cryptor.framework/Modules/Cryptor.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		6Fmbl08oVlJ6vpUHHHGg9JBWpW0=
+		h2tvyrsJyzZuVpK5rhe9PgNYRuk=
 		</data>
 		<key>ios-arm64/Cryptor.framework/Modules/Cryptor.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/Cryptor.framework.dSYM/Contents/Resources/DWARF/Cryptor</key>
 		<data>
-		PkzTLyfEFarFHZnCdwz77q7kP+Q=
+		JldNrvp6uqgucHPtpOcpDKXvrww=
 		</data>
 		<key>ios-arm64/dSYMs/Cryptor.framework.dSYM/Contents/Resources/Relocations/aarch64/Cryptor.yml</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Cryptor.framework/Cryptor</key>
 		<data>
-		9uZXt8RzwpsR89WWkNqrk9B0EJo=
+		001FWJVX75CZzJq6i+bTEmoyGUA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Cryptor.framework/Headers/BlueCryptor-umbrella.h</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Cryptor.framework/Modules/Cryptor.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		D6yCuhZAQ8E7in6OlCqBQ7zGoUg=
+		4zvYcRHleU8rfGxYFIIfrwvK7uM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Cryptor.framework/Modules/Cryptor.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		FaPxgKszoE3wf35x22Mp5XHH2IY=
+		1uzFJGqDN/30OxrpCXV4dKefgXw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Cryptor.framework/Modules/Cryptor.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Cryptor.framework/_CodeSignature/CodeResources</key>
 		<data>
-		EWzNSgpguPYANUqjV06kyWA4ZMo=
+		f4zfv4GcsHzRdNPRfDhfWWhNVOs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -171,11 +171,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Fmbl08oVlJ6vpUHHHGg9JBWpW0=
+			h2tvyrsJyzZuVpK5rhe9PgNYRuk=
 			</data>
 			<key>hash2</key>
 			<data>
-			a16UfmGuJh9ipBxWkKbK2it6N50kfmzm5Q/I+y1vDhw=
+			YctgoaSBx9JmMgaCdoEHnvYWRG53JGvADodSx5aVEkA=
 			</data>
 		</dict>
 		<key>ios-arm64/Cryptor.framework/Modules/Cryptor.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -248,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PkzTLyfEFarFHZnCdwz77q7kP+Q=
+			JldNrvp6uqgucHPtpOcpDKXvrww=
 			</data>
 			<key>hash2</key>
 			<data>
-			EumjmlU/njsmoHFNp54GFFfrls7623TOa+W7PbigO70=
+			B9i9w7UXcbCA1/dVy8scGIMIt73uYuMc82IJ9pDnyKs=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/Cryptor.framework.dSYM/Contents/Resources/Relocations/aarch64/Cryptor.yml</key>
@@ -270,11 +270,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9uZXt8RzwpsR89WWkNqrk9B0EJo=
+			001FWJVX75CZzJq6i+bTEmoyGUA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bMw6Lu2YWZIgLMdnbBIJx6x8k06KlciWiBh0faXNukM=
+			AyW6LRTEAoaB4HlmOHPaAUDD9JHfKpJGz+JFJsui88M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Cryptor.framework/Headers/BlueCryptor-umbrella.h</key>
@@ -314,22 +314,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D6yCuhZAQ8E7in6OlCqBQ7zGoUg=
+			4zvYcRHleU8rfGxYFIIfrwvK7uM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ynhpgQFEmjolZlp0zXa6cGpFcok5zcMqdZiIGt5+1+o=
+			8jQ+nx6IADSYIRh1j+s8rOKXzQgisc0e7+JGaUi01uY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Cryptor.framework/Modules/Cryptor.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FaPxgKszoE3wf35x22Mp5XHH2IY=
+			1uzFJGqDN/30OxrpCXV4dKefgXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			hZUKO/5izZiWMMy/t4IxL5VtaFccZX4ceVpQsvKKlmk=
+			NQ8gfajWoXT4c8Xdq50KXKRdAvj85JEoPXI+4eCjFjQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Cryptor.framework/Modules/Cryptor.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -435,11 +435,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EWzNSgpguPYANUqjV06kyWA4ZMo=
+			f4zfv4GcsHzRdNPRfDhfWWhNVOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			TFR7wDEeNyEEhoNXRnZ8nbIgyV5vABHbCKjP1YiGLmQ=
+			WmeHXXjHl99P1AxF6Zr7qLbGS1Unn+MsjapezF6QcsY=
 			</data>
 		</dict>
 	</dict>

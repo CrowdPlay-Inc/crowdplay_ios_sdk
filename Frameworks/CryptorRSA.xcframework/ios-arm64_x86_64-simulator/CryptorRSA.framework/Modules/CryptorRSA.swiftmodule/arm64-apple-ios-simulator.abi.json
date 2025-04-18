@@ -5657,7 +5657,7 @@
           {
             "kind": "Function",
             "name": "stripX509CertificateHeader",
-            "printedName": "stripX509CertificateHeader(for:)",
+            "printedName": "stripX509CertificateHeader(for:type:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5670,11 +5670,17 @@
                 "name": "Data",
                 "printedName": "Foundation.Data",
                 "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyType",
+                "printedName": "CryptorRSA.CryptorRSA.RSAKey.KeyType",
+                "usr": "s:10CryptorRSAAAC6RSAKeyC7KeyTypeO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10CryptorRSAAAC26stripX509CertificateHeader3for10Foundation4DataVAG_tKFZ",
-            "mangledName": "$s10CryptorRSAAAC26stripX509CertificateHeader3for10Foundation4DataVAG_tKFZ",
+            "usr": "s:10CryptorRSAAAC26stripX509CertificateHeader3for4type10Foundation4DataVAH_AB6RSAKeyC7KeyTypeOtKFZ",
+            "mangledName": "$s10CryptorRSAAAC26stripX509CertificateHeader3for4type10Foundation4DataVAH_AB6RSAKeyC7KeyTypeOtKFZ",
             "moduleName": "CryptorRSA",
             "static": true,
             "declAttributes": [
@@ -7668,140 +7674,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "CFString",
-        "printedName": "CFString",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:So11CFStringRefa10CryptorRSAE9hashValueSivp",
-            "mangledName": "$sSo11CFStringRefa10CryptorRSAE9hashValueSivp",
-            "moduleName": "CryptorRSA",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So11CFStringRefa10CryptorRSAE9hashValueSivg",
-                "mangledName": "$sSo11CFStringRefa10CryptorRSAE9hashValueSivg",
-                "moduleName": "CryptorRSA",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CFString",
-                "printedName": "CoreFoundation.CFString",
-                "usr": "c:@T@CFStringRef"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CFString",
-                "printedName": "CoreFoundation.CFString",
-                "usr": "c:@T@CFStringRef"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So11CFStringRefa10CryptorRSAE2eeoiySbAB_ABtFZ",
-            "mangledName": "$sSo11CFStringRefa10CryptorRSAE2eeoiySbAB_ABtFZ",
-            "moduleName": "CryptorRSA",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@T@CFStringRef",
-        "moduleName": "CoreFoundation",
-        "declAttributes": [
-          "ObjCBridged",
-          "SynthesizedProtocol",
-          "ObjC",
-          "Dynamic"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CFObject",
-            "printedName": "_CFObject",
-            "usr": "s:14CoreFoundation9_CFObjectP",
-            "mangledName": "$s14CoreFoundation9_CFObjectP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UnsafePointer",
         "printedName": "UnsafePointer",
         "children": [
@@ -9066,49 +8938,49 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 18431,
+      "offset": 18633,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 18568,
+      "offset": 18770,
       "length": 4,
       "value": "2048"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 18696,
+      "offset": 18898,
       "length": 4,
       "value": "3072"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 18775,
+      "offset": 18977,
       "length": 4,
       "value": "4096"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
       "kind": "StringLiteral",
-      "offset": 24276,
+      "offset": 24505,
       "length": 63,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
       "kind": "StringLiteral",
-      "offset": 24307,
+      "offset": 24536,
       "length": 3,
       "value": "\".+?\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/BlueRSA\/Sources\/CryptorRSA\/CryptorRSAKey.swift",
       "kind": "StringLiteral",
-      "offset": 24337,
+      "offset": 24566,
       "length": 1,
       "value": "\")\""
     }
