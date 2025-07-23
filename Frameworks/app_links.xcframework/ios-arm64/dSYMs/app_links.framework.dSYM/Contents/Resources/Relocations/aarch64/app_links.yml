@@ -2,9 +2,9 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/app_links/app_links.framework/app_links'
 relocations:
-  - { offset: 0x5CA2E, size: 0x8, addend: 0x0, symName: _app_linksVersionString, symObjAddr: 0x0, symBinAddr: 0x8740, symSize: 0x0 }
-  - { offset: 0x5CA63, size: 0x8, addend: 0x0, symName: _app_linksVersionNumber, symObjAddr: 0x28, symBinAddr: 0x8768, symSize: 0x0 }
-  - { offset: 0x5CAC8, size: 0x8, addend: 0x0, symName: '_$s9app_links8AppLinksC6sharedAA0cD9IosPluginCvpZ', symObjAddr: 0xC278, symBinAddr: 0xDA08, symSize: 0x0 }
+  - { offset: 0x5CA2E, size: 0x8, addend: 0x0, symName: _app_linksVersionString, symObjAddr: 0x0, symBinAddr: 0x86B0, symSize: 0x0 }
+  - { offset: 0x5CA63, size: 0x8, addend: 0x0, symName: _app_linksVersionNumber, symObjAddr: 0x28, symBinAddr: 0x86D8, symSize: 0x0 }
+  - { offset: 0x5CAC8, size: 0x8, addend: 0x0, symName: '_$s9app_links8AppLinksC6sharedAA0cD9IosPluginCvpZ', symObjAddr: 0xC088, symBinAddr: 0xD9F8, symSize: 0x0 }
   - { offset: 0x5CD88, size: 0x8, addend: 0x0, symName: '_$s9app_links8AppLinksC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x2C }
   - { offset: 0x5CE2F, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x354, symBinAddr: 0x4354, symSize: 0xD0 }
   - { offset: 0x5CE64, size: 0x8, addend: 0x0, symName: '_$s9app_links17AppLinksIosPluginCfETo', symObjAddr: 0x10A0, symBinAddr: 0x50A0, symSize: 0x54 }
@@ -15,17 +15,17 @@ relocations:
   - { offset: 0x5CFC7, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOh', symObjAddr: 0x17CC, symBinAddr: 0x57CC, symSize: 0x34 }
   - { offset: 0x5CFDB, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOc', symObjAddr: 0x183C, symBinAddr: 0x583C, symSize: 0x3C }
   - { offset: 0x5CFEF, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x18B0, symBinAddr: 0x58B0, symSize: 0x3C }
-  - { offset: 0x5D00E, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOy', symObjAddr: 0x1DE0, symBinAddr: 0x5DE0, symSize: 0x10 }
-  - { offset: 0x5D022, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOe', symObjAddr: 0x1DF0, symBinAddr: 0x5DF0, symSize: 0x10 }
-  - { offset: 0x5D036, size: 0x8, addend: 0x0, symName: '_$s9app_links8AppLinksCMa', symObjAddr: 0x1E00, symBinAddr: 0x5E00, symSize: 0x20 }
-  - { offset: 0x5D04A, size: 0x8, addend: 0x0, symName: '_$s9app_links17AppLinksIosPluginCMa', symObjAddr: 0x1E2C, symBinAddr: 0x5E2C, symSize: 0x20 }
-  - { offset: 0x5D05E, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas20_SwiftNewtypeWrapperSCSYWb', symObjAddr: 0x1E4C, symBinAddr: 0x5E4C, symSize: 0x24 }
-  - { offset: 0x5D072, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb', symObjAddr: 0x1E70, symBinAddr: 0x5E70, symSize: 0x24 }
-  - { offset: 0x5D086, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSQWb', symObjAddr: 0x1E94, symBinAddr: 0x5E94, symSize: 0x24 }
-  - { offset: 0x5D09A, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x20C4, symBinAddr: 0x60C4, symSize: 0x8 }
-  - { offset: 0x5D0AE, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x20CC, symBinAddr: 0x60CC, symSize: 0x48 }
-  - { offset: 0x5D0C2, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x2114, symBinAddr: 0x6114, symSize: 0x24 }
-  - { offset: 0x5D0D6, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x2138, symBinAddr: 0x6138, symSize: 0x20 }
+  - { offset: 0x5D00E, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOy', symObjAddr: 0x1D50, symBinAddr: 0x5D50, symSize: 0x10 }
+  - { offset: 0x5D022, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOe', symObjAddr: 0x1D60, symBinAddr: 0x5D60, symSize: 0x10 }
+  - { offset: 0x5D036, size: 0x8, addend: 0x0, symName: '_$s9app_links8AppLinksCMa', symObjAddr: 0x1D70, symBinAddr: 0x5D70, symSize: 0x20 }
+  - { offset: 0x5D04A, size: 0x8, addend: 0x0, symName: '_$s9app_links17AppLinksIosPluginCMa', symObjAddr: 0x1D9C, symBinAddr: 0x5D9C, symSize: 0x20 }
+  - { offset: 0x5D05E, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas20_SwiftNewtypeWrapperSCSYWb', symObjAddr: 0x1DBC, symBinAddr: 0x5DBC, symSize: 0x24 }
+  - { offset: 0x5D072, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb', symObjAddr: 0x1DE0, symBinAddr: 0x5DE0, symSize: 0x24 }
+  - { offset: 0x5D086, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSQWb', symObjAddr: 0x1E04, symBinAddr: 0x5E04, symSize: 0x24 }
+  - { offset: 0x5D09A, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x2034, symBinAddr: 0x6034, symSize: 0x8 }
+  - { offset: 0x5D0AE, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x203C, symBinAddr: 0x603C, symSize: 0x48 }
+  - { offset: 0x5D0C2, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x2084, symBinAddr: 0x6084, symSize: 0x24 }
+  - { offset: 0x5D0D6, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x20A8, symBinAddr: 0x60A8, symSize: 0x20 }
   - { offset: 0x5D0FD, size: 0x8, addend: 0x0, symName: '_$s9app_links17AppLinksIosPluginCACycfC', symObjAddr: 0x2C, symBinAddr: 0x402C, symSize: 0x20 }
   - { offset: 0x5D133, size: 0x8, addend: 0x0, symName: '_$s9app_links8AppLinksC6sharedAA0cD9IosPluginCvgZ', symObjAddr: 0x4C, symBinAddr: 0x404C, symSize: 0x40 }
   - { offset: 0x5D160, size: 0x8, addend: 0x0, symName: '_$s9app_links8AppLinksCfd', symObjAddr: 0x8C, symBinAddr: 0x408C, symSize: 0x8 }
@@ -60,6 +60,6 @@ relocations:
   - { offset: 0x5DE3B, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaSYSCSY8rawValue03RawF0QzvgTW', symObjAddr: 0x141C, symBinAddr: 0x541C, symSize: 0x28 }
   - { offset: 0x5DE7E, size: 0x8, addend: 0x0, symName: '_$s9app_links17AppLinksIosPluginC8register4withySo07FlutterF9Registrar_p_tFZTf4nd_n', symObjAddr: 0x15A4, symBinAddr: 0x55A4, symSize: 0x194 }
   - { offset: 0x5DF25, size: 0x8, addend: 0x0, symName: '_$s9app_links17AppLinksIosPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypN7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x18EC, symBinAddr: 0x58EC, symSize: 0x300 }
-  - { offset: 0x5DFCF, size: 0x8, addend: 0x0, symName: '_$s9app_links17AppLinksIosPluginC11application_8continue18restorationHandlerSbSo13UIApplicationC_So14NSUserActivityCySayypGctFTf4dndn_n', symObjAddr: 0x1BEC, symBinAddr: 0x5BEC, symSize: 0x1F4 }
-  - { offset: 0x5E035, size: 0x8, addend: 0x0, symName: '_$s9app_links17AppLinksIosPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF015$syXlSgIeyBy_ypQ7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x1EF8, symBinAddr: 0x5EF8, symSize: 0x1A8 }
+  - { offset: 0x5DFCF, size: 0x8, addend: 0x0, symName: '_$s9app_links17AppLinksIosPluginC11application_8continue18restorationHandlerSbSo13UIApplicationC_So14NSUserActivityCySayypGctFTf4dndn_n', symObjAddr: 0x1BEC, symBinAddr: 0x5BEC, symSize: 0x164 }
+  - { offset: 0x5E01B, size: 0x8, addend: 0x0, symName: '_$s9app_links17AppLinksIosPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF015$syXlSgIeyBy_ypQ7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x1E68, symBinAddr: 0x5E68, symSize: 0x1A8 }
 ...

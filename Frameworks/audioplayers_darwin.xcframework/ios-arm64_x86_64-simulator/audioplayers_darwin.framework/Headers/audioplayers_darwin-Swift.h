@@ -306,8 +306,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @protocol FlutterPluginRegistrar;
 @class FlutterMethodCall;
 
-SWIFT_CLASS("_TtC19audioplayers_darwin29SwiftAudioplayersDarwinPlugin")
-@interface SwiftAudioplayersDarwinPlugin : NSObject <FlutterPlugin>
+SWIFT_CLASS("_TtC19audioplayers_darwin24AudioplayersDarwinPlugin")
+@interface AudioplayersDarwinPlugin : NSObject <FlutterPlugin>
 + (void)registerWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (void)detachFromEngineForRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (void)handleMethodCall:(FlutterMethodCall * _Nonnull)call result:(FlutterResult _Nonnull)result;
@@ -631,8 +631,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @protocol FlutterPluginRegistrar;
 @class FlutterMethodCall;
 
-SWIFT_CLASS("_TtC19audioplayers_darwin29SwiftAudioplayersDarwinPlugin")
-@interface SwiftAudioplayersDarwinPlugin : NSObject <FlutterPlugin>
+SWIFT_CLASS("_TtC19audioplayers_darwin24AudioplayersDarwinPlugin")
+@interface AudioplayersDarwinPlugin : NSObject <FlutterPlugin>
 + (void)registerWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (void)detachFromEngineForRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (void)handleMethodCall:(FlutterMethodCall * _Nonnull)call result:(FlutterResult _Nonnull)result;

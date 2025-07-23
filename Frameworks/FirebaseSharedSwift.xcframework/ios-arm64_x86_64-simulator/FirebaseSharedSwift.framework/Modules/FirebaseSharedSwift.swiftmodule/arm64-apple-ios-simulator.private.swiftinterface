@@ -44,7 +44,11 @@ public class FirebaseDataEncoder {
   open var passthroughTypeResolver: any FirebaseSharedSwift.StructureCodingPassthroughTypeResolver.Type
   open var userInfo: [Swift.CodingUserInfoKey : Any]
   public init()
+  #if compiler(>=5.3) && $SendingArgsAndResults
+  open func encode<T>(_ value: T) throws -> sending Any where T : Swift.Encodable
+  #else
   open func encode<T>(_ value: T) throws -> Any where T : Swift.Encodable
+  #endif
   @objc deinit
 }
 public class FirebaseDataDecoder {

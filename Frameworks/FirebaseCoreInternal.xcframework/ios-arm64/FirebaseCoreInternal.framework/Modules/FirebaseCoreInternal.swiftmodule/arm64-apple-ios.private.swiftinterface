@@ -8,6 +8,8 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import os.lock
+import os
 @objc(FIRHeartbeatController) @objcMembers public class _ObjC_HeartbeatController : ObjectiveC.NSObject {
   @objc public init(id: Swift.String)
   @objc public func log(_ agent: Swift.String)
@@ -22,6 +24,22 @@ import _SwiftConcurrencyShims
   @objc public var isEmpty: Swift.Bool {
     @objc get
   }
+  @objc deinit
+}
+final public class FIRAllocatedUnfairLock<State> : @unchecked Swift.Sendable {
+  #if compiler(>=5.3) && $SendingArgsAndResults
+  public init(initialState: sending State)
+  #else
+  public init(initialState: __owned State)
+  #endif
+  convenience public init() where State == ()
+  final public func lock()
+  final public func unlock()
+  final public func value() -> State
+  @discardableResult
+  final public func withLock<R>(_ body: (inout State) throws -> R) rethrows -> R
+  @discardableResult
+  final public func withLock<R>(_ body: () throws -> R) rethrows -> R
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class HeartbeatController : Swift.Sendable {

@@ -48,8 +48,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SwiftAudioplayersDarwinPlugin",
-        "printedName": "SwiftAudioplayersDarwinPlugin",
+        "name": "AudioplayersDarwinPlugin",
+        "printedName": "AudioplayersDarwinPlugin",
         "children": [
           {
             "kind": "Function",
@@ -69,8 +69,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@audioplayers_darwin@objc(cs)SwiftAudioplayersDarwinPlugin(cm)registerWithRegistrar:",
-            "mangledName": "$s19audioplayers_darwin29SwiftAudioplayersDarwinPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "usr": "c:@M@audioplayers_darwin@objc(cs)AudioplayersDarwinPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s19audioplayers_darwin24AudioplayersDarwinPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
             "moduleName": "audioplayers_darwin",
             "static": true,
             "objc_name": "registerWithRegistrar:",
@@ -99,8 +99,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@audioplayers_darwin@objc(cs)SwiftAudioplayersDarwinPlugin(im)detachFromEngineForRegistrar:",
-            "mangledName": "$s19audioplayers_darwin29SwiftAudioplayersDarwinPluginC16detachFromEngine3forySo07FlutterF9Registrar_p_tF",
+            "usr": "c:@M@audioplayers_darwin@objc(cs)AudioplayersDarwinPlugin(im)detachFromEngineForRegistrar:",
+            "mangledName": "$s19audioplayers_darwin24AudioplayersDarwinPluginC16detachFromEngine3forySo07FlutterE9Registrar_p_tF",
             "moduleName": "audioplayers_darwin",
             "objc_name": "detachFromEngineForRegistrar:",
             "declAttributes": [
@@ -152,8 +152,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@audioplayers_darwin@objc(cs)SwiftAudioplayersDarwinPlugin(im)handleMethodCall:result:",
-            "mangledName": "$s19audioplayers_darwin29SwiftAudioplayersDarwinPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "usr": "c:@M@audioplayers_darwin@objc(cs)AudioplayersDarwinPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s19audioplayers_darwin24AudioplayersDarwinPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
             "moduleName": "audioplayers_darwin",
             "objc_name": "handleMethodCall:result:",
             "declAttributes": [
@@ -169,14 +169,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SwiftAudioplayersDarwinPlugin",
-                "printedName": "audioplayers_darwin.SwiftAudioplayersDarwinPlugin",
-                "usr": "c:@M@audioplayers_darwin@objc(cs)SwiftAudioplayersDarwinPlugin"
+                "name": "AudioplayersDarwinPlugin",
+                "printedName": "audioplayers_darwin.AudioplayersDarwinPlugin",
+                "usr": "c:@M@audioplayers_darwin@objc(cs)AudioplayersDarwinPlugin"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@audioplayers_darwin@objc(cs)SwiftAudioplayersDarwinPlugin(im)init",
-            "mangledName": "$s19audioplayers_darwin29SwiftAudioplayersDarwinPluginCACycfc",
+            "usr": "c:@M@audioplayers_darwin@objc(cs)AudioplayersDarwinPlugin(im)init",
+            "mangledName": "$s19audioplayers_darwin24AudioplayersDarwinPluginCACycfc",
             "moduleName": "audioplayers_darwin",
             "overriding": true,
             "implicit": true,
@@ -190,8 +190,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@audioplayers_darwin@objc(cs)SwiftAudioplayersDarwinPlugin",
-        "mangledName": "$s19audioplayers_darwin29SwiftAudioplayersDarwinPluginC",
+        "usr": "c:@M@audioplayers_darwin@objc(cs)AudioplayersDarwinPlugin",
+        "mangledName": "$s19audioplayers_darwin24AudioplayersDarwinPluginC",
         "moduleName": "audioplayers_darwin",
         "declAttributes": [
           "AccessControl",
@@ -287,39 +287,32 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.0.0\/ios\/Classes\/SwiftAudioplayersDarwinPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.3.0\/darwin\/audioplayers_darwin\/Sources\/audioplayers_darwin\/AudioplayersDarwinPlugin.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 23,
       "value": "\"xyz.luan\/audioplayers\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.0.0\/ios\/Classes\/SwiftAudioplayersDarwinPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.3.0\/darwin\/audioplayers_darwin\/Sources\/audioplayers_darwin\/AudioplayersDarwinPlugin.swift",
       "kind": "StringLiteral",
       "offset": 220,
       "length": 30,
       "value": "\"xyz.luan\/audioplayers.global\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.0.0\/ios\/Classes\/WrappedMediaPlayer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.3.0\/darwin\/audioplayers_darwin\/Sources\/audioplayers_darwin\/WrappedMediaPlayer.swift",
       "kind": "FloatLiteral",
       "offset": 56,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.0.0\/ios\/Classes\/WrappedMediaPlayer.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.3.0\/darwin\/audioplayers_darwin\/Sources\/audioplayers_darwin\/WrappedMediaPlayer.swift",
       "kind": "FloatLiteral",
       "offset": 97,
       "length": 3,
       "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/audioplayers_darwin-6.0.0\/ios\/Classes\/WrappedMediaPlayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 137,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
