@@ -224,7 +224,7 @@ public class CrowdplaySdk {
     }
 
     public func linkAccount(providerToken: String, provider: String) {
-        var providerInfo: [String: String] = ["token": authToken, "provider": provider]
+        var providerInfo: [String: String] = ["token": providerToken, "provider": provider]
         self.linkedAccounts.append(providerInfo)
 
         if apiKeyChannel != nil {
