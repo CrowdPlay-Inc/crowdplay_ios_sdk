@@ -11,6 +11,8 @@ import crowdplaysdk
 
 class ViewController: UIViewController {
     @IBOutlet var apiKeyInput: UITextField?
+    @IBOutlet var userPointsLabel: UILabel?
+    @IBOutlet var nbaIdField: UITextField?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +53,26 @@ class ViewController: UIViewController {
         //     let result = CrowdplaySdk.shared.handleNotification(userInfo: userInfo, vc: UIApplication.shared.windows.first!.rootViewController!)
         //     print(result)
         // }
+    }
+    
+    @IBAction func updatePointsTapped(_ sender: UIButton) {
+        Task {
+            do {
+                // Call your async function
+                let result = try await CrowdplaySdk.shared.getPointsBalance() ?? 0
+                
+                // Update UI on main thread
+                userPointsLabel?.text = "Current User points: \(result)"
+            } catch {
+                // Handle error and update UI accordingly
+                userPointsLabel?.text = "Current User points: Error"
+            }
+        }
+    }
+    
+    @IBAction func nbaIdLoginTapped(_ sender: UIButton) {
+        guard let encryptedId = nbaIdField?.text else { return ;}
+        CrowdplaySdk.shared.setAuthToken(authToken: encryptedId, provider: "nbaid")
     }
 }
 

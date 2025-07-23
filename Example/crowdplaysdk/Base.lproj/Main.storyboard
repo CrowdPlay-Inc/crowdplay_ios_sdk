@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,39 +20,91 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="efebd8e4-d1ba-4ba4-86ee-a7a9fe49685e" borderStyle="roundedRect" placeholder="API Key" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9jE-0f-gCw">
-                                <rect key="frame" x="32.5" y="269" width="310" height="34"/>
+                                <rect key="frame" x="32.5" y="61" width="310" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Encrypted ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nTx-kt-j3F">
+                                <rect key="frame" x="32.5" y="252" width="310" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcM-Ku-6fd">
-                                <rect key="frame" x="105" y="316.5" width="165" height="34.5"/>
+                                <rect key="frame" x="32.5" y="108.5" width="310" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Launch Crowdplay"/>
                                 <connections>
                                     <action selector="launchCrowdplayTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KNC-oz-HQe"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNA-NK-5VC">
+                                <rect key="frame" x="32.5" y="180" width="310" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Update Points"/>
+                                <connections>
+                                    <action selector="updatePointsTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="M4h-Bo-Igo"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="API Key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gH8-rF-zyy">
-                                <rect key="frame" x="158.5" y="240" width="58" height="21"/>
+                                <rect key="frame" x="32.5" y="32" width="310" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NBA ID Encrypted ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azX-DW-u7F">
+                                <rect key="frame" x="32.5" y="223" width="310" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current User Points: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74D-BU-zYP">
+                                <rect key="frame" x="32.5" y="151" width="310" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koc-y2-wGj">
+                                <rect key="frame" x="32.5" y="294" width="310" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NDA ID Login"/>
+                                <connections>
+                                    <action selector="nbaIdLoginTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YyB-Bg-SW3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9jE-0f-gCw" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="1Vt-dp-0Nv"/>
                             <constraint firstItem="BcM-Ku-6fd" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="3uz-Za-7Rh"/>
+                            <constraint firstItem="nTx-kt-j3F" firstAttribute="trailing" secondItem="9jE-0f-gCw" secondAttribute="trailing" id="CrP-HA-1vO"/>
+                            <constraint firstItem="aNA-NK-5VC" firstAttribute="leading" secondItem="74D-BU-zYP" secondAttribute="leading" id="D2U-43-WXa"/>
                             <constraint firstItem="BcM-Ku-6fd" firstAttribute="top" secondItem="9jE-0f-gCw" secondAttribute="bottom" constant="13.5" id="EPV-mD-C9a"/>
+                            <constraint firstItem="74D-BU-zYP" firstAttribute="leading" secondItem="9jE-0f-gCw" secondAttribute="leading" id="EQ2-HO-a4D"/>
+                            <constraint firstItem="nTx-kt-j3F" firstAttribute="leading" secondItem="74D-BU-zYP" secondAttribute="leading" id="FS7-ty-ast"/>
+                            <constraint firstItem="azX-DW-u7F" firstAttribute="top" secondItem="aNA-NK-5VC" secondAttribute="bottom" constant="8" symbolic="YES" id="MO1-ES-ZTg"/>
+                            <constraint firstItem="aNA-NK-5VC" firstAttribute="top" secondItem="74D-BU-zYP" secondAttribute="bottom" constant="8" symbolic="YES" id="PTP-QH-CZ7"/>
+                            <constraint firstItem="BcM-Ku-6fd" firstAttribute="leading" secondItem="9jE-0f-gCw" secondAttribute="leading" id="TB5-xe-Tku"/>
+                            <constraint firstItem="koc-y2-wGj" firstAttribute="leading" secondItem="nTx-kt-j3F" secondAttribute="leading" id="TDS-1b-LcY"/>
+                            <constraint firstItem="koc-y2-wGj" firstAttribute="top" secondItem="nTx-kt-j3F" secondAttribute="bottom" constant="8" symbolic="YES" id="TOh-UZ-VnH"/>
+                            <constraint firstItem="74D-BU-zYP" firstAttribute="trailing" secondItem="9jE-0f-gCw" secondAttribute="trailing" id="VhQ-me-dmM"/>
+                            <constraint firstItem="gH8-rF-zyy" firstAttribute="leading" secondItem="9jE-0f-gCw" secondAttribute="leading" id="cSQ-ha-ZKY"/>
+                            <constraint firstItem="aNA-NK-5VC" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="dbC-hf-Ny0"/>
                             <constraint firstItem="9jE-0f-gCw" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="32.5" id="erD-Et-WAI"/>
                             <constraint firstAttribute="trailing" secondItem="9jE-0f-gCw" secondAttribute="trailing" constant="32.5" id="iwa-bh-ulp"/>
-                            <constraint firstItem="BcM-Ku-6fd" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="m1J-xE-Qej"/>
+                            <constraint firstItem="azX-DW-u7F" firstAttribute="leading" secondItem="74D-BU-zYP" secondAttribute="leading" id="pLV-hM-4aC"/>
+                            <constraint firstItem="gH8-rF-zyy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="12" id="pkG-za-WCY"/>
                             <constraint firstItem="9jE-0f-gCw" firstAttribute="top" secondItem="gH8-rF-zyy" secondAttribute="bottom" constant="8" id="rJD-lm-PJp"/>
+                            <constraint firstItem="nTx-kt-j3F" firstAttribute="top" secondItem="azX-DW-u7F" secondAttribute="bottom" constant="8" symbolic="YES" id="shT-fa-uhw"/>
+                            <constraint firstItem="azX-DW-u7F" firstAttribute="trailing" secondItem="74D-BU-zYP" secondAttribute="trailing" id="vVv-0C-kRk"/>
+                            <constraint firstItem="74D-BU-zYP" firstAttribute="top" secondItem="BcM-Ku-6fd" secondAttribute="bottom" constant="8" symbolic="YES" id="vkC-Ii-iWW"/>
+                            <constraint firstItem="koc-y2-wGj" firstAttribute="trailing" secondItem="nTx-kt-j3F" secondAttribute="trailing" id="w54-d3-SkO"/>
+                            <constraint firstItem="nTx-kt-j3F" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="wM2-FE-cyt"/>
                             <constraint firstItem="gH8-rF-zyy" firstAttribute="centerX" secondItem="9jE-0f-gCw" secondAttribute="centerX" id="xbS-az-vyn"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="apiKeyInput" destination="9jE-0f-gCw" id="39g-mZ-dsz"/>
+                        <outlet property="nbaIdField" destination="nTx-kt-j3F" id="Re9-Dd-dX4"/>
+                        <outlet property="userPointsLabel" destination="74D-BU-zYP" id="B4S-La-6gF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

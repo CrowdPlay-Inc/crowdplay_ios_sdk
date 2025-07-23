@@ -52,7 +52,8 @@ public class CrowdplaySdk {
     var flutterViewController: FlutterViewController?
     private var apiKey = ""
     private var notificationToken = ""
-    private var authToken = ""
+    private var authToken: [String: String] = [:]
+    private var linkedAccounts: [[String: String]] = []
     private var appUrlScheme = ""
     private var presentingViewController: UIViewController?
 
@@ -87,7 +88,9 @@ public class CrowdplaySdk {
                 self.presentingViewController = nil
             } else if call.method == "getNativeNotificationToken" {
                 if self.notificationToken == "" {
-                    DispatchQueue.main.async { UIApplication.shared.registerForRemoteNotifications() }
+                    DispatchQueue.main.async {
+                        UIApplication.shared.registerForRemoteNotifications()
+                    }
                 }
                 result(self.notificationToken)
             } else if call.method == "getApnsMode" {
@@ -95,6 +98,8 @@ public class CrowdplaySdk {
                     UIDevice.current.pushEnvironment == .development ? "development" : "production")
             } else if call.method == "getAuthToken" {
                 result(self.authToken)
+            } else if call.method == "getLinkedAccounts" {
+                result(self.linkedAccounts)
             } else if call.method == "getUrlScheme" {
                 result(self.appUrlScheme)
             }
@@ -210,11 +215,21 @@ public class CrowdplaySdk {
         apiKeyChannel!.invokeMethod("setNotificationToken", arguments: tokenString)
     }
 
-    public func setAuthToken(authToken: String) {
-        self.authToken = authToken
+    public func setAuthToken(authToken: String, provider: String) {
+        self.authToken = ["authToken": authToken, "provider": provider]
 
-        if flutterViewController != nil && apiKeyChannel != nil {
+        if apiKeyChannel != nil {
             apiKeyChannel!.invokeMethod("performTokenLogin", arguments: authToken)
+        }
+    }
+
+    public func linkAccount(providerToken: String, provider: String) {
+        var providerInfo: [String: String] = ["token": authToken, "provider": provider]
+        self.linkedAccounts.append(providerInfo)
+
+        if apiKeyChannel != nil {
+            apiKeyChannel!.invokeMethod(
+                "linkAccounts", arguments: ["accounts": self.linkedAccounts])
         }
     }
 
@@ -226,5 +241,23 @@ public class CrowdplaySdk {
         apiKeyChannel!.invokeMethod("handleAppLink", arguments: appLink.absoluteString)
 
         return true
+    }
+
+    public func getPointsBalance() async throws -> Int? {
+        if apiKeyChannel == nil {
+            return nil
+        }
+
+        return try await withCheckedThrowingContinuation { continuation in
+            apiKeyChannel!.invokeMethod("getPointsBalance", arguments: nil) { result in
+                if let intValue = result as? Int {
+                    continuation.resume(returning: intValue)
+                } else if let number = result as? NSNumber {
+                    continuation.resume(returning: number.intValue)
+                } else {
+                    continuation.resume(returning: nil)
+                }
+            }
+        }
     }
 }
