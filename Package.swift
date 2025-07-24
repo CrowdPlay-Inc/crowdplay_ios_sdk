@@ -37,7 +37,9 @@ let package = Package(
                 "integration_test", "location", "package_info_plus",
                 "path_provider_foundation", "patrol", "sentry_flutter",
                 "share_plus", "shift4_sdk", "store_redirect", "app_links", "url_launcher_ios",
-                "vibration", "CardinalMobile", "PPRiskMagnes", "VNWebSDK", "mobile_scanner"
+                "vibration", "CardinalMobile", "PPRiskMagnes", "VNWebSDK", "mobile_scanner",
+                "sqflite_darwin",
+                "shared_preferences_foundation",
             ],
             resources: [
                 .copy("PrivacyInfo.xcprivacy")
@@ -209,6 +211,14 @@ let package = Package(
         .binaryTarget(
             name: "VNWebSDK",
             path: "FixedFrameworks/VNWebSDK.xcframework"
+        ),
+        .binaryTarget(
+            name: "sqflite_darwin",
+            path: "Frameworks/sqflite_darwin.xcframework"
+        ),
+        .binaryTarget(
+            name: "shared_preferences_foundation",
+            path: "Frameworks/shared_preferences_foundation.xcframework"
         ),
         .testTarget(
             name: "crowdplay_ios_sdkTests",
