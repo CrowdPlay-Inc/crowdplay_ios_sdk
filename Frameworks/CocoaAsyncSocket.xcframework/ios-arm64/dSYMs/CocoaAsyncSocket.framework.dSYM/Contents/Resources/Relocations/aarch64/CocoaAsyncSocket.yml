@@ -19,10 +19,10 @@ relocations:
   - { offset: 0x294, size: 0x8, addend: 0x0, symName: _GCDAsyncSocketSSLALPN, symObjAddr: 0x10A78, symBinAddr: 0x28558, symSize: 0x0 }
   - { offset: 0x2AB, size: 0x8, addend: 0x0, symName: '-[GCDAsyncSocket doWriteData]', symObjAddr: 0xAAA8, symBinAddr: 0xEAA8, symSize: 0x4F0 }
   - { offset: 0x5D7, size: 0x8, addend: 0x0, symName: '+[GCDAsyncSocket startCFStreamThreadIfNeeded]', symObjAddr: 0xCCC0, symBinAddr: 0x10CC0, symSize: 0x8C }
-  - { offset: 0x5FE, size: 0x8, addend: 0x0, symName: _startCFStreamThreadIfNeeded.predicate, symObjAddr: 0x56D00, symBinAddr: 0x2E930, symSize: 0x0 }
-  - { offset: 0x7DA, size: 0x8, addend: 0x0, symName: _cfstreamThread, symObjAddr: 0x56D18, symBinAddr: 0x2E948, symSize: 0x0 }
-  - { offset: 0x7F4, size: 0x8, addend: 0x0, symName: _cfstreamThreadRetainCount, symObjAddr: 0x56D08, symBinAddr: 0x2E938, symSize: 0x0 }
-  - { offset: 0x810, size: 0x8, addend: 0x0, symName: _cfstreamThreadSetupQueue, symObjAddr: 0x56D10, symBinAddr: 0x2E940, symSize: 0x0 }
+  - { offset: 0x5FE, size: 0x8, addend: 0x0, symName: _startCFStreamThreadIfNeeded.predicate, symObjAddr: 0x56C80, symBinAddr: 0x2E930, symSize: 0x0 }
+  - { offset: 0x7DA, size: 0x8, addend: 0x0, symName: _cfstreamThread, symObjAddr: 0x56C98, symBinAddr: 0x2E948, symSize: 0x0 }
+  - { offset: 0x7F4, size: 0x8, addend: 0x0, symName: _cfstreamThreadRetainCount, symObjAddr: 0x56C88, symBinAddr: 0x2E938, symSize: 0x0 }
+  - { offset: 0x810, size: 0x8, addend: 0x0, symName: _cfstreamThreadSetupQueue, symObjAddr: 0x56C90, symBinAddr: 0x2E940, symSize: 0x0 }
   - { offset: 0x117F, size: 0x8, addend: 0x0, symName: '-[GCDAsyncSocketPreBuffer init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x18 }
   - { offset: 0x11B3, size: 0x8, addend: 0x0, symName: '-[GCDAsyncSocketPreBuffer initWithCapacity:]', symObjAddr: 0x18, symBinAddr: 0x4018, symSize: 0x60 }
   - { offset: 0x121B, size: 0x8, addend: 0x0, symName: '-[GCDAsyncSocketPreBuffer dealloc]', symObjAddr: 0x78, symBinAddr: 0x4078, symSize: 0x4C }
@@ -395,8 +395,8 @@ relocations:
   - { offset: 0x10516, size: 0x8, addend: 0x0, symName: _GCDAsyncUdpSocketQueueName, symObjAddr: 0xD4E0, symBinAddr: 0x28C20, symSize: 0x0 }
   - { offset: 0x1052B, size: 0x8, addend: 0x0, symName: _GCDAsyncUdpSocketThreadName, symObjAddr: 0xD4E8, symBinAddr: 0x28C28, symSize: 0x0 }
   - { offset: 0x10534, size: 0x8, addend: 0x0, symName: '+[GCDAsyncUdpSocket startListenerThreadIfNeeded]', symObjAddr: 0xA7E4, symBinAddr: 0x1CB4C, symSize: 0x6C }
-  - { offset: 0x1055C, size: 0x8, addend: 0x0, symName: _startListenerThreadIfNeeded.predicate, symObjAddr: 0x40B50, symBinAddr: 0x2E950, symSize: 0x0 }
-  - { offset: 0x10603, size: 0x8, addend: 0x0, symName: _listenerThread, symObjAddr: 0x40B58, symBinAddr: 0x2E958, symSize: 0x0 }
+  - { offset: 0x1055C, size: 0x8, addend: 0x0, symName: _startListenerThreadIfNeeded.predicate, symObjAddr: 0x40AD0, symBinAddr: 0x2E950, symSize: 0x0 }
+  - { offset: 0x10603, size: 0x8, addend: 0x0, symName: _listenerThread, symObjAddr: 0x40AD8, symBinAddr: 0x2E958, symSize: 0x0 }
   - { offset: 0x10BF3, size: 0x8, addend: 0x0, symName: '-[GCDAsyncUdpSendPacket init]', symObjAddr: 0x0, symBinAddr: 0x12658, symSize: 0x18 }
   - { offset: 0x10C28, size: 0x8, addend: 0x0, symName: '-[GCDAsyncUdpSendPacket initWithData:timeout:tag:]', symObjAddr: 0x18, symBinAddr: 0x12670, symSize: 0x94 }
   - { offset: 0x10C8D, size: 0x8, addend: 0x0, symName: '-[GCDAsyncUdpSendPacket .cxx_destruct]', symObjAddr: 0xAC, symBinAddr: 0x12704, symSize: 0x48 }

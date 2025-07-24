@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64/firebase_core.framework/Info.plist</key>
 		<data>
-		X62bUuLk1cbOvFELl9TRKhI3Kr8=
+		h0nOUl+jO5riOWN0iKm4qFgKeBk=
 		</data>
 		<key>ios-arm64/firebase_core.framework/Modules/module.modulemap</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64/firebase_core.framework/firebase_core</key>
 		<data>
-		20/LlW4SXHaij1dRWoGg7Ak8TTg=
+		VyIo+ZEAnlOJtVFCBhZSM6+sw14=
 		</data>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/FLTFirebaseCorePlugin.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Info.plist</key>
 		<data>
-		UV2bsiXrRKbRdypK4MIQgSNSmGw=
+		gYDzPEhPXxXF53qw8DzDdTUP1U4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		rx91kAZvUBBdnKBQkgBaduG+pFY=
+		+JziL/dHKfzL+3jNxpYJ3tXOvqk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		lHnKGafdZaYLAO1IK9IJDXkO8Ds=
+		zmBtlXqKmH1JxAi2ydTsbyJWlAM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeResources</key>
 		<data>
-		uQL40aGdD+dnVzqtaZeVPWEe5Ro=
+		iX3A/Hyo8hhDFsN41y6pXzxRIu4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/firebase_core</key>
 		<data>
-		0LvxHN65NuwpQR2DmagqL/CnRS4=
+		wDgKSuESRLvIEgtHDLAh1j2F22A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -150,11 +150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X62bUuLk1cbOvFELl9TRKhI3Kr8=
+			h0nOUl+jO5riOWN0iKm4qFgKeBk=
 			</data>
 			<key>hash2</key>
 			<data>
-			sm8qNPFx5A+lWBIVqPnPlQEP7odBzz9nwVY1SFQeCMg=
+			tLGN8yMl1iPdCTTq3+UaT0Ps2TQ8HkBnSQtTg59YY3I=
 			</data>
 		</dict>
 		<key>ios-arm64/firebase_core.framework/Modules/module.modulemap</key>
@@ -172,11 +172,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			20/LlW4SXHaij1dRWoGg7Ak8TTg=
+			VyIo+ZEAnlOJtVFCBhZSM6+sw14=
 			</data>
 			<key>hash2</key>
 			<data>
-			BbEU/iQbo+nZ6IOYtYBiKiWfkalf7X/1Kv+hEUVRyb4=
+			5dFtHfTPMSKLn7eeY7KmQwzK37Y0m2HWO5ZKx/tNJgc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Headers/FLTFirebaseCorePlugin.h</key>
@@ -238,11 +238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UV2bsiXrRKbRdypK4MIQgSNSmGw=
+			gYDzPEhPXxXF53qw8DzDdTUP1U4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XcE+p7dio4a2Nx3jdo7OOpzJFlJvQ8uNeJm5E4VDRo0=
+			UtZe03QB4hkqA89CUG00TolAgVVleU2IA8Avcb/548c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/Modules/module.modulemap</key>
@@ -260,11 +260,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rx91kAZvUBBdnKBQkgBaduG+pFY=
+			+JziL/dHKfzL+3jNxpYJ3tXOvqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			a+d3lOULDdYKWSZ10acfI5CVIgfggf9vh4WgzF+Cpzs=
+			gY6G2bso2CNotETG6N+vnNwvto6z2wiXkZY7+cR1jSU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeRequirements</key>
@@ -282,22 +282,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lHnKGafdZaYLAO1IK9IJDXkO8Ds=
+			zmBtlXqKmH1JxAi2ydTsbyJWlAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			DnCDrBUbLNSJJGpzkcphm4m2Czx4HBgq53KeNOPoqg4=
+			FrL7Yf8mhOrzFFdHdWXtPIrGlQ6RDwmrpH/SD9T+v34=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uQL40aGdD+dnVzqtaZeVPWEe5Ro=
+			iX3A/Hyo8hhDFsN41y6pXzxRIu4=
 			</data>
 			<key>hash2</key>
 			<data>
-			vD6TPMUPu/QNvM/RF2SHLT58Rq/VrISZvil/nNOP0ak=
+			vsG1/LAVh5+Y7zOEZrwr6zbjYuf+d8QrrdEhiYs0Gik=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/firebase_core.framework/_CodeSignature/CodeSignature</key>
@@ -315,11 +315,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0LvxHN65NuwpQR2DmagqL/CnRS4=
+			wDgKSuESRLvIEgtHDLAh1j2F22A=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Ml1/P6POSogIlEL2++CY+lzuF6WTMlU+87gndYvKi4=
+			ZWg8G65HNJHMAAJsA/0o6PX6xiKa7hAi+vFeVMtuF3c=
 			</data>
 		</dict>
 	</dict>

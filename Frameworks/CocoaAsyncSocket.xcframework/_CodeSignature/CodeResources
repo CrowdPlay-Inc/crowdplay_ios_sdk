@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<data>
-		JmXbmS85bQPDhH74Ek9eIofmnPc=
+		mmuPPFo3/3OXQgvKRC21RaZjoQg=
 		</data>
 		<key>ios-arm64/CocoaAsyncSocket.framework/Headers/CocoaAsyncSocket-umbrella.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>ios-arm64/CocoaAsyncSocket.framework/Info.plist</key>
 		<data>
-		yhzAWhBCAvorIsVF5KvuoBGLFus=
+		ekelPWgtmg2CbiorgI2B9OFN9yw=
 		</data>
 		<key>ios-arm64/CocoaAsyncSocket.framework/Modules/module.modulemap</key>
 		<data>
@@ -34,15 +34,15 @@
 		</data>
 		<key>ios-arm64/dSYMs/CocoaAsyncSocket.framework.dSYM/Contents/Resources/DWARF/CocoaAsyncSocket</key>
 		<data>
-		22436px8j3j/6AtrTksK7jp0qUY=
+		6sZ/OD0N1Z+ki/h3CqNdiNh+25o=
 		</data>
 		<key>ios-arm64/dSYMs/CocoaAsyncSocket.framework.dSYM/Contents/Resources/Relocations/aarch64/CocoaAsyncSocket.yml</key>
 		<data>
-		UxXgMK53ILsCoxzvY7LQzIb29rc=
+		BWkLVPCxS0d33noBnNzsJqornhg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<data>
-		kPvAKsO/QPGG+iftCvwdCqX+dqs=
+		J3PUeohSgY8UIeHtWHD8KwqjccY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Headers/CocoaAsyncSocket-umbrella.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Info.plist</key>
 		<data>
-		ZcmQlpPzTBoz1cFiGXSLTdg5BKA=
+		F7H06pHW723IxSRaPk8Ll4Sc3zU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
 		<data>
-		gfPdOK7C95wtIH5mgdunyc+p1EA=
+		V0TKX+KNOdqek9wXUdcm6zwBQwg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -75,11 +75,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JmXbmS85bQPDhH74Ek9eIofmnPc=
+			mmuPPFo3/3OXQgvKRC21RaZjoQg=
 			</data>
 			<key>hash2</key>
 			<data>
-			v9Sp5FM8PEi4SETZe2ONRE9aKmgCpz5wlv4V5DPFdZc=
+			WgOdlRlRFKO188/d48slynvUIdjSfwJo9MRcYRWXUIk=
 			</data>
 		</dict>
 		<key>ios-arm64/CocoaAsyncSocket.framework/Headers/CocoaAsyncSocket-umbrella.h</key>
@@ -119,11 +119,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yhzAWhBCAvorIsVF5KvuoBGLFus=
+			ekelPWgtmg2CbiorgI2B9OFN9yw=
 			</data>
 			<key>hash2</key>
 			<data>
-			LBmcciWcZI2Eh7sdaiqWmdqHk997K5q3UQpFEdd5tMs=
+			UW36pMo7tVxOP5zdw0y0pgXXM7E46ExuVsmfWUcjbOk=
 			</data>
 		</dict>
 		<key>ios-arm64/CocoaAsyncSocket.framework/Modules/module.modulemap</key>
@@ -152,33 +152,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			22436px8j3j/6AtrTksK7jp0qUY=
+			6sZ/OD0N1Z+ki/h3CqNdiNh+25o=
 			</data>
 			<key>hash2</key>
 			<data>
-			0AB938Y5/MgCmuHDDa1IPCxut2/lffEBbrgjHHHIl4E=
+			wAq43ZuKj8oOVNKtt5gLY9TekHTxaUUOq2PH4dTAaP8=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/CocoaAsyncSocket.framework.dSYM/Contents/Resources/Relocations/aarch64/CocoaAsyncSocket.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UxXgMK53ILsCoxzvY7LQzIb29rc=
+			BWkLVPCxS0d33noBnNzsJqornhg=
 			</data>
 			<key>hash2</key>
 			<data>
-			LbZA+CvUQ8VZ//6inOD3UCEpFS3kmhBZfrKI+BX8T4g=
+			eLd+7XRzvi2ztUpEh1H1iJ2EEI1HOsb5oHQHa+SzIfo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kPvAKsO/QPGG+iftCvwdCqX+dqs=
+			J3PUeohSgY8UIeHtWHD8KwqjccY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vUk20J7cpDJm/yQMMBILUnzrq06NvCeLQPXiPhVBCqA=
+			wGLf8TUYe15r8LjTNptnJgj30OWE9lUbU/XSwhVZBEI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Headers/CocoaAsyncSocket-umbrella.h</key>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZcmQlpPzTBoz1cFiGXSLTdg5BKA=
+			F7H06pHW723IxSRaPk8Ll4Sc3zU=
 			</data>
 			<key>hash2</key>
 			<data>
-			g5nlZ8apFsereKfkYhL3/GfyySk6B20JgLpbtdG0VJQ=
+			boHIndIu/9RyHgnCXmXD6VWL74xHTe+Ax6Jk4KlbMX4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CocoaAsyncSocket.framework/Modules/module.modulemap</key>
@@ -240,11 +240,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gfPdOK7C95wtIH5mgdunyc+p1EA=
+			V0TKX+KNOdqek9wXUdcm6zwBQwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xd7p9pYA7TxUUdIMYRgCQNkY3NFHWSxF6RPrtymfDV4=
+			+iczWs59FA0mCbZxlqy3o0Z+wMUgh83RcUlsp+hHkAc=
 			</data>
 		</dict>
 	</dict>
