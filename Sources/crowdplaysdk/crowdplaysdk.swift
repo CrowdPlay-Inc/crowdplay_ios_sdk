@@ -243,6 +243,22 @@ public class CrowdplaySdk {
         return true
     }
 
+    public func loggedIn() async throws -> Bool? {
+        if apiKeyChannel == nil {
+            return nil
+        }
+
+        return try await withCheckedThrowingContinuation { continuation in
+            apiKeyChannel!.invokeMethod("loggedIn", arguments: nil) { result in
+                if let boolValue = result as? Bool {
+                    continuation.resume(returning: boolValue)
+                } else {
+                    continuation.resume(returning: nil)
+                }
+            }
+        }
+    }
+
     public func getPointsBalance() async throws -> Int? {
         if apiKeyChannel == nil {
             return nil
