@@ -260,4 +260,20 @@ public class CrowdplaySdk {
             }
         }
     }
+
+    public func getLoyaltyCodeAndDescription() async throws -> [String: String]? {
+        if apiKeyChannel == nil {
+            return nil
+        }
+
+        return try await withCheckedThrowingContinuation { continuation in
+            apiKeyChannel!.invokeMethod("getLoyaltyCodeAndDescription", arguments: nil) { result in
+                if let dictValue = result as? [String: String]? {
+                    continuation.resume(returning: dictValue)
+                } else {
+                    continuation.resume(returning: nil)
+                }
+            }
+        }
+    }
 }
