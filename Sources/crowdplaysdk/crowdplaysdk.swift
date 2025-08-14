@@ -219,7 +219,7 @@ public class CrowdplaySdk {
         self.authToken = ["token": authToken, "provider": provider]
 
         if apiKeyChannel != nil {
-            apiKeyChannel!.invokeMethod("performTokenLogin", arguments: authToken)
+            apiKeyChannel!.invokeMethod("performTokenLogin", arguments: self.authToken)
         }
     }
 
