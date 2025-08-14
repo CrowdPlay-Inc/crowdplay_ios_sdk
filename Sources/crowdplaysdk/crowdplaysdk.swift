@@ -216,7 +216,7 @@ public class CrowdplaySdk {
     }
 
     public func setAuthToken(authToken: String, provider: String) {
-        self.authToken = ["authToken": authToken, "provider": provider]
+        self.authToken = ["token": authToken, "provider": provider]
 
         if apiKeyChannel != nil {
             apiKeyChannel!.invokeMethod("performTokenLogin", arguments: authToken)
