@@ -22,7 +22,7 @@
 		</data>
 		<key>ios-arm64/LoggerAPI.framework/Modules/LoggerAPI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		PIpqkI/8BCYARnwitZhPMw2hf+g=
+		F1TLr8J0aJwQQEB4MiNgQm+oMHI=
 		</data>
 		<key>ios-arm64/LoggerAPI.framework/Modules/LoggerAPI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/LoggerAPI.framework.dSYM/Contents/Resources/DWARF/LoggerAPI</key>
 		<data>
-		MXYhlFHczXhgEdq0a2te2mLq3EY=
+		W/PY+qGRMDCqWeNP8CZNtm+eKzw=
 		</data>
 		<key>ios-arm64/dSYMs/LoggerAPI.framework.dSYM/Contents/Resources/Relocations/aarch64/LoggerAPI.yml</key>
 		<data>
@@ -70,15 +70,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/LoggerAPI.framework/LoggerAPI</key>
 		<data>
-		IrSmWG6i5LZqD+GpD6OgVKolsro=
+		fQY5kyZ9cl5uJ9b6Fuqe5/zo/Ag=
 		</data>
 		<key>ios-arm64_x86_64-simulator/LoggerAPI.framework/Modules/LoggerAPI.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		H41kITQCwdXVPB26/7dYdiu67C4=
+		PyBrMlJ3n1GNYo5wDhzEekS1yrg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/LoggerAPI.framework/Modules/LoggerAPI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		WfDPWLRlwHZttJO6vSvUXvX3YAw=
+		bhMNR0ObBJRkV7drIB85pQn4aLY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/LoggerAPI.framework/Modules/LoggerAPI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/LoggerAPI.framework/_CodeSignature/CodeResources</key>
 		<data>
-		QmJ80n4vDX2mdaKJjy7sQDgLDTY=
+		Npn/mqsC6VkbZoL3DDne0g2mIY8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -171,11 +171,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PIpqkI/8BCYARnwitZhPMw2hf+g=
+			F1TLr8J0aJwQQEB4MiNgQm+oMHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			SJxZgszPGDKAl33d1qXSQJVf9IVadCYobNN9QuAtuOI=
+			Ij3KgquOF3pC+RU2kEMTUj1iVqKNaZNZ7iOtbeDYAPQ=
 			</data>
 		</dict>
 		<key>ios-arm64/LoggerAPI.framework/Modules/LoggerAPI.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -248,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MXYhlFHczXhgEdq0a2te2mLq3EY=
+			W/PY+qGRMDCqWeNP8CZNtm+eKzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			QFSnDAjrMK9zWsSxadUV7GBh0H7INNml/op/nJ6Gp68=
+			lvvJii71QnzGd6zImDfrcgj8w+eITO/vR0ZyI+xmL3M=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/LoggerAPI.framework.dSYM/Contents/Resources/Relocations/aarch64/LoggerAPI.yml</key>
@@ -303,33 +303,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IrSmWG6i5LZqD+GpD6OgVKolsro=
+			fQY5kyZ9cl5uJ9b6Fuqe5/zo/Ag=
 			</data>
 			<key>hash2</key>
 			<data>
-			xv9VDRHeEJJNK7+IenjrLUYgSNk2N+cJRlp1Ai/bHHY=
+			dBRfvnFZWEudPfTNIKygL9fkXlp3HXRJPA/myfnFQrM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/LoggerAPI.framework/Modules/LoggerAPI.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H41kITQCwdXVPB26/7dYdiu67C4=
+			PyBrMlJ3n1GNYo5wDhzEekS1yrg=
 			</data>
 			<key>hash2</key>
 			<data>
-			H+gI2z9Es1oSYaKdwM3RgtQxAn0NCy7WnRxJTD+pjpM=
+			XfjWCV0AwIl+VGeXEOBsjnzUoWAH+0Cq5B33bgXF1BQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/LoggerAPI.framework/Modules/LoggerAPI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WfDPWLRlwHZttJO6vSvUXvX3YAw=
+			bhMNR0ObBJRkV7drIB85pQn4aLY=
 			</data>
 			<key>hash2</key>
 			<data>
-			DYbhVuE76ItSgN5/JLcTVqSss3LyIotpdsyUzvw5R50=
+			7bMQUbM2lTtZnPUbVG8vEc+7MrEajQcuKLrWSXUvCrs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/LoggerAPI.framework/Modules/LoggerAPI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -435,11 +435,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QmJ80n4vDX2mdaKJjy7sQDgLDTY=
+			Npn/mqsC6VkbZoL3DDne0g2mIY8=
 			</data>
 			<key>hash2</key>
 			<data>
-			joVx2e5XfPBqcd7B13H7Yn+LZUXy+8Cc6TSNExa0i3w=
+			Kpw8Sksjmn+JaikHbPUrB76cACdI01i4EMatHSaDlK8=
 			</data>
 		</dict>
 	</dict>
