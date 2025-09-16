@@ -15,7 +15,7 @@ final public class SentryFlutter {
   final public func update(options: Sentry.Options, with data: [Swift.String : Any])
   @objc deinit
 }
-@objc @_hasMissingDesignatedInitializers public class SentryFlutterPluginApple : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+@objc @_hasMissingDesignatedInitializers public class SentryFlutterPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
   @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   @objc deinit

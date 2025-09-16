@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7qIpm/WVZdTmblMxGHkRrXmCbkY=
+		6UNjAFjP52bdgkr8MEDGod2TBY8=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Fm91Sic8DGbB2yM3t5Gb+bbYG6c=
+		kUaAp3m4VRnwim/+IHEAHVHN3AY=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		KXio74eY2lB6Z0EbtEGkMOQOAoY=
+		BIeN4tGMsxEpJxx0m2PZu3xJT/o=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		cnu0GB7TSiQAhx53AOzCV0DEybA=
+		cQ+/QePntZWTwojKWQQTl7I+s/A=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Cewt4aaIYFJlceQYFuI9yuwuESU=
+		LxkFCL4LYYQcQJnEGtdSouBXY+8=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ReU73Gi6bNJR7du1xJt6SomVtIA=
+		bvamcFH5KcIw8/AdmZauITVNnls=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Cewt4aaIYFJlceQYFuI9yuwuESU=
+		LxkFCL4LYYQcQJnEGtdSouBXY+8=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+DjdTnBa0bGLQquWIkwy8Eg0yuY=
+		SgshykhY0Lull2DkiMGDbEeU6dM=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		cnu0GB7TSiQAhx53AOzCV0DEybA=
+		cQ+/QePntZWTwojKWQQTl7I+s/A=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0zxCOKgI0G/8gIVvHFrPJa95Lv0=
+		Wi10eSwsmR3TdLWRnv0qLxSVUxA=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OTS0D7tC/MUfQIut/lStnMa6PQg=
+		xDyP3SQsO2Qh64EZe2XkkhNr1ns=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0zxCOKgI0G/8gIVvHFrPJa95Lv0=
+		Wi10eSwsmR3TdLWRnv0qLxSVUxA=
 		</data>
 		<key>Modules/CryptorRSA.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SOddAg0xsv9ns3ms3ixHmNk+oZM=
+		2DGb8lEUiZenOOlrjgfu/D07XcA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,6 +73,10 @@
 	<dict>
 		<key>Headers/BlueRSA-umbrella.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2iTWwdhmvX4jHe4kI7lqVK7IR1s=
+			</data>
 			<key>hash2</key>
 			<data>
 			FdEwaH7N/pCmZrX4/IIz71Yg0elZQXf138GOLLrD1zY=
@@ -80,6 +84,10 @@
 		</dict>
 		<key>Headers/CryptorRSA-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			61IItlMqHhhzjyprvWPeCEhAlIk=
+			</data>
 			<key>hash2</key>
 			<data>
 			roljsCJ5evnweSUkghLiUUMRtATaM3NpXEH+PSQ3900=
@@ -87,90 +95,142 @@
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kUaAp3m4VRnwim/+IHEAHVHN3AY=
+			</data>
 			<key>hash2</key>
 			<data>
-			tIsEgQkBmXdEEEZIC8JKn4oa4Z7TRfQdu0owysWNb9g=
+			12/qfrvoCA0NigDKXTU5UmpIadq1EoWsOAiw1UHdaSQ=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			BIeN4tGMsxEpJxx0m2PZu3xJT/o=
+			</data>
 			<key>hash2</key>
 			<data>
-			5sBIbwRSEHEuirmVwFGuajtxrBVNf/O8vWkbkU5lSw8=
+			+d0iXJxZ/JkbC976zQyz9BaHqoW/f8mWZ4qVKP27NSA=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			cQ+/QePntZWTwojKWQQTl7I+s/A=
+			</data>
 			<key>hash2</key>
 			<data>
-			ZaNOULiGgpDWmSdpC5DAjkzm0Wo7mxeKbFqzGZ9/PHE=
+			URXEK6hkTY5f0Ntjlxq1v//fK9Wg8uY/XsHKJeyh7hk=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			LxkFCL4LYYQcQJnEGtdSouBXY+8=
+			</data>
 			<key>hash2</key>
 			<data>
-			ipCloE0J00NMyN8Sk1ktlZzVunCy3Pc/BY9HmpxTawg=
+			hJmxkXbJL1e4RLV+Tnumc8hOaehmU+1xSjfYV7TCvl0=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			bvamcFH5KcIw8/AdmZauITVNnls=
+			</data>
 			<key>hash2</key>
 			<data>
-			VocD6VC8fL9x3pA0Vjz7g9Wv0itjzVJXpZw4eaqRa5E=
+			aLUaEc0wb0AiIfLCnydM1riqWoUFZ/QrsvF+ZTopTHI=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			LxkFCL4LYYQcQJnEGtdSouBXY+8=
+			</data>
 			<key>hash2</key>
 			<data>
-			ipCloE0J00NMyN8Sk1ktlZzVunCy3Pc/BY9HmpxTawg=
+			hJmxkXbJL1e4RLV+Tnumc8hOaehmU+1xSjfYV7TCvl0=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			SgshykhY0Lull2DkiMGDbEeU6dM=
+			</data>
 			<key>hash2</key>
 			<data>
-			VhvFBl0O7e3xjsOUX+VcrX1zlGCsHqYfApGWf0AiEvU=
+			XbRqHdigOuoCZf+nWp5Cc9WuLCQJE7SWCK3isaSDKfs=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			cQ+/QePntZWTwojKWQQTl7I+s/A=
+			</data>
 			<key>hash2</key>
 			<data>
-			ZaNOULiGgpDWmSdpC5DAjkzm0Wo7mxeKbFqzGZ9/PHE=
+			URXEK6hkTY5f0Ntjlxq1v//fK9Wg8uY/XsHKJeyh7hk=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Wi10eSwsmR3TdLWRnv0qLxSVUxA=
+			</data>
 			<key>hash2</key>
 			<data>
-			xA7NwoImzrVLIuEraqDcSJ18U5l8XuCorSdLpJCc5Ts=
+			w+kLq7bLXh+U5LUtP9WpMUC2wcp9yOPVLFLEzAgowc4=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			xDyP3SQsO2Qh64EZe2XkkhNr1ns=
+			</data>
 			<key>hash2</key>
 			<data>
-			yY6wD6LfuibVxHGipts62LxIIw+pt2QpTE8nxmAJJsk=
+			ILePscUmYCn/bT79lb1GaKIOlYq3cC34Py39dvkaXS4=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Wi10eSwsmR3TdLWRnv0qLxSVUxA=
+			</data>
 			<key>hash2</key>
 			<data>
-			xA7NwoImzrVLIuEraqDcSJ18U5l8XuCorSdLpJCc5Ts=
+			w+kLq7bLXh+U5LUtP9WpMUC2wcp9yOPVLFLEzAgowc4=
 			</data>
 		</dict>
 		<key>Modules/CryptorRSA.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2DGb8lEUiZenOOlrjgfu/D07XcA=
+			</data>
 			<key>hash2</key>
 			<data>
-			pSK9L64FH6Cwpx+aGS+3f5sMazkOzdlp86UEBqkpcl4=
+			McTj31D/V+5Ky6dtrHLWRH46kZknLriClmo71zmBPgw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Zu0mFt/Jy52sNBzq0WuMDW5j25A=
+			</data>
 			<key>hash2</key>
 			<data>
 			naGVwAIooLmvn2f58iTIHrDFDsvcgIt9G+2CmE58WtY=

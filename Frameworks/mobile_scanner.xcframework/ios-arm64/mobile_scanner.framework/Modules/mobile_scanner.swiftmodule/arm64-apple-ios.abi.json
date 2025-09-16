@@ -6,6 +6,20 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "mobile_scanner"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "mobile_scanner"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -813,163 +827,170 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 38,
       "value": "\"MOBILE_SCANNER_ALREADY_STARTED_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 34,
       "value": "\"The scanner was already started.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 393,
       "length": 71,
       "value": "\"Analyzing an image from a file is not supported on the iOS Simulator.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 525,
       "length": 36,
       "value": "\"The provided file is not an image.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 730,
       "length": 30,
       "value": "\"MOBILE_SCANNER_BARCODE_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 928,
       "length": 29,
       "value": "\"MOBILE_SCANNER_CAMERA_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1129,
+      "length": 50,
+      "value": "\"The camera video input could not be initialized.\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
       "length": 30,
       "value": "\"MOBILE_SCANNER_GENERIC_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1059,
+      "offset": 1281,
       "length": 28,
       "value": "\"An unknown error occurred.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1425,
       "length": 59,
       "value": "\"The zoom scale should be between 0 and 1 (both inclusive)\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1296,
+      "offset": 1518,
       "length": 32,
       "value": "\"MOBILE_SCANNER_NO_CAMERA_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1370,
+      "offset": 1592,
       "length": 23,
       "value": "\"No cameras available.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1440,
+      "offset": 1662,
       "length": 45,
       "value": "\"MOBILE_SCANNER_SET_SCALE_WHEN_STOPPED_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1540,
+      "offset": 1762,
       "length": 62,
       "value": "\"The zoom scale cannot be changed when the camera is stopped.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1648,
+      "offset": 1870,
       "length": 38,
       "value": "\"MOBILE_SCANNER_UNSUPPORTED_OPERATION\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1016,
+      "offset": 1012,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1126,
+      "offset": 1122,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "Array",
-      "offset": 1172,
+      "offset": 1168,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1272,
+      "offset": 1264,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 3583,
+      "offset": 4213,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 3627,
+      "offset": 4257,
       "length": 5,
       "value": "false"
     }

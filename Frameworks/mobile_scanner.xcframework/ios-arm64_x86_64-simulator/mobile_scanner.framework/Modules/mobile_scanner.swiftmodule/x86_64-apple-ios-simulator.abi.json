@@ -274,6 +274,419 @@
       },
       {
         "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "mobile_scanner"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "mobile_scanner"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceOrientationStreamHandler",
+        "printedName": "DeviceOrientationStreamHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eventSink",
+            "printedName": "eventSink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14mobile_scanner30DeviceOrientationStreamHandlerC9eventSink33_BD9713ECC552E45E48ABDEB15FDB1B94LLyypSgcSgvp",
+            "mangledName": "$s14mobile_scanner30DeviceOrientationStreamHandlerC9eventSink33_BD9713ECC552E45E48ABDEB15FDB1B94LLyypSgcSgvp",
+            "moduleName": "mobile_scanner",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "orientationObserver",
+            "printedName": "orientationObserver",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any ObjectiveC.NSObjectProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObjectProtocol",
+                    "printedName": "any ObjectiveC.NSObjectProtocol",
+                    "usr": "c:objc(pl)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14mobile_scanner30DeviceOrientationStreamHandlerC19orientationObserver33_BD9713ECC552E45E48ABDEB15FDB1B94LLSo8NSObject_pSgvp",
+            "mangledName": "$s14mobile_scanner30DeviceOrientationStreamHandlerC19orientationObserver33_BD9713ECC552E45E48ABDEB15FDB1B94LLSo8NSObject_pSgvp",
+            "moduleName": "mobile_scanner",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "onOrientationChanged",
+            "printedName": "onOrientationChanged",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIDeviceOrientation) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIDeviceOrientation) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIDeviceOrientation",
+                        "printedName": "UIKit.UIDeviceOrientation",
+                        "usr": "c:@E@UIDeviceOrientation"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14mobile_scanner30DeviceOrientationStreamHandlerC02onD7Changed33_BD9713ECC552E45E48ABDEB15FDB1B94LLySo08UIDeviceD0VcSgvp",
+            "mangledName": "$s14mobile_scanner30DeviceOrientationStreamHandlerC02onD7Changed33_BD9713ECC552E45E48ABDEB15FDB1B94LLySo08UIDeviceD0VcSgvp",
+            "moduleName": "mobile_scanner",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onOrientationChanged:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceOrientationStreamHandler",
+                "printedName": "mobile_scanner.DeviceOrientationStreamHandler",
+                "usr": "c:@M@mobile_scanner@objc(cs)DeviceOrientationStreamHandler"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIDeviceOrientation) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIDeviceOrientation) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIDeviceOrientation",
+                        "printedName": "UIKit.UIDeviceOrientation",
+                        "usr": "c:@E@UIDeviceOrientation"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14mobile_scanner30DeviceOrientationStreamHandlerC02onD7ChangedACySo08UIDeviceD0VcSg_tcfc",
+            "mangledName": "$s14mobile_scanner30DeviceOrientationStreamHandlerC02onD7ChangedACySo08UIDeviceD0VcSg_tcfc",
+            "moduleName": "mobile_scanner",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@mobile_scanner@objc(cs)DeviceOrientationStreamHandler(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s14mobile_scanner30DeviceOrientationStreamHandlerC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "mobile_scanner",
+            "isOpen": true,
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@mobile_scanner@objc(cs)DeviceOrientationStreamHandler(im)onCancelWithArguments:",
+            "mangledName": "$s14mobile_scanner30DeviceOrientationStreamHandlerC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "mobile_scanner",
+            "isOpen": true,
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceOrientationStreamHandler",
+                "printedName": "mobile_scanner.DeviceOrientationStreamHandler",
+                "usr": "c:@M@mobile_scanner@objc(cs)DeviceOrientationStreamHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@mobile_scanner@objc(cs)DeviceOrientationStreamHandler(im)init",
+            "mangledName": "$s14mobile_scanner30DeviceOrientationStreamHandlerCACycfc",
+            "moduleName": "mobile_scanner",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@mobile_scanner@objc(cs)DeviceOrientationStreamHandler",
+        "mangledName": "$s14mobile_scanner30DeviceOrientationStreamHandlerC",
+        "moduleName": "mobile_scanner",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -403,6 +816,44 @@
           },
           {
             "kind": "Var",
+            "name": "alreadyPaused",
+            "printedName": "alreadyPaused",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_scanner.MobileScannerError.Type) -> mobile_scanner.MobileScannerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileScannerError",
+                    "printedName": "mobile_scanner.MobileScannerError",
+                    "usr": "s:14mobile_scanner18MobileScannerErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_scanner.MobileScannerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileScannerError",
+                        "printedName": "mobile_scanner.MobileScannerError",
+                        "usr": "s:14mobile_scanner18MobileScannerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14mobile_scanner18MobileScannerErrorO13alreadyPausedyA2CmF",
+            "mangledName": "$s14mobile_scanner18MobileScannerErrorO13alreadyPausedyA2CmF",
+            "moduleName": "mobile_scanner",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
             "name": "cameraError",
             "printedName": "cameraError",
             "children": [
@@ -450,7 +901,7 @@
             "usr": "s:14mobile_scanner18MobileScannerErrorO06cameraE0yACs0E0_pcACmF",
             "mangledName": "$s14mobile_scanner18MobileScannerErrorO06cameraE0yACs0E0_pcACmF",
             "moduleName": "mobile_scanner",
-            "fixedbinaryorder": 3
+            "fixedbinaryorder": 4
           },
           {
             "kind": "Var",
@@ -488,7 +939,7 @@
             "usr": "s:14mobile_scanner18MobileScannerErrorO15zoomWhenStoppedyA2CmF",
             "mangledName": "$s14mobile_scanner18MobileScannerErrorO15zoomWhenStoppedyA2CmF",
             "moduleName": "mobile_scanner",
-            "fixedbinaryorder": 4
+            "fixedbinaryorder": 5
           },
           {
             "kind": "Var",
@@ -539,7 +990,7 @@
             "usr": "s:14mobile_scanner18MobileScannerErrorO04zoomE0yACs0E0_pcACmF",
             "mangledName": "$s14mobile_scanner18MobileScannerErrorO04zoomE0yACs0E0_pcACmF",
             "moduleName": "mobile_scanner",
-            "fixedbinaryorder": 5
+            "fixedbinaryorder": 6
           },
           {
             "kind": "Var",
@@ -590,7 +1041,7 @@
             "usr": "s:14mobile_scanner18MobileScannerErrorO08analyzerE0yACs0E0_pcACmF",
             "mangledName": "$s14mobile_scanner18MobileScannerErrorO08analyzerE0yACs0E0_pcACmF",
             "moduleName": "mobile_scanner",
-            "fixedbinaryorder": 6
+            "fixedbinaryorder": 7
           }
         ],
         "declKind": "Enum",
@@ -933,6 +1384,56 @@
                 "declKind": "Accessor",
                 "usr": "s:14mobile_scanner23MobileScannerErrorCodesV12CAMERA_ERRORSSvgZ",
                 "mangledName": "$s14mobile_scanner23MobileScannerErrorCodesV12CAMERA_ERRORSSvgZ",
+                "moduleName": "mobile_scanner",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CAMERA_ERROR_CAPTURE_SESSION_INPUT_OCCUPIED_MESSAGE",
+            "printedName": "CAMERA_ERROR_CAPTURE_SESSION_INPUT_OCCUPIED_MESSAGE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14mobile_scanner23MobileScannerErrorCodesV51CAMERA_ERROR_CAPTURE_SESSION_INPUT_OCCUPIED_MESSAGESSvpZ",
+            "mangledName": "$s14mobile_scanner23MobileScannerErrorCodesV51CAMERA_ERROR_CAPTURE_SESSION_INPUT_OCCUPIED_MESSAGESSvpZ",
+            "moduleName": "mobile_scanner",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14mobile_scanner23MobileScannerErrorCodesV51CAMERA_ERROR_CAPTURE_SESSION_INPUT_OCCUPIED_MESSAGESSvgZ",
+                "mangledName": "$s14mobile_scanner23MobileScannerErrorCodesV51CAMERA_ERROR_CAPTURE_SESSION_INPUT_OCCUPIED_MESSAGESSvgZ",
                 "moduleName": "mobile_scanner",
                 "static": true,
                 "implicit": true,
@@ -2689,6 +3190,95 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "deviceOrientation",
+            "printedName": "deviceOrientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIDeviceOrientation",
+                "printedName": "UIKit.UIDeviceOrientation",
+                "usr": "c:@E@UIDeviceOrientation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14mobile_scanner19MobileScannerPluginC17deviceOrientationSo08UIDeviceG0Vvp",
+            "mangledName": "$s14mobile_scanner19MobileScannerPluginC17deviceOrientationSo08UIDeviceG0Vvp",
+            "moduleName": "mobile_scanner",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIDeviceOrientation",
+                    "printedName": "UIKit.UIDeviceOrientation",
+                    "usr": "c:@E@UIDeviceOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14mobile_scanner19MobileScannerPluginC17deviceOrientationSo08UIDeviceG0Vvg",
+                "mangledName": "$s14mobile_scanner19MobileScannerPluginC17deviceOrientationSo08UIDeviceG0Vvg",
+                "moduleName": "mobile_scanner",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIDeviceOrientation",
+                    "printedName": "UIKit.UIDeviceOrientation",
+                    "usr": "c:@E@UIDeviceOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14mobile_scanner19MobileScannerPluginC17deviceOrientationSo08UIDeviceG0Vvs",
+                "mangledName": "$s14mobile_scanner19MobileScannerPluginC17deviceOrientationSo08UIDeviceG0Vvs",
+                "moduleName": "mobile_scanner",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14mobile_scanner19MobileScannerPluginC17deviceOrientationSo08UIDeviceG0VvM",
+                "mangledName": "$s14mobile_scanner19MobileScannerPluginC17deviceOrientationSo08UIDeviceG0VvM",
+                "moduleName": "mobile_scanner",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "register",
             "printedName": "register(with:)",
@@ -3400,6 +3990,60 @@
           },
           {
             "kind": "Function",
+            "name": "setDeviceOrientation",
+            "printedName": "setDeviceOrientation(orientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIDeviceOrientation",
+                "printedName": "UIKit.UIDeviceOrientation",
+                "usr": "c:@E@UIDeviceOrientation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14mobile_scanner19MobileScannerPluginC20setDeviceOrientation11orientationySo08UIDeviceH0V_tF",
+            "mangledName": "$s14mobile_scanner19MobileScannerPluginC20setDeviceOrientation11orientationySo08UIDeviceH0V_tF",
+            "moduleName": "mobile_scanner",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateOrientation",
+            "printedName": "updateOrientation(orientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIDeviceOrientation",
+                "printedName": "UIKit.UIDeviceOrientation",
+                "usr": "c:@E@UIDeviceOrientation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14mobile_scanner19MobileScannerPluginC17updateOrientation11orientationySo08UIDeviceG0V_tF",
+            "mangledName": "$s14mobile_scanner19MobileScannerPluginC17updateOrientation11orientationySo08UIDeviceG0V_tF",
+            "moduleName": "mobile_scanner",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "resetScaleInternal",
             "printedName": "resetScaleInternal()",
             "children": [
@@ -3422,13 +4066,69 @@
           },
           {
             "kind": "Function",
-            "name": "stop",
-            "printedName": "stop(_:)",
+            "name": "getSafeZoomFactor",
+            "printedName": "getSafeZoomFactor(scale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14mobile_scanner19MobileScannerPluginC17getSafeZoomFactor5scale14CoreFoundation7CGFloatVAH_tF",
+            "mangledName": "$s14mobile_scanner19MobileScannerPluginC17getSafeZoomFactor5scale12CoreGraphics7CGFloatVAH_tF",
+            "moduleName": "mobile_scanner",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getScaleFromZoomFactor",
+            "printedName": "getScaleFromZoomFactor(actualScale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14mobile_scanner19MobileScannerPluginC22getScaleFromZoomFactor06actualG014CoreFoundation7CGFloatVAH_tF",
+            "mangledName": "$s14mobile_scanner19MobileScannerPluginC22getScaleFromZoomFactor06actualG012CoreGraphics7CGFloatVAH_tF",
+            "moduleName": "mobile_scanner",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
               },
               {
                 "kind": "TypeFunc",
@@ -3460,8 +4160,60 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14mobile_scanner19MobileScannerPluginC4stopyyyypSgXEF",
-            "mangledName": "$s14mobile_scanner19MobileScannerPluginC4stopyyyypSgXEF",
+            "usr": "s:14mobile_scanner19MobileScannerPluginC5pauseyySo17FlutterMethodCallC_yypSgXEtF",
+            "mangledName": "$s14mobile_scanner19MobileScannerPluginC5pauseyySo17FlutterMethodCallC_yypSgXEtF",
+            "moduleName": "mobile_scanner",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14mobile_scanner19MobileScannerPluginC4stopyySo17FlutterMethodCallC_yypSgXEtF",
+            "mangledName": "$s14mobile_scanner19MobileScannerPluginC4stopyySo17FlutterMethodCallC_yypSgXEtF",
             "moduleName": "mobile_scanner",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -4551,169 +5303,457 @@
             "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVCaptureVideoOrientation",
+        "printedName": "AVCaptureVideoOrientation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "toOrientationString",
+            "printedName": "toOrientationString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So25AVCaptureVideoOrientationV14mobile_scannerE02toC6StringSSvp",
+            "mangledName": "$sSo25AVCaptureVideoOrientationV14mobile_scannerE02toC6StringSSvp",
+            "moduleName": "mobile_scanner",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So25AVCaptureVideoOrientationV14mobile_scannerE02toC6StringSSvg",
+                "mangledName": "$sSo25AVCaptureVideoOrientationV14mobile_scannerE02toC6StringSSvg",
+                "moduleName": "mobile_scanner",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@AVCaptureVideoOrientation",
+        "moduleName": "AVFoundation",
+        "intro_iOS": "4.0",
+        "objc_name": "AVCaptureVideoOrientation",
+        "declAttributes": [
+          "Available",
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "Int",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIDeviceOrientation",
+        "printedName": "UIDeviceOrientation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "toOrientationString",
+            "printedName": "toOrientationString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So19UIDeviceOrientationV14mobile_scannerE02toB6StringSSvp",
+            "mangledName": "$sSo19UIDeviceOrientationV14mobile_scannerE02toB6StringSSvp",
+            "moduleName": "mobile_scanner",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So19UIDeviceOrientationV14mobile_scannerE02toB6StringSSvg",
+                "mangledName": "$sSo19UIDeviceOrientationV14mobile_scannerE02toB6StringSSvg",
+                "moduleName": "mobile_scanner",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoOrientation",
+            "printedName": "videoOrientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureVideoOrientation",
+                "printedName": "AVFoundation.AVCaptureVideoOrientation",
+                "usr": "c:@E@AVCaptureVideoOrientation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So19UIDeviceOrientationV14mobile_scannerE05videoB0So014AVCaptureVideoB0Vvp",
+            "mangledName": "$sSo19UIDeviceOrientationV14mobile_scannerE05videoB0So014AVCaptureVideoB0Vvp",
+            "moduleName": "mobile_scanner",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureVideoOrientation",
+                    "printedName": "AVFoundation.AVCaptureVideoOrientation",
+                    "usr": "c:@E@AVCaptureVideoOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So19UIDeviceOrientationV14mobile_scannerE05videoB0So014AVCaptureVideoB0Vvg",
+                "mangledName": "$sSo19UIDeviceOrientationV14mobile_scannerE05videoB0So014AVCaptureVideoB0Vvg",
+                "moduleName": "mobile_scanner",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@UIDeviceOrientation",
+        "moduleName": "UIKit",
+        "objc_name": "UIDeviceOrientation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "Int",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/DetectionSpeed.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 38,
       "value": "\"MOBILE_SCANNER_ALREADY_STARTED_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 34,
       "value": "\"The scanner was already started.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 393,
       "length": 71,
       "value": "\"Analyzing an image from a file is not supported on the iOS Simulator.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 525,
       "length": 36,
       "value": "\"The provided file is not an image.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 730,
       "length": 30,
       "value": "\"MOBILE_SCANNER_BARCODE_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 928,
       "length": 29,
       "value": "\"MOBILE_SCANNER_CAMERA_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1129,
+      "length": 50,
+      "value": "\"The camera video input could not be initialized.\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
       "length": 30,
       "value": "\"MOBILE_SCANNER_GENERIC_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1059,
+      "offset": 1281,
       "length": 28,
       "value": "\"An unknown error occurred.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1425,
       "length": 59,
       "value": "\"The zoom scale should be between 0 and 1 (both inclusive)\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1296,
+      "offset": 1518,
       "length": 32,
       "value": "\"MOBILE_SCANNER_NO_CAMERA_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1370,
+      "offset": 1592,
       "length": 23,
       "value": "\"No cameras available.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1440,
+      "offset": 1662,
       "length": 45,
       "value": "\"MOBILE_SCANNER_SET_SCALE_WHEN_STOPPED_ERROR\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1540,
+      "offset": 1762,
       "length": 62,
       "value": "\"The zoom scale cannot be changed when the camera is stopped.\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerErrorCodes.swift",
       "kind": "StringLiteral",
-      "offset": 1648,
+      "offset": 1870,
       "length": 38,
       "value": "\"MOBILE_SCANNER_UNSUPPORTED_OPERATION\""
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1016,
+      "offset": 1012,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1126,
+      "offset": 1122,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "Array",
-      "offset": 1172,
+      "offset": 1168,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1272,
+      "offset": 1264,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 3583,
+      "offset": 4213,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.0-beta.4\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
+      "filePath": "\/Users\/distiller\/.pub-cache\/hosted\/pub.dev\/mobile_scanner-7.0.1\/darwin\/mobile_scanner\/Sources\/mobile_scanner\/MobileScannerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 3627,
+      "offset": 4257,
       "length": 5,
       "value": "false"
     }

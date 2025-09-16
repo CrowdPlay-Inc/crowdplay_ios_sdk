@@ -306,8 +306,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @protocol FlutterPluginRegistrar;
 @class FlutterMethodCall;
 
-SWIFT_CLASS("_TtC14sentry_flutter24SentryFlutterPluginApple")
-@interface SentryFlutterPluginApple : NSObject <FlutterPlugin>
+SWIFT_CLASS("_TtC14sentry_flutter19SentryFlutterPlugin")
+@interface SentryFlutterPlugin : NSObject <FlutterPlugin>
 + (void)registerWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (void)handleMethodCall:(FlutterMethodCall * _Nonnull)call result:(FlutterResult _Nonnull)result;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -630,8 +630,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @protocol FlutterPluginRegistrar;
 @class FlutterMethodCall;
 
-SWIFT_CLASS("_TtC14sentry_flutter24SentryFlutterPluginApple")
-@interface SentryFlutterPluginApple : NSObject <FlutterPlugin>
+SWIFT_CLASS("_TtC14sentry_flutter19SentryFlutterPlugin")
+@interface SentryFlutterPlugin : NSObject <FlutterPlugin>
 + (void)registerWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (void)handleMethodCall:(FlutterMethodCall * _Nonnull)call result:(FlutterResult _Nonnull)result;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
