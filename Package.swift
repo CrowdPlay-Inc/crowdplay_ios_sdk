@@ -25,9 +25,8 @@ let package = Package(
         .target(
             name: "crowdplaysdk",
             dependencies: [
-          "SwiftJWT",
-          "Braintree",
-          "BraintreeDropIn",
+                .product(name: "SwiftJWT", package: "Swift-JWT"),
+                .product(name: "BraintreeDropIn", package: "braintree-ios-drop-in"),
                 .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
