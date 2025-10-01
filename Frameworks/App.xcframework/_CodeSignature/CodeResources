@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/App.framework/App</key>
 		<data>
-		UeO2nmjZ3HWuXQd8ubRbPJEtzes=
+		EjF+y+cycRXF5oFLnq+SYsHo39M=
 		</data>
 		<key>ios-arm64/App.framework/Info.plist</key>
 		<data>
@@ -2347,6 +2347,10 @@
 		<key>ios-arm64/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
 		VoVnsu58hN7wrwazX0nyAopiB0Q=
+		</data>
+		<key>ios-arm64/dSYMs/App.framework.dSYM/Contents/Resources/DWARF/App</key>
+		<data>
+		0+JEFhC+MFqbipgkox6W/2YqTsU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/App</key>
 		<data>
@@ -4699,11 +4703,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UeO2nmjZ3HWuXQd8ubRbPJEtzes=
+			EjF+y+cycRXF5oFLnq+SYsHo39M=
 			</data>
 			<key>hash2</key>
 			<data>
-			N+xJedPvsqIQVAn67Jo0mPTtKN+GGmgc2W0J+Ogerfw=
+			NUHcBMIfmmbcTq7aujNwIKKgJx7qzV7yVMLbKmyKYxA=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/Info.plist</key>
@@ -11139,6 +11143,17 @@
 			<key>hash2</key>
 			<data>
 			4PC1vOWKHlNOnW4dGwFfD4TPwBCllniPCsOy7+1X5co=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/App.framework.dSYM/Contents/Resources/DWARF/App</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0+JEFhC+MFqbipgkox6W/2YqTsU=
+			</data>
+			<key>hash2</key>
+			<data>
+			hHQYb7CDlc2GafolGJAXDrr0nu0KxE4GdM61OOQinYs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/App</key>
