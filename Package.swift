@@ -16,6 +16,8 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "11.4.0"),
         .package(url: "https://github.com/google/GoogleUtilities.git", from: "8.0.2"),
+        .package(url: "https://github.com/Kitura/Swift-JWT", "3.6.200"..<"3.6.201"),
+        .package(url: "https://github.com/braintree/braintree-ios-drop-in", "9.14.0"..<"9.14.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -23,21 +25,23 @@ let package = Package(
         .target(
             name: "crowdplaysdk",
             dependencies: [
+          "SwiftJWT",
+          "Braintree",
+          "BraintreeDropIn",
                 .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
-                "App", "Braintree", "BraintreeDropIn", "CocoaAsyncSocket", "Cryptor",
-                "CryptorECC", "CryptorRSA", "Flutter", "FlutterPluginRegistrant",
-                "GTMSessionFetcher", "KituraContracts", "LoggerAPI", "LoggingFramework",
+                "App", "CocoaAsyncSocket", "Flutter", "FlutterPluginRegistrant",
+                "GTMSessionFetcher", "LoggingFramework",
                 "OrderedSet",
-                "Sentry", "SwiftJWT", "audioplayers_darwin", "device_info_plus", "firebase_auth",
+                "Sentry", "audioplayers_darwin", "device_info_plus", "firebase_auth",
                 "firebase_core", "firebase_database", "firebase_messaging", "firebase_storage",
                 "flutter_inappwebview_ios", "flutter_local_notifications", "image_picker_ios",
                 "integration_test", "location", "package_info_plus",
                 "path_provider_foundation", "patrol", "sentry_flutter",
                 "share_plus", "shift4_sdk", "store_redirect", "app_links", "url_launcher_ios",
-                "vibration", "CardinalMobile", "PPRiskMagnes", "VNWebSDK", "mobile_scanner",
+                "vibration", "VNWebSDK", "mobile_scanner",
                 "sqflite_darwin",
                 "shared_preferences_foundation",
             ],
@@ -49,28 +53,8 @@ let package = Package(
             path: "Frameworks/App.xcframework"
         ),
         .binaryTarget(
-            name: "Braintree",
-            path: "Frameworks/Braintree.xcframework"
-        ),
-        .binaryTarget(
-            name: "BraintreeDropIn",
-            path: "Frameworks/BraintreeDropIn.xcframework"
-        ),
-        .binaryTarget(
             name: "CocoaAsyncSocket",
             path: "Frameworks/CocoaAsyncSocket.xcframework"
-        ),
-        .binaryTarget(
-            name: "Cryptor",
-            path: "Frameworks/Cryptor.xcframework"
-        ),
-        .binaryTarget(
-            name: "CryptorECC",
-            path: "Frameworks/CryptorECC.xcframework"
-        ),
-        .binaryTarget(
-            name: "CryptorRSA",
-            path: "Frameworks/CryptorRSA.xcframework"
         ),
         .binaryTarget(
             name: "Flutter",
@@ -85,14 +69,6 @@ let package = Package(
             path: "Frameworks/GTMSessionFetcher.xcframework"
         ),
         .binaryTarget(
-            name: "KituraContracts",
-            path: "Frameworks/KituraContracts.xcframework"
-        ),
-        .binaryTarget(
-            name: "LoggerAPI",
-            path: "Frameworks/LoggerAPI.xcframework"
-        ),
-        .binaryTarget(
             name: "LoggingFramework",
             path: "Frameworks/Logging.xcframework"
         ),
@@ -103,10 +79,6 @@ let package = Package(
         .binaryTarget(
             name: "Sentry",
             path: "Frameworks/Sentry.xcframework"
-        ),
-        .binaryTarget(
-            name: "SwiftJWT",
-            path: "Frameworks/SwiftJWT.xcframework"
         ),
         .binaryTarget(
             name: "audioplayers_darwin",
@@ -199,14 +171,6 @@ let package = Package(
         .binaryTarget(
             name: "vibration",
             path: "Frameworks/vibration.xcframework"
-        ),
-        .binaryTarget(
-            name: "CardinalMobile",
-            path: "FixedFrameworks/CardinalMobile.xcframework"
-        ),
-        .binaryTarget(
-            name: "PPRiskMagnes",
-            path: "FixedFrameworks/PPRiskMagnes.xcframework"
         ),
         .binaryTarget(
             name: "VNWebSDK",
