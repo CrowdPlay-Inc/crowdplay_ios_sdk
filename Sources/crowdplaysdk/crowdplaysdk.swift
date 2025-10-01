@@ -56,6 +56,7 @@ public class CrowdplaySdk {
     private var linkedAccounts: [[String: String]] = []
     private var appUrlScheme = ""
     private var presentingViewController: UIViewController?
+    var showVenueNextWalletHandler: (() -> Void)?
 
     private init() {}
 
@@ -102,6 +103,9 @@ public class CrowdplaySdk {
                 result(self.linkedAccounts)
             } else if call.method == "getUrlScheme" {
                 result(self.appUrlScheme)
+            } else if call.method == "showVenueNextWallet" {
+                showVenueNextWalletHandler?();
+                result(true)
             }
         }
         // Used to connect plugins (only if you have plugins with iOS platform code).
