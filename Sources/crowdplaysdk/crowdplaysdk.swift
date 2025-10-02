@@ -104,7 +104,7 @@ public class CrowdplaySdk {
             } else if call.method == "getUrlScheme" {
                 result(self.appUrlScheme)
             } else if call.method == "showVenueNextWallet" {
-                showVenueNextWalletHandler?();
+                self.showVenueNextWalletHandler?();
                 result(true)
             }
         }
