@@ -16,8 +16,6 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "11.4.0"),
         .package(url: "https://github.com/google/GoogleUtilities.git", from: "8.0.2"),
-        .package(url: "https://github.com/Kitura/Swift-JWT", "3.6.200"..<"3.6.201"),
-        .package(url: "https://github.com/braintree/braintree-ios-drop-in", "9.14.0"..<"9.14.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -25,8 +23,6 @@ let package = Package(
         .target(
             name: "crowdplaysdk",
             dependencies: [
-                .product(name: "SwiftJWT", package: "Swift-JWT"),
-                .product(name: "BraintreeDropIn", package: "braintree-ios-drop-in"),
                 .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
@@ -39,7 +35,7 @@ let package = Package(
                 "flutter_inappwebview_ios", "flutter_local_notifications", "image_picker_ios",
                 "integration_test", "location", "package_info_plus",
                 "path_provider_foundation", "patrol", "sentry_flutter",
-                "share_plus", "shift4_sdk", "store_redirect", "app_links", "url_launcher_ios",
+                "share_plus", "store_redirect", "app_links", "url_launcher_ios",
                 "vibration", "VNWebSDK", "mobile_scanner",
                 "sqflite_darwin",
                 "shared_preferences_foundation",
@@ -150,10 +146,6 @@ let package = Package(
         .binaryTarget(
             name: "share_plus",
             path: "Frameworks/share_plus.xcframework"
-        ),
-        .binaryTarget(
-            name: "shift4_sdk",
-            path: "Frameworks/shift4_sdk.xcframework"
         ),
         .binaryTarget(
             name: "store_redirect",
