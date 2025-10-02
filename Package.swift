@@ -28,7 +28,6 @@ let package = Package(
                 .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
                 "App", "CocoaAsyncSocket", "Flutter", "FlutterPluginRegistrant",
-                "GTMSessionFetcher", "LoggingFramework",
                 "OrderedSet",
                 "Sentry", "audioplayers_darwin", "device_info_plus", "firebase_auth",
                 "firebase_core", "firebase_database", "firebase_messaging", "firebase_storage",
@@ -58,14 +57,6 @@ let package = Package(
         .binaryTarget(
             name: "FlutterPluginRegistrant",
             path: "Frameworks/FlutterPluginRegistrant.xcframework"
-        ),
-        .binaryTarget(
-            name: "GTMSessionFetcher",
-            path: "Frameworks/GTMSessionFetcher.xcframework"
-        ),
-        .binaryTarget(
-            name: "LoggingFramework",
-            path: "Frameworks/Logging.xcframework"
         ),
         .binaryTarget(
             name: "OrderedSet",
