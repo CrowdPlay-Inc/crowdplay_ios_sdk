@@ -33,6 +33,15 @@ class ViewController: UIViewController {
         
         // Override point for customization after application launch.
         CrowdplaySdk.shared.initialize(apiKey: apiKey, appUrlScheme: "cpsdkdemopod")
+        
+        CrowdplaySdk.shared.showVenueNextWalletHandler = {
+            //guard let rootViewController = getTopViewController(), let url = URL(string: "theapp://vn/wallet") else {result(false); return;}
+            
+            //VenueNextWeb.handle(url: url, presenter: rootViewController, completion: nil)
+            
+            print("showVenueNextWalletHandler called")
+        }
+        
         UserDefaults.standard.set(apiKey, forKey: "apiKey")
         CrowdplaySdk.shared.presentCrowdplay(vc: self)
         

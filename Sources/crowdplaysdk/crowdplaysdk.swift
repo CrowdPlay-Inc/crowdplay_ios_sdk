@@ -56,7 +56,7 @@ public class CrowdplaySdk {
     private var linkedAccounts: [[String: String]] = []
     private var appUrlScheme = ""
     private var presentingViewController: UIViewController?
-    var showVenueNextWalletHandler: (() -> Void)?
+    public var showVenueNextWalletHandler: (() -> Void)?
 
     private init() {}
 
