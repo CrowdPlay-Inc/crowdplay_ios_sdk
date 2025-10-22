@@ -35,7 +35,7 @@ let package = Package(
                 "integration_test", "location", "package_info_plus",
                 "path_provider_foundation", "patrol", "sentry_flutter",
                 "share_plus", "store_redirect", "app_links", "url_launcher_ios",
-                "vibration", "VNWebSDK", "mobile_scanner",
+                "vibration", "mobile_scanner",
                 "sqflite_darwin",
                 "shared_preferences_foundation",
             ],
@@ -153,10 +153,6 @@ let package = Package(
         .binaryTarget(
             name: "vibration",
             path: "Frameworks/vibration.xcframework"
-        ),
-        .binaryTarget(
-            name: "VNWebSDK",
-            path: "FixedFrameworks/VNWebSDK.xcframework"
         ),
         .binaryTarget(
             name: "sqflite_darwin",
