@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/App.framework/App</key>
 		<data>
-		ZIjl9ttSBVIWId0tSiRep1pkLq0=
+		fJk/4vnW8qlRy3qQFbQY79nvLzY=
 		</data>
 		<key>ios-arm64/App.framework/Info.plist</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>ios-arm64/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		jJgFo0WrWsAVI3eejx0R/pLH7hw=
+		5LNbR3XT75q9VYBwXb9jyPsmvRc=
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		fIgAnG4xNNFjXfi5yOLp+016xv8=
+		pVzucbzoPD7pZHH2SOt9+S73YqE=
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		sQeLiG1aaGO5h+GCmde+7w/WdNw=
+		gVkkXQjmoWgSPQmIrrrQx1L7VZ0=
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -292,6 +292,14 @@
 		<data>
 		Bvnyn2+s7E5E53oM1TwamEJhSiI=
 		</data>
+		<key>ios-arm64/App.framework/flutter_assets/assets/challenge_complete.png</key>
+		<data>
+		w4r0i1yGqoLCb26hIUTRa8I8fBQ=
+		</data>
+		<key>ios-arm64/App.framework/flutter_assets/assets/challenge_reward.png</key>
+		<data>
+		HLTEn+Z0m/g3Fqf7DkJJ58+oFNM=
+		</data>
 		<key>ios-arm64/App.framework/flutter_assets/assets/change_password.png</key>
 		<data>
 		HxIur8FPMgG2tqKR1L5SHMwZB0o=
@@ -527,6 +535,10 @@
 		<key>ios-arm64/App.framework/flutter_assets/assets/line_item_account_options.png</key>
 		<data>
 		1riaKkw1wWG5GOo8kNi1imXILqo=
+		</data>
+		<key>ios-arm64/App.framework/flutter_assets/assets/line_item_challenges.png</key>
+		<data>
+		DLvpecfVgTIq6v0phEnTv6jwwBA=
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/assets/line_item_faqs.png</key>
 		<data>
@@ -2354,11 +2366,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/App.framework.dSYM/Contents/Resources/DWARF/App</key>
 		<data>
-		ykVH7X67ue7La64NyWVyYRdevUM=
+		Io7cTVZ/qEFoovm6yG/7Ixrgf60=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/App</key>
 		<data>
-		/KVOsANa3PUBSqPjMSIUrtGlb+w=
+		S+BnlCWisx6vCdu1qCzXOG/XgVE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/Info.plist</key>
 		<data>
@@ -2366,15 +2378,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		jJgFo0WrWsAVI3eejx0R/pLH7hw=
+		5LNbR3XT75q9VYBwXb9jyPsmvRc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		fIgAnG4xNNFjXfi5yOLp+016xv8=
+		pVzucbzoPD7pZHH2SOt9+S73YqE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		sQeLiG1aaGO5h+GCmde+7w/WdNw=
+		gVkkXQjmoWgSPQmIrrrQx1L7VZ0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -2644,6 +2656,14 @@
 		<data>
 		Bvnyn2+s7E5E53oM1TwamEJhSiI=
 		</data>
+		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/challenge_complete.png</key>
+		<data>
+		w4r0i1yGqoLCb26hIUTRa8I8fBQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/challenge_reward.png</key>
+		<data>
+		HLTEn+Z0m/g3Fqf7DkJJ58+oFNM=
+		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/change_password.png</key>
 		<data>
 		HxIur8FPMgG2tqKR1L5SHMwZB0o=
@@ -2879,6 +2899,10 @@
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/line_item_account_options.png</key>
 		<data>
 		1riaKkw1wWG5GOo8kNi1imXILqo=
+		</data>
+		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/line_item_challenges.png</key>
+		<data>
+		DLvpecfVgTIq6v0phEnTv6jwwBA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/line_item_faqs.png</key>
 		<data>
@@ -4711,11 +4735,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZIjl9ttSBVIWId0tSiRep1pkLq0=
+			fJk/4vnW8qlRy3qQFbQY79nvLzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			s5H/gCJkqawxxnOstSok3I1N4uxvHA37DhYJXjmZyR0=
+			92P2t6Com8s9GFle4f0tTe4OPmJ/102xzqGuIzWY1zk=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/Info.plist</key>
@@ -4733,33 +4757,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jJgFo0WrWsAVI3eejx0R/pLH7hw=
+			5LNbR3XT75q9VYBwXb9jyPsmvRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dBNeGLydJuGRGBAl84CtuRp6h0C1gWrDePavKIjHvgE=
+			GIpI+hOgRpebHFkBchTRwn1Ts82Zw8Jdd5ilcce6K5U=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fIgAnG4xNNFjXfi5yOLp+016xv8=
+			pVzucbzoPD7pZHH2SOt9+S73YqE=
 			</data>
 			<key>hash2</key>
 			<data>
-			oKqFFgcwMzi97+VtmywipZ8NTJIf31TYWCR1YPX5fZc=
+			K9sNTcv79A0EGyv7QNoUjuxmBoRMPBkIATlbu5z7bTE=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sQeLiG1aaGO5h+GCmde+7w/WdNw=
+			gVkkXQjmoWgSPQmIrrrQx1L7VZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			jgD/5oZHpAEKCOw0mrQPDhmDm1JqNSvcqpQsjd+a44c=
+			HXJSMgtQvHSsA+y2eGucvf6Bk0B46024Kxf7Wb4djs0=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/FontManifest.json</key>
@@ -5499,6 +5523,28 @@
 			Rk54ndkW+VQy8I8niZs7s4m1Vz467ggru1KHKdvyOi0=
 			</data>
 		</dict>
+		<key>ios-arm64/App.framework/flutter_assets/assets/challenge_complete.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w4r0i1yGqoLCb26hIUTRa8I8fBQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			7+eMQ7tPLP/ixEMBe9IrBO1CKR8Xo51k0URhQIRvz8A=
+			</data>
+		</dict>
+		<key>ios-arm64/App.framework/flutter_assets/assets/challenge_reward.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HLTEn+Z0m/g3Fqf7DkJJ58+oFNM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Pt1fkDl1EUnFNn63G75PC4U05B2HwkAyguo1DU7t1Qo=
+			</data>
+		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/assets/change_password.png</key>
 		<dict>
 			<key>hash</key>
@@ -6146,6 +6192,17 @@
 			<key>hash2</key>
 			<data>
 			8EeRFljP8m1z2aRf0BnxYmQRccT2JWMwy4ZaFKP/A4E=
+			</data>
+		</dict>
+		<key>ios-arm64/App.framework/flutter_assets/assets/line_item_challenges.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DLvpecfVgTIq6v0phEnTv6jwwBA=
+			</data>
+			<key>hash2</key>
+			<data>
+			if8R/5XnU+acmQegWnNvU7RcVcyVss/HxuPhIv+HRKc=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/assets/line_item_faqs.png</key>
@@ -11168,22 +11225,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ykVH7X67ue7La64NyWVyYRdevUM=
+			Io7cTVZ/qEFoovm6yG/7Ixrgf60=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZsbbaZF/y4j8Z9HMAHZbVtDQs4epEpndEOxV+vVXKMA=
+			S+KECW43kT2tYyhq4lmZkix9wVygtEQXcmtqyEclC10=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/App</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/KVOsANa3PUBSqPjMSIUrtGlb+w=
+			S+BnlCWisx6vCdu1qCzXOG/XgVE=
 			</data>
 			<key>hash2</key>
 			<data>
-			TNbHJdLYI3wXSFGs9Kr0U7btsW4zMJqbVJGvEpEelm0=
+			D19BQ+YOY18d1UnsumAvPvQlhiEn5ZZ1P6Z0DteJQEw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/Info.plist</key>
@@ -11201,33 +11258,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jJgFo0WrWsAVI3eejx0R/pLH7hw=
+			5LNbR3XT75q9VYBwXb9jyPsmvRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dBNeGLydJuGRGBAl84CtuRp6h0C1gWrDePavKIjHvgE=
+			GIpI+hOgRpebHFkBchTRwn1Ts82Zw8Jdd5ilcce6K5U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fIgAnG4xNNFjXfi5yOLp+016xv8=
+			pVzucbzoPD7pZHH2SOt9+S73YqE=
 			</data>
 			<key>hash2</key>
 			<data>
-			oKqFFgcwMzi97+VtmywipZ8NTJIf31TYWCR1YPX5fZc=
+			K9sNTcv79A0EGyv7QNoUjuxmBoRMPBkIATlbu5z7bTE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sQeLiG1aaGO5h+GCmde+7w/WdNw=
+			gVkkXQjmoWgSPQmIrrrQx1L7VZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			jgD/5oZHpAEKCOw0mrQPDhmDm1JqNSvcqpQsjd+a44c=
+			HXJSMgtQvHSsA+y2eGucvf6Bk0B46024Kxf7Wb4djs0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/FontManifest.json</key>
@@ -11967,6 +12024,28 @@
 			Rk54ndkW+VQy8I8niZs7s4m1Vz467ggru1KHKdvyOi0=
 			</data>
 		</dict>
+		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/challenge_complete.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w4r0i1yGqoLCb26hIUTRa8I8fBQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			7+eMQ7tPLP/ixEMBe9IrBO1CKR8Xo51k0URhQIRvz8A=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/challenge_reward.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HLTEn+Z0m/g3Fqf7DkJJ58+oFNM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Pt1fkDl1EUnFNn63G75PC4U05B2HwkAyguo1DU7t1Qo=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/change_password.png</key>
 		<dict>
 			<key>hash</key>
@@ -12614,6 +12693,17 @@
 			<key>hash2</key>
 			<data>
 			8EeRFljP8m1z2aRf0BnxYmQRccT2JWMwy4ZaFKP/A4E=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/line_item_challenges.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DLvpecfVgTIq6v0phEnTv6jwwBA=
+			</data>
+			<key>hash2</key>
+			<data>
+			if8R/5XnU+acmQegWnNvU7RcVcyVss/HxuPhIv+HRKc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/line_item_faqs.png</key>
