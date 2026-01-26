@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name Sentry
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Sentry
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import CoreGraphics
 import CoreMedia
@@ -22,7 +22,9 @@ extension Foundation.Data {
   public func writeWithSentryTracing(to url: Foundation.URL, options: Foundation.Data.WritingOptions = []) throws
 }
 extension Foundation.FileManager {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func createFileWithSentryTracing(atPath path: Swift.String, contents data: Foundation.Data?, attributes attr: [Foundation.FileAttributeKey : Any]? = nil) -> Swift.Bool
+  #endif
   public func removeItemWithSentryTracing(at url: Foundation.URL) throws
   public func removeItemWithSentryTracing(atPath path: Swift.String) throws
   public func copyItemWithSentryTracing(at srcURL: Foundation.URL, to dstURL: Foundation.URL) throws
@@ -66,13 +68,17 @@ extension Sentry.Exception : Swift.Decodable {
     }
     case widget
     case custom
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
     }
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(message: Swift.String, name: Swift.String?, email: Swift.String?, source: Sentry.SentryFeedback.SentryFeedbackSource = .widget, associatedEventId: Sentry.SentryId? = nil, attachments: [Foundation.Data]? = nil)
+  #endif
   @objc deinit
 }
 extension Sentry.SentryFeedback : Sentry.SentrySerializable {
@@ -92,7 +98,9 @@ extension Sentry.Geo : Swift.Decodable {
   @objc override dynamic public init()
   @objc public init(uuid: Foundation.UUID)
   @objc(initWithUUIDString:) public init(uuidString: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
+  #endif
   @objc override final public var description: Swift.String {
     @objc get
   }
@@ -108,7 +116,9 @@ extension Sentry.Geo : Swift.Decodable {
   @objc(kSentryLevelWarning) case warning = 3
   @objc(kSentryLevelError) case error = 4
   @objc(kSentryLevelFatal) case fatal = 5
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt)
+  #endif
   public typealias RawValue = Swift.UInt
   public var rawValue: Swift.UInt {
     get
@@ -135,7 +145,9 @@ extension Sentry.SentryNSError : Swift.Decodable {
   @objc public enum SentryProfileLifecycle : Swift.Int {
     case manual
     case trace
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -173,7 +185,9 @@ extension Sentry.SentryNSError : Swift.Decodable {
     public var description: Swift.String {
       get
     }
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -213,7 +227,9 @@ extension Sentry.SentryThread : Swift.Decodable {
   @objc(kSentryTransactionNameSourceView) case view
   @objc(kSentryTransactionNameSourceComponent) case component
   @objc(kSentryTransactionNameSourceTask) case sourceTask
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -292,10 +308,12 @@ extension Sentry.User : Swift.Decodable {
 
 @objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objcMembers public class SentryUserFeedbackThemeConfiguration : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var fontFamily: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @objc public var foreground: UIKit.UIColor
   @objc public var background: UIKit.UIColor
   @objc public var submitForeground: UIKit.UIColor
@@ -325,15 +343,19 @@ extension Sentry.User : Swift.Decodable {
 @objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objcMembers public class SentryUserFeedbackWidgetConfiguration : ObjectiveC.NSObject {
   @objc public var autoInject: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var labelText: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @objc public var showIcon: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var widgetAccessibilityLabel: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @objc public var windowLevel: UIKit.UIWindow.Level
   @objc public var location: UIKit.NSDirectionalRectEdge
   @objc public var layoutUIOffset: UIKit.UIOffset

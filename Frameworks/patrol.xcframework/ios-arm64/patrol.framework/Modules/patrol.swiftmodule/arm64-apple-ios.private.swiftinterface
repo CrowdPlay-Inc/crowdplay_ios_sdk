@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name patrol
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name patrol
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CocoaAsyncSocket
 import CommonCrypto
 import Flutter
@@ -15,7 +15,9 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import patrol
 extension Swift.Array {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func first<T>(ofType: T.Type) -> T?
+  #endif
   public func filter<T>(ofType: T.Type) -> [T]
 }
 extension patrol.Selector {
@@ -25,15 +27,21 @@ extension patrol.Selector {
 open class Certificate : Swift.RawRepresentable {
   final public let rawValue: Security.SecCertificate
   required public init(rawValue: Security.SecCertificate)
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(derData: Foundation.Data)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(derURL: Foundation.URL)
+  #endif
   public typealias RawValue = Security.SecCertificate
   @objc deinit
 }
 extension patrol.Certificate {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var commonName: Swift.String? {
     get
   }
+  #endif
 }
 extension patrol.Certificate {
   convenience public init(fromKeychain label: Swift.String) throws
@@ -43,8 +51,12 @@ extension patrol.Certificate {
 open class CertificateIdentity : Swift.RawRepresentable {
   final public let rawValue: Security.SecIdentity
   required public init(rawValue: Security.SecIdentity)
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(p12Data: Foundation.Data, passphrase: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(p12URL: Foundation.URL, passphrase: Swift.String)
+  #endif
   public typealias RawValue = Security.SecIdentity
   @objc deinit
 }
@@ -54,8 +66,12 @@ extension patrol.CertificateIdentity {
   public static func removeFromKeychain(label: Swift.String) throws
 }
 extension patrol.CertificateIdentity {
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(p12Data: Foundation.Data)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(p12URL: Foundation.URL)
+  #endif
 }
 extension patrol.HTTPConfig {
   public static var clientDefault: patrol.HTTPConfig {
@@ -70,7 +86,9 @@ extension patrol.WebSocketConfig {
 public enum GroupEntryType : Swift.String, Swift.Codable {
   case group
   case test
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -80,7 +98,9 @@ public enum RunDartTestResponseResult : Swift.String, Swift.Codable {
   case success
   case skipped
   case failure
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -89,7 +109,9 @@ public enum RunDartTestResponseResult : Swift.String, Swift.Codable {
 public enum KeyboardBehavior : Swift.String, Swift.Codable {
   case showAndDismiss
   case alternative
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -99,7 +121,9 @@ public enum HandlePermissionRequestCode : Swift.String, Swift.Codable {
   case whileUsing
   case onlyThisTime
   case denied
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -108,7 +132,9 @@ public enum HandlePermissionRequestCode : Swift.String, Swift.Codable {
 public enum SetLocationAccuracyRequestLocationAccuracy : Swift.String, Swift.Codable {
   case coarse
   case fine
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -198,7 +224,9 @@ public enum IOSElementType : Swift.String, Swift.Codable {
   case tab
   case touchBar
   case statusItem
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -514,7 +542,9 @@ final public class DataStream {
   final public var hasBytesAvailable: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func read() -> Swift.UInt8?
+  #endif
   final public func read(count: Swift.Int) -> Foundation.Data
   final public func readToEnd() -> Foundation.Data
   @objc deinit
@@ -590,12 +620,18 @@ extension patrol.HTTPVersion {
 extension patrol.Server {
   @available(*, deprecated, renamed: "start(port:)")
   public func start(onPort port: Swift.UInt16) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "start(port:interface:)")
   public func start(onInterface interface: Swift.String?, port: Swift.UInt16 = 0) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(swift, obsoleted: 5, renamed: "responseFor(request:)")
   public func handleIncoming(request: patrol.HTTPRequest) throws -> patrol.HTTPResponse?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(swift, obsoleted: 5, renamed: "responseFor(error:)")
   public func handleIncoming(error: any Swift.Error) throws -> patrol.HTTPResponse?
+  #endif
 }
 @_hasMissingDesignatedInitializers final public class DispatchTimer {
   @objc deinit
@@ -610,14 +646,16 @@ public struct Endpoint : Swift.Hashable {
   public var host: patrol.Endpoint.Host
   public var port: patrol.Endpoint.Port
   public init(host: patrol.Endpoint.Host, port: patrol.Endpoint.Port)
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: patrol.Endpoint, b: patrol.Endpoint) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
 }
 extension patrol.Endpoint {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(url: Foundation.URL)
+  #endif
   public init(host: patrol.Endpoint.Host, port: Swift.UInt16)
 }
 extension Foundation.FileManager {
@@ -635,9 +673,15 @@ public struct HTTPConfig {
   public init(requestHandlers: [any patrol.HTTPRequestHandler])
 }
 public protocol HTTPConnectionDelegate : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func connection(_ httpConnection: patrol.HTTPConnection, didCloseWithError error: (any Swift.Error)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func connection(_ httpConnection: patrol.HTTPConnection, handleIncomingRequest request: patrol.HTTPRequest, error: (any Swift.Error)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func connection(_ httpConnection: patrol.HTTPConnection, handleIncomingResponse response: patrol.HTTPResponse, error: (any Swift.Error)?)
+  #endif
   func connection(_ httpConnection: patrol.HTTPConnection, handleUpgradeByRequest request: patrol.HTTPRequest)
 }
 public class HTTPConnection : patrol.TCPConnection {
@@ -645,7 +689,9 @@ public class HTTPConnection : patrol.TCPConnection {
   required public init(socket: patrol.TCPSocket, config: patrol.HTTPConfig)
   public func open()
   public func close(immediately: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func upgrade() -> (patrol.TCPSocket, Foundation.Data?)
+  #endif
   public func send(data: Foundation.Data, timeout: Foundation.TimeInterval)
   public func send(request: patrol.HTTPRequest)
   public func send(response: patrol.HTTPResponse, toRequest request: patrol.HTTPRequest)
@@ -655,16 +701,22 @@ public class HTTPConnection : patrol.TCPConnection {
   }
 }
 extension patrol.HTTPConnection {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var localEndpoint: patrol.Endpoint? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var remoteEndpoint: patrol.Endpoint? {
     get
   }
+  #endif
 }
 extension patrol.HTTPConnection : patrol.TCPSocketDelegate {
   public func socketDidOpen(_ socket: patrol.TCPSocket)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func socketDidClose(_ socket: patrol.TCPSocket, error: (any Swift.Error)?)
+  #endif
   public func socketDidRead(_ socket: patrol.TCPSocket, data: Foundation.Data, tag: Swift.Int)
   public func socketDidWrite(_ socket: patrol.TCPSocket, tag: Swift.Int)
 }
@@ -687,16 +739,22 @@ extension patrol.HTTPError : Swift.CustomStringConvertible {
   }
 }
 extension patrol.HTTPError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 @_hasMissingDesignatedInitializers public class HTTPErrorDefaultHandler : patrol.HTTPErrorHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func respond(to error: any Swift.Error) -> patrol.HTTPResponse?
+  #endif
   @objc deinit
 }
 public protocol HTTPErrorHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   func respond(to error: any Swift.Error) -> patrol.HTTPResponse?
+  #endif
 }
 public typealias HTTPHeaders = [patrol.HTTPHeaderName : Swift.String]
 public struct HTTPHeaderName : Swift.Hashable {
@@ -721,10 +779,12 @@ extension Swift.Dictionary where Key == patrol.HTTPHeaderName, Value == Swift.St
   public static var empty: patrol.HTTPHeaders {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(key: Swift.String) -> Swift.String? {
     get
     set
   }
+  #endif
 }
 extension patrol.HTTPHeaderName {
   public static let accept: patrol.HTTPHeaderName
@@ -770,170 +830,252 @@ extension patrol.HTTPHeaderName {
   public static let upgrade: patrol.HTTPHeaderName
 }
 extension Swift.Dictionary where Key == patrol.HTTPHeaderName, Value == Swift.String {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var accept: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var acceptCharset: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var acceptEncoding: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var acceptLanguage: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var acceptRanges: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var accessControlAllowOrigin: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var accessControlAllowHeaders: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var accessControlAllowMethods: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var accessControlMaxAge: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var age: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var allow: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var authorization: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var cacheControl: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var connection: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var cookie: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var contentDisposition: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var contentEncoding: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var contentLanguage: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var contentLength: Swift.Int? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var contentRange: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var contentType: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var date: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var eTag: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var expect: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var expires: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var forwarded: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var host: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var ifModifiedSince: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var lastModified: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var location: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var origin: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var pragma: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var range: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var referer: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var refresh: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var server: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var setCookie: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var strictTransportSecurity: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var transferEncoding: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var userAgent: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var upgrade: Swift.String? {
     get
     set
   }
+  #endif
 }
 extension patrol.HTTPHeaderName {
   public static let webSocketAccept: patrol.HTTPHeaderName
@@ -942,22 +1084,30 @@ extension patrol.HTTPHeaderName {
   public static let webSocketVersion: patrol.HTTPHeaderName
 }
 extension Swift.Dictionary where Key == patrol.HTTPHeaderName, Value == Swift.String {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var webSocketAccept: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var webSocketKey: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var webSocketProtocol: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var webSocketVersion: Swift.String? {
     get
     set
   }
+  #endif
 }
 open class HTTPMessage {
   public var version: patrol.HTTPVersion
@@ -987,20 +1137,28 @@ extension patrol.HTTPMessage {
   }
 }
 extension patrol.HTTPRequest {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func webSocketHandshake(host: Swift.String, port: Swift.Int = 80, protocolName: Swift.String? = nil) -> patrol.HTTPRequest
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func webSocketHandshake(host: Swift.String, port: Swift.Int = 80, protocolName: Swift.String? = nil)
+  #endif
 }
 extension patrol.HTTPResponse {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func webSocketHandshake(key: Swift.String, protocolName: Swift.String? = nil) -> patrol.HTTPResponse
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func webSocketHandshake(key: Swift.String, protocolName: Swift.String? = nil)
+  #endif
   public var isWebSocketHandshake: Swift.Bool {
     get
   }
 }
 public struct HTTPMethod : Swift.Hashable {
   public let name: Swift.String
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: patrol.HTTPMethod, b: patrol.HTTPMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -1058,10 +1216,14 @@ extension patrol.HTTPRequest : Swift.CustomStringConvertible {
   }
 }
 extension patrol.HTTPRequest {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setHostHeader(host: Swift.String?, port: Swift.Int? = nil)
+  #endif
 }
 public protocol HTTPRequestHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   func respond(to request: patrol.HTTPRequest, nextHandler: (patrol.HTTPRequest) throws -> patrol.HTTPResponse?) throws -> patrol.HTTPResponse?
+  #endif
 }
 extension patrol.HTTPRequest {
   public typealias Handler = (patrol.HTTPRequest) throws -> patrol.HTTPResponse?
@@ -1087,8 +1249,12 @@ public struct HTTPRoute {
   public let handler: patrol.HTTPRequest.Handler
   public let regex: patrol.Regex?
   public let params: [patrol.HTTPRequest.Params.Key]
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(methods: Swift.Set<patrol.HTTPMethod>? = nil, regex pattern: Swift.String? = nil, handler: @escaping patrol.HTTPRequest.Handler) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(methods: Swift.Set<patrol.HTTPMethod>? = nil, uri: Swift.String, handler: @escaping patrol.HTTPRequest.Handler) throws
+  #endif
 }
 extension patrol.HTTPRoute {
   public func canHandle(method: patrol.HTTPMethod) -> Swift.Bool
@@ -1097,7 +1263,9 @@ extension patrol.HTTPRoute {
 @_hasMissingDesignatedInitializers open class HTTPRouteHandler : patrol.HTTPRequestHandler {
   public var routes: [patrol.HTTPRoute]
   public var implicitHeadRequests: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   open func respond(to request: patrol.HTTPRequest, nextHandler: (patrol.HTTPRequest) throws -> patrol.HTTPResponse?) throws -> patrol.HTTPResponse?
+  #endif
   @objc deinit
 }
 public struct HTTPStatus : Swift.Hashable {
@@ -1221,8 +1389,12 @@ extension patrol.HTTPVersion : Swift.CustomStringConvertible {
   }
 }
 open class HTTPWebSocketHandler : patrol.HTTPRequestHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(protocolName: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func respond(to request: patrol.HTTPRequest, nextHandler: (patrol.HTTPRequest) throws -> patrol.HTTPResponse?) throws -> patrol.HTTPResponse?
+  #endif
   @objc deinit
 }
 public enum KeychainError : Swift.Error {
@@ -1237,9 +1409,11 @@ extension patrol.KeychainError : Swift.CustomStringConvertible {
   }
 }
 extension patrol.KeychainError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 @_hasMissingDesignatedInitializers public class KeychainManager {
   public static let shared: patrol.KeychainManager
@@ -1250,7 +1424,9 @@ extension patrol.KeychainError : Foundation.LocalizedError {
   @objc deinit
 }
 extension patrol.KeychainManager {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func importPKCS12(data: Foundation.Data, passphrase: Swift.String, options: patrol.KeychainManager.KeychainQuery = KeychainQuery()) -> Security.SecIdentity?
+  #endif
 }
 extension patrol.KeychainManager {
   public func add(value: patrol.KeychainManager.KeychainValue, label: Swift.String, options: patrol.KeychainManager.KeychainQuery = KeychainQuery()) throws
@@ -1261,13 +1437,19 @@ public typealias Regex = Foundation.NSRegularExpression
 @objc public class ObjCRunDartTestResponse : ObjectiveC.NSObject {
   @objc dynamic final public let passed: Swift.Bool
   @objc dynamic final public let details: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(passed: Swift.Bool, details: Swift.String?)
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class ObjCPatrolAppServiceClient : ObjectiveC.NSObject {
   @objc override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func listDartTests(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func runDartTest(name: Swift.String, completion: @escaping (patrol.ObjCRunDartTestResponse?, (any Swift.Error)?) -> Swift.Void)
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class PatrolServer : ObjectiveC.NSObject {
@@ -1299,13 +1481,21 @@ open class Server {
   weak public var webSocketDelegate: (any patrol.ServerWebSocketDelegate)?
   public init()
   public init(identity: patrol.CertificateIdentity, caCertificates: [patrol.Certificate])
+  #if compiler(>=5.3) && $NonescapableTypes
   open func start(port: patrol.Endpoint.Port = 0, interface: Swift.String? = nil) throws
+  #endif
   open func stop(immediately: Swift.Bool = false)
   open func handleIncoming(socket: patrol.TCPSocket)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func handleIncoming(request: patrol.HTTPRequest, connection: patrol.HTTPConnection, error: (any Swift.Error)?)
+  #endif
   open func handleUpgrade(request: patrol.HTTPRequest, connection: patrol.HTTPConnection)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func responseFor(request: patrol.HTTPRequest) throws -> patrol.HTTPResponse?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func responseFor(error: any Swift.Error) -> patrol.HTTPResponse?
+  #endif
   @objc deinit
 }
 extension patrol.Server {
@@ -1340,18 +1530,28 @@ extension patrol.Server {
 }
 extension patrol.Server : patrol.TCPListenerDelegate {
   public func listener(_ listener: patrol.TCPListener, didAcceptSocket socket: patrol.TCPSocket)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func listenerDisconnected(_ listener: patrol.TCPListener, error: (any Swift.Error)?)
+  #endif
 }
 extension patrol.Server : patrol.HTTPConnectionDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connection(_ httpConnection: patrol.HTTPConnection, handleIncomingRequest request: patrol.HTTPRequest, error: (any Swift.Error)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connection(_ httpConnection: patrol.HTTPConnection, handleIncomingResponse response: patrol.HTTPResponse, error: (any Swift.Error)?)
+  #endif
   public func connection(_ httpConnection: patrol.HTTPConnection, handleUpgradeByRequest request: patrol.HTTPRequest)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connection(_ httpConnection: patrol.HTTPConnection, didCloseWithError error: (any Swift.Error)?)
+  #endif
 }
 extension patrol.Server : patrol.WebSocketConnectionDelegate {
   public func connection(_ webSocketConnection: patrol.WebSocketConnection, didReceiveMessage message: patrol.WebSocketMessage)
   public func connection(_ webSocketConnection: patrol.WebSocketConnection, didSendMessage message: patrol.WebSocketMessage)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connection(_ webSocketConnection: patrol.WebSocketConnection, didCloseWithError error: (any Swift.Error)?)
+  #endif
 }
 extension patrol.HTTPConfig {
   public static var serverDefault: patrol.HTTPConfig {
@@ -1374,11 +1574,15 @@ extension patrol.Server {
   public func route(_ method: patrol.HTTPMethod, _ uri: Swift.String, content: @escaping () -> (patrol.HTTPStatus, Swift.String))
 }
 public protocol ServerDelegate : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func serverDidStop(_ server: patrol.Server, error: (any Swift.Error)?)
+  #endif
 }
 public protocol ServerWebSocketDelegate : AnyObject {
   func server(_ server: patrol.Server, webSocketDidConnect webSocket: any patrol.WebSocket, handshake: patrol.HTTPRequest)
+  #if compiler(>=5.3) && $NonescapableTypes
   func server(_ server: patrol.Server, webSocketDidDisconnect webSocket: any patrol.WebSocket, error: (any Swift.Error)?)
+  #endif
   func server(_ server: patrol.Server, webSocket: any patrol.WebSocket, didReceiveMessage message: patrol.WebSocketMessage)
   func server(_ server: patrol.Server, webSocket: any patrol.WebSocket, didSendMessage message: patrol.WebSocketMessage)
   func serverDidDisconnect(_ server: patrol.Server)
@@ -1444,8 +1648,12 @@ extension patrol.SynchronizedSet {
   public func toSet() -> Swift.Set<Element>
 }
 public protocol TCPConnection : AnyObject, Swift.Hashable {
+  #if compiler(>=5.3) && $NonescapableTypes
   var localEndpoint: patrol.Endpoint? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var remoteEndpoint: patrol.Endpoint? { get }
+  #endif
   func open()
   func close(immediately: Swift.Bool)
 }
@@ -1455,29 +1663,37 @@ extension patrol.TCPConnection {
 }
 public protocol TCPListenerDelegate : AnyObject {
   func listener(_ listener: patrol.TCPListener, didAcceptSocket socket: patrol.TCPSocket)
+  #if compiler(>=5.3) && $NonescapableTypes
   func listenerDisconnected(_ listener: patrol.TCPListener, error: (any Swift.Error)?)
+  #endif
 }
 @objc final public class TCPListener : ObjectiveC.NSObject {
   weak final public var delegate: (any patrol.TCPListenerDelegate)?
   final public let interface: Swift.String?
   final public let tlsConfig: patrol.TLSConfig?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(port: patrol.Endpoint.Port, interface: Swift.String? = nil, tlsConfig: patrol.TLSConfig? = nil)
+  #endif
   final public var isListening: Swift.Bool {
     get
   }
   final public var port: patrol.Endpoint.Port {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   final public var queue: Dispatch.DispatchQueue? {
     get
   }
+  #endif
   final public func start(queue: Dispatch.DispatchQueue) throws
   final public func stop()
   @objc deinit
 }
 extension patrol.TCPListener : CocoaAsyncSocket.GCDAsyncSocketDelegate {
   @objc final public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket, didAcceptNewSocket newSocket: CocoaAsyncSocket.GCDAsyncSocket)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func socketDidDisconnect(_ sock: CocoaAsyncSocket.GCDAsyncSocket, withError err: (any Swift.Error)?)
+  #endif
 }
 public enum TCPSocketClose {
   case immediately
@@ -1492,26 +1708,36 @@ public enum TCPSocketClose {
 }
 public protocol TCPSocketDelegate : AnyObject {
   func socketDidOpen(_ socket: patrol.TCPSocket)
+  #if compiler(>=5.3) && $NonescapableTypes
   func socketDidClose(_ socket: patrol.TCPSocket, error: (any Swift.Error)?)
+  #endif
   func socketDidRead(_ socket: patrol.TCPSocket, data: Foundation.Data, tag: Swift.Int)
   func socketDidWrite(_ socket: patrol.TCPSocket, tag: Swift.Int)
 }
 @objc @_hasMissingDesignatedInitializers final public class TCPSocket : ObjectiveC.NSObject {
   final public let endpoint: patrol.Endpoint
   weak final public var delegate: (any patrol.TCPSocketDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(endpoint: patrol.Endpoint, tlsPolicy: patrol.TLSPolicy? = nil)
+  #endif
   final public var isConnected: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   final public var localEndpoint: patrol.Endpoint? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public var remoteEndpoint: patrol.Endpoint? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public var queue: Dispatch.DispatchQueue? {
     get
   }
+  #endif
   final public func setDelegate(_ delegate: any patrol.TCPSocketDelegate, queue: Dispatch.DispatchQueue)
   final public func setDelegateQueue(_ queue: Dispatch.DispatchQueue)
   final public func connect(timeout: Foundation.TimeInterval = 30)
@@ -1529,7 +1755,9 @@ extension patrol.TCPSocket : patrol.ReadStream, patrol.WriteStream {
 }
 extension patrol.TCPSocket : CocoaAsyncSocket.GCDAsyncSocketDelegate {
   @objc final public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket, didConnectToHost host: Swift.String, port: Swift.UInt16)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func socketDidDisconnect(_ sock: CocoaAsyncSocket.GCDAsyncSocket, withError err: (any Swift.Error)?)
+  #endif
   @objc final public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket, didRead data: Foundation.Data, withTag tag: Swift.Int)
   @objc final public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket, didWriteDataWithTag tag: Swift.Int)
   @objc final public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket, didReceive trust: Security.SecTrust, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
@@ -1543,12 +1771,16 @@ public struct TLSConfig {
 open class TLSPolicy {
   public var commonName: Swift.String?
   public var certificates: [patrol.Certificate]
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(commonName: Swift.String? = nil, certificates: [patrol.Certificate] = [])
+  #endif
   public func evaluate(trust: Security.SecTrust) -> Swift.Bool
   @objc deinit
 }
 extension patrol.TLSPolicy {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func evaluateSession(trust: Security.SecTrust?) -> Foundation.URLCredential?
+  #endif
 }
 extension Swift.UInt8 {
   public static var random: Swift.UInt8 {
@@ -1571,12 +1803,18 @@ extension Swift.UInt64 {
   }
 }
 public struct URI : Swift.Hashable, Swift.Equatable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(path: Swift.String = "/", query: Swift.String? = nil)
+  #endif
   public init(components: Foundation.URLComponents)
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(url: Foundation.URL)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(_ string: Swift.String)
-  public func hash(into hasher: inout Swift.Hasher)
+  #endif
   public static func == (a: patrol.URI, b: patrol.URI) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -1586,32 +1824,42 @@ extension patrol.URI {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var query: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var queryItems: [Foundation.URLQueryItem]? {
     get
     set
   }
+  #endif
 }
 extension patrol.URI {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(percentEncodedPath: Swift.String, percentEncodedQuery: Swift.String? = nil)
+  #endif
   public var percentEncodedPath: Swift.String {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var percentEncodedQuery: Swift.String? {
     get
     set
   }
+  #endif
   public var string: Swift.String {
     get
   }
 }
 extension patrol.URI {
   public static let root: patrol.URI
+  #if compiler(>=5.3) && $NonescapableTypes
   public func relativePath(from path: Swift.String) -> Swift.String?
+  #endif
 }
 extension patrol.URI : Swift.CustomStringConvertible {
   public var description: Swift.String {
@@ -1635,8 +1883,12 @@ extension Foundation.URL {
   }
 }
 public protocol WebSocket : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   var localEndpoint: patrol.Endpoint? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var remoteEndpoint: patrol.Endpoint? { get }
+  #endif
   func close(immediately: Swift.Bool)
   func send(data: Foundation.Data)
   func send(text: Swift.String)
@@ -1648,7 +1900,9 @@ extension patrol.WebSocket {
 }
 public protocol WebSocketClientDelegate : AnyObject {
   func webSocketClient(_ client: patrol.WebSocketClient, didConnectToHost host: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   func webSocketClient(_ client: patrol.WebSocketClient, didDisconnectWithError error: (any Swift.Error)?)
+  #endif
   func webSocketClient(_ client: patrol.WebSocketClient, didReceiveData data: Foundation.Data)
   func webSocketClient(_ client: patrol.WebSocketClient, didReceiveText text: Swift.String)
 }
@@ -1666,12 +1920,16 @@ open class WebSocketClient : patrol.WebSocket {
   @objc deinit
 }
 extension patrol.WebSocketClient {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var localEndpoint: patrol.Endpoint? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var remoteEndpoint: patrol.Endpoint? {
     get
   }
+  #endif
 }
 extension patrol.WebSocketClient {
   convenience public init(_ string: Swift.String) throws
@@ -1680,18 +1938,28 @@ extension patrol.WebSocketClient {
 }
 extension patrol.WebSocketClient : patrol.TCPSocketDelegate {
   public func socketDidOpen(_ socket: patrol.TCPSocket)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func socketDidClose(_ socket: patrol.TCPSocket, error: (any Swift.Error)?)
+  #endif
   public func socketDidRead(_ socket: patrol.TCPSocket, data: Foundation.Data, tag: Swift.Int)
   public func socketDidWrite(_ socket: patrol.TCPSocket, tag: Swift.Int)
 }
 extension patrol.WebSocketClient : patrol.HTTPConnectionDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connection(_ httpConnection: patrol.HTTPConnection, didCloseWithError error: (any Swift.Error)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connection(_ httpConnection: patrol.HTTPConnection, handleIncomingResponse response: patrol.HTTPResponse, error: (any Swift.Error)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connection(_ httpConnection: patrol.HTTPConnection, handleIncomingRequest request: patrol.HTTPRequest, error: (any Swift.Error)?)
+  #endif
   public func connection(_ httpConnection: patrol.HTTPConnection, handleUpgradeByRequest request: patrol.HTTPRequest)
 }
 extension patrol.WebSocketClient : patrol.WebSocketConnectionDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connection(_ webSocketConnection: patrol.WebSocketConnection, didCloseWithError error: (any Swift.Error)?)
+  #endif
   public func connection(_ webSocketConnection: patrol.WebSocketConnection, didReceiveMessage message: patrol.WebSocketMessage)
   public func connection(_ webSocketConnection: patrol.WebSocketConnection, didSendMessage message: patrol.WebSocketMessage)
 }
@@ -1708,13 +1976,17 @@ public struct WebSocketConfig {
 public protocol WebSocketConnectionDelegate : AnyObject {
   func connection(_ webSocketConnection: patrol.WebSocketConnection, didReceiveMessage message: patrol.WebSocketMessage)
   func connection(_ webSocketConnection: patrol.WebSocketConnection, didSendMessage message: patrol.WebSocketMessage)
+  #if compiler(>=5.3) && $NonescapableTypes
   func connection(_ webSocketConnection: patrol.WebSocketConnection, didCloseWithError error: (any Swift.Error)?)
+  #endif
 }
 open class WebSocketConnection : patrol.TCPConnection, patrol.WebSocket {
   weak public var delegate: (any patrol.WebSocketConnectionDelegate)?
   required public init(socket: patrol.TCPSocket, config: patrol.WebSocketConfig)
   public func open()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func open(data: Foundation.Data?)
+  #endif
   public func close(immediately: Swift.Bool)
   public func send(message: patrol.WebSocketMessage)
   @objc deinit
@@ -1723,16 +1995,22 @@ open class WebSocketConnection : patrol.TCPConnection, patrol.WebSocket {
   }
 }
 extension patrol.WebSocketConnection {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var localEndpoint: patrol.Endpoint? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var remoteEndpoint: patrol.Endpoint? {
     get
   }
+  #endif
 }
 extension patrol.WebSocketConnection : patrol.TCPSocketDelegate {
   public func socketDidOpen(_ socket: patrol.TCPSocket)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func socketDidClose(_ socket: patrol.TCPSocket, error: (any Swift.Error)?)
+  #endif
   public func socketDidRead(_ socket: patrol.TCPSocket, data: Foundation.Data, tag: Swift.Int)
   public func socketDidWrite(_ socket: patrol.TCPSocket, tag: Swift.Int)
 }
@@ -1762,18 +2040,28 @@ extension patrol.WebSocketError : Swift.CustomStringConvertible {
   }
 }
 extension patrol.WebSocketError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 @_hasMissingDesignatedInitializers public class WebSocketErrorDefaultHandler : patrol.WebSocketErrorHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func incoming(error: any Swift.Error, webSocket: any patrol.WebSocket, message: patrol.WebSocketMessage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func outgoing(error: any Swift.Error, webSocket: any patrol.WebSocket, message: patrol.WebSocketMessage?)
+  #endif
   @objc deinit
 }
 public protocol WebSocketErrorHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   func incoming(error: any Swift.Error, webSocket: any patrol.WebSocket, message: patrol.WebSocketMessage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func outgoing(error: any Swift.Error, webSocket: any patrol.WebSocket, message: patrol.WebSocketMessage?)
+  #endif
 }
 open class WebSocketMessage {
   public var finBit: Swift.Bool
@@ -1790,7 +2078,9 @@ public enum WebSocketOpcode : Swift.UInt8 {
   case connectionClose
   case ping
   case pong
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt8)
+  #endif
   public typealias RawValue = Swift.UInt8
   public var rawValue: Swift.UInt8 {
     get
@@ -1822,9 +2112,11 @@ extension patrol.WebSocketMessage {
   public func write(to stream: any patrol.WriteStream, headerTimeout: Foundation.TimeInterval, payloadTimeout: Foundation.TimeInterval)
 }
 extension patrol.WebSocketPayload {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var data: Foundation.Data? {
     get
   }
+  #endif
 }
 @_hasMissingDesignatedInitializers public class WebSocketMessageDefaultHandler : patrol.WebSocketMessageHandler {
   public func incoming(message: patrol.WebSocketMessage, from webSocket: any patrol.WebSocket) throws
