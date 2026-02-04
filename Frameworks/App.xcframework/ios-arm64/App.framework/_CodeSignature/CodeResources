@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		pVzucbzoPD7pZHH2SOt9+S73YqE=
+		ap3/wav3/RNFve/m/dp6tvC/0kw=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		gVkkXQjmoWgSPQmIrrrQx1L7VZ0=
+		LT0OlePO8//WXf8IGZVFvBl2aVw=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		AcQRENzdC35YIEDe1kRoMHGcKnY=
+		+XWPFJFwxaJGvS1hvfoVbcCkWSw=
 		</data>
 		<key>flutter_assets/NativeAssetsManifest.json</key>
 		<data>
@@ -283,6 +283,10 @@
 		<key>flutter_assets/assets/calendar.png</key>
 		<data>
 		Bvnyn2+s7E5E53oM1TwamEJhSiI=
+		</data>
+		<key>flutter_assets/assets/calendar_2.png</key>
+		<data>
+		A7XsDXslHHhSR9dHpvSKIEjeU3k=
 		</data>
 		<key>flutter_assets/assets/challenge_complete.png</key>
 		<data>
@@ -567,6 +571,10 @@
 		<key>flutter_assets/assets/loading_standings.png</key>
 		<data>
 		WQB2Z1cPUri/6CdRptLB3Or8LpE=
+		</data>
+		<key>flutter_assets/assets/location.png</key>
+		<data>
+		09KkHnjmdOle56r0jI+Nt2ZLpyM=
 		</data>
 		<key>flutter_assets/assets/lock.png</key>
 		<data>
@@ -1010,7 +1018,7 @@
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
-		NqghnqZ4EC8HJT2ByvdpTdI0Yoo=
+		AFCUq2NhE4yVZBtUapMnoZGdhuM=
 		</data>
 		<key>flutter_assets/fonts/inter.ttf</key>
 		<data>
@@ -2363,14 +2371,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K9sNTcv79A0EGyv7QNoUjuxmBoRMPBkIATlbu5z7bTE=
+			7xolnK6plUzNLo5HfHfWkN8g3x9RaebxsPeguAGmBf8=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HXJSMgtQvHSsA+y2eGucvf6Bk0B46024Kxf7Wb4djs0=
+			PiPJl21Xn1qEOkh/BxLI2ZhZ2b1usNLNlJ8rHQRG3yk=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -2384,7 +2392,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RS4mcP6LGhJenT4fGbH2ads9dSTbj/AuEE9xK1fuRR4=
+			Tpo6pt9hzJBejdvbxARvQAlzu1riZFW9C0eSzWXQumQ=
 			</data>
 		</dict>
 		<key>flutter_assets/NativeAssetsManifest.json</key>
@@ -2840,6 +2848,13 @@
 			<key>hash2</key>
 			<data>
 			Rk54ndkW+VQy8I8niZs7s4m1Vz467ggru1KHKdvyOi0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/calendar_2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2/EiQj0RVdfx6XaJGbcXipKVawsZci8JOb3FE+k4hsI=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/challenge_complete.png</key>
@@ -3337,6 +3352,13 @@
 			<key>hash2</key>
 			<data>
 			BLid4fzrbkfMxOavR9ZRkQRwgdZhJAZN/GYhyDabDkM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/location.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jeDtAMXEesicNZ2ML1L1flwxWYpQY+uAI1XYYc5vQbo=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/lock.png</key>
@@ -4113,7 +4135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lCS4Io1t4ktqDYDa1fZQfCS9e5DkFzsBkX3esbkRwfY=
+			vilbKhhjYHrjPDH+0U+FuqDJwbRn/zSyrVstkOjGTr8=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/inter.ttf</key>
