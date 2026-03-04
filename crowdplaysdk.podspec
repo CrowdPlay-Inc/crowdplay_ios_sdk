@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'crowdplaysdk'
-  s.version          = '1.1866'
+  s.version          = '1.1883'
   s.summary          = 'A short description of crowdplaysdk.'
 
 # This description is used to generate tags and improve search results.
@@ -27,17 +27,17 @@ TODO: Add long description of the pod here.
   s.author           = { 'Crowdplay' => 'support@crowdplayapp.com' }
   s.source           = { :git => 'git@github.com:CrowdPlay-Inc/crowdplay_ios_sdk.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'Sources/**/*'
   s.swift_version = '5.5'
   
   s.ios.frameworks  = 'UIKit'
 
-  s.dependency 'FirebaseAuth', '~> 11.4.0'
-  s.dependency 'FirebaseStorage', '~> 11.4.0'
-  s.dependency 'FirebaseDatabase', '~> 11.4.0'
-  s.dependency 'FirebaseMessaging', '~> 11.4.0'
+  s.dependency 'FirebaseAuth', '~> 12.4.0'
+  s.dependency 'FirebaseStorage', '~> 12.4.0'
+  s.dependency 'FirebaseDatabase', '~> 12.4.0'
+  s.dependency 'FirebaseMessaging', '~> 12.4.0'
   s.dependency 'GTMSessionFetcher', '~> 4.5.0'
   s.dependency 'nanopb', '~> 3.30910.0'
   s.dependency 'leveldb-library', '~> 1.22.6'

@@ -234,6 +234,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -294,6 +301,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -759,13 +773,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "FirebaseCoreInternal",
+        "printedName": "FirebaseCoreInternal",
         "declKind": "Import",
         "moduleName": "FirebaseAuth",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseAuth"
       },
       {
         "kind": "TypeDecl",
@@ -799,13 +820,10 @@
             "isOpen": true,
             "objc_name": "URL",
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -831,7 +849,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)URL",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC3url10Foundation3URLVSgvg",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -867,7 +884,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)setURL:",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC3url10Foundation3URLVSgvs",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -913,13 +929,10 @@
             "moduleName": "FirebaseAuth",
             "isOpen": true,
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -937,7 +950,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)handleCodeInApp",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC06handleD5InAppSbvg",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -965,7 +977,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)setHandleCodeInApp:",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC06handleD5InAppSbvs",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -1019,13 +1030,10 @@
             "moduleName": "FirebaseAuth",
             "isOpen": true,
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1051,7 +1059,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)iOSBundleID",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC11iOSBundleIDSSSgvg",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -1087,7 +1094,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)setIOSBundleID:",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC11iOSBundleIDSSSgvs",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -1141,13 +1147,10 @@
             "moduleName": "FirebaseAuth",
             "isOpen": true,
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1173,7 +1176,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)androidPackageName",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC18androidPackageNameSSSgvg",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -1209,7 +1211,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)setAndroidPackageName:",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC18androidPackageNameSSSgvs",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -1263,13 +1264,10 @@
             "moduleName": "FirebaseAuth",
             "isOpen": true,
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1295,7 +1293,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)androidMinimumVersion",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC21androidMinimumVersionSSSgvg",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -1331,7 +1328,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)setAndroidMinimumVersion:",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC21androidMinimumVersionSSSgvs",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -1377,13 +1373,10 @@
             "moduleName": "FirebaseAuth",
             "isOpen": true,
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1401,7 +1394,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)androidInstallIfNotAvailable",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC28androidInstallIfNotAvailableSbvg",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -1429,7 +1421,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)setAndroidInstallIfNotAvailable:",
                 "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC28androidInstallIfNotAvailableSbvs",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
                   "ObjC"
@@ -1459,8 +1450,8 @@
           },
           {
             "kind": "Var",
-            "name": "dynamicLinkDomain",
-            "printedName": "dynamicLinkDomain",
+            "name": "linkDomain",
+            "printedName": "linkDomain",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1478,18 +1469,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(py)dynamicLinkDomain",
-            "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC17dynamicLinkDomainSSSgvp",
+            "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(py)linkDomain",
+            "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC10linkDomainSSSgvp",
             "moduleName": "FirebaseAuth",
-            "isOpen": true,
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1512,11 +1499,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)dynamicLinkDomain",
-                "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC17dynamicLinkDomainSSSgvg",
+                "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)linkDomain",
+                "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC10linkDomainSSSgvg",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -1548,11 +1533,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)setDynamicLinkDomain:",
-                "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC17dynamicLinkDomainSSSgvs",
+                "usr": "c:@M@FirebaseAuth@objc(cs)FIRActionCodeSettings(im)setLinkDomain:",
+                "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC10linkDomainSSSgvs",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -1570,11 +1553,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12FirebaseAuth18ActionCodeSettingsC17dynamicLinkDomainSSSgvM",
-                "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC17dynamicLinkDomainSSSgvM",
+                "usr": "s:12FirebaseAuth18ActionCodeSettingsC10linkDomainSSSgvM",
+                "mangledName": "$s12FirebaseAuth18ActionCodeSettingsC10linkDomainSSSgvM",
                 "moduleName": "FirebaseAuth",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -1703,6 +1685,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -1763,6 +1752,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2184,6 +2180,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -2244,6 +2247,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2567,10 +2577,14 @@
             "static": true,
             "objc_name": "supportsSecureCoding",
             "declAttributes": [
+              "HasInitialValue",
               "Final",
+              "HasStorage",
               "ObjC",
               "AccessControl"
             ],
+            "isLet": true,
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -2589,6 +2603,7 @@
                 "mangledName": "$s12FirebaseAuth18AdditionalUserInfoC20supportsSecureCodingSbvgZ",
                 "moduleName": "FirebaseAuth",
                 "static": true,
+                "implicit": true,
                 "objc_name": "supportsSecureCoding",
                 "declAttributes": [
                   "Final",
@@ -2817,7 +2832,7 @@
         "declKind": "Import",
         "moduleName": "FirebaseAuth",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -2973,14 +2988,10 @@
             "mangledName": "$s12FirebaseAuth0B0C11currentUserAA0D0CSgvp",
             "moduleName": "FirebaseAuth",
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "SetterAccess",
               "AccessControl",
               "ObjC",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -3006,7 +3017,6 @@
                 "usr": "c:@M@FirebaseAuth@objc(cs)FIRAuth(im)currentUser",
                 "mangledName": "$s12FirebaseAuth0B0C11currentUserAA0D0CSgvg",
                 "moduleName": "FirebaseAuth",
-                "implicit": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -6845,6 +6855,7 @@
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "Preconcurrency",
           "Available",
           "Available",
           "Available",
@@ -6951,7 +6962,7 @@
         "declKind": "Import",
         "moduleName": "FirebaseAuth",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -7226,6 +7237,20 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -7279,6 +7304,40 @@
       },
       {
         "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "FirebaseAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCoreExtension",
+        "printedName": "FirebaseCoreExtension",
+        "declKind": "Import",
+        "moduleName": "FirebaseAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "GTMSessionFetcher",
+        "printedName": "GTMSessionFetcher",
+        "declKind": "Import",
+        "moduleName": "FirebaseAuth",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7314,6 +7373,16 @@
         "printedName": "FirebaseCoreExtension",
         "declKind": "Import",
         "moduleName": "FirebaseAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -7436,6 +7505,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -7496,6 +7572,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -7720,10 +7803,11 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "ObjC",
               "HasStorage",
+              "ObjC",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -7750,66 +7834,6 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIRAuthDataResult(cm)setSupportsSecureCoding:",
-                "mangledName": "$s12FirebaseAuth0B10DataResultC20supportsSecureCodingSbvsZ",
-                "moduleName": "FirebaseAuth",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FirebaseAuth0B10DataResultC20supportsSecureCodingSbvMZ",
-                "mangledName": "$s12FirebaseAuth0B10DataResultC20supportsSecureCodingSbvMZ",
-                "moduleName": "FirebaseAuth",
-                "static": true,
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Final",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -8018,7 +8042,7 @@
         "declKind": "Import",
         "moduleName": "FirebaseAuth",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -10785,48 +10809,6 @@
           },
           {
             "kind": "Var",
-            "name": "dynamicLinkNotActivated",
-            "printedName": "dynamicLinkNotActivated",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FirebaseAuth.AuthErrorCode.Type) -> FirebaseAuth.AuthErrorCode",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AuthErrorCode",
-                    "printedName": "FirebaseAuth.AuthErrorCode",
-                    "usr": "c:@M@FirebaseAuth@E@FIRAuthErrorCode"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FirebaseAuth.AuthErrorCode.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AuthErrorCode",
-                        "printedName": "FirebaseAuth.AuthErrorCode",
-                        "usr": "c:@M@FirebaseAuth@E@FIRAuthErrorCode"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@FirebaseAuth@E@FIRAuthErrorCode@FIRAuthErrorCodeDynamicLinkNotActivated",
-            "mangledName": "$s12FirebaseAuth0B9ErrorCodeO23dynamicLinkNotActivatedyA2CmF",
-            "moduleName": "FirebaseAuth",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 56
-          },
-          {
-            "kind": "Var",
             "name": "invalidProviderID",
             "printedName": "invalidProviderID",
             "children": [
@@ -10865,7 +10847,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 57
+            "fixedbinaryorder": 56
           },
           {
             "kind": "Var",
@@ -10907,7 +10889,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 58
+            "fixedbinaryorder": 57
           },
           {
             "kind": "Var",
@@ -10949,12 +10931,12 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 59
+            "fixedbinaryorder": 58
           },
           {
             "kind": "Var",
-            "name": "invalidDynamicLinkDomain",
-            "printedName": "invalidDynamicLinkDomain",
+            "name": "invalidHostingLinkDomain",
+            "printedName": "invalidHostingLinkDomain",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -10984,14 +10966,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@FirebaseAuth@E@FIRAuthErrorCode@FIRAuthErrorCodeInvalidDynamicLinkDomain",
-            "mangledName": "$s12FirebaseAuth0B9ErrorCodeO24invalidDynamicLinkDomainyA2CmF",
+            "usr": "c:@M@FirebaseAuth@E@FIRAuthErrorCode@FIRAuthErrorCodeInvalidHostingLinkDomain",
+            "mangledName": "$s12FirebaseAuth0B9ErrorCodeO24invalidHostingLinkDomainyA2CmF",
             "moduleName": "FirebaseAuth",
             "declAttributes": [
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 60
+            "fixedbinaryorder": 59
           },
           {
             "kind": "Var",
@@ -11033,7 +11015,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 61
+            "fixedbinaryorder": 60
           },
           {
             "kind": "Var",
@@ -11075,7 +11057,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 62
+            "fixedbinaryorder": 61
           },
           {
             "kind": "Var",
@@ -11117,7 +11099,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 63
+            "fixedbinaryorder": 62
           },
           {
             "kind": "Var",
@@ -11159,7 +11141,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 64
+            "fixedbinaryorder": 63
           },
           {
             "kind": "Var",
@@ -11201,7 +11183,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 65
+            "fixedbinaryorder": 64
           },
           {
             "kind": "Var",
@@ -11243,7 +11225,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 66
+            "fixedbinaryorder": 65
           },
           {
             "kind": "Var",
@@ -11285,7 +11267,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 67
+            "fixedbinaryorder": 66
           },
           {
             "kind": "Var",
@@ -11327,7 +11309,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 68
+            "fixedbinaryorder": 67
           },
           {
             "kind": "Var",
@@ -11369,7 +11351,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 69
+            "fixedbinaryorder": 68
           },
           {
             "kind": "Var",
@@ -11411,7 +11393,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 70
+            "fixedbinaryorder": 69
           },
           {
             "kind": "Var",
@@ -11453,7 +11435,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 71
+            "fixedbinaryorder": 70
           },
           {
             "kind": "Var",
@@ -11495,7 +11477,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 72
+            "fixedbinaryorder": 71
           },
           {
             "kind": "Var",
@@ -11537,7 +11519,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 73
+            "fixedbinaryorder": 72
           },
           {
             "kind": "Var",
@@ -11579,7 +11561,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 74
+            "fixedbinaryorder": 73
           },
           {
             "kind": "Var",
@@ -11621,7 +11603,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 75
+            "fixedbinaryorder": 74
           },
           {
             "kind": "Var",
@@ -11663,7 +11645,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 76
+            "fixedbinaryorder": 75
           },
           {
             "kind": "Var",
@@ -11705,7 +11687,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 77
+            "fixedbinaryorder": 76
           },
           {
             "kind": "Var",
@@ -11747,7 +11729,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 78
+            "fixedbinaryorder": 77
           },
           {
             "kind": "Var",
@@ -11789,7 +11771,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 79
+            "fixedbinaryorder": 78
           },
           {
             "kind": "Var",
@@ -11831,7 +11813,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 80
+            "fixedbinaryorder": 79
           },
           {
             "kind": "Var",
@@ -11873,7 +11855,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 81
+            "fixedbinaryorder": 80
           },
           {
             "kind": "Var",
@@ -11915,7 +11897,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 82
+            "fixedbinaryorder": 81
           },
           {
             "kind": "Var",
@@ -11957,7 +11939,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 83
+            "fixedbinaryorder": 82
           },
           {
             "kind": "Var",
@@ -11999,7 +11981,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 84
+            "fixedbinaryorder": 83
           },
           {
             "kind": "Var",
@@ -12041,7 +12023,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 85
+            "fixedbinaryorder": 84
           },
           {
             "kind": "Var",
@@ -12083,7 +12065,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 86
+            "fixedbinaryorder": 85
           },
           {
             "kind": "Var",
@@ -12125,7 +12107,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 87
+            "fixedbinaryorder": 86
           },
           {
             "kind": "Var",
@@ -12167,7 +12149,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 88
+            "fixedbinaryorder": 87
           },
           {
             "kind": "Var",
@@ -12209,7 +12191,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 89
+            "fixedbinaryorder": 88
           },
           {
             "kind": "Var",
@@ -12251,7 +12233,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 90
+            "fixedbinaryorder": 89
           },
           {
             "kind": "Var",
@@ -12546,6 +12528,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCoreInternal",
+        "printedName": "FirebaseCoreInternal",
+        "declKind": "Import",
+        "moduleName": "FirebaseAuth"
       },
       {
         "kind": "Import",
@@ -14397,10 +14386,14 @@
             "static": true,
             "objc_name": "supportsSecureCoding",
             "declAttributes": [
+              "HasInitialValue",
               "Final",
+              "HasStorage",
               "ObjC",
               "AccessControl"
             ],
+            "isLet": true,
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -14419,6 +14412,7 @@
                 "mangledName": "$s12FirebaseAuth0B11TokenResultC20supportsSecureCodingSbvgZ",
                 "moduleName": "FirebaseAuth",
                 "static": true,
+                "implicit": true,
                 "objc_name": "supportsSecureCoding",
                 "declAttributes": [
                   "Final",
@@ -16898,10 +16892,14 @@
             "static": true,
             "objc_name": "supportsSecureCoding",
             "declAttributes": [
+              "HasInitialValue",
               "Final",
+              "HasStorage",
               "ObjC",
               "AccessControl"
             ],
+            "isLet": true,
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -16920,6 +16918,7 @@
                 "mangledName": "$s12FirebaseAuth11MultiFactorC20supportsSecureCodingSbvgZ",
                 "moduleName": "FirebaseAuth",
                 "static": true,
+                "implicit": true,
                 "objc_name": "supportsSecureCoding",
                 "declAttributes": [
                   "Final",
@@ -17705,6 +17704,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -17765,6 +17771,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -18571,6 +18584,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -18597,66 +18611,6 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthCredential(cm)setSupportsSecureCoding:",
-                "mangledName": "$s12FirebaseAuth15OAuthCredentialC20supportsSecureCodingSbvsZ",
-                "moduleName": "FirebaseAuth",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FirebaseAuth15OAuthCredentialC20supportsSecureCodingSbvMZ",
-                "mangledName": "$s12FirebaseAuth15OAuthCredentialC20supportsSecureCodingSbvMZ",
-                "moduleName": "FirebaseAuth",
-                "static": true,
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Final",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -18756,6 +18710,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -18816,6 +18777,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -19290,40 +19258,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthProvider(cm)providerWithProviderID:",
-            "mangledName": "$s12FirebaseAuth13OAuthProviderC8provider0E2IDACSS_tFZ",
-            "moduleName": "FirebaseAuth",
-            "static": true,
-            "deprecated": true,
-            "isOpen": true,
-            "objc_name": "providerWithProviderID:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "Available",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "provider",
-            "printedName": "provider(providerID:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OAuthProvider",
-                "printedName": "FirebaseAuth.OAuthProvider",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthProvider"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "AuthProviderID",
                 "printedName": "FirebaseAuth.AuthProviderID",
                 "usr": "s:12FirebaseAuth0B10ProviderIDV"
@@ -19336,46 +19270,6 @@
             "static": true,
             "declAttributes": [
               "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "provider",
-            "printedName": "provider(providerID:auth:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OAuthProvider",
-                "printedName": "FirebaseAuth.OAuthProvider",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthProvider"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Auth",
-                "printedName": "FirebaseAuth.Auth",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIRAuth"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthProvider(cm)providerWithProviderID:auth:",
-            "mangledName": "$s12FirebaseAuth13OAuthProviderC8provider0E2ID4authACSS_AA0B0CtFZ",
-            "moduleName": "FirebaseAuth",
-            "static": true,
-            "deprecated": true,
-            "isOpen": true,
-            "objc_name": "providerWithProviderID:auth:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -19489,60 +19383,6 @@
           {
             "kind": "Function",
             "name": "credential",
-            "printedName": "credential(withProviderID:idToken:accessToken:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OAuthCredential",
-                "printedName": "FirebaseAuth.OAuthCredential",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthCredential"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthProvider(cm)credentialWithProviderID:IDToken:accessToken:",
-            "mangledName": "$s12FirebaseAuth13OAuthProviderC10credential04withD2ID7idToken06accessI0AA0C10CredentialCSS_S2SSgtFZ",
-            "moduleName": "FirebaseAuth",
-            "static": true,
-            "deprecated": true,
-            "objc_name": "credentialWithProviderID:IDToken:accessToken:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "Available",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "credential",
             "printedName": "credential(providerID:idToken:accessToken:)",
             "children": [
               {
@@ -19594,46 +19434,6 @@
           {
             "kind": "Function",
             "name": "credential",
-            "printedName": "credential(withProviderID:accessToken:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OAuthCredential",
-                "printedName": "FirebaseAuth.OAuthCredential",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthCredential"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthProvider(cm)credentialWithProviderID:accessToken:",
-            "mangledName": "$s12FirebaseAuth13OAuthProviderC10credential04withD2ID11accessTokenAA0C10CredentialCSS_SStFZ",
-            "moduleName": "FirebaseAuth",
-            "static": true,
-            "deprecated": true,
-            "objc_name": "credentialWithProviderID:accessToken:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "Available",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "credential",
             "printedName": "credential(providerID:accessToken:)",
             "children": [
               {
@@ -19663,104 +19463,6 @@
             "declAttributes": [
               "Final",
               "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "credential",
-            "printedName": "credential(withProviderID:idToken:rawNonce:accessToken:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OAuthCredential",
-                "printedName": "FirebaseAuth.OAuthCredential",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthCredential"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthProvider(cm)credentialWithProviderID:IDToken:rawNonce:accessToken:",
-            "mangledName": "$s12FirebaseAuth13OAuthProviderC10credential04withD2ID7idToken8rawNonce06accessI0AA0C10CredentialCSS_S3StFZ",
-            "moduleName": "FirebaseAuth",
-            "static": true,
-            "deprecated": true,
-            "objc_name": "credentialWithProviderID:IDToken:rawNonce:accessToken:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "Available",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "credential",
-            "printedName": "credential(withProviderID:idToken:rawNonce:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OAuthCredential",
-                "printedName": "FirebaseAuth.OAuthCredential",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthCredential"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FirebaseAuth@objc(cs)FIROAuthProvider(cm)credentialWithProviderID:IDToken:rawNonce:",
-            "mangledName": "$s12FirebaseAuth13OAuthProviderC10credential04withD2ID7idToken8rawNonceAA0C10CredentialCSS_S2StFZ",
-            "moduleName": "FirebaseAuth",
-            "static": true,
-            "deprecated": true,
-            "objc_name": "credentialWithProviderID:IDToken:rawNonce:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -20188,6 +19890,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -20214,66 +19917,6 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@FirebaseAuth@objc(cs)FIRPhoneAuthCredential(cm)setSupportsSecureCoding:",
-                "mangledName": "$s12FirebaseAuth05PhoneB10CredentialC20supportsSecureCodingSbvsZ",
-                "moduleName": "FirebaseAuth",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FirebaseAuth05PhoneB10CredentialC20supportsSecureCodingSbvMZ",
-                "mangledName": "$s12FirebaseAuth05PhoneB10CredentialC20supportsSecureCodingSbvMZ",
-                "moduleName": "FirebaseAuth",
-                "static": true,
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Final",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -20387,6 +20030,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -20433,6 +20083,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -20659,7 +20316,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@FirebaseAuth@objc(cs)FIRPhoneAuthProvider(im)verifyPhoneNumber:UIDelegate:completion:",
-            "mangledName": "$s12FirebaseAuth05PhoneB8ProviderC06verifyC6Number_10uiDelegate10completionySS_AA0B10UIDelegate_pSgySSSg_s5Error_pSgtcSgtF",
+            "mangledName": "$s12FirebaseAuth05PhoneB8ProviderC06verifyC6Number_10uiDelegate10completionySS_AA0B10UIDelegate_pSgySSSg_s5Error_pSgtScMYccSgtF",
             "moduleName": "FirebaseAuth",
             "isOpen": true,
             "objc_name": "verifyPhoneNumber:UIDelegate:completion:",
@@ -20774,7 +20431,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@FirebaseAuth@objc(cs)FIRPhoneAuthProvider(im)verifyPhoneNumber:UIDelegate:multiFactorSession:completion:",
-            "mangledName": "$s12FirebaseAuth05PhoneB8ProviderC06verifyC6Number_10uiDelegate18multiFactorSession10completionySS_AA0B10UIDelegate_pSgAA05MultijK0CSgySSSg_s5Error_pSgtcSgtF",
+            "mangledName": "$s12FirebaseAuth05PhoneB8ProviderC06verifyC6Number_10uiDelegate18multiFactorSession10completionySS_AA0B10UIDelegate_pSgAA05MultijK0CSgySSSg_s5Error_pSgtScMYccSgtF",
             "moduleName": "FirebaseAuth",
             "isOpen": true,
             "objc_name": "verifyPhoneNumber:UIDelegate:multiFactorSession:completion:",
@@ -21126,6 +20783,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -21186,6 +20850,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -21823,6 +21494,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -21883,6 +21561,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -21948,13 +21633,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "FirebaseCoreInternal",
+        "printedName": "FirebaseCoreInternal",
         "declKind": "Import",
         "moduleName": "FirebaseAuth",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseAuth"
       },
       {
         "kind": "Import",
@@ -22527,7 +22219,7 @@
         "declKind": "Import",
         "moduleName": "FirebaseAuth",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -22629,6 +22321,7 @@
             "declAttributes": [
               "AccessControl",
               "ObjC",
+              "Custom",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -26128,10 +25821,14 @@
             "static": true,
             "objc_name": "supportsSecureCoding",
             "declAttributes": [
+              "HasInitialValue",
               "Final",
+              "HasStorage",
               "ObjC",
               "AccessControl"
             ],
+            "isLet": true,
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -26150,6 +25847,7 @@
                 "mangledName": "$s12FirebaseAuth4UserC20supportsSecureCodingSbvgZ",
                 "moduleName": "FirebaseAuth",
                 "static": true,
+                "implicit": true,
                 "objc_name": "supportsSecureCoding",
                 "declAttributes": [
                   "Final",
@@ -26931,10 +26629,14 @@
             "static": true,
             "objc_name": "supportsSecureCoding",
             "declAttributes": [
+              "HasInitialValue",
               "Final",
+              "HasStorage",
               "ObjC",
               "AccessControl"
             ],
+            "isLet": true,
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -26953,6 +26655,7 @@
                 "mangledName": "$s12FirebaseAuth12UserMetadataC20supportsSecureCodingSbvgZ",
                 "moduleName": "FirebaseAuth",
                 "static": true,
+                "implicit": true,
                 "objc_name": "supportsSecureCoding",
                 "declAttributes": [
                   "Final",
@@ -27855,63 +27558,63 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/ActionCode\/ActionCodeOperation.swift",
       "kind": "IntegerLiteral",
-      "offset": 813,
+      "offset": 802,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/ActionCode\/ActionCodeOperation.swift",
       "kind": "IntegerLiteral",
-      "offset": 887,
+      "offset": 876,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/ActionCode\/ActionCodeOperation.swift",
       "kind": "IntegerLiteral",
-      "offset": 957,
+      "offset": 946,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/ActionCode\/ActionCodeOperation.swift",
       "kind": "IntegerLiteral",
-      "offset": 1029,
+      "offset": 1018,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/ActionCode\/ActionCodeOperation.swift",
       "kind": "IntegerLiteral",
-      "offset": 1095,
+      "offset": 1084,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/ActionCode\/ActionCodeOperation.swift",
       "kind": "IntegerLiteral",
-      "offset": 1180,
+      "offset": 1169,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/ActionCode\/ActionCodeOperation.swift",
       "kind": "IntegerLiteral",
-      "offset": 1275,
+      "offset": 1264,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/ActionCode\/ActionCodeSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1272,
+      "offset": 4245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/ActionCode\/ActionCodeSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1760,
+      "offset": 4464,
       "length": 5,
       "value": "false"
     },
@@ -27946,126 +27649,112 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/AdditionalUserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 1788,
+      "offset": 1771,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Auth\/Auth.swift",
       "kind": "BooleanLiteral",
-      "offset": 7704,
+      "offset": 7800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Auth\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 73503,
+      "offset": 73834,
       "length": 35,
       "value": "\"FIRAuthStateDidChangeNotification\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Auth\/Auth.swift",
       "kind": "Dictionary",
-      "offset": 81265,
+      "offset": 81629,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Auth\/Auth.swift",
       "kind": "BooleanLiteral",
-      "offset": 106261,
+      "offset": 106669,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Auth\/Auth.swift",
       "kind": "BooleanLiteral",
-      "offset": 106369,
+      "offset": 106777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Auth\/Auth.swift",
       "kind": "BooleanLiteral",
-      "offset": 106538,
+      "offset": 106946,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Auth\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 107160,
+      "offset": 107568,
       "length": 16,
       "value": "\"_firebase_user\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Auth\/Auth.swift",
       "kind": "Array",
-      "offset": 107425,
+      "offset": 107833,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAPNSToken.swift",
-      "kind": "StringLiteral",
-      "offset": 1178,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAPNSToken.swift",
-      "kind": "StringLiteral",
-      "offset": 1243,
-      "length": 6,
-      "value": "\"%02X\""
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAPNSTokenManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1290,
+      "offset": 1574,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAPNSTokenManager.swift",
       "kind": "Array",
-      "offset": 4297,
+      "offset": 4516,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAPNSTokenType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1004,
+      "offset": 1014,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAPNSTokenType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1053,
+      "offset": 1063,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAppCredential.swift",
       "kind": "StringLiteral",
-      "offset": 1452,
+      "offset": 1468,
       "length": 9,
       "value": "\"receipt\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAppCredential.swift",
       "kind": "StringLiteral",
-      "offset": 1496,
+      "offset": 1512,
       "length": 8,
       "value": "\"secret\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAppCredential.swift",
       "kind": "BooleanLiteral",
-      "offset": 1552,
+      "offset": 1558,
       "length": 4,
       "value": "true"
     },
@@ -28100,14 +27789,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAppCredentialManager.swift",
       "kind": "Array",
-      "offset": 4460,
+      "offset": 4459,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthAppCredentialManager.swift",
       "kind": "Dictionary",
-      "offset": 4590,
+      "offset": 4589,
       "length": 3,
       "value": "[]"
     },
@@ -28576,910 +28265,910 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 9536,
-      "length": 5,
-      "value": "17068"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9665,
+      "offset": 9562,
       "length": 5,
       "value": "17071"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 9871,
+      "offset": 9768,
       "length": 5,
       "value": "17072"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 10077,
+      "offset": 9974,
       "length": 5,
       "value": "17073"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 10252,
+      "offset": 10115,
       "length": 5,
-      "value": "17074"
+      "value": "17214"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 10374,
+      "offset": 10237,
       "length": 5,
       "value": "17075"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 10504,
+      "offset": 10367,
       "length": 5,
       "value": "17076"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 10604,
+      "offset": 10467,
       "length": 5,
       "value": "17078"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 10704,
+      "offset": 10567,
       "length": 5,
       "value": "17081"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 10798,
+      "offset": 10661,
       "length": 5,
       "value": "17082"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 10898,
+      "offset": 10761,
       "length": 5,
       "value": "17083"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 10995,
+      "offset": 10858,
       "length": 5,
       "value": "17084"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11092,
+      "offset": 10955,
       "length": 5,
       "value": "17085"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11185,
+      "offset": 11048,
       "length": 5,
       "value": "17086"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11289,
+      "offset": 11152,
       "length": 5,
       "value": "17087"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11404,
+      "offset": 11267,
       "length": 5,
       "value": "17088"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11499,
+      "offset": 11362,
       "length": 5,
       "value": "17089"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11613,
+      "offset": 11476,
       "length": 5,
       "value": "17090"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11724,
+      "offset": 11587,
       "length": 5,
       "value": "17093"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11816,
+      "offset": 11679,
       "length": 5,
       "value": "17094"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11977,
+      "offset": 11840,
       "length": 5,
       "value": "17105"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 12100,
+      "offset": 11963,
       "length": 5,
       "value": "17200"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 12216,
+      "offset": 12079,
       "length": 5,
       "value": "17201"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 12337,
+      "offset": 12200,
       "length": 5,
       "value": "17202"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 12440,
+      "offset": 12303,
       "length": 5,
       "value": "17203"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 12540,
+      "offset": 12403,
       "length": 5,
       "value": "17204"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 12652,
+      "offset": 12515,
       "length": 5,
       "value": "17205"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 12767,
+      "offset": 12630,
       "length": 5,
       "value": "17206"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 12868,
+      "offset": 12731,
       "length": 5,
       "value": "17207"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 12971,
+      "offset": 12834,
       "length": 5,
       "value": "17208"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 13073,
+      "offset": 12936,
       "length": 5,
       "value": "17209"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 13190,
+      "offset": 13053,
       "length": 5,
       "value": "17210"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 13295,
+      "offset": 13158,
       "length": 5,
       "value": "17995"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 13369,
+      "offset": 13232,
       "length": 5,
       "value": "17999"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "IntegerLiteral",
-      "offset": 13553,
+      "offset": 13416,
       "length": 5,
       "value": "18000"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 27317,
+      "offset": 27019,
       "length": 71,
       "value": "\"The custom token format is incorrect. Please check the documentation.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 27432,
+      "offset": 27134,
       "length": 55,
       "value": "\"The custom token corresponds to a different audience.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 27522,
+      "offset": 27224,
       "length": 39,
       "value": "\"The email address is badly formatted.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 27603,
+      "offset": 27305,
       "length": 59,
       "value": "\"The supplied auth credential is malformed or has expired.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 27699,
+      "offset": 27401,
       "length": 57,
       "value": "\"The user account has been disabled by an administrator.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 27798,
+      "offset": 27500,
       "length": 57,
       "value": "\"The email address is already in use by another account.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 27893,
+      "offset": 27595,
       "length": 63,
       "value": "\"The password is invalid or the user does not have a password.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 27996,
+      "offset": 27698,
       "length": 89,
       "value": "\"We have blocked all requests from this device due to unusual activity. Try again later.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 28146,
+      "offset": 27848,
       "length": 151,
       "value": "\"An account already exists with the same email address but different sign-in credentials. Sign in using a provider associated with this email address.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 28341,
+      "offset": 28043,
       "length": 108,
       "value": "\"This operation is sensitive and requires recent authentication. Log in again before retrying this request.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 28495,
+      "offset": 28197,
       "length": 99,
       "value": "\"[ERROR_PROVIDER_ALREADY_LINKED] - User can only be linked to one identity for the given provider.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 28633,
+      "offset": 28335,
       "length": 60,
       "value": "\"User was not linked to an account with the given provider.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 28734,
+      "offset": 28436,
       "length": 211,
       "value": "\"This user's credential isn't valid for this project. This can happen if the user's token has been tampered with, or if the user doesn’t belong to the project associated with the API key used in your request.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 28982,
+      "offset": 28684,
       "length": 91,
       "value": "\"Network error (such as timeout, interrupted connection or unreachable host) has occurred.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 29111,
+      "offset": 28813,
       "length": 184,
       "value": "\"An error occurred when accessing the keychain. The NSLocalizedFailureReasonErrorKey field in the NSError.userInfo dictionary will contain more information about the error encountered\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 29336,
+      "offset": 29038,
       "length": 72,
       "value": "\"The user's credential is no longer valid. The user must sign in again.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 29445,
+      "offset": 29147,
       "length": 91,
       "value": "\"There is no user record corresponding to this identifier. The user may have been deleted.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 29572,
+      "offset": 29274,
       "length": 49,
       "value": "\"An invalid API Key was supplied in the request.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 29671,
+      "offset": 29373,
       "length": 78,
       "value": "\"The supplied credentials do not correspond to the previously signed in user.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 29796,
+      "offset": 29498,
       "length": 70,
       "value": "\"This credential is already associated with a different user account.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 29910,
+      "offset": 29612,
       "length": 152,
       "value": "\"The given sign-in provider is disabled for this Firebase project. Enable it in the Firebase console, under the sign-in method tab of the Auth section.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 30097,
+      "offset": 29799,
       "length": 49,
       "value": "\"The password must be 6 characters long or more.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 30187,
+      "offset": 29889,
       "length": 205,
       "value": "\"This app is not authorized to use Firebase Authentication with the provided API key. Review your key configuration in the Google API console and ensure that it accepts requests from your app's bundle ID.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 30432,
+      "offset": 30134,
       "length": 30,
       "value": "\"The action code has expired.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 30504,
+      "offset": 30206,
       "length": 106,
       "value": "\"The action code is invalid. This can happen if the code is malformed, expired, or has already been used.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 30656,
+      "offset": 30358,
       "length": 106,
       "value": "\"The action code is invalid. This can happen if the code is malformed, expired, or has already been used.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 30800,
+      "offset": 30502,
       "length": 174,
       "value": "\"The email template corresponding to this action contains invalid characters in its message. Please fix by going to the Auth email templates section in the Firebase Console.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 31020,
+      "offset": 30722,
       "length": 106,
       "value": "\"The action code is invalid. This can happen if the code is malformed, expired, or has already been used.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 31169,
+      "offset": 30871,
       "length": 67,
       "value": "\"An iOS Bundle ID must be provided if an App Store ID is provided.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 31286,
+      "offset": 30988,
       "length": 90,
       "value": "\"An Android Package Name must be provided if the Android App is required to be installed.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 31419,
+      "offset": 31121,
       "length": 105,
       "value": "\"The domain of the continue URL is not allowlisted. Please allowlist the domain in the Firebase console.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 31567,
+      "offset": 31269,
       "length": 54,
       "value": "\"The continue URL provided in the request is invalid.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 31656,
+      "offset": 31358,
       "length": 36,
       "value": "\"An email address must be provided.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 31735,
+      "offset": 31437,
       "length": 49,
       "value": "\"A continue URL must be provided in the request.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 31827,
+      "offset": 31529,
       "length": 71,
       "value": "\"To send verification codes, provide a phone number for the recipient.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 31941,
+      "offset": 31643,
       "length": 239,
       "value": "\"The format of the phone number provided is incorrect. Please enter the phone number in a format that can be parsed into E.164 format. E.164 phone numbers are written in the format [+][country code][subscriber number including area code].\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 32228,
+      "offset": 31930,
       "length": 76,
       "value": "\"The phone auth credential was created with an empty SMS verification Code.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 32352,
+      "offset": 32054,
       "length": 83,
       "value": "\"The multifactor verification code used to create the auth credential is invalid. \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 32440,
+      "offset": 32142,
       "length": 97,
       "value": "\"Re-collect the verification code and be sure to use the verification code provided by the user.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 32583,
+      "offset": 32285,
       "length": 70,
       "value": "\"The phone auth credential was created with an empty verification ID.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 32699,
+      "offset": 32401,
       "length": 74,
       "value": "\"The verification ID used to create the phone auth credential is invalid.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 32825,
+      "offset": 32527,
       "length": 87,
       "value": "\"The local player is not authenticated. Please log the local player in to Game Center.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 32953,
+      "offset": 32655,
       "length": 81,
       "value": "\"The GameKit framework is not linked. Please turn on the Game Center capability.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 33073,
+      "offset": 32775,
       "length": 78,
       "value": "\"The SMS code has expired. Please re-send the verification code to try again.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 33196,
+      "offset": 32898,
       "length": 272,
       "value": "\"The phone verification request is missing an APNs Device token. Firebase Auth automatically detects APNs Device Tokens, however, if method swizzling is disabled, the APNs token must be set via the APNSToken property on FIRAuth or by calling setAPNSToken:type on FIRAuth.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 33513,
+      "offset": 33215,
       "length": 128,
       "value": "\"The APNs device token provided is either incorrect or does not match the private certificate uploaded to the Firebase Console.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 33677,
+      "offset": 33379,
       "length": 49,
       "value": "\"The quota for this operation has been exceeded.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 33766,
+      "offset": 33468,
       "length": 200,
       "value": "\"There seems to be a problem with your project's Firebase phone number authentication set-up, please make sure to follow the instructions found at https:\/\/firebase.google.com\/docs\/auth\/ios\/phone-auth\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 34015,
+      "offset": 33717,
       "length": 103,
       "value": "\"If app delegate swizzling is disabled, remote notifications received by UIApplicationDelegate need to\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 34123,
+      "offset": 33825,
       "length": 62,
       "value": "\"be forwarded to FirebaseAuth's canHandleNotification method.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 34224,
+      "offset": 33926,
       "length": 176,
       "value": "\"Firebase could not retrieve the silent push notification and therefore could not verify your app. Ensure that you configured your app correctly to receive push notifications.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 34443,
+      "offset": 34145,
       "length": 77,
       "value": "\"The reCAPTCHA response token provided is either invalid, expired or already\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 34571,
+      "offset": 34273,
       "length": 70,
       "value": "\"User interaction is still ongoing, another view cannot be presented.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 34683,
+      "offset": 34385,
       "length": 44,
       "value": "\"The interaction was cancelled by the user.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 34767,
+      "offset": 34469,
       "length": 89,
       "value": "\"The OAuth client ID provided is either invalid or does not match the specified API key.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 34897,
+      "offset": 34599,
       "length": 117,
       "value": "\"A network error (such as timeout, interrupted connection, or unreachable host) has occurred within the web context.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 35055,
+      "offset": 34757,
       "length": 80,
       "value": "\"An internal error has occurred within the SFSafariViewController or WKWebView.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 35197,
+      "offset": 34899,
       "length": 99,
       "value": "\"The app verification process has failed, print and inspect the error details for more information\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 35329,
+      "offset": 35031,
       "length": 105,
       "value": "\"A null user object was provided as the argument for an operation which requires a non-null user object.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 35476,
+      "offset": 35178,
       "length": 70,
       "value": "\"The provider ID provided for the attempted web operation is invalid.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 35595,
+      "offset": 35297,
       "length": 108,
       "value": "\"The Firebase Dynamic Link domain used is either not configured or is unauthorized for the current project.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 35741,
+      "offset": 35454,
+      "length": 112,
+      "value": "\"The provided hosting link domain is not configured in Firebase Hosting or is not owned by the current project.\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
+      "kind": "StringLiteral",
+      "offset": 35604,
       "length": 91,
       "value": "\"An internal error has occurred, print and inspect the error details for more information.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 35869,
+      "offset": 35732,
       "length": 72,
       "value": "\"Failed to parse JWT. Check the userInfo dictionary for the full token.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 35986,
+      "offset": 35849,
       "length": 80,
       "value": "\"Please complete a second factor challenge to finish signing into this account.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 36129,
+      "offset": 35992,
       "length": 66,
       "value": "\"The request is missing proof of first factor successful sign-in.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 36255,
+      "offset": 36118,
       "length": 42,
       "value": "\"No second factor identifier is provided.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 36360,
+      "offset": 36223,
       "length": 80,
       "value": "\"The request does not contain a valid proof of first factor successful sign-in.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 36501,
+      "offset": 36364,
       "length": 74,
       "value": "\"The user does not have a second factor matching the identifier provided.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 36637,
+      "offset": 36500,
       "length": 54,
       "value": "\"This operation is restricted to administrators only.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 36744,
+      "offset": 36607,
       "length": 42,
       "value": "\"The operation requires a verified email.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 36851,
+      "offset": 36714,
       "length": 56,
       "value": "\"The second factor is already enrolled on this account.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 36977,
+      "offset": 36840,
       "length": 75,
       "value": "\"The maximum allowed number of second factors on a user has been exceeded.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 37112,
+      "offset": 36975,
       "length": 117,
       "value": "\"Enrolling a second factor or signing in with a multi-factor account requires sign-in with a supported first factor.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 37295,
+      "offset": 37158,
       "length": 55,
       "value": "\"Multi-factor users must always have a verified email.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 37398,
+      "offset": 37261,
       "length": 94,
       "value": "\"Please activate Dynamic Links in the Firebase Console and agree to the terms and conditions.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 37535,
+      "offset": 37398,
       "length": 60,
       "value": "\"The request contains malformed or mismatching credentials.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 37643,
+      "offset": 37506,
       "length": 51,
       "value": "\"The request does not contain a client identifier.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 37740,
+      "offset": 37603,
       "length": 59,
       "value": "\"The request contains malformed or mismatched credentials.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 37840,
+      "offset": 37703,
       "length": 77,
       "value": "\"The provided user's tenant ID does not match the Auth instance's tenant ID.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 37968,
+      "offset": 37831,
       "length": 60,
       "value": "\"This operation is not supported in a multi-tenant context.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 38087,
+      "offset": 37950,
       "length": 44,
       "value": "\"Blocking cloud function returned an error.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 38175,
+      "offset": 38038,
       "length": 55,
       "value": "\"reCAPTCHA Enterprise is not enabled for this project.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 38276,
+      "offset": 38139,
       "length": 66,
       "value": "\"The backend request is missing the reCAPTCHA verification token.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 38388,
+      "offset": 38251,
       "length": 61,
       "value": "\"The reCAPTCHA verification token is invalid or has expired.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 38496,
+      "offset": 38359,
       "length": 61,
       "value": "\"The reCAPTCHA verification failed due to an invalid action.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 38599,
+      "offset": 38462,
       "length": 69,
       "value": "\"The request is missing a client type or the client type is invalid.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 38716,
+      "offset": 38579,
       "length": 57,
       "value": "\"The request is missing the reCAPTCHA version parameter.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 38821,
+      "offset": 38684,
       "length": 56,
       "value": "\"The request specifies an invalid version of reCAPTCHA.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 38916,
+      "offset": 38779,
       "length": 45,
       "value": "\"The request is not supported or is invalid.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 39073,
+      "offset": 38936,
       "length": 51,
       "value": "\"The reCAPTCHA SDK is not linked to your app. See \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 39129,
+      "offset": 38992,
       "length": 72,
       "value": "\"https:\/\/cloud.google.com\/recaptcha-enterprise\/docs\/instrument-ios-apps\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 39240,
+      "offset": 39103,
       "length": 47,
       "value": "\"The reCAPTCHA SDK site key wasn't found. See \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 39292,
+      "offset": 39155,
       "length": 72,
       "value": "\"https:\/\/cloud.google.com\/recaptcha-enterprise\/docs\/instrument-ios-apps\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 39418,
+      "offset": 39281,
       "length": 59,
       "value": "\"The reCAPTCHA SDK action class failed to initialize. See \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthErrors.swift",
       "kind": "StringLiteral",
-      "offset": 39482,
+      "offset": 39345,
       "length": 72,
       "value": "\"https:\/\/cloud.google.com\/recaptcha-enterprise\/docs\/instrument-ios-apps\""
     },
@@ -29605,72 +29294,79 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Storage\/AuthKeychainServices.swift",
       "kind": "StringLiteral",
-      "offset": 835,
+      "offset": 863,
       "length": 18,
       "value": "\"firebase_auth_1_\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Storage\/AuthKeychainServices.swift",
       "kind": "StringLiteral",
-      "offset": 1222,
+      "offset": 1276,
       "length": 15,
       "value": "\"Unset service\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Storage\/AuthKeychainServices.swift",
       "kind": "Array",
-      "offset": 3955,
+      "offset": 3976,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 944,
+      "offset": 962,
       "length": 26,
       "value": "\"com.google.firebase.auth\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1105,
       "length": 9,
       "value": "\"receipt\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1211,
+      "offset": 1229,
       "length": 8,
       "value": "\"secret\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1342,
+      "offset": 1360,
       "length": 9,
       "value": "\"warning\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthNotificationManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1480,
+      "offset": 1498,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthNotificationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1813,
+      "offset": 1831,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthNotificationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1928,
+      "offset": 1946,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthNotificationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2879,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Auth\/AuthOperationType.swift",
@@ -29708,55 +29404,6 @@
       "value": "4"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/Phone\/AuthProtoFinalizeMFAPhoneRequestInfo.swift",
-      "kind": "Dictionary",
-      "offset": 1002,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/Phone\/AuthProtoFinalizeMFAPhoneRequestInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1056,
-      "length": 13,
-      "value": "\"sessionInfo\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/Phone\/AuthProtoFinalizeMFAPhoneRequestInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1127,
-      "length": 6,
-      "value": "\"code\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/TOTP\/AuthProtoFinalizeMFATOTPEnrollmentRequestInfo.swift",
-      "kind": "Dictionary",
-      "offset": 993,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/TOTP\/AuthProtoFinalizeMFATOTPSignInRequestInfo.swift",
-      "kind": "Dictionary",
-      "offset": 1040,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/TOTP\/AuthProtoFinalizeMFATOTPSignInRequestInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1094,
-      "length": 13,
-      "value": "\"sessionInfo\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/TOTP\/AuthProtoFinalizeMFATOTPSignInRequestInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1189,
-      "length": 18,
-      "value": "\"verificationCode\""
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/Phone\/AuthProtoStartMFAPhoneRequestInfo.swift",
       "kind": "StringLiteral",
       "offset": 697,
@@ -29786,66 +29433,80 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/Phone\/AuthProtoStartMFAPhoneRequestInfo.swift",
-      "kind": "Dictionary",
-      "offset": 1423,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/TOTP\/AuthProtoStartMFATOTPEnrollmentRequestInfo.swift",
-      "kind": "Dictionary",
-      "offset": 1181,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/TOTP\/AuthProtoStartMFATOTPEnrollmentRequestInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1245,
+      "offset": 1103,
+      "length": 17,
+      "value": "\"captchaResponse\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/Phone\/AuthProtoStartMFAPhoneRequestInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1215,
       "length": 18,
-      "value": "\"verificationCode\""
+      "value": "\"recaptchaVersion\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthRecaptchaVerifier.swift",
-      "kind": "Dictionary",
-      "offset": 1478,
-      "length": 3,
-      "value": "[]"
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/Proto\/Phone\/AuthProtoStartMFAPhoneRequestInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1316,
+      "length": 12,
+      "value": "\"clientType\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthRecaptchaVerifier.swift",
       "kind": "StringLiteral",
-      "offset": 1677,
+      "offset": 1279,
+      "length": 9,
+      "value": "\"ENFORCE\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthRecaptchaVerifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
+      "length": 7,
+      "value": "\"AUDIT\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthRecaptchaVerifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1329,
+      "length": 5,
+      "value": "\"OFF\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthRecaptchaVerifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1575,
       "length": 25,
       "value": "\"EMAIL_PASSWORD_PROVIDER\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthRecaptchaVerifier.swift",
       "kind": "StringLiteral",
-      "offset": 1781,
-      "length": 20,
-      "value": "\"signInWithPassword\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthRecaptchaVerifier.swift",
-      "kind": "StringLiteral",
-      "offset": 1872,
-      "length": 12,
-      "value": "\"getOobCode\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthRecaptchaVerifier.swift",
-      "kind": "StringLiteral",
-      "offset": 1959,
+      "offset": 1618,
       "length": 16,
-      "value": "\"signUpPassword\""
+      "value": "\"PHONE_PROVIDER\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthRecaptchaVerifier.swift",
+      "kind": "Dictionary",
+      "offset": 2372,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Utilities\/AuthRecaptchaVerifier.swift",
       "kind": "StringLiteral",
-      "offset": 2013,
+      "offset": 2615,
       "length": 22,
       "value": "\"RECAPTCHA_ENTERPRISE\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/AuthRequestConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 18,
+      "value": "\"FirebaseCore-iOS\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/AuthStoredUserManager.swift",
@@ -29878,7 +29539,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Auth\/AuthTokenResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 5145,
+      "offset": 5128,
       "length": 4,
       "value": "true"
     },
@@ -30018,7 +29679,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/EmailAuthProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 2431,
+      "offset": 2454,
       "length": 4,
       "value": "true"
     },
@@ -30067,7 +29728,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/EmailLinkSignInResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 1196,
+      "offset": 1175,
       "length": 5,
       "value": "false"
     },
@@ -30081,7 +29742,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/FacebookAuthProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 1924,
+      "offset": 1948,
       "length": 4,
       "value": "true"
     },
@@ -30123,7 +29784,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/GameCenterAuthProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 7535,
+      "offset": 7559,
       "length": 4,
       "value": "true"
     },
@@ -30140,13 +29801,6 @@
       "offset": 881,
       "length": 9,
       "value": "\"idToken\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetAccountInfoResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 701,
-      "length": 7,
-      "value": "\"error\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetOOBConfirmationCodeRequest.swift",
@@ -30249,63 +29903,63 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetOOBConfirmationCodeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2713,
-      "length": 19,
-      "value": "\"dynamicLinkDomain\""
+      "offset": 2698,
+      "length": 12,
+      "value": "\"linkDomain\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetOOBConfirmationCodeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2832,
+      "offset": 2810,
       "length": 16,
       "value": "\"PASSWORD_RESET\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetOOBConfirmationCodeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2941,
+      "offset": 2919,
       "length": 14,
       "value": "\"EMAIL_SIGNIN\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetOOBConfirmationCodeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3051,
+      "offset": 3029,
       "length": 14,
       "value": "\"VERIFY_EMAIL\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetOOBConfirmationCodeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3184,
+      "offset": 3162,
       "length": 25,
       "value": "\"VERIFY_AND_CHANGE_EMAIL\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetOOBConfirmationCodeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3290,
+      "offset": 3268,
       "length": 10,
       "value": "\"tenantId\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetOOBConfirmationCodeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3396,
+      "offset": 3374,
       "length": 13,
       "value": "\"captchaResp\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetOOBConfirmationCodeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3492,
+      "offset": 3470,
       "length": 12,
       "value": "\"clientType\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetOOBConfirmationCodeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3599,
+      "offset": 3577,
       "length": 18,
       "value": "\"recaptchaVersion\""
     },
@@ -30319,7 +29973,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/GetProjectConfigRequest.swift",
       "kind": "StringLiteral",
-      "offset": 686,
+      "offset": 685,
       "length": 18,
       "value": "\"getProjectConfig\""
     },
@@ -30403,7 +30057,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/GitHubAuthProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 1840,
+      "offset": 1864,
       "length": 4,
       "value": "true"
     },
@@ -30417,7 +30071,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/GoogleAuthProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 2117,
+      "offset": 2142,
       "length": 4,
       "value": "true"
     },
@@ -30445,105 +30099,105 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/IdentityToolkitRequest.swift",
       "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 909,
       "length": 20,
       "value": "\"www.googleapis.com\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/IdentityToolkitRequest.swift",
       "kind": "StringLiteral",
-      "offset": 815,
+      "offset": 966,
       "length": 20,
       "value": "\"www.googleapis.com\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/IdentityToolkitRequest.swift",
       "kind": "StringLiteral",
-      "offset": 875,
+      "offset": 1026,
       "length": 32,
       "value": "\"identitytoolkit.googleapis.com\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/IdentityToolkitRequest.swift",
       "kind": "StringLiteral",
-      "offset": 951,
+      "offset": 1102,
       "length": 36,
       "value": "\"staging-www.sandbox.googleapis.com\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/IdentityToolkitRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 1187,
       "length": 48,
       "value": "\"staging-identitytoolkit.sandbox.googleapis.com\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/IdentityToolkitRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 1908,
+      "offset": 2059,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/IdentityToolkitRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 1934,
+      "offset": 2085,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/MultiFactor.swift",
       "kind": "StringLiteral",
-      "offset": 11765,
+      "offset": 11440,
       "length": 17,
       "value": "\"enrolledFactors\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/MultiFactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11841,
+      "offset": 11504,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/MultiFactorInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1651,
+      "offset": 1741,
       "length": 5,
       "value": "\"uid\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/MultiFactorInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1697,
+      "offset": 1787,
       "length": 13,
       "value": "\"displayName\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/MultiFactorInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1754,
+      "offset": 1844,
       "length": 16,
       "value": "\"enrollmentDate\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/MultiFactorInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1808,
+      "offset": 1898,
       "length": 10,
       "value": "\"factorID\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/MultiFactorInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 1877,
+      "offset": 1967,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/OAuthCredential.swift",
       "kind": "BooleanLiteral",
-      "offset": 3440,
+      "offset": 3463,
       "length": 4,
       "value": "true"
     },
@@ -30557,49 +30211,91 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/PhoneAuthCredential.swift",
       "kind": "BooleanLiteral",
-      "offset": 1552,
+      "offset": 1575,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/PhoneAuthProvider.swift",
       "kind": "StringLiteral",
-      "offset": 983,
+      "offset": 1055,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/PhoneAuthProvider.swift",
       "kind": "StringLiteral",
-      "offset": 25131,
+      "offset": 1103,
+      "length": 22,
+      "value": "\"RECAPTCHA_ENTERPRISE\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/PhoneAuthProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1160,
+      "length": 17,
+      "value": "\"CLIENT_TYPE_IOS\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/PhoneAuthProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1221,
+      "length": 14,
+      "value": "\"NO_RECAPTCHA\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/PhoneAuthProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14226,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/PhoneAuthProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19598,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/PhoneAuthProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22722,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/PhoneAuthProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 32429,
       "length": 11,
       "value": "\"verifyApp\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/Phone\/PhoneMultiFactorInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1026,
+      "offset": 1120,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/Phone\/PhoneMultiFactorInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1170,
+      "offset": 1264,
       "length": 6,
       "value": "\"totp\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/Phone\/PhoneMultiFactorInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1658,
+      "offset": 1752,
       "length": 13,
       "value": "\"phoneNumber\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/MultiFactor\/Phone\/PhoneMultiFactorInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 1739,
+      "offset": 1833,
       "length": 4,
       "value": "true"
     },
@@ -30669,28 +30365,28 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/RevokeTokenRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1800,
+      "offset": 1756,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/RevokeTokenRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1818,
+      "offset": 1774,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/RevokeTokenRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1835,
+      "offset": 1791,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/RevokeTokenRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1858,
+      "offset": 1814,
       "length": 1,
       "value": "3"
     },
@@ -30760,7 +30456,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/SecureTokenRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2117,
+      "offset": 2233,
       "length": 28,
       "value": "\"securetoken.googleapis.com\""
     },
@@ -30795,49 +30491,49 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/SecureTokenService.swift",
       "kind": "IntegerLiteral",
-      "offset": 635,
+      "offset": 663,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/SecureTokenService.swift",
       "kind": "FloatLiteral",
-      "offset": 639,
+      "offset": 667,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/SecureTokenService.swift",
       "kind": "StringLiteral",
-      "offset": 7559,
+      "offset": 8686,
       "length": 8,
       "value": "\"APIKey\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/SecureTokenService.swift",
       "kind": "StringLiteral",
-      "offset": 7608,
+      "offset": 8735,
       "length": 14,
       "value": "\"refreshToken\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/SecureTokenService.swift",
       "kind": "StringLiteral",
-      "offset": 7662,
+      "offset": 8789,
       "length": 13,
       "value": "\"accessToken\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/SecureTokenService.swift",
       "kind": "StringLiteral",
-      "offset": 7729,
+      "offset": 8856,
       "length": 27,
       "value": "\"accessTokenExpirationDate\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/SystemService\/SecureTokenService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7804,
+      "offset": 8921,
       "length": 4,
       "value": "true"
     },
@@ -30879,7 +30575,28 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/SendVerificationTokenRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1200,
+      "offset": 1202,
+      "length": 12,
+      "value": "\"clientType\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/SendVerificationTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1310,
+      "length": 17,
+      "value": "\"captchaResponse\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/SendVerificationTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1422,
+      "length": 18,
+      "value": "\"recaptchaVersion\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/SendVerificationTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1521,
       "length": 10,
       "value": "\"tenantId\""
     },
@@ -31040,21 +30757,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/SetAccountInfoRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 3716,
+      "offset": 3740,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/SetAccountInfoRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 3823,
+      "offset": 3847,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/SetAccountInfoRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4393,
+      "offset": 4435,
       "length": 4,
       "value": "true"
     },
@@ -31068,7 +30785,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/SignInWithGameCenterResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 901,
+      "offset": 880,
       "length": 5,
       "value": "false"
     },
@@ -31159,7 +30876,35 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/MultiFactor\/Enroll\/StartMFAEnrollmentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 763,
+      "length": 12,
+      "value": "\"clientType\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/MultiFactor\/Enroll\/StartMFAEnrollmentRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 871,
+      "length": 16,
+      "value": "\"recaptchaToken\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/MultiFactor\/Enroll\/StartMFAEnrollmentRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 983,
+      "length": 17,
+      "value": "\"captchaResponse\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/MultiFactor\/Enroll\/StartMFAEnrollmentRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1095,
+      "length": 18,
+      "value": "\"recaptchaVersion\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/MultiFactor\/Enroll\/StartMFAEnrollmentRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1194,
       "length": 10,
       "value": "\"tenantId\""
     },
@@ -31187,203 +30932,210 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/AuthProvider\/TwitterAuthProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 2030,
+      "offset": 2055,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "BooleanLiteral",
-      "offset": 25804,
+      "offset": 25902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "BooleanLiteral",
-      "offset": 29308,
+      "offset": 29429,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 50186,
+      "offset": 50373,
       "length": 10,
       "value": "\"Firebase\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "BooleanLiteral",
-      "offset": 70506,
+      "offset": 70802,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "BooleanLiteral",
-      "offset": 70955,
+      "offset": 70977,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
+      "kind": "BooleanLiteral",
+      "offset": 71639,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 72972,
+      "offset": 73822,
       "length": 8,
       "value": "\"userID\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73034,
+      "offset": 73884,
       "length": 18,
       "value": "\"hasEmailPassword\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73089,
+      "offset": 73939,
       "length": 11,
       "value": "\"anonymous\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73133,
+      "offset": 73983,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73179,
+      "offset": 74029,
       "length": 13,
       "value": "\"phoneNumber\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73233,
+      "offset": 74083,
       "length": 15,
       "value": "\"emailVerified\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73287,
+      "offset": 74137,
       "length": 13,
       "value": "\"displayName\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73336,
+      "offset": 74186,
       "length": 10,
       "value": "\"photoURL\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73380,
+      "offset": 74230,
       "length": 14,
       "value": "\"providerData\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73428,
+      "offset": 74278,
       "length": 8,
       "value": "\"APIKey\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73477,
+      "offset": 74327,
       "length": 15,
       "value": "\"firebaseAppID\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73532,
+      "offset": 74382,
       "length": 14,
       "value": "\"tokenService\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73582,
+      "offset": 74432,
       "length": 10,
       "value": "\"metadata\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73631,
+      "offset": 74481,
       "length": 13,
       "value": "\"multiFactor\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "StringLiteral",
-      "offset": 73680,
+      "offset": 74530,
       "length": 10,
       "value": "\"tenantID\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/User.swift",
       "kind": "BooleanLiteral",
-      "offset": 73752,
+      "offset": 74585,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/UserInfoImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2792,
+      "offset": 2982,
       "length": 12,
       "value": "\"providerID\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/UserInfoImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2845,
+      "offset": 3035,
       "length": 8,
       "value": "\"userID\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/UserInfoImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2899,
+      "offset": 3089,
       "length": 13,
       "value": "\"displayName\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/UserInfoImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2955,
+      "offset": 3145,
       "length": 10,
       "value": "\"photoURL\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/UserInfoImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3005,
+      "offset": 3195,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/UserInfoImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3058,
+      "offset": 3248,
       "length": 13,
       "value": "\"phoneNumber\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/UserInfoImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 3126,
+      "offset": 3299,
       "length": 4,
       "value": "true"
     },
@@ -31404,7 +31156,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/User\/UserMetadata.swift",
       "kind": "BooleanLiteral",
-      "offset": 1517,
+      "offset": 1500,
       "length": 4,
       "value": "true"
     },
@@ -31593,28 +31345,28 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/VerifyAssertionResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 3555,
+      "offset": 3486,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/VerifyAssertionResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 3632,
+      "offset": 3563,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/VerifyAssertionResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 3764,
+      "offset": 3695,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/VerifyAssertionResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 3882,
+      "offset": 3813,
       "length": 5,
       "value": "false"
     },
@@ -31670,7 +31422,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/VerifyCustomTokenResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 1265,
+      "offset": 1244,
       "length": 5,
       "value": "false"
     },
@@ -31810,7 +31562,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseAuth\/FirebaseAuth\/Sources\/Swift\/Backend\/RPC\/VerifyPhoneNumberResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 1306,
+      "offset": 1285,
       "length": 5,
       "value": "false"
     },

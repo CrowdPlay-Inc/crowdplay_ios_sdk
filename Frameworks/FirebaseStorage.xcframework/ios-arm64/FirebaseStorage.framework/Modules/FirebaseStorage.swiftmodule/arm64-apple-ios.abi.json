@@ -62,7 +62,7 @@
         "declKind": "Import",
         "moduleName": "FirebaseStorage",
         "declAttributes": [
-          "ImplementationOnly",
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -5619,76 +5619,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "storageReference",
-            "printedName": "storageReference",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FirebaseStorage.StorageReference?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StorageReference",
-                    "printedName": "FirebaseStorage.StorageReference",
-                    "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageReference"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageMetadata(py)storageReference",
-            "mangledName": "$s15FirebaseStorage0B8MetadataC16storageReferenceAA0bE0CSgvp",
-            "moduleName": "FirebaseStorage",
-            "deprecated": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC",
-              "Available",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FirebaseStorage.StorageReference?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StorageReference",
-                        "printedName": "FirebaseStorage.StorageReference",
-                        "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageReference"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageMetadata(im)storageReference",
-                "mangledName": "$s15FirebaseStorage0B8MetadataC16storageReferenceAA0bE0CSgvg",
-                "moduleName": "FirebaseStorage",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Function",
             "name": "dictionaryRepresentation",
             "printedName": "dictionaryRepresentation()",
@@ -9985,7 +9915,7 @@
         "declKind": "Import",
         "moduleName": "FirebaseStorage",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -10022,7 +9952,7 @@
         "declKind": "Import",
         "moduleName": "FirebaseStorage",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -10246,6 +10176,16 @@
       },
       {
         "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "FirebaseStorage",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MobileCoreServices",
         "printedName": "MobileCoreServices",
         "declKind": "Import",
@@ -10258,21 +10198,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "Dictionary",
-      "offset": 10706,
+      "offset": 10694,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "BooleanLiteral",
-      "offset": 12354,
+      "offset": 12342,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "BooleanLiteral",
-      "offset": 12452,
+      "offset": 12440,
       "length": 5,
       "value": "false"
     },
@@ -10433,42 +10373,42 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 6671,
+      "offset": 6551,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 6689,
+      "offset": 6569,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 6719,
+      "offset": 6599,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 7516,
+      "offset": 7396,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 7597,
+      "offset": 7477,
       "length": 40,
       "value": "\"yyyy'-'MM'-'dd'T'HH':'mm':'ss.SSSZZZZZ\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "IntegerLiteral",
-      "offset": 7692,
+      "offset": 7572,
       "length": 1,
       "value": "0"
     },
@@ -10573,7 +10513,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/sdk\/.ios\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
       "kind": "StringLiteral",
-      "offset": 3826,
+      "offset": 3814,
       "length": 39,
       "value": "\"com.google.firebasestorage.authorizer\""
     }

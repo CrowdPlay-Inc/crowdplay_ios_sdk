@@ -6,23 +6,19 @@
 	<dict>
 		<key>ios-arm64/App.framework/App</key>
 		<data>
-		QPcQPKjIZXPPo4Y2iClQMRwDWbQ=
+		iSuktogQJqF/a+Ld0j00EnQwJP8=
 		</data>
 		<key>ios-arm64/App.framework/Info.plist</key>
 		<data>
-		yc9weK85tS1LpQja4xuBw8lb73k=
+		JJdQsMhI+rFhemsOy/SyQ4Ju9d0=
 		</data>
 		<key>ios-arm64/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Za6LWWuAHOFVoG52xsO06yMeJn8=
+		Dig//cnFEOe+X1aeGO8HS645Tzs=
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
 		UGhEUsO1RYiEOE+hDLeZjLwKG0Y=
-		</data>
-		<key>ios-arm64/App.framework/flutter_assets/AssetManifest.json</key>
-		<data>
-		kWt7DCC8RtB3HBvqOSFiXy1doOw=
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -30,7 +26,7 @@
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		+XWPFJFwxaJGvS1hvfoVbcCkWSw=
+		CO90SZk47V3/5ASDL5W3+FqUz9E=
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/NativeAssetsManifest.json</key>
 		<data>
@@ -2378,31 +2374,31 @@
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
-		VoVnsu58hN7wrwazX0nyAopiB0Q=
+		VvTF10G1gIeea4aI0DhJjCjHgXQ=
+		</data>
+		<key>ios-arm64/App.framework/flutter_assets/shaders/stretch_effect.frag</key>
+		<data>
+		kG7Fh+R6JkaM/GufJFUfEToHTEg=
 		</data>
 		<key>ios-arm64/dSYMs/App.framework.dSYM/Contents/Resources/DWARF/App</key>
 		<data>
-		hfAG9KvnHkT9fzH4AMAAsW32enk=
+		xzYZVT9Cx5oDPT/iE8U56E36j+U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/App</key>
 		<data>
-		SXco0ThIPFMMuUvWGGy0NpiD9zw=
+		/aSZLlqaA8InADUeJ3SPAXwWjFs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/Info.plist</key>
 		<data>
-		yc9weK85tS1LpQja4xuBw8lb73k=
+		JJdQsMhI+rFhemsOy/SyQ4Ju9d0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Za6LWWuAHOFVoG52xsO06yMeJn8=
+		Dig//cnFEOe+X1aeGO8HS645Tzs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
 		UGhEUsO1RYiEOE+hDLeZjLwKG0Y=
-		</data>
-		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/AssetManifest.json</key>
-		<data>
-		kWt7DCC8RtB3HBvqOSFiXy1doOw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -2410,7 +2406,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		+XWPFJFwxaJGvS1hvfoVbcCkWSw=
+		CO90SZk47V3/5ASDL5W3+FqUz9E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/NativeAssetsManifest.json</key>
 		<data>
@@ -4758,7 +4754,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
-		VoVnsu58hN7wrwazX0nyAopiB0Q=
+		VvTF10G1gIeea4aI0DhJjCjHgXQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/shaders/stretch_effect.frag</key>
+		<data>
+		kG7Fh+R6JkaM/GufJFUfEToHTEg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -4767,33 +4767,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QPcQPKjIZXPPo4Y2iClQMRwDWbQ=
+			iSuktogQJqF/a+Ld0j00EnQwJP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			IFRJxo0PvfNiirAtN6JgED5w2yQgzKFFaX+Rocl+20Q=
+			mAQ4QVawAVMh3NZFUypUsIxm4p8O6H9rwbuIREeJX5s=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yc9weK85tS1LpQja4xuBw8lb73k=
+			JJdQsMhI+rFhemsOy/SyQ4Ju9d0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/yNsV9fXL6j0YyB5wtRQfQFIKEXPNkS37PkrkVpYLM4=
+			Zt6o0lFbh+inkhu0eHZSXxIRnsbQlQjVRdKKtDNNkk0=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Za6LWWuAHOFVoG52xsO06yMeJn8=
+			Dig//cnFEOe+X1aeGO8HS645Tzs=
 			</data>
 			<key>hash2</key>
 			<data>
-			jCl4XPw/aUkPgBC7DjlT7mQH+V/QlOlkauly3AlPaT4=
+			yIgFvpUuiSp1MMJkzuR5LMNgqXI20NyxjAOlRbhfktU=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -4805,17 +4805,6 @@
 			<key>hash2</key>
 			<data>
 			XXLkoV9G0Z7mJkH6iguhBDJ0zPo7Lt3gJelcj1tiKJA=
-			</data>
-		</dict>
-		<key>ios-arm64/App.framework/flutter_assets/AssetManifest.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kWt7DCC8RtB3HBvqOSFiXy1doOw=
-			</data>
-			<key>hash2</key>
-			<data>
-			EhNYDcZFMctw4WP4BuzLtnmH49krX926q4eUMpQMcC4=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/FontManifest.json</key>
@@ -4833,11 +4822,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+XWPFJFwxaJGvS1hvfoVbcCkWSw=
+			CO90SZk47V3/5ASDL5W3+FqUz9E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tpo6pt9hzJBejdvbxARvQAlzu1riZFW9C0eSzWXQumQ=
+			j2p3q+w6FUdoDg0IdzIm+aSwGkpK39MDa5nw9rQaNgI=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/NativeAssetsManifest.json</key>
@@ -11290,55 +11279,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VoVnsu58hN7wrwazX0nyAopiB0Q=
+			VvTF10G1gIeea4aI0DhJjCjHgXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4PC1vOWKHlNOnW4dGwFfD4TPwBCllniPCsOy7+1X5co=
+			TGVjYgE+Oyl6guvhhPPrWfynkxkJeFjSzSLsQqn7Q3M=
+			</data>
+		</dict>
+		<key>ios-arm64/App.framework/flutter_assets/shaders/stretch_effect.frag</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kG7Fh+R6JkaM/GufJFUfEToHTEg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Y/95u280RMpR6e6ndBjH5Pm8ujZSD5Qf33woQ/NncNU=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/App.framework.dSYM/Contents/Resources/DWARF/App</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hfAG9KvnHkT9fzH4AMAAsW32enk=
+			xzYZVT9Cx5oDPT/iE8U56E36j+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			moqd10B6Hu/SKjc5v7GeEmWHlipnBlTQBi7fGmsn278=
+			+aBkopUZsIbn4FolaXqKckPfv2r1vGN7dW9PMCuCI+4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/App</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SXco0ThIPFMMuUvWGGy0NpiD9zw=
+			/aSZLlqaA8InADUeJ3SPAXwWjFs=
 			</data>
 			<key>hash2</key>
 			<data>
-			f6VyWBt8WKr6tCWiOUKS/Ta5jwAyeLqVb07FBZVRXjA=
+			MEgGWvN9h7U4xXP6u7y+FVUs/0S4JYwrsKrm2ZqPfmw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yc9weK85tS1LpQja4xuBw8lb73k=
+			JJdQsMhI+rFhemsOy/SyQ4Ju9d0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/yNsV9fXL6j0YyB5wtRQfQFIKEXPNkS37PkrkVpYLM4=
+			Zt6o0lFbh+inkhu0eHZSXxIRnsbQlQjVRdKKtDNNkk0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Za6LWWuAHOFVoG52xsO06yMeJn8=
+			Dig//cnFEOe+X1aeGO8HS645Tzs=
 			</data>
 			<key>hash2</key>
 			<data>
-			jCl4XPw/aUkPgBC7DjlT7mQH+V/QlOlkauly3AlPaT4=
+			yIgFvpUuiSp1MMJkzuR5LMNgqXI20NyxjAOlRbhfktU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -11350,17 +11350,6 @@
 			<key>hash2</key>
 			<data>
 			XXLkoV9G0Z7mJkH6iguhBDJ0zPo7Lt3gJelcj1tiKJA=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/AssetManifest.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kWt7DCC8RtB3HBvqOSFiXy1doOw=
-			</data>
-			<key>hash2</key>
-			<data>
-			EhNYDcZFMctw4WP4BuzLtnmH49krX926q4eUMpQMcC4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/FontManifest.json</key>
@@ -11378,11 +11367,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+XWPFJFwxaJGvS1hvfoVbcCkWSw=
+			CO90SZk47V3/5ASDL5W3+FqUz9E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tpo6pt9hzJBejdvbxARvQAlzu1riZFW9C0eSzWXQumQ=
+			j2p3q+w6FUdoDg0IdzIm+aSwGkpK39MDa5nw9rQaNgI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/NativeAssetsManifest.json</key>
@@ -17835,11 +17824,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VoVnsu58hN7wrwazX0nyAopiB0Q=
+			VvTF10G1gIeea4aI0DhJjCjHgXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4PC1vOWKHlNOnW4dGwFfD4TPwBCllniPCsOy7+1X5co=
+			TGVjYgE+Oyl6guvhhPPrWfynkxkJeFjSzSLsQqn7Q3M=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/shaders/stretch_effect.frag</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kG7Fh+R6JkaM/GufJFUfEToHTEg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Y/95u280RMpR6e6ndBjH5Pm8ujZSD5Qf33woQ/NncNU=
 			</data>
 		</dict>
 	</dict>

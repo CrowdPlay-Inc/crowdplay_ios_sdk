@@ -10,11 +10,10 @@
 #import <Flutter/Flutter.h>
 #endif
 
-@import FirebaseAuth;
-
 #import <Foundation/Foundation.h>
-#import "CustomPigeonHeader.h"
-#import "PigeonParser.h"
+#import "../Public/CustomPigeonHeader.h"
+
+@class FIRAuth;
 
 NS_ASSUME_NONNULL_BEGIN
 

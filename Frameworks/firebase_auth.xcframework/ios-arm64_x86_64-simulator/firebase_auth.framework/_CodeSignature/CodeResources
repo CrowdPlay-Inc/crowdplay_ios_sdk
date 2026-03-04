@@ -8,41 +8,41 @@
 		<data>
 		d4/VNhd7yth6ZCWQj0GLU8Q/3sM=
 		</data>
-		<key>Headers/FLTAuthStateChannelStreamHandler.h</key>
-		<data>
-		649phFsKSMSX52MxmnKutFXcqHI=
-		</data>
 		<key>Headers/FLTFirebaseAuthPlugin.h</key>
 		<data>
-		r6mhW1rUOQzd0B38fUS0bNk6Pwo=
-		</data>
-		<key>Headers/FLTIdTokenChannelStreamHandler.h</key>
-		<data>
-		abCczxT4+eCIRjbioH0sPDLeu1E=
-		</data>
-		<key>Headers/FLTPhoneNumberVerificationStreamHandler.h</key>
-		<data>
-		2BOBro27pOTLwurKmSkVPXPmjBY=
-		</data>
-		<key>Headers/PigeonParser.h</key>
-		<data>
-		Jerafu9Le4nb1ednJXdcA/Vtvtc=
+		vm3cDa9d4L0i+wyMJ+zH0XdvK8I=
 		</data>
 		<key>Headers/firebase_auth-umbrella.h</key>
 		<data>
-		tv8kXiILblw7PWE9SuvKeUKV/3I=
+		fZ/hp9ezkChbwkik6kBcujhX0tg=
 		</data>
 		<key>Headers/firebase_auth_messages.g.h</key>
 		<data>
-		pZRtENnMEfXFXZJdTtRngTsVR0U=
+		HZQzTtIWc+77ZHVMcAHcK3NinIs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1EPoWL0MVLX4kNev7Pu7RhbBUts=
+		aPWq9sCngkYcXdTAxbGJ7fE2Snk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		VF2hxpeww9SFTDbHkpBrdtFvSa8=
+		</data>
+		<key>PrivateHeaders/FLTAuthStateChannelStreamHandler.h</key>
+		<data>
+		MSiZU03comj6fR+MKqYd1My2wrk=
+		</data>
+		<key>PrivateHeaders/FLTIdTokenChannelStreamHandler.h</key>
+		<data>
+		2+L/xMnQPeQdrW13PYFs0nx8urM=
+		</data>
+		<key>PrivateHeaders/FLTPhoneNumberVerificationStreamHandler.h</key>
+		<data>
+		SDzCmTu3s/+w3bOJ1WKZQ/ftM64=
+		</data>
+		<key>PrivateHeaders/PigeonParser.h</key>
+		<data>
+		T5YFIKI6Y4QtSZLvVQTqblWx90M=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -58,81 +58,37 @@
 			IHb0SdLqv/C+ZDyGJL9KQ3TEfjvT1YCWNluCTrUYxyE=
 			</data>
 		</dict>
-		<key>Headers/FLTAuthStateChannelStreamHandler.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			649phFsKSMSX52MxmnKutFXcqHI=
-			</data>
-			<key>hash2</key>
-			<data>
-			BYg5YIbScXxlbvdUiYfRAR/aFfPCTe5k+4Dqqe/2Tv4=
-			</data>
-		</dict>
 		<key>Headers/FLTFirebaseAuthPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r6mhW1rUOQzd0B38fUS0bNk6Pwo=
+			vm3cDa9d4L0i+wyMJ+zH0XdvK8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			U4KiEf04esVUXFaXK1d6l7HZoA7GrnthFQyPEGf3Uvc=
-			</data>
-		</dict>
-		<key>Headers/FLTIdTokenChannelStreamHandler.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			abCczxT4+eCIRjbioH0sPDLeu1E=
-			</data>
-			<key>hash2</key>
-			<data>
-			oXq/DHyiSOqJT9G1KR21duDB4PSe/cYqK+TF8gekpQo=
-			</data>
-		</dict>
-		<key>Headers/FLTPhoneNumberVerificationStreamHandler.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2BOBro27pOTLwurKmSkVPXPmjBY=
-			</data>
-			<key>hash2</key>
-			<data>
-			JtQhRxjfvAMuuBlvtic1ywSQPmCcOIPAhQidw8/Cwjg=
-			</data>
-		</dict>
-		<key>Headers/PigeonParser.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jerafu9Le4nb1ednJXdcA/Vtvtc=
-			</data>
-			<key>hash2</key>
-			<data>
-			KDznVI9NY3ovlgq6nawiiG2YeglZYOOzkG7/97Nz3gU=
+			TOolMc0zFCERh7zKKBTTlHg6CFPDdfxl2d5TzQ8ZGG4=
 			</data>
 		</dict>
 		<key>Headers/firebase_auth-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tv8kXiILblw7PWE9SuvKeUKV/3I=
+			fZ/hp9ezkChbwkik6kBcujhX0tg=
 			</data>
 			<key>hash2</key>
 			<data>
-			YJnSXKobKLee1aWG/Zh28LPcoL54TbvzKlMy7cFUmBE=
+			SF+N7yVkVMm+72Qlxs5rFKlTL4VCBNXBhF7GsI802DI=
 			</data>
 		</dict>
 		<key>Headers/firebase_auth_messages.g.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pZRtENnMEfXFXZJdTtRngTsVR0U=
+			HZQzTtIWc+77ZHVMcAHcK3NinIs=
 			</data>
 			<key>hash2</key>
 			<data>
-			oSoU/2jrdtdtrLFYw3pF6NwBR9UMePDOVY5peHuUkhg=
+			5qzSi/sM5Byyw7NoVeM5PJOA7pNi6Z32C5BYLo5gAtQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -144,6 +100,50 @@
 			<key>hash2</key>
 			<data>
 			5nxJPQVpp0nzKk91AXY0jfwD3E1NQnFS7o+M/vrxx1E=
+			</data>
+		</dict>
+		<key>PrivateHeaders/FLTAuthStateChannelStreamHandler.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MSiZU03comj6fR+MKqYd1My2wrk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Or90Q2VpS3kkJ9sLg5nIg6az5B3yy+qYhPS6vE2cMjY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/FLTIdTokenChannelStreamHandler.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2+L/xMnQPeQdrW13PYFs0nx8urM=
+			</data>
+			<key>hash2</key>
+			<data>
+			j+g05CX5jFAay+qASlVDu0/Nz8CjDVhiyaikt73Sr3g=
+			</data>
+		</dict>
+		<key>PrivateHeaders/FLTPhoneNumberVerificationStreamHandler.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SDzCmTu3s/+w3bOJ1WKZQ/ftM64=
+			</data>
+			<key>hash2</key>
+			<data>
+			+bP+DtY3tNlm/m0GRPqMJolMB0apZ4IqsSYY13z83TU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PigeonParser.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T5YFIKI6Y4QtSZLvVQTqblWx90M=
+			</data>
+			<key>hash2</key>
+			<data>
+			wx+WRlC4Dqc6daA17mt96jSzcy9wAnrGbK7IUeZfzq8=
 			</data>
 		</dict>
 	</dict>

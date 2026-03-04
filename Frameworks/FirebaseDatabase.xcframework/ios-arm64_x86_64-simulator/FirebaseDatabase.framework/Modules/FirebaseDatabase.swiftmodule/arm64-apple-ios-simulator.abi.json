@@ -579,8 +579,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:So20FIRDatabaseReferenceC16FirebaseDatabaseE8setValue4from7encoder10completionyx_0C11SharedSwift0C11DataEncoderCys5Error_pSgcSgtKSERzlF",
-            "mangledName": "$sSo20FIRDatabaseReferenceC16FirebaseDatabaseE8setValue4from7encoder10completionyx_0C11SharedSwift0C11DataEncoderCys5Error_pSgcSgtKSERzlF",
+            "usr": "s:So20FIRDatabaseReferenceC16FirebaseDatabaseE8setValue4from7encoder10completionyx_0C11SharedSwift0C11DataEncoderCys5Error_pSgYbcSgtKSERzlF",
+            "mangledName": "$sSo20FIRDatabaseReferenceC16FirebaseDatabaseE8setValue4from7encoder10completionyx_0C11SharedSwift0C11DataEncoderCys5Error_pSgYbcSgtKSERzlF",
             "moduleName": "FirebaseDatabase",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
             "sugared_genericSig": "<T where T : Swift.Encodable>",
@@ -732,6 +732,8 @@
         "objc_name": "FIRDataSnapshot",
         "declAttributes": [
           "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -741,6 +743,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -803,6 +812,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }

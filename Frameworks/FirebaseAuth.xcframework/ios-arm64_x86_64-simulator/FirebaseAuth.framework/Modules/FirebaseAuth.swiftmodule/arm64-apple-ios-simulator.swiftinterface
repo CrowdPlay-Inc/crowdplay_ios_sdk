@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseAuth
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseAuth
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CommonCrypto
 import FirebaseAppCheckInterop
@@ -8,6 +8,7 @@ import FirebaseAppCheckInterop
 import FirebaseAuthInterop
 import FirebaseCore
 import FirebaseCoreExtension
+import FirebaseCoreInternal
 import Foundation
 import GTMSessionFetcher
 import GameKit
@@ -19,13 +20,13 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers @objc(FIRActionCodeInfo) open class ActionCodeInfo : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers @objc(FIRActionCodeInfo) open class ActionCodeInfo : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc final public let operation: FirebaseAuth.ActionCodeOperation
   @objc final public let email: Swift.String
   @objc final public let previousEmail: Swift.String?
   @objc deinit
 }
-@objc(FIRActionCodeOperation) public enum ActionCodeOperation : Swift.Int, @unchecked Swift.Sendable {
+@objc(FIRActionCodeOperation) public enum ActionCodeOperation : Swift.Int, Swift.Sendable {
   case unknown = 0
   case passwordReset = 1
   case verifyEmail = 2
@@ -41,14 +42,45 @@ import _SwiftConcurrencyShims
     get
   }
 }
-@_inheritsConvenienceInitializers @objc(FIRActionCodeSettings) open class ActionCodeSettings : ObjectiveC.NSObject {
-  @objc(URL) open var url: Foundation.URL?
-  @objc open var handleCodeInApp: Swift.Bool
-  @objc open var iOSBundleID: Swift.String?
-  @objc open var androidPackageName: Swift.String?
-  @objc open var androidMinimumVersion: Swift.String?
-  @objc open var androidInstallIfNotAvailable: Swift.Bool
-  @objc open var dynamicLinkDomain: Swift.String?
+@_inheritsConvenienceInitializers @objc(FIRActionCodeSettings) open class ActionCodeSettings : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(URL) open var url: Foundation.URL? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc open var handleCodeInApp: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc open var iOSBundleID: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc open var androidPackageName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc open var androidMinimumVersion: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc open var androidInstallIfNotAvailable: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public var linkDomain: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
   @objc override dynamic public init()
   #if compiler(>=5.3) && $NonescapableTypes
   @objc open func setAndroidPackageName(_ androidPackageName: Swift.String, installIfNotAvailable: Swift.Bool, minimumVersion: Swift.String?)
@@ -56,7 +88,7 @@ import _SwiftConcurrencyShims
   open func setIOSBundleID(_ bundleID: Swift.String)
   @objc deinit
 }
-@objc(FIRActionCodeURL) open class ActionCodeURL : ObjectiveC.NSObject {
+@objc(FIRActionCodeURL) open class ActionCodeURL : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc(APIKey) final public let apiKey: Swift.String?
   @objc final public let operation: FirebaseAuth.ActionCodeOperation
   @objc final public let code: Swift.String?
@@ -75,9 +107,7 @@ extension FirebaseAuth.AdditionalUserInfo : Foundation.NSSecureCoding {
   @objc final public let username: Swift.String?
   @objc final public let isNewUser: Swift.Bool
   @objc open func newUser() -> Swift.Bool
-  @objc public static var supportsSecureCoding: Swift.Bool {
-    @objc get
-  }
+  @objc public static let supportsSecureCoding: Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder aDecoder: Foundation.NSCoder)
   #endif
@@ -105,15 +135,17 @@ extension FirebaseAuth.Auth : FirebaseAuthInterop.AuthInterop {
   #endif
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
-@objc(FIRAuth) open class Auth : ObjectiveC.NSObject {
+@preconcurrency @objc(FIRAuth) open class Auth : ObjectiveC.NSObject {
   @objc open class func auth() -> FirebaseAuth.Auth
   @objc open class func auth(app: FirebaseCore.FirebaseApp) -> FirebaseAuth.Auth
   @objc weak public var app: FirebaseCore.FirebaseApp? {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var currentUser: FirebaseAuth.User? {
-    get
+    @objc get
   }
+  #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @objc open var languageCode: Swift.String? {
     @objc get
@@ -264,7 +296,7 @@ extension FirebaseAuth.Auth : FirebaseAuthInterop.AuthInterop {
   public static let authStateDidChangeNotification: Foundation.NSNotification.Name
   @objc deinit
 }
-@objc(FIRAuthAPNSTokenType) public enum AuthAPNSTokenType : Swift.Int {
+@objc(FIRAuthAPNSTokenType) public enum AuthAPNSTokenType : Swift.Int, Swift.Sendable {
   case unknown
   case sandbox
   case prod
@@ -277,7 +309,7 @@ extension FirebaseAuth.Auth : FirebaseAuthInterop.AuthInterop {
   }
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
-@objc(FIRAuthCredential) open class AuthCredential : ObjectiveC.NSObject {
+@objc(FIRAuthCredential) open class AuthCredential : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc final public let provider: Swift.String
   @objc deinit
 }
@@ -289,7 +321,7 @@ extension FirebaseAuth.AuthDataResult : Foundation.NSSecureCoding {
   @objc final public let user: FirebaseAuth.User
   @objc final public let additionalUserInfo: FirebaseAuth.AdditionalUserInfo?
   @objc final public let credential: FirebaseAuth.OAuthCredential?
-  @objc public static var supportsSecureCoding: Swift.Bool
+  @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
   #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
@@ -362,11 +394,10 @@ extension FirebaseAuth.AuthDataResult : Foundation.NSSecureCoding {
   case webSignInUserInteractionFailure = 17063
   case localPlayerNotAuthenticated = 17066
   case nullUser = 17067
-  case dynamicLinkNotActivated = 17068
   case invalidProviderID = 17071
   case tenantIDMismatch = 17072
   case unsupportedTenantOperation = 17073
-  case invalidDynamicLinkDomain = 17074
+  case invalidHostingLinkDomain = 17214
   case rejectedCredential = 17075
   case gameKitNotLinked = 17076
   case secondFactorRequired = 17078
@@ -462,9 +493,7 @@ extension FirebaseAuth.AuthTokenResult : Foundation.NSSecureCoding {
   @objc open var signInProvider: Swift.String
   @objc open var signInSecondFactor: Swift.String
   @objc open var claims: [Swift.String : Any]
-  @objc public static var supportsSecureCoding: Swift.Bool {
-    @objc get
-  }
+  @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
   #if compiler(>=5.3) && $NonescapableTypes
   @objc required convenience public init?(coder: Foundation.NSCoder)
@@ -558,9 +587,7 @@ extension FirebaseAuth.MultiFactor : Foundation.NSSecureCoding {
   #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func unenroll(withFactorUID factorUID: Swift.String) async throws
-  @objc public static var supportsSecureCoding: Swift.Bool {
-    @objc get
-  }
+  @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
   #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
@@ -573,7 +600,7 @@ extension FirebaseAuth.MultiFactor : Foundation.NSSecureCoding {
 }
 extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
 }
-@_hasMissingDesignatedInitializers @objc(FIRMultiFactorInfo) open class MultiFactorInfo : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers @objc(FIRMultiFactorInfo) open class MultiFactorInfo : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc(UID) final public let uid: Swift.String
   @objc final public let displayName: Swift.String?
   @objc final public let enrollmentDate: Foundation.Date
@@ -604,11 +631,11 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
-@objc(FIROAuthCredential) open class OAuthCredential : FirebaseAuth.AuthCredential, Foundation.NSSecureCoding {
+@objc(FIROAuthCredential) open class OAuthCredential : FirebaseAuth.AuthCredential, Foundation.NSSecureCoding, @unchecked Swift.Sendable {
   @objc(IDToken) final public let idToken: Swift.String?
   @objc final public let accessToken: Swift.String?
   @objc final public let secret: Swift.String?
-  @objc public static var supportsSecureCoding: Swift.Bool
+  @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
   #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
@@ -621,27 +648,27 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   @objc open var scopes: [Swift.String]?
   @objc open var customParameters: [Swift.String : Swift.String]?
   @objc final public let providerID: Swift.String
-  @available(swift, deprecated: 0.1, message: "Use `provider(providerID: AuthProviderID) -> OAuthProvider` instead.")
+  @available(swift 1000.0)
   @objc(providerWithProviderID:) open class func provider(providerID: Swift.String) -> FirebaseAuth.OAuthProvider
   public class func provider(providerID: FirebaseAuth.AuthProviderID) -> FirebaseAuth.OAuthProvider
-  @available(swift, deprecated: 0.1, message: "Use `provider(providerID: AuthProviderID, auth: Auth) -> OAuthProvider` instead.")
+  @available(swift 1000.0)
   @objc(providerWithProviderID:auth:) open class func provider(providerID: Swift.String, auth: FirebaseAuth.Auth) -> FirebaseAuth.OAuthProvider
   public class func provider(providerID: FirebaseAuth.AuthProviderID, auth: FirebaseAuth.Auth) -> FirebaseAuth.OAuthProvider
   public init(providerID: Swift.String, auth: FirebaseAuth.Auth = Auth.auth())
   convenience public init(providerID: FirebaseAuth.AuthProviderID, auth: FirebaseAuth.Auth = Auth.auth())
   #if compiler(>=5.3) && $NonescapableTypes
-  @available(swift, deprecated: 0.1, message: "Use `credential(providerID: AuthProviderID, idToken: String, accessToken: String? = nil) -> OAuthCredential` instead.")
+  @available(swift 1000.0)
   @objc(credentialWithProviderID:IDToken:accessToken:) public static func credential(withProviderID providerID: Swift.String, idToken: Swift.String, accessToken: Swift.String?) -> FirebaseAuth.OAuthCredential
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func credential(providerID: FirebaseAuth.AuthProviderID, idToken: Swift.String, accessToken: Swift.String? = nil) -> FirebaseAuth.OAuthCredential
   #endif
-  @available(swift, deprecated: 0.1, message: "Use `credential(providerID: AuthProviderID, accessToken: String) -> OAuthCredential` instead.")
+  @available(swift 1000.0)
   @objc(credentialWithProviderID:accessToken:) public static func credential(withProviderID providerID: Swift.String, accessToken: Swift.String) -> FirebaseAuth.OAuthCredential
   public static func credential(providerID: FirebaseAuth.AuthProviderID, accessToken: Swift.String) -> FirebaseAuth.OAuthCredential
-  @available(swift, deprecated: 0.1, message: "Use `credential(providerID: AuthProviderID, idToken: String, rawNonce: String, accessToken: String? = nil) -> OAuthCredential` instead.")
+  @available(swift 1000.0)
   @objc(credentialWithProviderID:IDToken:rawNonce:accessToken:) public static func credential(withProviderID providerID: Swift.String, idToken: Swift.String, rawNonce: Swift.String, accessToken: Swift.String) -> FirebaseAuth.OAuthCredential
-  @available(swift, deprecated: 0.1, message: "Use `credential(providerID: AuthProviderID, idToken: String, rawNonce: String, accessToken: String? = nil) -> OAuthCredential` instead.")
+  @available(swift 1000.0)
   @objc(credentialWithProviderID:IDToken:rawNonce:) public static func credential(withProviderID providerID: Swift.String, idToken: Swift.String, rawNonce: Swift.String) -> FirebaseAuth.OAuthCredential
   #if compiler(>=5.3) && $NonescapableTypes
   public static func credential(providerID: FirebaseAuth.AuthProviderID, idToken: Swift.String, rawNonce: Swift.String, accessToken: Swift.String? = nil) -> FirebaseAuth.OAuthCredential
@@ -659,8 +686,8 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
-@objc(FIRPhoneAuthCredential) open class PhoneAuthCredential : FirebaseAuth.AuthCredential, Foundation.NSSecureCoding {
-  @objc public static var supportsSecureCoding: Swift.Bool
+@objc(FIRPhoneAuthCredential) open class PhoneAuthCredential : FirebaseAuth.AuthCredential, Foundation.NSSecureCoding, @unchecked Swift.Sendable {
+  @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
   #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
@@ -668,15 +695,15 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
-@objc(FIRPhoneAuthProvider) open class PhoneAuthProvider : ObjectiveC.NSObject {
+@objc(FIRPhoneAuthProvider) open class PhoneAuthProvider : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc public static let id: Swift.String
   @objc(provider) open class func provider() -> FirebaseAuth.PhoneAuthProvider
   @objc(providerWithAuth:) open class func provider(auth: FirebaseAuth.Auth) -> FirebaseAuth.PhoneAuthProvider
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc(verifyPhoneNumber:UIDelegate:completion:) open func verifyPhoneNumber(_ phoneNumber: Swift.String, uiDelegate: (any FirebaseAuth.AuthUIDelegate)? = nil, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
+  @objc(verifyPhoneNumber:UIDelegate:completion:) open func verifyPhoneNumber(_ phoneNumber: Swift.String, uiDelegate: (any FirebaseAuth.AuthUIDelegate)? = nil, completion: (@_Concurrency.MainActor (Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc(verifyPhoneNumber:UIDelegate:multiFactorSession:completion:) open func verifyPhoneNumber(_ phoneNumber: Swift.String, uiDelegate: (any FirebaseAuth.AuthUIDelegate)? = nil, multiFactorSession: FirebaseAuth.MultiFactorSession? = nil, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
+  @objc(verifyPhoneNumber:UIDelegate:multiFactorSession:completion:) open func verifyPhoneNumber(_ phoneNumber: Swift.String, uiDelegate: (any FirebaseAuth.AuthUIDelegate)? = nil, multiFactorSession: FirebaseAuth.MultiFactorSession? = nil, completion: (@_Concurrency.MainActor (Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, watchOS 8, *)
@@ -702,7 +729,7 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   @objc override dynamic public init()
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @objc(FIRPhoneMultiFactorInfo) open class PhoneMultiFactorInfo : FirebaseAuth.MultiFactorInfo {
+@_hasMissingDesignatedInitializers @objc(FIRPhoneMultiFactorInfo) open class PhoneMultiFactorInfo : FirebaseAuth.MultiFactorInfo, @unchecked Swift.Sendable {
   @objc(FIRPhoneMultiFactorID) public static let PhoneMultiFactorID: Swift.String
   @objc(FIRTOTPMultiFactorID) public static let TOTPMultiFactorID: Swift.String
   @objc open var phoneNumber: Swift.String
@@ -733,7 +760,7 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
 @_hasMissingDesignatedInitializers @objc(FIRTOTPSecret) open class TOTPSecret : ObjectiveC.NSObject {
   @objc open func sharedSecretKey() -> Swift.String
   @objc(generateQRCodeURLWithAccountName:issuer:) open func generateQRCodeURL(withAccountName accountName: Swift.String, issuer: Swift.String) -> Swift.String
-  @objc(openInOTPAppWithQRCodeURL:) open func openInOTPApp(withQRCodeURL qrCodeURL: Swift.String)
+  @_Concurrency.MainActor @objc(openInOTPAppWithQRCodeURL:) open func openInOTPApp(withQRCodeURL qrCodeURL: Swift.String)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
@@ -880,9 +907,7 @@ extension FirebaseAuth.User : Foundation.NSSecureCoding {
   @objc open var photoURL: Foundation.URL?
   @objc open var email: Swift.String?
   @objc open var phoneNumber: Swift.String?
-  @objc public static var supportsSecureCoding: Swift.Bool {
-    @objc get
-  }
+  @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
   #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
@@ -912,9 +937,7 @@ extension FirebaseAuth.UserMetadata : Foundation.NSSecureCoding {
 @objc(FIRUserMetadata) open class UserMetadata : ObjectiveC.NSObject {
   @objc final public let lastSignInDate: Foundation.Date?
   @objc final public let creationDate: Foundation.Date?
-  @objc public static var supportsSecureCoding: Swift.Bool {
-    @objc get
-  }
+  @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
   #if compiler(>=5.3) && $NonescapableTypes
   @objc required convenience public init?(coder: Foundation.NSCoder)

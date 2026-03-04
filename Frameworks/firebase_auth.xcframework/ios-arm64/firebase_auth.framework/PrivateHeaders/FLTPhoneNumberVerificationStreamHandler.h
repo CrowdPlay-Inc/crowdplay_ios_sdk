@@ -10,10 +10,13 @@
 #import <Flutter/Flutter.h>
 #endif
 
-@import FirebaseAuth;
-#import "firebase_auth_messages.g.h"
+#import "../Public/firebase_auth_messages.g.h"
 
 #import <Foundation/Foundation.h>
+
+@class FIRAuth;
+@class FIRMultiFactorSession;
+@class FIRPhoneMultiFactorInfo;
 
 NS_ASSUME_NONNULL_BEGIN
 
