@@ -24,13 +24,12 @@ let package = Package(
             name: "crowdplaysdk",
             dependencies: [
                 .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
-                .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
                 "App", "CocoaAsyncSocket", "Flutter", "FlutterPluginRegistrant",
                 "OrderedSet",
                 "Sentry", "audioplayers_darwin", "device_info_plus", "firebase_auth",
-                "firebase_core", "firebase_database", "firebase_messaging", "firebase_storage",
+                "firebase_core", "firebase_database", "firebase_messaging",
                 "flutter_inappwebview_ios", "flutter_local_notifications", "image_picker_ios",
                 "integration_test", "location", "package_info_plus",
                 "path_provider_foundation", "patrol", "sentry_flutter",
@@ -89,10 +88,6 @@ let package = Package(
         .binaryTarget(
             name: "firebase_messaging",
             path: "Frameworks/firebase_messaging.xcframework"
-        ),
-        .binaryTarget(
-            name: "firebase_storage",
-            path: "Frameworks/firebase_storage.xcframework"
         ),
         .binaryTarget(
             name: "flutter_inappwebview_ios",

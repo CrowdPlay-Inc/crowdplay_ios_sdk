@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'crowdplaysdk'
-  s.version          = '1.1898'
+  s.version          = '1.1910'
   s.summary          = 'A short description of crowdplaysdk.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,6 @@ TODO: Add long description of the pod here.
   s.ios.frameworks  = 'UIKit'
 
   s.dependency 'FirebaseAuth', '~> 12.4.0'
-  s.dependency 'FirebaseStorage', '~> 12.4.0'
   s.dependency 'FirebaseDatabase', '~> 12.4.0'
   s.dependency 'FirebaseMessaging', '~> 12.4.0'
   s.dependency 'GTMSessionFetcher', '~> 4.5.0'
@@ -48,6 +47,6 @@ TODO: Add long description of the pod here.
   
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'armv7' }
 
-  s.ios.vendored_frameworks = 'Frameworks/App.xcframework','Frameworks/CocoaAsyncSocket.xcframework','Frameworks/Cryptor.xcframework','Frameworks/CryptorECC.xcframework','Frameworks/Flutter.xcframework','Frameworks/FlutterPluginRegistrant.xcframework','Frameworks/KituraContracts.xcframework','Frameworks/LoggerAPI.xcframework','Frameworks/Logging.xcframework','Frameworks/OrderedSet.xcframework','Frameworks/Sentry.xcframework','Frameworks/SwiftJWT.xcframework','Frameworks/app_links.xcframework','Frameworks/audioplayers_darwin.xcframework','Frameworks/device_info_plus.xcframework','Frameworks/firebase_auth.xcframework','Frameworks/firebase_core.xcframework','Frameworks/firebase_database.xcframework','Frameworks/firebase_messaging.xcframework','Frameworks/firebase_storage.xcframework','Frameworks/flutter_inappwebview_ios.xcframework','Frameworks/flutter_local_notifications.xcframework','Frameworks/image_picker_ios.xcframework','Frameworks/integration_test.xcframework','Frameworks/location.xcframework','Frameworks/mobile_scanner.xcframework','Frameworks/package_info_plus.xcframework','Frameworks/path_provider_foundation.xcframework','Frameworks/patrol.xcframework','Frameworks/sentry_flutter.xcframework','Frameworks/share_plus.xcframework','Frameworks/shared_preferences_foundation.xcframework','Frameworks/sqflite_darwin.xcframework','Frameworks/store_redirect.xcframework','Frameworks/url_launcher_ios.xcframework','Frameworks/vibration.xcframework'
+  s.ios.vendored_frameworks = 'Frameworks/App.xcframework','Frameworks/CocoaAsyncSocket.xcframework','Frameworks/Cryptor.xcframework','Frameworks/CryptorECC.xcframework','Frameworks/Flutter.xcframework','Frameworks/FlutterPluginRegistrant.xcframework','Frameworks/KituraContracts.xcframework','Frameworks/LoggerAPI.xcframework','Frameworks/Logging.xcframework','Frameworks/OrderedSet.xcframework','Frameworks/Sentry.xcframework','Frameworks/SwiftJWT.xcframework','Frameworks/app_links.xcframework','Frameworks/audioplayers_darwin.xcframework','Frameworks/device_info_plus.xcframework','Frameworks/firebase_auth.xcframework','Frameworks/firebase_core.xcframework','Frameworks/firebase_database.xcframework','Frameworks/firebase_messaging.xcframework','Frameworks/flutter_inappwebview_ios.xcframework','Frameworks/flutter_local_notifications.xcframework','Frameworks/image_picker_ios.xcframework','Frameworks/integration_test.xcframework','Frameworks/location.xcframework','Frameworks/mobile_scanner.xcframework','Frameworks/package_info_plus.xcframework','Frameworks/path_provider_foundation.xcframework','Frameworks/patrol.xcframework','Frameworks/sentry_flutter.xcframework','Frameworks/share_plus.xcframework','Frameworks/shared_preferences_foundation.xcframework','Frameworks/sqflite_darwin.xcframework','Frameworks/store_redirect.xcframework','Frameworks/url_launcher_ios.xcframework','Frameworks/vibration.xcframework'
   s.preserve_path = 'Frameworks/*'
 end
