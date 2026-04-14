@@ -57,6 +57,8 @@ public class CrowdplaySdk {
     private var appUrlScheme = ""
     private var presentingViewController: UIViewController?
     public var showVenueNextWalletHandler: (() -> Void)?
+    private var pendingAuthCompletion: ((CrowdPlayAuthResult) -> Void)?
+    private var tokenRefreshHandler: (() async -> (token: String, provider: String)?)?
 
     private init() {}
 
@@ -106,6 +108,30 @@ public class CrowdplaySdk {
             } else if call.method == "showVenueNextWallet" {
                 self.showVenueNextWalletHandler?();
                 result(true)
+            } else if call.method == "authResult" {
+                if let args = call.arguments as? [String: Any] {
+                    let authResult = CrowdPlayAuthResult(
+                        success: args["success"] as? Bool ?? false,
+                        method: args["method"] as? String,
+                        error: args["error"] as? String,
+                        errorCode: args["errorCode"] as? String
+                    )
+                    self.pendingAuthCompletion?(authResult)
+                    self.pendingAuthCompletion = nil
+                }
+                result(nil)
+            } else if call.method == "requestFreshToken" {
+                guard let handler = self.tokenRefreshHandler else {
+                    result(nil)
+                    return
+                }
+                Task {
+                    if let freshToken = await handler() {
+                        result(["token": freshToken.token, "provider": freshToken.provider])
+                    } else {
+                        result(nil)
+                    }
+                }
             }
         }
         // Used to connect plugins (only if you have plugins with iOS platform code).
@@ -219,12 +245,27 @@ public class CrowdplaySdk {
         apiKeyChannel!.invokeMethod("setNotificationToken", arguments: tokenString)
     }
 
-    public func setAuthToken(authToken: String, provider: String) {
+    public func setAuthToken(authToken: String, provider: String, completion: ((CrowdPlayAuthResult) -> Void)? = nil) {
         self.authToken = ["token": authToken, "provider": provider]
+        self.pendingAuthCompletion = completion
 
         if apiKeyChannel != nil {
             apiKeyChannel!.invokeMethod("performTokenLogin", arguments: self.authToken)
         }
+    }
+
+    public func logout(completion: @escaping (Bool) -> Void) {
+        guard let channel = apiKeyChannel else {
+            completion(false)
+            return
+        }
+        channel.invokeMethod("performLogout", arguments: nil) { result in
+            completion(result as? Bool ?? false)
+        }
+    }
+
+    public func setTokenRefreshHandler(_ handler: @escaping () async -> (token: String, provider: String)?) {
+        self.tokenRefreshHandler = handler
     }
 
     public func linkAccount(providerToken: String, provider: String) {
@@ -296,4 +337,11 @@ public class CrowdplaySdk {
             }
         }
     }
+}
+
+public struct CrowdPlayAuthResult {
+    public let success: Bool
+    public let method: String?     // "login" or "register"
+    public let error: String?      // Error message if failed
+    public let errorCode: String?  // "token_expired", "token_invalid", "network_error", etc.
 }

@@ -12,12 +12,14 @@ import crowdplaysdk
 class ViewController: UIViewController {
     @IBOutlet var apiKeyInput: UITextField?
     @IBOutlet var userPointsLabel: UILabel?
+    @IBOutlet var authStatusLabel: UILabel?
     @IBOutlet var nbaIdField: UITextField?
+    @IBOutlet var tmTokenField: UITextField?
+    @IBOutlet var yinzcamTokenField: UITextField?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+
         if let apiKey = UserDefaults.standard.string(forKey: "apiKey") {
             apiKeyInput?.text = apiKey
         }
@@ -25,63 +27,84 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     @IBAction func launchCrowdplayTapped(_ sender: UIButton) {
-        guard let apiKey = apiKeyInput?.text else { return ;}
-        
-        // Override point for customization after application launch.
+        guard let apiKey = apiKeyInput?.text, !apiKey.isEmpty else { return }
+
         CrowdplaySdk.shared.initialize(apiKey: apiKey, appUrlScheme: "cpsdkdemopod")
-        
+
         CrowdplaySdk.shared.showVenueNextWalletHandler = {
-            //guard let rootViewController = getTopViewController(), let url = URL(string: "theapp://vn/wallet") else {result(false); return;}
-            
-            //VenueNextWeb.handle(url: url, presenter: rootViewController, completion: nil)
-            
             print("showVenueNextWalletHandler called")
         }
-        
+
+        // Set up token refresh handler for SSO retry
+        CrowdplaySdk.shared.setTokenRefreshHandler {
+            // In a real app, this would refresh the token from the SSO provider.
+            // For the example, we return nil to indicate no fresh token is available.
+            print("Token refresh requested by SDK")
+            return nil
+        }
+
         UserDefaults.standard.set(apiKey, forKey: "apiKey")
         CrowdplaySdk.shared.presentCrowdplay(vc: self)
-        
-        // print("Setting up background worker")
-        // DispatchQueue.global().asyncAfter(deadline: .now() + 5.0) {
-        //     if UIApplication.shared.windows.first?.rootViewController == nil {
-        //         print("Root view controller is nil")
-        //         return
-        //     }
-            
-        //     var userInfo: [AnyHashable: Any] = [:]
-        //     var custom: [AnyHashable: Any] = [:]
-        //     var a: [AnyHashable: Any] = [:]
-        //     a["source"] = "crowdplay"
-        //     custom["a"] = a
-        //     userInfo["custom"] = custom
-            
-        //     let result = CrowdplaySdk.shared.handleNotification(userInfo: userInfo, vc: UIApplication.shared.windows.first!.rootViewController!)
-        //     print(result)
-        // }
     }
-    
+
     @IBAction func updatePointsTapped(_ sender: UIButton) {
         Task {
             do {
-                // Call your async function
                 let result = try await CrowdplaySdk.shared.getPointsBalance() ?? 0
-                
-                // Update UI on main thread
                 userPointsLabel?.text = "Current User points: \(result)"
             } catch {
-                // Handle error and update UI accordingly
                 userPointsLabel?.text = "Current User points: Error"
             }
         }
     }
-    
+
     @IBAction func nbaIdLoginTapped(_ sender: UIButton) {
-        guard let encryptedId = nbaIdField?.text else { return ;}
-        CrowdplaySdk.shared.setAuthToken(authToken: encryptedId, provider: "nbaid")
+        guard let encryptedId = nbaIdField?.text, !encryptedId.isEmpty else { return }
+        authStatusLabel?.text = "Authenticating (NBA ID)..."
+        CrowdplaySdk.shared.setAuthToken(authToken: encryptedId, provider: "nbaid") { [weak self] result in
+            DispatchQueue.main.async {
+                self?.handleAuthResult(result, provider: "NBA ID")
+            }
+        }
+    }
+
+    @IBAction func tmLoginTapped(_ sender: UIButton) {
+        guard let token = tmTokenField?.text, !token.isEmpty else { return }
+        authStatusLabel?.text = "Authenticating (Ticketmaster)..."
+        CrowdplaySdk.shared.setAuthToken(authToken: token, provider: "ticketmaster") { [weak self] result in
+            DispatchQueue.main.async {
+                self?.handleAuthResult(result, provider: "Ticketmaster")
+            }
+        }
+    }
+
+    @IBAction func yinzcamLoginTapped(_ sender: UIButton) {
+        guard let token = yinzcamTokenField?.text, !token.isEmpty else { return }
+        authStatusLabel?.text = "Authenticating (YinzCam)..."
+        CrowdplaySdk.shared.setAuthToken(authToken: token, provider: "yinzcam") { [weak self] result in
+            DispatchQueue.main.async {
+                self?.handleAuthResult(result, provider: "YinzCam")
+            }
+        }
+    }
+
+    @IBAction func logoutTapped(_ sender: UIButton) {
+        authStatusLabel?.text = "Logging out..."
+        CrowdplaySdk.shared.logout { [weak self] success in
+            DispatchQueue.main.async {
+                self?.authStatusLabel?.text = success ? "Logged out" : "Logout failed"
+            }
+        }
+    }
+
+    private func handleAuthResult(_ result: CrowdPlayAuthResult, provider: String) {
+        if result.success {
+            authStatusLabel?.text = "\(provider): \(result.method ?? "success")"
+        } else {
+            authStatusLabel?.text = "\(provider) failed: \(result.error ?? "Unknown error") [\(result.errorCode ?? "")]"
+        }
     }
 }
-
