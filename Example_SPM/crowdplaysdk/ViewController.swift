@@ -13,12 +13,22 @@ class ViewController: UIViewController {
     @IBOutlet var apiKeyInput: UITextField?
     @IBOutlet var userPointsLabel: UILabel?
     @IBOutlet var authStatusLabel: UILabel?
-    @IBOutlet var nbaIdField: UITextField?
-    @IBOutlet var tmTokenField: UITextField?
-    @IBOutlet var yinzcamTokenField: UITextField?
+    @IBOutlet var ssoProviderPicker: UIPickerView?
+    @IBOutlet var ssoTokenField: UITextField?
+
+    private let ssoProviders = [
+        ("nbaid", "NBA ID"),
+        ("ticketmaster", "Ticketmaster"),
+        ("yinzcam", "YinzCam"),
+        ("auth0", "Auth0"),
+    ]
+    private var selectedProviderIndex = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        ssoProviderPicker?.dataSource = self
+        ssoProviderPicker?.delegate = self
 
         if let apiKey = UserDefaults.standard.string(forKey: "apiKey") {
             apiKeyInput?.text = apiKey
@@ -46,8 +56,34 @@ class ViewController: UIViewController {
             return nil
         }
 
+        // Listen for auth state changes
+        CrowdplaySdk.shared.onAuthStateChanged = { [weak self] state in
+            DispatchQueue.main.async {
+                self?.authStatusLabel?.text = "Auth Status: \(self?.authStateDescription(state) ?? state.rawValue)"
+            }
+        }
+
+        // Listen for points balance changes
+        CrowdplaySdk.shared.onPointsChanged = { [weak self] points in
+            DispatchQueue.main.async {
+                self?.userPointsLabel?.text = "Current User points: \(Int(points))"
+            }
+        }
+
         UserDefaults.standard.set(apiKey, forKey: "apiKey")
         CrowdplaySdk.shared.presentCrowdplay(vc: self)
+
+        // Load initial auth status
+        Task {
+            let isLoggedIn = try? await CrowdplaySdk.shared.loggedIn()
+            await MainActor.run {
+                if isLoggedIn == true {
+                    authStatusLabel?.text = "Auth Status: Logged In"
+                } else {
+                    authStatusLabel?.text = "Auth Status: Logged Out"
+                }
+            }
+        }
     }
 
     @IBAction func updatePointsTapped(_ sender: UIButton) {
@@ -61,32 +97,13 @@ class ViewController: UIViewController {
         }
     }
 
-    @IBAction func nbaIdLoginTapped(_ sender: UIButton) {
-        guard let encryptedId = nbaIdField?.text, !encryptedId.isEmpty else { return }
-        authStatusLabel?.text = "Authenticating (NBA ID)..."
-        CrowdplaySdk.shared.setAuthToken(authToken: encryptedId, provider: "nbaid") { [weak self] result in
+    @IBAction func ssoLoginTapped(_ sender: UIButton) {
+        guard let token = ssoTokenField?.text, !token.isEmpty else { return }
+        let provider = ssoProviders[selectedProviderIndex]
+        authStatusLabel?.text = "Authenticating (\(provider.1))..."
+        CrowdplaySdk.shared.setAuthToken(authToken: token, provider: provider.0) { [weak self] result in
             DispatchQueue.main.async {
-                self?.handleAuthResult(result, provider: "NBA ID")
-            }
-        }
-    }
-
-    @IBAction func tmLoginTapped(_ sender: UIButton) {
-        guard let token = tmTokenField?.text, !token.isEmpty else { return }
-        authStatusLabel?.text = "Authenticating (Ticketmaster)..."
-        CrowdplaySdk.shared.setAuthToken(authToken: token, provider: "ticketmaster") { [weak self] result in
-            DispatchQueue.main.async {
-                self?.handleAuthResult(result, provider: "Ticketmaster")
-            }
-        }
-    }
-
-    @IBAction func yinzcamLoginTapped(_ sender: UIButton) {
-        guard let token = yinzcamTokenField?.text, !token.isEmpty else { return }
-        authStatusLabel?.text = "Authenticating (YinzCam)..."
-        CrowdplaySdk.shared.setAuthToken(authToken: token, provider: "yinzcam") { [weak self] result in
-            DispatchQueue.main.async {
-                self?.handleAuthResult(result, provider: "YinzCam")
+                self?.handleAuthResult(result, provider: provider.1)
             }
         }
     }
@@ -100,11 +117,38 @@ class ViewController: UIViewController {
         }
     }
 
+    private func authStateDescription(_ state: CrowdPlayAuthState) -> String {
+        switch state {
+        case .loggedIn: return "Logged In"
+        case .loggedOut: return "Logged Out"
+        case .authenticating: return "Authenticating..."
+        case .loggingOut: return "Logging Out..."
+        }
+    }
+
     private func handleAuthResult(_ result: CrowdPlayAuthResult, provider: String) {
         if result.success {
             authStatusLabel?.text = "\(provider): \(result.method ?? "success")"
         } else {
             authStatusLabel?.text = "\(provider) failed: \(result.error ?? "Unknown error") [\(result.errorCode ?? "")]"
         }
+    }
+}
+
+extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return ssoProviders.count
+    }
+
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return ssoProviders[row].1
+    }
+
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        selectedProviderIndex = row
     }
 }

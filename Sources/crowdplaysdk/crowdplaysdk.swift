@@ -57,6 +57,8 @@ public class CrowdplaySdk {
     private var appUrlScheme = ""
     private var presentingViewController: UIViewController?
     public var showVenueNextWalletHandler: (() -> Void)?
+    public var onAuthStateChanged: ((CrowdPlayAuthState) -> Void)?
+    public var onPointsChanged: ((Double) -> Void)?
     private var pendingAuthCompletion: ((CrowdPlayAuthResult) -> Void)?
     private var tokenRefreshHandler: (() async -> (token: String, provider: String)?)?
 
@@ -132,6 +134,19 @@ public class CrowdplaySdk {
                         result(nil)
                     }
                 }
+            } else if call.method == "onAuthStateChanged" {
+                if let args = call.arguments as? [String: Any],
+                   let stateStr = args["state"] as? String,
+                   let state = CrowdPlayAuthState(rawValue: stateStr) {
+                    self.onAuthStateChanged?(state)
+                }
+                result(nil)
+            } else if call.method == "onPointsChanged" {
+                if let args = call.arguments as? [String: Any],
+                   let points = args["points"] as? Double {
+                    self.onPointsChanged?(points)
+                }
+                result(nil)
             }
         }
         // Used to connect plugins (only if you have plugins with iOS platform code).
@@ -344,4 +359,11 @@ public struct CrowdPlayAuthResult {
     public let method: String?     // "login" or "register"
     public let error: String?      // Error message if failed
     public let errorCode: String?  // "token_expired", "token_invalid", "network_error", etc.
+}
+
+public enum CrowdPlayAuthState: String {
+    case loggedIn
+    case loggedOut
+    case authenticating
+    case loggingOut
 }
