@@ -2,12 +2,12 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/distiller/project/sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/store_redirect/store_redirect.framework/store_redirect'
 relocations:
-  - { offset: 0x1A97A, size: 0x8, addend: 0x0, symName: _store_redirectVersionString, symObjAddr: 0x0, symBinAddr: 0x4888, symSize: 0x0 }
-  - { offset: 0x1A9AE, size: 0x8, addend: 0x0, symName: _store_redirectVersionNumber, symObjAddr: 0x30, symBinAddr: 0x48B8, symSize: 0x0 }
-  - { offset: 0x1A9EA, size: 0x8, addend: 0x0, symName: '+[StoreRedirectPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x90 }
-  - { offset: 0x1AA07, size: 0x8, addend: 0x0, symName: '+[StoreRedirectPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x90 }
-  - { offset: 0x1AA60, size: 0x8, addend: 0x0, symName: '-[StoreRedirectPlugin handleMethodCall:result:]', symObjAddr: 0x90, symBinAddr: 0x4090, symSize: 0x200 }
-  - { offset: 0x1AB06, size: 0x8, addend: 0x0, symName: '___47-[StoreRedirectPlugin handleMethodCall:result:]_block_invoke', symObjAddr: 0x290, symBinAddr: 0x4290, symSize: 0x80 }
-  - { offset: 0x1AB70, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x310, symBinAddr: 0x4310, symSize: 0x10 }
-  - { offset: 0x1AB96, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x320, symBinAddr: 0x4320, symSize: 0x8 }
+  - { offset: 0x1A98C, size: 0x8, addend: 0x0, symName: _store_redirectVersionString, symObjAddr: 0x0, symBinAddr: 0x4888, symSize: 0x0 }
+  - { offset: 0x1A9C0, size: 0x8, addend: 0x0, symName: _store_redirectVersionNumber, symObjAddr: 0x30, symBinAddr: 0x48B8, symSize: 0x0 }
+  - { offset: 0x1A9FC, size: 0x8, addend: 0x0, symName: '+[StoreRedirectPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x90 }
+  - { offset: 0x1AA19, size: 0x8, addend: 0x0, symName: '+[StoreRedirectPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x90 }
+  - { offset: 0x1AA72, size: 0x8, addend: 0x0, symName: '-[StoreRedirectPlugin handleMethodCall:result:]', symObjAddr: 0x90, symBinAddr: 0x4090, symSize: 0x200 }
+  - { offset: 0x1AB18, size: 0x8, addend: 0x0, symName: '___47-[StoreRedirectPlugin handleMethodCall:result:]_block_invoke', symObjAddr: 0x290, symBinAddr: 0x4290, symSize: 0x80 }
+  - { offset: 0x1AB82, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x310, symBinAddr: 0x4310, symSize: 0x10 }
+  - { offset: 0x1ABA8, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x320, symBinAddr: 0x4320, symSize: 0x8 }
 ...
