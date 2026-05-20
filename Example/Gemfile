@@ -4,6 +4,7 @@ gem 'cocoapods'
 
 gem 'fastlane'
 gem 'addressable', '>= 2.9.0'
+gem 'activesupport', '>= 7.2.3.1'
 gem "rexml", ">= 3.3.9"
 
 plugins_path = File.join(File.dirname(__FILE__), 'fastlane', 'Pluginfile')
