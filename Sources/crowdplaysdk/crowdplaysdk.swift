@@ -62,6 +62,19 @@ public class CrowdplaySdk {
     private var pendingAuthCompletion: ((CrowdPlayAuthResult) -> Void)?
     private var tokenRefreshHandler: (() async -> (token: String, provider: String)?)?
 
+    /// Invoked whenever the SDK needs to surface its UI — either because
+    /// the host called `presentCrowdplay(vc:)` directly, or because a
+    /// notification / deep link arrived that should bring CrowdPlay to
+    /// the foreground.
+    ///
+    /// When this handler is set, the SDK will NOT auto-present. The host
+    /// app is responsible for making the SDK's surface visible —
+    /// typically by switching to the tab/view that embeds
+    /// `viewController()`. When this handler is `nil`, the SDK falls back
+    /// to the legacy behavior of presenting the FlutterViewController
+    /// modally over the supplied view controller.
+    public var onPresentRequested: (() -> Void)?
+
     private init() {}
 
     public var isInitialized: Bool {
@@ -169,7 +182,32 @@ public class CrowdplaySdk {
         return flutterViewController!
     }
 
+    /// Public entry point for "make CrowdPlay visible now." Routes
+    /// through `onPresentRequested` if the host has set one (embedded
+    /// integration); otherwise presents the FlutterViewController
+    /// modally over `vc` (default fullscreen).
     public func presentCrowdplay(vc: UIViewController) {
+        requestPresent(vc: vc)
+    }
+
+    /// Single funnel for all SDK-initiated "show me now" requests
+    /// (direct `presentCrowdplay`, notification arrival, deep-link
+    /// arrival). Hands off to `onPresentRequested` when set;
+    /// auto-presents over `vc` otherwise. `vc` is unused when a
+    /// handler is set, so callers that arrive without one (e.g. an
+    /// `onPresentRequested`-only embedded integration responding to a
+    /// notification with no presenter) can pass `nil`.
+    private func requestPresent(vc: UIViewController?) {
+        if let handler = onPresentRequested {
+            handler()
+            return
+        }
+
+        guard let presenter = vc else {
+            print("CrowdPlay: no presenter view controller and no onPresentRequested handler — nothing to present from")
+            return
+        }
+
         guard let toDisplay = self.viewController() else {
             print("CrowdPlay SDK has not yet been initialized")
             return
@@ -180,15 +218,15 @@ public class CrowdplaySdk {
             return
         }
 
-        if presentingViewController != nil && presentingViewController != vc {
+        if presentingViewController != nil && presentingViewController != presenter {
             DispatchQueue.main.async {
                 self.flutterViewController?.dismiss(animated: false)
             }
         }
 
-        presentingViewController = vc
+        presentingViewController = presenter
         DispatchQueue.main.async {
-            vc.present(toDisplay, animated: true, completion: nil)
+            presenter.present(toDisplay, animated: true, completion: nil)
         }
     }
 
@@ -233,9 +271,12 @@ public class CrowdplaySdk {
             return false
         }
 
-        if vc != nil {
-            self.presentCrowdplay(vc: vc!)
-        }
+        // Route through the same funnel as a direct presentCrowdplay
+        // call. If the host has set onPresentRequested, the handler runs
+        // and `vc` is ignored; otherwise we fall back to the legacy
+        // behavior of presenting modally over `vc` (a no-op when `vc`
+        // is nil and no handler is set).
+        requestPresent(vc: vc)
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             self.apiKeyChannel!.invokeMethod("handleNotification", arguments: customApns)
@@ -293,12 +334,30 @@ public class CrowdplaySdk {
         }
     }
 
-    public func handleAppLink(appLink: URL) -> Bool {
+    /// Handle an inbound deep link. If the link is a CrowdPlay link, the
+    /// SDK forwards it to Flutter and then surfaces its UI by routing
+    /// through the same funnel as `presentCrowdplay(vc:)` — either via
+    /// `onPresentRequested` (embedded integrations) or by presenting
+    /// modally over `vc` (fullscreen integrations).
+    ///
+    /// Breaking change from earlier SDK versions: `vc` is now required.
+    /// Earlier versions only forwarded the link to Flutter and never
+    /// surfaced the SDK UI on their own; pass the view controller you
+    /// want CrowdPlay to be presented from (typically the app's
+    /// rootViewController).
+    public func handleAppLink(appLink: URL, vc: UIViewController) -> Bool {
         if apiKeyChannel == nil || (appLink.host != "crowdplay" && appLink.host != "rtl-callback") {
             return false
         }
 
         apiKeyChannel!.invokeMethod("handleAppLink", arguments: appLink.absoluteString)
+
+        // Match Android: after a short delay (let Flutter ingest the
+        // link), bring CrowdPlay to the foreground via the standard
+        // present funnel.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            self.requestPresent(vc: vc)
+        }
 
         return true
     }

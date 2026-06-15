@@ -91,7 +91,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         _ application: UIApplication, open url: URL,
         options: [UIApplication.OpenURLOptionsKey: Any] = [:]
     ) -> Bool {
-        let handled = CrowdplaySdk.shared.handleAppLink(appLink: url)
+        // handleAppLink now takes the view controller to present CrowdPlay
+        // from when a deep link arrives — same pattern as handleNotification.
+        // Pass the app's root view controller; if you've set
+        // CrowdplaySdk.shared.onPresentRequested for an embedded
+        // integration, the vc is ignored and your handler runs instead.
+        guard let rootVC = self.window?.rootViewController else {
+            return false
+        }
+        let handled = CrowdplaySdk.shared.handleAppLink(appLink: url, vc: rootVC)
         if handled {
             return true
         }
