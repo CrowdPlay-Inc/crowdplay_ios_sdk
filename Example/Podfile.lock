@@ -1,5 +1,5 @@
 PODS:
-  - crowdplaysdk (1.2300):
+  - crowdplaysdk (1.2339):
     - FirebaseAuth (~> 12.4.0)
     - FirebaseDatabase (~> 12.4.0)
     - FirebaseMessaging (~> 12.4.0)
@@ -55,7 +55,7 @@ PODS:
     - GoogleUtilities/UserDefaults (~> 8.1)
     - nanopb (~> 3.30910.0)
   - FirebaseSharedSwift (12.4.0)
-  - GoogleDataTransport (10.1.0):
+  - GoogleDataTransport (10.1.1):
     - nanopb (~> 3.30910.0)
     - PromisesObjC (~> 2.4)
   - GoogleUtilities/AppDelegateSwizzler (8.1.2):
@@ -149,7 +149,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  crowdplaysdk: d32d0374244fecb6aa5642532726a8d8347f0f92
+  crowdplaysdk: bc6c20a1e34ca99c41a4fdcdb12be224f7bbf45b
   CwlCatchException: 7acc161b299a6de7f0a46a6ed741eae2c8b4d75a
   CwlCatchExceptionSupport: 54ccab8d8c78907b57f99717fb19d4cc3bce02dc
   CwlMachBadInstructionHandler: dae4fdd124d45c9910ac240287cc7b898f4502a1
@@ -165,7 +165,7 @@ SPEC CHECKSUMS:
   FirebaseInstallations: ae9f4902cb5bf1d0c5eaa31ec1f4e5495a0714e2
   FirebaseMessaging: d33971b7bb252745ea6cd31ab190d1a1df4b8ed5
   FirebaseSharedSwift: 93426a1de92f19e1199fac5295a4f8df16458daa
-  GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
+  GoogleDataTransport: a24e58982ab3ba2f64d79613e027fe7f57e88539
   GoogleUtilities: 766ace00c6b10d8148408f329d10c4f051931850
   GTMSessionFetcher: fc75fc972958dceedee61cb662ae1da7a83a91cf
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
