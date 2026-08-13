@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/App.framework/App</key>
 		<data>
-		ybOWxLKSdYKP++UoBiGtW6p+gnM=
+		b4z2yPPTetV0+SOhFs7qRmkOa74=
 		</data>
 		<key>ios-arm64/App.framework/Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>ios-arm64/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Th1u1nz0qdzSIGJuVVFrskKCw14=
+		4N9SehmFESHMaG0bmwpD3sjvN2c=
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		UGhEUsO1RYiEOE+hDLeZjLwKG0Y=
+		pYnS07xs2fo5Wa2JVxmMG9Q9Y2o=
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -787,6 +787,10 @@
 		<key>ios-arm64/App.framework/flutter_assets/assets/scan_tm.png</key>
 		<data>
 		uTQwbY26U8fJenNAa6tnDLYKOyk=
+		</data>
+		<key>ios-arm64/App.framework/flutter_assets/assets/seatgeek_s.png</key>
+		<data>
+		B8RTPmQMpWCpND0Ul+uygNbXzSo=
 		</data>
 		<key>ios-arm64/App.framework/flutter_assets/assets/see_details.png</key>
 		<data>
@@ -2382,11 +2386,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/App.framework.dSYM/Contents/Resources/DWARF/App</key>
 		<data>
-		OQHGG1Hwr9qG5PXDtaCPeocHp00=
+		pPwtVtIxITSeRvd7sIKtm3Fo+u4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/App</key>
 		<data>
-		gOPWkGztYOmXZvBz8T4nZ4gbXgI=
+		m/1YNcTNkySViuVLeTBK7AE8P1Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/Info.plist</key>
 		<data>
@@ -2394,11 +2398,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Th1u1nz0qdzSIGJuVVFrskKCw14=
+		4N9SehmFESHMaG0bmwpD3sjvN2c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		UGhEUsO1RYiEOE+hDLeZjLwKG0Y=
+		pYnS07xs2fo5Wa2JVxmMG9Q9Y2o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -3167,6 +3171,10 @@
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/scan_tm.png</key>
 		<data>
 		uTQwbY26U8fJenNAa6tnDLYKOyk=
+		</data>
+		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/seatgeek_s.png</key>
+		<data>
+		B8RTPmQMpWCpND0Ul+uygNbXzSo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/see_details.png</key>
 		<data>
@@ -4767,11 +4775,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ybOWxLKSdYKP++UoBiGtW6p+gnM=
+			b4z2yPPTetV0+SOhFs7qRmkOa74=
 			</data>
 			<key>hash2</key>
 			<data>
-			+tjtzHZK3bc5evQswKtsRTvXcBmRHJc5MQ4u/wAYLdQ=
+			JUUYEEwQ+eS9rqxH1ZDod7ehxuJp8b9xFPpa9mfvRpQ=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/Info.plist</key>
@@ -4789,22 +4797,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Th1u1nz0qdzSIGJuVVFrskKCw14=
+			4N9SehmFESHMaG0bmwpD3sjvN2c=
 			</data>
 			<key>hash2</key>
 			<data>
-			tabyO1l8c5IMEnppGEgkKmH0ccIBaC267jZ/Q1VtZSA=
+			dTjMKHmt18oEOBrLHpJtAD+Ilr71qqm/kZOvVPMyBHU=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UGhEUsO1RYiEOE+hDLeZjLwKG0Y=
+			pYnS07xs2fo5Wa2JVxmMG9Q9Y2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			XXLkoV9G0Z7mJkH6iguhBDJ0zPo7Lt3gJelcj1tiKJA=
+			ZJmExDaGib4+inCV7Iipiofs4i9IM2wUGORPaSbuucY=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/FontManifest.json</key>
@@ -6917,6 +6925,17 @@
 			<key>hash2</key>
 			<data>
 			QgIsta5adblJ6zjrO/D2ANPibl1254VIQu1Zj3OCWFQ=
+			</data>
+		</dict>
+		<key>ios-arm64/App.framework/flutter_assets/assets/seatgeek_s.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B8RTPmQMpWCpND0Ul+uygNbXzSo=
+			</data>
+			<key>hash2</key>
+			<data>
+			/h5BfnGJynZrLG4UyMu6cm55JCWPaf3QB06cAtmQf1Q=
 			</data>
 		</dict>
 		<key>ios-arm64/App.framework/flutter_assets/assets/see_details.png</key>
@@ -11301,22 +11320,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OQHGG1Hwr9qG5PXDtaCPeocHp00=
+			pPwtVtIxITSeRvd7sIKtm3Fo+u4=
 			</data>
 			<key>hash2</key>
 			<data>
-			BhLTDoQuP6vt1yrU++QTMBcmCtpWoXGd8G/mn5tQZh8=
+			LAuV7jkDGFgfezYDzgr6mgsUSUTOJE88ABpZbgtI4mA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/App</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gOPWkGztYOmXZvBz8T4nZ4gbXgI=
+			m/1YNcTNkySViuVLeTBK7AE8P1Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			pP8s6XViejF63ui6tRGZA0LtT+VAsQPfpjdpEY1S+6s=
+			HCwR2VjlkjpUpO8EUdvtPrTSjjJHiSnS3sTvMNxFz/g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/Info.plist</key>
@@ -11334,22 +11353,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Th1u1nz0qdzSIGJuVVFrskKCw14=
+			4N9SehmFESHMaG0bmwpD3sjvN2c=
 			</data>
 			<key>hash2</key>
 			<data>
-			tabyO1l8c5IMEnppGEgkKmH0ccIBaC267jZ/Q1VtZSA=
+			dTjMKHmt18oEOBrLHpJtAD+Ilr71qqm/kZOvVPMyBHU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UGhEUsO1RYiEOE+hDLeZjLwKG0Y=
+			pYnS07xs2fo5Wa2JVxmMG9Q9Y2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			XXLkoV9G0Z7mJkH6iguhBDJ0zPo7Lt3gJelcj1tiKJA=
+			ZJmExDaGib4+inCV7Iipiofs4i9IM2wUGORPaSbuucY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/FontManifest.json</key>
@@ -13462,6 +13481,17 @@
 			<key>hash2</key>
 			<data>
 			QgIsta5adblJ6zjrO/D2ANPibl1254VIQu1Zj3OCWFQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/seatgeek_s.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B8RTPmQMpWCpND0Ul+uygNbXzSo=
+			</data>
+			<key>hash2</key>
+			<data>
+			/h5BfnGJynZrLG4UyMu6cm55JCWPaf3QB06cAtmQf1Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/App.framework/flutter_assets/assets/see_details.png</key>
