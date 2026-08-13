@@ -59,6 +59,10 @@ public class CrowdplaySdk {
     public var showVenueNextWalletHandler: (() -> Void)?
     public var onAuthStateChanged: ((CrowdPlayAuthState) -> Void)?
     public var onPointsChanged: ((Double) -> Void)?
+    /// Fired whenever the user's loyalty code changes (rotating codes rotate
+    /// every ~30s; a nil code means the user signed out). Render the QR from
+    /// this instead of polling getLoyaltyCodeAndDescription.
+    public var onLoyaltyCodeChanged: ((String?, String?) -> Void)?
     private var pendingAuthCompletion: ((CrowdPlayAuthResult) -> Void)?
     private var tokenRefreshHandler: (() async -> (token: String, provider: String)?)?
 
@@ -159,6 +163,13 @@ public class CrowdplaySdk {
                    let points = args["points"] as? Double {
                     self.onPointsChanged?(points)
                 }
+                result(nil)
+            } else if call.method == "onLoyaltyCodeChanged" {
+                let args = call.arguments as? [String: Any]
+                self.onLoyaltyCodeChanged?(
+                    args?["code"] as? String,
+                    args?["description"] as? String
+                )
                 result(nil)
             }
         }
