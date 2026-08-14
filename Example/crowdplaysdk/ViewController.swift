@@ -6,6 +6,7 @@
 //  Copyright (c) 2022 Matthew Baker. All rights reserved.
 //
 
+import CoreImage
 import UIKit
 import crowdplaysdk
 
@@ -23,11 +24,24 @@ class ViewController: UIViewController {
         ("auth0", "Auth0"),
     ]
     private var selectedProviderIndex = 0
+    private let qrImageView = UIImageView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         overrideUserInterfaceStyle = .light
+
+        // Live QR straight from onLoyaltyCodeChanged, so rotation is visible.
+        qrImageView.translatesAutoresizingMaskIntoConstraints = false
+        qrImageView.contentMode = .scaleAspectFit
+        view.addSubview(qrImageView)
+        NSLayoutConstraint.activate([
+            qrImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            qrImageView.bottomAnchor.constraint(
+                equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -16),
+            qrImageView.widthAnchor.constraint(equalToConstant: 160),
+            qrImageView.heightAnchor.constraint(equalToConstant: 160),
+        ])
 
         ssoProviderPicker?.dataSource = self
         ssoProviderPicker?.delegate = self
@@ -73,9 +87,12 @@ class ViewController: UIViewController {
         }
 
         // Loyalty code changes (nil = signed out); a host would re-render its QR.
-        CrowdplaySdk.shared.onLoyaltyCodeChanged = { code, description in
+        CrowdplaySdk.shared.onLoyaltyCodeChanged = { [weak self] code, _ in
             // Never log the code itself: it is a live payment credential.
             print("Loyalty code changed (signedIn: \(code != nil))")
+            DispatchQueue.main.async {
+                self?.qrImageView.image = code.flatMap(Self.qrImage(from:))
+            }
         }
 
         UserDefaults.standard.set(apiKey, forKey: "apiKey")
@@ -123,6 +140,15 @@ class ViewController: UIViewController {
                 self?.authStatusLabel?.text = success ? "Logged out" : "Logout failed"
             }
         }
+    }
+
+    private static func qrImage(from string: String) -> UIImage? {
+        guard let data = string.data(using: .ascii),
+            let filter = CIFilter(name: "CIQRCodeGenerator")
+        else { return nil }
+        filter.setValue(data, forKey: "inputMessage")
+        guard let output = filter.outputImage else { return nil }
+        return UIImage(ciImage: output.transformed(by: CGAffineTransform(scaleX: 8, y: 8)))
     }
 
     private func authStateDescription(_ state: CrowdPlayAuthState) -> String {
