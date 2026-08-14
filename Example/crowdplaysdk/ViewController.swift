@@ -72,10 +72,10 @@ class ViewController: UIViewController {
             }
         }
 
-        // Listen for loyalty code changes (rotating codes update every ~30s;
-        // nil code = signed out). A host app would re-render its QR here.
+        // Loyalty code changes (nil = signed out); a host would re-render its QR.
         CrowdplaySdk.shared.onLoyaltyCodeChanged = { code, description in
-            print("Loyalty code changed: \(code ?? "nil") (\(description ?? ""))")
+            // Never log the code itself: it is a live payment credential.
+            print("Loyalty code changed (signedIn: \(code != nil))")
         }
 
         UserDefaults.standard.set(apiKey, forKey: "apiKey")
