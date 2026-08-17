@@ -88,8 +88,6 @@ class ViewController: UIViewController {
 
         // Loyalty code changes (nil = signed out); a host would re-render its QR.
         CrowdplaySdk.shared.onLoyaltyCodeChanged = { [weak self] code, _ in
-            // Never log the code itself: it is a live payment credential.
-            print("Loyalty code changed (signedIn: \(code != nil))")
             DispatchQueue.main.async {
                 self?.qrImageView.image = code.flatMap(Self.qrImage(from:))
             }
