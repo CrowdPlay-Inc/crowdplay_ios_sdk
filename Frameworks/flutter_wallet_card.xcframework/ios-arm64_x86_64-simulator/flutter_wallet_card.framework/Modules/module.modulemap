@@ -1,0 +1,11 @@
+framework module flutter_wallet_card {
+  umbrella header "flutter_wallet_card-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_wallet_card.Swift {
+  header "flutter_wallet_card-Swift.h"
+  requires objc
+}

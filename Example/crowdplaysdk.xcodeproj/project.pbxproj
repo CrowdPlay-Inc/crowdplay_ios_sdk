@@ -374,6 +374,9 @@
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/store_redirect.framework/store_redirect",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/url_launcher_ios.framework/url_launcher_ios",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/vibration.framework/vibration",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/flutter_secure_storage.framework/flutter_secure_storage",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/flutter_wallet_card.framework/flutter_wallet_card",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/crowdplaysdk/OpenSSL.framework/OpenSSL",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -419,6 +422,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/store_redirect.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/url_launcher_ios.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/vibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_secure_storage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_wallet_card.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

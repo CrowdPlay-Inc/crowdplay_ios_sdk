@@ -37,6 +37,7 @@ let package = Package(
                 "vibration", "mobile_scanner",
                 "sqflite_darwin",
                 "shared_preferences_foundation",
+                "flutter_secure_storage", "flutter_wallet_card", "OpenSSL",
             ],
             resources: [
                 .copy("PrivacyInfo.xcprivacy")
@@ -44,6 +45,18 @@ let package = Package(
         .binaryTarget(
             name: "App",
             path: "Frameworks/App.xcframework"
+        ),
+        .binaryTarget(
+            name: "flutter_secure_storage",
+            path: "Frameworks/flutter_secure_storage.xcframework"
+        ),
+        .binaryTarget(
+            name: "flutter_wallet_card",
+            path: "Frameworks/flutter_wallet_card.xcframework"
+        ),
+        .binaryTarget(
+            name: "OpenSSL",
+            path: "Frameworks/OpenSSL.xcframework"
         ),
         .binaryTarget(
             name: "CocoaAsyncSocket",

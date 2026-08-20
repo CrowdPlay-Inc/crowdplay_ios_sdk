@@ -33,8 +33,8 @@ relocations:
   - { offset: 0xA89E4, size: 0x8, addend: 0x0, symName: '+[GDTCCTCompressionHelper isGzipped:]', symObjAddr: 0x188, symBinAddr: 0x4188, symSize: 0x74 }
   - { offset: 0xA8AC2, size: 0x8, addend: 0x0, symName: _GDTCCTEncodeString, symObjAddr: 0x0, symBinAddr: 0x41FC, symSize: 0x40 }
   - { offset: 0xA8ADE, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfoNetworkMobileSubtype, symObjAddr: 0xD58, symBinAddr: 0x4F54, symSize: 0xA4 }
-  - { offset: 0xA8B06, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfoNetworkMobileSubtype.MessageToNetworkSubTypeMessage, symObjAddr: 0x9230, symBinAddr: 0x2E308, symSize: 0x0 }
-  - { offset: 0xA8B1D, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfoNetworkMobileSubtype.onceToken, symObjAddr: 0x9238, symBinAddr: 0x2E310, symSize: 0x0 }
+  - { offset: 0xA8B06, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfoNetworkMobileSubtype.MessageToNetworkSubTypeMessage, symObjAddr: 0x9228, symBinAddr: 0x2E308, symSize: 0x0 }
+  - { offset: 0xA8B1D, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfoNetworkMobileSubtype.onceToken, symObjAddr: 0x9230, symBinAddr: 0x2E310, symSize: 0x0 }
   - { offset: 0xA8EA8, size: 0x8, addend: 0x0, symName: _GDTCCTEncodeString, symObjAddr: 0x0, symBinAddr: 0x41FC, symSize: 0x40 }
   - { offset: 0xA8EF1, size: 0x8, addend: 0x0, symName: _GDTCCTEncodeData, symObjAddr: 0x40, symBinAddr: 0x423C, symSize: 0x68 }
   - { offset: 0xA8F58, size: 0x8, addend: 0x0, symName: _GDTCCTEncodeBatchedLogRequest, symObjAddr: 0xA8, symBinAddr: 0x42A4, symSize: 0xEC }
