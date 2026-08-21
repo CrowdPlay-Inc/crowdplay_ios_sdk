@@ -9,6 +9,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+The Firebase configuration is intentionally not committed. Copy the matching
+`GoogleService-Info.example.plist` to `GoogleService-Info.plist`, then replace
+its placeholders with the Firebase configuration for
+`com.crowdplayapp.sdkexample`. The destination plist is ignored by git.
+
 ## Requirements
 
 ## Installation
