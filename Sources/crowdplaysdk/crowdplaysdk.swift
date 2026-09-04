@@ -185,10 +185,28 @@ public class CrowdplaySdk {
         }
 
         flutterEngine.isGpuDisabled = false
-        flutterViewController = FlutterViewController(
+        let viewController = FlutterViewController(
             engine: flutterEngine, nibName: nil, bundle: nil)
-        flutterViewController?.modalPresentationStyle = .fullScreen
-        return flutterViewController!
+        viewController.modalPresentationStyle = .fullScreen
+
+        // Flutter renders its first frame asynchronously. Show a native
+        // loading indicator during that interval rather than flashing the
+        // Flutter view's default black background.
+        let splashView = UIView()
+        splashView.backgroundColor = .systemBackground
+
+        let activityIndicator = UIActivityIndicatorView(style: .large)
+        activityIndicator.translatesAutoresizingMaskIntoConstraints = false
+        activityIndicator.startAnimating()
+        splashView.addSubview(activityIndicator)
+        NSLayoutConstraint.activate([
+            activityIndicator.centerXAnchor.constraint(equalTo: splashView.centerXAnchor),
+            activityIndicator.centerYAnchor.constraint(equalTo: splashView.centerYAnchor),
+        ])
+        viewController.splashScreenView = splashView
+
+        flutterViewController = viewController
+        return viewController
     }
 
     /// Public entry point for "make CrowdPlay visible now." Routes
