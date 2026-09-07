@@ -826,8 +826,8 @@ relocations:
   - { offset: 0x146065, size: 0x8, addend: 0x0, symName: '-[FIRDatabaseConnectionContextProvider .cxx_destruct]', symObjAddr: 0x119C, symBinAddr: 0x17F20, symSize: 0x54 }
   - { offset: 0x146519, size: 0x8, addend: 0x0, symName: '+[FIRDatabaseQuery sharedQueue]', symObjAddr: 0x0, symBinAddr: 0x17F74, symSize: 0x30 }
   - { offset: 0x146527, size: 0x8, addend: 0x0, symName: '+[FIRDatabaseQuery sharedQueue]', symObjAddr: 0x0, symBinAddr: 0x17F74, symSize: 0x30 }
-  - { offset: 0x146551, size: 0x8, addend: 0x0, symName: _sharedQueue.pred, symObjAddr: 0x101D0, symBinAddr: 0xAB3D0, symSize: 0x0 }
-  - { offset: 0x146567, size: 0x8, addend: 0x0, symName: _sharedQueue.sharedDispatchQueue, symObjAddr: 0x101D8, symBinAddr: 0xAB3D8, symSize: 0x0 }
+  - { offset: 0x146551, size: 0x8, addend: 0x0, symName: _sharedQueue.pred, symObjAddr: 0x101C8, symBinAddr: 0xAB3D0, symSize: 0x0 }
+  - { offset: 0x146567, size: 0x8, addend: 0x0, symName: _sharedQueue.sharedDispatchQueue, symObjAddr: 0x101D0, symBinAddr: 0xAB3D8, symSize: 0x0 }
   - { offset: 0x1468E8, size: 0x8, addend: 0x0, symName: '+[FIRDatabaseQuery sharedQueue].cold.1', symObjAddr: 0x3000, symBinAddr: 0x5FA44, symSize: 0x14 }
   - { offset: 0x146904, size: 0x8, addend: 0x0, symName: '+[FIRDatabaseQuery sharedQueue].cold.1', symObjAddr: 0x3000, symBinAddr: 0x5FA44, symSize: 0x14 }
   - { offset: 0x146916, size: 0x8, addend: 0x0, symName: '___31+[FIRDatabaseQuery sharedQueue]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x17FA4, symSize: 0x30 }
@@ -2069,11 +2069,11 @@ relocations:
   - { offset: 0x16AB4E, size: 0x8, addend: 0x0, symName: '-[FSparseSnapshotTree .cxx_destruct]', symObjAddr: 0x7F8, symBinAddr: 0x40C5C, symSize: 0x30 }
   - { offset: 0x16ADF4, size: 0x8, addend: 0x0, symName: '-[NSData(FSRWebSocket) stringBySHA1ThenBase64Encoding]', symObjAddr: 0x0, symBinAddr: 0x40C8C, symSize: 0x38 }
   - { offset: 0x16AE46, size: 0x8, addend: 0x0, symName: _FSRWebSocketErrorDomain, symObjAddr: 0x8588, symBinAddr: 0x8E2D0, symSize: 0x0 }
-  - { offset: 0x16AEEA, size: 0x8, addend: 0x0, symName: _networkThread, symObjAddr: 0x1F270, symBinAddr: 0xAB528, symSize: 0x0 }
-  - { offset: 0x16AF47, size: 0x8, addend: 0x0, symName: _networkRunLoop, symObjAddr: 0x1F278, symBinAddr: 0xAB530, symSize: 0x0 }
+  - { offset: 0x16AEEA, size: 0x8, addend: 0x0, symName: _networkThread, symObjAddr: 0x1F268, symBinAddr: 0xAB528, symSize: 0x0 }
+  - { offset: 0x16AF47, size: 0x8, addend: 0x0, symName: _networkRunLoop, symObjAddr: 0x1F270, symBinAddr: 0xAB530, symSize: 0x0 }
   - { offset: 0x16AF51, size: 0x8, addend: 0x0, symName: '+[NSRunLoop(FSRWebSocket) FSR_networkRunLoop]', symObjAddr: 0x4444, symBinAddr: 0x45018, symSize: 0x30 }
-  - { offset: 0x16AF7D, size: 0x8, addend: 0x0, symName: _FSR_networkRunLoop.onceToken, symObjAddr: 0x1F280, symBinAddr: 0xAB538, symSize: 0x0 }
-  - { offset: 0x16AFC5, size: 0x8, addend: 0x0, symName: _CRLFCRLF, symObjAddr: 0x1F268, symBinAddr: 0xAB520, symSize: 0x0 }
+  - { offset: 0x16AF7D, size: 0x8, addend: 0x0, symName: _FSR_networkRunLoop.onceToken, symObjAddr: 0x1F278, symBinAddr: 0xAB538, symSize: 0x0 }
+  - { offset: 0x16AFC5, size: 0x8, addend: 0x0, symName: _CRLFCRLF, symObjAddr: 0x1F260, symBinAddr: 0xAB520, symSize: 0x0 }
   - { offset: 0x16AFE1, size: 0x8, addend: 0x0, symName: _CRLFCRLFBytes, symObjAddr: 0x89D8, symBinAddr: 0x73068, symSize: 0x0 }
   - { offset: 0x16B553, size: 0x8, addend: 0x0, symName: '-[NSData(FSRWebSocket) stringBySHA1ThenBase64Encoding]', symObjAddr: 0x0, symBinAddr: 0x40C8C, symSize: 0x38 }
   - { offset: 0x16B598, size: 0x8, addend: 0x0, symName: _newSHA1String, symObjAddr: 0x38, symBinAddr: 0x40CC4, symSize: 0xB0 }
@@ -2760,8 +2760,8 @@ relocations:
   - { offset: 0x17F7B7, size: 0x8, addend: 0x0, symName: '-[FValueEventRegistration .cxx_destruct]', symObjAddr: 0x64C, symBinAddr: 0x53D08, symSize: 0x3C }
   - { offset: 0x17FA6A, size: 0x8, addend: 0x0, symName: '-[FValueIndex compareKey:andNode:toOtherKey:andNode:]', symObjAddr: 0x0, symBinAddr: 0x53D44, symSize: 0x84 }
   - { offset: 0x17FA78, size: 0x8, addend: 0x0, symName: '+[FValueIndex valueIndex]', symObjAddr: 0x278, symBinAddr: 0x53FBC, symSize: 0x30 }
-  - { offset: 0x17FAA2, size: 0x8, addend: 0x0, symName: _valueIndex.valueIndex, symObjAddr: 0x3920, symBinAddr: 0xAB5C8, symSize: 0x0 }
-  - { offset: 0x17FAB8, size: 0x8, addend: 0x0, symName: _valueIndex.once, symObjAddr: 0x3928, symBinAddr: 0xAB5D0, symSize: 0x0 }
+  - { offset: 0x17FAA2, size: 0x8, addend: 0x0, symName: _valueIndex.valueIndex, symObjAddr: 0x3918, symBinAddr: 0xAB5C8, symSize: 0x0 }
+  - { offset: 0x17FAB8, size: 0x8, addend: 0x0, symName: _valueIndex.once, symObjAddr: 0x3920, symBinAddr: 0xAB5D0, symSize: 0x0 }
   - { offset: 0x17FB33, size: 0x8, addend: 0x0, symName: '-[FValueIndex compareKey:andNode:toOtherKey:andNode:]', symObjAddr: 0x0, symBinAddr: 0x53D44, symSize: 0x84 }
   - { offset: 0x17FBB6, size: 0x8, addend: 0x0, symName: '-[FValueIndex compareKey:andNode:toOtherKey:andNode:reverse:]', symObjAddr: 0x84, symBinAddr: 0x53DC8, symSize: 0x2C }
   - { offset: 0x17FC3E, size: 0x8, addend: 0x0, symName: '-[FValueIndex compareNamedNode:toNamedNode:]', symObjAddr: 0xB0, symBinAddr: 0x53DF4, symSize: 0xE4 }

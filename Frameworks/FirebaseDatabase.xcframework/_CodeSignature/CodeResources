@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64/FirebaseDatabase.framework/Modules/FirebaseDatabase.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		T3ItsZPB1LH7+f1HjiKrPLg6iLg=
+		zt5agPXue53OiOTHV+m1NCGnA+U=
 		</data>
 		<key>ios-arm64/FirebaseDatabase.framework/Modules/FirebaseDatabase.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -86,15 +86,15 @@
 		</data>
 		<key>ios-arm64/dSYMs/FirebaseDatabase.framework.dSYM/Contents/Resources/DWARF/FirebaseDatabase</key>
 		<data>
-		1bCMOxPYxLifVVGN+3NQHGK+cxo=
+		dmu/tlY2Noc7MzzyyDnHdAWI0lk=
 		</data>
 		<key>ios-arm64/dSYMs/FirebaseDatabase.framework.dSYM/Contents/Resources/Relocations/aarch64/FirebaseDatabase.yml</key>
 		<data>
-		mbOX5o+EcbCEr5QGe/tH6oRpehQ=
+		dexBzPkU9CX0wY3qRpYxZnUkkn8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseDatabase.framework/FirebaseDatabase</key>
 		<data>
-		vOeZ93hkafZzsPlyNW23VargsIE=
+		TxkVJll5F0bwpP7B0iTcZcdjc6s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseDatabase.framework/Headers/FIRDataEventType.h</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseDatabase.framework/Modules/FirebaseDatabase.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		I0+xTPBP7iPIT3s7DznPDTA0Gxw=
+		4+T4bNQRgGIqKyPtXGvzs5QPEj0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseDatabase.framework/Modules/FirebaseDatabase.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		MljPNjFTOz9tfKgxibhOfOeQ3NA=
+		e2NUBYbLjvj7CewfaC/5T0gMfUM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseDatabase.framework/Modules/FirebaseDatabase.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseDatabase.framework/_CodeSignature/CodeResources</key>
 		<data>
-		lfmczXXLnjHXwBfkysOOa7wOFY4=
+		fwb97BBl+UoRN1jxJf44URpAGwM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -342,11 +342,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T3ItsZPB1LH7+f1HjiKrPLg6iLg=
+			zt5agPXue53OiOTHV+m1NCGnA+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZkxToDcM3Z1ez2ZBcQFpOPndnqCHzV5VwbFVcp7Ith0=
+			AbiVMUkBwFCNuqODqlyJ6sXFHvbMqcYAnpwIGVqcqS8=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseDatabase.framework/Modules/FirebaseDatabase.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -419,33 +419,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1bCMOxPYxLifVVGN+3NQHGK+cxo=
+			dmu/tlY2Noc7MzzyyDnHdAWI0lk=
 			</data>
 			<key>hash2</key>
 			<data>
-			FgBV8n2haVrque+UQMsyB1yZEuBHdl3gB4gWGeFv6Eo=
+			zRcyvy5KIm6ZSFpL6SJW1Pi7PRvJ/0hZSCl2VI91FhQ=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/FirebaseDatabase.framework.dSYM/Contents/Resources/Relocations/aarch64/FirebaseDatabase.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mbOX5o+EcbCEr5QGe/tH6oRpehQ=
+			dexBzPkU9CX0wY3qRpYxZnUkkn8=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ErCZfj8wgjc7dnddX/A/tiwoxuBJ2AJ0vnLfTl4qmQ=
+			IZ9C4M81hBj5uav9k6v6OpIF24O19z/BXqUmHjQ7lCc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseDatabase.framework/FirebaseDatabase</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vOeZ93hkafZzsPlyNW23VargsIE=
+			TxkVJll5F0bwpP7B0iTcZcdjc6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			y8B8e/BPv5aRjaxdwkSc0cZUFVfjmQuII8ldkZfzMPk=
+			Ad+ya3FcTRCVII+9JiPqg4DNNzcQm2Kixf+1/Gcgl08=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseDatabase.framework/Headers/FIRDataEventType.h</key>
@@ -584,22 +584,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I0+xTPBP7iPIT3s7DznPDTA0Gxw=
+			4+T4bNQRgGIqKyPtXGvzs5QPEj0=
 			</data>
 			<key>hash2</key>
 			<data>
-			S8Q7VbNL5rBZJ1QmKuJEL6zS2aemJsInOeBkxRMjE3U=
+			Z3kNa+VP/8Esdw2OifQisNqPsg8ecO4vtENEcz88i/c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseDatabase.framework/Modules/FirebaseDatabase.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MljPNjFTOz9tfKgxibhOfOeQ3NA=
+			e2NUBYbLjvj7CewfaC/5T0gMfUM=
 			</data>
 			<key>hash2</key>
 			<data>
-			4dtwKYfUNLXPsYQf3F38Umrl8vBPF/kRrUfZHmZBLps=
+			11axjmXsuNSeB0SRRNjQC5jSFhNUb444b/b+za8XLBc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseDatabase.framework/Modules/FirebaseDatabase.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -705,11 +705,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lfmczXXLnjHXwBfkysOOa7wOFY4=
+			fwb97BBl+UoRN1jxJf44URpAGwM=
 			</data>
 			<key>hash2</key>
 			<data>
-			YbvctyIzsK/5kMl1mdbd3eMgm3RzS89hf4QexByxwOA=
+			heO3EphBI5SiGxXTwPTP4mJfdF3wREBmt9C6CzIom6c=
 			</data>
 		</dict>
 	</dict>
