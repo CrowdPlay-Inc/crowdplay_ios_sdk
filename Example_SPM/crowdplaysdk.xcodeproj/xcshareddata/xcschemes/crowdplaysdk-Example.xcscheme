@@ -5,6 +5,15 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <PreActions>
+         <ExecutionAction ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent title = "Prepare Flutter" scriptText = "/bin/sh &quot;$FLUTTER_SWIFT_PACKAGE_OUTPUT/Scripts/flutter_integration.sh&quot; prebuild">
+               <EnvironmentBuildable>
+                  <BuildableReference BuildableIdentifier = "primary" BlueprintIdentifier = "607FACCF1AFB9204008FA782" BuildableName = "crowdplaysdk_Example.app" BlueprintName = "crowdplaysdk_Example" ReferencedContainer = "container:crowdplaysdk.xcodeproj"/>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -17,20 +26,6 @@
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
                BuildableName = "crowdplaysdk_Example.app"
                BlueprintName = "crowdplaysdk_Example"
-               ReferencedContainer = "container:crowdplaysdk.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "crowdplaysdk_Tests.xctest"
-               BlueprintName = "crowdplaysdk_Tests"
                ReferencedContainer = "container:crowdplaysdk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,16 +46,6 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "crowdplaysdk_Tests.xctest"
-               BlueprintName = "crowdplaysdk_Tests"
-               ReferencedContainer = "container:crowdplaysdk.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

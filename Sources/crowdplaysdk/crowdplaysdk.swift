@@ -373,7 +373,7 @@ public class CrowdplaySdk {
     /// want CrowdPlay to be presented from (typically the app's
     /// rootViewController).
     public func handleAppLink(appLink: URL, vc: UIViewController) -> Bool {
-        if apiKeyChannel == nil || (appLink.host != "crowdplay" && appLink.host != "rtl-callback") {
+        if apiKeyChannel == nil || (appLink.host != "crowdplay" && appLink.host != "rtl-sdk") {
             return false
         }
 
