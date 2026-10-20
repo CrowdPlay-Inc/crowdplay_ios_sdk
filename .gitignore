@@ -24,6 +24,8 @@ Example_SPM/Pods
 *.bak
 Example_SPM/crowdplay_ios_sdk/
 Example/gc_keys.json
+Example/crowdplaysdk/GoogleService-Info.plist
+Example_SPM/crowdplaysdk/GoogleService-Info.plist
 
 # Bundler
 .bundle
