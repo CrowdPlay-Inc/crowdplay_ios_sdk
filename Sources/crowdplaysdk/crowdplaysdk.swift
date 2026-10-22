@@ -373,7 +373,12 @@ public class CrowdplaySdk {
     /// want CrowdPlay to be presented from (typically the app's
     /// rootViewController).
     public func handleAppLink(appLink: URL, vc: UIViewController) -> Bool {
-        if apiKeyChannel == nil || (appLink.host != "crowdplay" && appLink.host != "rtl-sdk") {
+        // TODO: Remove rtl-callback once deployed RTL producers use rtl-sdk/callback
+        // and legacy links and in-flight callbacks have been retired.
+        if apiKeyChannel == nil ||
+            (appLink.host != "crowdplay" &&
+             appLink.host != "rtl-sdk" &&
+             appLink.host != "rtl-callback") {
             return false
         }
 

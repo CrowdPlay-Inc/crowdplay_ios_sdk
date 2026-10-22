@@ -42,13 +42,10 @@ platform :ios do
 
   desc "Deploy a new build to Testflight"
   lane :beta do |options|
-    spm = options[:spm].to_s == "true"
     build_number = options[:version]
     package_name = "com.crowdplayapp.sdkexample"
     puts package_name
     match(type: "appstore", app_identifier: package_name)
-
-    sh("pod install") unless spm
 
     update_code_signing_settings(
       use_automatic_signing: false,
@@ -69,7 +66,7 @@ platform :ios do
     )
 
     build_ios_app(
-      project: spm ? "crowdplaysdk.xcodeproj" : nil,
+      project: "crowdplaysdk.xcodeproj",
       scheme: "crowdplaysdk-Example",
       export_method: "app-store",
       export_options: {
@@ -88,14 +85,11 @@ platform :ios do
   end
 
   lane :build do |options|
-    spm = options[:spm].to_s == "true"
     desc "Build"
     build_number = number_of_commits()
     package_name = "com.crowdplayapp.sdkexample"
     puts package_name
     match(type: "appstore", app_identifier: package_name)
-
-    sh("pod install") unless spm
 
     update_code_signing_settings(
       use_automatic_signing: false,
@@ -106,7 +100,7 @@ platform :ios do
     )
 
     build_ios_app(
-      project: spm ? "crowdplaysdk.xcodeproj" : nil,
+      project: "crowdplaysdk.xcodeproj",
       scheme: "crowdplaysdk-Example",
       export_method: "app-store",
       export_options: {
