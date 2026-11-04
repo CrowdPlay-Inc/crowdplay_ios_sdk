@@ -13,8 +13,6 @@ import os
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
-    var window: UIWindow?
-
     func application(
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
@@ -68,47 +66,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         _ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
         withCompletionHandler completionHandler: @escaping () -> Void
     ) {
-        //OnTap Notification
         let userInfo = response.notification.request.content.userInfo
-        print("userNotificationCenter center: response: completionHandler:")
-        print(userInfo)
-        if self.window?.rootViewController != nil {
-            if let apiKey = UserDefaults.standard.string(forKey: "apiKey") {
-                CrowdplaySdk.shared.initialize(apiKey: apiKey, appUrlScheme: "cpsdkdemopod")
-            }
-
-            if CrowdplaySdk.shared.handleNotification(
-                userInfo: userInfo, vc: self.window!.rootViewController!)
-            {
-                print("Handled by Crowdplay")
+        for case let scene as UIWindowScene in UIApplication.shared.connectedScenes
+        where scene.activationState == .foregroundActive || scene.activationState == .foregroundInactive {
+            if let presenter = scene.windows.first(where: { $0.isKeyWindow })?.rootViewController {
+                handleNotification(userInfo: userInfo, presenter: presenter)
+                break
             }
         }
-
         completionHandler()
     }
 
-    func application(
-        _ application: UIApplication, open url: URL,
-        options: [UIApplication.OpenURLOptionsKey: Any] = [:]
-    ) -> Bool {
-        // handleAppLink now takes the view controller to present CrowdPlay
-        // from when a deep link arrives — same pattern as handleNotification.
-        // Pass the app's root view controller; if you've set
-        // CrowdplaySdk.shared.onPresentRequested for an embedded
-        // integration, the vc is ignored and your handler runs instead.
-        guard let rootVC = self.window?.rootViewController else {
-            return false
+    func handleNotification(userInfo: [AnyHashable: Any], presenter: UIViewController) {
+        initializeSDKIfNeeded()
+        if CrowdplaySdk.shared.handleNotification(userInfo: userInfo, vc: presenter) {
+            print("Handled by Crowdplay")
         }
-        let handled = CrowdplaySdk.shared.handleAppLink(appLink: url, vc: rootVC)
-        if handled {
-            return true
-        }
+    }
 
-        // Handle pass it down the line or handle within this app
-        // .
-        // .
-        // .
-        return false
+    func handleAppLink(_ url: URL, presenter: UIViewController) {
+        initializeSDKIfNeeded()
+        _ = CrowdplaySdk.shared.handleAppLink(appLink: url, vc: presenter)
     }
 
     func userNotificationCenter(
@@ -121,6 +99,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             completionHandler([.banner, .sound])
         } else {
             completionHandler([.alert, .sound])
+        }
+    }
+
+    private func initializeSDKIfNeeded() {
+        if !CrowdplaySdk.shared.isInitialized,
+           let apiKey = UserDefaults.standard.string(forKey: "apiKey"), !apiKey.isEmpty {
+            CrowdplaySdk.shared.initialize(apiKey: apiKey, appUrlScheme: "cpsdkdemopod")
         }
     }
 }
