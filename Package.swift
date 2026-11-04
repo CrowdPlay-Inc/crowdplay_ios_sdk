@@ -247,8 +247,8 @@ func embeddedPackage5() -> Package {
 // BSD-style license that can be found in the LICENSE file.
 
 
-let libraryVersion = "7.0.0"
-let firebaseSdkVersion: Version = "13.0.0"
+let libraryVersion = "7.0.1"
+let firebaseSdkVersion: Version = "13.1.1"
 
 let package = Package(
   name: "firebase_auth",
@@ -259,7 +259,7 @@ let package = Package(
     .library(name: "firebase-auth", targets: ["firebase_auth"])
   ],
   dependencies: [
-    .package(url: "https://github.com/firebase/firebase-ios-sdk", exact: firebaseSdkVersion),
+    .package(url: "https://github.com/firebase/firebase-ios-sdk", "12.19.3"..."13.1.1"),
     .package(name: "firebase_core", path: "../firebase_core"),
     .package(name: "FlutterFramework", path: "../FlutterFramework"),
   ],
@@ -294,8 +294,8 @@ func embeddedPackage6() -> Package {
 // BSD-style license that can be found in the LICENSE file.
 
 
-let libraryVersionString = "5.0.0"
-let firebaseSdkVersion: Version = "13.0.0"
+let libraryVersionString = "5.1.0"
+let firebaseSdkVersion: Version = "13.1.1"
 
 let package = Package(
   name: "firebase_core",
@@ -306,7 +306,7 @@ let package = Package(
     .library(name: "firebase-core", targets: ["firebase_core", "firebase_core_objc"])
   ],
   dependencies: [
-    .package(url: "https://github.com/firebase/firebase-ios-sdk", exact: firebaseSdkVersion),
+    .package(url: "https://github.com/firebase/firebase-ios-sdk", "12.19.3"..."13.1.1"),
     .package(name: "FlutterFramework", path: "../FlutterFramework"),
   ],
   targets: [
@@ -356,8 +356,8 @@ func embeddedPackage7() -> Package {
 // BSD-style license that can be found in the LICENSE file.
 
 
-let libraryVersion = "13.0.0"
-let firebaseSdkVersion: Version = "13.0.0"
+let libraryVersion = "13.0.1"
+let firebaseSdkVersion: Version = "13.1.1"
 
 let package = Package(
   name: "firebase_database",
@@ -368,7 +368,7 @@ let package = Package(
     .library(name: "firebase-database", targets: ["firebase_database"])
   ],
   dependencies: [
-    .package(url: "https://github.com/firebase/firebase-ios-sdk", exact: firebaseSdkVersion),
+    .package(url: "https://github.com/firebase/firebase-ios-sdk", "12.19.3"..."13.1.1"),
     .package(name: "firebase_core", path: "../firebase_core"),
     .package(name: "FlutterFramework", path: "../FlutterFramework"),
   ],
@@ -404,8 +404,8 @@ func embeddedPackage8() -> Package {
 // BSD-style license that can be found in the LICENSE file.
 
 
-let libraryVersion = "17.0.0"
-let firebaseSdkVersion: Version = "13.0.0"
+let libraryVersion = "17.0.1"
+let firebaseSdkVersion: Version = "13.1.1"
 
 let package = Package(
   name: "firebase_messaging",
@@ -416,7 +416,7 @@ let package = Package(
     .library(name: "firebase-messaging", targets: ["firebase_messaging"])
   ],
   dependencies: [
-    .package(url: "https://github.com/firebase/firebase-ios-sdk", exact: firebaseSdkVersion),
+    .package(url: "https://github.com/firebase/firebase-ios-sdk", "12.19.3"..."13.1.1"),
     .package(name: "firebase_core", path: "../firebase_core"),
     .package(name: "FlutterFramework", path: "../FlutterFramework"),
   ],
@@ -722,7 +722,7 @@ func embeddedPackage17() -> Package {
 // Only development/CI overrides this dependency; exported consumers use the exact tag.
 let nativeDependency: Package.Dependency = ProcessInfo.processInfo.environment["RTL_IOS_SDK_PATH"]
     .flatMap { $0.isEmpty ? nil : .package(name: "rtl_ios_sdk", path: $0) }
-    ?? .package(url: "https://github.com/BOON-Rewards/rtl_ios_sdk.git", exact: "4.2.0")
+    ?? .package(url: "https://github.com/BOON-Rewards/rtl_ios_sdk.git", exact: "4.3.0")
 
 let package = Package(
     name: "rtl_sdk",
@@ -758,7 +758,7 @@ let package = Package(
         .library(name: "sentry-flutter", targets: ["sentry_flutter", "sentry_flutter_objc"])
     ],
     dependencies: [
-      .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "8.56.2"),
+      .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "8.58.4"),
       .package(path: "../FlutterFramework"),
     ],
     targets: [
@@ -1042,7 +1042,7 @@ let package = Package(
             targets: ["crowdplaysdk"])
     ],
     dependencies: [
-        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", exact: "13.0.0"),
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", "12.19.3"..."13.1.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

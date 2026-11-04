@@ -7,8 +7,8 @@
 
 import PackageDescription
 
-let libraryVersion = "7.0.0"
-let firebaseSdkVersion: Version = "13.0.0"
+let libraryVersion = "7.0.1"
+let firebaseSdkVersion: Version = "13.1.1"
 
 let package = Package(
   name: "firebase_auth",
@@ -43,4 +43,4 @@ let package = Package(
 )
 
 
-// firebase_auth-7.0.0
+// firebase_auth-7.0.1

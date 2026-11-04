@@ -71,25 +71,41 @@ class SentryFlutterReplayBreadcrumbConverter : DefaultReplayBreadcrumbConverter(
   private fun doubleTimestamp(timestamp: Long) = timestamp / MILLIS_PER_SECOND
 
   private fun convertNetworkBreadcrumb(breadcrumb: Breadcrumb): RRWebEvent? {
-    var rrWebEvent = super.convert(breadcrumb)
-    if (rrWebEvent == null &&
-      breadcrumb.data.containsKey("start_timestamp") &&
-      breadcrumb.data.containsKey("end_timestamp")
-    ) {
-      rrWebEvent =
-        RRWebSpanEvent().apply {
-          op = "resource.http"
-          timestamp = breadcrumb.timestamp.time
-          description = breadcrumb.data["url"] as String
-          startTimestamp = doubleTimestamp(breadcrumb.data["start_timestamp"] as Long)
-          endTimestamp = doubleTimestamp(breadcrumb.data["end_timestamp"] as Long)
-          data =
-            breadcrumb.data
-              .filterKeys { key -> supportedNetworkData.containsKey(key) }
-              .mapKeys { (key, _) -> supportedNetworkData[key] }
-        }
+    val rrWebEvent = super.convert(breadcrumb)
+    if (rrWebEvent != null) {
+      return rrWebEvent
     }
-    return rrWebEvent
+
+    // The timestamps arrive as Long or Double depending on how the breadcrumb
+    // crossed the platform bridge: the JSON-based scope sync deserializes epoch
+    // millis as Double because they overflow Integer.
+    val startTimestampMs = breadcrumb.data["start_timestamp"] as? Number
+    val endTimestampMs = breadcrumb.data["end_timestamp"] as? Number
+    val url = breadcrumb.data["url"] as? String
+    if (startTimestampMs == null || endTimestampMs == null || url == null) {
+      return null
+    }
+
+    val eventData =
+      breadcrumb.data
+        .filterKeys { key -> supportedNetworkData.containsKey(key) }
+        .mapKeys { (key, _) -> supportedNetworkData[key] }
+        .toMutableMap()
+
+    // Populated by NetworkDetailsCapture on the Dart side when
+    // networkDetailAllowUrls matches; forwarded as-is since it's already
+    // shaped for the replay player (headers/body per request/response).
+    (breadcrumb.data["request"] as? Map<*, *>)?.let { eventData["request"] = it }
+    (breadcrumb.data["response"] as? Map<*, *>)?.let { eventData["response"] = it }
+
+    return RRWebSpanEvent().apply {
+      op = "resource.http"
+      timestamp = breadcrumb.timestamp.time
+      description = url
+      startTimestamp = doubleTimestamp(startTimestampMs.toLong())
+      endTimestamp = doubleTimestamp(endTimestampMs.toLong())
+      data = eventData
+    }
   }
 
   private fun getTouchPathMessage(maybePath: Any?): String? {

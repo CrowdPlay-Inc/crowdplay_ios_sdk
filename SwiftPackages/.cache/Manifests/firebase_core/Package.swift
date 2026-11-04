@@ -7,8 +7,8 @@
 
 import PackageDescription
 
-let libraryVersionString = "5.0.0"
-let firebaseSdkVersion: Version = "13.0.0"
+let libraryVersionString = "5.1.0"
+let firebaseSdkVersion: Version = "13.1.1"
 
 let package = Package(
   name: "firebase_core",
@@ -58,4 +58,4 @@ let package = Package(
 )
 
 
-// firebase_core-5.0.0
+// firebase_core-5.1.0

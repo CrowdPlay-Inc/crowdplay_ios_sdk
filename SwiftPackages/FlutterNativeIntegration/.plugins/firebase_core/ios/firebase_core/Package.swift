@@ -7,8 +7,8 @@
 
 import PackageDescription
 
-let libraryVersionString = "5.0.0"
-let firebaseSdkVersion: Version = "13.0.0"
+let libraryVersionString = "5.1.0"
+let firebaseSdkVersion: Version = "13.1.1"
 
 let package = Package(
   name: "firebase_core",
@@ -19,7 +19,7 @@ let package = Package(
     .library(name: "firebase-core", targets: ["firebase_core", "firebase_core_objc"])
   ],
   dependencies: [
-    .package(url: "https://github.com/firebase/firebase-ios-sdk", exact: firebaseSdkVersion),
+    .package(url: "https://github.com/firebase/firebase-ios-sdk", "12.19.3"..."13.1.1"),
     .package(name: "FlutterFramework", path: "../FlutterFramework"),
   ],
   targets: [

@@ -1,4 +1,4 @@
-// ignore_for_file: invalid_use_of_internal_member
+// ignore_for_file: invalid_use_of_internal_member, experimental_member_use
 
 import 'dart:async';
 import 'dart:ui';
@@ -17,14 +17,18 @@ import 'event_processor/widget_event_processor.dart';
 import 'file_system_transport.dart';
 import 'flutter_exception_type_identifier.dart';
 import 'frame_callback_handler.dart';
+import 'app_start/standalone/app_start_trace.dart';
+import 'app_start/standalone/standalone_app_start_integration.dart';
+import 'app_start/standalone/standalone_app_start_handler.dart';
+import 'app_start/ui_load_attached/generic_app_start_integration.dart';
+import 'app_start/ui_load_attached/native_app_start_handler.dart';
+import 'app_start/ui_load_attached/native_app_start_handler_v2.dart';
 import 'integrations/connectivity/connectivity_integration.dart';
 import 'integrations/flutter_framework_feature_flag_integration.dart';
 import 'integrations/frames_tracking_integration.dart';
 import 'integrations/integrations.dart';
-import 'integrations/native_app_start_handler.dart';
 import 'integrations/replay_telemetry_integration.dart';
 import 'integrations/screenshot_integration.dart';
-import 'integrations/generic_app_start_integration.dart';
 import 'integrations/native_trace_sync_integration.dart';
 import 'integrations/thread_info_integration.dart';
 import 'integrations/web_session_integration.dart';
@@ -33,7 +37,9 @@ import 'native/native_scope_observer.dart';
 import 'native/sentry_native_binding.dart';
 import 'profiling.dart';
 import 'replay/integration.dart';
+import 'replay/network_details_capture.dart';
 import 'screenshot/screenshot_support.dart';
+import 'utils/internal_logger.dart';
 import 'utils/platform_dispatcher_wrapper.dart';
 import 'version.dart';
 import 'view_hierarchy/view_hierarchy_integration.dart';
@@ -125,6 +131,7 @@ mixin SentryFlutter {
 
   static Future<void> _initDefaultValues(SentryFlutterOptions options) async {
     options.addEventProcessor(FlutterExceptionEventProcessor());
+    options.networkDetailsCapture = FlutterNetworkDetailsCapture(options);
 
     // Not all platforms have a native integration.
     if (_native != null) {
@@ -200,12 +207,24 @@ mixin SentryFlutter {
         }
         integrations.add(FramesTrackingIntegration(native));
         if (platform.isIOS || platform.isAndroid || platform.isMacOS) {
+          final frameCallbackHandler = DefaultFrameCallbackHandler();
           integrations.add(
             NativeAppStartIntegration(
-              DefaultFrameCallbackHandler(),
+              frameCallbackHandler,
               NativeAppStartHandler(native),
+              NativeAppStartHandlerV2(native),
             ),
           );
+          if (platform.isIOS || platform.isAndroid) {
+            integrations.add(
+              StandaloneAppStartIntegration(
+                StandaloneAppStartHandler(
+                  frameCallbackHandler: frameCallbackHandler,
+                  native: native,
+                ),
+              ),
+            );
+          }
         }
         integrations.add(ReplayIntegration(native));
       } else {
@@ -272,13 +291,14 @@ mixin SentryFlutter {
   // coverage:ignore-end
 
   @Deprecated(
-      'Use reportFullyDisplayed() on a SentryDisplay instance instead. Read the TTFD documentation at https://docs.sentry.io/platforms/dart/guides/flutter/integrations/routing-instrumentation/#time-to-full-display.')
+    'Use reportFullyDisplayed() on a SentryDisplay instance instead. Read the TTFD documentation at https://docs.sentry.io/platforms/dart/guides/flutter/integrations/routing-instrumentation/#time-to-full-display.',
+  )
   static Future<void> reportFullyDisplayed() async {
     final options = Sentry.currentHub.options;
     if (options is SentryFlutterOptions) {
       try {
         final transactionId = options.timeToDisplayTracker.transactionId;
-        return options.timeToDisplayTracker.reportFullyDisplayed(
+        await options.timeToDisplayTracker.reportFullyDisplayed(
           spanId: transactionId,
         );
       } catch (exception, stackTrace) {
@@ -313,13 +333,186 @@ mixin SentryFlutter {
     if (options is! SentryFlutterOptions) {
       return null;
     }
-    final transactionId = options.timeToDisplayTracker.transactionId;
-    if (transactionId == null) {
-      hub.options.log(SentryLevel.error,
-          'Could not process TTFD for screen ${SentryNavigatorObserver.currentRouteName} - transactionId should not be null');
+    if (!options.enableTimeToFullDisplayTracing) {
+      internalLogger.debug(
+        'TTFD is not enabled. Returning null for currentDisplay.',
+      );
       return null;
     }
-    return SentryDisplay(transactionId, hub: hub);
+    final SpanId? spanId;
+    if (options.traceLifecycle == SentryTraceLifecycle.stream) {
+      spanId = options.timeToDisplayTrackerV2.ttfdSpanId;
+    } else {
+      spanId = options.timeToDisplayTracker.transactionId;
+    }
+    if (spanId == null) {
+      internalLogger.error(
+        'Could not process TTFD for screen ${SentryNavigatorObserver.currentRouteName} - spanId should not be null',
+      );
+      return null;
+    }
+    return SentryDisplay(spanId, hub: hub);
+  }
+
+  /// Extends the active standalone App Start trace, if one exists.
+  ///
+  /// The App Start then measures up to [finishExtendedAppStart] instead of the
+  /// first frame, so startup work that runs past the first frame is part of the
+  /// reported duration.
+  ///
+  /// **Always finish what you extend.** Until the extension finishes, the App
+  /// Start is still in progress: it stays open past its idle timeout, and if
+  /// it hits its 30 second deadline first the extension is dropped from the
+  /// reported duration, which falls back to the first frame. Pair this with
+  /// [finishExtendedAppStart] in a `try` / `finally` so an early return or a
+  /// throw cannot strand it.
+  ///
+  /// Requires [SentryFlutterOptions.enableStandaloneAppStartTracing] on iOS or
+  /// Android. Does nothing on other platforms, once the first frame has
+  /// rendered, or when the App Start is already extended — each of those is
+  /// logged rather than reported back to the caller.
+  ///
+  /// Call this in [init]'s `appRunner` before `runApp`:
+  ///
+  /// ```dart
+  /// await SentryFlutter.init(
+  ///   (options) {
+  ///     options
+  ///       ..dsn = 'YOUR_DSN'
+  ///       ..tracesSampleRate = 1.0
+  ///       ..enableStandaloneAppStartTracing = true;
+  ///   },
+  ///   appRunner: () async {
+  ///     SentryFlutter.extendAppStart();
+  ///     runApp(const MyApp());
+  ///
+  ///     try {
+  ///       await completeStartupWork();
+  ///     } finally {
+  ///       await SentryFlutter.finishExtendedAppStart();
+  ///     }
+  ///   },
+  /// );
+  /// ```
+  @experimental
+  static void extendAppStart() {
+    final options = Sentry.currentHub.options;
+    if (options is! SentryFlutterOptions) {
+      return;
+    }
+    try {
+      final trace = options.standaloneAppStartTrace;
+      if (trace == null) {
+        logAppStartExtensionRefusal(
+          'standalone app-start tracing is not active',
+        );
+        return;
+      }
+      // The refusal is logged by the trace; this entry point reports nothing
+      // back to the caller.
+      trace.tryExtend(options.clock());
+    } catch (error, stackTrace) {
+      internalLogger.error(
+        'Failed to extend app start',
+        error: error,
+        stackTrace: stackTrace,
+      );
+    }
+  }
+
+  /// Returns the active static-lifecycle extended App Start span.
+  ///
+  /// The returned span may be finished directly with [ISentrySpan.finish].
+  /// This completes the extension like [finishExtendedAppStart]; calling both
+  /// is unnecessary.
+  ///
+  /// Use this getter when [SentryFlutterOptions.traceLifecycle] is
+  /// [SentryTraceLifecycle.static]. It returns `null` when standalone App Start
+  /// is inactive, already finished, unavailable, or using the streaming
+  /// lifecycle instead.
+  @experimental
+  static ISentrySpan? getExtendedAppStartSpan() {
+    final options = Sentry.currentHub.options;
+    if (options is! SentryFlutterOptions) {
+      return null;
+    }
+    try {
+      return options.standaloneAppStartTrace?.extendedSpan;
+    } catch (error, stackTrace) {
+      internalLogger.error(
+        'Failed to read the extended app-start span',
+        error: error,
+        stackTrace: stackTrace,
+      );
+      return null;
+    }
+  }
+
+  /// Returns the active streaming-lifecycle extended App Start span.
+  ///
+  /// The returned span may be ended directly with [SentrySpanV2.end].
+  /// This completes the extension like [finishExtendedAppStart]; calling both
+  /// is unnecessary.
+  ///
+  /// Use this getter when [SentryFlutterOptions.traceLifecycle] is
+  /// [SentryTraceLifecycle.stream]. It returns `null` when standalone App Start
+  /// is inactive, already finished, unavailable, or using the static lifecycle
+  /// instead.
+  @experimental
+  static SentrySpanV2? getExtendedAppStartSpanV2() {
+    final options = Sentry.currentHub.options;
+    if (options is! SentryFlutterOptions) {
+      return null;
+    }
+    try {
+      return options.standaloneAppStartTrace?.extendedSpanV2;
+    } catch (error, stackTrace) {
+      internalLogger.error(
+        'Failed to read the extended app-start span',
+        error: error,
+        stackTrace: stackTrace,
+      );
+      return null;
+    }
+  }
+
+  /// Finishes the active standalone App Start extension, if one exists.
+  ///
+  /// This is what releases the App Start opened by [extendAppStart] to report.
+  /// Alternatively, finish or end the span returned by the lifecycle-specific
+  /// extended App Start getter — either one completes the extension, so there
+  /// is no need to do both.
+  ///
+  /// Spans you started under the extension are left running. They hold the App
+  /// Start open on their own until they finish or it hits its deadline, so
+  /// finish them too if they should not delay it.
+  ///
+  /// Does nothing when there is no extension left to finish — it was never
+  /// started, or the App Start has already been reported because it hit its
+  /// deadline first. As with [extendAppStart], each of those is logged rather
+  /// than reported back to the caller.
+  @experimental
+  static Future<void> finishExtendedAppStart() async {
+    final options = Sentry.currentHub.options;
+    if (options is! SentryFlutterOptions) {
+      return;
+    }
+    try {
+      final trace = options.standaloneAppStartTrace;
+      if (trace == null) {
+        logAppStartExtensionFinishRefusal(
+          'there is no app start left to finish',
+        );
+        return;
+      }
+      await trace.finishExtended(options.clock());
+    } catch (error, stackTrace) {
+      internalLogger.error(
+        'Failed to finish the extended app start',
+        error: error,
+        stackTrace: stackTrace,
+      );
+    }
   }
 
   /// Pauses the app hang tracking.

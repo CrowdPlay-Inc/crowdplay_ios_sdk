@@ -3,12 +3,16 @@
 library;
 
 import 'dart:async';
-import 'dart:typed_data';
 
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
-import 'package:sentry_flutter/src/native/java/android_envelope_sender.dart';
+import 'package:sentry_flutter/src/integrations/native_sdk_integration.dart';
+import 'package:sentry_flutter/src/native/java/android_core_worker.dart';
 import 'package:sentry_flutter/src/native/java/sentry_native_java.dart';
+
+import '../mocks.dart';
+import '../mocks.mocks.dart';
 
 void main() {
   // the ReplaySizeAdjustment tests assumes a constant video block size of 16
@@ -52,52 +56,72 @@ void main() {
     });
   });
 
-  group('EnvelopeSender initialization', () {
-    late AndroidEnvelopeSender Function(SentryFlutterOptions) originalFactory;
+  group('$SentryNativeJava', () {
+    late Fixture fixture;
+    late AndroidCoreWorker Function(SentryFlutterOptions) originalFactory;
 
     setUp(() {
-      originalFactory = AndroidEnvelopeSender.factory;
+      originalFactory = AndroidCoreWorker.factory;
+      fixture = Fixture();
+      AndroidCoreWorker.factory = (_) => fixture.worker;
     });
 
     tearDown(() {
-      AndroidEnvelopeSender.factory = originalFactory;
+      AndroidCoreWorker.factory = originalFactory;
     });
 
-    test('starts envelope sender in constructor', () {
-      var factoryCalled = false;
-      var startCalled = false;
+    test('closes the worker explicitly after detach and reattach', () async {
+      final binding = TestWidgetsFlutterBinding.ensureInitialized();
+      fixture.options
+        ..autoInitializeNativeSdk = false
+        ..bindingUtils = TestBindingWrapper();
+      final integration = NativeSdkIntegration(fixture.getSut());
+      await integration.call(MockHub(), fixture.options);
+      addTearDown(integration.close);
 
-      AndroidEnvelopeSender.factory = (options) {
-        factoryCalled = true;
-        return _FakeEnvelopeSender(onStart: () => startCalled = true);
-      };
+      for (final state in ['resumed', 'detached', 'resumed']) {
+        await binding.defaultBinaryMessenger.handlePlatformMessage(
+          'flutter/lifecycle',
+          const StringCodec().encodeMessage('AppLifecycleState.$state'),
+          (_) {},
+        );
+      }
+      await integration.close();
 
-      final options =
-          SentryFlutterOptions(dsn: 'https://abc@def.ingest.sentry.io/1234567');
-      SentryNativeJava(options);
+      expect(fixture.worker.closed, isTrue);
+    });
 
-      expect(factoryCalled, isTrue,
-          reason: 'Factory should be called during construction');
-      expect(startCalled, isTrue,
-          reason: 'start() should be called during construction');
+    test('starts core worker in constructor', () {
+      fixture.getSut();
+
+      expect(fixture.worker.started, isTrue);
+    });
+
+    test('close() closes the core worker synchronously, before its first await',
+        () async {
+      final native = fixture.getSut();
+
+      final closeFuture = native.close();
+      expect(fixture.worker.closed, isTrue);
+
+      await closeFuture;
     });
   });
 }
 
-/// Fake envelope sender for testing that tracks method calls.
-class _FakeEnvelopeSender implements AndroidEnvelopeSender {
-  final void Function()? onStart;
-
-  _FakeEnvelopeSender({this.onStart});
+/// Fake core worker for testing that tracks method calls.
+class _FakeCoreWorker implements AndroidCoreWorker {
+  bool started = false;
+  bool closed = false;
 
   @override
   FutureOr<void> start() {
-    onStart?.call();
+    started = true;
   }
 
   @override
   FutureOr<void> close() {
-    // No-op for testing
+    closed = true;
   }
 
   @override
@@ -105,4 +129,46 @@ class _FakeEnvelopeSender implements AndroidEnvelopeSender {
       Uint8List envelopeData, bool containsUnhandledException) {
     // No-op for testing
   }
+
+  @override
+  FutureOr<List<DebugImage>?> loadDebugImages(SentryStackTrace stackTrace) {
+    return null;
+  }
+
+  @override
+  FutureOr<Map<String, dynamic>?> loadContexts() {
+    return null;
+  }
+
+  @override
+  void addBreadcrumb(Breadcrumb breadcrumb) {
+    // No-op for testing
+  }
+
+  @override
+  FutureOr<void> clearBreadcrumbs() {
+    // No-op for testing
+  }
+
+  @override
+  void setUser(SentryUser? user) {
+    // No-op for testing
+  }
+
+  @override
+  void setContexts(String key, value) {
+    // No-op for testing
+  }
+
+  @override
+  FutureOr<void> removeContexts(String key) {
+    // No-op for testing
+  }
+}
+
+class Fixture {
+  final options = defaultTestOptions();
+  final worker = _FakeCoreWorker();
+
+  SentryNativeJava getSut() => SentryNativeJava(options);
 }

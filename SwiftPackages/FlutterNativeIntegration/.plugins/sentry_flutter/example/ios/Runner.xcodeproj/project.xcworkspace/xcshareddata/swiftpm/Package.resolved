@@ -5,7 +5,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/simolus3/CSQLite.git",
       "state" : {
-        "revision" : "ae972b235e8b3c5af6d8f4e5bf18c800bdddb27e"
+        "revision" : "1ee46d19a4f451a7aa64ffc64fc99b4748131e62"
       }
     },
     {
@@ -13,8 +13,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/getsentry/sentry-cocoa",
       "state" : {
-        "revision" : "9e193ac0b71760603aa666bad7e9e303dd7031a8",
-        "version" : "8.56.2"
+        "revision" : "f196cbb98e0388381d57908f2f5a9bdc385cde68",
+        "version" : "8.58.4"
       }
     }
   ],

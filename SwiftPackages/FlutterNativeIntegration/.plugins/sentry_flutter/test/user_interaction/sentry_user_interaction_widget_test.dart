@@ -1,9 +1,12 @@
+// ignore_for_file: experimental_member_use
+
 @TestOn('vm')
 library;
 // ignore_for_file: invalid_use_of_internal_member
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
@@ -11,6 +14,12 @@ import 'package:sentry/src/sentry_tracer.dart';
 
 import '../mocks.dart';
 import '../mocks.mocks.dart';
+
+// The Scaffold widget tree uses AnimatedBuilder on stable but Builder on beta.
+// Use anyOf to accept either name since this is a framework-internal detail.
+final _animatedBuilderElement = {
+  'element': anyOf('AnimatedBuilder', 'Builder')
+};
 
 void main() {
   late Fixture fixture;
@@ -120,7 +129,7 @@ void main() {
                 {'name': '_ScaffoldSlot.body', 'element': 'LayoutId'},
                 {'element': 'CustomMultiChildLayout'},
                 {'element': 'Actions'},
-                {'element': 'AnimatedBuilder'},
+                _animatedBuilderElement,
                 {'element': 'DefaultTextStyle'}
               ],
               'view.id': 'btn_1',
@@ -147,7 +156,7 @@ void main() {
                 {'name': '_ScaffoldSlot.body', 'element': 'LayoutId'},
                 {'element': 'CustomMultiChildLayout'},
                 {'element': 'Actions'},
-                {'element': 'AnimatedBuilder'},
+                _animatedBuilderElement,
                 {'element': 'DefaultTextStyle'}
               ],
               'label': 'Button 1',
@@ -175,7 +184,7 @@ void main() {
                 {'name': '_ScaffoldSlot.body', 'element': 'LayoutId'},
                 {'element': 'CustomMultiChildLayout'},
                 {'element': 'Actions'},
-                {'element': 'AnimatedBuilder'},
+                _animatedBuilderElement,
                 {'element': 'DefaultTextStyle'}
               ],
               'label': 'My Icon',
@@ -203,7 +212,7 @@ void main() {
                 {'name': '_ScaffoldSlot.body', 'element': 'LayoutId'},
                 {'element': 'CustomMultiChildLayout'},
                 {'element': 'Actions'},
-                {'element': 'AnimatedBuilder'},
+                _animatedBuilderElement,
                 {'element': 'DefaultTextStyle'}
               ],
               'label': 'Button 2',
@@ -275,7 +284,7 @@ void main() {
                 {'name': '_ScaffoldSlot.body', 'element': 'LayoutId'},
                 {'element': 'CustomMultiChildLayout'},
                 {'element': 'Actions'},
-                {'element': 'AnimatedBuilder'},
+                _animatedBuilderElement,
                 {'element': 'DefaultTextStyle'}
               ],
               'view.id': 'popup_menu_button',
@@ -341,6 +350,33 @@ void main() {
       });
     });
 
+    // Regression test for https://github.com/getsentry/sentry-dart/issues/1208
+    testWidgets(
+        'Add crumb for button on Page2 not Page1 when pages are stacked',
+        (tester) async {
+      await tester.runAsync(() async {
+        final sut = fixture.getSut();
+
+        await tester.pumpWidget(sut);
+
+        // Navigate to Page2 (Page1 stays behind in the nav stack).
+        await tester.tap(find.byKey(Key('btn_go_to_page2')));
+        await tester.pumpAndSettle();
+
+        // Page2's btn_page_2 fills the entire screen (SizedBox.expand).
+        // Tap at btn_1's center, which is inside both buttons' bounds.
+        final btn1Center =
+            tester.getCenter(find.byKey(Key('btn_1'), skipOffstage: false));
+        await tester.tapAt(btn1Center);
+
+        final data = fixture.getBreadcrumb().data;
+        expect(data?['view.id'], equals('btn_page_2'),
+            reason: 'Should identify the Page2 button, not the Page1 button '
+                'behind it in the navigation stack');
+        expect(data?['view.class'], equals('MaterialButton'));
+      });
+    });
+
     testWidgets('Add crumb for button without key', (tester) async {
       await tester.runAsync(() async {
         final sut = fixture.getSut(sendDefaultPii: true);
@@ -366,7 +402,7 @@ void main() {
                 {'name': '_ScaffoldSlot.body', 'element': 'LayoutId'},
                 {'element': 'CustomMultiChildLayout'},
                 {'element': 'Actions'},
-                {'element': 'AnimatedBuilder'},
+                _animatedBuilderElement,
                 {'element': 'DefaultTextStyle'}
               ],
               'label': 'Button 5',
@@ -532,6 +568,207 @@ void main() {
       });
     });
   });
+
+  group('$SentryUserInteractionWidget spanV2', () {
+    late Fixture fixture;
+    setUp(() async {
+      fixture = Fixture();
+      TestWidgetsFlutterBinding.ensureInitialized();
+    });
+
+    testWidgets('starts idle span on tap', (tester) async {
+      await tester.runAsync(() async {
+        final sut = fixture.getSut(
+          enableUserInteractionTracing: true,
+          enableUserInteractionBreadcrumbs: false,
+          traceLifecycle: SentryTraceLifecycle.stream,
+        );
+
+        await tapMe(tester, sut, 'btn_1');
+
+        final activeSpan = fixture.hub.getActiveSpan();
+        expect(activeSpan, isA<IdleRecordingSentrySpanV2>());
+        expect(activeSpan?.name, 'btn_1');
+        expect(
+          activeSpan?.attributes[SemanticAttributesConstants.sentryOp]?.value,
+          SentrySpanOperations.uiActionClick,
+        );
+        expect(
+          activeSpan
+              ?.attributes[SemanticAttributesConstants.sentrySegmentNameSource]
+              ?.value,
+          'component',
+        );
+      });
+    });
+
+    testWidgets('does not start idle span when ui.load span is active',
+        (tester) async {
+      await tester.runAsync(() async {
+        final sut = fixture.getSut(
+          enableUserInteractionTracing: true,
+          enableUserInteractionBreadcrumbs: false,
+          traceLifecycle: SentryTraceLifecycle.stream,
+        );
+
+        // Start a ui.load idle span before tapping
+        fixture.hub.startIdleSpan(
+          'ui.load',
+          attributes: {
+            SemanticAttributesConstants.sentryOp:
+                SentryAttribute.string(SentrySpanOperations.uiLoad),
+          },
+        );
+        final loadSpan = fixture.hub.getActiveSpan();
+        expect(loadSpan, isA<IdleRecordingSentrySpanV2>());
+
+        await tapMe(tester, sut, 'btn_1');
+
+        // The ui.load span should still be the active one (not replaced)
+        expect(fixture.hub.getActiveSpan(), same(loadSpan));
+      });
+    });
+
+    testWidgets('resets idle timer when same widget is tapped again',
+        (tester) async {
+      await tester.runAsync(() async {
+        final sut = fixture.getSut(
+          enableUserInteractionTracing: true,
+          enableUserInteractionBreadcrumbs: false,
+          traceLifecycle: SentryTraceLifecycle.stream,
+        );
+
+        await tapMe(tester, sut, 'btn_1');
+        final firstSpan = fixture.hub.getActiveSpan();
+        expect(firstSpan, isA<IdleRecordingSentrySpanV2>());
+
+        // Tap same widget again
+        await tapMe(tester, sut, 'btn_1');
+
+        // Should still be the same span (not a new one)
+        expect(fixture.hub.getActiveSpan(), same(firstSpan));
+        expect(firstSpan?.isEnded, isFalse);
+      });
+    });
+
+    testWidgets(
+        'cancels previous idle span when tapping different widget after activity',
+        (tester) async {
+      await tester.runAsync(() async {
+        final sut = fixture.getSut(
+          enableUserInteractionTracing: true,
+          enableUserInteractionBreadcrumbs: false,
+          traceLifecycle: SentryTraceLifecycle.stream,
+        );
+
+        await tapMe(tester, sut, 'btn_1');
+        final firstSpan = fixture.hub.getActiveSpan();
+        expect(firstSpan, isA<IdleRecordingSentrySpanV2>());
+
+        // Simulate descendant activity by starting a child span
+        fixture.hub.startSpanSync('child-work', (_) {});
+
+        await Future<void>.delayed(Duration.zero);
+        // Tap a different widget
+        await tapMe(tester, sut, 'btn_2', pumpWidget: false);
+
+        // First span should be cancelled
+        expect(firstSpan!.isEnded, isTrue);
+        expect(firstSpan.status, SentrySpanStatusV2.ok);
+        expect(
+          firstSpan
+              .attributes[
+                  SemanticAttributesConstants.sentryIdleSpanFinishReason]
+              ?.value,
+          'cancelled',
+        );
+
+        // New idle span should be started for btn_2
+        final newSpan = fixture.hub.getActiveSpan();
+        expect(newSpan, isA<IdleRecordingSentrySpanV2>());
+        expect(newSpan?.name, 'btn_2');
+      });
+    });
+  });
+
+  // Regression tests for https://github.com/getsentry/sentry-dart/issues/3503
+  group('$SentryUserInteractionWidget tap distortion', () {
+    testWidgets(
+      'does not re-trigger hitTest on descendant render objects during pointerUp',
+      (tester) async {
+        final hitTestPositions = <Offset>[];
+        final hitNotifier = ValueNotifier<Offset?>(null);
+
+        await tester.pumpWidget(fixture.getSut(
+          child: MaterialApp(
+            home: Scaffold(
+              body: GestureDetector(
+                onTap: () {},
+                child: HitTestTracker(
+                  hitTestPositions: hitTestPositions,
+                  hitNotifier: hitNotifier,
+                  child: const SizedBox.expand(),
+                ),
+              ),
+            ),
+          ),
+        ));
+
+        hitTestPositions.clear();
+
+        final center = tester.getCenter(find.byType(SizedBox).last);
+        final gesture = await tester.startGesture(center);
+        await tester.pump();
+
+        final hitTestCountAfterDown = hitTestPositions.length;
+
+        await gesture.up();
+        await tester.pumpAndSettle();
+
+        expect(hitTestPositions.length, equals(hitTestCountAfterDown),
+            reason: 'SentryUserInteractionWidget should not re-trigger '
+                'hitTest on pointerUp');
+      },
+    );
+
+    testWidgets(
+      'does not overwrite hitNotifier value that was set during pointerDown',
+      (tester) async {
+        final hitTestPositions = <Offset>[];
+        final hitNotifier = ValueNotifier<Offset?>(null);
+
+        await tester.pumpWidget(fixture.getSut(
+          child: MaterialApp(
+            home: Scaffold(
+              body: GestureDetector(
+                onTap: () {},
+                child: HitTestTracker(
+                  hitTestPositions: hitTestPositions,
+                  hitNotifier: hitNotifier,
+                  child: const SizedBox.expand(),
+                ),
+              ),
+            ),
+          ),
+        ));
+
+        final center = tester.getCenter(find.byType(SizedBox).last);
+        final gesture = await tester.startGesture(center);
+        await tester.pump();
+
+        expect(hitNotifier.value, isNotNull);
+
+        hitNotifier.value = null;
+
+        await gesture.up();
+        await tester.pumpAndSettle();
+
+        expect(hitNotifier.value, isNull,
+            reason: 'SentryUserInteractionWidget should not overwrite '
+                'hitNotifier during pointerUp');
+      },
+    );
+  });
 }
 
 Future<void> tapMe(
@@ -556,6 +793,8 @@ class Fixture {
     bool enableUserInteractionBreadcrumbs = true,
     double? tracesSampleRate = 1.0,
     bool sendDefaultPii = false,
+    SentryTraceLifecycle? traceLifecycle,
+    Widget? child,
   }) {
     // Missing mock exception
     when(_transport.send(any)).thenAnswer((_) async => SentryId.newId());
@@ -566,12 +805,15 @@ class Fixture {
     _options.enableUserInteractionBreadcrumbs =
         enableUserInteractionBreadcrumbs;
     _options.sendDefaultPii = sendDefaultPii;
+    if (traceLifecycle != null) {
+      _options.traceLifecycle = traceLifecycle;
+    }
 
     hub = Hub(_options);
 
     return SentryUserInteractionWidget(
       hub: hub,
-      child: MyApp(),
+      child: child ?? MyApp(),
     );
   }
 
@@ -681,15 +923,11 @@ class Page2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
-          children: [
-            MaterialButton(
-              key: Key('btn_page_2'),
-              onPressed: () {},
-              child: const Text('Button Page 2'),
-            ),
-          ],
+      body: SizedBox.expand(
+        child: MaterialButton(
+          key: Key('btn_page_2'),
+          onPressed: () {},
+          child: const Text('Button Page 2'),
         ),
       ),
     );
@@ -725,4 +963,56 @@ extension on List<dynamic> {
           return value;
         }
       });
+}
+
+/// A widget whose [RenderBox] records every [hitTest] call and updates a
+/// [ValueNotifier] — mimicking flutter_map's `LayerHitNotifier` pattern
+/// where state is set during hit testing.
+class HitTestTracker extends SingleChildRenderObjectWidget {
+  const HitTestTracker({
+    required this.hitTestPositions,
+    required this.hitNotifier,
+    super.child,
+    super.key,
+  });
+
+  final List<Offset> hitTestPositions;
+  final ValueNotifier<Offset?> hitNotifier;
+
+  @override
+  RenderObject createRenderObject(BuildContext context) {
+    return RenderHitTestTracker(
+      hitTestPositions: hitTestPositions,
+      hitNotifier: hitNotifier,
+    );
+  }
+
+  @override
+  void updateRenderObject(
+      BuildContext context, RenderHitTestTracker renderObject) {
+    renderObject
+      ..hitTestPositions = hitTestPositions
+      ..hitNotifier = hitNotifier;
+  }
+}
+
+class RenderHitTestTracker extends RenderProxyBox {
+  RenderHitTestTracker({
+    required List<Offset> hitTestPositions,
+    required ValueNotifier<Offset?> hitNotifier,
+  })  : _hitTestPositions = hitTestPositions,
+        _hitNotifier = hitNotifier;
+
+  List<Offset> _hitTestPositions;
+  set hitTestPositions(List<Offset> value) => _hitTestPositions = value;
+
+  ValueNotifier<Offset?> _hitNotifier;
+  set hitNotifier(ValueNotifier<Offset?> value) => _hitNotifier = value;
+
+  @override
+  bool hitTest(BoxHitTestResult result, {required Offset position}) {
+    _hitTestPositions.add(position);
+    _hitNotifier.value = position;
+    return super.hitTest(result, position: position);
+  }
 }

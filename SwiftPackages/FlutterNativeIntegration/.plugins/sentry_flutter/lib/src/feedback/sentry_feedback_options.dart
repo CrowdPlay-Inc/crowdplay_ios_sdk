@@ -1,3 +1,6 @@
+import 'dart:ui';
+import '../../sentry_flutter.dart';
+
 class SentryFeedbackOptions {
   // Form Configuration
 
@@ -45,6 +48,9 @@ class SentryFeedbackOptions {
   /// The message displayed after a successful feedback submission.
   String successMessageText = 'Thank you for your report!';
 
+  /// Whether to show the default success message after a successful feedback submission.
+  bool showSuccessMessage = true;
+
   /// The label next to the name input field.
   String nameLabel = 'Name';
 
@@ -72,6 +78,16 @@ class SentryFeedbackOptions {
   /// The label of the remove screenshot button.
   String removeScreenshotButtonLabel = 'Remove screenshot';
 
-  /// The label of the take screenshot button shown outside of the feedback widget.
+  /// The label of the take screenshot button shown outside of the feedback form.
   String takeScreenshotButtonLabel = 'Take Screenshot';
+
+  // Theme Configuration
+
+  /// Background color used for the success snack bar.
+  Color successColor = const Color(0xFF268D75);
+
+  // Event Callbacks
+
+  /// Called when feedback is successfully submitted.
+  void Function(SentryFeedback feedback, SentryId eventId)? onSubmitSuccess;
 }

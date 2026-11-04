@@ -4,6 +4,8 @@ import 'profiling_test.dart' as b;
 import 'replay_test.dart' as c;
 import 'platform_integrations_test.dart' as d;
 import 'native_jni_utils_test.dart' as e;
+import 'native_sdk_lifecycle_test.dart' as f;
+import 'replay_config_test.dart' as g;
 
 void main() {
   a.main();
@@ -11,4 +13,6 @@ void main() {
   c.main();
   d.main();
   e.main();
+  f.main();
+  g.main();
 }

@@ -123,8 +123,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/BOON-Rewards/rtl_ios_sdk.git",
       "state" : {
-        "revision" : "0640ee2088cf8249af016747a882fe1c851a6a1d",
-        "version" : "4.2.0"
+        "revision" : "a8c40ab8fc10ea7b593c7a50f9210289753d0fd7",
+        "version" : "4.3.0"
       }
     },
     {
@@ -132,8 +132,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/getsentry/sentry-cocoa",
       "state" : {
-        "revision" : "9e193ac0b71760603aa666bad7e9e303dd7031a8",
-        "version" : "8.56.2"
+        "revision" : "f196cbb98e0388381d57908f2f5a9bdc385cde68",
+        "version" : "8.58.4"
       }
     }
   ],

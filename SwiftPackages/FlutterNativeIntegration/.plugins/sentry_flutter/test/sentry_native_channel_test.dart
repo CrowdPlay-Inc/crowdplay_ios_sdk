@@ -452,8 +452,8 @@ void main() {
             frameRate: 3);
 
         if (mockPlatform.isAndroid) {
-          final matcher = _nativeUnavailableMatcher();
-          expect(() => sut.setReplayConfig(config), matcher);
+          // Native delivery is deferred until a replay recorder exists.
+          await sut.setReplayConfig(config);
           verifyZeroInteractions(channel);
         } else {
           when(channel.invokeMethod('setReplayConfig', any))
@@ -500,10 +500,31 @@ void main() {
 
         verifyZeroInteractions(channel);
       });
+
+      if (!mockPlatform.isAndroid) {
+        test('does not close the native SDK when init was never called',
+            () async {
+          await sut.close();
+
+          verifyNever(channel.invokeMethod('closeNativeSdk'));
+        });
+
+        test('closes the native SDK after init ran', () async {
+          when(channel.invokeMethod('initNativeSdk', any))
+              .thenAnswer((_) => Future.value());
+          when(channel.invokeMethod('closeNativeSdk'))
+              .thenAnswer((_) => Future.value());
+
+          await sut.init(MockHub());
+          await sut.close();
+
+          verify(channel.invokeMethod('closeNativeSdk')).called(1);
+        });
+      }
     });
   }
 
-  group('init captureFailedRequests on iOS/macOS', () {
+  group('init options on iOS/macOS', () {
     late SentryNativeBinding sut;
     late MockMethodChannel channel;
 
@@ -521,6 +542,18 @@ void main() {
 
     setUp(() {
       channel = MockMethodChannel();
+    });
+
+    test('forwards sampleRate', () async {
+      final options = defaultTestOptions()
+        ..platform = MockPlatform.iOS()
+        ..methodChannel = channel
+        ..sampleRate = 0.25;
+      sut = createBinding(options);
+
+      final args = await callInitAndCaptureArgs(options);
+
+      expect(args['sampleRate'], 0.25);
     });
 
     test(

@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "sentry-flutter", targets: ["sentry_flutter", "sentry_flutter_objc"])
     ],
     dependencies: [
-      .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "8.56.2"),
+      .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "8.58.4"),
       .package(path: "../FlutterFramework"),
     ],
     targets: [
@@ -40,4 +40,4 @@ let package = Package(
 )
 
 
-// sentry_flutter-9.14.0
+// sentry_flutter-9.30.1

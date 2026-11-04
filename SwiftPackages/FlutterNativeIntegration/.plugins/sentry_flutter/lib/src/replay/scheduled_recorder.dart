@@ -5,6 +5,7 @@ import 'package:meta/meta.dart';
 
 import '../../sentry_flutter.dart';
 import '../screenshot/screenshot.dart';
+import '../utils/internal_logger.dart';
 import 'replay_recorder.dart';
 import 'scheduled_recorder_config.dart';
 import 'scheduler.dart';
@@ -18,6 +19,7 @@ class ScheduledScreenshotRecorder extends ReplayScreenshotRecorder {
   late final ScheduledScreenshotRecorderCallback _callback;
   var _status = _Status.stopped;
   Scheduler? _scheduler;
+  int _schedulerRestartGeneration = 0;
   // late final _idleFrameFiller = _IdleFrameFiller(_frameDuration, _onScreenshot);
 
   @override
@@ -68,8 +70,26 @@ class ScheduledScreenshotRecorder extends ReplayScreenshotRecorder {
     return _scheduler?.stop() ?? Future.value();
   }
 
+  /// The engine's surface can be torn down as soon as the app leaves
+  /// [AppLifecycleState.resumed]. A capture started after that point can
+  /// outlive the surface backing its GPU texture, and releasing the texture
+  /// against a dead Vulkan context aborts in the driver (#3923).
+  ///
+  /// Captures already in flight when the transition happens are handled by
+  /// [Scheduler.stop]; this only prevents new ones from starting.
+  bool get _canStartCapture {
+    final state = options.bindingUtils.instance?.lifecycleState;
+    // null until the first lifecycle message arrives, i.e. during startup,
+    // where the app is foreground by definition.
+    return state == null || state == AppLifecycleState.resumed;
+  }
+
   Future<void> _restartScheduler() async {
+    final generation = ++_schedulerRestartGeneration;
     await _stopScheduler();
+    // Only the latest restart may create a scheduler.
+    // stop() and pause() also invalidate pending restarts.
+    if (generation != _schedulerRestartGeneration) return;
 
     if (super.config == null) {
       return;
@@ -81,7 +101,14 @@ class ScheduledScreenshotRecorder extends ReplayScreenshotRecorder {
 
     _scheduler = Scheduler(
       frameDuration,
-      (_) => capture(_onImageCaptured),
+      (_) async {
+        if (!_canStartCapture) {
+          internalLogger
+              .debug(() => '$logName: skipping capture, app is not resumed.');
+          return;
+        }
+        await capture(_onImageCaptured);
+      },
       _addPostFrameCallback,
     );
 
@@ -97,6 +124,7 @@ class ScheduledScreenshotRecorder extends ReplayScreenshotRecorder {
   }
 
   Future<void> stop() async {
+    _schedulerRestartGeneration++;
     options.log(SentryLevel.debug, "$logName: stopping capture.");
     _status = _Status.stopped;
     await _stopScheduler();
@@ -106,6 +134,7 @@ class ScheduledScreenshotRecorder extends ReplayScreenshotRecorder {
 
   Future<void> pause() async {
     if (_status == _Status.running) {
+      _schedulerRestartGeneration++;
       _status = _Status.paused;
       // _idleFrameFiller.pause();
       await _stopScheduler();

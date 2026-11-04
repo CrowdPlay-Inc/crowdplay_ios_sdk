@@ -10,6 +10,9 @@ public final class SentryFlutter {
         if let dsn = data["dsn"] as? String {
             options.dsn = dsn
         }
+        if let sampleRate = data["sampleRate"] as? NSNumber {
+            options.sampleRate = sampleRate
+        }
         if let isDebug = data["debug"] as? Bool {
             options.debug = isDebug
         }
@@ -135,6 +138,10 @@ public final class SentryFlutter {
                             "version": flutterSdk["version"]
                         ], forKey: "sdkInfo")
                 }
+
+                // Sentry Flutter handles its own screenshot capture and masking in Dart,
+                // so it's not affected by Liquid Glass masking issues on iOS 26+.
+                options.experimental.enableSessionReplayInUnreliableEnvironment = true
             }
         #endif
     }

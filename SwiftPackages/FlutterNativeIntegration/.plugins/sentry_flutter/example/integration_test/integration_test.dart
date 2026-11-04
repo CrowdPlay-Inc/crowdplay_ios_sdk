@@ -10,6 +10,7 @@ import 'package:http/http.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
+import 'package:sentry_flutter_example/app_config.dart';
 import 'package:sentry_flutter_example/main.dart';
 import 'package:sentry_flutter/src/native/java/sentry_native_java.dart';
 import 'package:sentry_flutter/src/native/java/binding.dart' as jni;
@@ -53,7 +54,7 @@ void main() {
     await setupSentryAndApp(tester);
 
     // Find any UI element and verify it is present.
-    expect(find.text('Open another Scaffold'), findsOneWidget);
+    expect(find.text('Errors'), findsOneWidget);
   });
 
   testWidgets('setup sentry and capture event', (tester) async {
@@ -150,6 +151,75 @@ void main() {
     });
   });
 
+  testWidgets('syncs large scope maps to native on Android', (tester) async {
+    await restoreFlutterOnErrorAfter(() async {
+      await setupSentryAndApp(tester);
+    });
+
+    final largeItems = List.generate(
+      64,
+      (index) => {
+        'index': index,
+        'label': 'item-$index',
+        'nested': {
+          'enabled': index.isEven,
+          'value': index * 1.5,
+          'nullEntry': null,
+        },
+      },
+    );
+
+    await Sentry.configureScope((scope) async {
+      await scope.setContexts('large_context', {
+        'items': largeItems,
+        'customObject': CustomObject(),
+        'nullEntry': null,
+        'sparseList': ['a', null, 'c'],
+      });
+      await scope.setUser(SentryUser(
+        id: 'large-user',
+        data: {
+          'items': largeItems,
+          'customObject': CustomObject(),
+          'nullEntry': null,
+          'sparseList': ['a', null, 'c'],
+        },
+      ));
+      await scope.addBreadcrumb(Breadcrumb(
+        message: 'large-breadcrumb',
+        data: {
+          'items': largeItems,
+          'customObject': CustomObject(),
+          'nullEntry': null,
+          'sparseList': ['a', null, 'c'],
+        },
+      ));
+    });
+
+    final nativeContexts = await SentryFlutter.native?.loadContexts();
+    final contextData = nativeContexts?['contexts'] as Map?;
+    final largeContext = contextData?['large_context'] as Map?;
+    final nativeUser = nativeContexts?['user'] as Map?;
+    final breadcrumbs = nativeContexts?['breadcrumbs'] as List?;
+    final nativeBreadcrumb = breadcrumbs?.cast<Map>().firstWhere(
+          (breadcrumb) => breadcrumb['message'] == 'large-breadcrumb',
+        );
+
+    expect((largeContext?['items'] as List?)?.length, 64);
+    expect(largeContext?['customObject'], CustomObject().toString());
+    expect(largeContext?.containsKey('nullEntry'), isTrue);
+    expect(largeContext?['nullEntry'], isNull);
+    expect(largeContext?['sparseList'], ['a', null, 'c']);
+    expect(nativeUser?['id'], 'large-user');
+    final userData = nativeUser?['data'] as Map?;
+    expect((userData?['items'] as List?)?.length, 64);
+    expect(userData?['sparseList'], ['a', null, 'c']);
+
+    final breadcrumbData = nativeBreadcrumb?['data'] as Map?;
+    expect((breadcrumbData?['items'] as List?)?.length, 64);
+    expect(breadcrumbData?['sparseList'], ['a', null, 'c']);
+  }, skip: !Platform.isAndroid);
+
   testWidgets('setup sentry and start transaction', (tester) async {
     await setupSentryAndApp(tester);
 
@@ -183,6 +253,7 @@ void main() {
       }, (options) {
         options.dsn = fakeDsn;
         options.debug = true;
+        options.sampleRate = 0.25;
         options.diagnosticLevel = SentryLevel.error;
         options.environment = 'init-test-env';
         options.release = '1.2.3+9';
@@ -227,6 +298,7 @@ void main() {
 
     expect(androidOptions, isNotNull);
     expect(androidOptions.getDsn()?.toDartString(), fakeDsn);
+    expect(androidOptions.getSampleRate()?.doubleValue(), 0.25);
     expect(androidOptions.isDebug(), isTrue);
     final diagnostic = androidOptions.getDiagnosticLevel();
     expect(
@@ -305,11 +377,9 @@ void main() {
     final contexts = await SentryFlutter.native?.loadContexts();
 
     final appPackageInfo = await PackageInfo.fromPlatform();
-    final expectedAppId = Platform.isAndroid
-        ? 'io.sentry.samples.flutter'
-        : 'io.sentry.flutter.sample';
+    const expectedAppId = 'io.sentry.flutter.sample';
     final expectedSdkName =
-        Platform.isAndroid ? 'maven:sentry-android' : 'cocoapods:sentry-cocoa';
+        Platform.isAndroid ? 'maven:sentry-android' : 'spm:sentry-cocoa';
     final expectedVersion = appPackageInfo.version;
 
     // === BASIC VALIDATION ===
@@ -763,11 +833,14 @@ void main() {
       await scope.clearBreadcrumbs();
     });
 
-    // 4. Verify they're cleared in native
+    // 4. Verify they're cleared in native. Automatic breadcrumbs (window
+    // metrics, lifecycle, native) can land between clearing and loading, so
+    // assert on our own breadcrumb rather than on an empty list.
     contexts = await SentryFlutter.native?.loadContexts();
     breadcrumbs = contexts!['breadcrumbs'] as List<dynamic>?;
-    expect(breadcrumbs == null || breadcrumbs.isEmpty, isTrue,
-        reason: 'Breadcrumbs should be null or empty after clearing');
+    expect(breadcrumbs ?? [],
+        isNot(contains(containsPair('message', 'test-breadcrumb-message'))),
+        reason: 'Test breadcrumb should be gone after clearing');
   });
 
   testWidgets('setUser syncs to native', (tester) async {
@@ -807,23 +880,12 @@ void main() {
     expect(user['data']['map'], isNotNull);
     expect(user['data']['list'], isNotNull);
     expect(user['data']['custom object'], equals(customObject.toString()));
-
-    if (Platform.isAndroid) {
-      // On Android, the Java SDK's User.data field only supports Map<String, String>.
-      // Nested Maps and Lists are converted to Java's HashMap/ArrayList toString()
-      // format (e.g., {key=value} instead of {"key":"value"}).
-      expect(user['data']['map'],
-          equals('{nested=data, custom object=${customObject.toString()}}'));
-      expect(
-          user['data']['list'], equals('[1, ${customObject.toString()}, 3]'));
-    } else {
-      expect(user['data']['map']['nested'], equals('data'));
-      expect(user['data']['map']['custom object'],
-          equals(customObject.toString()));
-      expect(user['data']['list'][0], equals(1));
-      expect(user['data']['list'][1], equals(customObject.toString()));
-      expect(user['data']['list'][2], equals(3));
-    }
+    expect(user['data']['map']['nested'], equals('data'));
+    expect(
+        user['data']['map']['custom object'], equals(customObject.toString()));
+    expect(user['data']['list'][0], equals(1));
+    expect(user['data']['list'][1], equals(customObject.toString()));
+    expect(user['data']['list'][2], equals(3));
 
     // 3. Clear user (after clearing the id should remain)
     await Sentry.configureScope((scope) async {
@@ -955,13 +1017,13 @@ void main() {
       expect(values['key4'], {'value': 12}, reason: 'key4 mismatch');
       expect(values['key5'], {'value': 12.3}, reason: 'key5 mismatch');
     } else if (Platform.isAndroid) {
-      expect(values['key1'], 'randomValue', reason: 'key1 mismatch');
+      expect(values['key1'], {'value': 'randomValue'}, reason: 'key1 mismatch');
       expect(values['key2'],
           {'String': 'Value', 'Bool': true, 'Int': 123, 'Double': 12.3},
           reason: 'key2 mismatch');
-      expect(values['key3'], true, reason: 'key3 mismatch');
-      expect(values['key4'], 12, reason: 'key4 mismatch');
-      expect(values['key5'], 12.3, reason: 'key5 mismatch');
+      expect(values['key3'], {'value': true}, reason: 'key3 mismatch');
+      expect(values['key4'], {'value': 12}, reason: 'key4 mismatch');
+      expect(values['key5'], {'value': 12.3}, reason: 'key5 mismatch');
     }
 
     await Sentry.configureScope((scope) async {
@@ -1169,7 +1231,7 @@ void main() {
           tags.firstWhere((element) => element['key'] == 'environment');
       expect('integration', environment['value']);
     });
-  });
+  }, skip: authToken.isEmpty ? 'SENTRY_AUTH_TOKEN_E2E not provided' : false);
 }
 
 class Fixture {

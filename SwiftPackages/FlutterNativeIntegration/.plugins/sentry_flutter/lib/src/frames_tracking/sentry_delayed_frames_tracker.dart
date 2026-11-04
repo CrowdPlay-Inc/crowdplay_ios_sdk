@@ -46,8 +46,10 @@ class SentryDelayedFramesTracker {
 
   /// Retrieves the frames the intersect with the provided [startTimestamp] and [endTimestamp].
   @visibleForTesting
-  List<SentryFrameTiming> getFramesIntersecting(
-      {required DateTime startTimestamp, required DateTime endTimestamp}) {
+  List<SentryFrameTiming> getFramesIntersecting({
+    required DateTime startTimestamp,
+    required DateTime endTimestamp,
+  }) {
     return _delayedFrames.where((frame) {
       // Fully contained or exactly matching
       final fullyContainedOrMatching =
@@ -85,12 +87,16 @@ class SentryDelayedFramesTracker {
       return;
     }
     if (_delayedFrames.length > maxDelayedFramesBuffer) {
-      _options.log(SentryLevel.debug,
-          'Frame tracking buffer is full, stopping frame collection until all active spans have finished processing');
+      _options.log(
+        SentryLevel.debug,
+        'Frame tracking buffer is full, stopping frame collection until all active spans have finished processing',
+      );
       return;
     }
     final frameTiming = SentryFrameTiming(
-        startTimestamp: startTimestamp, endTimestamp: endTimestamp);
+      startTimestamp: startTimestamp,
+      endTimestamp: endTimestamp,
+    );
     _delayedFrames.add(frameTiming);
     _oldestFrameEndTimestamp ??= endTimestamp;
   }
@@ -101,35 +107,35 @@ class SentryDelayedFramesTracker {
     }
     if (_oldestFrameEndTimestamp!.isBefore(spanStartTimestamp)) {
       _delayedFrames.removeWhere(
-          (frame) => frame.startTimestamp.isBefore(spanStartTimestamp));
-      try {
-        // We cannot use firstOrNull, it requires at least Dart 3.0.0
-        _oldestFrameEndTimestamp = _delayedFrames.first.endTimestamp;
-      } catch (e) {
-        _oldestFrameEndTimestamp = null;
-      }
+        (frame) => frame.startTimestamp.isBefore(spanStartTimestamp),
+      );
+      _oldestFrameEndTimestamp = _delayedFrames.firstOrNull?.endTimestamp;
     }
   }
 
   /// Calculates the frame metrics based on start, end timestamps and the
   /// delayed frames metrics. If the delayed frames array is empty then
   /// only the total frames will be calculated.
-  SpanFrameMetrics? getFrameMetrics(
-      {required DateTime spanStartTimestamp,
-      required DateTime spanEndTimestamp}) {
+  SpanFrameMetrics? getFrameMetrics({
+    required DateTime spanStartTimestamp,
+    required DateTime spanEndTimestamp,
+  }) {
     final relevantFrames = getFramesIntersecting(
-        startTimestamp: spanStartTimestamp, endTimestamp: spanEndTimestamp);
+      startTimestamp: spanStartTimestamp,
+      endTimestamp: spanEndTimestamp,
+    );
     final spanDuration =
         spanEndTimestamp.difference(spanStartTimestamp).inMilliseconds;
 
     // No slow or frozen frames detected
     if (relevantFrames.isEmpty) {
       return SpanFrameMetrics(
-          totalFrameCount:
-              (spanDuration / _expectedFrameDuration.inMilliseconds).ceil(),
-          slowFrameCount: 0,
-          frozenFrameCount: 0,
-          framesDelay: 0);
+        totalFrameCount:
+            (spanDuration / _expectedFrameDuration.inMilliseconds).ceil(),
+        slowFrameCount: 0,
+        frozenFrameCount: 0,
+        framesDelay: 0.0,
+      );
     }
 
     final spanStartMs = spanStartTimestamp.millisecondsSinceEpoch;
@@ -141,7 +147,7 @@ class SentryDelayedFramesTracker {
     int frozenFrameCount = 0;
     int slowFramesDuration = 0;
     int frozenFramesDuration = 0;
-    int framesDelay = 0;
+    int framesDelayMs = 0;
 
     for (final timing in relevantFrames) {
       final frameStartMs = timing.startTimestamp.millisecondsSinceEpoch;
@@ -188,7 +194,7 @@ class SentryDelayedFramesTracker {
         slowFramesDuration += effectiveDuration;
       }
 
-      framesDelay += effectiveDelay;
+      framesDelayMs += effectiveDelay;
     }
 
     final normalFramesCount =
@@ -200,7 +206,7 @@ class SentryDelayedFramesTracker {
     if (totalFrameCount < 0 ||
         slowFrameCount < 0 ||
         frozenFrameCount < 0 ||
-        framesDelay < 0) {
+        framesDelayMs < 0) {
       return null;
     }
 
@@ -210,10 +216,11 @@ class SentryDelayedFramesTracker {
     }
 
     return SpanFrameMetrics(
-        totalFrameCount: totalFrameCount,
-        slowFrameCount: slowFrameCount,
-        frozenFrameCount: frozenFrameCount,
-        framesDelay: framesDelay);
+      totalFrameCount: totalFrameCount,
+      slowFrameCount: slowFrameCount,
+      frozenFrameCount: frozenFrameCount,
+      framesDelay: framesDelayMs / Duration.millisecondsPerSecond,
+    );
   }
 
   /// Clears the state of the tracker.
@@ -231,10 +238,7 @@ class SentryFrameTiming {
 
   late final duration = endTimestamp.difference(startTimestamp);
 
-  SentryFrameTiming({
-    required this.startTimestamp,
-    required this.endTimestamp,
-  });
+  SentryFrameTiming({required this.startTimestamp, required this.endTimestamp});
 }
 
 @internal
@@ -242,7 +246,9 @@ class SpanFrameMetrics {
   final int totalFrameCount;
   final int slowFrameCount;
   final int frozenFrameCount;
-  final int framesDelay;
+
+  /// Total delayed frame duration in seconds.
+  final double framesDelay;
 
   SpanFrameMetrics({
     required this.totalFrameCount,
@@ -261,7 +267,11 @@ class SpanFrameMetrics {
       span.setMeasurement(SentryMeasurement.totalFramesName, totalFrameCount);
       span.setMeasurement(SentryMeasurement.slowFramesName, slowFrameCount);
       span.setMeasurement(SentryMeasurement.frozenFramesName, frozenFrameCount);
-      span.setMeasurement(SentryMeasurement.framesDelayName, framesDelay);
+      span.setMeasurement(
+        SentryMeasurement.framesDelayName,
+        framesDelay,
+        unit: DurationSentryMeasurementUnit.second,
+      );
     } else {
       _setData(span);
     }

@@ -5,9 +5,11 @@ import 'package:flutter/widgets.dart';
 import 'package:meta/meta.dart' as meta;
 import 'package:sentry/sentry.dart';
 
+import 'app_start/standalone/app_start_trace.dart';
 import 'binding_wrapper.dart';
 import 'event_processor/screenshot_event_processor.dart';
 import 'navigation/time_to_display_tracker.dart';
+import 'navigation/time_to_display_tracker_v2.dart';
 import 'renderer/renderer.dart';
 import 'screenshot/sentry_screenshot_quality.dart';
 import 'sentry_privacy_options.dart';
@@ -178,6 +180,29 @@ class SentryFlutterOptions extends SentryOptions {
   /// Enable auto performance tracking by default.
   bool enableAutoPerformanceTracing = true;
 
+  /// Whether standalone app-start tracing is enabled.
+  ///
+  /// Requires tracing to be enabled and is supported on Android and iOS.
+  /// Defaults to `false`.
+  @meta.experimental
+  bool enableStandaloneAppStartTracing = false;
+
+  /// Whether this app start is reported by the standalone path rather than
+  /// attached to the initial `ui.load`.
+  ///
+  /// Both app-start integrations are registered before the options callback
+  /// sets [enableStandaloneAppStartTracing], so each one selects itself at call
+  /// time instead. Deriving both choices from this single predicate keeps them
+  /// mutually exclusive — a platform without standalone support must not lose
+  /// app start because the native integration stood down for a standalone
+  /// integration that never runs there.
+  @meta.internal
+  bool get usesStandaloneAppStart =>
+      enableStandaloneAppStartTracing && (platform.isIOS || platform.isAndroid);
+
+  @meta.internal
+  AppStartTrace? standaloneAppStartTrace;
+
   /// Automatically attaches a screenshot when capturing an error or exception.
   ///
   /// Requires adding the [SentryWidget] to the widget tree.
@@ -218,6 +243,9 @@ class SentryFlutterOptions extends SentryOptions {
   late TimeToDisplayTracker timeToDisplayTracker = TimeToDisplayTracker(
     options: this,
   );
+
+  @meta.internal
+  late TimeToDisplayTrackerV2 timeToDisplayTrackerV2 = TimeToDisplayTrackerV2();
 
   /// Sets the Proguard uuid for Android platform.
   String? proguardUuid;
@@ -422,9 +450,9 @@ class SentryFlutterOptions extends SentryOptions {
 
   final _feedback = SentryFeedbackOptions();
 
-  /// Options for the [SentryFeedbackWidget]
+  /// Options for the [SentryFeedbackForm]
   SentryFeedbackOptions get feedback {
-    // Added so we can track usage of the widget. This will only add the integration once, even if called multiple times.
+    // Added so we can track usage of the form. This will only add the integration once, even if called multiple times.
     sdk.addIntegration('MobileFeedbackWidget');
     return _feedback;
   }

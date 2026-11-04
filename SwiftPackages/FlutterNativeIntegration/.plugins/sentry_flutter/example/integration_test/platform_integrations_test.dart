@@ -10,7 +10,7 @@ import 'package:sentry_flutter/src/event_processor/flutter_enricher_event_proces
 import 'package:sentry_flutter/src/integrations/connectivity/connectivity_integration.dart';
 import 'package:sentry_flutter/src/integrations/debug_print_integration.dart';
 import 'package:sentry_flutter/src/integrations/flutter_error_integration.dart';
-import 'package:sentry_flutter/src/integrations/generic_app_start_integration.dart';
+import 'package:sentry_flutter/src/app_start/ui_load_attached/generic_app_start_integration.dart';
 import 'package:sentry_flutter/src/integrations/load_contexts_integration.dart';
 import 'package:sentry_flutter/src/integrations/native_load_debug_images_integration.dart';
 import 'package:sentry_flutter/src/integrations/native_sdk_integration.dart';
@@ -186,6 +186,16 @@ void main() {
               options.integrations.any((i) => i is ReplayTelemetryIntegration),
               isFalse);
         }
+
+        // Workaround for https://github.com/getsentry/sentry-java/issues/5518:
+        // closing the SDK while the initial connectivity callback (registered
+        // by native session replay during init) is still in flight deadlocks
+        // the Android main thread, hanging the suite until the CI job times
+        // out. Give the callback time to be delivered before tearDown runs
+        // Sentry.close().
+        // TODO: remove once sentry-android ships the fix and we bump to it.
+        // https://github.com/getsentry/sentry-java/issues/5518
+        await Future<void>.delayed(const Duration(seconds: 2));
       });
 
       testWidgets('registers WidgetsBinding before OnError', (tester) async {
