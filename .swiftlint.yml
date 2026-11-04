@@ -7,6 +7,10 @@ included:
 excluded:
   - Package.swift
 
+disabled_rules:
+  - file_length
+  - type_body_length
+
 baseline: .ci/swiftlint-baseline.json
 allow_zero_lintable_files: false
 check_for_updates: false
