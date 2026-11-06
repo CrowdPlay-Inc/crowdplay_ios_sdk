@@ -209,7 +209,7 @@ private final class CrowdplayTabsController: UITabBarController {
         NSLayoutConstraint.activate([
             label.centerYAnchor.constraint(equalTo: home.view.safeAreaLayoutGuide.centerYAnchor),
             label.leadingAnchor.constraint(equalTo: home.view.safeAreaLayoutGuide.leadingAnchor, constant: 24),
-            label.trailingAnchor.constraint(equalTo: home.view.safeAreaLayoutGuide.trailingAnchor, constant: -24),
+            label.trailingAnchor.constraint(equalTo: home.view.safeAreaLayoutGuide.trailingAnchor, constant: -24)
         ])
 
         let crowdplayTab = UIViewController()
@@ -225,7 +225,7 @@ private final class CrowdplayTabsController: UITabBarController {
             crowdplay.view.topAnchor.constraint(equalTo: safeArea.topAnchor),
             crowdplay.view.bottomAnchor.constraint(equalTo: safeArea.bottomAnchor),
             crowdplay.view.leadingAnchor.constraint(equalTo: safeArea.leadingAnchor),
-            crowdplay.view.trailingAnchor.constraint(equalTo: safeArea.trailingAnchor),
+            crowdplay.view.trailingAnchor.constraint(equalTo: safeArea.trailingAnchor)
         ])
         crowdplay.didMove(toParent: crowdplayTab)
         setViewControllers([home, crowdplayTab], animated: false)
