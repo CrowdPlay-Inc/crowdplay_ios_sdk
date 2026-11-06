@@ -19,120 +19,165 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="efebd8e4-d1ba-4ba4-86ee-a7a9fe49685e" borderStyle="roundedRect" placeholder="API Key" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9jE-0f-gCw">
-                                <rect key="frame" x="32.5" y="61" width="310" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="SSO Token" borderStyle="roundedRect" placeholder="Encrypted ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nTx-kt-j3F">
-                                <rect key="frame" x="32.5" y="426.5" width="310" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcM-Ku-6fd">
-                                <rect key="frame" x="32.5" y="103" width="310" height="34.5"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Launch Crowdplay"/>
-                                <connections>
-                                    <action selector="launchCrowdplayTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KNC-oz-HQe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNA-NK-5VC">
-                                <rect key="frame" x="32.5" y="246.5" width="310" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Update Points"/>
-                                <connections>
-                                    <action selector="updatePointsTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="M4h-Bo-Igo"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="API Key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gH8-rF-zyy">
-                                <rect key="frame" x="32.5" y="32" width="310" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current User Points: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74D-BU-zYP">
-                                <rect key="frame" x="32.5" y="217.5" width="310" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koc-y2-wGj">
-                                <rect key="frame" x="32.5" y="468.5" width="310" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Perform SSO Login"/>
-                                <connections>
-                                    <action selector="ssoLoginTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="H8o-NB-UxV"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dx8-6d-Sl6">
-                                <rect key="frame" x="32.5" y="174.5" width="310" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Logout"/>
-                                <connections>
-                                    <action selector="logoutTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EDT-yJ-CVD"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auth Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtZ-vj-3UY">
-                                <rect key="frame" x="32.5" y="145.5" width="310" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SSO Method" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBD-Mj-g9P">
-                                <rect key="frame" x="32.5" y="289.5" width="310" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BqG-GJ-sy0">
-                                <rect key="frame" x="0.0" y="319" width="375" height="100"/>
+                            <scrollView clipsSubviews="YES" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="form-scroll">
+                                <rect key="frame" x="0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="form-content">
+                                        <rect key="frame" x="0" y="0" width="375" height="760"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="efebd8e4-d1ba-4ba4-86ee-a7a9fe49685e" borderStyle="roundedRect" placeholder="API Key" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9jE-0f-gCw">
+                                                <rect key="frame" x="32.5" y="61" width="310" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="SSO Token" borderStyle="roundedRect" placeholder="Encrypted ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nTx-kt-j3F">
+                                                <rect key="frame" x="32.5" y="426.5" width="310" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcM-Ku-6fd">
+                                                <rect key="frame" x="32.5" y="103" width="310" height="34.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Launch Crowdplay"/>
+                                                <connections>
+                                                    <action selector="launchCrowdplayTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KNC-oz-HQe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" translatesAutoresizingMaskIntoConstraints="NO" id="tabs-launch-button">
+                                                <rect key="frame" x="32.5" y="145.5" width="310" height="35"/>
+                                                <state key="normal" title="Launch CrowdPlay in Tabs"/>
+                                                <connections>
+                                                    <action selector="launchCrowdplayTabsTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tabs-launch-action"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNA-NK-5VC">
+                                                <rect key="frame" x="32.5" y="246.5" width="310" height="35"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Update Points"/>
+                                                <connections>
+                                                    <action selector="updatePointsTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="M4h-Bo-Igo"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="API Key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gH8-rF-zyy">
+                                                <rect key="frame" x="32.5" y="32" width="310" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current User Points: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74D-BU-zYP">
+                                                <rect key="frame" x="32.5" y="217.5" width="310" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koc-y2-wGj">
+                                                <rect key="frame" x="32.5" y="468.5" width="310" height="35"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Perform SSO Login"/>
+                                                <connections>
+                                                    <action selector="ssoLoginTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="H8o-NB-UxV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dx8-6d-Sl6">
+                                                <rect key="frame" x="32.5" y="174.5" width="310" height="35"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Logout"/>
+                                                <connections>
+                                                    <action selector="logoutTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EDT-yJ-CVD"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auth Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtZ-vj-3UY">
+                                                <rect key="frame" x="32.5" y="145.5" width="310" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SSO Method" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBD-Mj-g9P">
+                                                <rect key="frame" x="32.5" y="289.5" width="310" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BqG-GJ-sy0">
+                                                <rect key="frame" x="0.0" y="319" width="375" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="jQO-1h-Gjm"/>
+                                                </constraints>
+                                            </pickerView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="loyalty-qr">
+                                                <rect key="frame" x="107.5" y="562" width="160" height="160"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="160" id="qr-width"/>
+                                                    <constraint firstAttribute="height" constant="160" id="qr-height"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="tabs-launch-button" firstAttribute="top" secondItem="BcM-Ku-6fd" secondAttribute="bottom" constant="8" id="tabs-button-top"/>
+                                            <constraint firstItem="tabs-launch-button" firstAttribute="leading" secondItem="BcM-Ku-6fd" secondAttribute="leading" id="tabs-button-leading"/>
+                                            <constraint firstItem="tabs-launch-button" firstAttribute="trailing" secondItem="BcM-Ku-6fd" secondAttribute="trailing" id="tabs-button-trailing"/>
+                                            <constraint firstItem="loyalty-qr" firstAttribute="top" secondItem="koc-y2-wGj" secondAttribute="bottom" constant="16" id="qr-top"/>
+                                            <constraint firstItem="loyalty-qr" firstAttribute="centerX" secondItem="form-content" secondAttribute="centerX" id="qr-center"/>
+                                            <constraint firstAttribute="bottom" secondItem="loyalty-qr" secondAttribute="bottom" constant="16" id="qr-bottom"/>
+                                            <constraint firstItem="BcM-Ku-6fd" firstAttribute="centerX" secondItem="form-content" secondAttribute="centerX" id="3uz-Za-7Rh"/>
+                                            <constraint firstItem="nTx-kt-j3F" firstAttribute="trailing" secondItem="9jE-0f-gCw" secondAttribute="trailing" id="CrP-HA-1vO"/>
+                                            <constraint firstItem="aNA-NK-5VC" firstAttribute="leading" secondItem="74D-BU-zYP" secondAttribute="leading" id="D2U-43-WXa"/>
+                                            <constraint firstItem="dx8-6d-Sl6" firstAttribute="trailing" secondItem="BcM-Ku-6fd" secondAttribute="trailing" id="DUt-7H-cyP"/>
+                                            <constraint firstItem="BcM-Ku-6fd" firstAttribute="top" secondItem="9jE-0f-gCw" secondAttribute="bottom" constant="8" id="EPV-mD-C9a"/>
+                                            <constraint firstItem="74D-BU-zYP" firstAttribute="leading" secondItem="9jE-0f-gCw" secondAttribute="leading" id="EQ2-HO-a4D"/>
+                                            <constraint firstItem="dx8-6d-Sl6" firstAttribute="leading" secondItem="BcM-Ku-6fd" secondAttribute="leading" id="Ef1-N3-TLP"/>
+                                            <constraint firstItem="nTx-kt-j3F" firstAttribute="leading" secondItem="74D-BU-zYP" secondAttribute="leading" id="FS7-ty-ast"/>
+                                            <constraint firstItem="dx8-6d-Sl6" firstAttribute="trailing" secondItem="YtZ-vj-3UY" secondAttribute="trailing" id="JGb-lw-1ba"/>
+                                            <constraint firstItem="VBD-Mj-g9P" firstAttribute="trailing" secondItem="aNA-NK-5VC" secondAttribute="trailing" id="Lyi-nC-u4n"/>
+                                            <constraint firstItem="aNA-NK-5VC" firstAttribute="top" secondItem="74D-BU-zYP" secondAttribute="bottom" constant="8" symbolic="YES" id="PTP-QH-CZ7"/>
+                                            <constraint firstItem="BcM-Ku-6fd" firstAttribute="leading" secondItem="9jE-0f-gCw" secondAttribute="leading" id="TB5-xe-Tku"/>
+                                            <constraint firstItem="koc-y2-wGj" firstAttribute="leading" secondItem="nTx-kt-j3F" secondAttribute="leading" id="TDS-1b-LcY"/>
+                                            <constraint firstItem="koc-y2-wGj" firstAttribute="top" secondItem="nTx-kt-j3F" secondAttribute="bottom" constant="8" symbolic="YES" id="TOh-UZ-VnH"/>
+                                            <constraint firstItem="BqG-GJ-sy0" firstAttribute="width" secondItem="form-content" secondAttribute="width" id="U9o-Ph-Wux"/>
+                                            <constraint firstItem="74D-BU-zYP" firstAttribute="trailing" secondItem="9jE-0f-gCw" secondAttribute="trailing" id="VhQ-me-dmM"/>
+                                            <constraint firstItem="74D-BU-zYP" firstAttribute="top" secondItem="dx8-6d-Sl6" secondAttribute="bottom" constant="8" id="awv-XO-gFp"/>
+                                            <constraint firstItem="gH8-rF-zyy" firstAttribute="leading" secondItem="9jE-0f-gCw" secondAttribute="leading" id="cSQ-ha-ZKY"/>
+                                            <constraint firstItem="aNA-NK-5VC" firstAttribute="centerX" secondItem="form-content" secondAttribute="centerX" id="dbC-hf-Ny0"/>
+                                            <constraint firstItem="VBD-Mj-g9P" firstAttribute="top" secondItem="aNA-NK-5VC" secondAttribute="bottom" constant="8" id="eoa-of-yZA"/>
+                                            <constraint firstItem="9jE-0f-gCw" firstAttribute="leading" secondItem="form-content" secondAttribute="leading" constant="32.5" id="erD-Et-WAI"/>
+                                            <constraint firstItem="YtZ-vj-3UY" firstAttribute="trailing" secondItem="BcM-Ku-6fd" secondAttribute="trailing" id="fuy-Fx-PRo"/>
+                                            <constraint firstItem="dx8-6d-Sl6" firstAttribute="top" secondItem="YtZ-vj-3UY" secondAttribute="bottom" constant="8" id="hqt-Ht-bbT"/>
+                                            <constraint firstAttribute="trailing" secondItem="9jE-0f-gCw" secondAttribute="trailing" constant="32.5" id="iwa-bh-ulp"/>
+                                            <constraint firstItem="VBD-Mj-g9P" firstAttribute="leading" secondItem="aNA-NK-5VC" secondAttribute="leading" id="j3a-IY-CTP"/>
+                                            <constraint firstItem="YtZ-vj-3UY" firstAttribute="top" secondItem="tabs-launch-button" secondAttribute="bottom" constant="8" symbolic="YES" id="k4R-bl-Nok"/>
+                                            <constraint firstItem="YtZ-vj-3UY" firstAttribute="leading" secondItem="BcM-Ku-6fd" secondAttribute="leading" id="kf7-ID-omT"/>
+                                            <constraint firstItem="nTx-kt-j3F" firstAttribute="top" secondItem="BqG-GJ-sy0" secondAttribute="bottom" constant="8" id="nM1-Nt-b9m"/>
+                                            <constraint firstItem="BqG-GJ-sy0" firstAttribute="top" secondItem="VBD-Mj-g9P" secondAttribute="bottom" constant="8" symbolic="YES" id="o89-4n-ZEU"/>
+                                            <constraint firstItem="gH8-rF-zyy" firstAttribute="top" secondItem="form-content" secondAttribute="top" constant="12" id="pkG-za-WCY"/>
+                                            <constraint firstItem="9jE-0f-gCw" firstAttribute="top" secondItem="gH8-rF-zyy" secondAttribute="bottom" constant="8" id="rJD-lm-PJp"/>
+                                            <constraint firstItem="BqG-GJ-sy0" firstAttribute="centerX" secondItem="form-content" secondAttribute="centerX" id="uAK-ME-gwh"/>
+                                            <constraint firstItem="koc-y2-wGj" firstAttribute="trailing" secondItem="nTx-kt-j3F" secondAttribute="trailing" id="w54-d3-SkO"/>
+                                            <constraint firstItem="nTx-kt-j3F" firstAttribute="centerX" secondItem="form-content" secondAttribute="centerX" id="wM2-FE-cyt"/>
+                                            <constraint firstItem="gH8-rF-zyy" firstAttribute="centerX" secondItem="9jE-0f-gCw" secondAttribute="centerX" id="xbS-az-vyn"/>
+                                            <constraint firstItem="dx8-6d-Sl6" firstAttribute="leading" secondItem="YtZ-vj-3UY" secondAttribute="leading" id="zHs-vc-X17"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="jQO-1h-Gjm"/>
+                                    <constraint firstItem="form-content" firstAttribute="top" secondItem="form-scroll" secondAttribute="top" id="form-top"/>
+                                    <constraint firstItem="form-content" firstAttribute="bottom" secondItem="form-scroll" secondAttribute="bottom" id="form-bottom"/>
+                                    <constraint firstItem="form-content" firstAttribute="leading" secondItem="form-scroll" secondAttribute="leading" id="form-leading"/>
+                                    <constraint firstItem="form-content" firstAttribute="trailing" secondItem="form-scroll" secondAttribute="trailing" id="form-trailing"/>
+                                    <constraint firstItem="form-content" firstAttribute="width" secondItem="form-scroll" secondAttribute="width" id="form-width"/>
                                 </constraints>
-                            </pickerView>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="BcM-Ku-6fd" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="3uz-Za-7Rh"/>
-                            <constraint firstItem="nTx-kt-j3F" firstAttribute="trailing" secondItem="9jE-0f-gCw" secondAttribute="trailing" id="CrP-HA-1vO"/>
-                            <constraint firstItem="aNA-NK-5VC" firstAttribute="leading" secondItem="74D-BU-zYP" secondAttribute="leading" id="D2U-43-WXa"/>
-                            <constraint firstItem="dx8-6d-Sl6" firstAttribute="trailing" secondItem="BcM-Ku-6fd" secondAttribute="trailing" id="DUt-7H-cyP"/>
-                            <constraint firstItem="BcM-Ku-6fd" firstAttribute="top" secondItem="9jE-0f-gCw" secondAttribute="bottom" constant="8" id="EPV-mD-C9a"/>
-                            <constraint firstItem="74D-BU-zYP" firstAttribute="leading" secondItem="9jE-0f-gCw" secondAttribute="leading" id="EQ2-HO-a4D"/>
-                            <constraint firstItem="dx8-6d-Sl6" firstAttribute="leading" secondItem="BcM-Ku-6fd" secondAttribute="leading" id="Ef1-N3-TLP"/>
-                            <constraint firstItem="nTx-kt-j3F" firstAttribute="leading" secondItem="74D-BU-zYP" secondAttribute="leading" id="FS7-ty-ast"/>
-                            <constraint firstItem="dx8-6d-Sl6" firstAttribute="trailing" secondItem="YtZ-vj-3UY" secondAttribute="trailing" id="JGb-lw-1ba"/>
-                            <constraint firstItem="VBD-Mj-g9P" firstAttribute="trailing" secondItem="aNA-NK-5VC" secondAttribute="trailing" id="Lyi-nC-u4n"/>
-                            <constraint firstItem="aNA-NK-5VC" firstAttribute="top" secondItem="74D-BU-zYP" secondAttribute="bottom" constant="8" symbolic="YES" id="PTP-QH-CZ7"/>
-                            <constraint firstItem="BcM-Ku-6fd" firstAttribute="leading" secondItem="9jE-0f-gCw" secondAttribute="leading" id="TB5-xe-Tku"/>
-                            <constraint firstItem="koc-y2-wGj" firstAttribute="leading" secondItem="nTx-kt-j3F" secondAttribute="leading" id="TDS-1b-LcY"/>
-                            <constraint firstItem="koc-y2-wGj" firstAttribute="top" secondItem="nTx-kt-j3F" secondAttribute="bottom" constant="8" symbolic="YES" id="TOh-UZ-VnH"/>
-                            <constraint firstItem="BqG-GJ-sy0" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="U9o-Ph-Wux"/>
-                            <constraint firstItem="74D-BU-zYP" firstAttribute="trailing" secondItem="9jE-0f-gCw" secondAttribute="trailing" id="VhQ-me-dmM"/>
-                            <constraint firstItem="74D-BU-zYP" firstAttribute="top" secondItem="dx8-6d-Sl6" secondAttribute="bottom" constant="8" id="awv-XO-gFp"/>
-                            <constraint firstItem="gH8-rF-zyy" firstAttribute="leading" secondItem="9jE-0f-gCw" secondAttribute="leading" id="cSQ-ha-ZKY"/>
-                            <constraint firstItem="aNA-NK-5VC" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="dbC-hf-Ny0"/>
-                            <constraint firstItem="VBD-Mj-g9P" firstAttribute="top" secondItem="aNA-NK-5VC" secondAttribute="bottom" constant="8" id="eoa-of-yZA"/>
-                            <constraint firstItem="9jE-0f-gCw" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="32.5" id="erD-Et-WAI"/>
-                            <constraint firstItem="YtZ-vj-3UY" firstAttribute="trailing" secondItem="BcM-Ku-6fd" secondAttribute="trailing" id="fuy-Fx-PRo"/>
-                            <constraint firstItem="dx8-6d-Sl6" firstAttribute="top" secondItem="YtZ-vj-3UY" secondAttribute="bottom" constant="8" id="hqt-Ht-bbT"/>
-                            <constraint firstAttribute="trailing" secondItem="9jE-0f-gCw" secondAttribute="trailing" constant="32.5" id="iwa-bh-ulp"/>
-                            <constraint firstItem="VBD-Mj-g9P" firstAttribute="leading" secondItem="aNA-NK-5VC" secondAttribute="leading" id="j3a-IY-CTP"/>
-                            <constraint firstItem="YtZ-vj-3UY" firstAttribute="top" secondItem="BcM-Ku-6fd" secondAttribute="bottom" constant="8" symbolic="YES" id="k4R-bl-Nok"/>
-                            <constraint firstItem="YtZ-vj-3UY" firstAttribute="leading" secondItem="BcM-Ku-6fd" secondAttribute="leading" id="kf7-ID-omT"/>
-                            <constraint firstItem="nTx-kt-j3F" firstAttribute="top" secondItem="BqG-GJ-sy0" secondAttribute="bottom" constant="8" id="nM1-Nt-b9m"/>
-                            <constraint firstItem="BqG-GJ-sy0" firstAttribute="top" secondItem="VBD-Mj-g9P" secondAttribute="bottom" constant="8" symbolic="YES" id="o89-4n-ZEU"/>
-                            <constraint firstItem="gH8-rF-zyy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="12" id="pkG-za-WCY"/>
-                            <constraint firstItem="9jE-0f-gCw" firstAttribute="top" secondItem="gH8-rF-zyy" secondAttribute="bottom" constant="8" id="rJD-lm-PJp"/>
-                            <constraint firstItem="BqG-GJ-sy0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="uAK-ME-gwh"/>
-                            <constraint firstItem="koc-y2-wGj" firstAttribute="trailing" secondItem="nTx-kt-j3F" secondAttribute="trailing" id="w54-d3-SkO"/>
-                            <constraint firstItem="nTx-kt-j3F" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="wM2-FE-cyt"/>
-                            <constraint firstItem="gH8-rF-zyy" firstAttribute="centerX" secondItem="9jE-0f-gCw" secondAttribute="centerX" id="xbS-az-vyn"/>
-                            <constraint firstItem="dx8-6d-Sl6" firstAttribute="leading" secondItem="YtZ-vj-3UY" secondAttribute="leading" id="zHs-vc-X17"/>
+                            <constraint firstItem="form-scroll" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="scroll-top"/>
+                            <constraint firstItem="form-scroll" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="scroll-bottom"/>
+                            <constraint firstItem="form-scroll" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="scroll-leading"/>
+                            <constraint firstItem="form-scroll" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailing" id="scroll-trailing"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="qrImageView" destination="loyalty-qr" id="qr-outlet"/>
                         <outlet property="apiKeyInput" destination="9jE-0f-gCw" id="39g-mZ-dsz"/>
                         <outlet property="authStatusLabel" destination="YtZ-vj-3UY" id="rVi-va-UY2"/>
                         <outlet property="ssoProviderPicker" destination="BqG-GJ-sy0" id="gp8-Re-5mN"/>

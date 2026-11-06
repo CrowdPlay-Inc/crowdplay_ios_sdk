@@ -24,24 +24,12 @@ class ViewController: UIViewController {
         ("auth0", "Auth0"),
     ]
     private var selectedProviderIndex = 0
-    private let qrImageView = UIImageView()
+    @IBOutlet private var qrImageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         overrideUserInterfaceStyle = .light
-
-        // Live QR straight from onLoyaltyCodeChanged, so rotation is visible.
-        qrImageView.translatesAutoresizingMaskIntoConstraints = false
-        qrImageView.contentMode = .scaleAspectFit
-        view.addSubview(qrImageView)
-        NSLayoutConstraint.activate([
-            qrImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            qrImageView.bottomAnchor.constraint(
-                equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -16),
-            qrImageView.widthAnchor.constraint(equalToConstant: 160),
-            qrImageView.heightAnchor.constraint(equalToConstant: 160),
-        ])
 
         ssoProviderPicker?.dataSource = self
         ssoProviderPicker?.delegate = self
@@ -56,7 +44,21 @@ class ViewController: UIViewController {
     }
 
     @IBAction func launchCrowdplayTapped(_ sender: UIButton) {
-        guard let apiKey = apiKeyInput?.text, !apiKey.isEmpty else { return }
+        guard initializeSdk() else { return }
+        CrowdplaySdk.shared.presentCrowdplay(vc: self)
+    }
+
+    @IBAction func launchCrowdplayTabsTapped(_ sender: UIButton) {
+        guard initializeSdk(), let crowdplay = CrowdplaySdk.shared.viewController() else { return }
+        let tabs = CrowdplayTabsController(crowdplay: crowdplay)
+        let navigation = UINavigationController(rootViewController: tabs)
+        navigation.modalPresentationStyle = .fullScreen
+        present(navigation, animated: true)
+    }
+
+    private func initializeSdk() -> Bool {
+        guard let apiKey = apiKeyInput?.text?.trimmingCharacters(in: .whitespacesAndNewlines),
+              !apiKey.isEmpty else { return false }
 
         CrowdplaySdk.shared.initialize(apiKey: apiKey, appUrlScheme: "cpsdkdemopod")
 
@@ -94,7 +96,6 @@ class ViewController: UIViewController {
         }
 
         UserDefaults.standard.set(apiKey, forKey: "apiKey")
-        CrowdplaySdk.shared.presentCrowdplay(vc: self)
 
         // Load initial auth status
         Task {
@@ -107,6 +108,7 @@ class ViewController: UIViewController {
                 }
             }
         }
+        return true
     }
 
     @IBAction func updatePointsTapped(_ sender: UIButton) {
@@ -182,5 +184,77 @@ extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
 
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         selectedProviderIndex = row
+    }
+}
+
+private final class CrowdplayTabsController: UITabBarController {
+    private let crowdplay: UIViewController
+
+    init(crowdplay: UIViewController) {
+        self.crowdplay = crowdplay
+        super.init(nibName: nil, bundle: nil)
+        title = "Tabbed Example"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(
+            barButtonSystemItem: .done, target: self, action: #selector(closeExample))
+
+        let home = UIViewController()
+        home.view.backgroundColor = .systemBackground
+        home.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 0)
+        let label = UILabel()
+        label.text = "This is a native Home tab. Switch to CrowdPlay to use the embedded SDK."
+        label.numberOfLines = 0
+        label.textAlignment = .center
+        label.translatesAutoresizingMaskIntoConstraints = false
+        home.view.addSubview(label)
+        NSLayoutConstraint.activate([
+            label.centerYAnchor.constraint(equalTo: home.view.safeAreaLayoutGuide.centerYAnchor),
+            label.leadingAnchor.constraint(equalTo: home.view.safeAreaLayoutGuide.leadingAnchor, constant: 24),
+            label.trailingAnchor.constraint(equalTo: home.view.safeAreaLayoutGuide.trailingAnchor, constant: -24),
+        ])
+
+        let crowdplayTab = UIViewController()
+        crowdplayTab.view.backgroundColor = .systemBackground
+        crowdplayTab.tabBarItem = UITabBarItem(
+            title: "CrowdPlay", image: UIImage(systemName: "sportscourt"), tag: 1)
+        crowdplayTab.addChild(crowdplay)
+        crowdplay.view.translatesAutoresizingMaskIntoConstraints = false
+        crowdplayTab.view.addSubview(crowdplay.view)
+        // Size Flutter's viewport above the native bars, even when its content draws edge to edge.
+        let safeArea = crowdplayTab.view.safeAreaLayoutGuide
+        NSLayoutConstraint.activate([
+            crowdplay.view.topAnchor.constraint(equalTo: safeArea.topAnchor),
+            crowdplay.view.bottomAnchor.constraint(equalTo: safeArea.bottomAnchor),
+            crowdplay.view.leadingAnchor.constraint(equalTo: safeArea.leadingAnchor),
+            crowdplay.view.trailingAnchor.constraint(equalTo: safeArea.trailingAnchor),
+        ])
+        crowdplay.didMove(toParent: crowdplayTab)
+        setViewControllers([home, crowdplayTab], animated: false)
+        selectedIndex = 1
+        CrowdplaySdk.shared.onPresentRequested = { [weak self] in
+            DispatchQueue.main.async { self?.selectedIndex = 1 }
+        }
+        assert(crowdplay.parent === crowdplayTab)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("Use init(crowdplay:)")
+    }
+
+    @objc private func closeExample() {
+        dismiss(animated: true)
+    }
+
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        guard isBeingDismissed || navigationController?.isBeingDismissed == true
+            || navigationController?.presentingViewController == nil else { return }
+        CrowdplaySdk.shared.onPresentRequested = nil
+        // Release the SDK controller from its tab before another full-screen or tabbed launch.
+        crowdplay.willMove(toParent: nil)
+        crowdplay.view.removeFromSuperview()
+        crowdplay.removeFromParent()
+        crowdplay.view.translatesAutoresizingMaskIntoConstraints = true
+        setViewControllers(nil, animated: false)
+        assert(crowdplay.parent == nil)
     }
 }
