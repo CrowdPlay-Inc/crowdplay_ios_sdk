@@ -99,6 +99,8 @@ public class CrowdplaySdk {
 
         apiKeyChannel = FlutterMethodChannel(
             name: "crowdplay.flutter", binaryMessenger: flutterEngine.binaryMessenger)
+        // shortcut: buffer 10 startup calls, add a readiness handshake if startup can exceed this.
+        apiKeyChannel!.resizeBuffer(10)
         apiKeyChannel!.setMethodCallHandler {
             (call: FlutterMethodCall, result: @escaping FlutterResult) in
             if call.method == "initialization" {
