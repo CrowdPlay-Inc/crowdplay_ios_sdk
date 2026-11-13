@@ -40,6 +40,12 @@ signed example archive, run `bundle install` and `bundle exec fastlane build` fr
 that directory with the required signing credentials configured. Keep
 `Example/gc_keys.json` private; it is ignored by Git.
 
+The vendored Firebase service-worker example temporarily resolves `@grpc/grpc-js`
+to `1.13.6` because Firestore still requires `~1.9.0`. Remove this resolution when
+Firebase accepts a patched gRPC version. SDK exports replace `SwiftPackages`, so
+preserve the patched example manifests and lockfiles until the upstream plugin
+releases include these fixes.
+
 ## Author
 
 Matthew Baker, matt@bakermatt.com

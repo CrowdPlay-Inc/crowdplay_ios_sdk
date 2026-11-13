@@ -5,6 +5,9 @@
   "devDependencies": {
     "esbuild": "^0.28.1"
   },
+  "resolutions": {
+    "@grpc/grpc-js": "1.13.6"
+  },
   "scripts": {
     "build": "esbuild firebase-messaging-sw.ts --outdir=../web --bundle --sourcemap --minify --format=esm"
   }
