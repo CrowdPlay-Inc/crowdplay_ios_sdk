@@ -1,0 +1,67 @@
+name: Build and publish SDK
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: write
+
+concurrency:
+  group: sdk-publication
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/master'
+    runs-on: xcode-27
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SDK_PLATFORM: 'ios'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
+        if: env.SDK_PLATFORM == 'android'
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Check native SDK sources
+        run: bash .ci/lint.sh
+      - name: Build iOS SDK with prebuilt Flutter frameworks
+        if: env.SDK_PLATFORM == 'ios'
+        run: |
+          /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+          xcodebuild -project Example/crowdplaysdk.xcodeproj \
+            -scheme crowdplaysdk-Example -configuration Release \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath "$RUNNER_TEMP/ios-sdk-build" CODE_SIGNING_ALLOWED=NO build
+      - name: Build Android wrapper with prebuilt Flutter AARs
+        if: env.SDK_PLATFORM == 'android'
+        run: |
+          python3 .ci/sdk_release.py inputs
+          sdkmanager 'platforms;android-36' 'build-tools;35.0.0'
+          cp -R .ci/android "$RUNNER_TEMP/native-sdk"
+          mkdir -p "$RUNNER_TEMP/native-sdk/src/main/java"
+          cp CrowdplaySdk.kt "$RUNNER_TEMP/native-sdk/src/main/java/"
+          version=$(python3 -c 'import json; print(json.load(open("sdk-release.json"))["version"] + ".0")')
+          bash "$RUNNER_TEMP/native-sdk/gradlew" -p "$RUNNER_TEMP/native-sdk" --no-daemon \
+            -PprebuiltMaven="$RUNNER_TEMP/android-maven" -PsdkVersion="$version" assembleRelease
+          mkdir -p ~/.m2
+          cat > ~/.m2/settings.xml <<'XML'
+          <settings><servers><server><id>github</id><configuration><httpHeaders><property>
+            <name>Authorization</name><value>Bearer ${env.GH_TOKEN}</value>
+          </property></httpHeaders></configuration></server></servers></settings>
+          XML
+      - name: Publish this SDK
+        run: python3 .ci/sdk_release.py publish
+      - name: Resume this SDK's example deployment in private CircleCI
+        env:
+          CIRCLE_TOKEN: ${{ secrets.CIRCLE_TOKEN }}
+        run: python3 .ci/sdk_release.py approve-example
