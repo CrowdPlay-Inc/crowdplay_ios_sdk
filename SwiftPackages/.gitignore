@@ -1,3 +1,4 @@
 # Keep the generated export, excluding local helper compilation outputs.
 !**
 **/.build/
+**/.cache/
